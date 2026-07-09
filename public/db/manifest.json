@@ -1,0 +1,12 @@
+[
+  {
+    "id": "INPS_ASSISTENTE_INFORMATICO_2026",
+    "title": "Concorso INPS - Assistente Informatico",
+    "description": "Area degli assistenti, famiglia professionale assistente informatico",
+    "icon": "Landmark",
+    "ente": "INPS",
+    "posti_disponibili": "499 (248 + 251 ampliamento)",
+    "durata_prova_minuti": 120,
+    "numero_quesiti": 60
+  }
+]

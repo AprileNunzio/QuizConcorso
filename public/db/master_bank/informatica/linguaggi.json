@@ -1,0 +1,1302 @@
+[
+  {
+    "id": "Q_INF_LANG_001",
+    "question": "In programmazione orientata agli oggetti, cos'è l'incapsulamento?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La tecnica di nascondere lo stato interno di un oggetto e consentire l'accesso solo tramite metodi pubblici."
+      },
+      {
+        "id": "B",
+        "text": "La capacità di un oggetto di assumere più forme a seconda del contesto di esecuzione."
+      },
+      {
+        "id": "C",
+        "text": "Il meccanismo con cui una classe eredita metodi e attributi da un'altra classe."
+      },
+      {
+        "id": "D",
+        "text": "Il processo di compilazione del codice sorgente in bytecode."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'incapsulamento protegge i dati di un oggetto da modifiche non autorizzate, esponendo un'interfaccia pubblica (ad esempio getter e setter) e mantenendo privati i dettagli implementativi interni.",
+    "hint": "Pensa a come nascondere i dettagli di implementazione interna ed esporre solo il necessario.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_LANG_002",
+    "question": "Quale delle seguenti affermazioni descrive meglio il polimorfismo per override (polimorfismo dinamico)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La ridefinizione di un metodo della classe padre all'interno di una classe figlia con la stessa firma."
+      },
+      {
+        "id": "B",
+        "text": "La definizione di più metodi con lo stesso nome ma firme diverse nella stessa classe."
+      },
+      {
+        "id": "C",
+        "text": "Il passaggio di parametri a un costruttore in fase di istanziazione."
+      },
+      {
+        "id": "D",
+        "text": "La conversione automatica di un tipo di dato primitivo in un oggetto."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il polimorfismo per override (o sovrascrittura) consente a una sottoclasse di fornire una specifica implementazione di un metodo già definito nella sua superclasse. La risoluzione del metodo avviene a tempo di esecuzione (dynamic binding).",
+    "hint": "Implica una gerarchia ereditaria in cui il comportamento di un metodo viene ridefinito con la stessa identica firma.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_LANG_003",
+    "question": "Che cosa si intende per 'ereditarietà multipla'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La possibilità per una classe di derivare direttamente da più di una classe base."
+      },
+      {
+        "id": "B",
+        "text": "Il fatto che una classe base possa avere più classi derivate."
+      },
+      {
+        "id": "C",
+        "text": "La catena di ereditarietà che collega una classe figlia alla classe antenata originaria."
+      },
+      {
+        "id": "D",
+        "text": "L'implementazione di più interfacce da parte di una singola classe in Java."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'ereditarietà multipla consente a una classe di ereditare direttamente caratteristiche e comportamenti da più classi genitore. Questa funzionalità è supportata da C++ ma non da Java (che la consente solo per le interfacce).",
+    "hint": "Si riferisce ad avere più superclassi dirette.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_LANG_004",
+    "question": "Qual è la differenza fondamentale tra una 'classe' e un 'oggetto' nella programmazione OOP?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La classe è il modello o blueprint, mentre l'oggetto è l'istanza concreta creata sulla base di quel modello."
+      },
+      {
+        "id": "B",
+        "text": "La classe risiede nella memoria heap, mentre l'oggetto risiede nella memoria stack."
+      },
+      {
+        "id": "C",
+        "text": "La classe contiene solo metodi, mentre l'oggetto contiene solo variabili di istanza."
+      },
+      {
+        "id": "D",
+        "text": "La classe viene definita a tempo di esecuzione, mentre l'oggetto è creato a tempo di compilazione."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Una classe definisce la struttura astratta, i metodi e le caratteristiche comuni, mentre un oggetto è una singola entità concreta (istanza) dotata di un proprio stato specifico, creata in memoria a partire dalla classe.",
+    "hint": "Pensa al rapporto che c'è tra il progetto di una casa su carta e la casa reale costruita.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_LANG_005",
+    "question": "In Java, qual è una differenza chiave tra una classe astratta e un'interfaccia (fino a Java 7)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Una classe astratta può contenere variabili di istanza non statiche e non finali, mentre un'interfaccia può contenere solo costanti (public static final)."
+      },
+      {
+        "id": "B",
+        "text": "Una classe astratta può essere implementata da più classi, mentre un'interfaccia può essere estesa da una sola classe."
+      },
+      {
+        "id": "C",
+        "text": "Un'interfaccia può avere metodi privati e protetti, mentre una classe astratta ha solo metodi pubblici."
+      },
+      {
+        "id": "D",
+        "text": "Una classe astratta non può avere costruttori, mentre un'interfaccia sì."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Le classi astratte possono memorizzare lo stato dell'oggetto tramite campi dati d'istanza variabili. Al contrario, fino a Java 7, le interfacce non potevano definire lo stato interno modificabile dell'oggetto, limitandosi a metodi astratti e costanti pubbliche, statiche e finali.",
+    "hint": "Focalizzati sulla capacità di contenere campi dati d'istanza che descrivono lo stato modificabile dell'oggetto.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_LANG_006",
+    "question": "In Java, cosa accade se si applica la parola chiave 'final' a una classe?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La classe non può essere estesa (non può avere sottoclassi)."
+      },
+      {
+        "id": "B",
+        "text": "Tutti i metodi della classe diventano automaticamente privati."
+      },
+      {
+        "id": "C",
+        "text": "Non è possibile creare istanze (oggetti) di quella classe."
+      },
+      {
+        "id": "D",
+        "text": "La classe viene caricata direttamente in memoria statica dal ClassLoader."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Dichiarare una classe come 'final' in Java impedisce ad altre classi di ereditarla o estenderla. Un classico esempio è la classe standard 'java.lang.String'.",
+    "hint": "Impedisce il subclassing.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_LANG_007",
+    "question": "Nel linguaggio Python, a cosa serve il parametro 'self' definito come primo argomento nei metodi di una classe?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rappresenta l'istanza corrente della classe, permettendo di accedere ai suoi attributi e metodi."
+      },
+      {
+        "id": "B",
+        "text": "Indica che il metodo è statico e non richiede la creazione di un oggetto per essere invocato."
+      },
+      {
+        "id": "C",
+        "text": "Corrisponde alla superclasse da cui la classe corrente eredita."
+      },
+      {
+        "id": "D",
+        "text": "È una parola chiave riservata che forza l'interprete a compilare il metodo in C."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "In Python, 'self' rappresenta l'istanza specifica dell'oggetto su cui viene chiamato il metodo, consentendo di accedere e modificare gli attributi interni di quell'oggetto.",
+    "hint": "Riferimento all'oggetto stesso.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_LANG_008",
+    "question": "In C++, perché è fondamentale dichiarare virtuale il distruttore di una classe base se si prevede che questa venga ereditata?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Per garantire che, eliminando un oggetto della classe derivata tramite un puntatore alla classe base, venga chiamato anche il distruttore della classe derivata."
+      },
+      {
+        "id": "B",
+        "text": "Per impedire la creazione di istanze della classe derivata nella memoria stack."
+      },
+      {
+        "id": "C",
+        "text": "Per costringere il compilatore ad allocare la classe derivata nella memoria statica."
+      },
+      {
+        "id": "D",
+        "text": "Per fare in modo che tutti i membri della classe derivata vengano inizializzati a zero."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Se il distruttore della classe base non è dichiarato virtuale, l'eliminazione di un oggetto derivato tramite un puntatore alla classe base comporterà la sola esecuzione del distruttore della classe base, lasciando intatta e non liberata la memoria specifica della classe derivata (memory leak).",
+    "hint": "Garantisce il corretto rilascio delle risorse allocate dalla sottoclasse quando usata in contesti polimorfici.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_LANG_009",
+    "question": "Secondo i principi SOLID, cosa stabilisce il 'Single Responsibility Principle' (Principio di Singola Responsabilità)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Una classe deve avere un solo motivo per cambiare, ovvero deve svolgere un unico compito o servizio ben definito."
+      },
+      {
+        "id": "B",
+        "text": "Un'interfaccia deve contenere un unico metodo per facilitarne l'implementazione."
+      },
+      {
+        "id": "C",
+        "text": "Ogni programma deve essere composto da una singola classe principale per ottimizzare le prestazioni."
+      },
+      {
+        "id": "D",
+        "text": "Un metodo deve accettare al massimo un parametro in ingresso per ridurre l'accoppiamento."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il Principio di Singola Responsabilità (la 'S' di SOLID) afferma che ogni classe dovrebbe essere responsabile di un'unica funzionalità ben definita del sistema software. Ciò riduce la complessità e l'accoppiamento del codice.",
+    "hint": "Una classe dovrebbe occuparsi di una sola cosa e avere una sola ragione per subire modifiche future.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_LANG_010",
+    "question": "Nel contesto dell'ereditarietà multipla in C++, cos'è il 'problema del diamante' (diamond problem) e come si risolve?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un'ambiguità derivante dall'ereditare due volte la stessa classe base tramite due percorsi diversi; si risolve usando l'ereditarietà virtuale."
+      },
+      {
+        "id": "B",
+        "text": "Un errore di compilazione dovuto all'uso di troppe classi astratte; si risolve eliminando i costruttori."
+      },
+      {
+        "id": "C",
+        "text": "Un problema di allocazione della memoria heap; si risolve usando i puntatori intelligenti (smart pointers)."
+      },
+      {
+        "id": "D",
+        "text": "L'impossibilità di fare l'overload di un operatore in classi derivate; si risolve ridefinendo gli attributi come statici."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il problema del diamante si verifica quando una classe D eredita da B e C, le quali ereditano entrambe dalla stessa classe A. Per evitare che D contenga due copie duplicate dei membri di A con conseguente ambiguità, B e C devono ereditare da A usando la parola chiave 'virtual'.",
+    "hint": "Riguarda l'ereditarietà ripetuta della stessa classe e si risolve con l'ereditarietà 'virtuale'.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_LANG_011",
+    "question": "Qual è il risultato dell'esecuzione del seguente codice Python? `[x**2 for x in range(5) if x % 2 == 0]`",
+    "options": [
+      {
+        "id": "A",
+        "text": "[0, 4, 16]"
+      },
+      {
+        "id": "B",
+        "text": "[0, 1, 4, 9, 16]"
+      },
+      {
+        "id": "C",
+        "text": "[4, 16]"
+      },
+      {
+        "id": "D",
+        "text": "[1, 9]"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il codice utilizza una list comprehension. Itera sui numeri da 0 a 4 generati da range(5). Filtra tenendo solo i pari (0, 2, 4) ed esegue il quadrato (0**2, 2**2, 4**2), producendo [0, 4, 16].",
+    "hint": "Analizza prima il range, poi filtra con la condizione 'pari' e infine calcola il quadrato.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_LANG_012",
+    "question": "In Java, dove vengono memorizzati rispettivamente le variabili locali di tipo primitivo e gli oggetti istanziati tramite 'new'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Le variabili locali nello Stack, gli oggetti nell'Heap."
+      },
+      {
+        "id": "B",
+        "text": "Le variabili locali nell'Heap, gli oggetti nello Stack."
+      },
+      {
+        "id": "C",
+        "text": "Entrambi nello Stack della Java Virtual Machine."
+      },
+      {
+        "id": "D",
+        "text": "Entrambi nell'Heap, ma in segmenti di memoria protetti differenti."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Nello Stack di Java risiedono le variabili locali primitive e i riferimenti agli oggetti (indirizzi di memoria). Gli oggetti reali creati con l'operatore 'new' sono sempre allocati dinamicamente nella memoria Heap.",
+    "hint": "Lo Stack serve per l'esecuzione veloce dei thread e i frame locali; l'Heap memorizza gli oggetti globali.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_LANG_013",
+    "question": "In C++11 e successivi, qual è la differenza principale tra `std::unique_ptr` e `std::shared_ptr`?",
+    "options": [
+      {
+        "id": "A",
+        "text": "`std::unique_ptr` non consente la condivisione della proprietà dell'oggetto puntato, mentre `std::shared_ptr` utilizza il conteggio dei riferimenti per condividere la proprietà."
+      },
+      {
+        "id": "B",
+        "text": "`std::unique_ptr` viene allocato nello Stack, mentre `std::shared_ptr` viene allocato nell'Heap."
+      },
+      {
+        "id": "C",
+        "text": "`std::unique_ptr` può essere utilizzato solo con tipi primitivi, mentre `std::shared_ptr` solo con classi."
+      },
+      {
+        "id": "D",
+        "text": "`std::shared_ptr` rilascia la memoria in modo asincrono tramite un thread separato di Garbage Collection."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "`std::unique_ptr` rappresenta la proprietà esclusiva di una risorsa (non duplicabile). `std::shared_ptr` gestisce una risorsa condivisa tenendo un contatore dei riferimenti attivi; la risorsa viene distrutta quando il contatore scende a zero.",
+    "hint": "Pensa alla differenza semantica tra 'esclusivo' e 'condiviso' per la gestione di un puntatore.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_LANG_014",
+    "question": "Che cosa si intende per 'binding dinamico' (o late binding) nei linguaggi orientati agli oggetti?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il collegamento tra la chiamata a un metodo e la sua effettiva implementazione che avviene a tempo di esecuzione sulla base del tipo reale dell'oggetto."
+      },
+      {
+        "id": "B",
+        "text": "La risoluzione dei tipi di dato effettuata dal compilatore prima di produrre il file binario finale."
+      },
+      {
+        "id": "C",
+        "text": "La dichiarazione dinamica delle variabili che possono cambiare tipo a runtime senza restrizioni."
+      },
+      {
+        "id": "D",
+        "text": "Il caricamento delle librerie dinamiche (DLL o SO) effettuato dal sistema operativo all'avvio dell'applicazione."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il binding dinamico consente di decidere quale implementazione di un metodo richiamare solo a runtime (tempo di esecuzione), basandosi sulla classe effettiva dell'oggetto istanziato, rendendo possibile il polimorfismo.",
+    "hint": "È l'opposto di compile-time binding e supporta l'override.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_LANG_015",
+    "question": "In Python (nella sua implementazione standard CPython), qual è il meccanismo primario di gestione automatica della memoria?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il conteggio dei riferimenti (Reference Counting), integrato da un garbage collector ciclico per individuare riferimenti circolari."
+      },
+      {
+        "id": "B",
+        "text": "L'algoritmo Mark-and-Sweep, eseguito ad intervalli fissi di tempo specificati dal sistema operativo."
+      },
+      {
+        "id": "C",
+        "text": "Il rilascio immediato degli oggetti basato solo sul compilatore JIT."
+      },
+      {
+        "id": "D",
+        "text": "La deallocazione manuale obbligatoria tramite la parola chiave 'free'."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "CPython gestisce la memoria principalmente incrementando e decrementando il numero di riferimenti a ciascun oggetto. Quando scende a zero, l'oggetto viene rimosso. Esiste anche un garbage collector secondario per eliminare cicli di riferimenti circolari (es. A punta a B e B punta a A).",
+    "hint": "Incrementa un contatore ogni volta che una variabile fa riferimento all'oggetto.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_LANG_016",
+    "question": "Qual è la differenza principale tra l'overloading e l'overriding di un metodo?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'overloading definisce più metodi con lo stesso nome ma firme diverse nella stessa classe; l'overriding ridefinisce un metodo della superclasse mantenendo la stessa firma."
+      },
+      {
+        "id": "B",
+        "text": "L'overriding si applica solo all'interno della stessa classe, l'overloading solo tra classi derivate."
+      },
+      {
+        "id": "C",
+        "text": "L'overloading richiede sempre tipi generici, l'overriding lavora solo con tipi primitivi."
+      },
+      {
+        "id": "D",
+        "text": "L'overloading avviene solo a tempo di esecuzione, l'overriding solo a tempo di compilazione."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'overloading (sovraccarico) avviene all'interno della stessa classe differenziando i metodi per il numero o tipo di parametri (firma). L'overriding (sovrascrittura) avviene lungo la gerarchia delle classi per sostituire il comportamento di un metodo ereditato.",
+    "hint": "Pensa a firme diverse (overloading) vs firme identiche in relazioni padre-figlio (overriding).",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_LANG_017",
+    "question": "Qual è la complessità temporale nel caso peggiore dell'algoritmo di ricerca binaria (Binary Search) su un array ordinato di N elementi?",
+    "options": [
+      {
+        "id": "A",
+        "text": "O(log N)"
+      },
+      {
+        "id": "B",
+        "text": "O(N)"
+      },
+      {
+        "id": "C",
+        "text": "O(N log N)"
+      },
+      {
+        "id": "D",
+        "text": "O(1)"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Dato che l'algoritmo dimezza l'intervallo di ricerca ad ogni passaggio, il numero di passi richiesti per trovare un elemento (o decretare la sua assenza) cresce in modo logaritmico rispetto alla dimensione dell'input N.",
+    "hint": "Se raddoppi la dimensione dell'array, l'algoritmo impiega solo un passo di confronto in più.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_LANG_018",
+    "question": "Rispetto a un array statico, qual è il vantaggio principale di una lista concatenata semplice (Singly Linked List)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'inserimento e l'eliminazione di un elemento in testa richiedono un tempo costante pari a O(1)."
+      },
+      {
+        "id": "B",
+        "text": "La possibilità di accedere a qualsiasi elemento in tempo costante O(1) tramite indice numerico."
+      },
+      {
+        "id": "C",
+        "text": "Una migliore efficienza d'uso della cache grazie alla contiguità fisica degli elementi in memoria."
+      },
+      {
+        "id": "D",
+        "text": "La totale assenza di overhead di memoria per la memorizzazione di puntatori o riferimenti."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Nelle liste concatenate, gli elementi non sono contigui e l'inserimento in punti noti (come la testa) richiede solo la riassegnazione dei puntatori del nodo, operazione eseguibile in tempo costante O(1) senza necessità di spostare la memoria circostante.",
+    "hint": "Non è richiesto lo shift fisico degli elementi successivi come avverrebbe in un array.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_LANG_019",
+    "question": "Con quale sigla è nota la politica di gestione degli elementi all'interno di uno Stack (Pila)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "LIFO (Last In, First Out)"
+      },
+      {
+        "id": "B",
+        "text": "FIFO (First In, First Out)"
+      },
+      {
+        "id": "C",
+        "text": "LILO (Last In, Last Out)"
+      },
+      {
+        "id": "D",
+        "text": "RANDOM (Accesso casuale)"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Uno stack memorizza ed estrae elementi con la logica LIFO (l'ultimo a entrare è il primo a uscire). Le operazioni principali sono push e pop.",
+    "hint": "Pensa a una pila di piatti: l'ultimo piatto inserito in cima è il primo ad essere preso.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_LANG_020",
+    "question": "Con quale sigla è nota la politica di gestione degli elementi all'interno di una Queue (Coda)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "FIFO (First In, First Out)"
+      },
+      {
+        "id": "B",
+        "text": "LIFO (Last In, First Out)"
+      },
+      {
+        "id": "C",
+        "text": "FILO (First In, Last Out)"
+      },
+      {
+        "id": "D",
+        "text": "LILO (Last In, Last Out)"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Una coda memorizza ed estrae gli elementi con la logica FIFO (il primo a entrare è il primo ad uscire), ideale per gestire sequenze di elaborazione o code d'attesa.",
+    "hint": "Pensa alla classica fila di persone in banca.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_LANG_021",
+    "question": "A partire da Java 8, quale caratteristica strutturale è stata introdotta per le interfacce?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La possibilità di definire metodi concreti forniti di implementazione di default tramite la parola chiave 'default'."
+      },
+      {
+        "id": "B",
+        "text": "La possibilità di dichiarare costruttori d'istanza per inizializzare variabili locali dell'interfaccia."
+      },
+      {
+        "id": "C",
+        "text": "L'introduzione di variabili d'istanza non statiche ad accesso protetto."
+      },
+      {
+        "id": "D",
+        "text": "L'obbligo di compilare tutti i metodi dell'interfaccia come statici."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "I metodi 'default' consentono di aggiungere nuove funzionalità alle interfacce senza invalidare o rompere la compatibilità all'indietro delle classi che le implementavano in precedenza.",
+    "hint": "Consente di scrivere del codice effettivo tra parentesi graffe dentro un'interfaccia.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_LANG_022",
+    "question": "In C++, cosa accade se una classe B eredita privatamente da una classe A (`class B : private A`)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "I membri pubblici e protetti di A diventano membri privati all'interno di B."
+      },
+      {
+        "id": "B",
+        "text": "Nessun metodo della classe A può essere richiamato all'interno di B."
+      },
+      {
+        "id": "C",
+        "text": "B non può a sua volta essere ereditata da altre classi."
+      },
+      {
+        "id": "D",
+        "text": "Tutti i membri privati di A diventano visibili a chiunque istanzi B."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Nell'ereditarietà privata in C++, l'accesso ai membri ereditati viene ristretto: i membri pubblici e protetti della classe base diventano membri privati della classe derivata, impedendone l'uso diretto all'esterno di B.",
+    "hint": "È un tipo di ereditarietà restrittiva che trasforma i livelli di accesso ereditati nel massimo livello di restrizione.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_LANG_023",
+    "question": "Python è un linguaggio a tipizzazione dinamica e forte. Cosa significa nello specifico 'tipizzazione forte'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il linguaggio non esegue conversioni di tipo implicite e non permesse tra tipi incompatibili (es. sommare stringa e intero)."
+      },
+      {
+        "id": "B",
+        "text": "Una volta dichiarata una variabile, non è più possibile riassegnare un valore di tipo differente."
+      },
+      {
+        "id": "C",
+        "text": "Tutte le variabili devono essere dichiarate all'inizio del modulo inserendo il tipo esplicito."
+      },
+      {
+        "id": "D",
+        "text": "I tipi di dato complessi vengono convertiti in binario a tempo di compilazione."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Nei linguaggi a tipizzazione forte come Python, il sistema di tipo impedisce operazioni ambigue tra tipi non compatibili senza una conversione esplicita. Ad esempio, `'ciao' + 5` solleverà un TypeError invece di forzare la conversione implicita.",
+    "hint": "Cerca la differenza con linguaggi come JavaScript, che consentono conversioni implicite automatiche.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_LANG_024",
+    "question": "Nel contesto dell'analisi degli algoritmi, cosa descrive formalmente la notazione Big O (O-grande)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un limite superiore asintotico per la crescita della risorsa di tempo o di spazio al crescere dell'input."
+      },
+      {
+        "id": "B",
+        "text": "Il numero esatto di istruzioni assembly generate per una CPU a 64 bit."
+      },
+      {
+        "id": "C",
+        "text": "Il tempo medio misurato in millisecondi su un server standard."
+      },
+      {
+        "id": "D",
+        "text": "Il limite inferiore asintotico per valutare le migliori prestazioni possibili."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La notazione O-grande fornisce una limitazione superiore (asintotica) all'andamento di una funzione matematica, consentendo di classificare gli algoritmi in base al loro tasso di crescita nel caso peggiore.",
+    "hint": "Rappresenta lo scenario peggiore a livello asintotico.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_LANG_025",
+    "question": "Qual è la complessità temporale media del noto algoritmo di ordinamento QuickSort?",
+    "options": [
+      {
+        "id": "A",
+        "text": "O(N log N)"
+      },
+      {
+        "id": "B",
+        "text": "O(N^2)"
+      },
+      {
+        "id": "C",
+        "text": "O(N)"
+      },
+      {
+        "id": "D",
+        "text": "O(log N)"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Nel caso medio, QuickSort partiziona efficacemente l'array a metà ad ogni livello della ricorsione, portando a una complessità di O(N log N). Degrada invece a O(N^2) nel caso peggiore (es. pivot pessimo su array già ordinato).",
+    "hint": "Condivide la stessa complessità media del MergeSort.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_LANG_026",
+    "question": "Perché il semplice conteggio dei riferimenti (Reference Counting) non è sufficiente a prevenire tutti i memory leak?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Perché non è in grado di rilevare e liberare cicli di riferimenti circolari tra oggetti."
+      },
+      {
+        "id": "B",
+        "text": "Perché non funziona con stringhe o altri tipi primitivi."
+      },
+      {
+        "id": "C",
+        "text": "Perché causa errori intermittenti a tempo di compilazione."
+      },
+      {
+        "id": "D",
+        "text": "Perché può essere applicato esclusivamente a strutture di tipo Stack."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Se due oggetti contengono riferimenti l'uno all'altro (riferimento circolare), i rispettivi contatori di riferimenti rimarranno maggiori di zero, impedendone la rimozione anche se gli oggetti non sono più raggiungibili dal programma.",
+    "hint": "Considera due oggetti isolati che si puntano reciprocamente.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_LANG_027",
+    "question": "Quale delle seguenti affermazioni descrive correttamente il funzionamento del Garbage Collector in Java?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Libera automaticamente la memoria Heap occupata dagli oggetti non più raggiungibili dalle radici del programma (GC Roots)."
+      },
+      {
+        "id": "B",
+        "text": "Garantisce la deallocazione immediata della memoria Stack non appena una funzione esce dallo scope."
+      },
+      {
+        "id": "C",
+        "text": "Viene attivato istantaneamente ogni volta che si richiama la funzione `System.gc()`."
+      },
+      {
+        "id": "D",
+        "text": "Gestisce esclusivamente la chiusura dei file di sistema e dei socket di rete."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il Garbage Collector di Java agisce in modo asincrono per tracciare gli oggetti nella memoria Heap. Se un oggetto non ha più una catena di riferimenti che lo collega a un thread attivo (GC Root), viene considerato spazzatura e la memoria viene liberata.",
+    "hint": "Pensa alla raggiungibilità dell'oggetto a partire dal codice in esecuzione.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_LANG_028",
+    "question": "Il Liskov Substitution Principle (LSP) nei principi SOLID prescrive che:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Le classi derivate devono poter sostituire le loro classi base senza alterare il corretto funzionamento del programma."
+      },
+      {
+        "id": "B",
+        "text": "Una sottoclasse deve nascondere o rimuovere i metodi pubblici definiti nella superclasse."
+      },
+      {
+        "id": "C",
+        "text": "Una classe deve dipendere solo da classi concrete e mai da astrazioni."
+      },
+      {
+        "id": "D",
+        "text": "Ogni interfaccia deve contenere un unico metodo astratto di utilità."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il principio LSP assicura che una sottoclasse rispetti il contratto comportamentale stabilito dalla sua superclasse. Se un programma funziona con una classe base, deve continuare a funzionare correttamente anche se viene usata una qualsiasi sottoclasse al suo posto.",
+    "hint": "Riguarda l'interscambiabilità sicura tra classi genitore e classi figli.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_LANG_029",
+    "question": "In una Tabella Hash (Hash Table), qual è la complessità temporale media per l'inserimento, la ricerca e la cancellazione di una chiave?",
+    "options": [
+      {
+        "id": "A",
+        "text": "O(1)"
+      },
+      {
+        "id": "B",
+        "text": "O(log N)"
+      },
+      {
+        "id": "C",
+        "text": "O(N)"
+      },
+      {
+        "id": "D",
+        "text": "O(N log N)"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Grazie alla funzione hash che calcola direttamente l'indice di un array per una data chiave, l'accesso agli elementi avviene in tempo costante O(1) in media, a patto che il fattore di carico sia ottimale e la funzione hash riduca al minimo le collisioni.",
+    "hint": "Permette l'accesso immediato alle informazioni associando direttamente la chiave a un indice.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_LANG_030",
+    "question": "In un Albero Binario di Ricerca (Binary Search Tree - BST), qual è la regola fondamentale di disposizione dei nodi?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Per ogni nodo X, tutti i valori nel sottoalbero sinistro sono minori o uguali a X, e tutti i valori nel sottoalbero destro sono maggiori di X."
+      },
+      {
+        "id": "B",
+        "text": "Ogni nodo foglia deve trovarsi esattamente allo stesso livello di profondità rispetto alla radice."
+      },
+      {
+        "id": "C",
+        "text": "Il valore di un nodo genitore deve essere sempre pari alla somma dei valori dei nodi figli."
+      },
+      {
+        "id": "D",
+        "text": "I nodi figli devono essere disposti in modo casuale ad ogni inserimento."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La proprietà fondamentale del BST impone un ordinamento rigido: la chiave del nodo corrente è maggiore delle chiavi presenti a sinistra e minore delle chiavi a destra. Questo consente di effettuare ricerche asintotiche rapide.",
+    "hint": "I valori più piccoli si trovano a sinistra del nodo, quelli più grandi a destra.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_LANG_031",
+    "question": "In C++, qual è il meccanismo runtime comunemente usato dal compilatore per supportare il polimorfismo dinamico?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La VTable (Virtual Table), una tabella di puntatori a funzioni virtuali associata a ciascuna classe."
+      },
+      {
+        "id": "B",
+        "text": "Un Garbage Collector interno che analizza le definizioni delle classi a tempo di esecuzione."
+      },
+      {
+        "id": "C",
+        "text": "La copia del codice sorgente di ciascun metodo direttamente all'interno della struttura dell'oggetto."
+      },
+      {
+        "id": "D",
+        "text": "La traduzione di tutte le variabili in stringhe dinamiche risolte a runtime."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il compilatore C++ crea una tabella virtuale (vtable) per ciascuna classe che contiene funzioni virtuali. Ogni oggetto della classe possiede un puntatore invisibile (vptr) alla tabella vtable, che consente di invocare l'implementazione corretta a runtime.",
+    "hint": "Cerca il termine associato a una tabella virtuale di puntatori a funzione.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_LANG_032",
+    "question": "In Python, qual è la distinzione fondamentale tra i metodi speciali `__new__` e `__init__`?",
+    "options": [
+      {
+        "id": "A",
+        "text": "`__new__` è incaricato di creare l'istanza dell'oggetto (allocazione), mentre `__init__` si occupa di inizializzarne gli attributi (configurazione)."
+      },
+      {
+        "id": "B",
+        "text": "`__init__` crea l'oggetto sulla memoria Stack, mentre `__new__` lo alloca nell'Heap."
+      },
+      {
+        "id": "C",
+        "text": "`__new__` viene utilizzato solo per le funzioni asincrone, `__init__` solo per i metodi sincroni."
+      },
+      {
+        "id": "D",
+        "text": "Non vi è alcuna differenza; `__new__` è stato rimosso a favore di `__init__` a partire da Python 3."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "`__new__` è il vero costruttore dell'oggetto, è un metodo statico che restituisce una nuova istanza. `__init__` riceve l'istanza creata (tramite self) e provvede a inizializzare il suo stato interno.",
+    "hint": "Uno è il creatore dell'istanza fisica, l'altro è l'inizializzatore dello stato logico.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_LANG_033",
+    "question": "In Java, quale caratteristica contraddistingue una variabile dichiarata con il modificatore `static`?",
+    "options": [
+      {
+        "id": "A",
+        "text": "È associata alla classe e non alle singole istanze, esistendo in una singola copia condivisa."
+      },
+      {
+        "id": "B",
+        "text": "È una variabile immutabile e non può essere riassegnata dopo l'inizializzazione."
+      },
+      {
+        "id": "C",
+        "text": "Può essere dichiarata ed utilizzata esclusivamente all'interno dei metodi locali."
+      },
+      {
+        "id": "D",
+        "text": "Non occupa alcuno spazio nella memoria fisica della JVM."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Le variabili statiche appartengono alla classe stessa e non alle singole istanze. Vengono allocate una sola volta all'avvio dell'applicazione e il loro valore è condiviso da tutti gli oggetti istanziati da quella classe.",
+    "hint": "Pensa al concetto di 'variabile di classe' in contrapposizione a 'variabile di istanza'.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_LANG_034",
+    "question": "Cos'è un 'Tipo di Dato Astratto' (Abstract Data Type - ADT)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un modello matematico o logico che definisce una struttura dati e le operazioni consentite, indipendentemente dalla sua specifica implementazione fisica."
+      },
+      {
+        "id": "B",
+        "text": "Un tipo di dato nativo del processore analogo a un intero o a un puntatore generico."
+      },
+      {
+        "id": "C",
+        "text": "Una variabile definita come privata che non può essere letta o modificata da alcun metodo."
+      },
+      {
+        "id": "D",
+        "text": "Una classe astratta in C++ contenente solo variabili globali."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Un ADT descrive le operazioni disponibili su un dato e le regole di comportamento (es. una Pila definita da push e pop), lasciando che il programmatore scelga l'implementazione reale sotto il cofano (es. array, lista concatenata).",
+    "hint": "Specifica 'cosa fa' la struttura dati, nascondendo completamente il 'come'.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_LANG_035",
+    "question": "Qual è la complessità temporale asintotica dell'algoritmo Selection Sort nei casi migliore, medio e peggiore?",
+    "options": [
+      {
+        "id": "A",
+        "text": "O(N^2) in tutti e tre i casi."
+      },
+      {
+        "id": "B",
+        "text": "O(N) nel caso migliore, O(N^2) negli altri casi."
+      },
+      {
+        "id": "C",
+        "text": "O(N log N) nel caso migliore, O(N^2) nel caso peggiore."
+      },
+      {
+        "id": "D",
+        "text": "O(1) in tutti i casi poiché non esegue scambi."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Selection Sort seleziona iterativamente l'elemento minimo dalla parte rimanente ed esegue sempre due cicli for annidati completi, compiendo N(N-1)/2 confronti indipendentemente da come sia originariamente ordinato l'array di input.",
+    "hint": "L'algoritmo non ha modi per rilevare se l'array è già parzialmente o totalmente ordinato.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_LANG_036",
+    "question": "Qual è la complessità temporale nel caso migliore (array già ordinato) di un algoritmo Bubble Sort che implementa un flag sentinella di verifica degli scambi?",
+    "options": [
+      {
+        "id": "A",
+        "text": "O(N)"
+      },
+      {
+        "id": "B",
+        "text": "O(N^2)"
+      },
+      {
+        "id": "C",
+        "text": "O(N log N)"
+      },
+      {
+        "id": "D",
+        "text": "O(1)"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Nel Bubble Sort ottimizzato, un flag tiene traccia degli scambi effettuati in una passata. Se dopo la prima passata non si registrano scambi (il che indica che l'array è già ordinato), l'algoritmo termina immediatamente dopo aver eseguito N-1 confronti.",
+    "hint": "Richiede un unico ciclo lineare per controllare e determinare se non ci sono elementi fuori posto.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_LANG_037",
+    "question": "Nel contesto delle strutture dati, quali sono le coppie di operazioni tipiche per interagire rispettivamente con una Pila (Stack) e con una Coda (Queue)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Push/Pop per la Pila; Enqueue/Dequeue per la Coda."
+      },
+      {
+        "id": "B",
+        "text": "Enqueue/Dequeue per la Pila; Push/Pop per la Coda."
+      },
+      {
+        "id": "C",
+        "text": "Add/Remove per la Pila; Insert/Delete per la Coda."
+      },
+      {
+        "id": "D",
+        "text": "Shift/Unshift per la Pila; Push/Pop per la Coda."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Per la Pila l'inserimento è Push e la rimozione è Pop (in cima). Per la Coda l'inserimento è Enqueue (in coda) e la rimozione è Dequeue (dalla testa).",
+    "hint": "Cerca i termini classici utilizzati storicamente per pile e code.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_LANG_038",
+    "question": "Quale struttura dati ausiliaria viene utilizzata di norma per implementare iterativamente le visite DFS (in profondità) e BFS (in ampiezza) su un grafo?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Una Pila (Stack) per la DFS; una Coda (Queue) per la BFS."
+      },
+      {
+        "id": "B",
+        "text": "Una Coda (Queue) per la DFS; una Pila (Stack) per la BFS."
+      },
+      {
+        "id": "C",
+        "text": "Un Albero Binario per la DFS; un Array statico per la BFS."
+      },
+      {
+        "id": "D",
+        "text": "Una Tabella Hash per la DFS; una Lista concatenata per la BFS."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La DFS visita ricorsivamente o tramite una pila (LIFO) scendendo lungo i rami. La BFS visita per livelli successivi memorizzando i nodi da esplorare in una coda (FIFO).",
+    "hint": "Pensa alla corrispondenza tra l'ordine LIFO per andare in profondità e FIFO per diffondersi ad anello.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_LANG_039",
+    "question": "In Java, qual è una delle ragioni principali per cui la classe `String` è stata progettata come immutabile?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Per garantire la sicurezza nei meccanismi di rete e permessi, oltre che per supportare in sicurezza lo String Pool e il multithreading."
+      },
+      {
+        "id": "B",
+        "text": "Perché le stringhe immutabili risiedono esclusivamente nella memoria cache della CPU."
+      },
+      {
+        "id": "C",
+        "text": "Per forzare lo sviluppatore ad utilizzare sempre l'allocazione dinamica manuale."
+      },
+      {
+        "id": "D",
+        "text": "Per impedire la conversione di codice in bytecode a tempo di compilazione."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'immutabilità delle stringhe in Java garantisce che, se una stringa viene condivisa (ad esempio passata come argomento per una connessione database o un path di un file), il suo valore non possa essere modificato in modo imprevisto da altri thread. Consente inoltre l'ottimizzazione in memoria dello String Pool.",
+    "hint": "Considera la sicurezza dei dati condivisi tra thread diversi e l'ottimizzazione della memoria.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_LANG_040",
+    "question": "Quale tra i seguenti tipi di dato predefiniti in Python è mutabile (mutable)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "list"
+      },
+      {
+        "id": "B",
+        "text": "tuple"
+      },
+      {
+        "id": "C",
+        "text": "str"
+      },
+      {
+        "id": "D",
+        "text": "int"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "In Python, le liste (`list`), i dizionari (`dict`) e i set (`set`) sono mutabili, cioè possono subire modifiche in-place. Tuple, stringhe ed interi sono invece immutabili.",
+    "hint": "Una tupla non può essere modificata dopo la creazione; una lista permette di aggiungere o rimuovere elementi a piacimento.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_LANG_041",
+    "question": "Su quale struttura dati è basata internamente l'implementazione del tipo `dict` in Python?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Una Tabella Hash (Hash Table)."
+      },
+      {
+        "id": "B",
+        "text": "Un Albero Binario di Ricerca Bilanciato."
+      },
+      {
+        "id": "C",
+        "text": "Una Lista Concatenata ordinata."
+      },
+      {
+        "id": "D",
+        "text": "Un Grafo Diretto Aciiclico."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il dizionario in Python associa coppie chiave-valore. Sotto il cofano è implementato come una tabella hash altamente ottimizzata, fornendo prestazioni asintotiche pari a O(1) in media per operazioni di lettura e scrittura.",
+    "hint": "Fornisce accesso istantaneo al valore dato un codice calcolato dalla chiave.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_LANG_042",
+    "question": "In C++, qual è una differenza fondamentale tra un puntatore (pointer) e un riferimento (reference)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un puntatore può puntare a nulla (nullptr) ed essere riassegnato, mentre un riferimento deve essere associato a un oggetto valido all'inizializzazione e non può essere cambiato."
+      },
+      {
+        "id": "B",
+        "text": "Un puntatore risiede sempre nello stack, mentre un riferimento risiede sempre nell'heap."
+      },
+      {
+        "id": "C",
+        "text": "I riferimenti richiedono l'uso obbligatorio della parola chiave 'delete' per liberare memoria."
+      },
+      {
+        "id": "D",
+        "text": "Non c'è alcuna differenza pratica; sono due parole chiave equivalenti che generano lo stesso assembly."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Un riferimento in C++ funge da alias permanente per una variabile esistente e non può essere riassegnato né essere nullo. Un puntatore è una variabile separata che contiene un indirizzo di memoria, può valere nullptr e può puntare a variabili diverse nel tempo.",
+    "hint": "Considera quale dei due può essere riassegnato o contenere il valore nullo.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_LANG_043",
+    "question": "Nel contesto della JVM (Java Virtual Machine), che cos'è il ClassLoader?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il sottosistema responsabile del caricamento dinamico in memoria delle classi Java (file .class) a tempo di esecuzione."
+      },
+      {
+        "id": "B",
+        "text": "Lo strumento CLI che compila i file sorgente .java in file binari .class."
+      },
+      {
+        "id": "C",
+        "text": "Un tool di debug integrato nell'ambiente di sviluppo per analizzare le eccezioni."
+      },
+      {
+        "id": "D",
+        "text": "La memoria ad accesso rapido per la memorizzazione temporanea dei parametri locali."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il ClassLoader è una parte del runtime di Java. Ha il compito di individuare, caricare, verificare e inizializzare in memoria i file di classe compiled (.class) quando il programma li richiede durante l'esecuzione.",
+    "hint": "Carica le classi a runtime su richiesta della JVM.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_LANG_044",
+    "question": "Qual è la causa principale del verificarsi di un errore di 'Stack Overflow' in un algoritmo ricorsivo?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Una sequenza eccessivamente profonda o infinita di chiamate ricorsive che consuma tutto lo spazio allocato per i frame dei metodi sullo Stack."
+      },
+      {
+        "id": "B",
+        "text": "Il tentativo di creare troppi oggetti dinamici tramite l'istruzione 'new' nella memoria Heap."
+      },
+      {
+        "id": "C",
+        "text": "La mancanza di memoria RAM fisica del computer per l'allocazione globale del sistema operativo."
+      },
+      {
+        "id": "D",
+        "text": "La mancata inizializzazione delle variabili booleane all'interno dei cicli iterativi standard."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Ogni chiamata a funzione inserisce un record di attivazione nello Stack. Se la ricorsione non incontra un caso base o ha troppi passaggi, lo spazio allocato per lo Stack del thread si esaurisce, provocando l'errore di Stack Overflow.",
+    "hint": "Pensa all'accumulo di chiamate a funzione non ancora terminate.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_LANG_045",
+    "question": "Qual è la complessità temporale asintotica nel caso peggiore del noto algoritmo di ordinamento stabile MergeSort?",
+    "options": [
+      {
+        "id": "A",
+        "text": "O(N log N)"
+      },
+      {
+        "id": "B",
+        "text": "O(N^2)"
+      },
+      {
+        "id": "C",
+        "text": "O(N)"
+      },
+      {
+        "id": "D",
+        "text": "O(1)"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "MergeSort divide ricorsivamente l'array a metà (richiedendo log N livelli di suddivisione) e combina le parti in tempo lineare O(N) per ciascun livello. Garantisce quindi O(N log N) sia nel caso peggiore, medio che migliore.",
+    "hint": "La sua complessità temporale è stabile in qualunque scenario di input.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_LANG_046",
+    "question": "Nella progettazione OOP e di ingegneria del software, quali sono le proprietà ideali di accoppiamento (coupling) e coesione (cohesion)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Basso accoppiamento ed alta coesione."
+      },
+      {
+        "id": "B",
+        "text": "Alto accoppiamento e bassa coesione."
+      },
+      {
+        "id": "C",
+        "text": "Alto accoppiamento ed alta coesione."
+      },
+      {
+        "id": "D",
+        "text": "Basso accoppiamento e bassa coesione."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'accoppiamento misura la dipendenza tra moduli: un accoppiamento basso rende il sistema modulare e modificabile. La coesione misura il focus interno di un modulo: un'alta coesione garantisce che ogni classe svolga compiti strettamente correlati ad un solo obiettivo.",
+    "hint": "Vogliamo classi indipendenti tra loro (basso legame) ma molto focalizzate al proprio interno.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_LANG_047",
+    "question": "Cosa afferma l'Open/Closed Principle (Principio Aperto/Chiuso) facente parte dei principi SOLID?",
+    "options": [
+      {
+        "id": "A",
+        "text": "I moduli software devono essere aperti alle estensioni ma chiusi alle modifiche del codice sorgente già esistente."
+      },
+      {
+        "id": "B",
+        "text": "I metodi delle classi devono essere pubblici (open) e gli attributi privati (closed)."
+      },
+      {
+        "id": "C",
+        "text": "Un programma deve essere aperto all'uso di librerie esterne ma chiuso a connessioni internet insicure."
+      },
+      {
+        "id": "D",
+        "text": "Le classi astratte devono essere aperte per l'inizializzazione ma chiuse all'ereditarietà."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il principio Open/Closed impone di progettare il software in modo che nuove funzionalità possano essere aggiunte (estendendo il comportamento del sistema, ad esempio tramite ereditarietà o interfacce) senza modificare il codice esistente già testato.",
+    "hint": "Consente l'aggiunta di funzionalità riducendo al minimo il rischio di introdurre bug nel codice legacy.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_LANG_048",
+    "question": "Qual è l'altezza minima possibile per un albero binario che contiene N nodi?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La parte intera inferiore di log2 N (ossia floor(log2 N))."
+      },
+      {
+        "id": "B",
+        "text": "N - 1 nodi."
+      },
+      {
+        "id": "C",
+        "text": "La radice quadrata di N."
+      },
+      {
+        "id": "D",
+        "text": "N / 2 nodi."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Un albero binario ha la minima altezza quando è perfettamente bilanciato. In questo scenario ideale, il numero di livelli (altezza) cresce logaritmicamente rispetto al numero dei nodi N, vale a dire floor(log2 N).",
+    "hint": "Pensa alla crescita esponenziale del numero di nodi per ciascun livello aggiunto.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_LANG_049",
+    "question": "Qual è la differenza fondamentale tra il distruttore in C++ e il metodo `finalize()` (ora deprecato) in Java?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il distruttore C++ viene invocato in modo deterministico all'uscita dallo scope o tramite delete; `finalize()` è chiamato asincronamente dal Garbage Collector in modo non deterministico."
+      },
+      {
+        "id": "B",
+        "text": "Il distruttore C++ rilascia lo Stack, mentre `finalize()` rilascia la memoria di sistema globale."
+      },
+      {
+        "id": "C",
+        "text": "Il distruttore in C++ è sempre generato automaticamente e non può essere scritto manualmente."
+      },
+      {
+        "id": "D",
+        "text": "Non vi è differenza; `finalize()` in Java garantisce l'immediata liberazione di memoria Heap."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "In C++, la distruzione dell'oggetto e il rilascio delle risorse (file, memoria) avvengono in modo deterministico (noto a priori). In Java, l'invocazione di `finalize()` è delegata all'attività del Garbage Collector, senza garanzie sul tempo effettivo o sull'avvenuta esecuzione della chiamata.",
+    "hint": "Pensa alla certezza temporale di rilascio delle risorse (determinismo).",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_LANG_050",
+    "question": "È possibile istanziare direttamente un oggetto a partire da una classe astratta (es. scrivendo `new ClasseAstratta()`)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "No, le classi astratte non possono essere istanziate direttamente; richiedono una classe concreta derivata."
+      },
+      {
+        "id": "B",
+        "text": "Sì, a patto che non contengano metodi dichiarati esplicitamente come astratti."
+      },
+      {
+        "id": "C",
+        "text": "Sì, ma solo all'interno del costruttore statico principale."
+      },
+      {
+        "id": "D",
+        "text": "Sì, ma l'oggetto restituito sarà privo di qualsiasi metodo d'istanza."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Una classe astratta serve per definire un modello parziale e non completo che non deve essere istanziato direttamente. Il compilatore impedisce la creazione di istanze di classi astratte, forzando la creazione di sottoclassi concrete.",
+    "hint": "Rappresentano concetti non completi che necessitano di implementazione dettagliata da parte delle sottoclassi.",
+    "level": "avanzato"
+  }
+]

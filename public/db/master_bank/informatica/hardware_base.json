@@ -1,0 +1,1302 @@
+[
+  {
+    "id": "Q_INF_HW_001",
+    "question": "Quale delle seguenti affermazioni descrive correttamente uno dei principi fondamentali dell'architettura di Von Neumann?",
+    "options": [
+      {
+        "id": "A",
+        "text": "I dati e le istruzioni dei programmi sono memorizzati nello stesso spazio di memoria fisica."
+      },
+      {
+        "id": "B",
+        "text": "I dati e le istruzioni risiedono in memorie fisicamente separate e accessibili tramite bus indipendenti."
+      },
+      {
+        "id": "C",
+        "text": "La CPU elabora le istruzioni esclusivamente in modalità parallela e asincrona."
+      },
+      {
+        "id": "D",
+        "text": "La memoria principale è di tipo esclusivamente non volatile per garantire la persistenza."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Nell'architettura di Von Neumann, la memoria principale contiene sia le istruzioni del programma sia i dati necessari all'elaborazione, condividendo lo stesso bus e lo stesso spazio di indirizzamento (a differenza dell'architettura Harvard).",
+    "hint": "Condivisione dello stesso spazio di memorizzazione per codice e dati.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_HW_002",
+    "question": "All'interno di una CPU (Central Processing Unit), qual è il compito principale dell'Unità di Controllo (Control Unit)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Eseguire le operazioni aritmetiche e logiche sui dati."
+      },
+      {
+        "id": "B",
+        "text": "Coordinare e temporizzare il flusso di informazioni all'interno del sistema, prelevando e decodificando le istruzioni."
+      },
+      {
+        "id": "C",
+        "text": "Memorizzare in modo permanente i dati di configurazione del sistema."
+      },
+      {
+        "id": "D",
+        "text": "Convertire i segnali analogici provenienti dalle periferiche in segnali digitali."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'Unità di Controllo (CU) coordina le attività della CPU: preleva (fetch) le istruzioni dalla memoria principale, le decodifica (decode) e invia i segnali di controllo alle altre parti dell'hardware per eseguirle.",
+    "hint": "Dirige l'orchestra dei componenti del computer.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_HW_003",
+    "question": "In una CPU, qual è la funzione specifica del registro 'Program Counter' (PC)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Contenere il codice dell'istruzione attualmente in fase di esecuzione."
+      },
+      {
+        "id": "B",
+        "text": "Memorizzare il risultato dell'ultima operazione aritmetico-logica eseguita dall'ALU."
+      },
+      {
+        "id": "C",
+        "text": "Contenere l'indirizzo di memoria della prossima istruzione da prelevare ed eseguire."
+      },
+      {
+        "id": "D",
+        "text": "Contare il numero totale di istruzioni eseguite dall'avvio del computer."
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Il Program Counter (PC) è un registro speciale della CPU che contiene l'indirizzo di memoria della prossima istruzione che deve essere caricata per essere eseguita.",
+    "hint": "Indica dove andare a leggere la prossima istruzione.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_HW_004",
+    "question": "Durante il ciclo macchina di una CPU, in quale fase avviene la comprensione del significato dell'istruzione prelevata dalla memoria?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fetch (Prelievo)"
+      },
+      {
+        "id": "B",
+        "text": "Decode (Decodifica)"
+      },
+      {
+        "id": "C",
+        "text": "Execute (Esecuzione)"
+      },
+      {
+        "id": "D",
+        "text": "Writeback (Scrittura dei risultati)"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La fase di 'Decode' (Decodifica) è la fase in cui l'Unità di Controllo (CU) interpreta i bit dell'istruzione presente nell'Instruction Register per capire quale operazione debba essere eseguita e quali siano gli operandi.",
+    "hint": "È il momento in cui si interpreta il codice operativo dell'istruzione.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_HW_005",
+    "question": "Quale registro della CPU ospita l'istruzione correntemente in fase di decodifica ed esecuzione?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Accumulatore (ACC)"
+      },
+      {
+        "id": "B",
+        "text": "Memory Address Register (MAR)"
+      },
+      {
+        "id": "C",
+        "text": "Instruction Register (IR)"
+      },
+      {
+        "id": "D",
+        "text": "Stack Pointer (SP)"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'Instruction Register (IR) memorizza temporaneamente l'istruzione appena prelevata dalla memoria principale (fase di fetch), affinché l'unità di controllo possa decodificarla ed eseguirla.",
+    "hint": "Contiene l'istruzione stessa, non il suo indirizzo.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_HW_006",
+    "question": "Perché la memoria RAM (Random Access Memory) viene definita 'volatile'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Perché i dati al suo interno vengono persi non appena si interrompe l'alimentazione elettrica."
+      },
+      {
+        "id": "B",
+        "text": "Perché è soggetta a frequenti guasti meccanici dovuti all'usura."
+      },
+      {
+        "id": "C",
+        "text": "Perché i dati memorizzati possono essere letti una sola volta, dopodiché svaniscono."
+      },
+      {
+        "id": "D",
+        "text": "Perché la sua velocità di trasferimento varia continuamente in base alla temperatura del case."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La volatilità indica la proprietà per cui le informazioni in memoria richiedono un flusso continuo di energia elettrica per persistere; in mancanza di alimentazione, i condensatori e i transistor perdono lo stato memorizzato.",
+    "hint": "Ha bisogno di corrente elettrica costante per non dimenticare.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_HW_007",
+    "question": "Qual è la principale differenza tecnologica e prestazionale tra la memoria RAM statica (SRAM) e quella dinamica (DRAM)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La DRAM è molto più veloce della SRAM ma consuma molta più energia."
+      },
+      {
+        "id": "B",
+        "text": "La SRAM utilizza condensatori che richiedono continui cicli di refresh, mentre la DRAM usa flip-flop."
+      },
+      {
+        "id": "C",
+        "text": "La SRAM è realizzata con flip-flop a transistor ed è veloce e costosa, mentre la DRAM usa condensatori e richiede continui cicli di refresh."
+      },
+      {
+        "id": "D",
+        "text": "La DRAM memorizza i dati tramite cariche magnetiche, mentre la SRAM usa impulsi luminosi."
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "La SRAM (Static RAM) usa circuiti flip-flop a transistor, non richiede refresh ed è estremamente veloce (usata per la cache). La DRAM (Dynamic RAM) usa un transistor e un condensatore per memorizzare ogni bit; poiché il condensatore perde carica nel tempo, deve essere periodicamente 'rinfrescato', rendendola più lenta ma molto più economica e densa (usata per la RAM principale).",
+    "hint": "Una ha bisogno di essere 'rinfrescata' continuamente per mantenere i dati, l'altra no.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_HW_008",
+    "question": "Qual è lo scopo fondamentale dell'inserimento di una memoria Cache tra la CPU e la RAM di sistema?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Aumentare lo spazio totale di memorizzazione non volatile a disposizione dell'utente."
+      },
+      {
+        "id": "B",
+        "text": "Compensare la differenza di velocità operativa tra la CPU (molto veloce) e la RAM (più lenta)."
+      },
+      {
+        "id": "C",
+        "text": "Proteggere la CPU da sbalzi di tensione elettrica provenienti dalla scheda madre."
+      },
+      {
+        "id": "D",
+        "text": "Eseguire il bootstrap del sistema operativo bypassando il BIOS."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La cache è una memoria ad altissima velocità e capacità ridotta che memorizza temporaneamente i dati e le istruzioni usati più frequentemente dalla CPU, riducendo i tempi di attesa per l'accesso alla memoria RAM di sistema.",
+    "hint": "Colma il divario prestazionale tra un processore ultrarapido e una memoria principale più lenta.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_HW_009",
+    "question": "Con riferimento alla gerarchia della memoria cache (L1, L2, L3), quale delle seguenti affermazioni è corretta?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La cache L3 è la più vicina ai core del processore ed è la più veloce."
+      },
+      {
+        "id": "B",
+        "text": "La cache L1 è integrata all'interno del core del processore, ha la velocità massima e la capacità minore."
+      },
+      {
+        "id": "C",
+        "text": "La cache L2 si trova sempre all'esterno della CPU, posizionata fisicamente sulla RAM di sistema."
+      },
+      {
+        "id": "D",
+        "text": "Tutti e tre i livelli hanno la stessa capacità di memorizzazione e differiscono solo per il voltaggio."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La cache L1 (Level 1) è la più vicina al nucleo del processore, opera alla stessa frequenza della CPU con tempi di latenza minimi, ma ha dimensioni molto limitate (solitamente tra 32 e 128 KB per core).",
+    "hint": "Più si scende di livello (da L1 a L3), più aumenta la dimensione ma diminuisce la velocità d'accesso.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_HW_010",
+    "question": "Che cosa si intende con il termine 'Cache Miss'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un errore hardware irreversibile che richiede la sostituzione del chip di memoria."
+      },
+      {
+        "id": "B",
+        "text": "La situazione in cui i dati richiesti dalla CPU non sono presenti nella memoria cache e devono essere cercati nella RAM."
+      },
+      {
+        "id": "C",
+        "text": "Lo svuotamento automatico della cache eseguito all'avvio del PC."
+      },
+      {
+        "id": "D",
+        "text": "La perdita parziale dei dati dovuta a interferenze elettromagnetiche nel bus."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Un 'cache miss' (mancato caricamento) si verifica quando il dato richiesto dalla CPU non si trova nei livelli di cache. Ciò obbliga il sistema a recuperarlo dalla più lenta memoria RAM (o dalla memoria di massa), introducendo latenza.",
+    "hint": "Si verifica quando la CPU cerca un'informazione nella cache ma deve rassegnarsi a cercarla altrove perché assente.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_HW_011",
+    "question": "Quale tipo di memoria viene tipicamente utilizzata per ospitare il firmware BIOS o UEFI di un moderno computer?",
+    "options": [
+      {
+        "id": "A",
+        "text": "RAM statica (SRAM)"
+      },
+      {
+        "id": "B",
+        "text": "Memoria Flash non volatile (di tipo EEPROM)"
+      },
+      {
+        "id": "C",
+        "text": "Una partizione dedicata dell'unità SSD"
+      },
+      {
+        "id": "D",
+        "text": "La cache di livello L3 della CPU"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il BIOS/UEFI deve risiedere su un chip di memoria non volatile (EEPROM) in modo che le istruzioni di boot rimangano memorizzate anche a PC spento, pur consentendo l'aggiornamento software (flash del BIOS).",
+    "hint": "Deve conservare i dati in assenza di alimentazione elettrica e permettere la riscrittura digitale.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_HW_012",
+    "question": "Cosa indica l'acronimo EEPROM nel contesto delle memorie a semiconduttore?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Electrically Erasable Programmable Read-Only Memory"
+      },
+      {
+        "id": "B",
+        "text": "External Expanded Programmable Random Access Memory"
+      },
+      {
+        "id": "C",
+        "text": "Electron Emitting Phase Register Only Memory"
+      },
+      {
+        "id": "D",
+        "text": "Extended EPROM for Peripheral Read-Only Map"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "EEPROM significa 'Electrically Erasable Programmable Read-Only Memory'. È una memoria non volatile riprogrammabile che può essere cancellata e riscritta elettronicamente senza dover essere rimossa dal circuito.",
+    "hint": "È cancellabile elettricamente e programmabile, originariamente concepita come memoria a sola lettura.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_HW_013",
+    "question": "Quale componente hardware si occupa della traduzione degli indirizzi di memoria virtuale (logica) in indirizzi di memoria fisica?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'Unità Aritmetico-Logica (ALU)"
+      },
+      {
+        "id": "B",
+        "text": "Il controller DMA (Direct Memory Access)"
+      },
+      {
+        "id": "C",
+        "text": "La MMU (Memory Management Unit)"
+      },
+      {
+        "id": "D",
+        "text": "Il controller del bus PCI Express"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "La Memory Management Unit (MMU) è un circuito integrato, oggi situato all'interno della CPU, responsabile della gestione della memoria virtuale. Si occupa di mappare gli indirizzi logici generati dal software nei reali indirizzi fisici della RAM.",
+    "hint": "È l'unità hardware dedicata alla gestione della memoria.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_HW_014",
+    "question": "Nel contesto della gestione della memoria virtuale da parte del sistema operativo, cos'è lo 'swapping'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La sostituzione hardware a caldo di un modulo RAM danneggiato."
+      },
+      {
+        "id": "B",
+        "text": "Il trasferimento temporaneo di pagine di memoria RAM inattive in un'area dedicata del disco fisso per liberare memoria fisica."
+      },
+      {
+        "id": "C",
+        "text": "La copia di sicurezza in tempo reale dei dati della cache."
+      },
+      {
+        "id": "D",
+        "text": "La trasmissione alternata di pacchetti dati sul bus degli indirizzi."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Lo swapping consiste nell'allocare porzioni di memoria RAM (inattive) su un'area del disco di massa (file di paging o partizione di swap) per estendere virtualmente lo spazio RAM disponibile per i processi attivi.",
+    "hint": "Consiste nello spostamento temporaneo di dati dalla RAM al disco fisso per carenza di spazio.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_HW_015",
+    "question": "Qual è la fondamentale differenza costruttiva e di funzionamento tra un Hard Disk Drive (HDD) e un Solid State Drive (SSD)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'HDD usa memorie flash NAND volatile, mentre l'SSD si basa su dischi magnetici fissi."
+      },
+      {
+        "id": "B",
+        "text": "L'SSD memorizza i dati su chip di memoria a semiconduttori senza parti in movimento, mentre l'HDD sfrutta dischi magnetici rotanti e testine meccaniche."
+      },
+      {
+        "id": "C",
+        "text": "L'SSD è molto più capiente ed economico a parità di volume rispetto all'HDD."
+      },
+      {
+        "id": "D",
+        "text": "L'HDD è una memoria elettronica di tipo flash, mentre l'SSD è a puntamento ottico."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Gli HDD leggono/scrivono dati magnetizzando piatti metallici rotanti tramite testine mosse da un braccio meccanico. Gli SSD sono basati su chip di memoria a stato solido (NAND flash), garantendo maggiore velocità, assenza di rumore ed elevata resistenza agli urti.",
+    "hint": "Una tecnologia si basa su motori e dischi che girano, l'altra è puramente a stato solido.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_HW_016",
+    "question": "Perché le unità SSD con interfaccia M.2 NVMe offrono velocità di lettura e scrittura molto più alte rispetto agli SSD SATA?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Perché sfruttano il bus ad altissima velocità PCI Express (PCIe) ed eliminano il collo di bottiglia del protocollo SATA."
+      },
+      {
+        "id": "B",
+        "text": "Perché utilizzano la corrente alternata interna per riscaldare le memorie flash."
+      },
+      {
+        "id": "C",
+        "text": "Perché si collegano all'esterno del computer tramite porte analogiche ad alta frequenza."
+      },
+      {
+        "id": "D",
+        "text": "Perché memorizzano le informazioni in formato ottico microscopico."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il protocollo NVMe (Non-Volatile Memory Express) è progettato appositamente per le memorie flash veloci e si collega direttamente alle linee PCI Express (PCIe) della scheda madre, superando il limite di ~600 MB/s imposto dallo standard SATA III.",
+    "hint": "Sfruttano le stesse linee bus utilizzate per le schede video dedicate.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_HW_017",
+    "question": "Quali sono i tre bus principali che compongono il bus di sistema in un computer?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bus di Input, Bus di Output, Bus di Elaborazione"
+      },
+      {
+        "id": "B",
+        "text": "Bus Dati (Data Bus), Bus Indirizzi (Address Bus), Bus di Controllo (Control Bus)"
+      },
+      {
+        "id": "C",
+        "text": "Bus Seriale, Bus Parallelo, Bus Wireless"
+      },
+      {
+        "id": "D",
+        "text": "Bus di Rete, Bus di Alimentazione, Bus Audio"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il bus di sistema collega CPU, memoria e periferiche. Si divide in: Bus Dati (trasferisce i dati), Bus Indirizzi (seleziona la cella di memoria o il dispositivo di I/O) e Bus di Controllo (invia comandi, clock e segnali di stato).",
+    "hint": "Corrispondono rispettivamente alle informazioni da spostare, alla destinazione e ai segnali di comando.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_HW_018",
+    "question": "Con riferimento alla direzione del segnale, il bus degli indirizzi (Address Bus) è tipicamente:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Unidirezionale, con segnali che viaggiano dalla CPU verso la memoria e le periferiche."
+      },
+      {
+        "id": "B",
+        "text": "Bidirezionale, per consentire alla memoria di inviare nuovi indirizzi alla CPU."
+      },
+      {
+        "id": "C",
+        "text": "Unidirezionale, con flussi che vanno esclusivamente dalle periferiche alla CPU."
+      },
+      {
+        "id": "D",
+        "text": "Alternato a seconda del tipo di sistema operativo installato."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il bus degli indirizzi è unidirezionale. La CPU, agendo da master del sistema, genera gli indirizzi di memoria su cui intende leggere o scrivere e li invia ai moduli RAM o alle periferiche.",
+    "hint": "È la CPU che specifica 'dove' operare, quindi decide e invia l'indirizzo.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_HW_019",
+    "question": "Se un microprocessore ha un bus degli indirizzi (Address Bus) ad ampiezza 32 bit, qual è il limite massimo di RAM direttamente indirizzabile?",
+    "options": [
+      {
+        "id": "A",
+        "text": "2 Gigabyte (GB)"
+      },
+      {
+        "id": "B",
+        "text": "4 Gigabyte (GB)"
+      },
+      {
+        "id": "C",
+        "text": "8 Gigabyte (GB)"
+      },
+      {
+        "id": "D",
+        "text": "16 Gigabyte (GB)"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Con un bus a 32 bit, il numero di combinazioni possibili di indirizzi è 2^32 = 4.294.967.296 byte. Dividendo per 1024^3 si ottengono esattamente 4 GB di spazio di indirizzamento.",
+    "hint": "È pari a 2 elevato alla 32esima potenza.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_HW_020",
+    "question": "Quale impatto ha la larghezza (ampiezza) del bus dati (Data Bus) sulle prestazioni di un calcolatore?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fissa il limite massimo di capienza degli hard disk."
+      },
+      {
+        "id": "B",
+        "text": "Determina il numero di bit che possono essere trasferiti contemporaneamente in un singolo ciclo di bus."
+      },
+      {
+        "id": "C",
+        "text": "Stabilisce la quantità di ventole installabili sul case."
+      },
+      {
+        "id": "D",
+        "text": "Modifica il voltaggio dei chip della scheda madre."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'ampiezza del bus dati indica quante linee fisiche compongono il bus. Ad esempio, un bus a 64 bit può trasmettere 64 bit simultaneamente in parallelo per ciclo di bus, raddoppiando la quantità di dati scambiati rispetto a un bus a 32 bit.",
+    "hint": "Pensa al numero di corsie di un'autostrada e a quanti veicoli possono procedere affiancati.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_HW_021",
+    "question": "Che cosa si misura tramite la frequenza di clock di una CPU, espressa comunemente in Gigahertz (GHz)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La velocità di rotazione dei dischi magnetici interni dell'HDD."
+      },
+      {
+        "id": "B",
+        "text": "Il numero di cicli elementari di sincronizzazione eseguiti al secondo dal processore."
+      },
+      {
+        "id": "C",
+        "text": "La quantità di calore generata dal microprocessore per unità di tempo."
+      },
+      {
+        "id": "D",
+        "text": "La velocità di trasmissione dati della scheda di rete wireless."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La frequenza di clock indica la velocità con cui un oscillatore genera impulsi elettrici usati per sincronizzare le operazioni dei circuiti della CPU. 1 GHz corrisponde a un miliardo di impulsi (cicli) al secondo.",
+    "hint": "È il metronomo o 'ritmo di battito' del processore.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_HW_022",
+    "question": "Qual è la caratteristica distintiva fondamentale dell'architettura RISC (Reduced Instruction Set Computer) rispetto all'architettura CISC?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Le CPU RISC hanno istruzioni molto lunghe e complesse per ridurre la dimensione dei programmi."
+      },
+      {
+        "id": "B",
+        "text": "Le CPU RISC si basano su un insieme ristretto di istruzioni semplici, di lunghezza fissa e generalmente eseguite in un solo ciclo di clock."
+      },
+      {
+        "id": "C",
+        "text": "Le CPU RISC lavorano senza registri interni per risparmiare silicio."
+      },
+      {
+        "id": "D",
+        "text": "Le CPU RISC supportano esclusivamente elaborazioni di tipo analogico."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Le architetture RISC semplificano il set di istruzioni per fare in modo che ciascuna istruzione sia semplice, della stessa lunghezza e possa essere completata in un unico ciclo di clock. Questo consente l'uso efficiente della pipeline e minori consumi energetici.",
+    "hint": "Si focalizza sulla semplicità e la velocità di esecuzione delle singole istruzioni.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_HW_023",
+    "question": "Qual è la funzione principale della tecnologia DMA (Direct Memory Access)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Migliorare la qualità audio delle schede sonore integrate."
+      },
+      {
+        "id": "B",
+        "text": "Consentire alle periferiche di scambiare dati direttamente con la memoria RAM senza l'intervento costante della CPU."
+      },
+      {
+        "id": "C",
+        "text": "Aumentare il voltaggio dei chip RAM durante i videogiochi."
+      },
+      {
+        "id": "D",
+        "text": "Cifrare i dati in transito tra computer e hard disk esterno."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il DMA (Direct Memory Access) permette ad alcuni sottosistemi hardware (es. controller dei dischi, schede video o di rete) di accedere direttamente alla memoria RAM principale per leggere o scrivere dati, liberando la CPU da questo carico e migliorando la reattività del sistema.",
+    "hint": "Consente l'accesso 'diretto' alla RAM bypassando il processore.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_HW_024",
+    "question": "Nelle architetture tradizionali delle schede madri, a quale componente era demandata la gestione dei componenti più veloci come CPU, RAM e porta video PCI Express?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Al chip Northbridge"
+      },
+      {
+        "id": "B",
+        "text": "Al chip Southbridge"
+      },
+      {
+        "id": "C",
+        "text": "Al chip Super I/O"
+      },
+      {
+        "id": "D",
+        "text": "Al generatore di clock"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il Northbridge era il chip del chipset responsabile delle comunicazioni ad altissima velocità tra CPU, RAM e la scheda grafica. Nei processori moderni queste funzionalità sono integrate direttamente sul die della CPU.",
+    "hint": "È il chip posizionato nella parte superiore (nord) della scheda madre, vicino alla CPU.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_HW_025",
+    "question": "Quali tipi di componenti sono controllati e gestiti principalmente dal chip Southbridge del chipset della scheda madre?",
+    "options": [
+      {
+        "id": "A",
+        "text": "I registri interni e la ALU della CPU."
+      },
+      {
+        "id": "B",
+        "text": "La memoria RAM principale e la cache L1/L2."
+      },
+      {
+        "id": "C",
+        "text": "Le porte USB, i connettori SATA, i controller audio, le porte Ethernet e gli slot PCI di vecchia generazione."
+      },
+      {
+        "id": "D",
+        "text": "I canali di comunicazione per la scheda video dedicata PCI Express x16."
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Il Southbridge (noto anche come I/O Controller Hub) gestisce le periferiche a minore velocità e le porte di espansione di sistema quali USB, connessioni SATA/IDE, interfacce audio, porte di rete e bus PCI tradizionali.",
+    "hint": "Gestisce l'input/output e i collegamenti secondari più lenti.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_HW_026",
+    "question": "Qual è il compito principale della batteria a bottone presente sulla scheda madre (solitamente una batteria CR2032)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Alimentare le ventole in caso di sovraccarico di calore."
+      },
+      {
+        "id": "B",
+        "text": "Mantenere alimentata la memoria volatile CMOS per conservare l'orologio interno e la configurazione hardware a computer spento."
+      },
+      {
+        "id": "C",
+        "text": "Ricaricare costantemente i moduli RAM per prevenirne l'usura."
+      },
+      {
+        "id": "D",
+        "text": "Fornire energia d'emergenza al monitor del computer."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La batteria tampone alimenta il chip CMOS per evitare la perdita dei dati memorizzati sul BIOS (parametri di avvio, configurazioni di clock, sequenze di boot) e per far funzionare l'orologio di sistema (Real Time Clock) quando il computer non è connesso alla rete elettrica.",
+    "hint": "Mantiene l'orario e le impostazioni del BIOS quando scolleghi il PC dalla presa.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_HW_027",
+    "question": "Quale dei seguenti dispositivi hardware è classificato esclusivamente come periferica di input?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il monitor LCD di un computer desktop."
+      },
+      {
+        "id": "B",
+        "text": "Lo scanner per digitalizzare documenti."
+      },
+      {
+        "id": "C",
+        "text": "La stampante laser di rete."
+      },
+      {
+        "id": "D",
+        "text": "La scheda audio integrata."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Lo scanner è un dispositivo esclusivamente di input poiché si occupa solo di convertire immagini e testi cartacei in dati digitali diretti verso il PC. Il monitor LCD è di output, la stampante è di output e la scheda audio è di input/output.",
+    "hint": "Permette solo di far entrare informazioni nel computer.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_HW_028",
+    "question": "Nelle stampanti laser, che cos'è il 'toner'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un inchiostro liquido a getto ad altissima densità."
+      },
+      {
+        "id": "B",
+        "text": "Un nastro cerato che viene impresso a caldo tramite aghi metallici."
+      },
+      {
+        "id": "C",
+        "text": "Una polvere finissima composta da particelle di carbone, ferro e resina fusa sul foglio tramite calore."
+      },
+      {
+        "id": "D",
+        "text": "Un foglio speciale sensibile ai raggi ultravioletti."
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Il toner è il consumabile delle stampanti laser ed è costituito da una polvere finissima che viene attratta elettrostaticamente sul tamburo fotosensibile e poi impressa e fusa in modo permanente sulla carta dal gruppo fusore (calore e pressione).",
+    "hint": "Si tratta di una polvere nera o colorata, non di inchiostro liquido.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_HW_029",
+    "question": "Qual è il principale vantaggio d'uso che justificano ancora l'utilizzo delle stampanti ad aghi (a impatto)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'elevata risoluzione della stampa fotografica a colori."
+      },
+      {
+        "id": "B",
+        "text": "La capacità di stampare su carta chimica chimicamente accoppiata a più copie autocopianti."
+      },
+      {
+        "id": "C",
+        "text": "La silenziosità assoluta del meccanismo di stampa."
+      },
+      {
+        "id": "D",
+        "text": "Il bassissimo consumo elettrico rispetto ai modelli inkjet."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Le stampanti ad aghi funzionano premendo fisicamente aghi metallici su un nastro inchiostrato contro il foglio. Questa pressione meccanica rende possibile la stampa su moduli continui autocopianti (es. fatture o bolle di trasporto multichimiche), cosa irrealizzabile per stampanti laser o a getto d'inchiostro.",
+    "hint": "Sfruttano la pressione fisica dell'impatto per scrivere su più fogli sovrapposti.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_HW_030",
+    "question": "Per quale motivo un monitor 'touchscreen' viene classificato come periferica di Input/Output?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Perché visualizza i dati elaborati dalla scheda grafica (output) e acquisisce i comandi tramite il tocco delle dita (input)."
+      },
+      {
+        "id": "B",
+        "text": "Perché utilizza sia una connessione di alimentazione sia un cavo video."
+      },
+      {
+        "id": "C",
+        "text": "Perché può essere comandato sia a voce sia tramite telecomando."
+      },
+      {
+        "id": "D",
+        "text": "Perché funziona sia a colori sia in bianco e nero."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il monitor touchscreen visualizza le immagini prodotte dal computer (azione di output) e contemporaneamente funge da sensore di coordinate (tocco delle dita) inviando i segnali al processore (azione di input).",
+    "hint": "Esegue contemporaneamente la funzione di visualizzazione e di inserimento comandi.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_HW_031",
+    "question": "Cosa si intende per 'Hot-plug' (o Hot-swap) nel contesto delle periferiche hardware?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La sostituzione del dissipatore della CPU a computer acceso."
+      },
+      {
+        "id": "B",
+        "text": "La capacità di collegare o scollegare un dispositivo hardware al computer acceso senza la necessità di riavviare il sistema."
+      },
+      {
+        "id": "C",
+        "text": "L'aumento di tensione elettrica sulle porte USB quando si connette uno smartphone."
+      },
+      {
+        "id": "D",
+        "text": "La disattivazione automatica di una periferica per surriscaldamento."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'hot-plugging è la funzionalità che permette di connettere o rimuovere componenti hardware (es. periferiche USB o dischi SATA predisposti) a sistema acceso, senza crash e con riconoscimento dinamico da parte del sistema operativo.",
+    "hint": "Collegamento 'a caldo' senza dover riavviare la macchina.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_HW_032",
+    "question": "Quali flussi di segnali viaggiano contemporaneamente all'interno di un cavo HDMI standard?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Segnali video analogici e audio digitali."
+      },
+      {
+        "id": "B",
+        "text": "Segnali video digitali e audio digitali."
+      },
+      {
+        "id": "C",
+        "text": "Flussi di alimentazione di rete ad alta tensione."
+      },
+      {
+        "id": "D",
+        "text": "Esclusivamente dati di rete in fibra ottica."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'HDMI (High-Definition Multimedia Interface) è uno standard di connessione completamente digitale che consente il passaggio simultaneo sia di video ad alta definizione (compreso il 3D o il 4K/8K) sia di audio multicanale ad alta fedeltà.",
+    "hint": "Collega schede video, console e lettori multimediali ai monitor trasmettendo sia immagini che suoni digitali.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_HW_033",
+    "question": "Qual è lo scopo principale del connettore e del relativo bus di comunicazione SATA (Serial ATA) in un computer?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Alimentare direttamente la CPU."
+      },
+      {
+        "id": "B",
+        "text": "Collegare unità di memoria di massa interne come Hard Disk, SSD e lettori ottici alla scheda madre."
+      },
+      {
+        "id": "C",
+        "text": "Trasmettere i dati tra la GPU e la memoria RAM principale."
+      },
+      {
+        "id": "D",
+        "text": "Consentire il collegamento wireless Bluetooth ad alta velocità."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il bus SATA (Serial ATA) è stato introdotto per sostituire la vecchia interfaccia PATA (IDE). Serve a trasferire i dati tra la scheda madre e le unità di archiviazione interna quali HDD, SSD SATA e masterizzatori.",
+    "hint": "È il cavo a nastro flessibile tipicamente rosso o nero usato all'interno del case per collegare i dischi fisici.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_HW_034",
+    "question": "Quale dei seguenti dispositivi viene installato tipicamente in uno slot PCI Express x16 sulla scheda madre?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un modulo di RAM DDR4 o DDR5."
+      },
+      {
+        "id": "B",
+        "text": "Una scheda grafica (video) dedicata."
+      },
+      {
+        "id": "C",
+        "text": "La batteria a bottone CMOS."
+      },
+      {
+        "id": "D",
+        "text": "Il microprocessore centrale (CPU)."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Lo slot PCI Express x16 (a 16 linee) è l'interfaccia a più elevata larghezza di banda presente su una scheda madre, utilizzata quasi esclusivamente per ospitare schede video dedicate, che richiedono grandi flussi di dati bidirezionali.",
+    "hint": "È lo slot di espansione interno più grande e veloce, perfetto per la grafica 3D.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_HW_035",
+    "question": "Cosa si intende per 'pipelining' nell'ambito dell'architettura dei microprocessori?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il raffreddamento a liquido dei componenti interni."
+      },
+      {
+        "id": "B",
+        "text": "La scomposizione dell'esecuzione delle istruzioni in stadi sequenziali per eseguirne parti diverse in parallelo."
+      },
+      {
+        "id": "C",
+        "text": "L'uso di una doppia scheda madre in parallelo."
+      },
+      {
+        "id": "D",
+        "text": "La memorizzazione speculare dei registri su disco."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il pipelining (pipeline) è una tecnica di implementazione in cui più istruzioni si sovrappongono nell'esecuzione. Suddividendo il ciclo macchina in stadi separati (fetch, decode, execute, write), la CPU inizia a processare l'istruzione successiva prima che la precedente sia conclusa, proprio come in una catena di montaggio.",
+    "hint": "Pensa a una catena di montaggio industriale dove più prodotti sono in stadi di lavorazione differenti.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_HW_036",
+    "question": "Qual è il beneficio principale di una configurazione RAM di tipo 'Dual-Channel'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il raddoppio dello spazio fisico e della capacità dei banchi."
+      },
+      {
+        "id": "B",
+        "text": "Il raddoppio della larghezza di banda del bus dati verso la CPU grazie all'uso combinato di due banchi identici."
+      },
+      {
+        "id": "C",
+        "text": "La protezione totale contro gli sbalzi di tensione elettrica."
+      },
+      {
+        "id": "D",
+        "text": "L'eliminazione automatica della memoria virtuale su disco."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La modalità Dual-Channel consente al controller di memoria di accedere a due banchi di RAM in parallelo su canali separati, raddoppiando l'ampiezza complessiva del bus dati (da 64 a 128 bit) e velocizzando il trasferimento delle informazioni.",
+    "hint": "Aumenta la velocità di transito dei dati raddoppiando i canali fisici attivi.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_HW_037",
+    "question": "Qual è la differenza fondamentale tra l'architettura Harvard e l'architettura di Von Neumann?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'architettura Harvard adotta bus e memorie fisicamente separati per dati e istruzioni, a differenza di Von Neumann che ne usa uno condiviso."
+      },
+      {
+        "id": "B",
+        "text": "L'architettura Harvard non prevede l'utilizzazione di una memoria RAM."
+      },
+      {
+        "id": "C",
+        "text": "L'architettura Von Neumann non supporta le periferiche di output."
+      },
+      {
+        "id": "D",
+        "text": "L'architettura Harvard lavora unicamente con dati analogici."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Mentre l'architettura di Von Neumann ha una sola memoria e un solo bus condiviso per istruzioni e dati (creando possibili rallentamenti noti come 'collo di bottiglia di Von Neumann'), l'architettura Harvard gestisce codice e dati in memorie distinte con bus separati, consentendo letture parallele.",
+    "hint": "Una architettura divide fisicamente le vie di transito per istruzioni e dati, l'altra le unisce.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_HW_038",
+    "question": "Nel contesto dei computer, che cos'è il 'firmware'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Una suite software per la gestione dell'ufficio."
+      },
+      {
+        "id": "B",
+        "text": "Un tipo di software di basso livello preinstallato su una memoria ROM/EEPROM per controllare direttamente i circuiti di un dispositivo hardware."
+      },
+      {
+        "id": "C",
+        "text": "Un materiale termoconduttore da applicare sulla CPU."
+      },
+      {
+        "id": "D",
+        "text": "Il software che gestisce l'antivirus del sistema operativo."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il firmware è un programma stabile integrato direttamente in un chip hardware dal produttore. Serve ad avviare il componente e a regolarne le funzioni logiche di base (es. il BIOS/UEFI per la scheda madre).",
+    "hint": "È un software integrato permanentemente nell'hardware.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_HW_039",
+    "question": "Qual è il compito principale dei file denominati 'driver' installati nel sistema operativo?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Effettuare la pulizia dei file temporanei sul disco fisso."
+      },
+      {
+        "id": "B",
+        "text": "Fungere da intermediari per permettere al sistema operativo di comunicare e controllare un dispositivo hardware specifico."
+      },
+      {
+        "id": "C",
+        "text": "Accelerare la velocità della CPU tramite overclock."
+      },
+      {
+        "id": "D",
+        "text": "Configurare l'indirizzo IP del computer in una rete locale."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Un driver è un software che permette a una periferica (es. stampante, scheda video o mouse) di comunicare correttamente con il sistema operativo del computer, traducendo i comandi software generici in segnali specifici per l'hardware.",
+    "hint": "Funziona come un traduttore tra sistema operativo e componente fisico.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_HW_040",
+    "question": "A quale scopo viene utilizzato lo 'Spooler' di stampa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A pulire l'inchiostro in eccesso dalle testine della stampante."
+      },
+      {
+        "id": "B",
+        "text": "A convogliare temporaneamente i lavori di stampa in una coda su disco fisso per liberare l'applicazione mittente."
+      },
+      {
+        "id": "C",
+        "text": "A convertire i colori RGB del monitor in colori CMYK."
+      },
+      {
+        "id": "D",
+        "text": "A impedire la stampa in bianco e nero in assenza del toner a colori."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Lo spooler di stampa memorizza temporaneamente in una coda (su memoria di massa) i dati che l'utente vuole stampare. In questo modo il computer invia i dati alla stampante rispettandone i tempi di esecuzione fisici, mentre l'utente può riutilizzare subito il programma da cui ha inviato la stampa.",
+    "hint": "Gestisce la coda dei documenti inviati alla stampante.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_HW_041",
+    "question": "Qual è il limite teorico principale superato nel passaggio da un'architettura CPU a 32 bit a una a 64 bit?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La visualizzazione di immagini a risoluzione superiore."
+      },
+      {
+        "id": "B",
+        "text": "L'indirizzamento diretto di una capacità di memoria RAM superiore a 4 Gigabyte (GB)."
+      },
+      {
+        "id": "C",
+        "text": "La necessità di utilizzare la pasta termica sul dissipatore."
+      },
+      {
+        "id": "D",
+        "text": "Il supporto per la trasmissione dei dati via cavo HDMI."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Con un'architettura a 32 bit si hanno registri a 32 bit, limitando lo spazio di memoria fisica direttamente indirizzabile a 2^32 byte (4 GB). Con l'architettura a 64 bit si possono indirizzare teoricamente fino a 16 exabyte di RAM.",
+    "hint": "Riguarda la massima memoria RAM che il processore può riconoscere e gestire.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_HW_042",
+    "question": "Qual è la principale differenza architetturale ed operativa tra una CPU e una GPU?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La CPU possiede migliaia di piccoli core paralleli, mentre la GPU ha pochissimi core molto potenti."
+      },
+      {
+        "id": "B",
+        "text": "La CPU è strutturata per elaborazioni sequenziali ad alte prestazioni di carattere generico, mentre la GPU ha migliaia di core per gestire calcoli massivi in parallelo."
+      },
+      {
+        "id": "C",
+        "text": "La GPU lavora senza bus di controllo per evitare conflitti."
+      },
+      {
+        "id": "D",
+        "text": "La GPU è di tipo analogico, mentre la CPU è unicamente digitale."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Le CPU sono progettate come chip general-purpose in grado di eseguire sequenze logiche complesse con pochi core ottimizzati. Le GPU (Graphics Processing Unit) contengono migliaia di core più semplici progettati per il calcolo matematico parallelo intensivo (es. calcolo vettoriale per pixel e poligoni).",
+    "hint": "Una è un cervello logico flessibile, l'altra è una macchina parallela specializzata.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_HW_043",
+    "question": "In un sistema di archiviazione dati di tipo RAID, come funziona la configurazione RAID 1 (Mirroring)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Distribuisce i dati a blocchi alternati tra i dischi per velocizzare la scrittura, senza alcuna ridondanza."
+      },
+      {
+        "id": "B",
+        "text": "Scrive contemporaneamente gli stessi identici dati su almeno due dischi, garantendo ridondanza e tolleranza ai guasti."
+      },
+      {
+        "id": "C",
+        "text": "Utilizza la memoria RAM come se fosse un disco rigido virtuale."
+      },
+      {
+        "id": "D",
+        "text": "Comprime i dati del 50% prima di memorizzarli."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il RAID 1 (noto come mirroring) duplica i dati in tempo reale su due o più unità di memoria. Se un disco si rompe, il sistema rimane operativo attingendo al disco superstite, offrendo la massima sicurezza dei dati.",
+    "hint": "Crea una copia speculare esatta dei dati su due dischi separati.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_HW_044",
+    "question": "Qual è il principale punto debole di una configurazione di dischi in RAID 0 (Striping)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Una fortissima riduzione delle velocità di lettura e scrittura dei dati."
+      },
+      {
+        "id": "B",
+        "text": "La totale perdita dei dati memorizzati nel caso di rottura di uno qualsiasi dei dischi dell'array."
+      },
+      {
+        "id": "C",
+        "text": "Il dimezzamento della capacità reale dei dischi rispetti a un singolo disco."
+      },
+      {
+        "id": "D",
+        "text": "L'incompatibilità con la maggior parte delle schede video PCI Express."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La modalità RAID 0 frammenta i dati tra i dischi per massimizzare la velocità (striping) senza alcuna ridondanza. Di conseguenza, la rottura di un singolo disco causa la perdita parziale (e quindi l'irrecuperabilità) dell'intera sequenza di file salvata.",
+    "hint": "Se si guasta un disco perdi tutto l'archivio, poiché non c'è ridondanza né parità.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_HW_045",
+    "question": "Quale caratteristica tecnologica consente ai dischi ottici Blu-Ray di contenere molti più dati rispetto ai normali DVD?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La dimensione fisica del diametro del disco, che è molto più grande."
+      },
+      {
+        "id": "B",
+        "text": "L'utilizzo di un laser a luce blu-viola con lunghezza d'onda minore che permette di mettere a fuoco aree di dati più piccole e ravvicinate."
+      },
+      {
+        "id": "C",
+        "text": "L'uso di una piastra magnetica integrata nello spessore del disco."
+      },
+      {
+        "id": "D",
+        "text": "Una velocità di rotazione doppia del supporto all'interno del lettore."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il Blu-Ray impiega un laser a lunghezza d'onda più corta (405 nm, colore blu-viola) rispetto a quello rosso dei DVD (650 nm). Il punto di focalizzazione più piccolo consente di scrivere dati microscopici a densità molto superiore sulla superficie del disco.",
+    "hint": "Una luce a lunghezza d'onda minore consente di tracciare solchi microscopici più ravvicinati.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_HW_046",
+    "question": "Qual è la differenza fondamentale di velocità di trasmissione dati tra il bus SATA III e il PCI Express 4.0 x16?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il bus SATA III è circa 10 volte più veloce del PCI Express 4.0."
+      },
+      {
+        "id": "B",
+        "text": "Hanno la stessa velocità teorica e cambiano solo per la forma del connettore."
+      },
+      {
+        "id": "C",
+        "text": "Il PCI Express 4.0 x16 è decine di volte più veloce del SATA III, superando i 30 GB/s contro i circa 0.6 GB/s del SATA III."
+      },
+      {
+        "id": "D",
+        "text": "Entrambi hanno una velocità teorica fissa limitata a un massimo di 100 Megabytes al secondo."
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'interfaccia SATA III ha un limite massimo di banda pari a 6 Gbps (circa 600 MB/s effettivi). Il bus PCI Express 4.0 x16 raggiunge invece circa 31.5 GB/s (Gigabytes al secondo), risultando decine di volte più rapido.",
+    "hint": "Uno è pensato per flussi grafici e scambi ultraveloci con la CPU, l'altro per hard disk tradizionali.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_HW_047",
+    "question": "Disponendo in ordine decrescente di dimensione fisica i fattori di forma (form factor) delle schede madri, qual è la sequenza corretta?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mini-ITX -> Micro-ATX -> ATX"
+      },
+      {
+        "id": "B",
+        "text": "ATX -> Micro-ATX -> Mini-ITX"
+      },
+      {
+        "id": "C",
+        "text": "ATX -> Mini-ITX -> Micro-ATX"
+      },
+      {
+        "id": "D",
+        "text": "Micro-ATX -> ATX -> Mini-ITX"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il formato ATX (Advanced Technology eXtended) è lo standard full-size comune nei PC tower. Micro-ATX rappresenta una variante ridotta per case di medie dimensioni. Il formato Mini-ITX è il più piccolo ed è destinato a PC ultra-compatti.",
+    "hint": "Ordina dallo standard desktop più grande a quello più piccolo.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_HW_048",
+    "question": "Quale vantaggio pratico introduce la porta e relativo connettore USB di tipo C (USB Type-C)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il connettore è perfettamente simmetrico e reversibile, inseribile in entrambi i versi fisici."
+      },
+      {
+        "id": "B",
+        "text": "Richiede batterie interne al cavo per amplificare i segnali digitali."
+      },
+      {
+        "id": "C",
+        "text": "Funziona senza collegamenti metallici, trasmettendo i dati via induzione elettromagnetica."
+      },
+      {
+        "id": "D",
+        "text": "È incompatibile con i tradizionali cavi in rame."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'USB Type-C ha una piedinatura speculare a 24 pin che rende il connettore reversibile: l'utente può inserirlo nella porta in qualsiasi verso (non c'è un lato sopra/sotto), semplificandone l'utilizzo e riducendo le rotture fisiche.",
+    "hint": "Non c'è un orientamento obbligatorio del connettore per inserirlo.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_HW_049",
+    "question": "Qual è il compito dell'alimentatore (PSU) all'interno del case di un personal computer?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Generare gli impulsi di clock per temporizzare il processore."
+      },
+      {
+        "id": "B",
+        "text": "Convertire la corrente alternata (AC) della rete domestica nelle correnti continue (DC) ai voltaggi corretti per i componenti elettronici."
+      },
+      {
+        "id": "C",
+        "text": "Aumentare la memoria cache a disposizione dei programmi."
+      },
+      {
+        "id": "D",
+        "text": "Fungere da ripetitore del segnale Wi-Fi."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'alimentatore riceve la corrente alternata (solitamente 230V) e la trasforma in corrente continua stabile a vari voltaggi necessari (+3.3V, +5V, +12V) per far funzionare in sicurezza scheda madre, dischi, ventole e processore.",
+    "hint": "Esegue la trasformazione della tensione di rete domestica in tensioni adatte alla scheda madre.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_HW_050",
+    "question": "Qual è il ruolo rispettivo dei registri MAR (Memory Address Register) e MDR (Memory Data Register) durante una lettura in RAM?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il MAR ospita il dato estratto dalla memoria, mentre l'MDR contiene l'indirizzo da cui estrarlo."
+      },
+      {
+        "id": "B",
+        "text": "Il MAR specifica l'indirizzo da accedere in memoria, mentre l'MDR memorizza temporaneamente il dato letto da quell'indirizzo."
+      },
+      {
+        "id": "C",
+        "text": "Vengono utilizzati per resettare la memoria cache della CPU."
+      },
+      {
+        "id": "D",
+        "text": "Pianificano la priorità dei processi del sistema operativo."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Per leggere un dato in RAM, la CPU deposita l'indirizzo della locazione desiderata nel Memory Address Register (MAR). La memoria legge l'indirizzo e deposita il dato sul bus dati, da cui giunge nel Memory Data Register (MDR) a disposizione del processore.",
+    "hint": "Uno gestisce la posizione (Address), l'altro il contenuto (Data) associato.",
+    "level": "avanzato"
+  }
+]

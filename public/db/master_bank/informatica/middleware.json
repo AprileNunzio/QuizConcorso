@@ -1,0 +1,702 @@
+[
+  {
+    "id": "Q_INF_MID_001",
+    "question": "Cos'è Apache Tomcat?",
+    "options": [
+      { "id": "A", "text": "Un Servlet Container in grado di eseguire Java Servlet e JavaServer Pages (JSP)." },
+      { "id": "B", "text": "Un database relazionale ottimizzato per lo storage di codice Java." },
+      { "id": "C", "text": "Un server web nativo scritto interamente in linguaggio C per alte prestazioni." },
+      { "id": "D", "text": "Un Enterprise Service Bus (ESB) completo per l'integrazione di sistemi legacy." }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Apache Tomcat è un servlet container open-source sviluppato dalla Apache Software Foundation. Implementa le specifiche Java Servlet, Jakarta Server Pages (JSP) ed Expression Language, fornendo un ambiente per l'esecuzione di codice Java lato server.",
+    "hint": "Implementa solo alcune specifiche della suite enterprise (web profile ristretto).",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_MID_002",
+    "question": "Qual è la porta di default standard utilizzata dal server web Apache HTTP Server (e da altri web server come Nginx) per gestire le connessioni HTTP non cifrate?",
+    "options": [
+      { "id": "A", "text": "443" },
+      { "id": "B", "text": "80" },
+      { "id": "C", "text": "8080" },
+      { "id": "D", "text": "22" }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La porta 80 è la porta di rete standard definita dalla IANA per le connessioni HTTP non cifrate. La porta 443 è per HTTPS, 8080 è tipicamente Tomcat e 22 è per SSH.",
+    "hint": "È la porta standard del protocollo HTTP in chiaro.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_MID_003",
+    "question": "In Nginx, quale direttiva definisce il blocco di configurazione principale per la gestione di un server virtuale (virtual host)?",
+    "options": [
+      { "id": "A", "text": "virtual_host" },
+      { "id": "B", "text": "proxy_pass" },
+      { "id": "C", "text": "server" },
+      { "id": "D", "text": "listen" }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "La direttiva 'server' all'interno del file di configurazione di Nginx (nginx.conf) viene utilizzata per definire un server virtuale, permettendo di gestire diversi domini o porte sulla stessa istanza del web server.",
+    "hint": "È la parola chiave che racchiude le direttive 'listen' e 'server_name'.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_MID_004",
+    "question": "Quale formato di interscambio dati è maggiormente diffuso e preferito nelle moderne API RESTful per la sua leggerezza e facilità di parsing?",
+    "options": [
+      { "id": "A", "text": "JSON (JavaScript Object Notation)" },
+      { "id": "B", "text": "XML (eXtensible Markup Language)" },
+      { "id": "C", "text": "YAML (YAML Ain't Markup Language)" },
+      { "id": "D", "text": "CSV (Comma-Separated Values)" }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "JSON è diventato il formato standard de facto per le API REST grazie alla sua sintassi leggera, leggibile dall'uomo e facilmente interpretabile da qualsiasi linguaggio di programmazione, in particolare JavaScript nei browser.",
+    "hint": "È una notazione basata su coppie chiave-valore strettamente legata a JavaScript.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_MID_005",
+    "question": "Cosa indica l'acronimo SOA nell'ambito dell'ingegneria del software e dei sistemi middleware?",
+    "options": [
+      { "id": "A", "text": "Standard Object Architecture" },
+      { "id": "B", "text": "System Operations And administration" },
+      { "id": "C", "text": "Secure Orchestration Agent" },
+      { "id": "D", "text": "Service-Oriented Architecture" }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "SOA sta per Service-Oriented Architecture (Architettura Orientata ai Servizi). È uno stile architetturale in cui i componenti software forniscono servizi ad altri componenti tramite un protocollo di comunicazione su una rete.",
+    "hint": "Si focalizza sulla creazione di servizi riutilizzabili e interoperabili.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_MID_006",
+    "question": "In WildFly, qual è la modalità di esecuzione predefinita in cui il server opera come un'istanza singola e indipendente, con un proprio file di configurazione locale?",
+    "options": [
+      { "id": "A", "text": "Modalità Distributed" },
+      { "id": "B", "text": "Modalità Standalone" },
+      { "id": "C", "text": "Modalità Domain" },
+      { "id": "D", "text": "Modalità Cluster" }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La modalità Standalone è il modo classico di eseguire WildFly: un singolo processo Java autonomo che legge la sua configurazione da un file (solitamente standalone.xml) e gestisce autonomamente le applicazioni distribuite su di esso.",
+    "hint": "Indica un'esecuzione autonoma e a sé stante.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_MID_007",
+    "question": "Nelle API REST, quale metodo HTTP viene utilizzato secondo le convenzioni standard per creare una nuova risorsa sul server?",
+    "options": [
+      { "id": "A", "text": "POST" },
+      { "id": "B", "text": "GET" },
+      { "id": "C", "text": "PUT" },
+      { "id": "D", "text": "DELETE" }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il metodo HTTP POST viene utilizzato per inviare dati al server allo scopo di creare una nuova risorsa. PUT viene solitamente utilizzato per aggiornare o sostituire una risorsa esistente, mentre GET serve per recuperarla.",
+    "hint": "Questo metodo non è idempotente ed è associato alla creazione di risorse.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_MID_008",
+    "question": "Su quale formato di markup si basa rigorosamente il protocollo SOAP (Simple Object Access Protocol) per la formattazione dei messaggi inviati e ricevuti?",
+    "options": [
+      { "id": "A", "text": "JSON" },
+      { "id": "B", "text": "HTML" },
+      { "id": "C", "text": "XML" },
+      { "id": "D", "text": "Protobuf" }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "SOAP è un protocollo basato esclusivamente su XML. Ogni messaggio SOAP è contenuto all'interno di una busta (Envelope) XML che include un Header (opzionale) e un Body (obbligatorio).",
+    "hint": "È un formato verboso basato su tag, antenato di JSON per l'interscambio dati.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_MID_009",
+    "question": "Che cos'è un ESB (Enterprise Service Bus) nel contesto delle architetture aziendali?",
+    "options": [
+      { "id": "A", "text": "Un canale fisico in fibra ottica per il trasferimento ultra-rapido di dati tra server." },
+      { "id": "B", "text": "Un framework client-side per la creazione di interfacce utente dinamiche." },
+      { "id": "C", "text": "Un protocollo di sicurezza a livello di rete per impedire intrusioni esterne." },
+      { "id": "D", "text": "Un'infrastruttura middleware che facilita l'integrazione, l'instradamento e la trasformazione dei messaggi tra applicazioni eterogenee." }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'ESB è un middleware che funge da 'bus' di comunicazione per integrare sistemi diversi. Si occupa dell'instradamento (routing), della traduzione dei protocolli e della trasformazione dei dati per facilitare l'interoperabilità tra servizi.",
+    "hint": "È il 'bus' centrale per l'integrazione di sistemi eterogenei.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_MID_010",
+    "question": "Quale file di configurazione principale di Apache Tomcat definisce la struttura dei connettori (Connector), le porte di ascolto e i servizi disponibili?",
+    "options": [
+      { "id": "A", "text": "web.xml" },
+      { "id": "B", "text": "server.xml" },
+      { "id": "C", "text": "context.xml" },
+      { "id": "D", "text": "tomcat-users.xml" }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il file 'server.xml' è il file di configurazione principale di Tomcat. Configura il server a livello globale, definendo le porte TCP, i connettori HTTP e AJP, le definizioni di cluster, host virtuali e motori di esecuzione.",
+    "hint": "Si trova nella cartella 'conf' di Tomcat e descrive l'intera struttura del server.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_MID_011",
+    "question": "Nel protocollo HTTP e nelle API REST, qual è il significato del codice di stato 404?",
+    "options": [
+      { "id": "A", "text": "La risorsa richiesta non è stata trovata sul server." },
+      { "id": "B", "text": "Il client non dispone delle autorizzazioni necessarie per accedere alla risorsa." },
+      { "id": "C", "text": "Il server ha riscontrato un errore interno non previsto." },
+      { "id": "D", "text": "La richiesta è sintatticamente errata ed è stata rifiutata dal server." }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il codice HTTP 404 (Not Found) è un codice di errore lato client che indica che il server non è stato in grado di trovare la risorsa associata all'URI specificato.",
+    "hint": "È il classico errore di risorsa o pagina non trovata.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_MID_012",
+    "question": "Quale delle seguenti affermazioni descrive correttamente la natura \"stateless\" (priva di stato) delle API REST?",
+    "options": [
+      { "id": "A", "text": "Il server deve mantenere in memoria la sessione di ciascun client connesso." },
+      { "id": "B", "text": "Il client non può effettuare richieste se non è connesso a una VPN." },
+      { "id": "C", "text": "Ogni singola richiesta dal client deve contenere tutte le informazioni necessarie all'elaborazione, senza affidarsi ad uno stato di sessione salvato sul server." },
+      { "id": "D", "text": "Il server cancella i dati archiviati nel database ad ogni nuova richiesta HTTP." }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'assenza di stato (statelessness) in REST impone che il server non mantenga alcuna informazione sul contesto del client tra una richiesta e l'altra. Ciascuna richiesta deve contenere autonomamente le credenziali e i parametri richiesti.",
+    "hint": "Niente sessioni lato server; ogni richiesta è autoconsistente.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_MID_013",
+    "question": "In Nginx, quale direttiva viene comunemente utilizzata per inoltrare le richieste in ingresso a un server backend (ad esempio un application server Tomcat) funzionando da proxy inverso?",
+    "options": [
+      { "id": "A", "text": "rewrite" },
+      { "id": "B", "text": "proxy_pass" },
+      { "id": "C", "text": "redirect_to" },
+      { "id": "D", "text": "upstream" }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La direttiva 'proxy_pass' mappa un URI sul server locale verso un server remoto o locale (backend) specificandone l'URL di inoltro. Consente di implementare facilmente pattern di proxy inverso.",
+    "hint": "Indica a Nginx di far 'passare' la richiesta al proxy specificato.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_MID_014",
+    "question": "Qual è la differenza fondamentale tra un Web Server tradicional e un Application Server Enterprise?",
+    "options": [
+      { "id": "A", "text": "Un Web Server serve contenuti statici tramite HTTP, mentre un Application Server offre un ambiente completo per eseguire logica aziendale complessa (ad es. transazioni, code, EJB)." },
+      { "id": "B", "text": "Un Web Server può gestire solo indirizzi IP privati, mentre un Application Server è rivolto a Internet." },
+      { "id": "C", "text": "I Web Server supportano solo Java, mentre gli Application Server supportano linguaggi nativi in C++." },
+      { "id": "D", "text": "Non vi è alcuna differenza, sono due termini sinonimi usati indifferentemente." }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "I Web Server (es. Apache HTTPD, Nginx) sono ottimizzati per servire file statici e fare reverse proxy. Gli Application Server (es. WildFly, WebSphere) implementano specifiche enterprise complete (es. Jakarta EE) fornendo servizi transazionali, di messaggistica e contesti per oggetti di business.",
+    "hint": "Pensa alla gestione del protocollo HTTP rispetto all'intera infrastruttura enterprise.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_MID_015",
+    "question": "Quale file XML costituisce il contratto formale per descrivere le funzionalità, le operazioni e i parametri offerti da un servizio web SOAP?",
+    "options": [
+      { "id": "A", "text": "web.xml" },
+      { "id": "B", "text": "pom.xml" },
+      { "id": "C", "text": "application.xml" },
+      { "id": "D", "text": "WSDL (Web Services Description Language)" }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "WSDL è il documento in formato XML utilizzato per descrivere in modo standardizzato le operazioni offerte da un Web Service SOAP, i formati dei messaggi richiesti e gli endpoint di rete.",
+    "hint": "È il linguaggio di descrizione dei servizi web basati su SOAP.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_MID_016",
+    "question": "Nella configurazione predefinita all'installazione, qual è la porta TCP su cui Apache Tomcat rimane in ascolto per servire richieste HTTP?",
+    "options": [
+      { "id": "A", "text": "80" },
+      { "id": "B", "text": "443" },
+      { "id": "C", "text": "8080" },
+      { "id": "D", "text": "9990" }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "La porta di default standard di Tomcat per il connettore HTTP è la 8080. Questo evita conflitti con le installazioni di web server standard che occupano la porta 80.",
+    "hint": "È formata raddoppiando e affiancando la porta HTTP standard.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_MID_017",
+    "question": "Nell'ambito dell'architettura di Apache Tomcat, che cos'è \"Catalina\"?",
+    "options": [
+      { "id": "A", "text": "Il Servlet Container che implementa le specifiche per l'esecuzione di Servlet Java." },
+      { "id": "B", "text": "Il motore di template utilizzato per elaborare le pagine statiche HTML." },
+      { "id": "C", "text": "La console di amministrazione grafica accessibile via browser." },
+      { "id": "D", "text": "La libreria nativa per la connessione crittografata SSL." }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Catalina è il nome in codice del Servlet Container di Apache Tomcat, responsabile dell'istanziazione, dell'esecuzione e del ciclo di vita delle Servlet.",
+    "hint": "È il vero 'cuore' Java di Apache Tomcat.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_MID_018",
+    "question": "Quale dei seguenti sistemi rappresenta un middleware orientato ai messaggi (Message-Oriented Middleware - MOM) largamente utilizzato per integrare sistemi asincroni?",
+    "options": [
+      { "id": "A", "text": "Apache Tomcat" },
+      { "id": "B", "text": "RabbitMQ" },
+      { "id": "C", "text": "WildFly" },
+      { "id": "D", "text": "Apache HTTP Server" }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "RabbitMQ è un message broker (MOM) open-source (implementa lo standard AMQP) che supporta la ricezione e la distribuzione asincrona di messaggi tra sistemi.",
+    "hint": "È un broker basato sul protocollo AMQP e code di messaggi.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_MID_019",
+    "question": "Quale delle seguenti specifiche Java/Jakarta EE è supportata nativamente da Apache Tomcat senza l'aggiunta di librerie esterne di terze parti?",
+    "options": [
+      { "id": "A", "text": "EJB (Enterprise JavaBeans)" },
+      { "id": "B", "text": "JTA (Java Transaction API)" },
+      { "id": "C", "text": "Jakarta Servlet e Jakarta Server Pages (JSP)" },
+      { "id": "D", "text": "JMS (Java Message Service)" }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Tomcat è un Servlet container e non un Application Server completo. Supporta le specifiche web di base come Servlet, JSP, WebSocket ed EL. Non supporta invece specifiche enterprise pesanti come EJB, JTA o JMS.",
+    "hint": "Tomcat non implementa il profilo Jakarta EE completo, ma solo il Web Profile ridotto.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_MID_020",
+    "question": "In WildFly, qual è lo scopo principale del comando di amministrazione `jboss-cli.sh` (o `jboss-cli.bat`)?",
+    "options": [
+      { "id": "A", "text": "Consentire la configurazione e la gestione del server a caldo tramite riga di comando, offrendo un'alternativa all'editing diretto dei file XML." },
+      { "id": "B", "text": "Avviare la compilazione delle classi Java prima di effettuare il deploy." },
+      { "id": "C", "text": "Eseguire la migrazione automatica di database relazionali associati all'applicazione." },
+      { "id": "D", "text": "Abilitare il debug visivo del codice sorgente delle servlet." }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La CLI di WildFly è un potente strumento interattivo che permette agli amministratori di modificare la configurazione del server in esecuzione (a caldo) garantendo la validità sintattica ed evitando errori di modifica manuale dei file standalone.xml o domain.xml.",
+    "hint": "È lo strumento a riga di comando per gestire la configurazione del server.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_MID_021",
+    "question": "Nello sviluppo di API REST, che cosa significa che un metodo HTTP è definito \"idempotente\"?",
+    "options": [
+      { "id": "A", "text": "Il metodo restituisce sempre lo stesso codice di stato HTTP per qualsiasi richiesta." },
+      { "id": "B", "text": "L'effetto collaterale sul server di più richieste identiche è identico a quello di una singola richiesta." },
+      { "id": "C", "text": "La richiesta può essere inviata solo da client autorizzati." },
+      { "id": "D", "text": "Il payload del metodo viene compresso automaticamente prima dell'invio." }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Un metodo HTTP si dice idempotente se l'esecuzione di più richieste identiche produce lo stesso stato sul server rispetto all'esecuzione di una sola richiesta. Metodi come GET, PUT e DELETE sono idempotenti; POST non lo è.",
+    "hint": "Pensa alla stabilità dello stato del server dopo chiamate ripetute.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_MID_022",
+    "question": "Quale modulo di Apache HTTP Server viene utilizzato per abilitare le funzionalità di Reverse Proxy per reindirizzare il traffico HTTP verso altri server di backend?",
+    "options": [
+      { "id": "A", "text": "mod_rewrite" },
+      { "id": "B", "text": "mod_ssl" },
+      { "id": "C", "text": "mod_proxy" },
+      { "id": "D", "text": "mod_deflate" }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Il modulo 'mod_proxy' (insieme a sottomoduli come mod_proxy_http o mod_proxy_ajp) implementa le funzionalità di proxy/reverse proxy e load balancing per Apache HTTP Server.",
+    "hint": "Il nome richiama esplicitamente il ruolo di intermediario di rete.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_MID_023",
+    "question": "Qual è il componente server-side predefinito introdotto in WildFly (a partire da JBoss AS 9) per gestire i connettori HTTP e fungere da Web Server ad alte prestazioni?",
+    "options": [
+      { "id": "A", "text": "Undertow" },
+      { "id": "B", "text": "Catalina" },
+      { "id": "C", "text": "GlassFish" },
+      { "id": "D", "text": "Netty" }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Undertow è un server web leggero e flessibile scritto in Java, basato su I/O non bloccante (NIO), integrato in WildFly per sostituire il vecchio motore Tomcat/JBoss Web e garantire eccezionali performance di throughput.",
+    "hint": "Inizia con la lettera 'U' ed è noto per essere estremamente rapido e modulare.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_MID_024",
+    "question": "Nella sicurezza delle API REST, quale delle seguenti affermazioni descrive accuratamente il funzionamento dei JSON Web Token (JWT)?",
+    "options": [
+      { "id": "A", "text": "I token JWT richiedono al server di salvare lo stato di sessione del client in memoria o in un database centralizzato." },
+      { "id": "B", "text": "I token JWT non contengono informazioni sull'utente, ma sono chiavi crittografiche per decifrare i dati del database." },
+      { "id": "C", "text": "I token JWT sono utilizzabili solo su connessioni HTTP non cifrate per motivi prestazionali." },
+      { "id": "D", "text": "I token JWT contengono informazioni (claims) firmate digitalmente, consentendo un'autenticazione stateless in cui il server verifica la firma senza interrogare sessioni locali." }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Un JWT è un meccanismo stateless autogestito. La firma crittografica (simmetrica o asimmetrica) permette al server che riceve il token di verificarne l'autenticità e di fidarsi dei dati inseriti all'interno del token stesso (come nome utente, ruoli, scadenza) senza memorizzare sessioni.",
+    "hint": "È un meccanismo di autenticazione decentralizzato e autoconsistente.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_MID_025",
+    "question": "Nell'ambito di un ESB (Enterprise Service Bus), che cosa rappresenta la funzione di \"Mediation\" (Mediazione)?",
+    "options": [
+      { "id": "A", "text": "L'assegnazione automatica di un indirizzo IP dinamico ai client." },
+      { "id": "B", "text": "L'intercettazione dei messaggi in transito per effettuare instradamento, trasformazione del formato o traduzione di protocolli." },
+      { "id": "C", "text": "Il backup fisico a caldo di tutti i database aziendali integrati." },
+      { "id": "D", "text": "La compilazione in tempo reale del codice delle applicazioni backend." }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La mediazione è il cuore logico di un ESB. Permette di intercettare il messaggio tra mittente e destinatario per applicare filtri, tradurre il protocollo (es. da SOAP a REST) o trasformare il payload (es. da XML a JSON).",
+    "hint": "Agisce come intermediario intelligente per adattare i flussi tra sistemi eterogenei.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_MID_026",
+    "question": "Quale direttiva di Apache HTTP Server permette di mantenere aperta una connessione TCP per soddisfare più richieste HTTP consecutive, riducendo l'overhead di handshake?",
+    "options": [
+      { "id": "A", "text": "KeepAlive" },
+      { "id": "B", "text": "Timeout" },
+      { "id": "C", "text": "MaxKeepAliveRequests" },
+      { "id": "D", "text": "PersistentConnection" }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La direttiva 'KeepAlive' abilita le connessioni HTTP persistenti, consentendo di servire più richieste attraverso la stessa connessione TCP.",
+    "hint": "Mantieni in vita...",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_MID_027",
+    "question": "Nello standard SOAP, qual è la funzione specifica del tag `<soap:Fault>` all'interno del corpo del messaggio?",
+    "options": [
+      { "id": "A", "text": "Mantenere le informazioni di tracciamento e monitoraggio delle performance." },
+      { "id": "B", "text": "Permettere l'invio asincrono di dati binari allegati." },
+      { "id": "C", "text": "Trasportare le informazioni dettagliate sugli errori e sulle eccezioni verificate lato server durante l'esecuzione del servizio." },
+      { "id": "D", "text": "Definire i parametri di crittografia per la sicurezza del messaggio." }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'elemento Fault è utilizzato all'interno del SOAP Body per restituire informazioni di errore al chiamante, inclusi codici di errore (faultcode) e spiegazioni testuali (faultstring) del problema riscontrato.",
+    "hint": "È l'equivalente di un'eccezione o di un errore HTTP 5xx nel mondo SOAP.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_MID_028",
+    "question": "In WildFly, qual è la differenza operativa chiave tra l'esecuzione in modalità \"Standalone\" e quella in modalità \"Domain\"?",
+    "options": [
+      { "id": "A", "text": "La modalità Domain supporta solo linguaggi PHP e Python, mentre Standalone supporta solo Java." },
+      { "id": "B", "text": "La modalità Domain consente di gestire centralmente configurazioni, profili e deploy di più istanze di WildFly distribuite su nodi diversi, mentre Standalone gestisce una sola istanza isolata." },
+      { "id": "C", "text": "La modalità Standalone non può connettersi ad alcun database esterno." },
+      { "id": "D", "text": "La modalità Domain è destinata unicamente allo sviluppo locale, mentre Standalone si usa in produzione." }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "In WildFly, la modalità 'Domain' centralizza l'amministrazione di una topologia multi-server (cluster o gruppi di server) tramite un controller di dominio. Standalone configura ed esegue ogni istanza individualmente.",
+    "hint": "Una modalità è locale ad un'istanza, l'altra è centralizzata per più nodi.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_MID_029",
+    "question": "Nell'ambito della Service-Oriented Architecture (SOA), qual è la principale differenza tra \"Orchestration\" (Orchestrazione) e \"Choreography\" (Coreografia)?",
+    "options": [
+      { "id": "A", "text": "L'orchestrazione si basa su un coordinatore centrale (processo orchestratore) che governa il flusso del servizio, mentre la coreografia si affida alla cooperazione autonoma dei servizi che reagiscono agli eventi." },
+      { "id": "B", "text": "L'orchestrazione è asincrona, mentre la coreografia è rigorosamente sincrona." },
+      { "id": "C", "text": "La coreografia viene eseguita sul client, mentre l'orchestrazione viene eseguita sul database." },
+      { "id": "D", "text": "L'orchestrazione si applica solo alle API REST, mentre la coreografia solo alle API SOAP." }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'orchestrazione (spesso implementata con motori di workflow come BPEL) prevede un 'direttore d'orchestra' centrale che controlla l'ordine di chiamata dei servizi. La coreografia descrive l'interazione tra i servizi da una prospettiva collaborativa globale senza alcun punto di controllo centrale.",
+    "hint": "Pensa ad un direttore d'orchestra rispetto a ballerini che conoscono i propri passi e si coordinano autonomamente.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_MID_030",
+    "question": "In un'applicazione enterprise ospitata su WildFly, come si chiama il servizio di directory e naming standard utilizzato per cercare e ottenere risorse gestite dall'application server (es. un DataSource di connessione al database)?",
+    "options": [
+      { "id": "A", "text": "Active Directory" },
+      { "id": "B", "text": "JDBC Driver Manager" },
+      { "id": "C", "text": "WSDL Service Registry" },
+      { "id": "D", "text": "JNDI (Java Naming and Directory Interface)" }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "JNDI è la specifica Java utilizzata per associare risorse esterne (gestite dal server come connessioni a database, fabbriche di connessione JMS, o variabili) a nomi logici testuali cercabili dall'applicazione.",
+    "hint": "È l'acronimo che unisce Naming e Directory Interface.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_MID_031",
+    "question": "In Nginx, quale differenza logica intercorre tra le direttive d'ascolto `listen 80;` e `listen [::]:80;` all'interno dello stesso blocco server?",
+    "options": [
+      { "id": "A", "text": "La prima istruisce il server ad ascoltare sulla porta 80 in modalità protetta, la seconda in chiaro." },
+      { "id": "B", "text": "La prima si riferisce alla porta fisica del server, la seconda a una porta virtuale interna." },
+      { "id": "C", "text": "La prima abilita l'ascolto sulla porta 80 per gli indirizzi IPv4, mentre la seconda abilita l'ascolto sulla porta 80 per gli indirizzi IPv6." },
+      { "id": "D", "text": "La seconda fa riferimento all'ascolto delle chiamate SOAP mentre la prima a quelle REST." }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "La sintassi '[::]' rappresenta l'indirizzo IPv6 'any' (corrispondente allo 0.0.0.0 di IPv4). Quindi `listen [::]:80;` abilita l'ascolto per le richieste IPv6 sulla porta 80.",
+    "hint": "Riguarda i protocolli IP di versione 4 e versione 6.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_MID_032",
+    "question": "Nello sviluppo di API REST, in cosa consiste il meccanismo di \"Content Negotiation\"?",
+    "options": [
+      { "id": "A", "text": "Nel processo di fatturazione automatica delle chiamate API da parte di un gateway middleware." },
+      { "id": "B", "text": "Nel processo mediante il quale il client ed il server concordano il formato ottimale dei dati da trasmettere (es. JSON o XML) attraverso le intestazioni HTTP 'Accept' e 'Content-Type'." },
+      { "id": "C", "text": "Nella crittografia dinamica del payload del messaggio durante il transito." },
+      { "id": "D", "text": "Nella riduzione della banda utilizzata mediante eliminazione dei commenti dal codice." }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La Content Negotiation consente al client di specificare (tramite l'header HTTP 'Accept') il tipo di risorsa preferito (es. application/json o application/xml) e al server di rispondere con il formato appropriato, popolando l'header 'Content-Type'.",
+    "hint": "Riguarda la negoziazione del formato del contenuto.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_MID_033",
+    "question": "Qual è il framework di sicurezza integrato di default in WildFly per la gestione centralizzata di autenticazione, autorizzazione, SSL/TLS e crittografia?",
+    "options": [
+      { "id": "A", "text": "WildFly Elytron" },
+      { "id": "B", "text": "Spring Security" },
+      { "id": "C", "text": "Apache Shiro" },
+      { "id": "D", "text": "JAAS Core Manager" }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "WildFly Elytron è il sottosistema di sicurezza unificato che sostituisce i vecchi domini di sicurezza JAAS ereditati da JBoss AS, consentendo una gestione coerente della sicurezza sia a livello di web container che a livello di container EJB.",
+    "hint": "Prende il nome dalle ali protettive esterne di alcuni insetti.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_MID_034",
+    "question": "Che tipo di middleware è Apache ActiveMQ e qual è la sua funzione principale in un'architettura enterprise?",
+    "options": [
+      { "id": "A", "text": "Un Servlet Container per la gestione di pagine Web dinamiche." },
+      { "id": "B", "text": "Un middleware di caching distribuito in memoria per accelerare le query SQL." },
+      { "id": "C", "text": "Un Web Application Firewall (WAF) a protezione del cluster." },
+      { "id": "D", "text": "Un Message Broker (MOM) che supporta lo standard JMS per facilitare la messaggistica asincrona tra componenti software." }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Apache ActiveMQ è un message broker open-source (MOM) che implementa lo standard Java Message Service (JMS). Permette l'integrazione asincrona e robusta tramite code (Point-to-Point) o topic (Publish-Subscribe).",
+    "hint": "È un'implementazione dello standard Java Message Service (JMS).",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_MID_035",
+    "question": "In Apache Tomcat, qual è il ruolo specifico del file di configurazione `context.xml`?",
+    "options": [
+      { "id": "A", "text": "Configurare le impostazioni di avvio della JVM, comprese le dimensioni della memoria heap." },
+      { "id": "B", "text": "Impostare le credenziali dell'utente amministratore per accedere al Tomcat Manager." },
+      { "id": "C", "text": "Definire risorse JNDI, parametri di inizializzazione e configurazioni specifiche applicabili a livello di singolo contesto applicativo (applicazione web)." },
+      { "id": "D", "text": "Abilitare il routing dinamico dei pacchetti di rete sul firewall di sistema." }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Il file `context.xml` definisce la configurazione che impatta il contesto servlet di un'applicazione web. Se posto sotto `conf/context.xml` si applica a tutte le applicazioni, se sotto `META-INF/context.xml` si applica solo all'applicazione specifica.",
+    "hint": "Configura risorse ed alias per il singolo contesto (applicazione web).",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_MID_036",
+    "question": "Nel contesto del Richardson Maturity Model per le API RESTful, cosa caratterizza il livello 3 (il più alto)?",
+    "options": [
+      { "id": "A", "text": "L'uso esclusivo del protocollo HTTPS ed OAuth2 per la sicurezza." },
+      { "id": "B", "text": "L'adozione di HATEOAS (Hypermedia As The Engine Of Application State), che fornisce collegamenti ipertestuali nelle risposte per guidare il client sulle azioni successive possibili." },
+      { "id": "C", "text": "L'introduzione dei metodi HTTP standard GET e POST al posto dei socket TCP grezzi." },
+      { "id": "D", "text": "La compilazione asincrona del payload XML lato client." }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il Richardson Maturity Model definisce 4 livelli (da 0 a 3). Il livello 3 introduce HATEOAS: i dati restituiti dal server contengono non solo i valori ma anche le URI relative alle risorse correlate o alle azioni eseguibili a partire dallo stato corrente.",
+    "hint": "Include controlli ipermediali (link) per rendere l'API auto-esplicativa.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_MID_037",
+    "question": "In cosa differisce l'architettura di elaborazione delle connessioni di Nginx rispetto a quella di Apache HTTP Server in modalità 'Prefork'?",
+    "options": [
+      { "id": "A", "text": "Nginx adotta un modello non bloccante ed event-driven gestito da un numero ridotto di processi worker, mentre Apache Prefork alloca un singolo processo/thread per ciascuna connessione TCP attiva." },
+      { "id": "B", "text": "Apache Prefork non supporta la crittografia SSL/TLS, mentre Nginx la gestisce nativamente." },
+      { "id": "C", "text": "Nginx crea un nuovo processo worker per ogni singola richiesta HTTP e lo termina immediatamente dopo l'invio dei dati." },
+      { "id": "D", "text": "Apache Prefork è asincrono e basato su epoll, mentre Nginx è sincrono." }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'architettura event-driven e asincrona di Nginx permette di servire migliaia di connessioni concorrenti con pochissimo consumo di memoria RAM. Al contrario, il modulo Apache Prefork assegna un processo a ogni connessione, portando a un elevato consumo di risorse con elevato traffico.",
+    "hint": "Pensa alla scalabilità del modello a eventi asincroni rispetto all'allocazione di un processo per utente.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_MID_038",
+    "question": "Per abilitare il clustering e la replica in memoria dello stato delle sessioni HTTP in Apache Tomcat senza database, quale configurazione fondamentale va inserita nel file `server.xml`?",
+    "options": [
+      { "id": "A", "text": "La direttiva `<Cluster>` combinata con un gestore di sessione compatibile come `DeltaManager` o `BackupManager`." },
+      { "id": "B", "text": "L'attivazione della direttiva `SessionReplication` nel file `web.xml` globale." },
+      { "id": "C", "text": "La configurazione di un driver JNDI JDBC per condividere lo stato su un database MySQL." },
+      { "id": "D", "text": "L'impostazione di `KeepAliveTimeout` a zero su tutti i server del cluster." }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Per abilitare la replica di sessione nativa in Tomcat, si configura l'elemento `<Cluster>` all'interno del blocco `<Engine>` o `<Host>` di `server.xml`. Il `DeltaManager` effettua il multicast dello stato a tutti i nodi, mentre il `BackupManager` replica solo su un nodo di backup.",
+    "hint": "Richiede il tag XML `<Cluster>` e il gestore Delta o Backup.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_MID_039",
+    "question": "Nello stack WildFly configurato in modalità \"Domain\", qual è il ruolo preciso svolto dal processo \"Host Controller\" (host-controller)?",
+    "options": [
+      { "id": "A", "text": "Fungere da database in memoria per la replica di stato delle sessioni." },
+      { "id": "B", "text": "Fornire l'interfaccia utente grafica per la configurazione dei client remoti." },
+      { "id": "C", "text": "Eseguire direttamente le richieste HTTP degli utenti bypassando Undertow." },
+      { "id": "D", "text": "Rappresentare l'agente locale lightweight installato su ciascuna macchina fisica, che comunica con il Domain Controller e gestisce il ciclo di vita delle istanze server su quell'host." }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "In modalità Domain, ogni nodo fisico esegue un Host Controller. Questo processo leggero riceve le istruzioni dal Domain Controller centrale (che detiene la configurazione master) e le applica avviando, arrestando e configurando le istanze effettive dei server (Server Instances) su quell'host.",
+    "hint": "È l'agente locale che coordina i server del proprio nodo fisico per conto del Domain Controller.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_MID_040",
+    "question": "Nell'integrazione di sistemi tramite middleware ed ESB, come opera il design pattern denominato \"Content-Based Router\"?",
+    "options": [
+      { "id": "A", "text": "Instrada i pacchetti di rete TCP/IP in base all'indirizzo MAC di origine del dispositivo client." },
+      { "id": "B", "text": "Esamina il contenuto informativo (payload o header) di un messaggio in transito per determinare dinamicamente la destinazione o il destinatario corretto." },
+      { "id": "C", "text": "Memorizza in cache i file statici (CSS, JS) per velocizzare le successive risposte del server." },
+      { "id": "D", "text": "Cifra il contenuto del messaggio basandosi sulle chiavi pubbliche archiviate nel keystore." }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Un Content-Based Router è un pattern EIP (Enterprise Integration Pattern) in cui il flusso del messaggio viene instradato a destinazioni diverse a seconda di criteri logici applicati ai dati contenuti nel messaggio stesso (ad esempio, indirizzare ordini sopra i 10.000 euro a un sistema di approvazione manuale).",
+    "hint": "La rotta di destinazione viene decisa ispezionando il corpo o le intestazioni del messaggio.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_MID_041",
+    "question": "Nelle architetture middleware, qual è la modalità tramite la quale viene stabilita una connessione WebSocket a partire da una richiesta client?",
+    "options": [
+      { "id": "A", "text": "Il client effettua una richiesta HTTP iniziale contenente gli header 'Upgrade: websocket' e 'Connection: Upgrade'; in caso di successo, la connessione viene promossa a una connessione TCP persistente bidirezionale." },
+      { "id": "B", "text": "La WebSocket richiede una porta UDP specifica aperta sul firewall locale lato client." },
+      { "id": "C", "text": "Il middleware invia un pacchetto broadcast multicast a tutti gli host della sottorete locale per avviare il canale." },
+      { "id": "D", "text": "Viene stabilita una nuova connessione TCP per ogni singolo pacchetto scambiato, analogamente a quanto fa HTTP/1.0." }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il protocollo WebSocket è progettato per essere compatibile con HTTP. Inizia con un handshake HTTP ed esegue un upgrade della connessione (HTTP Upgrade) convertendo il canale TCP sottostante in una connessione full-duplex permanente.",
+    "hint": "Si tratta di un 'passaggio di categoria' del protocollo, da HTTP a un canale bidirezionale permanente.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_MID_042",
+    "question": "Nelle architetture a microservizi basate su middleware di messaggistica, quale problematica si intende risolvere con l'implementazione del pattern \"Transactional Outbox\"?",
+    "options": [
+      { "id": "A", "text": "Evitare che il server invii risposte HTTP vuote quando il database è momentaneamente saturo." },
+      { "id": "B", "text": "Garantire che l'invio asincrono di email pubblicitarie non rallenti le transazioni finanziarie principali." },
+      { "id": "C", "text": "Garantire la consistenza eventuale risolvendo il problema del 'dual write', salvando il messaggio da inviare nel database locale all'interno della stessa transazione che aggiorna i dati applicativi, per poi pubblicarlo asincronamente sulla coda." },
+      { "id": "D", "text": "Abilitare l'invio crittografato di pacchetti di rete tramite protocollo SSL v2 deprecato." }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Il pattern Transactional Outbox previene la perdita di consistenza dovuta al fallimento parziale (es. aggiornamento DB riuscito, ma invio del messaggio alla coda fallito). Salvando il messaggio in una tabella di 'outbox' nello stesso DB con una transazione atomica (ACID), un processo separato (es. Debezium, o un polling) può rileggere e pubblicare i messaggi sulla coda in modo affidabile.",
+    "hint": "Risolve il problema di dover scrivere in due sistemi diversi (DB e Message Queue) in modo atomico.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_MID_043",
+    "question": "In Apache HTTP Server, qual è lo scopo preciso della direttiva `ProxyPassReverse` utilizzata in combinazione con `ProxyPass`?",
+    "options": [
+      { "id": "A", "text": "Abilitare la crittografia SSL anche se il server di backend non la supporta direttamente." },
+      { "id": "B", "text": "Effettuare il bilanciamento del carico invertito distribuendo le chiamate al client anziché al server." },
+      { "id": "C", "text": "Riscrivere le intestazioni degli errori HTTP (es. da 500 a 200) per nascondere i guasti applicativi all'utente." },
+      { "id": "D", "text": "Modificare le intestazioni HTTP 'Location', 'Content-Location' e 'URI' inviate nelle risposte di redirect dal backend, sostituendo l'indirizzo interno del backend con l'indirizzo pubblico del proxy." }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Quando il server backend risponde con un redirect HTTP (codice 301/302) che contiene l'intestazione 'Location: http://backend-interno:8080/login', il client proverebbe a contattare direttamente il server interno. `ProxyPassReverse` intercetta e modifica questa intestazione trasformandola in 'Location: http://proxy-pubblico/login'.",
+    "hint": "Evita che il client conosca l'indirizzo o la porta interna reale del backend durante i redirect.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_MID_044",
+    "question": "In Apache Tomcat, in che modo l'integrazione della libreria APR (Apache Portable Runtime) migliora l'efficienza complessiva del servlet container?",
+    "options": [
+      { "id": "A", "text": "Traducendo automaticamente il codice Java delle Servlet in linguaggio C nativo prima dell'esecuzione." },
+      { "id": "B", "text": "Utilizzando chiamate di sistema native a basso livello in C per la gestione dell'I/O di rete e della crittografia SSL/TLS, aumentando notevolmente il throughput." },
+      { "id": "C", "text": "Bypassando completamente la JVM ed eseguendo Tomcat come processo nativo del sistema operativo Windows/Linux." },
+      { "id": "D", "text": "Rilevando e disattivando i moduli software non utilizzati per risparmiare memoria RAM." }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "APR permette a Tomcat di sfruttare le librerie native Apache Portable Runtime per compiere operazioni di rete ad alte prestazioni (sendfile, epoll) e velocizzare le operazioni crittografiche appoggiandosi a OpenSSL invece della JVM nativa (JSSE).",
+    "hint": "Consente l'accesso a funzioni native del sistema operativo tramite wrapper JNI.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_MID_045",
+    "question": "Nelle configurazioni di produzione di application server complessi come WildFly, quale Garbage Collector è raccomandato per ridurre al minimo i tempi di pausa Stop-The-World (STW) in presenza di heap di memoria di grandi dimensioni (superiori a 8-16 GB)?",
+    "options": [
+      { "id": "A", "text": "G1GC (Garbage-First Garbage Collector) o ZGC (Z Garbage Collector)." },
+      { "id": "B", "text": "Serial Garbage Collector." },
+      { "id": "C", "text": "Parallel Garbage Collector." },
+      { "id": "D", "text": "Nessun Garbage Collector (disattivazione del recupero della memoria)." }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "G1GC (introdotto per mitigare i tempi di pausa con grandi heap) e in particolare ZGC (disponibile nelle JVM moderne, progettato per heap da gigabyte a terabyte con pause inferiori al millisecondo) sono ideali per applicazioni server che richiedono bassa latenza costante.",
+    "hint": "Sono collezionisti moderni, uno basato su regioni e l'altro progettato per pause sub-millisecondo.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_MID_046",
+    "question": "Nelle connessioni HTTPS verso un Web Server o Middleware, quale caratteristica crittografica garantisce che la compromissione futura della chiave privata del server non consenta la decifratura dei flussi di sessione registrati in passato, e qual è il meccanismo principale che la realizza?",
+    "options": [
+      { "id": "A", "text": "La Symmetric AES Encryption con chiavi statiche a 256 bit." },
+      { "id": "B", "text": "La Certificate Revocation List (CRL) distribuita tramite DNS." },
+      { "id": "C", "text": "La Perfect Forward Secrecy (PFS), realizzata mediante lo scambio di chiavi effimero come ECDHE (Elliptic Curve Diffie-Hellman Ephemeral)." },
+      { "id": "D", "text": "La crittografia asimmetrica RSA pura con chiavi pubbliche superiori a 4096 bit." }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Perfect Forward Secrecy (PFS) assicura che una chiave di sessione derivi da chiavi effimere generate per ogni singola transazione. Di conseguenza, anche se un attaccante entrasse in possesso della chiave privata del server in futuro, non potrebbe decifrare il traffico di sessione registrato precedentemente. Algoritmi come DHE o ECDHE offrono questa proprietà.",
+    "hint": "Garantisce la sicurezza delle comunicazioni passate in caso di furto futuro della chiave principale.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_MID_047",
+    "question": "Nel contesto dell'integrazione di servizi tramite SOAP, che cosa definisce e standardizza la specifica WS-Security?",
+    "options": [
+      { "id": "A", "text": "La configurazione del firewall di rete a monte del server SOAP." },
+      { "id": "B", "text": "Un protocollo di sicurezza a livello di messaggio (Message-Level Security) per firmare crittograficamente e cifrare porzioni specifiche del corpo del messaggio SOAP." },
+      { "id": "C", "text": "Le regole per l'autenticazione a due fattori basata su SMS." },
+      { "id": "D", "text": "Il blocco del traffico IP proveniente da indirizzi non registrati nel WSDL." }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "WS-Security (Web Services Security) è uno standard OASIS che consente l'integrazione di meccanismi di sicurezza direttamente nell'intestazione (Header) del messaggio SOAP. Questo garantisce la sicurezza end-to-end a livello di messaggio anche se questo attraversa nodi intermedi (cosa non garantita da HTTPS, che protegge solo punto-punto).",
+    "hint": "Protegge il singolo messaggio a prescindere dal protocollo di trasporto sottostante.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_MID_048",
+    "question": "In Nginx, a cosa serve la combinazione delle direttive `limit_req_zone` (posta nel contesto 'http') e `limit_req` (posta nel contesto 'server' o 'location')?",
+    "options": [
+      { "id": "A", "text": "A implementare politiche di limitazione del tasso di richieste (Rate Limiting) per prevenire attacchi di tipo bruteforce o DoS." },
+      { "id": "B", "text": "A impostare la quantità massima di file che il server può caricare sul disco fisso ad ogni sessione." },
+      { "id": "C", "text": "A configurare la cache dei contenuti statici basata su CDN di terze parti." },
+      { "id": "D", "text": "A limitare la velocità di download dei file multimediali a livello di singolo pacchetto IP." }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La direttiva `limit_req_zone` definisce una zona di memoria condivisa per memorizzare gli stati delle richieste (es. basati su IP client) e il tasso limite (rate), mentre `limit_req` applica effettivamente la limitazione alle location desiderate usando l'algoritmo 'leaky bucket'.",
+    "hint": "Limita la frequenza con cui un client può effettuare richieste al server.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_MID_049",
+    "question": "Qual è la differenza fondamentale, in termini di architettura middleware, tra un \"Orchestratore ESB\" basato su processi complessi e una pipeline di \"Mediation\" (Mediazione)?",
+    "options": [
+      { "id": "A", "text": "La mediazione supporta solo chiamate sincrone, mentre l'orchestratore non ha limiti." },
+      { "id": "B", "text": "L'orchestratore richiede server fisici separati dedicati a ciascun servizio, mentre la mediazione gira in cloud." },
+      { "id": "C", "text": "La mediazione è sempre scritta in XML, mentre l'orchestratore è compilato in binario proprietario." },
+      { "id": "D", "text": "L'orchestratore gestisce flussi di business strutturati, complessi e con stato (stateful), integrando sistemi con logica temporale, mentre la mediazione è generalmente stateless, focalizzata su instradamento veloce e trasformazione di formato." }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "La mediazione (stateless mediation) si occupa del transito veloce: riceve, trasforma e inoltra. L'orchestratore (stateful orchestration) coordina transazioni complesse che durano nel tempo (es. saghe o processi aziendali lunghi), mantenendo lo stato del processo e gestendo transazioni di compensazione se un passo fallisce.",
+    "hint": "Riguarda la presenza dello stato (stateful vs stateless) e la complessità del coordinamento aziendale.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_MID_050",
+    "question": "In Apache Kafka, in che modo il coordinatore del gruppo di consumer (Consumer Group Coordinator) rileva se un consumer è offline o è bloccato prima di innescare un processo di ri-bilanciamento (rebalance) delle partizioni?",
+    "options": [
+      { "id": "A", "text": "Inviando una notifica push tramite email o SMS all'amministratore del sistema." },
+      { "id": "B", "text": "Eseguendo una scansione periodica delle porte TCP del client." },
+      { "id": "C", "text": "Monitorando i segnali periodici (heartbeat) inviati dal consumer; se non riceve un heartbeat entro il tempo definito da `session.timeout.ms`, o se il loop di polling supera il tempo di `max.poll.interval.ms`, il consumer viene considerato offline." },
+      { "id": "D", "text": "Cancellando automaticamente le partizioni non lette dopo 24 ore di inattività." }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "I consumer inviano periodicamente degli heartbeat al broker per indicare che sono attivi. Se il coordinatore non riceve l'heartbeat prima del timeout (`session.timeout.ms`), assume che il consumer sia morto. Inoltre, se l'elaborazione dei record restituiti da `poll()` impiega troppo tempo superando `max.poll.interval.ms`, Kafka considera il consumer bloccato e innesca una nuova riassegnazione delle partizioni.",
+    "hint": "Si basa sull'assenza di segnali di vita (heartbeat) o sul superamento dei limiti di tempo di elaborazione del polling.",
+    "level": "avanzato"
+  }
+]

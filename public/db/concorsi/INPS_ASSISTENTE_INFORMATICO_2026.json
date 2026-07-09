@@ -1,0 +1,118 @@
+{
+  "concorso_id": "INPS_ASSISTENTE_INFORMATICO_2026",
+  "titolo": "Concorso INPS - Assistente Informatico",
+  "moduli_esame": [
+    {
+      "modulo_id": "MOD_01",
+      "modulo_titolo": "Informatica di base",
+      "descrizione": "Concetti generali, hardware, software.",
+      "icona": "Monitor",
+      "sorgenti_dati": ["informatica/hardware_base.json"]
+    },
+    {
+      "modulo_id": "MOD_02",
+      "modulo_titolo": "Linguaggi di programmazione",
+      "descrizione": "Fondamenti della programmazione strutturata e ad oggetti.",
+      "icona": "Laptop",
+      "sorgenti_dati": ["informatica/linguaggi.json"]
+    },
+    {
+      "modulo_id": "MOD_03",
+      "modulo_titolo": "Principi di Intelligenza Artificiale",
+      "descrizione": "Machine Learning, Reti Neurali, AI Generativa.",
+      "icona": "Brain",
+      "sorgenti_dati": ["informatica/ai.json"]
+    },
+    {
+      "modulo_id": "MOD_04",
+      "modulo_titolo": "Data privacy e sicurezza informatica",
+      "descrizione": "GDPR – Reg. UE 2016/679.",
+      "icona": "ShieldAlert",
+      "sorgenti_dati": ["diritto/privacy_gdpr.json"]
+    },
+    {
+      "modulo_id": "MOD_05",
+      "modulo_titolo": "Codice dell'amministrazione digitale",
+      "descrizione": "Nozioni fondamentali CAD.",
+      "icona": "BookOpen",
+      "sorgenti_dati": ["diritto/cad.json"]
+    },
+    {
+      "modulo_id": "MOD_06",
+      "modulo_titolo": "Diritto amministrativo",
+      "descrizione": "Nozioni di base sul procedimento amministrativo.",
+      "icona": "Scale",
+      "sorgenti_dati": ["diritto/amministrativo.json"]
+    },
+    {
+      "modulo_id": "MOD_07",
+      "modulo_titolo": "Sistemi operativi Linux e Windows",
+      "descrizione": "Gestione di Server e Client.",
+      "icona": "Monitor",
+      "sorgenti_dati": ["informatica/os_linux_windows.json"]
+    },
+    {
+      "modulo_id": "MOD_08",
+      "modulo_titolo": "Database relazionali",
+      "descrizione": "Conoscenza di DBMS e SQL.",
+      "icona": "Landmark",
+      "sorgenti_dati": ["informatica/database.json"]
+    },
+    {
+      "modulo_id": "MOD_09",
+      "modulo_titolo": "Application server e middleware",
+      "descrizione": "Nozioni fondamentali su componenti middleware.",
+      "icona": "Monitor",
+      "sorgenti_dati": ["informatica/middleware.json"]
+    },
+    {
+      "modulo_id": "MOD_10",
+      "modulo_titolo": "Office automation",
+      "descrizione": "Conoscenza dei principali strumenti di produttività.",
+      "icona": "BookOpen",
+      "sorgenti_dati": ["informatica/office.json"]
+    },
+    {
+      "modulo_id": "MOD_11",
+      "modulo_titolo": "Sistemi, reti locali e geografiche",
+      "descrizione": "Fondamenti di networking.",
+      "icona": "Laptop",
+      "sorgenti_dati": ["informatica/reti.json"]
+    },
+    {
+      "modulo_id": "MOD_12",
+      "modulo_titolo": "Reti multimediali",
+      "descrizione": "Applicazioni e tecnologie per lo smart working.",
+      "icona": "Monitor",
+      "sorgenti_dati": ["informatica/smart_working.json"]
+    },
+    {
+      "modulo_id": "MOD_13",
+      "modulo_titolo": "Gestione di sistemi di backup e recovery",
+      "descrizione": "Principi di disaster recovery e backup.",
+      "icona": "RefreshCw",
+      "sorgenti_dati": ["informatica/backup.json"]
+    },
+    {
+      "modulo_id": "MOD_14",
+      "modulo_titolo": "Ordinamento del lavoro (PA)",
+      "descrizione": "Dipendenze delle amministrazioni pubbliche.",
+      "icona": "Scale",
+      "sorgenti_dati": ["diritto/pubblico_impiego.json"]
+    },
+    {
+      "modulo_id": "MOD_15",
+      "modulo_titolo": "Trasparenza, anticorruzione e privacy",
+      "descrizione": "Principi normativi.",
+      "icona": "ShieldAlert",
+      "sorgenti_dati": ["diritto/anticorruzione.json"]
+    },
+    {
+      "modulo_id": "MOD_16",
+      "modulo_titolo": "Lingua inglese",
+      "descrizione": "Comprensione dell'inglese tecnico.",
+      "icona": "BookOpen",
+      "sorgenti_dati": ["lingue/inglese.json"]
+    }
+  ]
+}

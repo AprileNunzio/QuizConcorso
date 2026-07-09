@@ -1,0 +1,15 @@
+[
+  {
+    "id": "Q_DIR_COST_0001",
+    "text": "In base all'art. 1 della Costituzione, l'Italia è una Repubblica democratica fondata:",
+    "options": [
+      { "id": "A", "text": "Sulla libertà" },
+      { "id": "B", "text": "Sulla pace" },
+      { "id": "C", "text": "Sul lavoro" },
+      { "id": "D", "text": "Sull'uguaglianza" }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'articolo 1 della Costituzione italiana sancisce espressamente che 'L'Italia è una Repubblica democratica, fondata sul lavoro'.",
+    "hint": "Pensa alla festa del 1° Maggio."
+  }
+]

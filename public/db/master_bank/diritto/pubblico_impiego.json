@@ -1,0 +1,1302 @@
+[
+  {
+    "id": "Q_DIR_PUB_001",
+    "question": "Qual è il principale testo normativo che disciplina in modo organico il rapporto di lavoro alle dipendenze delle amministrazioni pubbliche in Italia?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il Decreto Legislativo 30 marzo 2001, n. 165"
+      },
+      {
+        "id": "B",
+        "text": "Il Codice Civile (Libro V)"
+      },
+      {
+        "id": "C",
+        "text": "La Legge 20 maggio 1970, n. 300 (Statuto dei Lavoratori)"
+      },
+      {
+        "id": "D",
+        "text": "Il Decreto del Presidente della Repubblica 10 gennaio 1957, n. 3"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il D.Lgs. n. 165/2001 (Norme generali sull'ordinamento del lavoro alle dipendenze delle amministrazioni pubbliche) costituisce il Testo Unico del pubblico impiego contrattualizzato, raccogliendo le regole fondamentali del rapporto di lavoro, della dirigenza e delle relazioni sindacali nella PA.",
+    "hint": "Si tratta del Testo Unico del Pubblico Impiego (TUPI).",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_PUB_002",
+    "question": "Quale provvedimento reca il 'Codice di comportamento dei dipendenti pubblici'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il D.P.R. 16 aprile 2013, n. 62"
+      },
+      {
+        "id": "B",
+        "text": "Il D.Lgs. 27 ottobre 2009, n. 150"
+      },
+      {
+        "id": "C",
+        "text": "Il D.P.R. 28 dicembre 2000, n. 445"
+      },
+      {
+        "id": "D",
+        "text": "La Legge 6 novembre 2012, n. 190"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il D.P.R. n. 62/2013 definisce i doveri minimi di diligenza, lealtà, imparzialità e buona condotta che i pubblici dipendenti sono tenuti a osservare sia in servizio che nei rapporti con l'utenza e i terzi.",
+    "hint": "È un Decreto del Presidente della Repubblica del 2013.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_PUB_003",
+    "question": "Che cosa rappresenta l'ARAN nell'ambito del pubblico impiego?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'Agenzia per la Rappresentanza Negoziale delle Pubbliche Amministrazioni"
+      },
+      {
+        "id": "B",
+        "text": "L'Autorità di Regolazione dell'Amministrazione Nazionale"
+      },
+      {
+        "id": "C",
+        "text": "L'Associazione Nazionale per il Raccordo delle Amministrazioni"
+      },
+      {
+        "id": "D",
+        "text": "L'Albo Nazionale degli Amministratori di Rete"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'ARAN (Agenzia per la Rappresentanza Negoziale delle Pubbliche Amministrazioni) esercita a livello nazionale la rappresentanza negoziale delle pubbliche amministrazioni per la stipulazione dei contratti collettivi di lavoro.",
+    "hint": "È l'organismo che tratta i CCNL per conto della PA datrice di lavoro.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_PUB_004",
+    "question": "In base all'art. 97 della Costituzione e all'art. 35 del D.Lgs. 165/2001, come avviene di regola l'accesso all'impiego nelle pubbliche amministrazioni?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tramite procedure selettive concorsuali pubbliche"
+      },
+      {
+        "id": "B",
+        "text": "Per chiamata diretta nominativa da parte del dirigente"
+      },
+      {
+        "id": "C",
+        "text": "Per cooptazione da parte degli organi politici"
+      },
+      {
+        "id": "D",
+        "text": "Esclusivamente mediante avviamento degli iscritti nelle liste di collocamento"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'accesso all'impiego nelle pubbliche amministrazioni avviene tramite concorso pubblico, salvo i casi stabiliti dalla legge (es. avviamento degli iscritti nelle liste di collocamento per qualifiche per le quali è richiesto il solo requisito della scuola dell'obbligo).",
+    "hint": "Garantisce i principi costituzionali di imparzialità e buon andamento.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_PUB_005",
+    "question": "Ai sensi del Codice di comportamento (D.P.R. 62/2013), qual è la soglia di valore massima per i regali o altre utilità che il dipendente può accettare in via occasionale e nei limiti delle normali relazioni di cortesia?",
+    "options": [
+      {
+        "id": "A",
+        "text": "150 euro (anche sotto forma di sconti)"
+      },
+      {
+        "id": "B",
+        "text": "50 euro complessivi annui"
+      },
+      {
+        "id": "C",
+        "text": "Nessun limite, purché non influiscano sull'imparzialità"
+      },
+      {
+        "id": "D",
+        "text": "300 euro, se provenienti da un solo soggetto"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 4, comma 2 del D.P.R. 62/2013 stabilisce che il dipendente non accetta regali o altre utilità salvo quelli d'uso di modico valore. I regali di modico valore sono quelli di valore non superiore, in via orientativa, a 150 euro, anche sotto forma di sconto.",
+    "hint": "La norma individua una cifra tonda sotto le duecento euro.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_PUB_006",
+    "question": "La violazione delle disposizioni contenute nel Codice di comportamento (D.P.R. 62/2013):",
+    "options": [
+      {
+        "id": "A",
+        "text": "È sempre fonte di responsabilità disciplinare per il dipendente"
+      },
+      {
+        "id": "B",
+        "text": "Ha solo valore morale e non comporta sanzioni"
+      },
+      {
+        "id": "C",
+        "text": "Comporta sanzioni solo se costituisce anche reato penale"
+      },
+      {
+        "id": "D",
+        "text": "Comporta solo un richiamo verbale non formale"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La violazione degli obblighi previsti dal Codice di comportamento delinea una condotta contraria ai doveri d'ufficio ed è sempre fonte di responsabilità disciplinare, accertata all'esito del relativo procedimento.",
+    "hint": "Il rispetto del codice è un dovere lavorativo a tutti gli effetti.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_PUB_007",
+    "question": "Quale principio costituzionale presiede all'organizzazione dei pubblici uffici ed è richiamato all'art. 97 della Costituzione?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il buon andamento e l'imparzialità dell'amministrazione"
+      },
+      {
+        "id": "B",
+        "text": "La subordinazione al potere giudiziario"
+      },
+      {
+        "id": "C",
+        "text": "Il primato dell'interesse dei partiti politici di maggioranza"
+      },
+      {
+        "id": "D",
+        "text": "L'assoluta segretezza dell'azione amministrativa"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 97, comma 2, della Costituzione dispone che i pubblici uffici sono organizzati secondo disposizioni di legge, in modo che siano assicurati il buon andamento e l'imparzialità dell'amministrazione.",
+    "hint": "Sono i due cardini fondamentali dell'azione amministrativa.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_PUB_008",
+    "question": "A seguito della privatizzazione del pubblico impiego, a quale disciplina è assoggettato, in via generale, il rapporto di lavoro dei dipendenti pubblici?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Al codice civile e alle leggi sul lavoro subordinato nell'impresa"
+      },
+      {
+        "id": "B",
+        "text": "Esclusivamente al diritto amministrativo e a regolamenti interni"
+      },
+      {
+        "id": "C",
+        "text": "Al diritto dell'Unione Europea, con esclusione delle leggi nazionali"
+      },
+      {
+        "id": "D",
+        "text": "Al diritto corporativo e statutario speciale delle singole regioni"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 2, comma 2, del D.Lgs. 165/2001 stabilisce che i rapporti di lavoro dei dipendenti pubblici sono disciplinati dalle disposizioni del capo I, titolo II, del libro V del codice civile e dalle leggi sui rapporti di lavoro subordinato nell'impresa, fatte salve le deroghe del decreto stesso.",
+    "hint": "È l'effetto dell'avvicinamento al settore privato.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_PUB_009",
+    "question": "Quale delle seguenti categorie di personale pubblico è esclusa dalla contrattualizzazione ed è retta dal regime di diritto pubblico?",
+    "options": [
+      {
+        "id": "A",
+        "text": "I magistrati ordinari, amministrativi e contabili"
+      },
+      {
+        "id": "B",
+        "text": "I funzionari amministrativi dei Ministeri"
+      },
+      {
+        "id": "C",
+        "text": "Gli impiegati degli enti locali (Comuni e Province)"
+      },
+      {
+        "id": "D",
+        "text": "Gli infermieri del Servizio Sanitario Nazionale"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Ai sensi dell'art. 3 del D.Lgs. 165/2001, rimangono disciplinati dai rispettivi ordinamenti di diritto pubblico i magistrati, gli avvocati e procuratori dello Stato, il personale militare e delle Forze di polizia, il personale della carriera diplomatica e prefettizia, nonché i professori universitari.",
+    "hint": "Si tratta del personale 'non contrattualizzato'.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_PUB_010",
+    "question": "Che cosa si intende per 'pubblicità legale' del codice disciplinare all'interno di una PA?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La pubblicazione del codice disciplinare sul sito istituzionale dell'amministrazione"
+      },
+      {
+        "id": "B",
+        "text": "La notifica a mezzo raccomandata o PEC a ciascun dipendente all'atto dell'assunzione"
+      },
+      {
+        "id": "C",
+        "text": "La pubblicazione sulla Gazzetta Ufficiale della Repubblica Italiana"
+      },
+      {
+        "id": "D",
+        "text": "L'invio del codice all'Ispettorato del Lavoro per l'approvazione"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Ai sensi dell'art. 55, comma 2, del D.Lgs. 165/2001, la pubblicazione sul sito istituzionale dell'amministrazione del codice disciplinare equivale a tutti gli effetti alla sua affissione all'ingresso della sede di lavoro.",
+    "hint": "Equivale all'affissione fisica prevista dallo Statuto dei Lavoratori.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_PUB_011",
+    "question": "Che cos'è l'UPD previsto dall'art. 55-bis del D.Lgs. 165/2001?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'Ufficio per i Procedimenti Disciplinari"
+      },
+      {
+        "id": "B",
+        "text": "L'Ufficio per le Pari Opportunità"
+      },
+      {
+        "id": "C",
+        "text": "L'Unità per le Prestazioni Docenti"
+      },
+      {
+        "id": "D",
+        "text": "L'Ufficio Programmazione e Didattica"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'UPD è l'Ufficio per i Procedimenti Disciplinari, individuato da ciascuna amministrazione, competente per la contestazione degli addebiti, l'istruttoria e l'applicazione delle sanzioni disciplinari più gravi di quelle del rimprovero verbale.",
+    "hint": "Ha la competenza esclusiva per i procedimenti disciplinari non verbali.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_PUB_012",
+    "question": "In base al D.P.R. 62/2013, come deve comportarsi il dipendente pubblico in caso di conflitto di interessi, anche potenziale?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Deve astenersi dal partecipare all'adozione di decisioni o ad attività che possano coinvolgere tale interesse"
+      },
+      {
+        "id": "B",
+        "text": "Può agire liberamente, purché informi verbalmente un collega d'ufficio"
+      },
+      {
+        "id": "C",
+        "text": "Deve chiedere un compenso all'interessato per riequilibrare la propria posizione"
+      },
+      {
+        "id": "D",
+        "text": "Deve delegare un parente a seguire la pratica amministrativa"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Ai sensi dell'art. 7 del D.P.R. 62/2013, il dipendente si astiene dal partecipare all'adozione di decisioni o ad attività che possano coinvolgere interessi propri, ovvero di suoi parenti, affini entro il secondo grado, del coniuge o di conviventi, o di persone con le quali abbia frequentazione abituale.",
+    "hint": "L'obbligo principale in questi casi è l'astensione.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_PUB_013",
+    "question": "Quale sanzione disciplinare conservativa consiste in una formale dichiarazione di biasimo scritta?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La censura"
+      },
+      {
+        "id": "B",
+        "text": "Il rimprovero verbale"
+      },
+      {
+        "id": "C",
+        "text": "La sospensione dal servizio"
+      },
+      {
+        "id": "D",
+        "text": "La multa"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Nel pubblico impiego, le sanzioni conservative comprendono il rimprovero verbale, il rimprovero scritto (censura), la multa (fino a 4 ore di retribuzione) e la sospensione dal servizio con privazione della retribuzione.",
+    "hint": "È una sanzione di tipo scritto immediatamente successiva al rimprovero verbale.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_PUB_014",
+    "question": "In base all'art. 53 del D.Lgs. 165/2001, i dipendenti pubblici a tempo pieno possono svolgere altri incarichi di lavoro subordinato o autonomo?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Di regola no, vige il principio di esclusività del rapporto di lavoro con la PA"
+      },
+      {
+        "id": "B",
+        "text": "Sì, liberamente e senza necessità di alcuna autorizzazione"
+      },
+      {
+        "id": "C",
+        "text": "Sì, ma solo se l'attività extra-lavorativa è più redditizia"
+      },
+      {
+        "id": "D",
+        "text": "Sì, ma solo durante i periodi di congedo ordinario (ferie)"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Ai sensi dell'art. 53 del D.Lgs. 165/2001 e dell'art. 60 del D.P.R. 3/1957, l'impiegato pubblico non può esercitare il commercio, l'industria, né alcuna professione o assumere impieghi alle dipendenze di privati o cariche in società costituite a fine di lucro, salvo le eccezioni e autorizzazioni di legge.",
+    "hint": "Vige un fondamentale dovere di fedeltà e dedizione esclusiva all'ufficio.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_PUB_015",
+    "question": "Quale organo vigila sull'applicazione del Codice di comportamento e sull'efficacia delle misure anticorruzione all'interno di ciascuna PA?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il Responsabile della prevenzione della corruzione e della trasparenza (RPCT)"
+      },
+      {
+        "id": "B",
+        "text": "La Corte dei Conti"
+      },
+      {
+        "id": "C",
+        "text": "Il Dipartimento della Funzione Pubblica"
+      },
+      {
+        "id": "D",
+        "text": "L'Ispettorato del Lavoro"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il Responsabile della prevenzione della corruzione e della trasparenza (RPCT) cura la diffusione della conoscenza del codice di comportamento nell'amministrazione e vigila sulla sua attuazione, in sinergia con i piani di prevenzione della corruzione.",
+    "hint": "È una figura interna obbligatoria introdotta dalla Legge Severino (L. 190/2012).",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_PUB_016",
+    "question": "Cosa accade se un dipendente pubblico riceve regali fuori dai casi consentiti dal D.P.R. 62/2013?",
+    "options": [
+      {
+        "id": "A",
+        "text": "I regali devono essere messi immediatamente a disposizione dell'amministrazione per essere integrati nel patrimonio di questa"
+      },
+      {
+        "id": "B",
+        "text": "Il dipendente può tenerli pagando un'imposta di registro pari al 50% del valore"
+      },
+      {
+        "id": "C",
+        "text": "I regali diventano di proprietà del dirigente d'ufficio"
+      },
+      {
+        "id": "D",
+        "text": "Vengono distrutti a spese del dipendente"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 4, comma 5 del D.P.R. 62/2013 stabilisce che i regali e le altre utilità ricevuti fuori dai casi consentiti sono messi immediatamente a disposizione dell'amministrazione per essere restituiti o devoluti a fini istituzionali.",
+    "hint": "La condotta mira a escludere ogni arricchimento privato improprio.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_PUB_017",
+    "question": "A chi spetta la titolarità del potere disciplinare per l'irrogazione della sanzione del rimprovero verbale?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Al responsabile della struttura presso cui il dipendente presta servizio"
+      },
+      {
+        "id": "B",
+        "text": "Esclusivamente all'Ufficio per i Procedimenti Disciplinari (UPD)"
+      },
+      {
+        "id": "C",
+        "text": "Al vertice politico dell'amministrazione (Ministro, Sindaco, ecc.)"
+      },
+      {
+        "id": "D",
+        "text": "Al Collegio dei Revisori dei Conti"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Ai sensi dell'art. 55-bis, comma 1, del D.Lgs. 165/2001, per le infrazioni di minore gravità, per le quali è prevista la sanzione del rimprovero verbale, il procedimento è di competenza del responsabile della struttura presso cui il dipendente presta servizio.",
+    "hint": "È l'unica sanzione disciplinare delegata al superiore gerarchico non UPD.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_PUB_018",
+    "question": "In base all'art. 55-bis del D.Lgs. 165/2001, a quale tutela minima ha diritto il dipendente all'inizio del procedimento disciplinare?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Alla contestazione scritta dell'addebito e alla possibilità di difesa"
+      },
+      {
+        "id": "B",
+        "text": "Alla difesa d'ufficio nominata dal tribunale civile"
+      },
+      {
+        "id": "C",
+        "text": "Alla immediata conciliazione monocratica"
+      },
+      {
+        "id": "D",
+        "text": "Al trasferimento immediato presso altra amministrazione"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La contestazione scritta dell'addebito e l'audizione a difesa costituiscono i pilastri essenziali del diritto di difesa del dipendente pubblico, in conformità con i principi di trasparenza e del giusto procedimento.",
+    "hint": "Nessuna sanzione può essere irrogata senza che l'addebito sia stato contestato per iscritto.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_PUB_019",
+    "question": "Ai sensi dell'art. 52 del D.Lgs. 165/2001, in quale delle seguenti ipotesi è consentita l'assegnazione temporanea del dipendente a mansioni superiori?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Per coprire un posto vacante in organico per non più di sei mesi, prorogabili fino a dodici"
+      },
+      {
+        "id": "B",
+        "text": "Per un periodo massimo di tre anni, qualora vi sia carenza di personale dirigenziale"
+      },
+      {
+        "id": "C",
+        "text": "In ogni caso di picco di lavoro, a discrezione insindacabile del dirigente"
+      },
+      {
+        "id": "D",
+        "text": "Soltanto nei mesi estivi per sostituire il personale in congedo ordinario"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 52, comma 2, del D.Lgs. 165/2001 ammette l'assegnazione a mansioni superiori solo per vacanza di posto in organico (per non oltre 6 mesi, prorogabili a 12 per l'avvio delle procedure di copertura) o per sostituzione di dipendente con diritto alla conservazione del posto.",
+    "hint": "La norma limita rigorosamente nel tempo tale istituto per evitare elusioni concorsuali.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_PUB_020",
+    "question": "Quali sono le conseguenze dell'assegnazione del dipendente pubblico a mansioni superiori al di fuori dei casi espressamente previsti dall'art. 52 del D.Lgs. 165/2001?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'assegnazione è nulla, ma il dipendente ha diritto alla differenza di trattamento economico; il dirigente risponde per danno erariale"
+      },
+      {
+        "id": "B",
+        "text": "L'assegnazione comporta il passaggio automatico e definitivo alla qualifica superiore"
+      },
+      {
+        "id": "C",
+        "text": "L'assegnazione è pienamente valida e produce effetti di inquadramento stabile dopo 90 giorni"
+      },
+      {
+        "id": "D",
+        "text": "L'assegnazione è nulla, il dipendente non riceve alcuna indennità e il dirigente viene destituito di diritto"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'assegnazione a mansioni superiori fuori dai casi di legge è nulla di diritto. Tuttavia, il lavoratore ha diritto al trattamento economico corrispondente all'attività svolta. Il dirigente che ha disposto l'assegnazione risponde a titolo di responsabilità erariale per il maggior costo sostenuto.",
+    "hint": "C'è tutela economica per il dipendente, nullità dell'atto e responsabilità contabile per chi lo firma.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_PUB_021",
+    "question": "Ai sensi dell'art. 53 del D.Lgs. 165/2001, cosa accade all'importo dovuto per un incarico retribuito svolto da un dipendente pubblico in assenza della prescritta autorizzazione?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Deve essere versato all'amministrazione di appartenenza del dipendente, per confluire nel fondo per il trattamento accessorio"
+      },
+      {
+        "id": "B",
+        "text": "Viene confiscato dallo Stato ed incamerato dall'Agenzia delle Entrate come sanzione tributaria"
+      },
+      {
+        "id": "C",
+        "text": "Resta al dipendente, che deve unicamente pagare una sanzione pari al 10% del valore"
+      },
+      {
+        "id": "D",
+        "text": "Viene trattenuto dal soggetto privato committente, che non è tenuto a pagarlo"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 53, comma 7-bis, del D.Lgs. 165/2001 prevede che l'importo dovuto per le prestazioni non autorizzate debba essere versato dal committente o, in difetto, dal dipendente, sul conto dell'amministrazione di appartenenza per confluire nelle risorse destinate al trattamento accessorio.",
+    "hint": "La somma non spetta al dipendente ed incrementa i fondi per la produttività collettiva.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_PUB_022",
+    "question": "In che cosa consiste la 'responsabilità dirigenziale' ai sensi del D.Lgs. 165/2001?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nella responsabilità per il mancato raggiungimento degli obiettivi o per l'inosservanza delle direttive imputabili al dirigente"
+      },
+      {
+        "id": "B",
+        "text": "Nella responsabilità solidale per i danni fisici occorsi ai dipendenti in servizio"
+      },
+      {
+        "id": "C",
+        "text": "Nella responsabilità esclusiva per ogni illecito commesso dai dipendenti dell'ufficio"
+      },
+      {
+        "id": "D",
+        "text": "Nella responsabilità per i debiti commerciali dell'amministrazione"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La responsabilità dirigenziale (art. 21 D.Lgs. 165/2001) sorge a seguito della valutazione negativa del risultato dell'attività amministrativa e della gestione, comportando la revoca dell'incarico, la decurtazione della retribuzione di risultato o il recesso dal rapporto.",
+    "hint": "Riguarda i risultati, gli obiettivi e la gestione, distinguendosi dalla responsabilità disciplinare ordinaria.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_PUB_023",
+    "question": "Entro quale termine massimo deve concludersi il procedimento disciplinare davanti all'UPD ai sensi dell'art. 55-bis, comma 4, del D.Lgs. 165/2001?",
+    "options": [
+      {
+        "id": "A",
+        "text": "120 giorni dalla data di contestazione dell'addebito"
+      },
+      {
+        "id": "B",
+        "text": "60 giorni dalla contestazione scritta, prorogabili di altri 30"
+      },
+      {
+        "id": "C",
+        "text": "180 giorni dalla trasmissione degli atti da parte del responsabile d'ufficio"
+      },
+      {
+        "id": "D",
+        "text": "Nessun termine perentorio, vigendo la sospensione ex lege"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il procedimento disciplinare deve concludersi con l'irrogazione della sanzione o con l'archiviazione del procedimento entro il termine di 120 giorni decorrenti dalla data di contestazione dell'addebito.",
+    "hint": "È un termine perentorio di 4 mesi che decorre dalla notifica dell'addebito.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_PUB_024",
+    "question": "In base all'art. 55-bis del D.Lgs. 165/2001, con quale preavviso minimo deve essere convocato il dipendente per l'audizione a sua difesa nell'ambito del procedimento disciplinare?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Almeno 20 giorni prima del giorno fissato per l'audizione"
+      },
+      {
+        "id": "B",
+        "text": "Almeno 10 giorni lavorativi"
+      },
+      {
+        "id": "C",
+        "text": "Non meno di 5 giorni consecutivi"
+      },
+      {
+        "id": "D",
+        "text": "Almeno 30 giorni, riducibili a 15 in caso di flagranza"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il dipendente ha diritto di essere convocato per l'audizione a sua difesa con un preavviso di almeno 20 giorni per consentirgli di predisporre le difese ed eventualmente farsi assistere da un difensore o da un rappresentante sindacale.",
+    "hint": "Corrisponde a poco meno di tre settimane ed è espresso in giorni solari.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_PUB_025",
+    "question": "Ai sensi del Codice di comportamento (D.P.R. 62/2013), quale comportamento deve assumere il dipendente nei rapporti privati?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Non deve sfruttare la propria posizione nella PA per ottenere vantaggi personali o per terzi"
+      },
+      {
+        "id": "B",
+        "text": "Deve dichiarare a chiunque la propria retribuzione e il grado gerarchico"
+      },
+      {
+        "id": "C",
+        "text": "È tenuto a svolgere compiti di consulenza gratuita per i propri vicini di casa"
+      },
+      {
+        "id": "D",
+        "text": "Deve astenersi da qualunque attività economica di natura finanziaria o azionaria"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 10 del D.P.R. 62/2013 stabilisce che nei rapporti privati, comprese le relazioni extralavorative con pubblici ufficiali nell'esercizio delle loro funzioni, il dipendente non sfrutta, né menziona la posizione che ricopre nell'amministrazione per ottenere utilità che non gli spettino.",
+    "hint": "Evita l'abuso della qualità di dipendente pubblico fuori dall'ufficio.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_PUB_026",
+    "question": "In merito alla tutela del dipendente pubblico che segnala illeciti (whistleblowing), quale organo è competente a ricevere la segnalazione e gestire i canali esterni?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'ANAC (Autorità Nazionale Anticorruzione)"
+      },
+      {
+        "id": "B",
+        "text": "Il Garante per la Protezione dei Dati Personali"
+      },
+      {
+        "id": "C",
+        "text": "La Corte dei Conti"
+      },
+      {
+        "id": "D",
+        "text": "Il Ministero della Giustizia"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'ANAC è l'autorità centrale competente per la gestione del canale esterno di segnalazione del whistleblowing e per l'applicazione delle sanzioni amministrative in caso di ritorsioni contro il segnalante.",
+    "hint": "È l'autorità garante della trasparenza e dell'anticorruzione in Italia.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_PUB_027",
+    "question": "Ai sensi dell'art. 30 del D.Lgs. 165/2001, qual è il presupposto generale per la mobilità volontaria dei dipendenti tra diverse amministrazioni pubbliche?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il bando di mobilità dell'amministrazione di destinazione e, salvo deroghe, l'assenso dell'amministrazione di appartenenza"
+      },
+      {
+        "id": "B",
+        "text": "La semplice richiesta scritta del dipendente, vincolante per entrambe le amministrazioni"
+      },
+      {
+        "id": "C",
+        "text": "L'anzianità di servizio minima non inferiore a 15 anni consecutivi"
+      },
+      {
+        "id": "D",
+        "text": "Il sorteggio pubblico effettuato annualmente dal Ministero per la Funzione Pubblica"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La mobilità volontaria comporta il trasferimento individuale mediante passaggio diretto del dipendente, a domanda, tra amministrazioni diverse, previo bando di mobilità e l'assenso dell'amministrazione di provenienza (salve le ipotesi in cui l'assenso non è più richiesto ex lege per alcune categorie o percentuali di personale).",
+    "hint": "Richiede l'incontro di due volontà amministrative e dell'interesse del dipendente.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_PUB_028",
+    "question": "Chi presiede il comitato di indirizzo strategico e conduce le trattative per i contratti collettivi di comparto nel pubblico impiego?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'ARAN, su direttiva dei Comitati di settore e del Governo"
+      },
+      {
+        "id": "B",
+        "text": "La Corte dei Conti, che stabilisce anche gli incrementi tabellari"
+      },
+      {
+        "id": "C",
+        "text": "I Sindacati maggiormente rappresentativi, in autonomia finanziaria"
+      },
+      {
+        "id": "D",
+        "text": "Il CNEL (Consiglio Nazionale dell'Economia e del Lavoro)"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Le trattative per la stipula dei contratti collettivi nazionali di lavoro (CCNL) nel pubblico impiego sono condotte dall'ARAN in base agli indirizzi impartiti dai comitati di settore e, per le amministrazioni statali, dal Presidente del Consiglio dei Ministri o dal Ministro per la Pubblica Amministrazione.",
+    "hint": "C'è un'agenzia tecnica preposta alle trattative sindacali per conto pubblico.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_PUB_029",
+    "question": "In base all'art. 54-bis del D.Lgs. 165/2001, a quale tutela ha diritto il whistleblower?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Non può essere sanzionato, demansionato, licenziato, trasferito o sottoposto ad altra misura ritorsiva a causa della segnalazione"
+      },
+      {
+        "id": "B",
+        "text": "Ha diritto a una promozione automatica di livello o inquadramento"
+      },
+      {
+        "id": "C",
+        "text": "Ha diritto a una percentuale monetaria del valore dei beni recuperati allo Stato"
+      },
+      {
+        "id": "D",
+        "text": "Ha diritto all'immunità penale assoluta per qualsiasi reato commesso nella PA"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La tutela fondamentale del segnalante di illeciti (whistleblower) consiste nel divieto assoluto di adozione di misure discriminatorie o ritorsive a causa della segnalazione effettuata in buona fede.",
+    "hint": "La norma vieta trattamenti pregiudizievoli legati causalmente alla denuncia.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_PUB_030",
+    "question": "In base all'art. 55-bis, comma 2, del D.Lgs. 165/2001, cosa accade se l'amministrazione non rispetta i termini per la contestazione dell'addebito?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Determina la decadenza dall'azione disciplinare e l'annullamento della sanzione"
+      },
+      {
+        "id": "B",
+        "text": "Non produce alcun effetto, trattandosi di termini puramente ordinatori"
+      },
+      {
+        "id": "C",
+        "text": "Comporta unicamente la riduzione della sanzione del 50%"
+      },
+      {
+        "id": "D",
+        "text": "Il procedimento viene trasferito al Giudice Civile d'ufficio"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "I termini stabiliti per le singole fasi del procedimento disciplinare sono qualificati come perentori. Il loro mancato rispetto da parte dell'amministrazione determina la decadenza dal potere disciplinare e l'invalidità insanabile del procedimento.",
+    "hint": "La violazione dei termini a difesa o di conclusione produce un effetto estintivo del potere.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_PUB_031",
+    "question": "Quale delle seguenti condotte costituisce grave violazione dei doveri d'ufficio ed è sanzionabile disciplinarmente in base al DPR 62/2013?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'utilizzo delle attrezzature informatiche d'ufficio per ragioni estranee ai compiti istituzionali"
+      },
+      {
+        "id": "B",
+        "text": "La mancata sottoscrizione di tessere associative sindacali o politiche"
+      },
+      {
+        "id": "C",
+        "text": "La mancata organizzazione di pranzi di lavoro con l'utenza esterna"
+      },
+      {
+        "id": "D",
+        "text": "L'iscrizione del dipendente pubblico a partiti politici o associazioni legalmente riconosciute"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 11 del D.P.R. 62/2013 vieta l'utilizzo delle attrezzature informatiche dell'ufficio per scopi personali, se non nei limiti di tollerabilità previsti dai regolamenti interni e comunque senza arrecare danno o disturbo al servizio.",
+    "hint": "Riguarda l'uso corretto e finalizzato dei beni strumentali pubblici.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_PUB_032",
+    "question": "Qual è il rapporto tra la sanzione del licenziamento disciplinare e la contestazione scritta nel pubblico impiego?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il licenziamento deve essere preceduto da formale contestazione scritta a cura dell'UPD"
+      },
+      {
+        "id": "B",
+        "text": "Il licenziamento può essere intimato in via immediata e orale se vi è flagranza"
+      },
+      {
+        "id": "C",
+        "text": "La contestazione spetta al dirigente, mentre il licenziamento al Ministro competente"
+      },
+      {
+        "id": "D",
+        "text": "Il licenziamento è disposto automaticamente dalla Procura della Repubblica"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Ai sensi dell'art. 55-bis del D.Lgs. 165/2001, tutte le sanzioni disciplinari (incluso il licenziamento) ad esclusione del rimprovero verbale richiedono la formale attivazione del procedimento a cura dell'UPD mediante contestazione per iscritto.",
+    "hint": "Nessun recesso per motivi disciplinari può saltare la fase del contraddittorio scritto.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_PUB_033",
+    "question": "Ai sensi del Codice di comportamento (D.P.R. 62/2013), nei rapporti con il pubblico, il dipendente pubblico:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Deve farsi identificare mediante l'uso del badge o altro mezzo visibile, qualora sia a contatto con gli utenti"
+      },
+      {
+        "id": "B",
+        "text": "Deve astenersi dal fornire spiegazioni sulle procedure per non rallentare il lavoro"
+      },
+      {
+        "id": "C",
+        "text": "Può rifiutarsi di rispondere alle chiamate telefoniche non preventivamente pianificate"
+      },
+      {
+        "id": "D",
+        "text": "Deve richiedere una quota associativa per consentire l'accesso agli uffici"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 12, comma 3, del D.P.R. 62/2013 impone al dipendente in rapporto con il pubblico di farsi identificare tramite l'esposizione del badge o di altro supporto identificativo messo a disposizione dall'amministrazione, salvo specifiche eccezioni di sicurezza.",
+    "hint": "Garantisce il principio di trasparenza e tracciabilità del dipendente pubblico.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_PUB_034",
+    "question": "Il dipendente pubblico che intenda svolgere un incarico retribuito a favore di un altro ente pubblico:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Deve richiedere la preventiva autorizzazione all'amministrazione di appartenenza, pena l'inefficacia dell'incarico"
+      },
+      {
+        "id": "B",
+        "text": "Può svolgerlo liberamente e richiedere l'autorizzazione solo al termine dei lavori"
+      },
+      {
+        "id": "C",
+        "text": "Deve solo informare verbalmente il proprio collega d'ufficio"
+      },
+      {
+        "id": "D",
+        "text": "Non può farlo in nessun caso, trattandosi di violazione insuscettibile di sanatoria"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Ai sensi dell'art. 53 del D.Lgs. 165/2001, il conferimento di incarichi retribuiti a dipendenti pubblici da parte di altre amministrazioni richiede l'autorizzazione dell'amministrazione di provenienza, che valuta l'assenza di conflitti di interessi e di pregiudizio ai compiti d'ufficio.",
+    "hint": "La mancanza dell'atto preventivo inficia la legittimità e dà luogo a restituzione somme.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_PUB_035",
+    "question": "Quali delle seguenti sanzioni disciplinari comporta la perdita temporanea del trattamento retributivo ed è qualificata come sanzione conservativa grave?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La sospensione dal servizio con privazione della retribuzione"
+      },
+      {
+        "id": "B",
+        "text": "La censura scritta"
+      },
+      {
+        "id": "C",
+        "text": "La multa fino a quattro ore di retribuzione"
+      },
+      {
+        "id": "D",
+        "text": "Il licenziamento con preavviso"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La sospensione dal servizio con privazione della retribuzione (fino a un massimo di sei mesi, a seconda della gravità dell'addebito) è una sanzione conservativa in quanto sospende ma non risolve il rapporto di lavoro.",
+    "hint": "Si posiziona tra la multa e il licenziamento.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_PUB_036",
+    "question": "A norma dell'art. 55-ter del D.Lgs. 165/2001, qual è la regola generale per la prosecuzione del procedimento disciplinare in presenza di contemporaneo processo penale per i medesimi fatti?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il procedimento disciplinare prosegue e non viene sospeso, salvo casi di particolare complessità dell'accertamento"
+      },
+      {
+        "id": "B",
+        "text": "Il procedimento disciplinare è sempre sospeso obbligatoriamente fino al passaggio in giudicato della sentenza penale"
+      },
+      {
+        "id": "C",
+        "text": "Il procedimento disciplinare viene archiviato e può essere riaperto solo dopo la condanna penale irrevocabile"
+      },
+      {
+        "id": "D",
+        "text": "Il processo penale viene sospeso per consentire la conclusione del procedimento disciplinare"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 55-ter, comma 1, del D.Lgs. 165/2001 sancisce il principio dell'autonomia dei due procedimenti: il procedimento disciplinare non viene sospeso, eccetto i casi di particolare complessità del fatto, nei quali l'UPD può disporne la sospensione fino al passaggio in giudicato della sentenza penale.",
+    "hint": "Predilige la celerità dell'azione disciplinare rispetto al passato.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_DIR_PUB_037",
+    "question": "Se il procedimento disciplinare è stato sospeso in attesa della sentenza penale, entro quale termine l'UPD deve riattivarlo dopo il passaggio in giudicato della sentenza penale?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Entro 60 giorni dalla comunicazione della sentenza penale irrevocabile all'amministrazione, e concluderlo entro 180 giorni dalla riattivazione"
+      },
+      {
+        "id": "B",
+        "text": "Entro 30 giorni, con conclusione inderogabile entro i successivi 60 giorni"
+      },
+      {
+        "id": "C",
+        "text": "Entro un anno dalla sentenza, a pena di decadenza"
+      },
+      {
+        "id": "D",
+        "text": "Il procedimento non si riattiva, dovendosi applicare direttamente le sanzioni del giudice penale"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 55-ter, comma 4, del D.Lgs. 165/2001 dispone che il procedimento disciplinare sospeso sia ripreso o riattivato entro 60 giorni dalla comunicazione della sentenza irrevocabile, e concluso entro 180 giorni dalla riattivazione.",
+    "hint": "Sono due termini consecutivi espressi in giorni (due mesi per riavviare, sei mesi per concludere).",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_DIR_PUB_038",
+    "question": "In base all'art. 19 del D.Lgs. 165/2001, qual è il limite temporale stabilito dalla legge per la durata degli incarichi di funzioni dirigenziali?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Non può essere inferiore a tre anni né superiore a cinque anni"
+      },
+      {
+        "id": "B",
+        "text": "Ha durata fissa di quattro anni, non rinnovabile consecutivamente"
+      },
+      {
+        "id": "C",
+        "text": "Non può essere inferiore a cinque anni, senza un termine massimo stabilito"
+      },
+      {
+        "id": "D",
+        "text": "Varia in relazione alla durata della legislatura o del mandato politico"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Ai sensi dell'art. 19, comma 2, del D.Lgs. 165/2001, la durata dell'incarico dirigenziale non può essere inferiore a tre anni né superiore a cinque anni. Ciò al fine di garantire continuità gestionale ed evitare un legame di dipendenza con la stabilità politica.",
+    "hint": "La forbice temporale è compresa tra un minimo triennale e un massimo quinquennale.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_DIR_PUB_039",
+    "question": "Ai sensi dell'art. 55-quater del D.Lgs. 165/2001, in quale delle seguenti ipotesi si applica di diritto la sanzione del licenziamento disciplinare senza preavviso?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Falsa attestazione della presenza in servizio mediante alterazione dei sistemi di rilevamento o altre modalità fraudolente"
+      },
+      {
+        "id": "B",
+        "text": "Assenza ingiustificata per un numero di giorni superiore a tre in un biennio"
+      },
+      {
+        "id": "C",
+        "text": "Mancato raggiungimento degli obiettivi annuali assegnati nel piano della performance"
+      },
+      {
+        "id": "D",
+        "text": "Svolgimento di attività di volontariato non preventivamente autorizzata"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 55-quater, comma 1, lett. a), individua la falsa attestazione della presenza in servizio, compiuta mediante alterazione dei sistemi di rilevamento o altre modalità fraudolente, come causa di licenziamento senza preavviso (i cosiddetti 'furbetti del cartellino').",
+    "hint": "È la fattispecie più severamente punita, introdotta e inasprita dalle riforme Madia e successive.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_DIR_PUB_040",
+    "question": "Quale regime di responsabilità si configura per il dirigente pubblico che ometta, senza giustificato motivo, di avviare il procedimento disciplinare nei confronti di un sottoposto per un fatto sanzionabile con il licenziamento?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Risponde di responsabilità disciplinare e la condotta è sanzionabile con la sospensione dal servizio, oltre a configurare omessa denuncia"
+      },
+      {
+        "id": "B",
+        "text": "Non configura alcun illecito personale, ricadendo la responsabilità unicamente sull'UPD"
+      },
+      {
+        "id": "C",
+        "text": "Comporta solo la perdita della retribuzione di risultato per l'anno in corso"
+      },
+      {
+        "id": "D",
+        "text": "Determina l'automatica decadenza del dirigente dal proprio ruolo per incompatibilità morale"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Ai sensi dell'art. 55-sexies, comma 3, del D.Lgs. 165/2001, il mancato esercizio o la decadenza dell'azione disciplinare dovuta all'omissione o al ritardo ingiustificato del dirigente comporta la responsabilità disciplinare di quest'ultimo, con applicazione della sanzione fino alla sospensione dal servizio.",
+    "hint": "L'omesso avvio del procedimento disciplinare costituisce a sua volta una grave infrazione disciplinare per il dirigente.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_DIR_PUB_041",
+    "question": "A norma dell'art. 55-bis, comma 4, del D.Lgs. 165/2001, se il responsabile della struttura non ha qualifica dirigenziale e riscontra un'infrazione che comporta una sanzione superiore al rimprovero verbale, cosa deve fare?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Deve trasmettere gli atti all'UPD entro 10 giorni dalla notizia del fatto, dandone contestuale comunicazione scritta al dipendente"
+      },
+      {
+        "id": "B",
+        "text": "Può irrogare direttamente la sanzione della multa, ma deve chiedere il parere dell'OIV"
+      },
+      {
+        "id": "C",
+        "text": "Deve delegare la contestazione dell'addebito a un funzionario di pari qualifica del dipendente"
+      },
+      {
+        "id": "D",
+        "text": "Deve archiviare la pratica, non avendo poteri disciplinari delegati"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 55-bis, comma 4, stabilisce che se il responsabile non ha qualifica dirigenziale, trasmette gli atti all'UPD entro dieci giorni dalla notizia del fatto, segnalando la contestuale comunicazione scritta dell'addebito all'interessato per l'istruttoria di competenza.",
+    "hint": "C'è un obbligo di trasmissione tempestiva all'ufficio competente entro una cifra a due cifre minima.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_DIR_PUB_042",
+    "question": "In base all'art. 19, comma 6, del D.Lgs. 165/2001, a quali limiti percentuali è soggetto il conferimento di incarichi dirigenziali a soggetti esterni ai ruoli della PA?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Entro il 10% della dotazione organica dei dirigenti di prima fascia ed entro l'8% della seconda fascia per le amministrazioni statali"
+      },
+      {
+        "id": "B",
+        "text": "Entro il 30% della dotazione organica complessiva, indifferentemente tra prima e seconda fascia"
+      },
+      {
+        "id": "C",
+        "text": "Esclusivamente entro il 5% dei posti complessivamente vacanti a livello regionale"
+      },
+      {
+        "id": "D",
+        "text": "Non vi sono limiti percentuali, fermo restando il vincolo di bilancio complessivo della PA"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La legge pone limiti stringenti al reclutamento esterno di dirigenti (art. 19, comma 6): entro il limite del 10 per cento della dotazione organica di prima fascia e dell'8 per cento della dotazione organica di seconda fascia per le amministrazioni statali, per profili di particolare e comprovata qualificazione professionale.",
+    "hint": "Le percentuali sono differenziate per fascia, con un tetto del dieci per cento per la prima fascia.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_DIR_PUB_043",
+    "question": "Nel pubblico impiego contrattualizzato, a quale giudice spetta la giurisdizione sulle controversie relative alle procedure di assunzione dei dipendenti pubblici?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Al Giudice Amministrativo (TAR e Consiglio di Stato)"
+      },
+      {
+        "id": "B",
+        "text": "Al Giudice Ordinario (Tribunale in funzione di Giudice del Lavoro)"
+      },
+      {
+        "id": "C",
+        "text": "Alla Corte dei Conti in sezione speciale"
+      },
+      {
+        "id": "D",
+        "text": "Esclusivamente al Dipartimento della Funzione Pubblica in via di ricorso gerarchico"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Ai sensi dell'art. 63, comma 4, del D.Lgs. 165/2001, restano devolute alla giurisdizione del giudice amministrativo le controversie in materia di procedure concorsuali per l'assunzione dei dipendenti delle pubbliche amministrazioni, incluse quelle per il passaggio di area/categoria.",
+    "hint": "La fase precedente all'assunzione mantiene la natura di diritto pubblico e autoritativo.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_DIR_PUB_044",
+    "question": "Quali sono i criteri per determinare la misura del risarcimento del danno all'immagine arrecato all'amministrazione dal dipendente condannato per reati contro la pubblica amministrazione?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il danno all'immagine si presume, salva prova contraria, pari al doppio della somma di denaro o del valore dell'altra utilità percepita"
+      },
+      {
+        "id": "B",
+        "text": "Viene determinato in misura fissa pari a 50.000 euro per ogni anno di servizio prestato dal dipendente"
+      },
+      {
+        "id": "C",
+        "text": "Spetta esclusivamente al giudice penale determinarlo in via equitativa senza limiti minimi"
+      },
+      {
+        "id": "D",
+        "text": "Equivale all'intera retribuzione percepita dal dipendente nel periodo in cui si sono svolti i fatti illeciti"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 1, comma 1-sexies, della Legge 20/1994 (come modificata dal D.L. 78/2009) stabilisce che nel giudizio di responsabilità dinanzi alla Corte dei Conti il danno all'immagine si presume pari al doppio del valore della tangente o dell'utilità indebitamente percepita.",
+    "hint": "È una quantificazione legale presuntiva legata al valore dell'illecito economico.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_DIR_PUB_045",
+    "question": "Quale delle seguenti modifiche è stata introdotta nel Codice di comportamento dei dipendenti pubblici (D.P.R. 62/2013) a seguito della riforma operata con il D.P.R. 81/2023?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'introduzione di specifiche regole di condotta sull'utilizzo dei social media e sull'uso dei dispositivi elettronici personali"
+      },
+      {
+        "id": "B",
+        "text": "La riduzione del valore massimo dei regali accettabili da 150 a 50 euro complessivi"
+      },
+      {
+        "id": "C",
+        "text": "L'abolizione dell'Ufficio procedimenti disciplinari per le violazioni di minore entità"
+      },
+      {
+        "id": "D",
+        "text": "L'obbligo di giuramento di fedeltà alla Costituzione ripetuto ogni anno dinanzi al RPCT"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il D.P.R. n. 81/2023 ha aggiornato il Codice del 2013 inserendo l'art. 11-bis (Utilizzo delle tecnologie informatiche) e l'art. 11-ter (Utilizzo dei mezzi di informazione e dei social media), per disciplinare l'uso corretto e non lesivo della reputazione dell'ente dei canali digitali personali e d'ufficio.",
+    "hint": "Riguarda l'adeguamento del codice all'era digitale e alla comunicazione social.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_DIR_PUB_046",
+    "question": "Qual è la tutela apprestata al dipendente pubblico nel caso in cui vi sia stato un mutamento di mansioni non equivalente a seguito di riorganizzazione dell'ufficio?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il dipendente ha diritto alla conservazione del trattamento economico in godimento, ma non può opporsi al mutamento se disposto per esigenze organizzative"
+      },
+      {
+        "id": "B",
+        "text": "Il dipendente può rifiutarsi di prestare servizio mantenendo la retribuzione fino alla ricollocazione"
+      },
+      {
+        "id": "C",
+        "text": "L'atto organizzativo è nullo ed il dipendente deve essere risarcito con una mensilità per ogni mese di adibizione"
+      },
+      {
+        "id": "D",
+        "text": "Comporta il licenziamento per giustificato motivo oggettivo se non accetta il demansionamento"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "In base all'art. 52 del D.Lgs. 165/2001, l'equivalenza delle mansioni è legata all'inquadramento nella medesima area professionale dei CCNL. In caso di ristrutturazione, al dipendente spetta la garanzia del trattamento economico precedentemente acquisito (assegno ad personam per differenze).",
+    "hint": "C'è una forte tutela retributiva anche a fronte dello 'jus variandi' organizzativo della PA.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_DIR_PUB_047",
+    "question": "In materia di cumulo di impieghi, qual è la disciplina applicabile al dipendente pubblico con rapporto di lavoro a tempo parziale (part-time)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Se il part-time non supera il 50% dell'orario pieno, è consentito lo svolgimento di altre attività lavorative, purché non in conflitto di interessi con la PA"
+      },
+      {
+        "id": "B",
+        "text": "Il part-time è soggetto allo stesso identico regime di incompatibilità assoluta previsto per i dipendenti a tempo pieno"
+      },
+      {
+        "id": "C",
+        "text": "È consentito solo lo svolgimento di attività di collaborazione con altre amministrazioni pubbliche previa gara"
+      },
+      {
+        "id": "D",
+        "text": "Il dipendente part-time può svolgere solo attività di lavoro autonomo occasionale senza alcun limite economico o di settore"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Ai sensi dell'art. 53, comma 6, del D.Lgs. 165/2001, le disposizioni sulle incompatibilità non si applicano ai dipendenti con rapporto di lavoro a tempo parziale con prestazione lavorativa non superiore al 50% di quella a tempo pieno, ferma restando l'assenza di conflitto di interessi.",
+    "hint": "La soglia percentuale spartiacque è la metà del tempo pieno lavorativo.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_DIR_PUB_048",
+    "question": "In caso di accertamento di responsabilità disciplinare, quali sono i limiti per l'accordo di conciliazione tra UPD e dipendente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La conciliazione non può mai comportare l'applicazione di una sanzione diversa da quella prevista dalla legge o dai CCNL per l'infrazione contestata"
+      },
+      {
+        "id": "B",
+        "text": "L'accordo di conciliazione può derogare liberamente ai limiti ed escludere del tutto qualsiasi tipo di sanzione scritta"
+      },
+      {
+        "id": "C",
+        "text": "L'accordo è ammesso solo se il dipendente rinuncia a qualsiasi forma di ricorso giurisdizionale ed accetta il licenziamento"
+      },
+      {
+        "id": "D",
+        "text": "È ammessa solo per le sanzioni del rimprovero verbale o della censura scritta sotto la vigilanza del Prefetto"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 55-bis, comma 5, del D.Lgs. 165/2001 prevede la possibilità di concludere il procedimento con un accordo conciliativo. La sanzione concordata non può tuttavia essere di specie diversa da quella prevista dalla legge o dal contratto collettivo per l'infrazione commessa.",
+    "hint": "C'è un limite oggettivo di tipicità delle sanzioni irrogabili a seguito di accordo transattivo.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_DIR_PUB_049",
+    "question": "A norma dell'art. 55-septies del D.Lgs. 165/2001, l'assenza per malattia del dipendente pubblico deve essere giustificata mediante:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Certificazione medica inviata per via telematica direttamente dal medico o dalla struttura sanitaria all'INPS"
+      },
+      {
+        "id": "B",
+        "text": "Autocertificazione scritta del dipendente da presentare entro quarantotto ore dal rientro in servizio"
+      },
+      {
+        "id": "C",
+        "text": "Certificato medico cartaceo rilasciato in triplice copia e consegnato a mano all'ufficio protocollo"
+      },
+      {
+        "id": "D",
+        "text": "Dichiarazione sostitutiva dell'atto di notorietà sottoscritta da due testimoni d'ufficio"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 55-septies stabilisce che l'assenza per malattia deve essere giustificata mediante trasmissione telematica del certificato da parte del medico curante o della struttura sanitaria all'INPS, che lo rende disponibile all'amministrazione di appartenenza.",
+    "hint": "È il sistema di trasmissione dematerializzata ed automatizzata gestito dall'istituto previdenziale.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_DIR_PUB_050",
+    "question": "Che cosa si intende per 'diritto alla conservazione del posto' per il dipendente pubblico in aspettativa per motivi sindacali?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il diritto a rientrare nella medesima sede di servizio e con la medesima qualifica al termine del periodo di aspettativa"
+      },
+      {
+        "id": "B",
+        "text": "La garanzia di non subire alcuna decurtazione economica durante il mandato politico locale"
+      },
+      {
+        "id": "C",
+        "text": "Il diritto a percepire indennità accessorie anche in caso di totale assenza dal servizio"
+      },
+      {
+        "id": "D",
+        "text": "La progressione economica automatica di un livello per ogni anno di aspettativa sindacale usufruito"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il dipendente pubblico collocato in aspettativa sindacale conserva il posto di lavoro presso l'amministrazione di appartenenza, con diritto al rientro nella medesima sede al termine del mandato e all'inquadramento nella qualifica precedentemente ricoperta.",
+    "hint": "Costituisce una garanzia costituzionale dell'esercizio dell'attività sindacale senza pregiudizio professionale.",
+    "level": "avanzato"
+  }
+]

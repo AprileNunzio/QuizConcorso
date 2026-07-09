@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "Q_INF_DB_051",
+    "question": "Qual è la principale differenza tra una stored procedure e una funzione in SQL?",
+    "options": [
+      {"id": "A", "text": "Le stored procedure possono restituire più result set, mentre le funzioni restituiscono un unico valore scalare o tabella"},
+      {"id": "B", "text": "Le funzioni possono modificare dati nelle tabelle, le stored procedure no"},
+      {"id": "C", "text": "Le stored procedure non accettano parametri in input"},
+      {"id": "D", "text": "Le funzioni non possono essere chiamate da altre stored procedure"}
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Le stored procedure possono restituire più result set, output parameter e non hanno l'obbligo di restituire un valore. Le funzioni devono restituire un valore (scalare o tabella) e in generale non possono avere effetti collaterali (DML) in molti DBMS.",
+    "hint": "Pensa a quanti 'risultati' può produrre ciascun oggetto.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_DB_052",
+    "question": "Un trigger AFTER INSERT su una tabella viene attivato:",
+    "options": [
+      {"id": "A", "text": "Prima che la riga venga fisicamente inserita nella tabella"},
+      {"id": "B", "text": "Dopo che l'inserimento è stato completato con successo"},
+      {"id": "C", "text": "Solo se l'inserimento fallisce per un vincolo di integrità"},
+      {"id": "D", "text": "Prima della validazione dei vincoli di integrità referenziale"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Un trigger AFTER INSERT scatta dopo che la riga è stata inserita e i vincoli sono stati verificati. I trigger BEFORE scattano invece prima dell'operazione DML.",
+    "hint": "Il nome 'AFTER' è già un indizio sul momento di attivazione.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_DB_053",
+    "question": "Qual è lo scopo principale di una VIEW in un database relazionale?",
+    "options": [
+      {"id": "A", "text": "Memorizzare fisicamente dati aggregati per migliorare le performance"},
+      {"id": "B", "text": "Fornire un'astrazione logica su una o più tabelle, semplificando l'accesso ai dati"},
+      {"id": "C", "text": "Sostituire gli indici per l'ottimizzazione delle query"},
+      {"id": "D", "text": "Implementare automaticamente le stored procedure"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Una VIEW è una query salvata che si comporta come una tabella virtuale. Non memorizza dati (tranne le Materialized View), ma fornisce un livello di astrazione che semplifica le query complesse, migliora la sicurezza e la manutenibilità.",
+    "hint": "Una view di per sé non 'conserva' fisicamente nulla.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_DB_054",
+    "question": "Cosa si intende per 'Materialized View'?",
+    "options": [
+      {"id": "A", "text": "Una view che può essere aggiornata tramite istruzioni DML"},
+      {"id": "B", "text": "Una view il cui risultato viene fisicamente memorizzato e aggiornato periodicamente"},
+      {"id": "C", "text": "Una view definita su più database contemporaneamente"},
+      {"id": "D", "text": "Una view creata dinamicamente a runtime da una stored procedure"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Una Materialized View (o Snapshot) memorizza fisicamente il risultato della query. Questo migliora notevolmente le performance di lettura a scapito della freschezza del dato. Viene aggiornata secondo politiche di refresh (ON COMMIT, ON DEMAND, ecc.).",
+    "hint": "'Materializzata' implica che qualcosa viene reso concreto/fisico.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_DB_055",
+    "question": "Qual è la differenza tra un indice Clustered e un indice Non-Clustered?",
+    "options": [
+      {"id": "A", "text": "Un indice clustered ordina fisicamente i dati della tabella, può essercene uno solo; il non-clustered è una struttura separata"},
+      {"id": "B", "text": "Un indice clustered si usa solo per le chiavi primarie, il non-clustered per le chiavi esterne"},
+      {"id": "C", "text": "Gli indici non-clustered sono sempre più veloci di quelli clustered"},
+      {"id": "D", "text": "Un indice clustered non può contenere colonne duplicate"}
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'indice clustered determina l'ordine fisico di archiviazione dei record nella tabella (uno solo per tabella). L'indice non-clustered è una struttura B-Tree separata con puntatori alle righe fisiche e ce ne possono essere molti.",
+    "hint": "Pensa a cosa succede ai dati fisici della tabella con ciascun tipo.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_DB_056",
+    "question": "Il comando EXPLAIN (o EXPLAIN PLAN) in SQL serve a:",
+    "options": [
+      {"id": "A", "text": "Eseguire la query e visualizzare il tempo di esecuzione effettivo"},
+      {"id": "B", "text": "Mostrare il piano di esecuzione stimato dall'ottimizzatore senza eseguire la query"},
+      {"id": "C", "text": "Aggiornare le statistiche del database per l'ottimizzatore"},
+      {"id": "D", "text": "Creare automaticamente gli indici mancanti per ottimizzare la query"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "EXPLAIN mostra il piano di esecuzione scelto dall'ottimizzatore (query plan): quali indici verranno usati, quali join algorithm, l'ordine delle operazioni, i costi stimati. In PostgreSQL, EXPLAIN ANALYZE esegue realmente la query e mostra costi reali.",
+    "hint": "Il nome 'EXPLAIN' suggerisce che spiega qualcosa, non che lo esegue direttamente.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_DB_057",
+    "question": "In PostgreSQL, cosa aggiunge EXPLAIN ANALYZE rispetto a EXPLAIN?",
+    "options": [
+      {"id": "A", "text": "Mostra solo il piano logico senza i costi"},
+      {"id": "B", "text": "Esegue realmente la query e riporta i tempi di esecuzione e le righe effettive"},
+      {"id": "C", "text": "Crea automaticamente gli indici suggeriti dal piano"},
+      {"id": "D", "text": "Mostra le dipendenze tra le tabelle coinvolte nella query"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "EXPLAIN ANALYZE esegue concretamente la query (attenzione con DML senza transaction rollback) e mostra sia i costi stimati che i tempi reali e il numero effettivo di righe per ogni nodo del piano, permettendo di confrontare stime e realtà.",
+    "hint": "ANALYZE implica un'analisi reale, non solo stimata.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_DB_058",
+    "question": "Cosa si intende per 'query optimization' basata su cost-based optimizer?",
+    "options": [
+      {"id": "A", "text": "L'ottimizzatore sceglie il piano con il minor numero di righe da processare, ignorando le statistiche"},
+      {"id": "B", "text": "L'ottimizzatore valuta più piani di esecuzione basandosi su statistiche e stime di costo per scegliere quello più efficiente"},
+      {"id": "C", "text": "La query viene ottimizzata solo in base all'ordine delle clausole scritte dal programmatore"},
+      {"id": "D", "text": "L'ottimizzatore usa regole fisse indipendentemente dai dati presenti nella tabella"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Un cost-based optimizer (CBO) genera più piani di esecuzione alternativi e li valuta utilizzando statistiche (distribuzione dei dati, cardinalità, istogrammi) per stimare il costo (I/O, CPU) di ciascuno, scegliendo il piano a costo minore.",
+    "hint": "Il nome 'cost-based' indica che si basa su stime di costo.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_DB_059",
+    "question": "Quale tipo di join algorithm è generalmente preferito quando entrambe le tabelle sono molto grandi e non c'è un indice utilizzabile?",
+    "options": [
+      {"id": "A", "text": "Nested Loop Join"},
+      {"id": "B", "text": "Hash Join"},
+      {"id": "C", "text": "Index Join"},
+      {"id": "D", "text": "Cross Join"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'Hash Join costruisce una hash table dalla tabella più piccola e la scandisce con la più grande. È efficiente per join su grandi tabelle senza indici disponibili. Nested Loop è ottimale con indici su tabelle piccole; Sort-Merge Join si usa quando i dati sono già ordinati.",
+    "hint": "Le hash table permettono ricerche O(1) e non richiedono ordinamento previo.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_DB_060",
+    "question": "In SQL, cosa significa che una stored procedure è 'deterministica'?",
+    "options": [
+      {"id": "A", "text": "La procedura contiene sempre un'istruzione COMMIT alla fine"},
+      {"id": "B", "text": "Dato lo stesso input, la procedura restituisce sempre lo stesso output"},
+      {"id": "C", "text": "La procedura non accetta parametri opzionali"},
+      {"id": "D", "text": "La procedura modifica sempre almeno una tabella"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Una funzione/procedura deterministica produce sempre lo stesso risultato per gli stessi valori di input. Questa proprietà è importante per l'indicizzazione delle colonne calcolate e per la replica dei dati, poiché garantisce la riproducibilità dei risultati.",
+    "hint": "Determinismo = stesso input → stesso output, sempre.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_DB_061",
+    "question": "Cosa fa un trigger INSTEAD OF in SQL Server o Oracle?",
+    "options": [
+      {"id": "A", "text": "Esegue l'operazione DML originale e poi esegue il codice del trigger"},
+      {"id": "B", "text": "Sostituisce completamente l'operazione DML originale con il codice del trigger"},
+      {"id": "C", "text": "Annulla automaticamente la transazione se si verifica un errore nel trigger"},
+      {"id": "D", "text": "Si attiva solo quando l'operazione DML non trova righe da modificare"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Un trigger INSTEAD OF intercetta l'operazione DML (INSERT, UPDATE, DELETE) e la sostituisce con il codice custom del trigger. È particolarmente utile per rendere aggiornabili le view non aggiornabili, in quanto permette di definire la logica di scrittura sottostante.",
+    "hint": "Il nome 'INSTEAD OF' significa 'al posto di'.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_DB_062",
+    "question": "Qual è la struttura dati più comune utilizzata per implementare gli indici nei database relazionali?",
+    "options": [
+      {"id": "A", "text": "Lista concatenata"},
+      {"id": "B", "text": "B-Tree (Balanced Tree)"},
+      {"id": "C", "text": "Stack LIFO"},
+      {"id": "D", "text": "Grafo diretto aciclico"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il B-Tree (e la variante B+Tree) è la struttura più usata per gli indici. Garantisce operazioni di ricerca, inserimento e cancellazione in O(log n) e supporta efficientemente range queries. I nodi foglia del B+Tree contengono i puntatori ai dati reali.",
+    "hint": "Questa struttura mantiene i dati bilanciati e ordinati.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_DB_063",
+    "question": "Quando è conveniente usare un indice su una colonna?",
+    "options": [
+      {"id": "A", "text": "Sempre, su tutte le colonne di ogni tabella"},
+      {"id": "B", "text": "Quando la colonna ha alta cardinalità (molti valori distinti) e viene frequentemente usata in WHERE, JOIN o ORDER BY"},
+      {"id": "C", "text": "Solo sulle colonne di tipo VARCHAR"},
+      {"id": "D", "text": "Quando la tabella ha meno di 1000 righe"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Un indice è utile quando la colonna ha alta selettività (alta cardinalità), viene usata spesso in condizioni di filtro (WHERE), join o ordinamento. Troppe colonne indicizzate rallentano INSERT/UPDATE/DELETE e aumentano lo spazio su disco.",
+    "hint": "Gli indici hanno costi: rallentano le scritture e occupano spazio.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_DB_064",
+    "question": "Cosa è il teorema CAP nel contesto dei sistemi distribuiti?",
+    "options": [
+      {"id": "A", "text": "Un sistema distribuito può garantire simultaneamente Consistency, Availability e Partition Tolerance, ma solo due delle tre in caso di partizione di rete"},
+      {"id": "B", "text": "Un sistema distribuito deve scegliere tra velocità, sicurezza e scalabilità"},
+      {"id": "C", "text": "Il teorema che dimostra la superiorità dei database SQL sui NoSQL"},
+      {"id": "D", "text": "Un principio che regolamenta la Concorrenza, l'Atomicità e la Persistenza delle transazioni"}
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il teorema CAP (Brewer, 2000) afferma che un sistema distribuito non può garantire contemporaneamente Consistency (tutti i nodi vedono gli stessi dati), Availability (ogni richiesta riceve una risposta) e Partition Tolerance (il sistema funziona nonostante partizioni di rete). In presenza di partizioni (P inevitabile), si deve scegliere tra C e A.",
+    "hint": "CAP = Consistency, Availability, Partition tolerance.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_DB_065",
+    "question": "MongoDB è classificato come database di tipo:",
+    "options": [
+      {"id": "A", "text": "Colonnare (Column-family store)"},
+      {"id": "B", "text": "A grafo (Graph database)"},
+      {"id": "C", "text": "Documentale (Document store)"},
+      {"id": "D", "text": "Relazionale con estensioni JSON"}
+    ],
+    "correctAnswerId": "C",
+    "explanation": "MongoDB è un database NoSQL di tipo documentale: archivia dati come documenti BSON (Binary JSON). Ogni documento è una struttura flessibile simile a un oggetto JSON, con campi e valori, raggruppati in 'collection' (analoghe alle tabelle).",
+    "hint": "MongoDB archivia 'documenti', non righe.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_DB_066",
+    "question": "In MongoDB, cosa corrisponde a una 'collection'?",
+    "options": [
+      {"id": "A", "text": "Un singolo documento JSON"},
+      {"id": "B", "text": "Un indice composto su più campi"},
+      {"id": "C", "text": "Un gruppo di documenti, analogo a una tabella nei database relazionali"},
+      {"id": "D", "text": "Una transazione che raggruppa più operazioni atomiche"}
+    ],
+    "correctAnswerId": "C",
+    "explanation": "In MongoDB: Database > Collection > Document. La collection è analoga alla tabella relazionale, ma non impone uno schema fisso: i documenti all'interno della stessa collection possono avere campi diversi (schema flessibile).",
+    "hint": "Schema relazionale: database > tabella > riga. Schema MongoDB?",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_DB_067",
+    "question": "Cosa si intende per 'sharding' in un database distribuito?",
+    "options": [
+      {"id": "A", "text": "La copia dei dati su più nodi per garantire alta disponibilità"},
+      {"id": "B", "text": "La suddivisione orizzontale dei dati su più nodi/server distinti"},
+      {"id": "C", "text": "La compressione dei dati per ridurre lo spazio occupato"},
+      {"id": "D", "text": "La creazione di backup incrementali del database"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Lo sharding (partizionamento orizzontale) divide il dataset in 'shard', ognuno conservato su un nodo separato. Ogni shard contiene un sottoinsieme delle righe/documenti. Questo permette di scalare orizzontalmente sia la capacità di storage che le performance di lettura/scrittura.",
+    "hint": "Sharding = dividere i dati tra più macchine, non copiarli.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_DB_068",
+    "question": "Qual è la differenza tra sharding e replication in un database distribuito?",
+    "options": [
+      {"id": "A", "text": "Sharding divide i dati tra nodi diversi; replication copia gli stessi dati su più nodi"},
+      {"id": "B", "text": "Sharding aumenta la disponibilità; replication aumenta la capacità di storage"},
+      {"id": "C", "text": "Sharding è usato solo per i database relazionali; replication solo per i NoSQL"},
+      {"id": "D", "text": "Non c'è differenza sostanziale: sono due termini per lo stesso concetto"}
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Sharding = partizionamento orizzontale: ogni nodo ha dati DIVERSI (aumenta capacità e throughput). Replication = ogni nodo ha una COPIA degli stessi dati (aumenta disponibilità e fault tolerance). In sistemi reali si usano entrambi: shard replicati.",
+    "hint": "Dividere vs copiare: concetti opposti ma complementari.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_DB_069",
+    "question": "Redis è principalmente classificato come:",
+    "options": [
+      {"id": "A", "text": "Database relazionale con supporto JSON"},
+      {"id": "B", "text": "In-memory key-value store"},
+      {"id": "C", "text": "Database a grafo per dati connessi"},
+      {"id": "D", "text": "Database colonnare per analytics"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Redis (Remote Dictionary Server) è un in-memory data structure store, usato come database, cache e message broker. Supporta strutture dati come stringhe, hash, liste, set, sorted set, bitmap, HyperLogLog. La principale caratteristica è la velocità grazie all'archiviazione in memoria RAM.",
+    "hint": "Redis è noto per la sua velocità estrema grazie a dove archivia i dati.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_DB_070",
+    "question": "Apache Cassandra adotta quale modello di consistenza per impostazione predefinita?",
+    "options": [
+      {"id": "A", "text": "Strong consistency (ACID)"},
+      {"id": "B", "text": "Eventual consistency (consistenza eventuale)"},
+      {"id": "C", "text": "Linearizability"},
+      {"id": "D", "text": "Sequential consistency"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Cassandra è un database AP (dal teorema CAP): privilegia Availability e Partition Tolerance rispetto alla Strong Consistency. Di default usa eventual consistency, ma permette di configurare il livello di consistenza per operazione (ONE, QUORUM, ALL) per bilanciare performance e consistenza.",
+    "hint": "Cassandra sacrifica qualcosa in favore di disponibilità e tolleranza alle partizioni.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_DB_071",
+    "question": "In un sistema CP (dal teorema CAP), cosa viene sacrificato?",
+    "options": [
+      {"id": "A", "text": "La Consistency (consistenza dei dati)"},
+      {"id": "B", "text": "La Partition Tolerance (tolleranza alle partizioni di rete)"},
+      {"id": "C", "text": "L'Availability (disponibilità del sistema)"},
+      {"id": "D", "text": "La Durability (durabilità delle transazioni)"}
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Un sistema CP garantisce Consistency e Partition Tolerance. In caso di partizione di rete, il sistema può diventare non disponibile (rifiuta richieste) pur di mantenere la consistenza dei dati. Esempio: HBase, Zookeeper.",
+    "hint": "CP = Consistency + Partition. La terza lettera mancante è la risposta.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_DB_072",
+    "question": "Cosa si intende per 'replica set' in MongoDB?",
+    "options": [
+      {"id": "A", "text": "Un insieme di shard che partizionano orizzontalmente i dati"},
+      {"id": "B", "text": "Un gruppo di istanze MongoDB che mantengono lo stesso set di dati per alta disponibilità e failover"},
+      {"id": "C", "text": "Una collezione di indici che velocizzano le query"},
+      {"id": "D", "text": "Una copia di backup conservata offline"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Un Replica Set in MongoDB è un gruppo di nodi mongod che mantengono gli stessi dati. Include un nodo primary (riceve le scritture) e uno o più nodi secondary (repliche). Se il primary cade, viene eletto automaticamente un nuovo primary (automatic failover).",
+    "hint": "Replica = copia dei dati su più nodi per resilienza.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_DB_073",
+    "question": "Cosa distingue un database OLTP da un database OLAP?",
+    "options": [
+      {"id": "A", "text": "OLTP gestisce transazioni operative in tempo reale su pochi record; OLAP analizza grandi volumi di dati storici per il decision support"},
+      {"id": "B", "text": "OLTP è usato solo per database NoSQL; OLAP solo per database relazionali"},
+      {"id": "C", "text": "OLTP non supporta transazioni ACID; OLAP sì"},
+      {"id": "D", "text": "OLAP è più veloce nelle operazioni di INSERT rispetto a OLTP"}
+    ],
+    "correctAnswerId": "A",
+    "explanation": "OLTP (Online Transaction Processing) gestisce transazioni operative frequenti su pochi record (es. e-commerce, banche): molte scritture/letture brevi. OLAP (Online Analytical Processing) è ottimizzato per query analitiche complesse su grandi volumi di dati storici (data warehouse, BI). Schemi diversi: 3NF per OLTP, star/snowflake schema per OLAP.",
+    "hint": "T sta per Transaction (operativa), A sta per Analytical.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_DB_074",
+    "question": "Cos'è un Data Warehouse?",
+    "options": [
+      {"id": "A", "text": "Un database operativo per la gestione delle transazioni aziendali in tempo reale"},
+      {"id": "B", "text": "Un repository centralizzato di dati storici integrati da più sorgenti, ottimizzato per l'analisi e il supporto alle decisioni"},
+      {"id": "C", "text": "Un file system distribuito per l'archiviazione di file non strutturati"},
+      {"id": "D", "text": "Un tipo di cache in memoria per accelerare le query OLTP"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Un Data Warehouse è un sistema di archiviazione centrale che integra dati provenienti da più sorgenti eterogenee, li trasforma e li organizza per supportare analisi, reporting e business intelligence. Caratteristiche: orientato al soggetto, integrato, time-variant, non volatile (Inmon).",
+    "hint": "Warehouse = magazzino: conserva dati storici e integrati per l'analisi.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_DB_075",
+    "question": "Nello schema a stella (star schema) di un Data Warehouse, cosa sono le 'fact table'?",
+    "options": [
+      {"id": "A", "text": "Tabelle che contengono le dimensioni descrittive (es. tempo, prodotto, cliente)"},
+      {"id": "B", "text": "Tabelle centrali che contengono le misure quantitative (es. vendite, quantità, ricavi) e le chiavi esterne alle dimensioni"},
+      {"id": "C", "text": "Tabelle che registrano le operazioni di ETL effettuate sul warehouse"},
+      {"id": "D", "text": "Tabelle di configurazione del database analitico"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Nello star schema, la fact table è al centro e contiene le metriche/misure quantitative (es. importo_vendita, quantità_venduta) più le foreign key verso le dimension tables (tempo, prodotto, negozio, cliente). Le dimension tables descrivono il contesto degli eventi registrati nella fact table.",
+    "hint": "I 'fatti' sono le misure numeriche degli eventi di business.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_DB_076",
+    "question": "Qual è la differenza tra Star Schema e Snowflake Schema in un Data Warehouse?",
+    "options": [
+      {"id": "A", "text": "Lo star schema ha dimensioni normalizzate in più tabelle; lo snowflake schema ha dimensioni denormalizzate"},
+      {"id": "B", "text": "Lo star schema ha dimensioni denormalizzate (tabelle piatte); lo snowflake schema normalizza le dimensioni in sotto-tabelle"},
+      {"id": "C", "text": "Lo snowflake schema non supporta query OLAP, lo star schema sì"},
+      {"id": "D", "text": "Non c'è differenza: sono sinonimi dello stesso schema"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Nello star schema le dimension table sono denormalizzate (tutti gli attributi in un'unica tabella piatta). Nello snowflake schema le dimensioni vengono normalizzate: tabelle gerarchiche collegate tra loro. Lo star schema è più semplice e veloce per le query; lo snowflake occupa meno spazio ma richiede più join.",
+    "hint": "Snowflake = cristallo di neve con ramificazioni, quindi più tabelle collegate.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_DB_077",
+    "question": "Cosa si intende per ETL nel contesto del Data Warehousing?",
+    "options": [
+      {"id": "A", "text": "Extract, Transform, Load: il processo di estrarre dati dalle sorgenti, trasformarli e caricarli nel Data Warehouse"},
+      {"id": "B", "text": "Entity, Table, Link: il modello concettuale del Data Warehouse"},
+      {"id": "C", "text": "Encrypt, Transfer, Log: il processo di sicurezza dei dati nel warehouse"},
+      {"id": "D", "text": "Execute, Test, Launch: le fasi di deployment del database"}
+    ],
+    "correctAnswerId": "A",
+    "explanation": "ETL (Extract, Transform, Load) è il processo fondamentale del data warehousing: 1) Extract: estrazione dati dalle sorgenti eterogenee; 2) Transform: pulizia, standardizzazione, aggregazione, arricchimento; 3) Load: caricamento nel Data Warehouse. Oggi si parla anche di ELT (Extract, Load, Transform) nei data lake moderni.",
+    "hint": "Le tre lettere sono le iniziali delle tre fasi del processo.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_DB_078",
+    "question": "In SQL, cosa fa la clausola WITH (CTE - Common Table Expression)?",
+    "options": [
+      {"id": "A", "text": "Crea una tabella temporanea persistente nel database"},
+      {"id": "B", "text": "Definisce un result set temporaneo e nominato che può essere referenziato nella query successiva"},
+      {"id": "C", "text": "Specifica gli hint per l'ottimizzatore della query"},
+      {"id": "D", "text": "Definisce le autorizzazioni di accesso alla query"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Una CTE (Common Table Expression) definita con WITH crea un result set temporaneo e nominato valido solo per la query che segue. Migliora la leggibilità, permette la ricorsione (WITH RECURSIVE) e può essere referenziata più volte nella stessa query. Non è persistente come una vista o tabella temporanea.",
+    "hint": "CTE = espressione di tabella comune, temporanea e scoped alla query.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_DB_079",
+    "question": "In Cassandra, cosa si intende per 'partition key'?",
+    "options": [
+      {"id": "A", "text": "La chiave primaria composta usata per identificare univocamente una riga"},
+      {"id": "B", "text": "La parte della primary key usata per determinare in quale nodo del cluster viene archiviata la riga"},
+      {"id": "C", "text": "Un indice secondario creato per ottimizzare le query su colonne non primarie"},
+      {"id": "D", "text": "La chiave di crittografia per proteggere i dati nella partizione"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "In Cassandra la primary key è composta da partition key (+ opzionale clustering key). La partition key determina, tramite hash, il nodo del cluster dove vengono archiviati i dati. La scelta corretta della partition key è cruciale per una distribuzione uniforme dei dati e per le performance delle query.",
+    "hint": "La partition key determina 'dove' finiscono i dati nel cluster.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_DB_080",
+    "question": "Cosa significa BASE nel contesto dei database NoSQL?",
+    "options": [
+      {"id": "A", "text": "Basic, Atomic, Safe, Eventually-consistent"},
+      {"id": "B", "text": "Basically Available, Soft state, Eventually consistent"},
+      {"id": "C", "text": "Binary, Asynchronous, Scalable, Extensible"},
+      {"id": "D", "text": "Bounded, Accurate, Synchronized, Encrypted"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "BASE è il modello di consistenza dei sistemi NoSQL, contrapposto ad ACID: Basically Available (il sistema risponde sempre, anche con dati potenzialmente non aggiornati), Soft state (lo stato può cambiare nel tempo anche senza input), Eventually consistent (alla fine tutti i nodi convergeranno allo stesso stato).",
+    "hint": "BASE è l'acronimo opposto a ACID, usato nei sistemi NoSQL distribuiti.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_DB_081",
+    "question": "Quale operazione OLAP permette di passare da dati aggregati a dati di dettaglio?",
+    "options": [
+      {"id": "A", "text": "Roll-up (aggregazione)"},
+      {"id": "B", "text": "Drill-down (dettaglio)"},
+      {"id": "C", "text": "Slice (sezione)"},
+      {"id": "D", "text": "Pivot (rotazione)"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Le operazioni OLAP sul cubo di dati sono: Roll-up (aggregare, es. da mese a anno), Drill-down (scendere al dettaglio, es. da anno a mese), Slice (selezionare una dimensione fissa, es. solo anno 2023), Dice (selezionare più dimensioni), Pivot/Rotate (cambiare la prospettiva del cubo).",
+    "hint": "Drill-down = 'scavare verso il basso' nel dettaglio dei dati.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_DB_082",
+    "question": "Cos'è un indice Hash in un database?",
+    "options": [
+      {"id": "A", "text": "Un indice basato su B-Tree ottimizzato per ricerche su stringhe"},
+      {"id": "B", "text": "Un indice che usa una funzione hash per mappare le chiavi alle posizioni dei dati, ottimale per ricerche di uguaglianza"},
+      {"id": "C", "text": "Un indice che comprime i dati utilizzando algoritmi di hashing"},
+      {"id": "D", "text": "Un indice creato automaticamente sulle chiavi primarie"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Un indice Hash applica una funzione hash alla chiave per determinare la posizione del dato. È estremamente efficiente per ricerche di uguaglianza (WHERE col = valore) con O(1) medio, ma non supporta range queries (WHERE col > valore) a differenza dei B-Tree.",
+    "hint": "Hash = accesso diretto per uguaglianza, non per range.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_DB_083",
+    "question": "In un database relazionale, cosa si intende per 'covering index'?",
+    "options": [
+      {"id": "A", "text": "Un indice che copre fisicamente tutti i record della tabella, anche i duplicati"},
+      {"id": "B", "text": "Un indice che contiene tutte le colonne necessarie a soddisfare una query, evitando accessi alla tabella base"},
+      {"id": "C", "text": "Un indice creato automaticamente dal DBMS per coprire le join più frequenti"},
+      {"id": "D", "text": "Un indice che si sovrappone a un altro indice esistente sulle stesse colonne"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Un covering index (indice coprente) include tutte le colonne referenziate da una query (nella SELECT, WHERE, ORDER BY, GROUP BY). In questo caso il DBMS può rispondere alla query leggendo solo l'indice (index-only scan) senza accedere alla tabella, riducendo drasticamente gli I/O.",
+    "hint": "L'indice 'copre' completamente la query: non serve leggere la tabella.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_DB_084",
+    "question": "Cosa produce l'istruzione GRANT in SQL?",
+    "options": [
+      {"id": "A", "text": "Crea un nuovo utente nel database"},
+      {"id": "B", "text": "Concede privilegi specifici su oggetti del database a utenti o ruoli"},
+      {"id": "C", "text": "Crea un nuovo ruolo con permessi di amministratore"},
+      {"id": "D", "text": "Trasferisce la proprietà di un oggetto da un utente a un altro"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "GRANT è il comando DCL (Data Control Language) per concedere privilegi: GRANT SELECT, INSERT ON tabella TO utente. Con WITH GRANT OPTION, l'utente può a sua volta cedere quel privilegio. Il comando opposto è REVOKE, che revoca i privilegi.",
+    "hint": "GRANT = concedere. È parte del DCL insieme a REVOKE.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_DB_085",
+    "question": "In MongoDB, quale operatore viene utilizzato per eseguire una ricerca di testo completo (full-text search)?",
+    "options": [
+      {"id": "A", "text": "$regex"},
+      {"id": "B", "text": "$text"},
+      {"id": "C", "text": "$fullSearch"},
+      {"id": "D", "text": "$match"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'operatore $text in MongoDB esegue ricerche full-text su campi indicizzati con un indice di tipo 'text'. Permette ricerche per parole chiave con supporto per stemming, stop words e scoring per rilevanza. Richiede la creazione preventiva di un indice text sulla collection.",
+    "hint": "Il nome dell'operatore è letteralmente 'testo'.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_DB_086",
+    "question": "Cosa fa il comando VACUUM in PostgreSQL?",
+    "options": [
+      {"id": "A", "text": "Cancella tutti i dati da una tabella mantenendo la struttura"},
+      {"id": "B", "text": "Recupera spazio da righe morte (dead tuples) create da UPDATE/DELETE e aggiorna le statistiche"},
+      {"id": "C", "text": "Crea un backup compresso del database"},
+      {"id": "D", "text": "Ricostruisce tutti gli indici del database"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "PostgreSQL usa MVCC (Multi-Version Concurrency Control): UPDATE e DELETE non cancellano fisicamente i dati ma li marcano come 'dead'. VACUUM recupera lo spazio di queste dead tuples. VACUUM FULL ricostruisce fisicamente la tabella. ANALYZE (o VACUUM ANALYZE) aggiorna le statistiche per l'ottimizzatore.",
+    "hint": "VACUUM = aspirapolvere, rimuove i 'rifiuti' del database.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_DB_087",
+    "question": "In Redis, cosa fa il comando EXPIRE?",
+    "options": [
+      {"id": "A", "text": "Cancella immediatamente una chiave dal database"},
+      {"id": "B", "text": "Imposta un TTL (Time To Live) su una chiave, che verrà eliminata automaticamente allo scadere del tempo"},
+      {"id": "C", "text": "Configura la scadenza delle sessioni di connessione al server Redis"},
+      {"id": "D", "text": "Sposta una chiave dal database attivo a quello di backup"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "EXPIRE key seconds imposta un TTL in secondi su una chiave di Redis. Allo scadere, Redis elimina automaticamente la chiave. Utile per implementare cache con scadenza, sessioni temporanee, rate limiting. Il comando PERSIST rimuove il TTL, rendendo la chiave permanente.",
+    "hint": "Expire = scadere. Imposta quando qualcosa scade.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_DB_088",
+    "question": "Cosa si intende per 'window function' in SQL?",
+    "options": [
+      {"id": "A", "text": "Una funzione che opera su un sottoinsieme di righe relativo alla riga corrente, senza collassare il result set come GROUP BY"},
+      {"id": "B", "text": "Una funzione che filtra i risultati per una finestra temporale specifica"},
+      {"id": "C", "text": "Una stored procedure che apre una finestra di dialogo nell'interfaccia utente"},
+      {"id": "D", "text": "Una funzione che opera solo sulle righe visibili nell'interfaccia di visualizzazione"}
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Le window function (ROW_NUMBER, RANK, LAG, LEAD, SUM OVER, AVG OVER...) operano su una 'finestra' di righe definita con OVER (PARTITION BY ... ORDER BY ...). A differenza di GROUP BY, non collassano le righe: ogni riga mantiene il suo valore più il risultato calcolato sulla finestra.",
+    "hint": "OVER() definisce la finestra. Il risultato non riduce le righe.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_DB_089",
+    "question": "Qual è il significato di ACID nelle transazioni database?",
+    "options": [
+      {"id": "A", "text": "Atomicity, Consistency, Isolation, Durability"},
+      {"id": "B", "text": "Availability, Concurrency, Integrity, Durability"},
+      {"id": "C", "text": "Atomicity, Concurrency, Isolation, Distribution"},
+      {"id": "D", "text": "Accuracy, Consistency, Idempotency, Durability"}
+    ],
+    "correctAnswerId": "A",
+    "explanation": "ACID garantisce: Atomicity (la transazione è tutto-o-niente), Consistency (il database passa da uno stato valido a un altro valido), Isolation (le transazioni concorrenti si comportano come se fossero seriali), Durability (una transazione confermata persiste anche in caso di crash). È il pilastro dei database relazionali.",
+    "hint": "Le quattro proprietà fondamentali delle transazioni nei DB relazionali.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_DB_090",
+    "question": "In SQL, il livello di isolamento SERIALIZABLE garantisce:",
+    "options": [
+      {"id": "A", "text": "Che le transazioni possano leggere righe non ancora confermate da altre transazioni"},
+      {"id": "B", "text": "Il massimo livello di isolamento: le transazioni si comportano come se fossero eseguite in serie"},
+      {"id": "C", "text": "Che le transazioni possano vedere solo i dati confermati dalla transazione precedente"},
+      {"id": "D", "text": "Che le letture ripetute nella stessa transazione possano restituire risultati diversi"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "SERIALIZABLE è il livello di isolamento più alto (SQL standard): garantisce che le transazioni concorrenti producano lo stesso risultato che si avrebbe eseguendole una alla volta in serie. Previene dirty reads, non-repeatable reads e phantom reads. Ha il costo maggiore in termini di performance (lock aggressivi o validazione).",
+    "hint": "Serializable = come se fossero eseguite in serie, una dopo l'altra.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_DB_091",
+    "question": "Cos'è un 'phantom read' nei problemi di concorrenza delle transazioni?",
+    "options": [
+      {"id": "A", "text": "Una lettura di dati sporchi non ancora confermati da un'altra transazione"},
+      {"id": "B", "text": "Una seconda lettura nella stessa transazione che trova righe aggiuntive inserite da un'altra transazione nel frattempo"},
+      {"id": "C", "text": "Una lettura che restituisce un valore diverso rispetto a una precedente lettura nella stessa transazione"},
+      {"id": "D", "text": "Una lettura che fallisce perché il record è stato cancellato da un'altra transazione"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il phantom read si verifica quando una transazione esegue una query due volte e nella seconda trova righe 'fantasma' (phantom) non presenti nella prima, inserite da un'altra transazione nel frattempo. Si distingue dal non-repeatable read (valore cambiato) e dal dirty read (dati non confermati).",
+    "hint": "Phantom = fantasma: righe che 'appaiono' tra una lettura e l'altra.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_DB_092",
+    "question": "Cosa si intende per 'query plan caching' (o plan cache)?",
+    "options": [
+      {"id": "A", "text": "La memorizzazione dei risultati delle query per evitare riesecuzioni"},
+      {"id": "B", "text": "La memorizzazione del piano di esecuzione compilato per riutilizzarlo nelle esecuzioni successive della stessa query"},
+      {"id": "C", "text": "Il salvataggio delle query SQL più frequenti in un file di log"},
+      {"id": "D", "text": "La compressione dei dati nel buffer pool per ottimizzare la memoria"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il plan cache memorizza il piano di esecuzione già compilato per una query. Quando la stessa query (o una parametrizzata simile) viene eseguita di nuovo, il DBMS riusa il piano esistente invece di ricompilarlo, risparmiando CPU. È importante per le query parametrizzate con prepared statements.",
+    "hint": "Si memorizza il 'piano', non i dati risultanti.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_DB_093",
+    "question": "In MongoDB, cosa fa la pipeline di aggregazione con la fase '$group'?",
+    "options": [
+      {"id": "A", "text": "Filtra i documenti in base a una condizione"},
+      {"id": "B", "text": "Raggruppa i documenti per un campo specificato e calcola aggregazioni (count, sum, avg, ecc.)"},
+      {"id": "C", "text": "Unisce due collection come un JOIN relazionale"},
+      {"id": "D", "text": "Ordina i documenti per un campo specificato"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La fase $group nel framework di aggregazione di MongoDB raggruppa i documenti per il valore di un campo (_id) e calcola espressioni accumulate: $sum, $avg, $min, $max, $count, $push, ecc. È l'equivalente NoSQL di GROUP BY in SQL.",
+    "hint": "$group è l'equivalente MongoDB di GROUP BY in SQL.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_DB_094",
+    "question": "Cos'è il 'denormalization' nei database e quando è utile?",
+    "options": [
+      {"id": "A", "text": "Il processo di normalizzazione in terza forma normale di un database OLTP"},
+      {"id": "B", "text": "L'introduzione intenzionale di ridondanza nei dati per migliorare le performance di lettura, a scapito della normalizzazione"},
+      {"id": "C", "text": "Il processo di rimozione di tutti gli indici da un database"},
+      {"id": "D", "text": "La conversione di un database relazionale in formato NoSQL"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La denormalizzazione introduce ridondanza controllata (es. replicare dati di frequente accesso, pre-calcolare aggregati) per ridurre i join e migliorare le performance di lettura. È comune nei sistemi OLAP, data warehouse e database NoSQL. Il trade-off è: più spazio e complessità nelle scritture, ma letture più veloci.",
+    "hint": "Denormalization = il contrario di normalizzazione, accettata per performance.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_DB_095",
+    "question": "In SQL Server, cosa fa l'hint NOLOCK (WITH NOLOCK)?",
+    "options": [
+      {"id": "A", "text": "Impedisce qualsiasi accesso concorrente alla tabella durante la query"},
+      {"id": "B", "text": "Permette letture 'dirty' (non committed), eliminando i lock di lettura per massimizzare la concorrenza"},
+      {"id": "C", "text": "Forza l'uso di un indice clustered per la query"},
+      {"id": "D", "text": "Blocca le operazioni di scrittura durante la lettura"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "WITH NOLOCK (equivalente a livello di isolamento READ UNCOMMITTED) permette al DBMS di leggere dati non ancora committed (dirty reads). Migliora la concorrenza eliminando i lock condivisi sulle letture, ma può restituire dati inconsistenti. Usare con cautela solo dove la consistenza assoluta non è critica.",
+    "hint": "NOLOCK = nessun lock di lettura → possibili dirty reads.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_DB_096",
+    "question": "Cos'è Apache Cassandra e per quale tipo di workload è ottimizzato?",
+    "options": [
+      {"id": "A", "text": "Un database relazionale colonnare ottimizzato per transazioni ACID complesse"},
+      {"id": "B", "text": "Un database NoSQL distribuito a colonne larghe, ottimizzato per scritture massicce e alta disponibilità su cluster geograficamente distribuiti"},
+      {"id": "C", "text": "Un sistema di file distribuito per l'archiviazione di oggetti binari"},
+      {"id": "D", "text": "Un motore di ricerca full-text distribuito basato su Lucene"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Apache Cassandra è un wide-column store NoSQL progettato per gestire enormi volumi di dati su cluster distribuiti con alta disponibilità e senza single point of failure. Eccelle in workload write-heavy, serie temporali, event logging, IoT. Usa consistent hashing per lo sharding e supporta replication configurabile.",
+    "hint": "Cassandra nasce per gestire il timeline di Facebook: scritture massicce e distribuite.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_DB_097",
+    "question": "Cosa si intende per 'read repair' in Cassandra?",
+    "options": [
+      {"id": "A", "text": "Un meccanismo che corregge automaticamente le query SQL con errori di sintassi"},
+      {"id": "B", "text": "Un processo di riconciliazione che aggiorna i nodi con dati obsoleti durante una lettura, riportando tutti alla versione più recente"},
+      {"id": "C", "text": "Un backup automatico che si attiva quando un nodo rileva dati corrotti"},
+      {"id": "D", "text": "Una tecnica di ottimizzazione che legge i dati dalla cache invece che dal disco"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Read Repair è un meccanismo di Cassandra per la consistenza eventuale: quando una lettura viene distribuita a più repliche (secondo il consistency level), Cassandra confronta le risposte. Se alcune repliche hanno dati obsoleti, le aggiorna silenziosamente in background (o in foreground) con la versione più recente basata sul timestamp.",
+    "hint": "Read repair = 'ripara' le inconsistenze tra repliche durante una lettura.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_DB_098",
+    "question": "Cosa fa l'istruzione CREATE INDEX CONCURRENTLY in PostgreSQL?",
+    "options": [
+      {"id": "A", "text": "Crea un indice in parallelo su tutti i core della CPU disponibili"},
+      {"id": "B", "text": "Crea l'indice senza bloccare le operazioni di lettura/scrittura sulla tabella durante la creazione"},
+      {"id": "C", "text": "Crea contemporaneamente più indici sulla stessa tabella in un'unica operazione"},
+      {"id": "D", "text": "Crea un indice condiviso tra più database dello stesso cluster"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "CREATE INDEX CONCURRENTLY in PostgreSQL crea l'indice in background senza acquisire un lock esclusivo sulla tabella: le operazioni di lettura e scrittura continuano normalmente. L'operazione richiede più tempo e risorse rispetto alla creazione standard, ma è essenziale in ambienti di produzione con alta concorrenza.",
+    "hint": "CONCURRENTLY = senza bloccare le operazioni concorrenti sulla tabella.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_DB_099",
+    "question": "In Redis, cosa è una 'Sorted Set' (ZSET)?",
+    "options": [
+      {"id": "A", "text": "Un insieme di chiavi Redis ordinate alfabeticamente"},
+      {"id": "B", "text": "Una struttura dati dove ogni elemento ha un 'score' numerico che determina l'ordinamento, con elementi unici"},
+      {"id": "C", "text": "Un elenco di valori ordinati per ordine di inserimento"},
+      {"id": "D", "text": "Una tabella hash con chiavi ordinate per lunghezza"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il Sorted Set (ZSET) in Redis associa a ogni membro un punteggio (score) float. I membri sono unici ma gli score possono essere duplicati. L'ordinamento è per score crescente. Perfetto per leaderboard, ranking, priority queue. Operazioni: ZADD, ZRANGE, ZRANK, ZSCORE con complessità O(log N).",
+    "hint": "Sorted = ordinato per 'score' numerico.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_DB_100",
+    "question": "In un database relazionale, qual è lo scopo principale del 'query planner' (ottimizzatore)?",
+    "options": [
+      {"id": "A", "text": "Verificare la sintassi SQL prima dell'esecuzione"},
+      {"id": "B", "text": "Determinare il piano di esecuzione più efficiente tra le possibili alternative per eseguire una query"},
+      {"id": "C", "text": "Distribuire le query su più nodi in un cluster"},
+      {"id": "D", "text": "Convertire le query SQL in stored procedure per il riuso futuro"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il query planner (ottimizzatore) riceve l'albero logico della query e genera il piano fisico di esecuzione ottimale: sceglie quali indici usare, l'ordine dei join, gli algoritmi di join (hash, nested loop, merge), ecc. Si basa su statistiche dei dati (distribuzione, cardinalità) per stimare i costi.",
+    "hint": "Il planner 'pianifica' come eseguire la query nel modo più efficiente.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_DB_101",
+    "question": "Cosa si intende per 'consistent hashing' nello sharding dei database distribuiti?",
+    "options": [
+      {"id": "A", "text": "Un algoritmo di hash che garantisce risultati identici su tutti i nodi"},
+      {"id": "B", "text": "Una tecnica di hashing che minimizza il ribilanciamento dei dati quando nodi vengono aggiunti o rimossi dal cluster"},
+      {"id": "C", "text": "Un meccanismo che garantisce la consistenza ACID nelle operazioni di hash"},
+      {"id": "D", "text": "L'applicazione di hash crittografici per la sicurezza dei dati distribuiti"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il Consistent Hashing mappa sia le chiavi che i nodi su un anello virtuale. Quando un nodo viene aggiunto o rimosso, solo i dati 'adiacenti' nell'anello devono essere ribilanciati (non tutti). Questo minimizza il movimento dei dati durante le operazioni di scaling. Usato da Cassandra, DynamoDB, ecc.",
+    "hint": "Consistent = consistente nel minimizzare il ribilanciamento durante i cambiamenti.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_DB_102",
+    "question": "Cos'è il 'Write-Ahead Logging' (WAL) nei database relazionali?",
+    "options": [
+      {"id": "A", "text": "Una tecnica che esegue prima tutte le scritture in memoria e poi le sincronizza su disco in batch"},
+      {"id": "B", "text": "Un meccanismo che scrive le modifiche nel log prima di applicarle alle pagine dati, garantendo durabilità e recupero da crash"},
+      {"id": "C", "text": "Un sistema di backup incrementale che registra le operazioni eseguite"},
+      {"id": "D", "text": "Un protocollo di replicazione che invia i dati ai secondary prima che siano confermati"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "WAL (Write-Ahead Logging) registra ogni modifica nel transaction log PRIMA di scriverla nelle pagine dati. In caso di crash, il database può riprendere il log e riapplicare le modifiche committed (redo) o annullare quelle non committed (undo). Garantisce la proprietà 'D' (Durability) di ACID. Usato da PostgreSQL, MySQL InnoDB, ecc.",
+    "hint": "WAL = scrivi prima nel log, poi nei dati. Log = assicurazione contro i crash.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_DB_103",
+    "question": "In MongoDB, cosa fa il metodo db.collection.createIndex({'campo': 1})?",
+    "options": [
+      {"id": "A", "text": "Crea un indice decrescente sul campo specificato"},
+      {"id": "B", "text": "Crea un indice ascendente sul campo specificato"},
+      {"id": "C", "text": "Crea un indice di tipo hash sul campo specificato"},
+      {"id": "D", "text": "Crea un indice full-text sul campo specificato"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "In MongoDB, il valore 1 indica un indice ascendente, -1 indica un indice discendente. Per un indice hash si usa 'hashed'. Per un indice full-text si usa 'text'. Gli indici in MongoDB usano la struttura B-Tree, simile ai database relazionali.",
+    "hint": "1 = ascending (crescente), -1 = descending (decrescente).",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_DB_104",
+    "question": "Qual è la funzione della clausola PARTITION BY nelle window function SQL?",
+    "options": [
+      {"id": "A", "text": "Divide fisicamente la tabella in partizioni su disco per ottimizzare le query"},
+      {"id": "B", "text": "Definisce i gruppi logici di righe su cui la window function opera, similmente a GROUP BY ma senza collassare le righe"},
+      {"id": "C", "text": "Specifica la colonna usata come shard key per la distribuzione dei dati"},
+      {"id": "D", "text": "Crea una partition fisica su una tabella partizionata"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "PARTITION BY nella clausola OVER() divide il result set in partizioni logiche per la window function. La funzione viene calcolata separatamente per ogni partizione. Es: ROW_NUMBER() OVER (PARTITION BY department_id ORDER BY salary DESC) assegna numeri di riga per ogni dipartimento.",
+    "hint": "PARTITION BY nelle window function = definisce 'finestre' separate per gruppi.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_DB_105",
+    "question": "Cosa si intende per 'table partitioning' in un database relazionale?",
+    "options": [
+      {"id": "A", "text": "La divisione logica di una tabella in sottoinsiemi fisici chiamati partizioni, basata su un criterio (range, list, hash)"},
+      {"id": "B", "text": "La creazione di una view che mostra solo una parte dei dati di una tabella"},
+      {"id": "C", "text": "La distribuzione di una tabella su più database distinti"},
+      {"id": "D", "text": "La suddivisione di una tabella in base alla normalizzazione"}
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il table partitioning divide una tabella grande in partizioni fisiche più piccole (es. per anno, per regione, per hash della chiave). I vantaggi includono: pruning delle partizioni (il DBMS esclude le partizioni non rilevanti), maintenance più semplice, migliori performance su grandi dataset. Tipi: RANGE, LIST, HASH.",
+    "hint": "Partitioning = dividere fisicamente la tabella secondo un criterio.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_DB_106",
+    "question": "In Redis, cosa fa il comando LPUSH?",
+    "options": [
+      {"id": "A", "text": "Inserisce un elemento alla fine (coda) di una lista Redis"},
+      {"id": "B", "text": "Inserisce uno o più elementi all'inizio (testa) di una lista Redis"},
+      {"id": "C", "text": "Crea una nuova lista con un singolo elemento specificato"},
+      {"id": "D", "text": "Recupera e rimuove l'elemento in testa alla lista"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "LPUSH (Left Push) inserisce elementi all'inizio (sinistra/head) di una lista. RPUSH inserisce in fondo (destra/tail). LPOP e RPOP rimuovono rispettivamente dalla testa e dalla coda. Queste operazioni permettono di implementare stack (LPUSH+LPOP) e code FIFO (RPUSH+LPOP).",
+    "hint": "L = Left = sinistra = inizio/testa della lista.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_DB_107",
+    "question": "Cosa rappresenta il termine 'eventual consistency' (consistenza eventuale) in un sistema distribuito?",
+    "options": [
+      {"id": "A", "text": "Il sistema garantisce che le letture restituiscano sempre il valore più recente scritto"},
+      {"id": "B", "text": "Il sistema garantisce che, in assenza di nuovi aggiornamenti, tutte le repliche convergeranno allo stesso valore in un momento futuro"},
+      {"id": "C", "text": "Il sistema completa ogni transazione entro un tempo massimo garantito"},
+      {"id": "D", "text": "Il sistema garantisce l'ordinamento delle operazioni di lettura e scrittura"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Eventual consistency è un modello di consistenza debole: il sistema non garantisce che tutte le repliche abbiano lo stesso valore in ogni momento, ma garantisce che alla fine (eventually), in assenza di nuovi aggiornamenti, convergeranno allo stesso stato. Permette alta disponibilità e bassa latenza a scapito della consistenza immediata.",
+    "hint": "'Eventualmente' = alla fine, non subito.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_DB_108",
+    "question": "Cosa si intende per 'index scan' vs 'sequential scan' in un database relazionale?",
+    "options": [
+      {"id": "A", "text": "L'index scan è sempre più lento perché deve accedere a due strutture dati; il sequential scan legge direttamente la tabella"},
+      {"id": "B", "text": "L'index scan usa l'indice B-Tree per accedere direttamente alle righe rilevanti; il sequential scan legge tutte le righe della tabella in sequenza"},
+      {"id": "C", "text": "Il sequential scan è sempre preferito dall'ottimizzatore per le grandi tabelle"},
+      {"id": "D", "text": "Index scan e sequential scan sono due nomi per la stessa operazione"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Index scan: l'ottimizzatore usa l'indice per trovare le posizioni delle righe rilevanti, poi le recupera dalla tabella (o direttamente dall'indice se covering). Sequential scan: legge tutta la tabella riga per riga. L'index scan è preferito per alta selettività (poche righe); il sequential scan può essere preferito per bassa selettività (molte righe).",
+    "hint": "Index = accesso diretto; Sequential = tutto dall'inizio alla fine.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_DB_109",
+    "question": "In SQL, cosa fa la clausola HAVING?",
+    "options": [
+      {"id": "A", "text": "Filtra le righe prima che venga applicata la GROUP BY"},
+      {"id": "B", "text": "Filtra i gruppi risultanti da GROUP BY in base a condizioni su funzioni aggregate"},
+      {"id": "C", "text": "Specifica le colonne che devono essere incluse nel risultato della query"},
+      {"id": "D", "text": "Definisce l'ordine in cui le righe vengono restituite"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "HAVING filtra i gruppi prodotti da GROUP BY in base a condizioni che coinvolgono funzioni aggregate (es. HAVING COUNT(*) > 5, HAVING AVG(salary) > 50000). WHERE filtra le singole righe PRIMA del raggruppamento; HAVING filtra i gruppi DOPO il raggruppamento.",
+    "hint": "WHERE filtra righe, HAVING filtra gruppi dopo GROUP BY.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_DB_110",
+    "question": "Cos'è il 'Vector Clock' utilizzato nei sistemi distribuiti NoSQL?",
+    "options": [
+      {"id": "A", "text": "Un tipo di indice vettoriale per ricerche di similarità nei database AI"},
+      {"id": "B", "text": "Una struttura dati che traccia la causalità tra eventi in sistemi distribuiti, permettendo di rilevare conflitti tra versioni di dati"},
+      {"id": "C", "text": "Un algoritmo di ordinamento dei dati nei database a colonne"},
+      {"id": "D", "text": "Un protocollo di sincronizzazione dell'orologio tra nodi del cluster"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il Vector Clock è una struttura dati usata in sistemi distribuiti (es. Amazon DynamoDB, Riak) per tracciare la causalità degli eventi. Permette di determinare se due versioni di un dato sono in conflitto (modifiche concorrenti) o se una precede causalmente l'altra, facilitando la risoluzione dei conflitti.",
+    "hint": "Vector Clock traccia 'chi ha visto cosa e quando' tra nodi distribuiti.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_DB_111",
+    "question": "In PostgreSQL, cosa è un 'tablespace'?",
+    "options": [
+      {"id": "A", "text": "Un namespace logico equivalente a uno schema, che raggruppa oggetti del database"},
+      {"id": "B", "text": "Una locazione fisica su disco dove PostgreSQL archivia i file dati degli oggetti del database"},
+      {"id": "C", "text": "La dimensione massima consentita per una singola tabella"},
+      {"id": "D", "text": "Un buffer in memoria dedicato a una specifica tabella"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Un tablespace in PostgreSQL è una locazione fisica (directory) sul filesystem dove vengono memorizzati i file dati degli oggetti del database. Permette di posizionare oggetti diversi su storage diversi (es. SSD per tabelle critiche, HDD per dati storici), ottimizzando I/O e gestendo lo spazio su disco.",
+    "hint": "Tablespace = 'spazio' fisico per le 'tabelle' su disco.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_DB_112",
+    "question": "Cosa si intende per 'N+1 query problem' nello sviluppo applicativo con ORM?",
+    "options": [
+      {"id": "A", "text": "Un bug dove N query falliscono e solo 1 va a buon fine"},
+      {"id": "B", "text": "Il problema dove per caricare N entità correlate si eseguono N query aggiuntive invece di una sola query con JOIN"},
+      {"id": "C", "text": "La limitazione degli ORM di non poter eseguire più di N query simultanee"},
+      {"id": "D", "text": "Un errore di ottimizzazione dove la stessa query viene eseguita N+1 volte in parallelo"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il problema N+1 si verifica quando si carica una lista di N oggetti (1 query) e poi per ogni oggetto si carica una relazione con una query separata (N query), per un totale di N+1 query. La soluzione è usare eager loading (JOIN o include) per caricare tutto in una o poche query efficienti.",
+    "hint": "1 query principale + N query per ogni elemento = N+1 query totali.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_DB_113",
+    "question": "In SQL, qual è la differenza tra UNION e UNION ALL?",
+    "options": [
+      {"id": "A", "text": "UNION mantiene i duplicati; UNION ALL li rimuove"},
+      {"id": "B", "text": "UNION rimuove i duplicati dal risultato; UNION ALL mantiene tutti i record inclusi i duplicati"},
+      {"id": "C", "text": "UNION ALL può combinare solo due query; UNION può combinarne infinite"},
+      {"id": "D", "text": "UNION richiede che le query abbiano lo stesso numero di colonne; UNION ALL no"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "UNION combina i risultati di due query ed elimina i duplicati (applica implicitamente DISTINCT, con overhead). UNION ALL combina i risultati mantenendo tutti i record inclusi i duplicati, ed è più veloce perché non deve confrontare le righe per trovare i duplicati. Entrambi richiedono compatibilità dei tipi nelle colonne.",
+    "hint": "ALL = tutto, inclusi i duplicati. Senza ALL → duplicati rimossi.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_DB_114",
+    "question": "Cos'è un 'full table lock' e in quale situazione può essere problematico?",
+    "options": [
+      {"id": "A", "text": "Un lock che protegge una singola riga durante una transazione"},
+      {"id": "B", "text": "Un lock esclusivo su tutta la tabella che impedisce qualsiasi accesso concorrente, problematico in sistemi ad alta concorrenza"},
+      {"id": "C", "text": "Un lock che si applica automaticamente durante le query di sola lettura"},
+      {"id": "D", "text": "Un meccanismo per prevenire le transazioni zombie"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Un full table lock blocca l'intera tabella per operazioni come DDL, operazioni di manutenzione o (in MySQL MyISAM) operazioni DML. In sistemi ad alta concorrenza causa colli di bottiglia gravi: mentre una transazione ha il lock, tutte le altre aspettano. I moderni DBMS usano row-level locking o MVCC per ridurre questo problema.",
+    "hint": "Lock sull'intera tabella = nessun altro può accedervi nel frattempo.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_DB_115",
+    "question": "In Cassandra, cos'è il 'gossip protocol'?",
+    "options": [
+      {"id": "A", "text": "Un protocollo per la replicazione sincrona dei dati tra i nodi del cluster"},
+      {"id": "B", "text": "Un protocollo peer-to-peer per la condivisione delle informazioni sullo stato dei nodi nel cluster (peer discovery, failure detection)"},
+      {"id": "C", "text": "Un meccanismo di sicurezza per l'autenticazione tra nodi"},
+      {"id": "D", "text": "Un protocollo per la compressione dei dati durante la trasmissione"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il Gossip Protocol in Cassandra è un meccanismo peer-to-peer di scambio periodico di informazioni di stato tra nodi: ogni nodo 'mormora' al suo vicino le informazioni su se stesso e sugli altri nodi che conosce. Permette peer discovery, failure detection e propagazione delle informazioni topologiche senza un nodo master centrale.",
+    "hint": "Gossip = pettegolezzi: i nodi si 'dicono' l'un l'altro lo stato del cluster.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_DB_116",
+    "question": "Cosa si intende per 'hot spot' nello sharding di un database?",
+    "options": [
+      {"id": "A", "text": "Un nodo del cluster con temperatura elevata dovuta all'alto carico computazionale"},
+      {"id": "B", "text": "Una distribuzione non uniforme del carico dove un singolo shard riceve una percentuale sproporzionata di richieste"},
+      {"id": "C", "text": "Una partizione dati con dati critici che richiedono accesso prioritario"},
+      {"id": "D", "text": "Un nodo primary che gestisce tutte le scritture in un replica set"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Un hot spot si verifica quando la shard key produce una distribuzione non uniforme: un singolo shard riceve la maggior parte delle richieste (es. shard key sequenziale dove tutte le nuove scritture finiscono sull'ultimo shard). Causa sovraccarico su quel nodo e degrado delle performance. Si previene scegliendo shard key ad alta cardinalità e distribuzione uniforme.",
+    "hint": "Hot spot = 'punto caldo' = un shard che riceve troppo traffico.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_DB_117",
+    "question": "In SQL, cosa fa la funzione COALESCE()?",
+    "options": [
+      {"id": "A", "text": "Concatena due stringhe con un separatore specificato"},
+      {"id": "B", "text": "Restituisce il primo valore non-NULL tra gli argomenti forniti"},
+      {"id": "C", "text": "Converte un valore NULL in zero"},
+      {"id": "D", "text": "Raggruppa valori simili in un'unica categoria"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "COALESCE(val1, val2, ..., valN) restituisce il primo valore non-NULL nell'elenco. Se tutti sono NULL, restituisce NULL. È molto utile per gestire valori mancanti: COALESCE(nickname, first_name, 'Anonimo') restituisce nickname se non nullo, altrimenti first_name, altrimenti 'Anonimo'. Equivale a CASE WHEN val1 IS NOT NULL THEN val1 WHEN val2 IS NOT NULL THEN val2 ...",
+    "hint": "Coalesce = unire/fondere: prende il primo 'solido' tra valori potenzialmente nulli.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_DB_118",
+    "question": "Cos'è il 'buffer pool' in un DBMS come MySQL InnoDB?",
+    "options": [
+      {"id": "A", "text": "Un pool di connessioni database condivise tra le applicazioni client"},
+      {"id": "B", "text": "Un'area di memoria RAM dove InnoDB mantiene le pagine dati e degli indici più frequentemente accedute per ridurre gli I/O su disco"},
+      {"id": "C", "text": "Un sistema di code che gestisce le query in attesa di esecuzione"},
+      {"id": "D", "text": "Un meccanismo di buffering delle operazioni di scrittura nel transaction log"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il buffer pool è la principale area di cache di InnoDB (e dei DBMS in generale): mantiene in RAM le pagine di dati e indici accedute di recente o frequentemente. Riduce drasticamente gli accessi a disco (molto più lenti). Dimensionare correttamente il buffer pool (es. 70-80% della RAM disponibile per server dedicati) è cruciale per le performance.",
+    "hint": "Buffer pool = cache principale in RAM del database.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_DB_119",
+    "question": "In MongoDB, qual è la differenza tra $lookup e un JOIN relazionale?",
+    "options": [
+      {"id": "A", "text": "Non c'è differenza: $lookup è identico al JOIN relazionale"},
+      {"id": "B", "text": "$lookup esegue un left outer join tra collection nello stesso database; è meno flessibile e generalmente meno performante dei JOIN in database relazionali ottimizzati"},
+      {"id": "C", "text": "$lookup è più veloce del JOIN relazionale perché MongoDB non usa disco"},
+      {"id": "D", "text": "$lookup supporta solo join su collection in database diversi"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La fase $lookup nel aggregation pipeline di MongoDB permette di effettuare un left outer join tra collection nello stesso database (dalla 3.6 anche tra shard). Rispetto ai JOIN relazionali, è generalmente meno efficiente perché MongoDB è progettato per documenti denormalizzati. L'uso massiccio di $lookup indica spesso un design dei documenti non ottimale.",
+    "hint": "$lookup esiste ma MongoDB incoraggia la denormalizzazione per evitarlo.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_DB_120",
+    "question": "Cosa si intende per 'index selectivity' (selettività di un indice)?",
+    "options": [
+      {"id": "A", "text": "Il numero totale di colonne incluse nell'indice composto"},
+      {"id": "B", "text": "La percentuale di righe che l'indice esclude rispetto al totale: alta selettività = poche righe restituite, indice molto efficace"},
+      {"id": "C", "text": "La velocità con cui l'indice viene aggiornato durante le operazioni DML"},
+      {"id": "D", "text": "Il numero di livelli nel B-Tree dell'indice"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La selettività di un indice misura quanto efficacemente filtra i record. Alta selettività = la condizione elimina molte righe (pochi risultati, indice molto utile). Bassa selettività = la condizione restituisce molte righe (es. colonna booleana: l'ottimizzatore preferisce un sequential scan). Si calcola come: valori distinti / righe totali.",
+    "hint": "Alta selettività = pochi risultati = indice molto utile.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_DB_121",
+    "question": "Cos'è il teorema di Brewer (CAP theorem) in relazione ai sistemi AP?",
+    "options": [
+      {"id": "A", "text": "I sistemi AP sacrificano la Partition Tolerance in favore di Availability e Consistency"},
+      {"id": "B", "text": "I sistemi AP privilegiano Availability e Partition Tolerance, sacrificando la Strong Consistency"},
+      {"id": "C", "text": "I sistemi AP garantiscono tutte e tre le proprietà CAP simultaneamente"},
+      {"id": "D", "text": "I sistemi AP sono sistemi che non supportano la replicazione"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "I sistemi AP (Availability + Partition Tolerance) restano disponibili anche durante partizioni di rete, ma possono restituire dati non aggiornati (eventual consistency). Esempi: Cassandra, CouchDB, DynamoDB. I sistemi CP (es. HBase, MongoDB in configurazione default) preferiscono la consistenza e possono diventare non disponibili durante partizioni.",
+    "hint": "AP = il sistema risponde sempre, anche se i dati potrebbero non essere aggiornati.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_DB_122",
+    "question": "In SQL, cosa fa l'operatore EXISTS in una subquery?",
+    "options": [
+      {"id": "A", "text": "Restituisce il numero di righe nella subquery"},
+      {"id": "B", "text": "Restituisce TRUE se la subquery produce almeno una riga, FALSE se non produce righe"},
+      {"id": "C", "text": "Verifica se una colonna esiste nella struttura della tabella"},
+      {"id": "D", "text": "Confronta i valori di due subquery e restituisce i duplicati"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "EXISTS restituisce TRUE se la subquery correlata produce almeno una riga, FALSE altrimenti. È efficiente perché il DBMS interrompe la valutazione appena trova la prima riga corrispondente (short-circuit evaluation). Spesso più efficiente di IN per subquery che restituiscono molti valori.",
+    "hint": "EXISTS = 'esiste almeno una riga che soddisfa la condizione?'",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_DB_123",
+    "question": "In Redis, cosa fa il comando HSET?",
+    "options": [
+      {"id": "A", "text": "Imposta una chiave di tipo stringa nel database Redis"},
+      {"id": "B", "text": "Aggiunge o aggiorna uno o più campi in un hash Redis"},
+      {"id": "C", "text": "Crea un nuovo database hash separato dal database principale"},
+      {"id": "D", "text": "Definisce il tipo di hashing usato per la distribuzione delle chiavi"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "HSET key field value [field value ...] imposta uno o più campi in un hash Redis. I Redis Hash sono strutture dati map/dizionario efficiente per rappresentare oggetti con più attributi. Operazioni correlate: HGET (legge un campo), HMGET (legge più campi), HGETALL (legge tutti i campi), HDEL (cancella un campo).",
+    "hint": "H = Hash. HSET = Set su un Hash.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_DB_124",
+    "question": "Cosa si intende per 'MVCC' (Multi-Version Concurrency Control)?",
+    "options": [
+      {"id": "A", "text": "Un sistema di versionamento del codice del database"},
+      {"id": "B", "text": "Una tecnica di controllo della concorrenza che mantiene più versioni di un dato per permettere letture consistenti senza bloccare le scritture"},
+      {"id": "C", "text": "Un protocollo per gestire più versioni dello schema del database"},
+      {"id": "D", "text": "Un meccanismo di backup che mantiene versioni storiche delle tabelle"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "MVCC mantiene più versioni dei dati (timestamp-based o versioni incrementali). Quando una transazione legge un dato, vede la versione consistente al proprio timestamp di inizio, non bloccata dalle scritture concorrenti. Eliminano (o riducono) i lock di lettura. Usato da PostgreSQL, MySQL InnoDB, Oracle, SQL Server. Le vecchie versioni vengono pulite periodicamente (VACUUM in PG).",
+    "hint": "Multi-Version = più versioni coesistono → le letture non bloccano le scritture.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_DB_125",
+    "question": "Nel contesto di MongoDB, cosa è 'GridFS'?",
+    "options": [
+      {"id": "A", "text": "Un sistema di grid computing per distribuire le query su più nodi"},
+      {"id": "B", "text": "Una specifica per archiviare e recuperare file di grandi dimensioni (> 16MB, limite BSON) dividendoli in chunks"},
+      {"id": "C", "text": "Un tipo di indice geospaziale per query su griglie geografiche"},
+      {"id": "D", "text": "Un framework per creare interfacce a griglia per la visualizzazione dei dati MongoDB"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "GridFS è una specifica MongoDB per archiviare file superiori al limite di 16MB del documento BSON. Divide il file in chunks (pezzi da 255KB) e li archivia nella collection fs.chunks, con i metadati nella collection fs.files. Utile per archiviare immagini, video, audio o altri file binari di grandi dimensioni.",
+    "hint": "GridFS gestisce i file troppo grandi per un singolo documento BSON.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_DB_126",
+    "question": "Cosa si intende per 'data lake' in contrasto con un Data Warehouse?",
+    "options": [
+      {"id": "A", "text": "Un data lake è un sottoinsieme di un Data Warehouse con dati in formato relazionale"},
+      {"id": "B", "text": "Un data lake archivia dati grezzi in qualsiasi formato (strutturati, semi-strutturati, non strutturati) senza trasformazione preventiva; il DW archivia dati strutturati e trasformati"},
+      {"id": "C", "text": "Il data lake è obsoleto e sostituisce completamente il Data Warehouse nelle architetture moderne"},
+      {"id": "D", "text": "Un data lake supporta solo query in tempo reale, il Data Warehouse solo query storiche"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Un Data Lake archivia dati in formato grezzo (raw) senza una schema predefinito (schema-on-read), accettando qualsiasi formato: CSV, JSON, Parquet, immagini, log, ecc. Il Data Warehouse usa schema-on-write con dati strutturati e trasformati tramite ETL. Il data lake è più flessibile e economico; il DW è più ottimizzato per l'analisi strutturata.",
+    "hint": "Lake (lago) = raccoglie tutto indiscriminatamente; Warehouse (magazzino) = organizzato.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_DB_127",
+    "question": "In SQL, cosa fa l'istruzione TRUNCATE TABLE a differenza di DELETE FROM tabella?",
+    "options": [
+      {"id": "A", "text": "TRUNCATE è più lento di DELETE perché registra ogni riga eliminata nel log"},
+      {"id": "B", "text": "TRUNCATE rimuove tutte le righe rapidamente senza registrare ogni riga nel log (DDL), non attiva i trigger per riga e in alcuni DBMS non è rollbackable"},
+      {"id": "C", "text": "TRUNCATE elimina anche la struttura della tabella, non solo i dati"},
+      {"id": "D", "text": "Non c'è differenza: TRUNCATE e DELETE producono lo stesso effetto"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "TRUNCATE TABLE (DDL in molti DBMS) rimuove tutte le righe molto più velocemente di DELETE perché dealloca le pagine dati senza registrare ogni singola eliminazione nel transaction log. Non attiva i trigger FOR EACH ROW. In PostgreSQL è transazionale (rollbackable); in MySQL non lo è. Non può avere clausola WHERE.",
+    "hint": "TRUNCATE = svuotamento rapido dell'intera tabella, non riga per riga.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_DB_128",
+    "question": "Cosa sono i 'secondary indexes' in Cassandra e qual è la loro limitazione principale?",
+    "options": [
+      {"id": "A", "text": "Indici creati automaticamente su tutte le colonne non primarie per ottimizzare le query"},
+      {"id": "B", "text": "Indici su colonne non-primary key che permettono query senza conoscere la partition key, ma con performance degradate su grandi dataset distribuiti"},
+      {"id": "C", "text": "Copie degli indici primari distribuite su nodi secondari per fault tolerance"},
+      {"id": "D", "text": "Indici creati solo sui nodi di replica per ottimizzare le letture"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "I secondary index di Cassandra permettono query su colonne non primarie, ma hanno limitazioni importanti: non sono adatti per colonne ad alta cardinalità (troppe voci nell'indice), per colonne con pochi valori distinti (molte righe per valore → fan-out su molti nodi), e possono causare query inefficienti che interrogano tutti i nodi. Preferire materializzate views o table duplicata con diverse partition key.",
+    "hint": "Secondary index in Cassandra è utile ma va usato con cautela per le performance.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_DB_129",
+    "question": "Cosa fa il comando ROLLBACK in SQL?",
+    "options": [
+      {"id": "A", "text": "Conferma tutte le modifiche della transazione corrente rendendole permanenti"},
+      {"id": "B", "text": "Annulla tutte le modifiche effettuate nella transazione corrente, riportando il database allo stato precedente"},
+      {"id": "C", "text": "Riporta il database a un backup precedente"},
+      {"id": "D", "text": "Annulla solo l'ultima operazione DML eseguita nella transazione"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "ROLLBACK annulla tutte le operazioni DML della transazione corrente non ancora committed, ripristinando il database allo stato precedente l'inizio della transazione (o al SAVEPOINT specificato con ROLLBACK TO SAVEPOINT). COMMIT fa l'opposto: rende permanenti le modifiche.",
+    "hint": "ROLLBACK = 'tornare indietro' al punto precedente la transazione.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_DB_130",
+    "question": "Cosa si intende per 'quorum' in un sistema distribuito come Cassandra?",
+    "options": [
+      {"id": "A", "text": "Il numero minimo di nodi che devono rispondere a una richiesta di lettura/scrittura perché sia considerata riuscita"},
+      {"id": "B", "text": "Il nodo master che coordina tutte le operazioni nel cluster"},
+      {"id": "C", "text": "Il numero massimo di nodi che possono fallire senza interrompere il servizio"},
+      {"id": "D", "text": "Il protocollo di elezione del leader in un cluster distribuito"}
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il quorum è il numero minimo di nodi che devono riconoscere una operazione affinché sia considerata riuscita. Con replication factor RF e quorum Q = floor(RF/2)+1, si garantisce che letture e scritture in quorum condividano almeno un nodo in comune, assicurando la consistenza. In Cassandra: ONE, TWO, THREE, QUORUM, ALL, LOCAL_QUORUM.",
+    "hint": "Quorum = maggioranza che 'vota' per confermare un'operazione.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_DB_131",
+    "question": "In SQL, cosa è una 'correlated subquery' (subquery correlata)?",
+    "options": [
+      {"id": "A", "text": "Una subquery che può essere eseguita indipendentemente dalla query esterna"},
+      {"id": "B", "text": "Una subquery che fa riferimento a colonne della query esterna e viene rieseguita per ogni riga della query esterna"},
+      {"id": "C", "text": "Una subquery che restituisce sempre un singolo valore scalare"},
+      {"id": "D", "text": "Una subquery definita nella clausola WITH (CTE)"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Una correlated subquery referenzia colonne della query esterna: non può essere eseguita autonomamente. Viene rivalutata per ogni riga della query esterna, il che può renderla molto lenta su grandi dataset. Spesso può essere riscritta come JOIN per migliorare le performance. Esempio: SELECT * FROM emp e WHERE salary > (SELECT AVG(salary) FROM emp WHERE dept_id = e.dept_id)",
+    "hint": "Correlata = dipende dalla riga esterna corrente, rieseguita per ogni riga.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_DB_132",
+    "question": "Cos'è il 'sharding key' (o shard key) e perché la sua scelta è critica?",
+    "options": [
+      {"id": "A", "text": "Una chiave crittografica usata per proteggere i dati in ogni shard"},
+      {"id": "B", "text": "Il campo/attributo usato per determinare in quale shard finisce un documento/riga; una scelta sbagliata causa hot spot o query inefficienti"},
+      {"id": "C", "text": "La chiave primaria della tabella principale in un database shardato"},
+      {"id": "D", "text": "Un identificatore univoco assegnato automaticamente a ogni shard"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La shard key è il campo (o insieme di campi) usato per determinare la distribuzione dei dati tra gli shard. La scelta è critica: una shard key con bassa cardinalità o distribuzione non uniforme crea hot spot (un shard sovraccarico). Deve garantire: distribuzione uniforme, localizzazione delle query (le query accedono a pochi shard) e scalabilità futura.",
+    "hint": "La shard key decide 'dove va' ogni dato nel cluster shardato.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_DB_133",
+    "question": "In SQL, cosa fa la funzione LAG() come window function?",
+    "options": [
+      {"id": "A", "text": "Calcola la media mobile delle righe precedenti nella finestra"},
+      {"id": "B", "text": "Permette di accedere al valore di una riga precedente nella stessa partizione senza dover fare un self-join"},
+      {"id": "C", "text": "Restituisce la prima riga in assoluto di ogni partizione"},
+      {"id": "D", "text": "Calcola il ritardo temporale tra due eventi nella stessa transazione"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "LAG(expr, offset, default) OVER (PARTITION BY ... ORDER BY ...) restituisce il valore di 'expr' dalla riga che precede di 'offset' posizioni la riga corrente nella partizione. È utile per confrontare il valore corrente con quello precedente (es. variazione tra mese corrente e precedente) senza self-join. LEAD() fa l'opposto: guarda in avanti.",
+    "hint": "LAG = 'ritardo' → guarda indietro alla riga precedente.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_DB_134",
+    "question": "In PostgreSQL, cosa è un 'partial index'?",
+    "options": [
+      {"id": "A", "text": "Un indice che copre solo alcune colonne della tabella"},
+      {"id": "B", "text": "Un indice creato su un sottoinsieme delle righe della tabella definito da una clausola WHERE"},
+      {"id": "C", "text": "Un indice incompleto che deve essere ricostruito prima dell'uso"},
+      {"id": "D", "text": "Un indice temporaneo che viene eliminato dopo l'esecuzione della query"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Un partial index (indice parziale) include solo le righe che soddisfano una condizione WHERE specificata durante la creazione. Es: CREATE INDEX idx_active ON users(email) WHERE active = true; Riduce le dimensioni dell'indice e migliora le performance per query su quel sottoinsieme specifico. Molto utile per colonne con pochi valori 'interessanti' tra molti.",
+    "hint": "Partial = parziale, solo alcune righe sono nell'indice.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_DB_135",
+    "question": "Cosa si intende per 'cold data' vs 'hot data' nella gestione del database?",
+    "options": [
+      {"id": "A", "text": "Cold data sono dati corrotti; hot data sono dati validi e verificati"},
+      {"id": "B", "text": "Hot data sono dati frequentemente acceduti (nel buffer pool); cold data sono dati raramente acceduti tipicamente su storage economico"},
+      {"id": "C", "text": "Cold data sono dati crittografati; hot data sono dati in chiaro"},
+      {"id": "D", "text": "Hot data sono dati replicati; cold data sono dati senza replica"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Hot data: dati frequentemente acceduti, mantenuti in cache (buffer pool/RAM) o su storage veloce (SSD NVMe). Cold data: dati raramente acceduti (dati storici, archivi), tipicamente su storage economico (HDD o object storage). La gestione data tiering archivia il cold data su storage più economico man mano che invecchia, ottimizzando costi e performance.",
+    "hint": "Hot = caldo/frequente (in cache); Cold = freddo/raro (su disco economico).",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_DB_136",
+    "question": "In MongoDB, cosa fa il metodo aggregate() con la fase $unwind?",
+    "options": [
+      {"id": "A", "text": "Raggruppa i documenti per un campo array, creando un documento unico"},
+      {"id": "B", "text": "Decompone un campo array di un documento creando un documento separato per ogni elemento dell'array"},
+      {"id": "C", "text": "Rimuove un campo specifico da tutti i documenti nella collection"},
+      {"id": "D", "text": "Ordina i documenti in base al numero di elementi in un campo array"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "$unwind 'srotola' un campo array: per ogni elemento dell'array produce un documento separato con tutti gli altri campi duplicati e il campo array sostituito dall'elemento singolo. Utile per analizzare i dati negli array con operazioni di aggregazione successive ($group, $match, ecc.).",
+    "hint": "Unwind = 'srotolare': da un documento con array a N documenti singoli.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_DB_137",
+    "question": "Cosa si intende per 'replication lag' nella replicazione di database?",
+    "options": [
+      {"id": "A", "text": "Il tempo necessario per creare una nuova replica di una tabella"},
+      {"id": "B", "text": "Il ritardo con cui i nodi secondary/replica applicano le modifiche apportate al primary/master"},
+      {"id": "C", "text": "Il limite massimo di dimensione dei dati replicabili in un singolo trasferimento"},
+      {"id": "D", "text": "Il numero di operazioni in coda nel transaction log del primary"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il replication lag è il ritardo tra quando una modifica viene confermata sul nodo primary e quando viene applicata sui nodi secondary. Un lag elevato può causare letture obsolete dai secondary e, in caso di failover, rischio di perdita di dati. Si monitora e si minimizza configurando hardware adeguato, rete veloce e ottimizzando la replica.",
+    "hint": "Lag = ritardo. Il secondary 'è indietro' rispetto al primary.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_DB_138",
+    "question": "Cosa si intende per 'database normalization' e fino a quale forma normale si normalizza tipicamente un database OLTP?",
+    "options": [
+      {"id": "A", "text": "La normalizzazione riduce la ridondanza e le anomalie; tipicamente si normalizza fino alla 3NF o BCNF in OLTP"},
+      {"id": "B", "text": "La normalizzazione aumenta la ridondanza per migliorare le performance; tipicamente si usa la 1NF nei sistemi OLTP"},
+      {"id": "C", "text": "La normalizzazione si applica solo ai database NoSQL; per i relazionali non è necessaria"},
+      {"id": "D", "text": "La normalizzazione si spinge sempre alla 6NF per eliminare completamente le anomalie"}
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La normalizzazione (1NF→2NF→3NF→BCNF→4NF→5NF) riduce la ridondanza e previene anomalie di inserimento, aggiornamento e cancellazione. Per i database OLTP si normalizza tipicamente fino alla 3NF (Terza Forma Normale) o BCNF (Boyce-Codd). La 4NF e 5NF sono usate raramente in pratica; nei DW si usa invece la denormalizzazione.",
+    "hint": "OLTP: 3NF/BCNF è il target standard. OLAP: si denormalizza.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_DB_139",
+    "question": "Cosa sono le 'time-series database' e per quale tipo di dati sono ottimizzate?",
+    "options": [
+      {"id": "A", "text": "Database che supportano date e orari con fuso orario, ottimizzati per query su periodi temporali"},
+      {"id": "B", "text": "Database specializzati per archiviare e interrogare sequenze di dati timestampati (misurazioni, metriche, eventi) nel tempo"},
+      {"id": "C", "text": "Database che archivia automaticamente snapshot delle tabelle ad intervalli di tempo regolari"},
+      {"id": "D", "text": "Database per la gestione di calendari e schedulazione di eventi"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "I database time-series (InfluxDB, TimescaleDB, Prometheus) sono ottimizzati per sequenze di dati con timestamp: metriche IoT, monitoraggio infrastruttura, dati finanziari, log. Offrono: compressione specializzata per dati temporali, query efficienti su intervalli di tempo, retention policies automatiche, downsampling. I dati vengono sempre inseriti in ordine cronologico.",
+    "hint": "Time-series = sequenza di misurazioni nel tempo, come un grafico di monitoraggio.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_DB_140",
+    "question": "Cosa fa la clausola ON CONFLICT ... DO UPDATE in PostgreSQL (UPSERT)?",
+    "options": [
+      {"id": "A", "text": "Annulla la transazione quando si verifica un conflitto di chiave univoca"},
+      {"id": "B", "text": "Permette di inserire una riga o, se esiste già un conflitto su un vincolo univoco, aggiornarla atomicamente"},
+      {"id": "C", "text": "Registra i conflitti di inserimento in una tabella di log separata"},
+      {"id": "D", "text": "Forza l'inserimento ignorando i vincoli di integrità in caso di conflitto"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'UPSERT in PostgreSQL (INSERT ... ON CONFLICT DO UPDATE) e in MySQL (INSERT ... ON DUPLICATE KEY UPDATE) permette di inserire o aggiornare atomicamente: se la riga non esiste viene inserita; se esiste già (violazione di chiave univoca) viene aggiornata con i valori specificati. Elimina la necessità di verificare prima l'esistenza con una SELECT separata.",
+    "hint": "UPSERT = Update + Insert in un'unica operazione atomica.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_DB_141",
+    "question": "Cosa si intende per 'GeoSpatial indexing' nei database come MongoDB o PostgreSQL (PostGIS)?",
+    "options": [
+      {"id": "A", "text": "Un indice che ordina i dati per posizione geografica del server di archiviazione"},
+      {"id": "B", "text": "Strutture di indicizzazione specializzate (R-Tree, Quad-tree) per query efficienti su dati geografici come punti, poligoni e distanze"},
+      {"id": "C", "text": "Un sistema di backup geograficamente distribuito per la disaster recovery"},
+      {"id": "D", "text": "Un tipo di sharding basato sulla posizione geografica degli utenti"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il GeoSpatial indexing usa strutture come R-Tree o Quad-tree per indicizzare dati geometrici (coordinate GPS, poligoni, percorsi). Permette query come: 'trova tutti i ristoranti entro 1km dalla mia posizione', 'quali edifici si trovano in questo poligono'. MongoDB supporta 2dsphere index; PostgreSQL con PostGIS offre funzioni geospaziali avanzate.",
+    "hint": "Geo = geografico: indici specializzati per coordinate e forme geografiche.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_DB_142",
+    "question": "In Cassandra, cos'è il 'compaction'?",
+    "options": [
+      {"id": "A", "text": "La compressione dei dati per ridurre lo spazio occupato su disco"},
+      {"id": "B", "text": "Il processo di unione degli SSTable su disco per eliminare versioni obsolete e dati cancellati (tombstones), migliorando le performance di lettura"},
+      {"id": "C", "text": "Il processo di bilanciamento dei dati tra i nodi del cluster"},
+      {"id": "D", "text": "La creazione di indici compatti per ottimizzare le query"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Cassandra usa strutture LSM-Tree (Log-Structured Merge-tree): le scritture vanno prima nel MemTable (RAM), poi vengono scaricate in file SSTable immutabili su disco. Il compaction unisce periodicamente gli SSTable: elimina le versioni obsolete (versioni più vecchie dello stesso dato), i tombstones (marcatori di cancellazione), e ottimizza la struttura per letture più veloci.",
+    "hint": "Compaction = unire e pulire i file SSTables su disco.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_DB_143",
+    "question": "Cosa si intende per 'deadlock' in un database e come viene generalmente gestito?",
+    "options": [
+      {"id": "A", "text": "Una query che impiega troppo tempo e viene terminata automaticamente dopo un timeout"},
+      {"id": "B", "text": "Una situazione dove due o più transazioni si bloccano a vicenda aspettando lock che l'altra detiene; il DBMS rileva il ciclo e fa rollback di una transazione"},
+      {"id": "C", "text": "Un errore di sintassi SQL che blocca l'esecuzione della query"},
+      {"id": "D", "text": "Una connessione al database che non viene chiusa correttamente dal client"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Un deadlock si verifica quando T1 ha il lock su R1 e aspetta R2, mentre T2 ha il lock su R2 e aspetta R1: nessuna può procedere. I DBMS rilevano i deadlock tramite il 'wait-for graph' (ciclo = deadlock) e risolvono facendo rollback della transazione 'vittima' (tipicamente quella con minor costo di rollback). Il deadlock è diverso da un semplice lock wait.",
+    "hint": "Deadlock = attesa circolare tra transazioni. Il DBMS rompe il ciclo con un rollback.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_DB_144",
+    "question": "Cos'è il 'Pub/Sub pattern' di Redis e per quale caso d'uso è tipicamente usato?",
+    "options": [
+      {"id": "A", "text": "Un pattern per la pubblicazione e sottoscrizione di pacchetti software"},
+      {"id": "B", "text": "Un sistema di messaggistica dove i publisher inviano messaggi su canali e i subscriber li ricevono in tempo reale, usato per notifiche e comunicazione real-time"},
+      {"id": "C", "text": "Un meccanismo per la sincronizzazione tra database Redis in cluster"},
+      {"id": "D", "text": "Un pattern per la gestione delle sessioni utente in applicazioni web"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il pattern Pub/Sub (PUBLISH/SUBSCRIBE) di Redis permette: i publisher inviano messaggi su canali con PUBLISH; i subscriber ricevono i messaggi in tempo reale con SUBSCRIBE. I messaggi non vengono persistiti: se un subscriber non è connesso, perde i messaggi. Usato per: notifiche real-time, chat, aggiornamenti live, invalidazione cache distribuita.",
+    "hint": "PUB = pubblico = invia. SUB = sottoscritto = riceve. Messaggi in tempo reale.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_DB_145",
+    "question": "Cosa si intende per 'query federation' nei database distribuiti?",
+    "options": [
+      {"id": "A", "text": "L'unione di più cluster database in un unico cluster centralizzato"},
+      {"id": "B", "text": "La capacità di eseguire query che coinvolgono dati distribuiti su più database/sistemi eterogenei attraverso un'unica interfaccia unificata"},
+      {"id": "C", "text": "La replicazione sincrona delle query tra nodi di un cluster"},
+      {"id": "D", "text": "Un protocollo per la distribuzione automatica delle query sui nodi disponibili"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La query federation permette di eseguire query che attraversano più database o sistemi di storage eterogenei (es. un database relazionale + un data lake + un database NoSQL) presentandoli come un'unica sorgente dati. Il federation layer si occupa di tradurre la query, distribuirla e unire i risultati. Esempi: AWS Athena Federation, Presto, Apache Drill.",
+    "hint": "Federation = unire sistemi diversi in un'unica interfaccia di query.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_DB_146",
+    "question": "Cosa fa la funzione DENSE_RANK() in SQL rispetto a RANK()?",
+    "options": [
+      {"id": "A", "text": "DENSE_RANK non lascia gap nel ranking in caso di ex-aequo; RANK lascia gap"},
+      {"id": "B", "text": "DENSE_RANK assegna lo stesso rango solo se i valori sono identici; RANK lo fa per i valori simili"},
+      {"id": "C", "text": "DENSE_RANK ordina in senso discendente, RANK in senso ascendente"},
+      {"id": "D", "text": "Non c'è differenza tra DENSE_RANK e RANK"}
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Con ex-aequo (parità), RANK() lascia gap: es. due elementi al 2° posto → il successivo è al 4° posto (3° saltato). DENSE_RANK() non lascia gap: due elementi al 2° posto → il successivo è al 3° posto. ROW_NUMBER() assegna numeri sequenziali unici senza ex-aequo. La scelta dipende dal requisito di business.",
+    "hint": "DENSE = denso, senza buchi/gap nel ranking.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_DB_147",
+    "question": "Cos'è il 'change data capture' (CDC) nei database?",
+    "options": [
+      {"id": "A", "text": "Un sistema di auditing che registra chi ha effettuato modifiche ai dati"},
+      {"id": "B", "text": "Una tecnica per identificare e catturare le modifiche ai dati nelle tabelle sorgente per propagarle in tempo reale ad altri sistemi"},
+      {"id": "C", "text": "Un meccanismo di versioning che mantiene la storia di tutte le modifiche a uno schema del database"},
+      {"id": "D", "text": "Una funzionalità che notifica l'applicazione quando una riga cambia di valore"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "CDC (Change Data Capture) cattura le modifiche ai dati (INSERT, UPDATE, DELETE) dalle tabelle sorgente in tempo (quasi) reale, tipicamente leggendo il transaction log del DBMS. Queste modifiche vengono propagate a sistemi target: data warehouse, cache, sistemi di ricerca, microservizi. Strumenti: Debezium, AWS DMS, Oracle GoldenGate.",
+    "hint": "CDC = cattura ogni cambiamento nei dati per propagarlo ad altri sistemi.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_DB_148",
+    "question": "In quale scenario è preferibile usare un indice composto (multi-column index) anziché indici separati?",
+    "options": [
+      {"id": "A", "text": "Quando le colonne vengono usate sempre separatamente in query diverse"},
+      {"id": "B", "text": "Quando le query filtrano frequentemente su più colonne insieme nella clausola WHERE o nella selezione dell'ordine (left-prefix rule)"},
+      {"id": "C", "text": "Quando si vuole risparmiare spazio su disco rispetto a indici separati"},
+      {"id": "D", "text": "Quando le colonne hanno valori NULL frequenti"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Un indice composto (es. INDEX(a, b, c)) è efficiente per query che usano le colonne nell'ordine del prefisso sinistro (left-prefix): può soddisfare query su (a), (a,b), (a,b,c) ma non su solo (b) o (c). È particolarmente utile come covering index e per query con ORDER BY multiplo. La regola del prefisso sinistro è fondamentale per la progettazione degli indici composti.",
+    "hint": "Indice composto = utile se le colonne vengono usate INSIEME nelle query.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_DB_149",
+    "question": "Cosa è una 'graph database' e per quali casi d'uso eccelle?",
+    "options": [
+      {"id": "A", "text": "Un database che visualizza i dati in forma di grafici e diagrammi per il business intelligence"},
+      {"id": "B", "text": "Un database che archivia dati come nodi ed archi, ottimizzato per query su relazioni altamente connesse come social network, grafi di conoscenza, raccomandazioni"},
+      {"id": "C", "text": "Un database ottimizzato per la gestione di serie temporali rappresentate graficamente"},
+      {"id": "D", "text": "Un database che usa algoritmi di teoria dei grafi per ottimizzare i piani di esecuzione delle query"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "I database a grafo (Neo4j, Amazon Neptune, JanusGraph) archiviano dati come nodi (entità) ed archi (relazioni). Eccellono quando le relazioni sono complesse e profonde: social network (amici degli amici), fraud detection (pattern di relazioni sospette), knowledge graph, sistemi di raccomandazione, routing. Le query di attraversamento del grafo sono molto più efficienti rispetto ai JOIN multipli del relazionale.",
+    "hint": "Grafo = nodi + archi. Perfetto per relazioni complesse e connesse.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_DB_150",
+    "question": "In un sistema di data warehousing, cosa si intende per 'slowly changing dimension' (SCD) di tipo 2?",
+    "options": [
+      {"id": "A", "text": "Una dimensione che viene aggiornata sovrascrivendo il valore precedente senza mantener storico"},
+      {"id": "B", "text": "Una tecnica che mantiene lo storico delle modifiche agli attributi di dimensione aggiungendo nuove righe con date di validità (effective/expiry date)"},
+      {"id": "C", "text": "Una dimensione che cambia così lentamente da non richiedere mai aggiornamenti"},
+      {"id": "D", "text": "Una dimensione calcolata derivata da altre dimensioni nel Data Warehouse"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "SCD Type 2 gestisce i cambiamenti storici di una dimensione aggiungendo una nuova riga per ogni modifica, con campi come: start_date, end_date (o is_current flag). Permette di analizzare i dati storici con gli attributi che erano validi in quel momento (es. cliente che cambia regione → si mantiene la regione storica per le vendite passate). SCD1 sovrascrive; SCD3 aggiunge una colonna 'previous value'.",
+    "hint": "SCD2 = storico completo con righe aggiuntive e date di validità.",
+    "level": "avanzato"
+  }
+]

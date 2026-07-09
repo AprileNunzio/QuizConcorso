@@ -1,0 +1,1302 @@
+[
+  {
+    "id": "Q_INF_AI_001",
+    "question": "Nel contesto dell'apprendimento supervisionato (Supervised Learning), cosa si intende per \"overfitting\" (sovraddattamento)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La capacità del modello di generalizzare correttamente su dati nuovi e non visti durante l'addestramento."
+      },
+      {
+        "id": "B",
+        "text": "Il fenomeno per cui un modello apprende eccessivamente i dettagli e il rumore del dataset di addestramento, riducendo le sue prestazioni su nuovi dati."
+      },
+      {
+        "id": "C",
+        "text": "Il processo di riduzione del numero di feature per semplificare il modello."
+      },
+      {
+        "id": "D",
+        "text": "L'addestramento del modello con un numero insufficiente di epoche o dati."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'overfitting si verifica quando un modello si adatta eccessivamente ai dati di addestramento, memorizzando anche il rumore casuale e le fluttuazioni invece delle relazioni sottostanti. Questo compromette la capacità del modello di generalizzare a nuovi dati non visti.",
+    "hint": "Riguarda l'eccessivo adattamento ai dati di training che danneggia la generalizzazione.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_AI_002",
+    "question": "Quale metrica di valutazione è definita come il rapporto tra il numero di veri positivi e il totale dei positivi predetti dal modello?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Recall (Richiamo)"
+      },
+      {
+        "id": "B",
+        "text": "Accuracy (Accuratezza)"
+      },
+      {
+        "id": "C",
+        "text": "Precision (Precisione)"
+      },
+      {
+        "id": "D",
+        "text": "F1-Score"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "La Precisione (Precision) misura l'accuratezza delle predizioni positive ed è calcolata come: Veri Positivi / (Veri Positivi + Falsi Positivi). Indica la frazione di casi predetti come positivi che sono effettivamente positivi.",
+    "hint": "Si focalizza sulla precisione delle risposte positive date dall'algoritmo.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_AI_003",
+    "question": "Nella validazione incrociata \"K-fold\" (K-fold Cross-Validation), come viene suddiviso il dataset?",
+    "options": [
+      {
+        "id": "A",
+        "text": "In K parti uguali, dove in ogni iterazione K-1 parti sono usate per il test e 1 parte per il training."
+      },
+      {
+        "id": "B",
+        "text": "In K parti uguali, dove in ogni iterazione K-1 parti sono usate per il training e 1 parte per il test."
+      },
+      {
+        "id": "C",
+        "text": "In due parti, dove il K% dei dati viene usato per il training e il restante per il test."
+      },
+      {
+        "id": "D",
+        "text": "In K gruppi, ognuno dei quali contiene esclusivamente dati di una singola classe."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La validazione incrociata K-fold divide il dataset in K parti uguali. Il modello viene addestrato K volte: ogni volta K-1 parti sono usate per addestrare il modello e la rimanente parte è usata per valutarlo.",
+    "hint": "Ogni singola parte viene utilizzata come set di test esattamente una volta.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_AI_004",
+    "question": "Nelle Support Vector Machines (SVM), qual è lo scopo principale del cosiddetto \"kernel trick\"?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ridurre linearmente la dimensionalità dello spazio delle feature per velocizzare i calcoli."
+      },
+      {
+        "id": "B",
+        "text": "Mappare i dati di input in uno spazio a dimensionalità superiore dove diventano linearmente separabili."
+      },
+      {
+        "id": "C",
+        "text": "Regolarizzare il modello per prevenire l'overfitting introducendo rumore gaussiano."
+      },
+      {
+        "id": "D",
+        "text": "Calcolare la probabilità a posteriori delle classi tramite la formula di Bayes."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il \"kernel trick\" consente alle SVM di operare in uno spazio delle feature a dimensionalità superiore senza calcolare esplicitamente le coordinate dei punti in quello spazio, rendendo linearmente separabili problemi che non lo sono nello spazio originario.",
+    "hint": "Consente di gestire confini di decisione non lineari proiettandoli in dimensioni superiori.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_AI_005",
+    "question": "Nel bilanciamento tra Bias (Distorsione) e Variance (Varianza), un modello caratterizzato da \"High Bias\" (alto bias) tipicamente:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Soffre di overfitting ed è estremamente sensibile alle fluttuazioni dei dati di training."
+      },
+      {
+        "id": "B",
+        "text": "Soffre di underfitting, dimostrando un'incapacità di catturare le relazioni fondamentali nei dati."
+      },
+      {
+        "id": "C",
+        "text": "Mostra un'ottima accuratezza sui dati di addestramento ma scarsa generalizzazione."
+      },
+      {
+        "id": "D",
+        "text": "Ha una complessità strutturale eccessiva rispetto alla quantità di dati disponibili."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Un alto bias indica che il modello fa assunzioni troppo semplicistiche rispetto alla reale struttura dei dati, portando all'underfitting (scarse prestazioni sia sul training set che sui dati nuovi).",
+    "hint": "Si associa a modelli troppo semplici che non riescono ad apprendere bene le relazioni nei dati.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_AI_006",
+    "question": "Il modello Random Forest appartiene alla categoria delle tecniche di:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dimensionality Reduction (Riduzione della dimensionalità)"
+      },
+      {
+        "id": "B",
+        "text": "Ensemble Learning basato sul principio del Bagging (Bootstrap Aggregating)"
+      },
+      {
+        "id": "C",
+        "text": "Ensemble Learning basato sul principio del Boosting"
+      },
+      {
+        "id": "D",
+        "text": "Clustering non supervisionato"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Random Forest combina multipli alberi di decisione indipendenti addestrati su campioni bootstrap (campionamento con reinserimento) del dataset e ne aggrega le risposte (Bagging) per ridurre la varianza totale.",
+    "hint": "Crea una foresta combinando in parallelo alberi addestrati su campioni casuali indipendenti.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_AI_007",
+    "question": "Qual è la principale differenza nell'effetto della regolarizzazione L1 (Lasso) rispetto alla regolarizzazione L2 (Ridge)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L1 riduce tutti i pesi proporzionalmente senza mai azzerarli, mentre L2 azzera alcuni pesi."
+      },
+      {
+        "id": "B",
+        "text": "L1 tende a spingere i coefficienti di alcune feature esattamente a zero, favorendo la sparsity (selezione delle feature), mentre L2 riduce i pesi senza azzerarli completamente."
+      },
+      {
+        "id": "C",
+        "text": "L2 aggiunge una penalità basata sul valore assoluto dei pesi, mentre L1 usa il quadrato dei pesi."
+      },
+      {
+        "id": "D",
+        "text": "L1 riduce la varianza del modello, mentre L2 riduce esclusivamente il bias."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La regolarizzazione L1 (Lasso) aggiunge una penalità pari alla somma dei valori assoluti dei pesi, portando alcuni parametri ad essere esattamente pari a zero. L2 (Ridge) aggiunge la somma dei quadrati dei pesi, rimpicciolendoli senza mai azzerarli del tutto.",
+    "hint": "L1 è utile per la selezione automatica delle feature perché genera pesi nulli (modelli sparsi).",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_AI_008",
+    "question": "Nella regressione logistica, quale funzione matematica viene applicata alla combinazione lineare delle feature per mappare l'output in un intervallo di probabilità tra 0 e 1?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La funzione ReLU (Rectified Linear Unit)"
+      },
+      {
+        "id": "B",
+        "text": "La funzione Tangente Iperbolica (tanh)"
+      },
+      {
+        "id": "C",
+        "text": "La funzione Sigmoide (o logistica)"
+      },
+      {
+        "id": "D",
+        "text": "La funzione Softmax"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "La funzione sigmoide trasforma qualsiasi valore reale in un valore compreso nell'intervallo (0, 1), permettendo di interpretare il risultato della regressione come la probabilità che un dato appartenga alla classe positiva.",
+    "hint": "Ha una caratteristica curva a forma di S che mappa da meno infinito a più infinito nell'intervallo (0, 1).",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_AI_009",
+    "question": "Nell'algoritmo di clustering K-Means, come viene determinata l'assegnazione di un punto a un cluster?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Calcolando la densità locale dei punti circostanti tramite raggio epsilon."
+      },
+      {
+        "id": "B",
+        "text": "In base alla distanza minore tra il punto e il centroide di ciascun cluster."
+      },
+      {
+        "id": "C",
+        "text": "Costruendo un dendrogramma gerarchico basato sul single-linkage."
+      },
+      {
+        "id": "D",
+        "text": "Tramite una classificazione probabilistica eseguita da un albero di decisione."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il K-Means assegna iterativamente ogni punto del dataset al cluster con il centroide più vicino, tipicamente impiegando la distanza euclidea ordinaria.",
+    "hint": "Cerca di minimizzare la somma dei quadrati delle distanze dei punti dal centroide del rispettivo cluster.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_AI_010",
+    "question": "Nella Principal Component Analysis (PCA), le componenti principali sono scelte in modo da:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Massimizzare la varianza dei dati proiettati e risultare ortogonali tra loro."
+      },
+      {
+        "id": "B",
+        "text": "Minimizzare la distanza tra i cluster calcolati tramite K-Means."
+      },
+      {
+        "id": "C",
+        "text": "Massimizzare la correlazione tra le variabili di input originarie."
+      },
+      {
+        "id": "D",
+        "text": "Classificare i dati in categorie discrete riducendo l'errore quadratico medio."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La PCA trova direzioni nello spazio dei dati (le componenti principali) che massimizzano la varianza dei dati quando proiettati su tali direzioni. Ogni componente successiva è vincolata a essere ortogonale (non correlata) alle precedenti.",
+    "hint": "Il fine è preservare la massima variabilità dei dati in meno dimensioni possibili, escludendo le correlazioni.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_AI_011",
+    "question": "Rispetto al K-Means, qual è uno dei principali vantaggi dell'algoritmo di clustering DBSCAN?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Richiede sempre che il numero di cluster K sia specificato a priori dall'utente."
+      },
+      {
+        "id": "B",
+        "text": "È in grado di identificare cluster di forme arbitrarie e rilevare automaticamente i punti di rumore (outlier)."
+      },
+      {
+        "id": "C",
+        "text": "Ha una complessità computazionale lineare sempre inferiore al K-Means su dataset enormi."
+      },
+      {
+        "id": "D",
+        "text": "Assegna a ogni punto una probabilità di appartenenza a ciascun cluster."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "DBSCAN (Density-Based Spatial Clustering of Applications with Noise) raggruppa i punti in base alla densità locale. Questo gli permette di trovare cluster di qualsiasi forma (anche non sferici) e di identificare esplicitamente punti isolati come rumore, senza richiedere il numero di cluster in anticipo.",
+    "hint": "Si basa sulla densità e sulla connettività dei punti, isolando quelli in aree a bassa densità.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_AI_012",
+    "question": "Nel clustering gerarchico agglomerativo, cosa rappresenta il \"dendrogramma\"?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La funzione di perdita minimizzata durante l'addestramento."
+      },
+      {
+        "id": "B",
+        "text": "Un diagramma ad albero che illustra la sequenza di fusioni o divisioni dei cluster a vari livelli di distanza."
+      },
+      {
+        "id": "C",
+        "text": "L'iperpiano ottimale che separa le classi in uno spazio multidimensionale."
+      },
+      {
+        "id": "D",
+        "text": "Il grafico delle componenti principali ordinate per varianza spiegata."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il dendrogramma è un diagramma ad albero utilizzato per visualizzare la storia delle fusioni (approccio agglomerativo) o delle scissioni (approccio divisivo) nei cluster, mostrando a quale distanza/soglia avvengono le unioni.",
+    "hint": "È una rappresentazione ad albero che mostra le relazioni gerarchiche tra gli elementi.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_AI_013",
+    "question": "L'algoritmo t-SNE (t-Distributed Stochastic Neighbor Embedding) è prevalentemente utilizzato per:",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'addestramento supervisionato di reti neurali convoluzionali."
+      },
+      {
+        "id": "B",
+        "text": "La visualizzazione di dati ad alta dimensionalità in spazi bidimensionali o tridimensionali, preservando le relazioni di vicinanza locale."
+      },
+      {
+        "id": "C",
+        "text": "La predizione di serie temporali complesse."
+      },
+      {
+        "id": "D",
+        "text": "La regolarizzazione dei pesi tramite penalità L1."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "t-SNE è una tecnica di riduzione non lineare della dimensionalità particolarmente adatta per mappare dati ad alta dimensione in uno spazio a 2D o 3D per l'ispezione visiva, cercando di mantenere vicini nello spazio ridotto i punti che erano vicini nello spazio originale.",
+    "hint": "È uno strumento di visualizzazione molto noto per esplorare cluster ad alta dimensionalità.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_AI_014",
+    "question": "Nell'estrazione di regole di associazione (es. Algoritmo Apriori), come si definisce il \"Support\" (Supporto) di una regola A -> B?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La percentuale di transazioni che contengono sia A che B sul totale delle transazioni del dataset."
+      },
+      {
+        "id": "B",
+        "text": "La probabilità condizionata che una transazione contenga B dato che contiene A."
+      },
+      {
+        "id": "C",
+        "text": "Il rapporto tra la confidenza della regola e la probabilità che B avvenga in modo indipendente."
+      },
+      {
+        "id": "D",
+        "text": "Il numero di elementi unici presenti all'interno del database."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il supporto (Support) misura la popolarità di un insieme di elementi ed è calcolato come la proporzione di transazioni nel database che contengono l'itemset composto da A e B insieme.",
+    "hint": "Valuta la frequenza assoluta/relativa con cui gli elementi compaiono insieme nel dataset.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_AI_015",
+    "question": "Qual è la limitazione fondamentale del Perceptron (Persecutore semplice) a singolo strato evidenziata da Minsky e Papert nel 1969?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Non può essere addestrato tramite discesa del gradiente."
+      },
+      {
+        "id": "B",
+        "text": "Non è in grado di risolvere problemi di classificazione che richiedono una separazione non lineare, come la funzione XOR."
+      },
+      {
+        "id": "C",
+        "text": "Richiede esclusivamente pesi negativi per convergere."
+      },
+      {
+        "id": "D",
+        "text": "Può elaborare solo variabili di input continue e mai binarie."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il perceptron a singolo strato può apprendere solo funzioni linearmente separabili (separabili da un iperpiano lineare). Minsky e Papert dimostrarono matematicamente che non poteva apprendere funzioni non lineari elementari come lo XOR.",
+    "hint": "Lo XOR richiede un piano di separazione non rettilineo.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_AI_016",
+    "question": "Qual è l'equazione matematica che definisce la funzione di attivazione ReLU (Rectified Linear Unit)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "f(x) = 1 / (1 + e^-x)"
+      },
+      {
+        "id": "B",
+        "text": "f(x) = max(0, x)"
+      },
+      {
+        "id": "C",
+        "text": "f(x) = (e^x - e^-x) / (e^x + e^-x)"
+      },
+      {
+        "id": "D",
+        "text": "f(x) = x * sigmoid(x)"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La ReLU è definita come f(x) = max(0, x). Restituisce zero per input negativi e restituisce l'input stesso se è positivo, rendendola computazionalmente molto efficiente e riducendo la saturazione dei gradienti.",
+    "hint": "Azzera la parte negativa del segnale e lascia passare inalterata quella positiva.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_AI_017",
+    "question": "Su quale regola del calcolo infinitesimale si basa l'algoritmo di Backpropagation (retropropagazione del gradiente) per aggiornare i pesi di una rete neurale?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Regola dell'Hopital"
+      },
+      {
+        "id": "B",
+        "text": "Regola della catena (Chain Rule)"
+      },
+      {
+        "id": "C",
+        "text": "Teorema fondamentale del calcolo integrale"
+      },
+      {
+        "id": "D",
+        "text": "Formula di Taylor-Maclaurin"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'algoritmo di retropropagazione sfrutta la regola della catena (chain rule) per calcolare ricorsivamente le derivate parziali dell'errore rispetto a ciascun peso della rete neurale, procedendo dallo strato di output indietro verso quello di input.",
+    "hint": "È la regola per derivare le funzioni composte.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_AI_018",
+    "question": "Qual è la caratteristica distintiva della discesa del gradiente stocastica (SGD) rispetto alla discesa del gradiente batch?",
+    "options": [
+      {
+        "id": "A",
+        "text": "SGD calcola il gradiente della funzione di perdita utilizzando l'intero dataset ad ogni singolo passo."
+      },
+      {
+        "id": "B",
+        "text": "SGD aggiorna i pesi della rete neurale analizzando un solo campione di addestramento (o un piccolo mini-batch) alla volta."
+      },
+      {
+        "id": "C",
+        "text": "SGD non necessita del calcolo delle derivate parziali per ottimizzare i parametri."
+      },
+      {
+        "id": "D",
+        "text": "SGD garantisce sempre la convergenza al minimo globale assoluto senza oscillazioni."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La discesa del gradiente batch calcola il gradiente sull'intero dataset prima di aggiornare i pesi. La discesa stocastica (SGD) aggiorna i pesi usando un campione singolo alla volta, riducendo l'uso di memoria e velocizzando il calcolo, sebbene introduca oscillazioni.",
+    "hint": "SGD sta per Stochastic Gradient Descent; opera su campioni estratti casualmente anziché sull'intero archivio.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_AI_019",
+    "question": "Per un problema di classificazione multiclasse in cui l'output della rete è fornito da uno strato Softmax, quale funzione di perdita (Loss Function) viene comunemente utilizzata?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Errore Quadratico Medio (MSE)"
+      },
+      {
+        "id": "B",
+        "text": "Categorical Cross-Entropy (Entropia incrociata categoriale)"
+      },
+      {
+        "id": "C",
+        "text": "Errore Assoluto Medio (MAE)"
+      },
+      {
+        "id": "D",
+        "text": "Huber Loss"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'entropia incrociata categoriale confronta la distribuzione di probabilità predetta (dallo strato Softmax) con la distribuzione reale dei dati (solitamente codificata con vettori one-hot), penalizzando fortemente le predizioni errate con alta confidenza.",
+    "hint": "Misura la distanza informativa tra la distribuzione target reale e quella stimata.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_AI_020",
+    "question": "Il fenomeno del \"Vanishing Gradient\" (gradiente calante/svanente) durante l'addestramento di reti neurali profonde comporta che:",
+    "options": [
+      {
+        "id": "A",
+        "text": "I gradienti calcolati a ritroso diventano estremamente grandi, causando instabilità numerica."
+      },
+      {
+        "id": "B",
+        "text": "I gradienti tendono a diventare infinitamente piccoli nei primi strati della rete, bloccando di fatto l'aggiornamento dei pesi di tali strati."
+      },
+      {
+        "id": "C",
+        "text": "La rete neurale dimentica completamente le informazioni precedentemente apprese su dataset differenti."
+      },
+      {
+        "id": "D",
+        "text": "La velocità di apprendimento aumenta in modo esponenziale ad ogni epoca."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Nel vanishing gradient, i gradienti calcolati con la backpropagation si riducono esponenzialmente man mano che si retrocede verso gli strati iniziali della rete. Di conseguenza, i pesi dei primi strati cambiano pochissimo, bloccando l'apprendimento delle feature di base.",
+    "hint": "Causa un addestramento estremamente lento o nullo nei primi strati vicini all'input.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_AI_021",
+    "question": "L'ottimizzatore Adam (Adaptive Moment Estimation) si distingue per il fatto di:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mantenere costante il learning rate per tutta la durata del processo di addestramento."
+      },
+      {
+        "id": "B",
+        "text": "Adattare il learning rate per ciascun parametro calcolando stime dei momenti di primo e secondo ordine dei gradienti."
+      },
+      {
+        "id": "C",
+        "text": "Evitare completamente l'uso del gradiente, affidandosi a un algoritmo genetico."
+      },
+      {
+        "id": "D",
+        "text": "Calcolare la matrice Hessiana completa per l'ottimizzazione del secondo ordine."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Adam è un algoritmo per l'ottimizzazione stocastica del primo ordine che calcola tassi di apprendimento adattivi individuali per i diversi parametri a partire da stime dei momenti di primo ordine (la media dei gradienti) e secondo ordine (la varianza non centrata).",
+    "hint": "Combina i concetti di Momentum e RMSProp per tarare il tasso di apprendimento.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_AI_022",
+    "question": "Perché non è consigliabile inizializzare tutti i pesi di una rete neurale a zero prima di avviare l'addestramento?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Perché causa immediatamente un errore di divisione per zero nel calcolo della funzione di perdita."
+      },
+      {
+        "id": "B",
+        "text": "Perché tutti i neuroni dello stesso strato calcoleranno le stesse identiche feature e riceveranno gli stessi aggiornamenti, impedendo la rottura della simmetria."
+      },
+      {
+        "id": "C",
+        "text": "Perché impedisce del tutto il flusso in avanti (forward pass) dei dati di input."
+      },
+      {
+        "id": "D",
+        "text": "Perché la ReLU smetterebbe di funzionare a causa di un overflow matematico."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Inizializzare tutti i pesi con lo stesso valore (ad esempio zero) fa sì che tutti i neuroni nascosti calcolino lo stesso identico output e lo stesso gradiente durante la retropropagazione, impedendo alla rete di imparare funzioni diverse (mancanza di simmetria breaking).",
+    "hint": "Senza inizializzazione casuale, i neuroni rimangono simmetrici e ridondanti tra loro.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_AI_023",
+    "question": "Nelle Reti Neurali Convoluzionali (CNN), qual è il ruolo principale dello strato di \"Pooling\" (es. Max Pooling)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Aumentare il numero di canali di colore dell'immagine di input."
+      },
+      {
+        "id": "B",
+        "text": "Ridurre la dimensione spaziale delle mappe delle feature, diminuendo il numero di parametri e controllando l'overfitting."
+      },
+      {
+        "id": "C",
+        "text": "Applicare una trasformazione non lineare per mappare l'output in classi probabilistiche."
+      },
+      {
+        "id": "D",
+        "text": "Ricostruire l'immagine originale a partire da una rappresentazione compressa."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Lo strato di pooling effettua un sottocampionamento spaziale (downsampling) riducendo la larghezza e l'altezza delle mappe delle feature. Ciò riduce il carico computazionale e introduce una parziale invarianza alle traslazioni.",
+    "hint": "Esegue una compressione delle dimensioni spaziali estraendo i valori massimi o medi.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_AI_024",
+    "question": "Quale componente strutturale consente alle reti LSTM (Long Short-Term Memory) di mitigare il problema del gradiente svanente rispetto alle RNN tradizionali?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Lo strato convoluzionale a dilatazione spaziale."
+      },
+      {
+        "id": "B",
+        "text": "La presenza di \"gate\" (porte di controllo) e di uno \"cell state\" (stato della cella) che permette il flusso di informazioni a lungo termine con modifiche additive."
+      },
+      {
+        "id": "C",
+        "text": "L'esclusione totale delle funzioni di attivazione non lineari."
+      },
+      {
+        "id": "D",
+        "text": "L'utilizzo di strati di pooling posizionati tra le ricorrenze temporali."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Le reti LSTM introducono lo stato della cella (cell state) in cui le informazioni possono scorrere linearmente senza ostacoli. Questo flusso è regolato da porte (input, forget e output gate) che eseguono operazioni additive anziché moltiplicative, riducendo drasticamente il vanishing gradient.",
+    "hint": "Sfrutta un'autostrada per l'informazione controllata da valvole logiche dette 'gate'.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_AI_025",
+    "question": "Come funziona la tecnica di regolarizzazione chiamata \"Dropout\" nelle reti neurali profonde?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Riduce progressivamente la precisione in virgola mobile dei pesi (da FP32 a INT8)."
+      },
+      {
+        "id": "B",
+        "text": "Spegne (disattiva) casualmente una percentuale di neuroni e le loro connessioni ad ogni iterazione di addestramento."
+      },
+      {
+        "id": "C",
+        "text": "Aggiunge un valore costante di rumore all'output dello strato finale di classificazione."
+      },
+      {
+        "id": "D",
+        "text": "Elimina definitivamente dal dataset i campioni che presentano un errore troppo elevato."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il Dropout disattiva casualmente una percentuale predefinita di neuroni ad ogni passo di addestramento. Questo impedisce ai neuroni di co-adattarsi eccessivamente (appoggiarsi l'uno sull'altro), costringendo la rete ad apprendere feature più robuste e riducendo l'overfitting.",
+    "hint": "Consiste nel 'lasciar fuori' casualmente nodi di calcolo durante l'allenamento.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_AI_026",
+    "question": "Nel Deep Learning, cosa si intende per \"Transfer Learning\" (Apprendimento per trasferimento)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il trasferimento di dati fisici da un server locale a una piattaforma cloud durante l'addestramento."
+      },
+      {
+        "id": "B",
+        "text": "L'utilizzo di un modello pre-addestrato su un dataset di grandi dimensioni come punto di partenza per l'addestramento su un compito nuovo e simile."
+      },
+      {
+        "id": "C",
+        "text": "Il processo con cui una rete neurale converte le immagini in tracce audio."
+      },
+      {
+        "id": "D",
+        "text": "La traduzione automatica di codice sorgente da Python a C++ per ottimizzare le prestazioni."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il transfer learning permette di prendere i pesi di un modello già addestrato su un problema generico (es. ImageNet) e riutilizzarli come base di partenza per un nuovo problema specifico, velocizzando la convergenza e riducendo il fabbisogno di nuovi dati.",
+    "hint": "Permette di non iniziare ad addestrare il modello da zero (es. pesi casuali).",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_AI_027",
+    "question": "Nelle architetture neurali moderne, quale delle seguenti soluzioni contribuisce in modo significativo a superare il problema del gradiente svanente nelle reti molto profonde?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'uso di connessioni residue (Skip Connections o Residual Connections)."
+      },
+      {
+        "id": "B",
+        "text": "L'impiego esclusivo della funzione di attivazione sigmoidea in tutti gli strati."
+      },
+      {
+        "id": "C",
+        "text": "L'eliminazione dei filtri nei livelli di convoluzione."
+      },
+      {
+        "id": "D",
+        "text": "La rimozione dei termini di bias da ogni strato lineare."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Le connessioni residue (skip connections) permettono al gradiente di fluire direttamente all'indietro attraverso la rete aggirando uno o più strati intermedi. Questo bypass impedisce al gradiente di ridursi a zero, consentendo l'addestramento di reti con centinaia di strati.",
+    "hint": "Architettura introdotta con le reti ResNet che 'salta' alcuni strati.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_AI_028",
+    "question": "Qual è lo scopo primario della tecnica di \"Batch Normalization\" (Normalizzazione Batch)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Convertire le etichette di testo in vettori numerici unidimensionali."
+      },
+      {
+        "id": "B",
+        "text": "Normalizzare gli input di ciascuno strato all'interno di un mini-batch per stabilizzare e accelerare l'addestramento."
+      },
+      {
+        "id": "C",
+        "text": "Ridurre il numero totale di epoche impostando una dimensione del batch dinamica."
+      },
+      {
+        "id": "D",
+        "text": "Rilevare ed eliminare i valori mancanti (null) nei record di input."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La Batch Normalization normalizza i valori di attivazione in ogni strato rispetto alla media e varianza calcolate per il mini-batch corrente. Stabilizza la distribuzione dei dati tra i vari strati profondi e riduce l'internal covariate shift.",
+    "hint": "Cura la stabilità interna ri-scalando i valori intermedi di ogni mini-batch.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_AI_029",
+    "question": "Nello sviluppo di modelli di visione artificiale, a cosa serve la tecnica della \"Data Augmentation\"?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A comprimere le immagini per ridurre il tempo di caricamento dal disco rigido."
+      },
+      {
+        "id": "B",
+        "text": "Ad aumentare artificialmente la diversità del dataset di addestramento applicando trasformazioni casuali (es. rotazioni, ritagli, specchiature) alle immagini esistenti."
+      },
+      {
+        "id": "C",
+        "text": "A raccogliere nuovi campioni reali effettuando scraping automatico sul web."
+      },
+      {
+        "id": "D",
+        "text": "A convertire le immagini a colori in scale di grigi per semplificare i calcoli."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La Data Augmentation genera nuove immagini a partire da quelle già presenti applicando trasformazioni fisiche (rotazioni, traslazioni, specchiature, variazioni di luminosità) per rendere il modello più robusto a variazioni visive reali.",
+    "hint": "Espande il dataset di allenamento in modo artificiale e sintetico.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_AI_030",
+    "question": "Un Autoencoder è un'architettura neurale tipicamente utilizzata per l'apprendimento non supervisionato che consta di:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Uno strato ricorrente collegato direttamente a un classificatore a foreste casuali."
+      },
+      {
+        "id": "B",
+        "text": "Un Encoder che comprime i dati in uno spazio latente a bassa dimensionalità e un Decoder che tenta di ricostruire i dati originali a partire da tale spazio."
+      },
+      {
+        "id": "C",
+        "text": "Un Generatore e un Discriminatore che competono tra loro in un gioco a somma zero."
+      },
+      {
+        "id": "D",
+        "text": "Un sistema di ricompensa basato su agenti e ambienti dinamici."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Un autoencoder classico ha l'obiettivo di comprimere l'input (encoder) in una rappresentazione a dimensione ridotta (collo di bottiglia o spazio latente) e poi ricostruirlo fedelmente (decoder), apprendendo feature non supervisionate.",
+    "hint": "Cerca di ricostruire in output lo stesso identico input passato, passando per una compressione.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_AI_031",
+    "question": "Da quali due componenti principali è costituita una Generative Adversarial Network (GAN)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Da un Encoder e un Decoder che lavorano in modalità collaborativa."
+      },
+      {
+        "id": "B",
+        "text": "Da un Generatore (che crea dati sintetici) e un Discriminatore (che tenta di distinguere i dati reali da quelli sintetici) in competizione."
+      },
+      {
+        "id": "C",
+        "text": "Da un Modello di Linguaggio e un database vettoriale esterno."
+      },
+      {
+        "id": "D",
+        "text": "Da un agente di rinforzo e da una funzione di ricompensa basata sul valore."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Le GAN consistono in due reti contrapposte: il Generatore impara a creare falsi verosimili per ingannare il Discriminatore, mentre quest'ultimo impara a riconoscere le immagini generate da quelle reali tratte dal dataset.",
+    "hint": "Si basa su una competizione antagonista e dinamica tra un falsario e un investigatore.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_AI_032",
+    "question": "Nelle architetture Transformer, qual è la funzione principale del meccanismo di \"Self-Attention\" (Auto-attenzione)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Consentire al modello di focalizzarsi su parti specifiche del testo di input calcolando la correlazione reciproca tra tutti i token della sequenza, indipendentemente dalla loro distanza."
+      },
+      {
+        "id": "B",
+        "text": "Forzare la rete ad elaborare i token in modo strettamente sequenziale, uno alla volta."
+      },
+      {
+        "id": "C",
+        "text": "Eliminare la necessità di vettori di embedding all'ingresso del modello."
+      },
+      {
+        "id": "D",
+        "text": "Calcolare la probabilità di perdita quadratica dello strato di classificazione finale."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il meccanismo di self-attention valuta la relazione semantica tra ogni parola e tutte le altre parole presenti in una frase, permettendo al modello di comprendere il contesto globale simultaneamente e in parallelo.",
+    "hint": "Pesa le relazioni dinamiche tra le parole all'interno della stessa sequenza di input.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_AI_033",
+    "question": "Rispetto agli autoencoder tradizionali, qual è la caratteristica peculiare di un Variational Autoencoder (VAE)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Non fa uso di una funzione di ricostruzione dell'output."
+      },
+      {
+        "id": "B",
+        "text": "Modella lo spazio latente in modo probabilistico, forzando la distribuzione latente ad approssimare una distribuzione nota (tipicamente una Gaussiana standard)."
+      },
+      {
+        "id": "C",
+        "text": "Utilizza esclusivamente connessioni ricorrenti per elaborare sequenze temporali."
+      },
+      {
+        "id": "D",
+        "text": "Viene addestrato solo tramite algoritmi di clustering non supervisionati."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "I VAE forzano lo spazio latente ad assumere una distribuzione probabilistica continua e regolare (attraverso la perdita basata sulla divergenza di Kullback-Leibler). Ciò permette di generare campioni realistici campionando punti dallo spazio latente.",
+    "hint": "Introduce una regolarizzazione probabilistica nello spazio compresso per renderlo generativo.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_AI_034",
+    "question": "Su quale principio fondamentale si basano i Modelli di Diffusione (Diffusion Models) usati per la generazione di immagini (es. Stable Diffusion)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sull'estrazione di regole di associazione logica da un grafo di conoscenza semantico."
+      },
+      {
+        "id": "B",
+        "text": "Sull'aggiunta progressiva di rumore gaussiano a un'immagine seguita dall'apprendimento di un processo inverso di rimozione sistematica del rumore per ricostruire l'immagine."
+      },
+      {
+        "id": "C",
+        "text": "Sull'uso di filtri convoluzionali rigidi non addestrabili."
+      },
+      {
+        "id": "D",
+        "text": "Sulla massimizzazione della distanza tra i centroidi dei cluster nello spazio delle feature."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "I modelli di diffusione distruggono gradualmente l'immagine aggiungendo rumore bianco (forward diffusion) e addestrano una rete (spesso una U-Net) a fare il processo inverso, ovvero togliere il rumore per ricostruire un'immagine pulita a partire dal rumore stesso.",
+    "hint": "Eseguono un processo iterativo di rimozione del rumore a partire da uno stato casuale.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_AI_035",
+    "question": "Nelle reti Transformer, a cosa serve il \"Positional Encoding\" (Codifica Posizionale)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A stabilire la classe grammaticale di ogni singolo token analizzato."
+      },
+      {
+        "id": "B",
+        "text": "A fornire al modello informazioni sull'ordine e sulla posizione dei token nella sequenza, compensando l'assenza di elaborazione sequenziale intrinseca."
+      },
+      {
+        "id": "C",
+        "text": "A criptare i dati sensibili per motivi di privacy prima dell'addestramento."
+      },
+      {
+        "id": "D",
+        "text": "A scalare i pesi delle matrici di Query, Key e Value per evitare gradienti svanenti."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Poiché i Transformer analizzano tutti i token in parallelo e non hanno elementi ricorrenti (come le RNN) che tengano traccia del tempo, hanno bisogno di sommare ai vettori di embedding un vettore posizionale (Positional Encoding) per non perdere l'ordine delle parole.",
+    "hint": "Aggiunge l'informazione sulla posizione sequenziale del token nella frase.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_AI_036",
+    "question": "Cosa sono i \"Word Embeddings\" (es. Word2Vec o GloVe) nell'ambito dell'elaborazione del linguaggio naturale (NLP)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dizionari digitali usati per correggere gli errori ortografici."
+      },
+      {
+        "id": "B",
+        "text": "Rappresentazioni vettoriali dense e continue delle parole, strutturate in modo che parole con significati o contesti simili abbiano vettori vicini nello spazio geometrico."
+      },
+      {
+        "id": "C",
+        "text": "Codifiche binarie di tipo one-hot in cui ogni vettore ha una lunghezza pari al numero totale di parole della lingua."
+      },
+      {
+        "id": "D",
+        "text": "Algoritmi per dividere i paragrafi in singole frasi."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "I word embeddings mappano le parole in uno spazio vettoriale continuo continuo a bassa dimensione. Parole simili o collegate semanticamente si troveranno vicine in questo spazio (es. vettori simili per 'cane' e 'gatto').",
+    "hint": "Rappresentano la semantica delle parole posizionandole in uno spazio geometrico.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_AI_037",
+    "question": "Qual è la principale differenza concettuale e di architettura tra BERT (Bidirectional Encoder Representations from Transformers) e GPT (Generative Pre-trained Transformer)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "BERT usa solo il meccanismo di attenzione lineare, mentre GPT si affida a reti ricorrenti LSTM."
+      },
+      {
+        "id": "B",
+        "text": "BERT è basato sulla parte Encoder del Transformer ed è addestrato in modo bidirezionale (contesto sinistro e destro); GPT usa il Decoder ed è addestrato in modo autoregressivo unidirezionale (da sinistra a destra)."
+      },
+      {
+        "id": "C",
+        "text": "GPT elabora solo dati visivi, mentre BERT elabora testo strutturato."
+      },
+      {
+        "id": "D",
+        "text": "BERT è un modello non supervisionato, mentre GPT richiede esclusivamente dataset supervisionati con etichette manuali."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "BERT è ottimizzato per comprendere il testo leggendo sia a sinistra che a destra di ciascuna parola (adatto a classificazione, NLU). GPT legge solo da sinistra a destra per predire il token successivo, rendendosi ideale per generare risposte coerenti (NLG).",
+    "hint": "Un modello è orientato alla comprensione bidirezionale, l'altro alla generazione sequenziale autoregressiva.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_AI_038",
+    "question": "Cos'è la tecnica RAG (Retrieval-Augmented Generation) applicata ai Large Language Models (LLM)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Una tecnica di addestramento da zero che utilizza esclusivamente hardware basato su TPU ad alte prestazioni."
+      },
+      {
+        "id": "B",
+        "text": "Un framework che arricchisce la richiesta (prompt) dell'utente recuperando documenti pertinenti da un database esterno prima di passare l'input al modello di linguaggio per generare la risposta."
+      },
+      {
+        "id": "C",
+        "text": "Un metodo per eliminare del tutto lo strato di attenzione nei Transformer per risparmiare memoria."
+      },
+      {
+        "id": "D",
+        "text": "Una metodologia per tradurre il prompt dell'utente in comandi SQL diretti al database di produzione."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La RAG (Retrieval-Augmented Generation) migliora le risposte di un LLM interrogando fonti di dati esterne (es. database vettoriali o motori di ricerca) per reperire informazioni rilevanti e allegarle al contesto del prompt, riducendo le allucinazioni.",
+    "hint": "Estrae informazioni aggiornate da archivi esterni prima di lasciar rispondere l'LLM.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_AI_039",
+    "question": "Nel contesto dei Large Language Models (LLM), cosa descrive il fenomeno delle \"allucinazioni\" (hallucinations)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'arresto improvviso del server di inferenza a causa di un sovraccarico di memoria GPU."
+      },
+      {
+        "id": "B",
+        "text": "La generazione da parte del modello di risposte sintatticamente corrette ma fattualmente false, prive di senso o non supportate dai dati di addestramento."
+      },
+      {
+        "id": "C",
+        "text": "L'incapacità del modello di elaborare input che contengono caratteri speciali o emoji."
+      },
+      {
+        "id": "D",
+        "text": "Il blocco ciclico in cui l'LLM ripete continuamente la stessa identica frase all'infinito."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Le allucinazioni avvengono quando il modello genera fatti plausibili ma falsi con estrema sicurezza. Ciò accade perché i modelli di linguaggio generano testo calcolando la probabilità statistica della parola successiva, e non effettuando controlli di verità sui dati.",
+    "hint": "Si riferisce a risposte formulate bene grammaticalmente ma storicamente o scientificamente false.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_AI_040",
+    "question": "Nell'elaborazione del testo per i Large Language Models, qual è lo scopo della fase di \"Tokenization\" (Tokenizzazione)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tradurre il testo originale direttamente in un file audio riproducibile."
+      },
+      {
+        "id": "B",
+        "text": "Suddividere la stringa di testo di input in unità atomiche più piccole (token), che possono essere intere parole, sotto-parole (subwords) o singoli caratteri, mappandole in ID numerici."
+      },
+      {
+        "id": "C",
+        "text": "Riconoscere ed eliminare le parole offensive dal testo prima che vengano visualizzate."
+      },
+      {
+        "id": "D",
+        "text": "Memorizzare in modo permanente il testo nel database vettoriale dell'applicazione."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La tokenizzazione converte la stringa di testo grezza in una serie di numeri interi (ID dei token) che rappresentano sotto-parti di parole. Gli algoritmi come BPE (Byte Pair Encoding) aiutano a gestire vocaboli sconosciuti spezzandoli in subwords.",
+    "hint": "Scompone il testo scritto in elementi strutturati elementari comprensibili dall'algoritmo matematico.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_AI_041",
+    "question": "La tecnica LoRA (Low-Rank Adaptation) viene impiegata nel fine-tuning degli LLM principalmente per:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Aumentare il numero complessivo di parametri del modello per migliorarne la creatività."
+      },
+      {
+        "id": "B",
+        "text": "Ridurre i requisiti di memoria e calcolo congelando i pesi originali e addestrando solo piccole matrici di scomposizione a basso rango aggiunte agli strati di attenzione."
+      },
+      {
+        "id": "C",
+        "text": "Eliminare il rumore presente nei prompt degli utenti in tempo reale."
+      },
+      {
+        "id": "D",
+        "text": "Consentire al modello di funzionare senza connessione a Internet."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "LoRA (Low-Rank Adaptation) congela i pesi pre-addestrati del modello e introduce matrici adattive a basso rango (low-rank) negli strati densi dell'attenzione. Riduce drasticamente il numero di parametri addestrabili e la memoria GPU richiesta per il fine-tuning.",
+    "hint": "Fa parte delle tecniche di PEFT (Parameter-Efficient Fine-Tuning) che minimizzano i pesi da addestrare.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_AI_042",
+    "question": "Nella progettazione dei prompt (Prompt Engineering), in cosa consiste l'approccio \"Few-shot Prompting\"?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nel chiedere all'LLM di rispondere utilizzando il minor numero possibile di parole."
+      },
+      {
+        "id": "B",
+        "text": "Nel fornire al modello alcuni esempi concreti di coppie input-output all'interno del prompt prima di presentare la richiesta effettiva."
+      },
+      {
+        "id": "C",
+        "text": "Nel forzare il modello ad addestrarsi nuovamente sui dati forniti nel prompt."
+      },
+      {
+        "id": "D",
+        "text": "Nel limitare l'interazione dell'utente a un massimo di tre domande per sessione."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il few-shot prompting fornisce all'LLM nel contesto del prompt alcuni esempi del comportamento richiesto per chiarire il formato dell'output e il tipo di elaborazione desiderata senza aggiornare fisicamente i pesi del modello.",
+    "hint": "Invia alcune coppie di 'esempio-soluzione' per istruire il modello in fase di inferenza.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_AI_043",
+    "question": "Qual è la caratteristica peculiare del metodo di prompt \"Chain-of-Thought\" (Catena di pensieri)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Richiede all'utente di collegare più LLM in serie per farli discutere tra loro."
+      },
+      {
+        "id": "B",
+        "text": "Spinge il modello a scomporre un problema complesso in una serie di passaggi logici intermedi prima di fornire la risposta finale."
+      },
+      {
+        "id": "C",
+        "text": "Raddoppia la velocità di inferenza della GPU dimezzando la lunghezza del prompt."
+      },
+      {
+        "id": "D",
+        "text": "Impedisce al modello di generare codice software difettoso obbligandolo all'uso di commenti."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il Chain-of-Thought prompting stimola l'LLM a mostrare il ragionamento logico esplicitando i passaggi intermedi prima di trarre le conclusioni, migliorando notevolmente le risposte a quesiti matematici o logici.",
+    "hint": "È tipicamente innescato dalla frase 'pensa passo dopo passo' (think step-by-step).",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_AI_044",
+    "question": "Qual è lo scopo principale del \"System Prompt\" (o System Message) in un'interfaccia di chat basata su LLM?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mostrare all'utente i log di sistema del server Linux che ospita il modello."
+      },
+      {
+        "id": "B",
+        "text": "Configurare le linee guida generali del modello, definendone il ruolo, il tono, i limiti comportamentali e le regole di sicurezza globali della conversazione."
+      },
+      {
+        "id": "C",
+        "text": "Archiviare la cronologia dei messaggi scambiati dagli utenti in precedenza."
+      },
+      {
+        "id": "D",
+        "text": "Fornire una stima del costo in token dell'inferenza corrente."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il System Prompt impone regole persistenti e stabilisce l'identità o il ruolo del modello (es. 'Agisci come programmatore Python esperto'). Ha priorità sulle istruzioni successive fornite nei prompt dell'utente.",
+    "hint": "Delinea le istruzioni strutturali di base impartite all'assistente prima dell'input dell'utente.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_AI_045",
+    "question": "Cosa si intende per \"Prompt Injection\" nel contesto della sicurezza delle applicazioni che integrano LLM?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'inserimento di codice SQL dannoso all'interno del database vettoriale."
+      },
+      {
+        "id": "B",
+        "text": "Una tecnica di attacco in cui un utente invia input progettati per sovrascrivere o bypassare le istruzioni del System Prompt originario, costringendo l'LLM a compiere azioni non previste o dannose."
+      },
+      {
+        "id": "C",
+        "text": "L'iniezione fisica di script JavaScript nei file HTML statici dell'applicazione."
+      },
+      {
+        "id": "D",
+        "text": "Il caricamento accelerato dei pesi del modello nella memoria video (VRAM)."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La Prompt Injection si ha quando dati o istruzioni malevole fornite dall'utente 'ingannano' il modello aggirando i suoi filtri o system prompt originali per fargli eseguire comandi impropri (es. bypassare i vincoli di sicurezza o rivelare segreti aziendali).",
+    "hint": "È un exploit di sicurezza volto a manipolare le istruzioni base del modello.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_AI_046",
+    "question": "Nell'Intelligenza Artificiale, come si definisce il \"Bias algoritmico\" (Algorithmic Bias)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un errore hardware dovuto all'eccessivo surriscaldamento delle unità di calcolo."
+      },
+      {
+        "id": "B",
+        "text": "La presenza di pregiudizi sistematici e discriminatori nei risultati generati dal modello, derivanti da squilibri o pregiudizi storici insiti nei dati di addestramento."
+      },
+      {
+        "id": "C",
+        "text": "La differenza matematica esatta tra il valore reale e il valore predetto in un problema di regressione lineare."
+      },
+      {
+        "id": "D",
+        "text": "L'utilizzo di algoritmi crittografici obsoleti per la protezione dei dati personali."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il bias algoritmico deriva principalmente da dataset di addestramento sbilanciati o che riflettono pregiudizi umani storici. Il modello impara ed estrapola questi schemi iniqui riproponendoli nelle sue decisioni o predizioni.",
+    "hint": "È la tendenza dell'algoritmo a riprodurre asimmetrie o discriminazioni apprese dai dati storici.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_AI_047",
+    "question": "Qual è l'obiettivo principale della branca nota come Explainable AI (XAI)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sviluppare modelli con miliardi di parametri per rendere le predizioni il più complesse possibile."
+      },
+      {
+        "id": "B",
+        "text": "Creare metodologie e tecniche che consentano agli esseri umani di comprendere, interpretare e fidarsi delle decisioni prese dai modelli di intelligenza artificiale (specialmente quelli a scatola chiusa o black-box)."
+      },
+      {
+        "id": "C",
+        "text": "Tradurre automaticamente i manuali di intelligenza artificiale in tutte le lingue del mondo."
+      },
+      {
+        "id": "D",
+        "text": "Ottimizzare l'efficienza energetica dei data center di addestramento."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La Explainable AI (XAI) si occupa di fornire strumenti per analizzare e spiegare il funzionamento interno delle reti neurali profonde (modelli black-box) rendendo chiaro come e perché l'algoritmo ha formulato una predizione o preso una decisione.",
+    "hint": "Cerca di dare trasparenza e interpretabilità alle scelte fatte da modelli complessi.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_AI_048",
+    "question": "L'Unione Europea ha introdotto l'EU AI Act, che regolamenta lo sviluppo e l'uso dell'Intelligenza Artificiale adottando un approccio basato:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sulla classificazione del livello di rischio associato all'applicazione di IA (da rischio minimo a rischio inaccettabile)."
+      },
+      {
+        "id": "B",
+        "text": "Sul divieto assoluto di utilizzare qualsiasi forma di deep learning sul suolo europeo."
+      },
+      {
+        "id": "C",
+        "text": "Sull'obbligo di rendere open source tutto il codice sorgente e i pesi dei modelli sviluppati."
+      },
+      {
+        "id": "D",
+        "text": "Sulla tassazione dei profitti generati dall'uso di agenti autonomi."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'EU AI Act adotta una classificazione basata sul rischio. Modelli a rischio inaccettabile (come il social scoring) sono vietati, mentre sistemi ad alto rischio (es. medicina, biometria) sono soggetti a severi obblighi di conformità e sicurezza.",
+    "hint": "Propone requisiti e obblighi normativi crescenti in relazione al grado di pericolo sociale del sistema di IA.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_AI_049",
+    "question": "Cosa descrive il termine \"Deepfake\"?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un archivio compresso contenente database vettoriali crittografati."
+      },
+      {
+        "id": "B",
+        "text": "Media sintetici (immagini, video o audio) generati da modelli di intelligenza artificiale generativa in cui il volto o la voce di una persona reale sono manipolati o sostituiti in modo estremamente realistico."
+      },
+      {
+        "id": "C",
+        "text": "La tecnica di addestramento di reti neurali che superano i 100 strati nascosti."
+      },
+      {
+        "id": "D",
+        "text": "Un attacco hacker volto a saturare la banda di rete di un servizio di AI."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il deepfake è una falsificazione multimediale altamente realistica creata combinando tecniche di deep learning (tipicamente GAN o modelli generativi audio/video) per far dire o fare cose mai avvenute a un soggetto reale.",
+    "hint": "Significa manipolare o falsificare volti e discorsi con eccezionale realismo.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_AI_050",
+    "question": "Quale problematica etico-legale è emersa con forza in merito alla fase di addestramento dei moderni modelli di intelligenza artificiale generativa (come LLM e generatori di immagini)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'incompatibilità dei modelli con i sistemi operativi open source."
+      },
+      {
+        "id": "B",
+        "text": "La violazione del copyright e dei diritti di proprietà intellettuale dovuta all'uso non autorizzato di opere d'arte, libri e testi protetti prelevati da Internet come dati di addestramento."
+      },
+      {
+        "id": "C",
+        "text": "Il mancato supporto per la crittografia a chiave pubblica nei file di pesi del modello."
+      },
+      {
+        "id": "D",
+        "text": "L'obbligo di pagare royalty agli utenti per ogni prompt testuale inserito."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'addestramento dei modelli generativi richiede enormi moli di dati scaricati dal web (web-scraping), inclusi testi, immagini e codici protetti da diritto d'autore. Gli autori sostengono che questo utilizzo non autorizzato leda il copyright e la proprietà intellettuale.",
+    "hint": "Riguarda l'uso non autorizzato di opere d'ingegno protette per addestrare sistemi commerciali.",
+    "level": "avanzato"
+  }
+]
