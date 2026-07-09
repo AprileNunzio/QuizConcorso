@@ -1,8 +1,17 @@
 import type { ConcorsoIndex, ConcorsoManifest, Question } from "../types";
 
+/**
+ * Absolute paths (starting with "/") resolve against the filesystem root
+ * when the packaged Electron app loads index.html via file://, not against
+ * the app folder. Every Master Bank fetch must therefore be resolved
+ * against Vite's configured BASE_URL, which stays correct in dev (http),
+ * `vite preview`, and the file:// context of the installed app alike.
+ */
+const DB_BASE = `${import.meta.env.BASE_URL}db/`;
+
 export const fetchConcorsiIndex = async (): Promise<ConcorsoIndex[]> => {
   try {
-    const response = await fetch("/db/manifest.json");
+    const response = await fetch(`${DB_BASE}manifest.json`);
     if (!response.ok) throw new Error("Errore nel caricamento del manifesto concorsi");
     return await response.json();
   } catch (error) {
@@ -13,7 +22,7 @@ export const fetchConcorsiIndex = async (): Promise<ConcorsoIndex[]> => {
 
 export const fetchConcorsoManifest = async (concorsoId: string): Promise<ConcorsoManifest> => {
   try {
-    const response = await fetch(`/db/concorsi/${concorsoId}.json`);
+    const response = await fetch(`${DB_BASE}concorsi/${concorsoId}.json`);
     if (!response.ok) throw new Error(`Errore nel caricamento del concorso ${concorsoId}`);
     return await response.json();
   } catch (error) {
@@ -54,7 +63,7 @@ export const countByLevel = (questions: Question[]): Record<QuestionLevel, numbe
 export const fetchQuestionsFromSources = async (sources: string[]): Promise<Question[]> => {
   try {
     const fetchPromises = sources.map(source =>
-      fetch(`/db/master_bank/${source}`).then(res => {
+      fetch(`${DB_BASE}master_bank/${source}`).then(res => {
         if (!res.ok) throw new Error(`Errore fetch su ${source}`);
         return res.json();
       })
