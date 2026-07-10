@@ -1371,6 +1371,14 @@ button {
   to { opacity: 1; transform: translateY(0); }
 }
 
+.app-version-credit {
+  margin: 0.15rem 0 0;
+  font-size: 0.75rem;
+  font-family: var(--font-mono);
+  letter-spacing: 0.02em;
+  color: var(--text-dim);
+}
+
 .motivational-quote {
   margin-top: 1.5rem;
   font-style: italic;

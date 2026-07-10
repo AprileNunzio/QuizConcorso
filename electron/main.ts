@@ -1,4 +1,4 @@
-import { app, BrowserWindow, Menu, MenuItemConstructorOptions, ipcMain } from 'electron';
+import { app, BrowserWindow, Menu, MenuItemConstructorOptions, ipcMain, dialog } from 'electron';
 import * as path from 'path';
 import { fileURLToPath } from 'url';
 import pkg from 'electron-updater';
@@ -18,6 +18,9 @@ process.on('uncaughtException', (err) => {
   logToFile(`UNCAUGHT EXCEPTION: ${err.stack || err.message}`);
 });
 
+// Distingue il check automatico all'avvio (silenzioso) da quello lanciato
+// manualmente dal menu (che deve sempre dare un feedback all'utente).
+let isManualCheck = false;
 
 function createWindow() {
     const win = new BrowserWindow({
@@ -51,6 +54,27 @@ function createWindow() {
         ]
       },
       {
+        label: 'Aggiornamenti',
+        submenu: [
+          {
+            label: 'Cerca Aggiornamenti...',
+            click: () => {
+              isManualCheck = true;
+              autoUpdater.checkForUpdates().catch((err) => {
+                isManualCheck = false;
+                logToFile('Error in manual update check: ' + err.toString());
+                dialog.showMessageBox(win, {
+                  type: 'error',
+                  title: 'Errore',
+                  message: 'Impossibile verificare la presenza di aggiornamenti.',
+                  detail: err instanceof Error ? err.message : String(err),
+                });
+              });
+            }
+          }
+        ]
+      },
+      {
         label: 'Visualizza',
         submenu: [
           { label: 'Schermo Intero', role: 'togglefullscreen' },
@@ -68,17 +92,47 @@ function createWindow() {
   }
 
   // Auto Updater logic
-  autoUpdater.on('update-available', () => {
+  autoUpdater.on('update-available', (info) => {
     logToFile('Update available.');
+    if (isManualCheck) {
+      isManualCheck = false;
+      dialog.showMessageBox(win, {
+        type: 'info',
+        title: 'Aggiornamento trovato',
+        message: `È disponibile la versione ${info.version}.`,
+        detail: 'Il download parte in background: riceverai un avviso in app quando sarà pronta da installare.',
+      });
+    }
   });
-  
+
+  autoUpdater.on('update-not-available', () => {
+    logToFile('No update available.');
+    if (isManualCheck) {
+      isManualCheck = false;
+      dialog.showMessageBox(win, {
+        type: 'info',
+        title: 'Nessun aggiornamento disponibile',
+        message: `Hai già la versione più recente (v${app.getVersion()}).`,
+      });
+    }
+  });
+
   autoUpdater.on('update-downloaded', (info) => {
     logToFile('Update downloaded.');
     win?.webContents.send('update-downloaded', info);
   });
-  
+
   autoUpdater.on('error', (err) => {
     logToFile('Error in auto-updater: ' + err.toString());
+    if (isManualCheck) {
+      isManualCheck = false;
+      dialog.showMessageBox(win, {
+        type: 'error',
+        title: 'Errore',
+        message: 'Impossibile verificare la presenza di aggiornamenti.',
+        detail: err.toString(),
+      });
+    }
   });
 
   // Avvia il check in background dopo 10 secondi per non rallentare l'avvio

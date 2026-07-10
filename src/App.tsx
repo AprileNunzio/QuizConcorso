@@ -408,6 +408,7 @@ function App() {
         onGoRipasso={() => setCurrentView('ripasso')}
         updateAvailable={updateAvailable}
         onInstallUpdate={() => (window as any).electronAPI?.installUpdate()}
+        onDismissUpdate={() => setUpdateAvailable(null)}
       />
     );
   };

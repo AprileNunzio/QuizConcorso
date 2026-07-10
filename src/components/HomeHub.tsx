@@ -19,18 +19,20 @@ interface HomeHubProps {
   onGoRipasso: () => void;
   updateAvailable: any;
   onInstallUpdate: () => void;
+  onDismissUpdate: () => void;
 }
 
 export function HomeHub({
   concorsi, quote, userStats, analytics, dueCount,
   onSelectConcorso, onGoAllenamento, onGoStatistiche, onGoRipasso,
-  updateAvailable, onInstallUpdate,
+  updateAvailable, onInstallUpdate, onDismissUpdate,
 }: HomeHubProps) {
   return (
     <div className="dashboard">
       <header className="modern-header" style={{ marginBottom: '1.1rem' }}>
         <GraduationCap size={32} className="icon-logo" />
         <h1>Quiz &amp; Concorsi Hub</h1>
+        <p className="app-version-credit">v{__APP_VERSION__} &middot; by Aprile Nunzio (NunzioTech)</p>
         <div className="motivational-quote">
           <p>&ldquo;{quote}&rdquo;</p>
         </div>
@@ -210,12 +212,20 @@ export function HomeHub({
             <DownloadCloud size={24} className="icon-logo" style={{ color: 'white', marginBottom: 0 }} />
             <div>
               <strong>Aggiornamento Pronto!</strong>
-              <p style={{ margin: 0, fontSize: '0.9rem', opacity: 0.9 }}>Riavvia l'applicazione per installare la nuova versione.</p>
+              <p style={{ margin: 0, fontSize: '0.9rem', opacity: 0.9 }}>
+                {updateAvailable?.version ? `La versione ${updateAvailable.version} è ` : 'Una nuova versione è '}
+                stata scaricata. Vuoi installarla ora?
+              </p>
             </div>
           </div>
-          <button className="btn-secondary" style={{ color: 'var(--primary)', padding: '0.5rem 1rem' }} onClick={onInstallUpdate}>
-            Riavvia Ora
-          </button>
+          <div style={{ display: 'flex', gap: '0.5rem', flexShrink: 0 }}>
+            <button className="btn-secondary" style={{ background: 'transparent', color: 'white', borderColor: 'rgba(255,255,255,0.4)', padding: '0.5rem 1rem' }} onClick={onDismissUpdate}>
+              Più Tardi
+            </button>
+            <button className="btn-secondary" style={{ color: 'var(--primary)', padding: '0.5rem 1rem' }} onClick={onInstallUpdate}>
+              Riavvia Ora
+            </button>
+          </div>
         </div>
       )}
     </div>
