@@ -262,6 +262,32 @@ a { color: inherit; }
   background: var(--bg-inset);
 }
 
+.nav-icon-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 999px;
+  border: 1px solid var(--border-hairline);
+  background: var(--bg-inset);
+  color: var(--text-muted);
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.nav-icon-btn:hover {
+  color: var(--text-main);
+  border-color: var(--primary);
+}
+
+.nav-icon-btn.active {
+  color: var(--primary);
+  border-color: var(--primary);
+  background: var(--secondary);
+}
+
 .nav-live-chip .dot {
   width: 7px;
   height: 7px;
@@ -650,6 +676,58 @@ button {
 .btn-warning:disabled {
   opacity: 0.45;
   cursor: not-allowed;
+}
+
+.btn-danger {
+  background: rgba(225, 29, 72, 0.1);
+  color: var(--incorrect);
+  border: 1px solid rgba(225, 29, 72, 0.35);
+  width: 100%;
+}
+
+.btn-danger:hover:not(:disabled) {
+  background: rgba(225, 29, 72, 0.18);
+}
+
+.btn-danger:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Impostazioni — zona pericolosa                                        */
+/* ---------------------------------------------------------------------- */
+
+.danger-zone {
+  border: 1px solid rgba(225, 29, 72, 0.35);
+  background: rgba(225, 29, 72, 0.06);
+  border-radius: var(--radius-sm);
+  padding: 1.1rem 1.25rem;
+}
+
+.danger-zone-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--incorrect);
+  margin-bottom: 0.6rem;
+}
+
+.danger-zone-input {
+  width: 100%;
+  padding: 0.7rem 0.9rem;
+  border-radius: var(--radius-sm);
+  border: 1.5px solid var(--border-hairline);
+  background: var(--bg-inset);
+  color: var(--text-main);
+  font-family: var(--font-mono);
+  font-size: 0.95rem;
+  box-sizing: border-box;
+}
+
+.danger-zone-input:focus {
+  outline: none;
+  border-color: var(--incorrect);
 }
 
 .btn-ghost {

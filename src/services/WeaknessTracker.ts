@@ -218,5 +218,6 @@ export const WeaknessTracker = {
 
   reset() {
     localStorage.removeItem(STORAGE_KEY);
+    localStorage.removeItem(NEW_PER_DAY_KEY);
   },
 };

@@ -1,7 +1,7 @@
-import { GraduationCap, Home, BookOpen, Activity, Zap } from 'lucide-react';
+import { GraduationCap, Home, BookOpen, Activity, Zap, Settings } from 'lucide-react';
 import type { ReactNode } from 'react';
 
-export type ViewName = 'home' | 'allenamento' | 'ripasso' | 'statistiche';
+export type ViewName = 'home' | 'allenamento' | 'ripasso' | 'statistiche' | 'impostazioni';
 
 interface ShellProps {
   currentView: ViewName;
@@ -50,6 +50,14 @@ export function Shell({ currentView, onNavigate, globalIQ, dueCount = 0, childre
           <span className="dot" />
           QI {globalIQ}
         </div>
+
+        <button
+          className={`nav-icon-btn ${currentView === 'impostazioni' ? 'active' : ''}`}
+          onClick={() => onNavigate('impostazioni')}
+          title="Impostazioni"
+        >
+          <Settings size={18} />
+        </button>
       </nav>
 
       {children}

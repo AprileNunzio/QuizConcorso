@@ -98,6 +98,10 @@ export class StatisticsManager {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(stats));
   }
 
+  public static resetAll() {
+    localStorage.removeItem(STORAGE_KEY);
+  }
+
   /**
    * Calcola il QI per una specifica sessione.
    * L'algoritmo premia l'accuratezza, ma penalizza pesantemente l'impulsività

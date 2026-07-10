@@ -18,6 +18,7 @@ import { ConcorsoSyllabus } from './components/ConcorsoSyllabus';
 import type { CustomSimulationModule } from './components/SimulazioneBuilder';
 import { Statistiche } from './components/Statistiche';
 import { Ripasso } from './components/Ripasso';
+import { Impostazioni } from './components/Impostazioni';
 import { QuizView } from './components/QuizView';
 import { ResultsView } from './components/ResultsView';
 import { QuizReviewView } from './components/QuizReviewView';
@@ -343,6 +344,19 @@ function App() {
           session={reviewingSession}
           allQuestions={allQuestions}
           onBack={() => setReviewingSession(null)}
+        />
+      );
+    }
+
+    if (currentView === 'impostazioni' && userStats) {
+      return (
+        <Impostazioni
+          userStats={userStats}
+          onBack={() => handleNavigate('home')}
+          onDataReset={() => {
+            refreshStatistics();
+            setDueCount(WeaknessTracker.getDueCount());
+          }}
         />
       );
     }
