@@ -46,13 +46,23 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: windows-installer
-          path: release/*.exe
+          path: |
+            release/*.exe
+            release/*.yml
+            release/*.blockmap
 
+      # latest.yml e il .blockmap devono finire sulla Release: sono i file
+      # che electron-updater legge per capire se esiste una versione più
+      # recente e per scaricarla in modo incrementale. Senza latest.yml
+      # il controllo aggiornamenti in app fallisce con un 404.
       - name: Create Release
         if: startsWith(github.ref, 'refs/tags/')
         uses: softprops/action-gh-release@v2
         with:
-          files: release/*.exe
+          files: |
+            release/*.exe
+            release/*.yml
+            release/*.blockmap
           generate_release_notes: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
