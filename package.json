@@ -4,7 +4,7 @@
   "description": "Un'applicazione desktop ultra-moderna progettata per lo studio e la preparazione a qualsiasi concorso pubblico.",
   "author": "NunzioTech",
   "private": true,
-  "version": "1.0.3",
+  "version": "1.0.4",
   "type": "module",
   "main": "dist-electron/main.js",
   "scripts": {
