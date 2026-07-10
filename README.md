@@ -96,6 +96,8 @@ npm run dev
 | `npm run start` / `npm run electron:dev` | Avvia l'app completa in Electron con hot reload |
 | `npm run build` | Type-check + build di produzione del bundle web |
 | `npm run electron:build` | Build completa + packaging dell'installer Windows in `release/` |
+| `npm run build:local` | Come sopra, ma con l'output in `%TEMP%\quiz-concorso-release` invece che in `release/`, per evitare l'errore `EPERM` che electron-builder può dare se il progetto si trova in una cartella sincronizzata da Google Drive/OneDrive/Dropbox |
+| `npm run build:publish` | Bump di versione + push + push dei tag: fa partire la pipeline CI che builda e pubblica la Release su GitHub (richiede working tree pulita) |
 | `npm run lint` | Lint del codice con oxlint |
 | `npm run preview` | Serve il bundle di produzione già buildato |
 
