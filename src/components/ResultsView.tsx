@@ -1,5 +1,6 @@
-import { Award, CheckCircle2, Clock3, Gauge } from 'lucide-react';
-import type { QuizEngine } from '../services/QuizEngine';
+import { useState } from 'react';
+import { Award, CheckCircle2, Clock3, Gauge, Lightbulb, Tag, Sparkles, AlertTriangle, ChevronDown, ChevronUp } from 'lucide-react';
+import type { QuizEngine, DetailedResult } from '../services/QuizEngine';
 import { StatisticsManager } from '../services/StatisticsManager';
 import { GaugeRing } from './charts/GaugeRing';
 import { PageNav } from './PageNav';
@@ -9,7 +10,45 @@ interface ResultsViewProps {
   onBackToHub: () => void;
 }
 
+export function ReviewItem({ item, index }: { item: DetailedResult; index: number }) {
+  const yourAnswerText = item.selectedOptionId
+    ? item.question.options.find((o) => o.id === item.selectedOptionId)?.text
+    : null;
+  const correctAnswerText = item.question.options.find((o) => o.id === item.question.correctAnswerId)?.text;
+
+  return (
+    <li className={`mistake-item review-item-${item.isCorrect ? 'correct' : 'incorrect'}`}>
+      <div className="mistake-item-head">
+        <span className="mistake-index">#{index + 1}</span>
+        {item.question.category && (
+          <span className="mistake-category-tag"><Tag size={12} /> {item.question.category}</span>
+        )}
+      </div>
+      <p className="mistake-question">{item.question.question}</p>
+      <p className="mistake-your-answer">
+        {item.isSkipped ? (
+          <span style={{ color: 'var(--text-dim)' }}>Nessuna risposta data</span>
+        ) : (
+          <>La tua risposta: <span style={{ color: item.isCorrect ? 'var(--correct)' : 'var(--incorrect)', fontWeight: 600 }}>{yourAnswerText}</span></>
+        )}
+      </p>
+      {!item.isCorrect && (
+        <p className="mistake-correct-answer">
+          Corretta: <span style={{ color: 'var(--correct)', fontWeight: 600 }}>{correctAnswerText}</span>
+        </p>
+      )}
+      {item.question.explanation && (
+        <div className="mistake-explanation">
+          <Lightbulb size={14} style={{ color: 'var(--warning)', flexShrink: 0 }} />
+          <p>{item.question.explanation}</p>
+        </div>
+      )}
+    </li>
+  );
+}
+
 export function ResultsView({ activeEngine, onBackToHub }: ResultsViewProps) {
+  const [showAll, setShowAll] = useState(false);
   const isTimedMode = activeEngine.getConfig().mode === 'quiz_timed';
   const isStudyMode = activeEngine.getConfig().mode === 'study';
   const score = activeEngine.getScore();
@@ -25,8 +64,18 @@ export function ResultsView({ activeEngine, onBackToHub }: ResultsViewProps) {
 
   const scoreColor = percentage >= 60 ? 'var(--correct)' : 'var(--incorrect)';
 
+  const detailed = activeEngine.getDetailedResults();
+  const mistakes = detailed.filter((d) => !d.isCorrect);
+
+  const categoryBreakdown = activeEngine.getCategoryBreakdown();
+  const categoryEntries = Object.entries(categoryBreakdown)
+    .map(([label, s]) => ({ label, total: s.total, correct: s.correct, pct: s.total > 0 ? Math.round((s.correct / s.total) * 100) : 0 }))
+    .sort((a, b) => a.pct - b.pct);
+  const weakest = categoryEntries[0] ?? null;
+  const strongest = categoryEntries[categoryEntries.length - 1] ?? null;
+
   return (
-    <div style={{ maxWidth: '900px', margin: '0 auto' }}>
+    <div style={{ maxWidth: '980px', margin: '0 auto' }}>
       <PageNav onBack={onBackToHub} backLabel="Torna all'Hub" onDashboard={onBackToHub} />
       <div className="results-view modern-card">
       <Award size={56} style={{ color: scoreColor, marginBottom: '0.5rem', filter: `drop-shadow(0 0 16px ${scoreColor})` }} />
@@ -56,19 +105,57 @@ export function ResultsView({ activeEngine, onBackToHub }: ResultsViewProps) {
         )}
       </div>
 
-      {activeEngine.getMistakes().length > 0 && (
+      {categoryEntries.length > 1 && (
+        <div className="category-stats-section">
+          <h3 style={{ borderBottom: '2px solid var(--border-hairline)', paddingBottom: '0.5rem' }}>Statistiche per Argomento</h3>
+          <div className="category-bars">
+            {categoryEntries.map((c) => (
+              <div key={c.label} className="category-bar-row">
+                <div className="category-bar-label">
+                  <span>{c.label}</span>
+                  <span>{c.correct}/{c.total} ({c.pct}%)</span>
+                </div>
+                <div className="category-bar-track">
+                  <div className="category-bar-fill" style={{ width: `${c.pct}%`, background: c.pct >= 60 ? 'var(--correct)' : 'var(--incorrect)' }} />
+                </div>
+              </div>
+            ))}
+          </div>
+          {weakest && strongest && weakest.label !== strongest.label && (
+            <div className="category-advice">
+              <div className="insight-item tone-warning">
+                <span className="insight-icon"><AlertTriangle size={16} /></span>
+                <span>Il tuo punto debole è <strong>{weakest.label}</strong> ({weakest.pct}% corrette): ripassalo con priorità.</span>
+              </div>
+              <div className="insight-item tone-positive">
+                <span className="insight-icon"><Sparkles size={16} /></span>
+                <span>Sei più forte in <strong>{strongest.label}</strong> ({strongest.pct}% corrette): continua così!</span>
+              </div>
+            </div>
+          )}
+        </div>
+      )}
+
+      {mistakes.length > 0 && (
         <div className="mistakes-section">
-          <h3 style={{ borderBottom: '2px solid var(--border-hairline)', paddingBottom: '0.5rem' }}>Aree da Ripassare</h3>
+          <h3 style={{ borderBottom: '2px solid var(--border-hairline)', paddingBottom: '0.5rem' }}>Errori da Ripassare ({mistakes.length})</h3>
           <ul style={{ listStyle: 'none', padding: 0 }}>
-            {activeEngine.getMistakes().map((q, i) => (
-              <li key={i} className="mistake-item">
-                <p style={{ margin: '0 0 0.5rem 0', fontWeight: 600 }}>{q.question}</p>
-                <p style={{ margin: 0, fontSize: '0.9rem', color: 'var(--text-muted)' }}>
-                  Corretta: <span style={{ color: 'var(--correct)', fontWeight: 600 }}>
-                    {q.options.find((o) => o.id === q.correctAnswerId)?.text}
-                  </span>
-                </p>
-              </li>
+            {mistakes.map((m, i) => (
+              <ReviewItem key={i} item={m} index={detailed.indexOf(m)} />
+            ))}
+          </ul>
+        </div>
+      )}
+
+      <button className="btn-secondary" onClick={() => setShowAll((s) => !s)} style={{ marginTop: '1.5rem' }}>
+        {showAll ? <>Nascondi tutte le domande <ChevronUp size={16} /></> : <>Rivedi tutte le domande <ChevronDown size={16} /></>}
+      </button>
+
+      {showAll && (
+        <div className="mistakes-section">
+          <ul style={{ listStyle: 'none', padding: 0 }}>
+            {detailed.map((d, i) => (
+              <ReviewItem key={i} item={d} index={i} />
             ))}
           </ul>
         </div>

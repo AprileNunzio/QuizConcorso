@@ -1,6 +1,88 @@
 {
   "concorso_id": "INPS_ASSISTENTE_INFORMATICO_2026",
   "titolo": "Concorso INPS - Assistente Informatico",
+  "bando": {
+    "fonte": "Bando 499 Assistenti Informatici INPS",
+    "ente": "INPS",
+    "numeroPosti": 499,
+    "postiPerSede": [
+      { "sede": "Abruzzo", "posti": 5 },
+      { "sede": "Basilicata", "posti": 4 },
+      { "sede": "Calabria", "posti": 6 },
+      { "sede": "Campania", "posti": 9 },
+      { "sede": "Emilia Romagna", "posti": 8 },
+      { "sede": "Friuli Venezia Giulia", "posti": 4 },
+      { "sede": "Lazio", "posti": 9 },
+      { "sede": "Liguria", "posti": 6 },
+      { "sede": "Lombardia", "posti": 11 },
+      { "sede": "Marche", "posti": 9 },
+      { "sede": "Molise", "posti": 2 },
+      { "sede": "Piemonte", "posti": 10 },
+      { "sede": "Puglia", "posti": 9 },
+      { "sede": "Sardegna", "posti": 5 },
+      { "sede": "Sicilia", "posti": 10 },
+      { "sede": "Toscana", "posti": 10 },
+      { "sede": "Trentino Alto Adige", "posti": 4 },
+      { "sede": "Umbria", "posti": 5 },
+      { "sede": "Valle d'Aosta", "posti": 2 },
+      { "sede": "Veneto", "posti": 8 },
+      { "sede": "DCM Milano", "posti": 6 },
+      { "sede": "DCM Napoli", "posti": 8 },
+      { "sede": "DCM Roma", "posti": 11 },
+      { "sede": "Direzione Generale", "posti": 338 }
+    ],
+    "terminePresentazione": "Entro 30 giorni dalla pubblicazione del bando sul Portale inPA e sul sito istituzionale INPS, esclusivamente online su inpa.gov.it con SPID/CIE/CNS/eIDAS.",
+    "requisiti": [
+      "Cittadinanza italiana, oppure requisiti equivalenti previsti dall'art. 38, commi 1, 2 e 3-bis, del d.lgs. 165/2001",
+      "Maggiore età",
+      "Godimento dei diritti civili e politici",
+      "Idoneità fisica allo svolgimento delle funzioni",
+      "Non essere stati destituiti, dispensati o licenziati da una pubblica amministrazione per insufficiente rendimento o motivi disciplinari",
+      "Non aver riportato condanne penali ostative all'assunzione presso una pubblica amministrazione",
+      "Diploma di istruzione secondaria di secondo grado",
+      "Adeguata conoscenza della lingua italiana (solo per i cittadini stranieri)"
+    ],
+    "prova": {
+      "tipo": "Prova scritta a risposta multipla",
+      "durataMinuti": 120,
+      "numeroQuesiti": 60,
+      "punteggioMinimo": "21/30",
+      "modalitaSvolgimento": "Mediante apposita strumentazione informatica e digitale messa a disposizione dall'INPS"
+    },
+    "materieEsame": [
+      "Informatica di base",
+      "Linguaggi di programmazione",
+      "Principi di Intelligenza Artificiale",
+      "Data privacy e sicurezza informatica (GDPR – Reg. UE 2016/679)",
+      "Nozioni fondamentali in materia di Codice dell'amministrazione digitale",
+      "Nozioni di diritto amministrativo",
+      "Sistemi operativi Linux e Windows per la gestione di Server e Client",
+      "Database relazionali",
+      "Application server e altre componenti middleware",
+      "Principali strumenti per l'office automation",
+      "Fondamenti di sistemi, reti locali e geografiche",
+      "Reti multimediali (applicazioni e tecnologie per lo smart working)",
+      "Gestione di sistemi di backup e recovery",
+      "Ordinamento del lavoro alle dipendenze delle amministrazioni pubbliche",
+      "Principi normativi in materia di trasparenza, anticorruzione e privacy",
+      "Lingua inglese"
+    ],
+    "graduatoria": {
+      "validita": "2 anni dalla data di approvazione",
+      "note": "Una graduatoria di merito distinta per ciascuna direzione regionale/di coordinamento metropolitano/generale. In caso di graduatoria incapiente, possibile scorrimento verso direzioni confinanti previo interpello degli idonei."
+    },
+    "assunzione": {
+      "tipoContratto": "Tempo pieno e indeterminato",
+      "periodoProva": "4 mesi di effettivo servizio",
+      "inquadramento": "Area dei funzionari, famiglia professionale Funzionario progettazione, erogazione e controllo dei servizi",
+      "retribuzione": "CCNL Comparto Funzioni Centrali (codice CNEL S005), vigente al momento dell'assunzione"
+    },
+    "noteAggiuntive": [
+      "La procedura concorsuale si conclude entro 180 giorni dalla data di conclusione delle prove scritte.",
+      "Durante la prova non è consentito l'uso di libri, appunti, telefoni cellulari, tablet o altri strumenti elettronici.",
+      "Ricorso straordinario al Capo dello Stato entro 120 giorni oppure ricorso al TAR Lazio entro 60 giorni dalla pubblicazione del bando."
+    ]
+  },
   "moduli_esame": [
     {
       "modulo_id": "MOD_01",

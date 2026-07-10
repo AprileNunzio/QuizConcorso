@@ -3,7 +3,7 @@ import { fetchConcorsiIndex, fetchConcorsoManifest, fetchQuestionsFromSources, f
 import type { QuestionLevel } from './services/DatabaseService';
 import { QuizEngine } from './services/QuizEngine';
 import { StatisticsManager } from './services/StatisticsManager';
-import type { UserStatistics, UserAnalytics } from './services/StatisticsManager';
+import type { UserStatistics, UserAnalytics, QuizSessionResult } from './services/StatisticsManager';
 import { WeaknessTracker } from './services/WeaknessTracker';
 import type { ConcorsoIndex, ConcorsoManifest, Question } from './types';
 import { shuffleArray } from './utils/shuffle';
@@ -20,6 +20,7 @@ import { Statistiche } from './components/Statistiche';
 import { Ripasso } from './components/Ripasso';
 import { QuizView } from './components/QuizView';
 import { ResultsView } from './components/ResultsView';
+import { QuizReviewView } from './components/QuizReviewView';
 
 const MOTIVATIONAL_QUOTES = [
   "Il successo è la somma di piccoli sforzi, ripetuti giorno dopo giorno.",
@@ -35,9 +36,11 @@ function App() {
   const [activeConcorso, setActiveConcorso] = useState<ConcorsoManifest | null>(null);
   const [quote] = useState(() => MOTIVATIONAL_QUOTES[Math.floor(Math.random() * MOTIVATIONAL_QUOTES.length)]);
   const [activeEngine, setActiveEngine] = useState<QuizEngine | null>(null);
-  const [currentQuestion, setCurrentQuestion] = useState<Question | null>(null);
+  const [quizFinished, setQuizFinished] = useState(false);
   const [showHint, setShowHint] = useState(false);
-  const [feedback, setFeedback] = useState<{ isCorrect: boolean; explanation: string; studyMode?: boolean } | null>(null);
+  const [, setTick] = useState(0);
+  const bump = () => setTick((t) => t + 1);
+  const [reviewingSession, setReviewingSession] = useState<QuizSessionResult | null>(null);
 
   // Timer & Stats State
   const [timeLeft, setTimeLeft] = useState<number | null>(null);
@@ -92,7 +95,7 @@ function App() {
 
   useEffect(() => {
     let timerId: ReturnType<typeof setInterval>;
-    if (activeEngine && timeLeft !== null && timeLeft > 0 && currentQuestion) {
+    if (activeEngine && !quizFinished && timeLeft !== null && timeLeft > 0) {
       timerId = setInterval(() => {
         setTimeLeft(prev => {
           if (prev && prev <= 1) {
@@ -104,16 +107,12 @@ function App() {
       }, 1000);
     }
     return () => clearInterval(timerId);
-  }, [activeEngine, timeLeft, currentQuestion]);
+  }, [activeEngine, timeLeft, quizFinished]);
 
   const handleTimeUp = () => {
-    setFeedback({
-      isCorrect: false,
-      explanation: "Tempo scaduto per l'intera prova!"
-    });
-    setTimeout(() => {
-      setCurrentQuestion(null); // Force results screen
-    }, 2000);
+    if (!activeEngine) return;
+    saveSessionStats(activeEngine);
+    setQuizFinished(true);
   };
 
   const formatTime = (seconds: number) => {
@@ -125,7 +124,13 @@ function App() {
   const saveSessionStats = (engine: QuizEngine) => {
     const data = engine.getStatisticsData();
     const config = engine.getConfig();
-    StatisticsManager.addSessionResult(config.mode, data.resultsPerQuestion, data.timeSpentPerQuestion, config.subjectName);
+    StatisticsManager.addSessionResult(config.mode, data.resultsPerQuestion, data.timeSpentPerQuestion, config.subjectName, {
+      questionIds: engine.getQuestionIds(),
+      selectedAnswerIds: engine.getSelectedAnswers(),
+      categoryBreakdown: engine.getCategoryBreakdown(),
+      concorsoId: config.concorsoId,
+      concorsoTitle: config.concorsoTitle,
+    });
     refreshStatistics();
     setDueCount(WeaknessTracker.getDueCount());
   };
@@ -143,11 +148,10 @@ function App() {
     }
   };
 
-  const beginQuiz = (questions: Question[], mode: 'study' | 'quiz_free' | 'quiz_timed', timeLimitMinutes?: number, questionLimit?: number, subjectName?: string) => {
-    const engine = new QuizEngine(questions, { mode, timeLimitMinutes, questionLimit, subjectName });
+  const beginQuiz = (questions: Question[], mode: 'study' | 'quiz_free' | 'quiz_timed', timeLimitMinutes?: number, questionLimit?: number, subjectName?: string, concorsoId?: string, concorsoTitle?: string) => {
+    const engine = new QuizEngine(questions, { mode, timeLimitMinutes, questionLimit, subjectName, concorsoId, concorsoTitle });
     setActiveEngine(engine);
-    setCurrentQuestion(engine.getNextQuestion());
-    setFeedback(null);
+    setQuizFinished(false);
     setShowHint(false);
     if (mode === 'quiz_timed') {
       setTimeLeft(engine.getTimeRemainingSeconds());
@@ -169,7 +173,7 @@ function App() {
             : `Nessuna domanda di livello "${level}" disponibile per questa materia. Prova un altro livello.`
         );
       }
-      beginQuiz(questions, mode, timeLimitMinutes, questionLimit, subjectName);
+      beginQuiz(questions, mode, timeLimitMinutes, questionLimit, subjectName, activeConcorso?.concorso_id, activeConcorso?.titolo);
     } catch (e) {
       setErrorMsg(e instanceof Error ? e.message : "Errore di caricamento delle domande dalla Master Bank.");
     } finally {
@@ -194,7 +198,7 @@ function App() {
       const combined = perModule.flat();
       if (combined.length === 0) throw new Error("Nessuna domanda disponibile per la combinazione di materie e livelli scelta.");
 
-      beginQuiz(combined, 'quiz_timed', timeLimitMinutes, combined.length, 'Simulazione Personalizzata');
+      beginQuiz(combined, 'quiz_timed', timeLimitMinutes, combined.length, 'Simulazione Personalizzata', activeConcorso?.concorso_id, activeConcorso?.titolo);
     } catch (e) {
       setErrorMsg(e instanceof Error ? e.message : "Errore durante la preparazione della simulazione personalizzata.");
     } finally {
@@ -212,40 +216,69 @@ function App() {
   };
 
   const handleAnswer = (optionId: string) => {
-    if (!activeEngine || !currentQuestion) return;
-    const isCorrect = activeEngine.answerCurrentQuestion(optionId);
+    if (!activeEngine) return;
+    activeEngine.answerQuestion(optionId);
+    bump();
+  };
 
-    setFeedback({
-      isCorrect,
-      explanation: currentQuestion.explanation,
-      studyMode: activeEngine.getConfig().mode === 'study'
-    });
+  const handleFinishQuiz = () => {
+    if (!activeEngine) return;
+    const total = activeEngine.getTotalQuestions();
+    const answered = activeEngine.getAnsweredCount();
+    if (answered < total) {
+      const proceed = window.confirm(`Hai ${total - answered} domande senza risposta. Vuoi terminare comunque il quiz?`);
+      if (!proceed) return;
+    }
+    saveSessionStats(activeEngine);
+    setQuizFinished(true);
   };
 
   const handleNextQuestion = () => {
     if (!activeEngine) return;
-    setFeedback(null);
     setShowHint(false);
-    const nextQ = activeEngine.getNextQuestion();
-    setCurrentQuestion(nextQ);
-
-    // Se il quiz è finito, salva le statistiche
-    if (!nextQ) {
-      saveSessionStats(activeEngine);
+    if (activeEngine.isLast()) {
+      handleFinishQuiz();
+    } else {
+      activeEngine.next();
+      bump();
     }
+  };
+
+  const handlePrevQuestion = () => {
+    if (!activeEngine) return;
+    setShowHint(false);
+    activeEngine.prev();
+    bump();
+  };
+
+  const handleSkipQuestion = () => {
+    if (!activeEngine) return;
+    activeEngine.skipCurrent();
+    setShowHint(false);
+    if (!activeEngine.isLast()) {
+      activeEngine.next();
+    }
+    bump();
+  };
+
+  const handleJumpQuestion = (position: number) => {
+    if (!activeEngine) return;
+    setShowHint(false);
+    activeEngine.goTo(position);
+    bump();
   };
 
   const handleNavigate = (view: ViewName) => {
     setCurrentView(view);
     setActiveConcorso(null);
     setActiveEngine(null);
+    setReviewingSession(null);
   };
 
   const handleExitQuiz = () => {
     if (window.confirm('Sei sicuro di voler uscire? I progressi di questa sessione non verranno salvati.')) {
       setActiveEngine(null);
-      setCurrentQuestion(null);
-      setFeedback(null);
+      setQuizFinished(false);
       setTimeLeft(null);
     }
   };
@@ -275,27 +308,54 @@ function App() {
   const renderContent = () => {
     // Vista Quiz attiva
     if (activeEngine) {
-      if (currentQuestion) {
+      if (!quizFinished) {
         return (
           <QuizView
             activeEngine={activeEngine}
-            currentQuestion={currentQuestion}
-            feedback={feedback}
             showHint={showHint}
             timeLeft={timeLeft}
             onAnswer={handleAnswer}
             onNext={handleNextQuestion}
+            onPrev={handlePrevQuestion}
+            onSkip={handleSkipQuestion}
+            onJump={handleJumpQuestion}
+            onFinish={handleFinishQuiz}
             onToggleHint={() => setShowHint(!showHint)}
             onExit={handleExitQuiz}
             formatTime={formatTime}
           />
         );
       }
-      return <ResultsView activeEngine={activeEngine} onBackToHub={() => setActiveEngine(null)} />;
+      return (
+        <ResultsView
+          activeEngine={activeEngine}
+          onBackToHub={() => {
+            setActiveEngine(null);
+            setQuizFinished(false);
+          }}
+        />
+      );
+    }
+
+    if (reviewingSession) {
+      return (
+        <QuizReviewView
+          session={reviewingSession}
+          allQuestions={allQuestions}
+          onBack={() => setReviewingSession(null)}
+        />
+      );
     }
 
     if (currentView === 'statistiche' && userStats && analytics) {
-      return <Statistiche userStats={userStats} analytics={analytics} onBack={() => handleNavigate('home')} />;
+      return (
+        <Statistiche
+          userStats={userStats}
+          analytics={analytics}
+          onBack={() => handleNavigate('home')}
+          onReviewSession={setReviewingSession}
+        />
+      );
     }
 
     if (currentView === 'ripasso' && userStats) {
@@ -330,6 +390,7 @@ function App() {
           onBack={() => setActiveConcorso(null)}
           onStartQuiz={handleStartQuiz}
           onStartCustomSimulation={handleStartCustomSimulation}
+          onReviewSession={setReviewingSession}
         />
       );
     }

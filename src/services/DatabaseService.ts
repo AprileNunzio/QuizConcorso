@@ -1,4 +1,5 @@
 import type { ConcorsoIndex, ConcorsoManifest, Question } from "../types";
+import { deriveCategory } from "../utils/categorize";
 
 /**
  * Absolute paths (starting with "/") resolve against the filesystem root
@@ -39,10 +40,11 @@ export const fetchConcorsoManifest = async (concorsoId: string): Promise<Concors
  * difficulty `level` default to 'base' so level filtering never breaks on
  * older/un-tagged content.
  */
-const normalizeQuestion = (raw: any): Question => ({
+const normalizeQuestion = (raw: any, category?: string): Question => ({
   ...raw,
   question: raw.question ?? raw.text ?? '',
   level: raw.level === 'intermedio' || raw.level === 'avanzato' ? raw.level : 'base',
+  category: raw.category ?? category,
 });
 
 export type QuestionLevel = 'base' | 'intermedio' | 'avanzato';
@@ -66,12 +68,15 @@ export const fetchQuestionsFromSources = async (sources: string[]): Promise<Ques
       fetch(`${DB_BASE}master_bank/${source}`).then(res => {
         if (!res.ok) throw new Error(`Errore fetch su ${source}`);
         return res.json();
+      }).then((raw: any[]) => {
+        const category = deriveCategory([source]);
+        return raw.map((q) => normalizeQuestion(q, category));
       })
     );
     const results = await Promise.all(fetchPromises);
 
     // Unisci tutti gli array di domande in un unico array
-    return results.flat().map(normalizeQuestion);
+    return results.flat();
   } catch (error) {
     console.error(error);
     throw error;

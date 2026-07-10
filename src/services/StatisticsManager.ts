@@ -5,9 +5,27 @@ export interface QuizSessionResult {
   subjectName?: string; // Nuova proprietà per tracciare la materia
   totalQuestions: number;
   correctAnswers: number;
-  timeSpentPerQuestion: number[]; 
+  timeSpentPerQuestion: number[];
   resultsPerQuestion: boolean[];
   sessionIQ: number;
+  // Campi opzionali (assenti nelle sessioni salvate prima di questa versione)
+  // che permettono di rivedere la sessione domanda per domanda.
+  questionIds?: string[];
+  selectedAnswerIds?: (string | null)[];
+  categoryBreakdown?: Record<string, { correct: number; total: number }>;
+  // Presenti solo per le sessioni avviate dalla pagina di un concorso specifico.
+  concorsoId?: string;
+  concorsoTitle?: string;
+}
+
+export interface ConcorsoStats {
+  attempts: number;
+  bestScorePct: number;
+  avgScorePct: number;
+  lastAttemptDate: number | null;
+  trend: { label: string; value: number }[];
+  categoryBreakdown: Record<string, { correct: number; total: number }>;
+  sessions: QuizSessionResult[];
 }
 
 export interface SubjectStats {
@@ -147,11 +165,18 @@ export class StatisticsManager {
     mode: 'study' | 'quiz_free' | 'quiz_timed',
     resultsPerQuestion: boolean[],
     timeSpentPerQuestion: number[],
-    subjectName?: string
+    subjectName?: string,
+    reviewData?: {
+      questionIds: string[];
+      selectedAnswerIds: (string | null)[];
+      categoryBreakdown: Record<string, { correct: number; total: number }>;
+      concorsoId?: string;
+      concorsoTitle?: string;
+    }
   ): QuizSessionResult {
-    
+
     const sessionIQ = this.calculateSessionIQ(mode, resultsPerQuestion, timeSpentPerQuestion);
-    
+
     const result: QuizSessionResult = {
       id: Date.now().toString(),
       date: Date.now(),
@@ -161,7 +186,8 @@ export class StatisticsManager {
       correctAnswers: resultsPerQuestion.filter(r => r).length,
       timeSpentPerQuestion,
       resultsPerQuestion,
-      sessionIQ
+      sessionIQ,
+      ...reviewData,
     };
 
     const stats = this.loadStatistics();
@@ -201,6 +227,41 @@ export class StatisticsManager {
 
     this.saveStatistics(stats);
     return result;
+  }
+
+  /** Attempt history, trend and merged per-category accuracy for a single concorso. */
+  public static getConcorsoStats(concorsoId: string): ConcorsoStats {
+    const stats = this.loadStatistics();
+    const sessions = stats.history.filter((h) => h.concorsoId === concorsoId);
+
+    if (sessions.length === 0) {
+      return { attempts: 0, bestScorePct: 0, avgScorePct: 0, lastAttemptDate: null, trend: [], categoryBreakdown: {}, sessions: [] };
+    }
+
+    const scorePct = (s: QuizSessionResult) => (s.totalQuestions > 0 ? Math.round((s.correctAnswers / s.totalQuestions) * 100) : 0);
+    const scores = sessions.map(scorePct);
+
+    const categoryBreakdown: Record<string, { correct: number; total: number }> = {};
+    for (const s of sessions) {
+      if (!s.categoryBreakdown) continue;
+      for (const [cat, v] of Object.entries(s.categoryBreakdown)) {
+        if (!categoryBreakdown[cat]) categoryBreakdown[cat] = { correct: 0, total: 0 };
+        categoryBreakdown[cat].correct += v.correct;
+        categoryBreakdown[cat].total += v.total;
+      }
+    }
+
+    const trend = sessions.slice(-12).map((s, i) => ({ label: `#${i + 1}`, value: scorePct(s) }));
+
+    return {
+      attempts: sessions.length,
+      bestScorePct: Math.max(...scores),
+      avgScorePct: Math.round(scores.reduce((a, b) => a + b, 0) / scores.length),
+      lastAttemptDate: sessions[sessions.length - 1].date,
+      trend,
+      categoryBreakdown,
+      sessions: [...sessions].reverse(),
+    };
   }
 
   private static longestStreak(results: boolean[]): number {

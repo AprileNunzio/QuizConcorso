@@ -7,23 +7,38 @@ export interface QuizConfig {
   timeLimitMinutes?: number;
   questionLimit?: number;
   subjectName?: string;
+  concorsoId?: string;
+  concorsoTitle?: string;
 }
 
+export type QuestionStatus = 'current' | 'correct' | 'incorrect' | 'skipped' | 'unvisited';
+
+export interface DetailedResult {
+  question: Question;
+  selectedOptionId: string | null;
+  isCorrect: boolean;
+  isSkipped: boolean;
+}
+
+/**
+ * Runs one quiz session. Questions are addressed by a movable pointer rather
+ * than a one-shot iterator, so the UI can go back, jump to an arbitrary
+ * question via the sidebar, or skip without losing the ability to revisit.
+ * Score/mistakes/streak are derived from `selectedAnswers` on demand instead
+ * of accumulated incrementally, so they stay correct no matter the order in
+ * which questions get answered.
+ */
 export class QuizEngine {
   private questions: Question[] = [];
-  private currentIndex: number = 0;
-  private mistakes: Question[] = [];
-  private score: number = 0;
+  private selectedAnswers: (string | null)[] = [];
+  private questionStartTimes: (number | null)[] = [];
+  private timeSpentPerQuestion: number[] = [];
+  private pointer: number = 0;
   private config: QuizConfig;
   private startTime: number | null = null;
   private endTime: number | null = null;
 
-  // Per tracciare statistiche
-  private questionStartTime: number | null = null;
-  private resultsPerQuestion: boolean[] = [];
-  private timeSpentPerQuestion: number[] = [];
-
-  // Streak tracking
+  // Streak tracking (based on the order questions are first answered in, not list order)
   private currentStreak: number = 0;
   private bestStreak: number = 0;
 
@@ -34,52 +49,104 @@ export class QuizEngine {
     }
 
     this.questions = pool;
+    this.selectedAnswers = new Array(pool.length).fill(null);
+    this.questionStartTimes = new Array(pool.length).fill(null);
+    this.timeSpentPerQuestion = new Array(pool.length).fill(0);
     this.config = config;
     if (this.config.mode === 'quiz_timed') {
       this.startTime = Date.now();
-      // Default to 120 minutes se non provvisto per modalità timed
+      // Default to 120 minuti se non provvisto per modalità timed
       this.endTime = this.startTime + (this.config.timeLimitMinutes || 120) * 60000;
     }
+
+    this.markSeen();
   }
 
-  public getNextQuestion(): Question | null {
-    if (this.isTimeUp()) return null; // Force end if time is up
-    if (this.currentIndex >= this.questions.length) {
-      return null;
+  private markSeen() {
+    if (this.questionStartTimes[this.pointer] == null) {
+      this.questionStartTimes[this.pointer] = Date.now();
     }
-    
-    // Registra quando l'utente ha visto la domanda
-    this.questionStartTime = Date.now();
-    
-    const q = this.questions[this.currentIndex];
-    this.currentIndex++;
-    return q;
   }
 
-  public answerCurrentQuestion(selectedOptionId: string): boolean {
-    const q = this.questions[this.currentIndex - 1];
+  public getCurrentQuestion(): Question | null {
+    return this.questions[this.pointer] ?? null;
+  }
+
+  /** 1-based position for display ("Domanda X di Y"). */
+  public getCurrentIndex(): number {
+    return this.pointer + 1;
+  }
+
+  public isFirst(): boolean {
+    return this.pointer === 0;
+  }
+
+  public isLast(): boolean {
+    return this.pointer === this.questions.length - 1;
+  }
+
+  public goTo(position: number): void {
+    if (this.isTimeUp()) return;
+    if (position < 0 || position >= this.questions.length) return;
+    this.pointer = position;
+    this.markSeen();
+  }
+
+  public next(): void {
+    this.goTo(this.pointer + 1);
+  }
+
+  public prev(): void {
+    this.goTo(this.pointer - 1);
+  }
+
+  public answerQuestion(selectedOptionId: string): boolean {
+    const idx = this.pointer;
+    const q = this.questions[idx];
     const isCorrect = selectedOptionId === q.correctAnswerId;
+    const wasAnswered = this.selectedAnswers[idx] != null;
 
-    // Calcola il tempo speso per questa domanda (in secondi)
-    const timeSpent = this.questionStartTime
-      ? Math.round((Date.now() - this.questionStartTime) / 1000)
-      : 15; // default 15s se qualcosa non va
+    this.selectedAnswers[idx] = selectedOptionId;
 
-    this.timeSpentPerQuestion.push(timeSpent);
-    this.resultsPerQuestion.push(isCorrect);
+    if (!wasAnswered) {
+      const start = this.questionStartTimes[idx] ?? Date.now();
+      const timeSpent = Math.max(0, Math.round((Date.now() - start) / 1000));
+      this.timeSpentPerQuestion[idx] = timeSpent;
 
-    if (isCorrect) {
-      this.score++;
-      this.currentStreak++;
-      this.bestStreak = Math.max(this.bestStreak, this.currentStreak);
-    } else {
-      this.mistakes.push(q);
-      this.currentStreak = 0;
+      WeaknessTracker.recordReview(q.id, isCorrect, timeSpent);
+
+      if (isCorrect) {
+        this.currentStreak++;
+        this.bestStreak = Math.max(this.bestStreak, this.currentStreak);
+      } else {
+        this.currentStreak = 0;
+      }
     }
-
-    WeaknessTracker.recordReview(q.id, isCorrect, timeSpent);
 
     return isCorrect;
+  }
+
+  /** Leaves the current question unanswered but records the time spent looking at it. */
+  public skipCurrent(): void {
+    const idx = this.pointer;
+    if (this.selectedAnswers[idx] != null) return;
+    const start = this.questionStartTimes[idx];
+    if (start != null && this.timeSpentPerQuestion[idx] === 0) {
+      this.timeSpentPerQuestion[idx] = Math.max(0, Math.round((Date.now() - start) / 1000));
+    }
+  }
+
+  public getSelectedAnswer(position?: number): string | null {
+    return this.selectedAnswers[position ?? this.pointer] ?? null;
+  }
+
+  public getQuestionStatus(position: number): QuestionStatus {
+    if (position === this.pointer) return 'current';
+    const ans = this.selectedAnswers[position];
+    const q = this.questions[position];
+    if (ans != null) return ans === q.correctAnswerId ? 'correct' : 'incorrect';
+    if (this.questionStartTimes[position] != null) return 'skipped';
+    return 'unvisited';
   }
 
   public getCurrentStreak(): number {
@@ -89,14 +156,52 @@ export class QuizEngine {
   public getBestStreak(): number {
     return this.bestStreak;
   }
-  
+
+  public getAnsweredCount(): number {
+    return this.selectedAnswers.filter((a) => a != null).length;
+  }
+
   public getStatisticsData() {
+    const resultsPerQuestion = this.questions.map((q, i) => this.selectedAnswers[i] === q.correctAnswerId);
     return {
-      resultsPerQuestion: this.resultsPerQuestion,
-      timeSpentPerQuestion: this.timeSpentPerQuestion
+      resultsPerQuestion,
+      timeSpentPerQuestion: this.timeSpentPerQuestion,
     };
   }
-  
+
+  /** Full per-question breakdown for the results and review screens. */
+  public getDetailedResults(): DetailedResult[] {
+    return this.questions.map((q, i) => {
+      const selectedOptionId = this.selectedAnswers[i];
+      return {
+        question: q,
+        selectedOptionId,
+        isCorrect: selectedOptionId === q.correctAnswerId,
+        isSkipped: selectedOptionId == null,
+      };
+    });
+  }
+
+  /** Accuracy per question category, derived from source-folder tagging (see utils/categorize.ts). */
+  public getCategoryBreakdown(): Record<string, { correct: number; total: number }> {
+    const map: Record<string, { correct: number; total: number }> = {};
+    this.questions.forEach((q, i) => {
+      const cat = q.category || 'Generale';
+      if (!map[cat]) map[cat] = { correct: 0, total: 0 };
+      map[cat].total++;
+      if (this.selectedAnswers[i] === q.correctAnswerId) map[cat].correct++;
+    });
+    return map;
+  }
+
+  public getQuestionIds(): string[] {
+    return this.questions.map((q) => q.id);
+  }
+
+  public getSelectedAnswers(): (string | null)[] {
+    return [...this.selectedAnswers];
+  }
+
   public isTimeUp(): boolean {
     if (this.config.mode !== 'quiz_timed' || !this.endTime) return false;
     return Date.now() >= this.endTime;
@@ -109,22 +214,14 @@ export class QuizEngine {
   }
 
   public getScore(): number {
-    return this.score;
-  }
-
-  public getMistakes(): Question[] {
-    return this.mistakes;
+    return this.questions.reduce((acc, q, i) => acc + (this.selectedAnswers[i] === q.correctAnswerId ? 1 : 0), 0);
   }
 
   public getTotalQuestions(): number {
     return this.questions.length;
   }
-  
+
   public getConfig(): QuizConfig {
     return this.config;
-  }
-
-  public getCurrentIndex(): number {
-    return this.currentIndex;
   }
 }

@@ -1,8 +1,8 @@
 import {
   Activity, Award, Target, Flame, Clock3, TrendingUp, TrendingDown, Minus, Timer, Zap,
-  Sparkles, AlertTriangle, Info, CalendarDays, BarChart3, Radar as RadarIcon,
+  Sparkles, AlertTriangle, Info, CalendarDays, BarChart3, Radar as RadarIcon, Eye,
 } from 'lucide-react';
-import type { UserStatistics, UserAnalytics } from '../services/StatisticsManager';
+import type { UserStatistics, UserAnalytics, QuizSessionResult } from '../services/StatisticsManager';
 import { GaugeRing } from './charts/GaugeRing';
 import { LineChart } from './charts/LineChart';
 import { RadarChart } from './charts/RadarChart';
@@ -14,6 +14,7 @@ interface StatisticheProps {
   userStats: UserStatistics;
   analytics: UserAnalytics;
   onBack: () => void;
+  onReviewSession: (session: QuizSessionResult) => void;
 }
 
 const insightIcon = (tone: 'positive' | 'warning' | 'info') => {
@@ -22,7 +23,7 @@ const insightIcon = (tone: 'positive' | 'warning' | 'info') => {
   return <Info size={16} />;
 };
 
-export function Statistiche({ userStats, analytics, onBack }: StatisticheProps) {
+export function Statistiche({ userStats, analytics, onBack, onReviewSession }: StatisticheProps) {
   const hasHistory = userStats.history.length > 0;
 
   return (
@@ -220,6 +221,7 @@ export function Statistiche({ userStats, analytics, onBack }: StatisticheProps) 
                     <th>Modalità</th>
                     <th>Risultato</th>
                     <th>QI</th>
+                    <th></th>
                   </tr>
                 </thead>
                 <tbody>
@@ -231,6 +233,13 @@ export function Statistiche({ userStats, analytics, onBack }: StatisticheProps) 
                       <td className="strong">{s.correctAnswers}/{s.totalQuestions}</td>
                       <td style={{ color: s.mode === 'study' ? 'var(--text-dim)' : 'var(--warning)', fontFamily: 'var(--font-mono)', fontWeight: 700 }}>
                         {s.mode === 'study' ? '—' : s.sessionIQ}
+                      </td>
+                      <td>
+                        {s.questionIds && s.questionIds.length > 0 && (
+                          <button className="session-review-btn" onClick={() => onReviewSession(s)} title="Rivedi questa sessione">
+                            <Eye size={14} /> Rivedi
+                          </button>
+                        )}
                       </td>
                     </tr>
                   ))}
