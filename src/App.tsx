@@ -353,7 +353,7 @@ function App() {
         <Impostazioni
           userStats={userStats}
           onBack={() => handleNavigate('home')}
-          onDataReset={() => {
+          onDataChanged={() => {
             refreshStatistics();
             setDueCount(WeaknessTracker.getDueCount());
           }}

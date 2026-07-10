@@ -1,6 +1,6 @@
 export type MasteryLevel = 'new' | 'learning' | 'young' | 'mature' | 'mastered';
 
-interface QuestionRecord {
+export interface QuestionRecord {
   correct: number;
   wrong: number;
   lastSeen: number;
@@ -12,7 +12,7 @@ interface QuestionRecord {
   dueDate: number; // timestamp (ms) — when this question should resurface
 }
 
-type WeaknessStore = Record<string, QuestionRecord>;
+export type WeaknessStore = Record<string, QuestionRecord>;
 
 const STORAGE_KEY = 'quiz_concorso_weakness_v2';
 const NEW_PER_DAY_KEY = 'quiz_concorso_new_per_day';
@@ -219,5 +219,15 @@ export const WeaknessTracker = {
   reset() {
     localStorage.removeItem(STORAGE_KEY);
     localStorage.removeItem(NEW_PER_DAY_KEY);
+  },
+
+  /** Stato grezzo per il backup: l'intero archivio SM-2 per domanda. */
+  exportStore(): WeaknessStore {
+    return load();
+  },
+
+  /** Sovrascrive l'intero archivio SM-2 (usato per ripristinare un backup). */
+  importStore(store: WeaknessStore) {
+    save(store);
   },
 };

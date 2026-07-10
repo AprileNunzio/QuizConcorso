@@ -210,27 +210,76 @@ export class StatisticsManager {
       stats.subjectStats[subjectName].totalCorrect += result.correctAnswers;
     }
 
-    // Calcolo del QI Globale (Media Mobile Pesata sulle ultime 15 sessioni)
-    // Le sessioni più recenti hanno un peso leggermente maggiore.
+    stats.globalIQ = this.recalculateGlobalIQ(stats);
+
+    this.saveStatistics(stats);
+    return result;
+  }
+
+  /**
+   * QI Globale: media mobile pesata sulle ultime 15 sessioni (le più recenti
+   * pesano di più). Le sessioni in modalità studio non contano. Estratto in
+   * un metodo a sé perché va rieseguito anche quando si rimuovono sessioni
+   * dalla cronologia (es. reset di un singolo concorso), non solo quando se
+   * ne aggiungono.
+   */
+  private static recalculateGlobalIQ(stats: UserStatistics): number {
     const recentHistory = stats.history.slice(-15);
     let totalWeight = 0;
     let weightedSum = 0;
 
     recentHistory.forEach((session, index) => {
-      // Ignora le sessioni studio dal calcolo globale
       if (session.mode === 'study') return;
-      
-      const weight = 1 + (index * 0.1); // Le più recenti pesano di più
+      const weight = 1 + (index * 0.1);
       weightedSum += session.sessionIQ * weight;
       totalWeight += weight;
     });
 
-    if (totalWeight > 0) {
-      stats.globalIQ = Math.round(weightedSum / totalWeight);
+    return totalWeight > 0 ? Math.round(weightedSum / totalWeight) : stats.globalIQ;
+  }
+
+  /** Concorsi per cui esiste almeno una sessione registrata, con il numero di tentativi. */
+  public static getTrackedConcorsi(stats: UserStatistics): { concorsoId: string; concorsoTitle: string; attempts: number }[] {
+    const map = new Map<string, { concorsoTitle: string; attempts: number }>();
+    for (const h of stats.history) {
+      if (!h.concorsoId) continue;
+      const existing = map.get(h.concorsoId);
+      if (existing) existing.attempts += 1;
+      else map.set(h.concorsoId, { concorsoTitle: h.concorsoTitle || h.concorsoId, attempts: 1 });
+    }
+    return Array.from(map.entries()).map(([concorsoId, v]) => ({ concorsoId, ...v }));
+  }
+
+  /**
+   * Rimuove dalla cronologia solo le sessioni di un concorso specifico e
+   * ricalcola totali/statistiche per materia/QI di conseguenza. Non tocca
+   * il progresso di ripasso (WeaknessTracker): la maestria per domanda è
+   * condivisa tra concorsi diversi che pescano dalla stessa Master Bank.
+   */
+  public static resetConcorso(concorsoId: string) {
+    const stats = this.loadStatistics();
+    const toRemove = stats.history.filter((h) => h.concorsoId === concorsoId);
+    if (toRemove.length === 0) return;
+
+    stats.history = stats.history.filter((h) => h.concorsoId !== concorsoId);
+    stats.totalQuizzesTaken -= toRemove.length;
+
+    for (const s of toRemove) {
+      stats.totalQuestionsAnswered -= s.totalQuestions;
+      stats.totalCorrectAnswers -= s.correctAnswers;
+
+      if (s.subjectName && stats.subjectStats[s.subjectName]) {
+        stats.subjectStats[s.subjectName].totalAnswered -= s.totalQuestions;
+        stats.subjectStats[s.subjectName].totalCorrect -= s.correctAnswers;
+        if (stats.subjectStats[s.subjectName].totalAnswered <= 0) {
+          delete stats.subjectStats[s.subjectName];
+        }
+      }
     }
 
+    stats.globalIQ = this.recalculateGlobalIQ(stats);
+
     this.saveStatistics(stats);
-    return result;
   }
 
   /** Attempt history, trend and merged per-category accuracy for a single concorso. */
