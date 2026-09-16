@@ -31,11 +31,11 @@
     "options": [
       {
         "id": "A",
-        "text": "La ridefinizione di un metodo della classe padre all'interno di una classe figlia con la stessa firma."
+        "text": "La definizione di più metodi con lo stesso nome ma firme diverse nella stessa classe."
       },
       {
         "id": "B",
-        "text": "La definizione di più metodi con lo stesso nome ma firme diverse nella stessa classe."
+        "text": "La ridefinizione di un metodo della classe padre all'interno di una classe figlia con la stessa firma."
       },
       {
         "id": "C",
@@ -46,7 +46,7 @@
         "text": "La conversione automatica di un tipo di dato primitivo in un oggetto."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "B",
     "explanation": "Il polimorfismo per override (o sovrascrittura) consente a una sottoclasse di fornire una specifica implementazione di un metodo già definito nella sua superclasse. La risoluzione del metodo avviene a tempo di esecuzione (dynamic binding).",
     "hint": "Implica una gerarchia ereditaria in cui il comportamento di un metodo viene ridefinito con la stessa identica firma.",
     "level": "base"
@@ -57,22 +57,22 @@
     "options": [
       {
         "id": "A",
-        "text": "La possibilità per una classe di derivare direttamente da più di una classe base."
-      },
-      {
-        "id": "B",
         "text": "Il fatto che una classe base possa avere più classi derivate."
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "La catena di ereditarietà che collega una classe figlia alla classe antenata originaria."
+      },
+      {
+        "id": "C",
+        "text": "La possibilità per una classe di derivare direttamente da più di una classe base."
       },
       {
         "id": "D",
         "text": "L'implementazione di più interfacce da parte di una singola classe in Java."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "C",
     "explanation": "L'ereditarietà multipla consente a una classe di ereditare direttamente caratteristiche e comportamenti da più classi genitore. Questa funzionalità è supportata da C++ ma non da Java (che la consente solo per le interfacce).",
     "hint": "Si riferisce ad avere più superclassi dirette.",
     "level": "base"
@@ -83,22 +83,22 @@
     "options": [
       {
         "id": "A",
-        "text": "La classe è il modello o blueprint, mentre l'oggetto è l'istanza concreta creata sulla base di quel modello."
-      },
-      {
-        "id": "B",
         "text": "La classe risiede nella memoria heap, mentre l'oggetto risiede nella memoria stack."
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "La classe contiene solo metodi, mentre l'oggetto contiene solo variabili di istanza."
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "La classe viene definita a tempo di esecuzione, mentre l'oggetto è creato a tempo di compilazione."
+      },
+      {
+        "id": "D",
+        "text": "La classe è il modello o blueprint, mentre l'oggetto è l'istanza concreta creata sulla base di quel modello."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "D",
     "explanation": "Una classe definisce la struttura astratta, i metodi e le caratteristiche comuni, mentre un oggetto è una singola entità concreta (istanza) dotata di un proprio stato specifico, creata in memoria a partire dalla classe.",
     "hint": "Pensa al rapporto che c'è tra il progetto di una casa su carta e la casa reale costruita.",
     "level": "base"
@@ -135,11 +135,11 @@
     "options": [
       {
         "id": "A",
-        "text": "La classe non può essere estesa (non può avere sottoclassi)."
+        "text": "Tutti i metodi della classe diventano automaticamente privati."
       },
       {
         "id": "B",
-        "text": "Tutti i metodi della classe diventano automaticamente privati."
+        "text": "La classe non può essere estesa (non può avere sottoclassi)."
       },
       {
         "id": "C",
@@ -150,7 +150,7 @@
         "text": "La classe viene caricata direttamente in memoria statica dal ClassLoader."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "B",
     "explanation": "Dichiarare una classe come 'final' in Java impedisce ad altre classi di ereditarla o estenderla. Un classico esempio è la classe standard 'java.lang.String'.",
     "hint": "Impedisce il subclassing.",
     "level": "base"
@@ -161,22 +161,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Rappresenta l'istanza corrente della classe, permettendo di accedere ai suoi attributi e metodi."
-      },
-      {
-        "id": "B",
         "text": "Indica che il metodo è statico e non richiede la creazione di un oggetto per essere invocato."
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Corrisponde alla superclasse da cui la classe corrente eredita."
+      },
+      {
+        "id": "C",
+        "text": "Rappresenta l'istanza corrente della classe, permettendo di accedere ai suoi attributi e metodi."
       },
       {
         "id": "D",
         "text": "È una parola chiave riservata che forza l'interprete a compilare il metodo in C."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "C",
     "explanation": "In Python, 'self' rappresenta l'istanza specifica dell'oggetto su cui viene chiamato il metodo, consentendo di accedere e modificare gli attributi interni di quell'oggetto.",
     "hint": "Riferimento all'oggetto stesso.",
     "level": "base"
@@ -187,22 +187,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Per garantire che, eliminando un oggetto della classe derivata tramite un puntatore alla classe base, venga chiamato anche il distruttore della classe derivata."
-      },
-      {
-        "id": "B",
         "text": "Per impedire la creazione di istanze della classe derivata nella memoria stack."
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Per costringere il compilatore ad allocare la classe derivata nella memoria statica."
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "Per fare in modo che tutti i membri della classe derivata vengano inizializzati a zero."
+      },
+      {
+        "id": "D",
+        "text": "Per garantire che, eliminando un oggetto della classe derivata tramite un puntatore alla classe base, venga chiamato anche il distruttore della classe derivata."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "D",
     "explanation": "Se il distruttore della classe base non è dichiarato virtuale, l'eliminazione di un oggetto derivato tramite un puntatore alla classe base comporterà la sola esecuzione del distruttore della classe base, lasciando intatta e non liberata la memoria specifica della classe derivata (memory leak).",
     "hint": "Garantisce il corretto rilascio delle risorse allocate dalla sottoclasse quando usata in contesti polimorfici.",
     "level": "base"
@@ -239,11 +239,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Un'ambiguità derivante dall'ereditare due volte la stessa classe base tramite due percorsi diversi; si risolve usando l'ereditarietà virtuale."
+        "text": "Un errore di compilazione dovuto all'uso di troppe classi astratte; si risolve eliminando i costruttori."
       },
       {
         "id": "B",
-        "text": "Un errore di compilazione dovuto all'uso di troppe classi astratte; si risolve eliminando i costruttori."
+        "text": "Un'ambiguità derivante dall'ereditare due volte la stessa classe base tramite due percorsi diversi; si risolve usando l'ereditarietà virtuale."
       },
       {
         "id": "C",
@@ -254,7 +254,7 @@
         "text": "L'impossibilità di fare l'overload di un operatore in classi derivate; si risolve ridefinendo gli attributi come statici."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "B",
     "explanation": "Il problema del diamante si verifica quando una classe D eredita da B e C, le quali ereditano entrambe dalla stessa classe A. Per evitare che D contenga due copie duplicate dei membri di A con conseguente ambiguità, B e C devono ereditare da A usando la parola chiave 'virtual'.",
     "hint": "Riguarda l'ereditarietà ripetuta della stessa classe e si risolve con l'ereditarietà 'virtuale'.",
     "level": "base"
@@ -265,22 +265,22 @@
     "options": [
       {
         "id": "A",
-        "text": "[0, 4, 16]"
-      },
-      {
-        "id": "B",
         "text": "[0, 1, 4, 9, 16]"
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "[4, 16]"
+      },
+      {
+        "id": "C",
+        "text": "[0, 4, 16]"
       },
       {
         "id": "D",
         "text": "[1, 9]"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "C",
     "explanation": "Il codice utilizza una list comprehension. Itera sui numeri da 0 a 4 generati da range(5). Filtra tenendo solo i pari (0, 2, 4) ed esegue il quadrato (0**2, 2**2, 4**2), producendo [0, 4, 16].",
     "hint": "Analizza prima il range, poi filtra con la condizione 'pari' e infine calcola il quadrato.",
     "level": "base"
@@ -291,22 +291,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Le variabili locali nello Stack, gli oggetti nell'Heap."
-      },
-      {
-        "id": "B",
         "text": "Le variabili locali nell'Heap, gli oggetti nello Stack."
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Entrambi nello Stack della Java Virtual Machine."
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "Entrambi nell'Heap, ma in segmenti di memoria protetti differenti."
+      },
+      {
+        "id": "D",
+        "text": "Le variabili locali nello Stack, gli oggetti nell'Heap."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "D",
     "explanation": "Nello Stack di Java risiedono le variabili locali primitive e i riferimenti agli oggetti (indirizzi di memoria). Gli oggetti reali creati con l'operatore 'new' sono sempre allocati dinamicamente nella memoria Heap.",
     "hint": "Lo Stack serve per l'esecuzione veloce dei thread e i frame locali; l'Heap memorizza gli oggetti globali.",
     "level": "base"
@@ -343,11 +343,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Il collegamento tra la chiamata a un metodo e la sua effettiva implementazione che avviene a tempo di esecuzione sulla base del tipo reale dell'oggetto."
+        "text": "La risoluzione dei tipi di dato effettuata dal compilatore prima di produrre il file binario finale."
       },
       {
         "id": "B",
-        "text": "La risoluzione dei tipi di dato effettuata dal compilatore prima di produrre il file binario finale."
+        "text": "Il collegamento tra la chiamata a un metodo e la sua effettiva implementazione che avviene a tempo di esecuzione sulla base del tipo reale dell'oggetto."
       },
       {
         "id": "C",
@@ -358,7 +358,7 @@
         "text": "Il caricamento delle librerie dinamiche (DLL o SO) effettuato dal sistema operativo all'avvio dell'applicazione."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "B",
     "explanation": "Il binding dinamico consente di decidere quale implementazione di un metodo richiamare solo a runtime (tempo di esecuzione), basandosi sulla classe effettiva dell'oggetto istanziato, rendendo possibile il polimorfismo.",
     "hint": "È l'opposto di compile-time binding e supporta l'override.",
     "level": "base"
@@ -369,22 +369,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Il conteggio dei riferimenti (Reference Counting), integrato da un garbage collector ciclico per individuare riferimenti circolari."
-      },
-      {
-        "id": "B",
         "text": "L'algoritmo Mark-and-Sweep, eseguito ad intervalli fissi di tempo specificati dal sistema operativo."
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Il rilascio immediato degli oggetti basato solo sul compilatore JIT."
+      },
+      {
+        "id": "C",
+        "text": "Il conteggio dei riferimenti (Reference Counting), integrato da un garbage collector ciclico per individuare riferimenti circolari."
       },
       {
         "id": "D",
         "text": "La deallocazione manuale obbligatoria tramite la parola chiave 'free'."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "C",
     "explanation": "CPython gestisce la memoria principalmente incrementando e decrementando il numero di riferimenti a ciascun oggetto. Quando scende a zero, l'oggetto viene rimosso. Esiste anche un garbage collector secondario per eliminare cicli di riferimenti circolari (es. A punta a B e B punta a A).",
     "hint": "Incrementa un contatore ogni volta che una variabile fa riferimento all'oggetto.",
     "level": "base"
@@ -395,22 +395,22 @@
     "options": [
       {
         "id": "A",
-        "text": "L'overloading definisce più metodi con lo stesso nome ma firme diverse nella stessa classe; l'overriding ridefinisce un metodo della superclasse mantenendo la stessa firma."
-      },
-      {
-        "id": "B",
         "text": "L'overriding si applica solo all'interno della stessa classe, l'overloading solo tra classi derivate."
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "L'overloading richiede sempre tipi generici, l'overriding lavora solo con tipi primitivi."
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "L'overloading avviene solo a tempo di esecuzione, l'overriding solo a tempo di compilazione."
+      },
+      {
+        "id": "D",
+        "text": "L'overloading definisce più metodi con lo stesso nome ma firme diverse nella stessa classe; l'overriding ridefinisce un metodo della superclasse mantenendo la stessa firma."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "D",
     "explanation": "L'overloading (sovraccarico) avviene all'interno della stessa classe differenziando i metodi per il numero o tipo di parametri (firma). L'overriding (sovrascrittura) avviene lungo la gerarchia delle classi per sostituire il comportamento di un metodo ereditato.",
     "hint": "Pensa a firme diverse (overloading) vs firme identiche in relazioni padre-figlio (overriding).",
     "level": "base"
@@ -447,11 +447,11 @@
     "options": [
       {
         "id": "A",
-        "text": "L'inserimento e l'eliminazione di un elemento in testa richiedono un tempo costante pari a O(1)."
+        "text": "La possibilità di accedere a qualsiasi elemento in tempo costante O(1) tramite indice numerico."
       },
       {
         "id": "B",
-        "text": "La possibilità di accedere a qualsiasi elemento in tempo costante O(1) tramite indice numerico."
+        "text": "L'inserimento e l'eliminazione di un elemento in testa richiedono un tempo costante pari a O(1)."
       },
       {
         "id": "C",
@@ -462,7 +462,7 @@
         "text": "La totale assenza di overhead di memoria per la memorizzazione di puntatori o riferimenti."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "B",
     "explanation": "Nelle liste concatenate, gli elementi non sono contigui e l'inserimento in punti noti (come la testa) richiede solo la riassegnazione dei puntatori del nodo, operazione eseguibile in tempo costante O(1) senza necessità di spostare la memoria circostante.",
     "hint": "Non è richiesto lo shift fisico degli elementi successivi come avverrebbe in un array.",
     "level": "base"
@@ -473,22 +473,22 @@
     "options": [
       {
         "id": "A",
-        "text": "LIFO (Last In, First Out)"
-      },
-      {
-        "id": "B",
         "text": "FIFO (First In, First Out)"
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "LILO (Last In, Last Out)"
+      },
+      {
+        "id": "C",
+        "text": "LIFO (Last In, First Out)"
       },
       {
         "id": "D",
         "text": "RANDOM (Accesso casuale)"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "C",
     "explanation": "Uno stack memorizza ed estrae elementi con la logica LIFO (l'ultimo a entrare è il primo a uscire). Le operazioni principali sono push e pop.",
     "hint": "Pensa a una pila di piatti: l'ultimo piatto inserito in cima è il primo ad essere preso.",
     "level": "intermedio"
@@ -499,22 +499,22 @@
     "options": [
       {
         "id": "A",
-        "text": "FIFO (First In, First Out)"
-      },
-      {
-        "id": "B",
         "text": "LIFO (Last In, First Out)"
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "FILO (First In, Last Out)"
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "LILO (Last In, Last Out)"
+      },
+      {
+        "id": "D",
+        "text": "FIFO (First In, First Out)"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "D",
     "explanation": "Una coda memorizza ed estrae gli elementi con la logica FIFO (il primo a entrare è il primo ad uscire), ideale per gestire sequenze di elaborazione o code d'attesa.",
     "hint": "Pensa alla classica fila di persone in banca.",
     "level": "intermedio"
@@ -551,11 +551,11 @@
     "options": [
       {
         "id": "A",
-        "text": "I membri pubblici e protetti di A diventano membri privati all'interno di B."
+        "text": "Nessun metodo della classe A può essere richiamato all'interno di B."
       },
       {
         "id": "B",
-        "text": "Nessun metodo della classe A può essere richiamato all'interno di B."
+        "text": "I membri pubblici e protetti di A diventano membri privati all'interno di B."
       },
       {
         "id": "C",
@@ -566,7 +566,7 @@
         "text": "Tutti i membri privati di A diventano visibili a chiunque istanzi B."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "B",
     "explanation": "Nell'ereditarietà privata in C++, l'accesso ai membri ereditati viene ristretto: i membri pubblici e protetti della classe base diventano membri privati della classe derivata, impedendone l'uso diretto all'esterno di B.",
     "hint": "È un tipo di ereditarietà restrittiva che trasforma i livelli di accesso ereditati nel massimo livello di restrizione.",
     "level": "intermedio"
@@ -577,22 +577,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Il linguaggio non esegue conversioni di tipo implicite e non permesse tra tipi incompatibili (es. sommare stringa e intero)."
-      },
-      {
-        "id": "B",
         "text": "Una volta dichiarata una variabile, non è più possibile riassegnare un valore di tipo differente."
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Tutte le variabili devono essere dichiarate all'inizio del modulo inserendo il tipo esplicito."
+      },
+      {
+        "id": "C",
+        "text": "Il linguaggio non esegue conversioni di tipo implicite e non permesse tra tipi incompatibili (es. sommare stringa e intero)."
       },
       {
         "id": "D",
         "text": "I tipi di dato complessi vengono convertiti in binario a tempo di compilazione."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "C",
     "explanation": "Nei linguaggi a tipizzazione forte come Python, il sistema di tipo impedisce operazioni ambigue tra tipi non compatibili senza una conversione esplicita. Ad esempio, `'ciao' + 5` solleverà un TypeError invece di forzare la conversione implicita.",
     "hint": "Cerca la differenza con linguaggi come JavaScript, che consentono conversioni implicite automatiche.",
     "level": "intermedio"
@@ -603,22 +603,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Un limite superiore asintotico per la crescita della risorsa di tempo o di spazio al crescere dell'input."
-      },
-      {
-        "id": "B",
         "text": "Il numero esatto di istruzioni assembly generate per una CPU a 64 bit."
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Il tempo medio misurato in millisecondi su un server standard."
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "Il limite inferiore asintotico per valutare le migliori prestazioni possibili."
+      },
+      {
+        "id": "D",
+        "text": "Un limite superiore asintotico per la crescita della risorsa di tempo o di spazio al crescere dell'input."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "D",
     "explanation": "La notazione O-grande fornisce una limitazione superiore (asintotica) all'andamento di una funzione matematica, consentendo di classificare gli algoritmi in base al loro tasso di crescita nel caso peggiore.",
     "hint": "Rappresenta lo scenario peggiore a livello asintotico.",
     "level": "intermedio"
@@ -655,11 +655,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Perché non è in grado di rilevare e liberare cicli di riferimenti circolari tra oggetti."
+        "text": "Perché non funziona con stringhe o altri tipi primitivi."
       },
       {
         "id": "B",
-        "text": "Perché non funziona con stringhe o altri tipi primitivi."
+        "text": "Perché non è in grado di rilevare e liberare cicli di riferimenti circolari tra oggetti."
       },
       {
         "id": "C",
@@ -670,7 +670,7 @@
         "text": "Perché può essere applicato esclusivamente a strutture di tipo Stack."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "B",
     "explanation": "Se due oggetti contengono riferimenti l'uno all'altro (riferimento circolare), i rispettivi contatori di riferimenti rimarranno maggiori di zero, impedendone la rimozione anche se gli oggetti non sono più raggiungibili dal programma.",
     "hint": "Considera due oggetti isolati che si puntano reciprocamente.",
     "level": "intermedio"
@@ -681,22 +681,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Libera automaticamente la memoria Heap occupata dagli oggetti non più raggiungibili dalle radici del programma (GC Roots)."
-      },
-      {
-        "id": "B",
         "text": "Garantisce la deallocazione immediata della memoria Stack non appena una funzione esce dallo scope."
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Viene attivato istantaneamente ogni volta che si richiama la funzione `System.gc()`."
+      },
+      {
+        "id": "C",
+        "text": "Libera automaticamente la memoria Heap occupata dagli oggetti non più raggiungibili dalle radici del programma (GC Roots)."
       },
       {
         "id": "D",
         "text": "Gestisce esclusivamente la chiusura dei file di sistema e dei socket di rete."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "C",
     "explanation": "Il Garbage Collector di Java agisce in modo asincrono per tracciare gli oggetti nella memoria Heap. Se un oggetto non ha più una catena di riferimenti che lo collega a un thread attivo (GC Root), viene considerato spazzatura e la memoria viene liberata.",
     "hint": "Pensa alla raggiungibilità dell'oggetto a partire dal codice in esecuzione.",
     "level": "intermedio"
@@ -707,22 +707,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Le classi derivate devono poter sostituire le loro classi base senza alterare il corretto funzionamento del programma."
-      },
-      {
-        "id": "B",
         "text": "Una sottoclasse deve nascondere o rimuovere i metodi pubblici definiti nella superclasse."
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Una classe deve dipendere solo da classi concrete e mai da astrazioni."
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "Ogni interfaccia deve contenere un unico metodo astratto di utilità."
+      },
+      {
+        "id": "D",
+        "text": "Le classi derivate devono poter sostituire le loro classi base senza alterare il corretto funzionamento del programma."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "D",
     "explanation": "Il principio LSP assicura che una sottoclasse rispetti il contratto comportamentale stabilito dalla sua superclasse. Se un programma funziona con una classe base, deve continuare a funzionare correttamente anche se viene usata una qualsiasi sottoclasse al suo posto.",
     "hint": "Riguarda l'interscambiabilità sicura tra classi genitore e classi figli.",
     "level": "intermedio"
@@ -759,11 +759,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Per ogni nodo X, tutti i valori nel sottoalbero sinistro sono minori o uguali a X, e tutti i valori nel sottoalbero destro sono maggiori di X."
+        "text": "Ogni nodo foglia deve trovarsi esattamente allo stesso livello di profondità rispetto alla radice."
       },
       {
         "id": "B",
-        "text": "Ogni nodo foglia deve trovarsi esattamente allo stesso livello di profondità rispetto alla radice."
+        "text": "Per ogni nodo X, tutti i valori nel sottoalbero sinistro sono minori o uguali a X, e tutti i valori nel sottoalbero destro sono maggiori di X."
       },
       {
         "id": "C",
@@ -774,7 +774,7 @@
         "text": "I nodi figli devono essere disposti in modo casuale ad ogni inserimento."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "B",
     "explanation": "La proprietà fondamentale del BST impone un ordinamento rigido: la chiave del nodo corrente è maggiore delle chiavi presenti a sinistra e minore delle chiavi a destra. Questo consente di effettuare ricerche asintotiche rapide.",
     "hint": "I valori più piccoli si trovano a sinistra del nodo, quelli più grandi a destra.",
     "level": "intermedio"
@@ -785,22 +785,22 @@
     "options": [
       {
         "id": "A",
-        "text": "La VTable (Virtual Table), una tabella di puntatori a funzioni virtuali associata a ciascuna classe."
-      },
-      {
-        "id": "B",
         "text": "Un Garbage Collector interno che analizza le definizioni delle classi a tempo di esecuzione."
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "La copia del codice sorgente di ciascun metodo direttamente all'interno della struttura dell'oggetto."
+      },
+      {
+        "id": "C",
+        "text": "La VTable (Virtual Table), una tabella di puntatori a funzioni virtuali associata a ciascuna classe."
       },
       {
         "id": "D",
         "text": "La traduzione di tutte le variabili in stringhe dinamiche risolte a runtime."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "C",
     "explanation": "Il compilatore C++ crea una tabella virtuale (vtable) per ciascuna classe che contiene funzioni virtuali. Ogni oggetto della classe possiede un puntatore invisibile (vptr) alla tabella vtable, che consente di invocare l'implementazione corretta a runtime.",
     "hint": "Cerca il termine associato a una tabella virtuale di puntatori a funzione.",
     "level": "intermedio"
@@ -811,22 +811,22 @@
     "options": [
       {
         "id": "A",
-        "text": "`__new__` è incaricato di creare l'istanza dell'oggetto (allocazione), mentre `__init__` si occupa di inizializzarne gli attributi (configurazione)."
-      },
-      {
-        "id": "B",
         "text": "`__init__` crea l'oggetto sulla memoria Stack, mentre `__new__` lo alloca nell'Heap."
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "`__new__` viene utilizzato solo per le funzioni asincrone, `__init__` solo per i metodi sincroni."
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "Non vi è alcuna differenza; `__new__` è stato rimosso a favore di `__init__` a partire da Python 3."
+      },
+      {
+        "id": "D",
+        "text": "`__new__` è incaricato di creare l'istanza dell'oggetto (allocazione), mentre `__init__` si occupa di inizializzarne gli attributi (configurazione)."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "D",
     "explanation": "`__new__` è il vero costruttore dell'oggetto, è un metodo statico che restituisce una nuova istanza. `__init__` riceve l'istanza creata (tramite self) e provvede a inizializzare il suo stato interno.",
     "hint": "Uno è il creatore dell'istanza fisica, l'altro è l'inizializzatore dello stato logico.",
     "level": "intermedio"
@@ -863,11 +863,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Un modello matematico o logico che definisce una struttura dati e le operazioni consentite, indipendentemente dalla sua specifica implementazione fisica."
+        "text": "Un tipo di dato nativo del processore analogo a un intero o a un puntatore generico."
       },
       {
         "id": "B",
-        "text": "Un tipo di dato nativo del processore analogo a un intero o a un puntatore generico."
+        "text": "Un modello matematico o logico che definisce una struttura dati e le operazioni consentite, indipendentemente dalla sua specifica implementazione fisica."
       },
       {
         "id": "C",
@@ -878,7 +878,7 @@
         "text": "Una classe astratta in C++ contenente solo variabili globali."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "B",
     "explanation": "Un ADT descrive le operazioni disponibili su un dato e le regole di comportamento (es. una Pila definita da push e pop), lasciando che il programmatore scelga l'implementazione reale sotto il cofano (es. array, lista concatenata).",
     "hint": "Specifica 'cosa fa' la struttura dati, nascondendo completamente il 'come'.",
     "level": "intermedio"
@@ -889,22 +889,22 @@
     "options": [
       {
         "id": "A",
-        "text": "O(N^2) in tutti e tre i casi."
-      },
-      {
-        "id": "B",
         "text": "O(N) nel caso migliore, O(N^2) negli altri casi."
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "O(N log N) nel caso migliore, O(N^2) nel caso peggiore."
+      },
+      {
+        "id": "C",
+        "text": "O(N^2) in tutti e tre i casi."
       },
       {
         "id": "D",
         "text": "O(1) in tutti i casi poiché non esegue scambi."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "C",
     "explanation": "Selection Sort seleziona iterativamente l'elemento minimo dalla parte rimanente ed esegue sempre due cicli for annidati completi, compiendo N(N-1)/2 confronti indipendentemente da come sia originariamente ordinato l'array di input.",
     "hint": "L'algoritmo non ha modi per rilevare se l'array è già parzialmente o totalmente ordinato.",
     "level": "intermedio"
@@ -915,22 +915,22 @@
     "options": [
       {
         "id": "A",
-        "text": "O(N)"
-      },
-      {
-        "id": "B",
         "text": "O(N^2)"
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "O(N log N)"
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "O(1)"
+      },
+      {
+        "id": "D",
+        "text": "O(N)"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "D",
     "explanation": "Nel Bubble Sort ottimizzato, un flag tiene traccia degli scambi effettuati in una passata. Se dopo la prima passata non si registrano scambi (il che indica che l'array è già ordinato), l'algoritmo termina immediatamente dopo aver eseguito N-1 confronti.",
     "hint": "Richiede un unico ciclo lineare per controllare e determinare se non ci sono elementi fuori posto.",
     "level": "avanzato"
@@ -967,11 +967,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Una Pila (Stack) per la DFS; una Coda (Queue) per la BFS."
+        "text": "Una Coda (Queue) per la DFS; una Pila (Stack) per la BFS."
       },
       {
         "id": "B",
-        "text": "Una Coda (Queue) per la DFS; una Pila (Stack) per la BFS."
+        "text": "Una Pila (Stack) per la DFS; una Coda (Queue) per la BFS."
       },
       {
         "id": "C",
@@ -982,7 +982,7 @@
         "text": "Una Tabella Hash per la DFS; una Lista concatenata per la BFS."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "B",
     "explanation": "La DFS visita ricorsivamente o tramite una pila (LIFO) scendendo lungo i rami. La BFS visita per livelli successivi memorizzando i nodi da esplorare in una coda (FIFO).",
     "hint": "Pensa alla corrispondenza tra l'ordine LIFO per andare in profondità e FIFO per diffondersi ad anello.",
     "level": "avanzato"
@@ -993,22 +993,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Per garantire la sicurezza nei meccanismi di rete e permessi, oltre che per supportare in sicurezza lo String Pool e il multithreading."
-      },
-      {
-        "id": "B",
         "text": "Perché le stringhe immutabili risiedono esclusivamente nella memoria cache della CPU."
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Per forzare lo sviluppatore ad utilizzare sempre l'allocazione dinamica manuale."
+      },
+      {
+        "id": "C",
+        "text": "Per garantire la sicurezza nei meccanismi di rete e permessi, oltre che per supportare in sicurezza lo String Pool e il multithreading."
       },
       {
         "id": "D",
         "text": "Per impedire la conversione di codice in bytecode a tempo di compilazione."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "C",
     "explanation": "L'immutabilità delle stringhe in Java garantisce che, se una stringa viene condivisa (ad esempio passata come argomento per una connessione database o un path di un file), il suo valore non possa essere modificato in modo imprevisto da altri thread. Consente inoltre l'ottimizzazione in memoria dello String Pool.",
     "hint": "Considera la sicurezza dei dati condivisi tra thread diversi e l'ottimizzazione della memoria.",
     "level": "avanzato"
@@ -1019,22 +1019,22 @@
     "options": [
       {
         "id": "A",
-        "text": "list"
-      },
-      {
-        "id": "B",
         "text": "tuple"
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "str"
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "int"
+      },
+      {
+        "id": "D",
+        "text": "list"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "D",
     "explanation": "In Python, le liste (`list`), i dizionari (`dict`) e i set (`set`) sono mutabili, cioè possono subire modifiche in-place. Tuple, stringhe ed interi sono invece immutabili.",
     "hint": "Una tupla non può essere modificata dopo la creazione; una lista permette di aggiungere o rimuovere elementi a piacimento.",
     "level": "avanzato"
@@ -1071,11 +1071,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Un puntatore può puntare a nulla (nullptr) ed essere riassegnato, mentre un riferimento deve essere associato a un oggetto valido all'inizializzazione e non può essere cambiato."
+        "text": "Un puntatore risiede sempre nello stack, mentre un riferimento risiede sempre nell'heap."
       },
       {
         "id": "B",
-        "text": "Un puntatore risiede sempre nello stack, mentre un riferimento risiede sempre nell'heap."
+        "text": "Un puntatore può puntare a nulla (nullptr) ed essere riassegnato, mentre un riferimento deve essere associato a un oggetto valido all'inizializzazione e non può essere cambiato."
       },
       {
         "id": "C",
@@ -1086,7 +1086,7 @@
         "text": "Non c'è alcuna differenza pratica; sono due parole chiave equivalenti che generano lo stesso assembly."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "B",
     "explanation": "Un riferimento in C++ funge da alias permanente per una variabile esistente e non può essere riassegnato né essere nullo. Un puntatore è una variabile separata che contiene un indirizzo di memoria, può valere nullptr e può puntare a variabili diverse nel tempo.",
     "hint": "Considera quale dei due può essere riassegnato o contenere il valore nullo.",
     "level": "avanzato"
@@ -1097,22 +1097,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Il sottosistema responsabile del caricamento dinamico in memoria delle classi Java (file .class) a tempo di esecuzione."
-      },
-      {
-        "id": "B",
         "text": "Lo strumento CLI che compila i file sorgente .java in file binari .class."
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Un tool di debug integrato nell'ambiente di sviluppo per analizzare le eccezioni."
+      },
+      {
+        "id": "C",
+        "text": "Il sottosistema responsabile del caricamento dinamico in memoria delle classi Java (file .class) a tempo di esecuzione."
       },
       {
         "id": "D",
         "text": "La memoria ad accesso rapido per la memorizzazione temporanea dei parametri locali."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "C",
     "explanation": "Il ClassLoader è una parte del runtime di Java. Ha il compito di individuare, caricare, verificare e inizializzare in memoria i file di classe compiled (.class) quando il programma li richiede durante l'esecuzione.",
     "hint": "Carica le classi a runtime su richiesta della JVM.",
     "level": "avanzato"
@@ -1123,22 +1123,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Una sequenza eccessivamente profonda o infinita di chiamate ricorsive che consuma tutto lo spazio allocato per i frame dei metodi sullo Stack."
-      },
-      {
-        "id": "B",
         "text": "Il tentativo di creare troppi oggetti dinamici tramite l'istruzione 'new' nella memoria Heap."
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "La mancanza di memoria RAM fisica del computer per l'allocazione globale del sistema operativo."
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "La mancata inizializzazione delle variabili booleane all'interno dei cicli iterativi standard."
+      },
+      {
+        "id": "D",
+        "text": "Una sequenza eccessivamente profonda o infinita di chiamate ricorsive che consuma tutto lo spazio allocato per i frame dei metodi sullo Stack."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "D",
     "explanation": "Ogni chiamata a funzione inserisce un record di attivazione nello Stack. Se la ricorsione non incontra un caso base o ha troppi passaggi, lo spazio allocato per lo Stack del thread si esaurisce, provocando l'errore di Stack Overflow.",
     "hint": "Pensa all'accumulo di chiamate a funzione non ancora terminate.",
     "level": "avanzato"
@@ -1175,11 +1175,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Basso accoppiamento ed alta coesione."
+        "text": "Alto accoppiamento e bassa coesione."
       },
       {
         "id": "B",
-        "text": "Alto accoppiamento e bassa coesione."
+        "text": "Basso accoppiamento ed alta coesione."
       },
       {
         "id": "C",
@@ -1190,7 +1190,7 @@
         "text": "Basso accoppiamento e bassa coesione."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "B",
     "explanation": "L'accoppiamento misura la dipendenza tra moduli: un accoppiamento basso rende il sistema modulare e modificabile. La coesione misura il focus interno di un modulo: un'alta coesione garantisce che ogni classe svolga compiti strettamente correlati ad un solo obiettivo.",
     "hint": "Vogliamo classi indipendenti tra loro (basso legame) ma molto focalizzate al proprio interno.",
     "level": "avanzato"
@@ -1201,22 +1201,22 @@
     "options": [
       {
         "id": "A",
-        "text": "I moduli software devono essere aperti alle estensioni ma chiusi alle modifiche del codice sorgente già esistente."
-      },
-      {
-        "id": "B",
         "text": "I metodi delle classi devono essere pubblici (open) e gli attributi privati (closed)."
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Un programma deve essere aperto all'uso di librerie esterne ma chiuso a connessioni internet insicure."
+      },
+      {
+        "id": "C",
+        "text": "I moduli software devono essere aperti alle estensioni ma chiusi alle modifiche del codice sorgente già esistente."
       },
       {
         "id": "D",
         "text": "Le classi astratte devono essere aperte per l'inizializzazione ma chiuse all'ereditarietà."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "C",
     "explanation": "Il principio Open/Closed impone di progettare il software in modo che nuove funzionalità possano essere aggiunte (estendendo il comportamento del sistema, ad esempio tramite ereditarietà o interfacce) senza modificare il codice esistente già testato.",
     "hint": "Consente l'aggiunta di funzionalità riducendo al minimo il rischio di introdurre bug nel codice legacy.",
     "level": "avanzato"
@@ -1227,22 +1227,22 @@
     "options": [
       {
         "id": "A",
-        "text": "La parte intera inferiore di log2 N (ossia floor(log2 N))."
-      },
-      {
-        "id": "B",
         "text": "N - 1 nodi."
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "La radice quadrata di N."
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "N / 2 nodi."
+      },
+      {
+        "id": "D",
+        "text": "La parte intera inferiore di log2 N (ossia floor(log2 N))."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "D",
     "explanation": "Un albero binario ha la minima altezza quando è perfettamente bilanciato. In questo scenario ideale, il numero di livelli (altezza) cresce logaritmicamente rispetto al numero dei nodi N, vale a dire floor(log2 N).",
     "hint": "Pensa alla crescita esponenziale del numero di nodi per ciascun livello aggiunto.",
     "level": "avanzato"
@@ -1279,11 +1279,11 @@
     "options": [
       {
         "id": "A",
-        "text": "No, le classi astratte non possono essere istanziate direttamente; richiedono una classe concreta derivata."
+        "text": "Sì, a patto che non contengano metodi dichiarati esplicitamente come astratti."
       },
       {
         "id": "B",
-        "text": "Sì, a patto che non contengano metodi dichiarati esplicitamente come astratti."
+        "text": "No, le classi astratte non possono essere istanziate direttamente; richiedono una classe concreta derivata."
       },
       {
         "id": "C",
@@ -1294,9 +1294,1309 @@
         "text": "Sì, ma l'oggetto restituito sarà privo di qualsiasi metodo d'istanza."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "B",
     "explanation": "Una classe astratta serve per definire un modello parziale e non completo che non deve essere istanziato direttamente. Il compilatore impedisce la creazione di istanze di classi astratte, forzando la creazione di sottoclassi concrete.",
     "hint": "Rappresentano concetti non completi che necessitano di implementazione dettagliata da parte delle sottoclassi.",
     "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_LANG_051",
+    "question": "Nel paradigma di programmazione orientata agli oggetti (OOP), qual è il principio che consiste nel nascondere i dettagli implementativi interni di un oggetto esponendo solo un'interfaccia pubblica controllata?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ereditarietà multipla"
+      },
+      {
+        "id": "B",
+        "text": "Polimorfismo dinamico"
+      },
+      {
+        "id": "C",
+        "text": "Incapsulamento (Encapsulation)"
+      },
+      {
+        "id": "D",
+        "text": "Tipizzazione debole"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'incapsulamento racchiude stato (attributi) e comportamento (metodi) all'interno della classe, proteggendo i dati interni mediante modificatori di accesso (private, protected) e fornendo metodi getter/setter dedicati.",
+    "hint": "Nascondere lo stato interno esponendo solo metodi pubblici.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_LANG_052",
+    "question": "In Java, qual è la differenza fondamentale tra 'Heap' e 'Stack' nella gestione della memoria da parte della JVM?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Lo Stack è gestito dal Garbage Collector, mentre l'Heap ha dimensione fissa all'avvio del programma"
+      },
+      {
+        "id": "B",
+        "text": "L'Heap memorizza esclusivamente il codice sorgente in formato testo"
+      },
+      {
+        "id": "C",
+        "text": "Non esiste alcuna distinzione, sono due nomi per la medesima struttura dati FIFO"
+      },
+      {
+        "id": "D",
+        "text": "Lo Stack memorizza le chiamate ai metodi e le variabili locali di tipo primitivo per ciascun thread, mentre l'Heap è l'area condivisa in cui risiedono tutti gli oggetti creati e le loro variabili di istanza"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Lo Stack gestisce l'esecuzione dei frame con ciclo di vita LIFO per ciascun thread; l'Heap memorizza tutti gli oggetti allocati dinamicamente (tramite 'new') ed è gestito dal Garbage Collector.",
+    "hint": "Stack: variabili locali e frame di chiamata. Heap: oggetti dinamici gestiti dal GC.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_LANG_053",
+    "question": "Quale design pattern creazionale assicura che una classe abbia una sola istanza all'interno dell'applicazione e fornisce un punto di accesso globale ad essa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Singleton Pattern"
+      },
+      {
+        "id": "B",
+        "text": "Observer Pattern"
+      },
+      {
+        "id": "C",
+        "text": "Factory Method"
+      },
+      {
+        "id": "D",
+        "text": "Adapter Pattern"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il Singleton garantisce l'unicità dell'istanza (es. pool di connessioni al database, logger centrale) mantenendo un costruttore privato e un metodo statico 'getInstance()'.",
+    "hint": "Una sola istanza per l'intera vita dell'applicazione = Singleton.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_LANG_054",
+    "question": "In Python, cosa fa la parola chiave 'yield' all'interno di una funzione?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Termina definitivamente l'esecuzione del programma sollevando un'eccezione critica"
+      },
+      {
+        "id": "B",
+        "text": "Trasforma la funzione in un generatore (generator), restituendo un valore e sospendendo l'esecuzione mantenendo lo stato per la successiva chiamata"
+      },
+      {
+        "id": "C",
+        "text": "Importa una libreria esterna da un repository remoto"
+      },
+      {
+        "id": "D",
+        "text": "Converte automaticamente una stringa in un intero a 64 bit"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "'yield' produce un valore su richiesta (lazy evaluation) senza caricare l'intera sequenza in memoria, trasformando la funzione in un generatore iterabile con 'next()'.",
+    "hint": "'yield' produce un generatore che rilascia valori uno alla volta su richiesta.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_LANG_055",
+    "question": "Nel runtime JavaScript/Node.js, che cos'è l'Event Loop?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un ciclo for infinito che surriscalda la CPU per testare i dissipatori termici"
+      },
+      {
+        "id": "B",
+        "text": "Un compilatore che traduce il codice JavaScript in C++ prima dell'esecuzione"
+      },
+      {
+        "id": "C",
+        "text": "Il meccanismo single-threaded che coordina l'esecuzione del codice sincrono, monitora la Call Stack e scarica le callback dalla Task Queue/Microtask Queue quando lo stack è vuoto"
+      },
+      {
+        "id": "D",
+        "text": "Un database relazionale integrato nel browser"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'Event Loop consente a JavaScript di gestire operazioni I/O asincrone non bloccanti pur avendo un unico thread di esecuzione principale, prelevando compiti dalle code di callback appena la Call Stack si svuota.",
+    "hint": "Gestisce l'asincronia single-thread trasferendo i task completati nella Call Stack.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_LANG_056",
+    "question": "In Git, qual è la differenza sostanziale tra i comandi 'git merge' e 'git rebase' per integrare i cambiamenti di un branch?",
+    "options": [
+      {
+        "id": "A",
+        "text": "'git rebase' elimina per sempre tutti i file modificati"
+      },
+      {
+        "id": "B",
+        "text": "'git merge' funziona solo se non ci sono connessioni di rete attive"
+      },
+      {
+        "id": "C",
+        "text": "'git rebase' è un comando esclusivo di Subversion (SVN) non supportato da Git"
+      },
+      {
+        "id": "D",
+        "text": "'git merge' crea un nuovo commit di fusione conservando l'intera storia dei rami, mentre 'git rebase' riscrive la cronologia riapplicando i commit del branch corrente in cima al branch di destinazione"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Merge preserva la cronologia reale creando un merge commit a due padri; Rebase crea una storia lineare e pulita riscrivendo gli hash dei commit spostandoli sulla base aggiornata.",
+    "hint": "Merge conserva la cronologia originale con un merge commit; Rebase crea una cronologia lineare.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_LANG_057",
+    "question": "In TypeScript, qual è il vantaggio dell'uso dei 'Generics' (<T>)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Consentono di definire funzioni, classi e interfacce riutilizzabili che operano su tipi di dati diversi mantenendo la rigorosa sicurezza sui tipi (type safety) a tempo di compilazione"
+      },
+      {
+        "id": "B",
+        "text": "Disattivano tutti i controlli del compilatore trasformando ogni variabile nel tipo 'any'"
+      },
+      {
+        "id": "C",
+        "text": "Aumentano la velocità di download dei pacchetti npm"
+      },
+      {
+        "id": "D",
+        "text": "Permettono di eseguire codice TypeScript direttamente nel kernel del sistema operativo"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "I Generics permettono di parametrizzare i tipi (es. `Array<T>`, `Promise<T>`), evitando conversioni manuali o l'uso di 'any' e garantendo che il compilatore intercetti errori di tipo a tempo di sviluppo.",
+    "hint": "Generics = riusabilità del codice senza rinunciare alla tipizzazione statica.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_LANG_058",
+    "question": "Cosa stabilisce il principio 'Open/Closed' (la 'O' nei principi SOLID dell'ingegneria del software)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "I file del codice sorgente devono essere aperti di giorno e chiusi di notte"
+      },
+      {
+        "id": "B",
+        "text": "Le entità software (classi, moduli, funzioni) dovrebbero essere aperte all'estensione, ma chiuse alla modifica"
+      },
+      {
+        "id": "C",
+        "text": "Il software deve essere rigorosamente proprietario e mai open source"
+      },
+      {
+        "id": "D",
+        "text": "Tutti i metodi di una classe devono essere dichiarati 'final'"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il principio Open/Closed impone di progettare il codice in modo che nuovi comportamenti possano essere aggiunti creando nuove classi (es. mediante ereditarietà o interfacce) senza dover alterare il codice esistente e testato.",
+    "hint": "Aperto all'estensione, chiuso alla modifica.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_LANG_059",
+    "question": "In Java, cosa succede quando una variabile fa riferimento a un oggetto che non ha più alcun riferimento attivo raggiungibile nel programma?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il sistema operativo termina immediatamente il processo con un errore di Segmentation Fault"
+      },
+      {
+        "id": "B",
+        "text": "L'oggetto viene automaticamente salvato in un file di testo sul disco C:"
+      },
+      {
+        "id": "C",
+        "text": "L'oggetto diventa idoneo (eligible) per la deallocazione automatica da parte del Garbage Collector"
+      },
+      {
+        "id": "D",
+        "text": "La memoria RAM si blocca permanentemente fino al riavvio fisico del computer"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "La JVM utilizza algoritmi di Garbage Collection (come Mark-and-Sweep, G1, ZGC): quando un oggetto non è più raggiungibile da alcuna 'GC Root', viene contrassegnato e la sua memoria liberata.",
+    "hint": "Gli oggetti orfani senza riferimenti vengono spazzati via dal Garbage Collector.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_LANG_060",
+    "question": "In Python, qual è il comportamento e lo scopo del 'Global Interpreter Lock' (GIL) nell'implementazione standard CPython?",
+    "options": [
+      {
+        "id": "A",
+        "text": "È un software antivirus che blocca i file corrotti scaricati con pip"
+      },
+      {
+        "id": "B",
+        "text": "È una password obbligatoria per eseguire script Python nei terminali Linux"
+      },
+      {
+        "id": "C",
+        "text": "Un protocollo di crittografia per le connessioni database PostgreSQL"
+      },
+      {
+        "id": "D",
+        "text": "È un meccanismo di sincronizzazione che impedisce l'esecuzione contemporanea di più thread Python nativi su core CPU multipli, consentendo a un solo thread alla volta di eseguire bytecode Python"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Il GIL in CPython protegge la gestione della memoria interna (reference counting) da corruzioni in ambienti multithreading, limitando il reale parallelismo su più core CPU per compiti CPU-bound (risolvibile con multiprocessing).",
+    "hint": "Il GIL permette a un solo thread nativo alla volta di eseguire bytecode in CPython.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_LANG_061",
+    "question": "Nel paradigma della programmazione funzionale, cosa si intende per 'funzione pura' (Pure Function)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Una funzione che, a parità di argomenti in ingresso, restituisce sempre lo stesso valore e non produce effetti collaterali (side effects) sullo stato del sistema"
+      },
+      {
+        "id": "B",
+        "text": "Una funzione che non contiene commenti o spazi vuoti nel codice sorgente"
+      },
+      {
+        "id": "C",
+        "text": "Una funzione scritta esclusivamente in linguaggio assembly a 64 bit"
+      },
+      {
+        "id": "D",
+        "text": "Una funzione che può essere eseguita solo da utenti con privilegi di amministratore"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Una funzione pura è deterministica (stesso input = stesso output) e non modifica variabili globali, non esegue I/O su disco, né muta argomenti passati per riferimento, rendendo il codice predicibile e facilmente testabile.",
+    "hint": "Deterministica e senza effetti collaterali (side effects).",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_LANG_062",
+    "question": "In C++, qual è la differenza fondamentale tra allocazione di memoria con 'malloc()' e con l'operatore 'new'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "'malloc()' dealloca la memoria automaticamente all'uscita dal blocco di codice"
+      },
+      {
+        "id": "B",
+        "text": "'new' alloca la memoria e invoca automaticamente il costruttore dell'oggetto restituendo un puntatore tipizzato; 'malloc()' alloca solo una sequenza di byte grezzi senza invocare alcun costruttore"
+      },
+      {
+        "id": "C",
+        "text": "'new' alloca memoria solo sulla memoria cache L1 della CPU"
+      },
+      {
+        "id": "D",
+        "text": "Non vi è alcuna differenza, 'malloc' e 'new' sono identici"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "'new' è parte integrante del linguaggio C++ (type-safe, chiama costruttori, solleva bad_alloc in caso di esaurimento memoria); 'malloc' è una funzione di libreria C che alloca blocchi void* grezzi.",
+    "hint": "'new' crea l'oggetto e chiama il costruttore; 'malloc' assegna solo byte di memoria grezza.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_LANG_063",
+    "question": "Cosa si intende per 'Dependency Injection' (DI) nei moderni framework applicativi (es. Spring Boot, Angular, .NET)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un attacco informatico basato sull'iniezione di codice maligno nei form HTML"
+      },
+      {
+        "id": "B",
+        "text": "L'installazione automatica di driver per stampanti di rete"
+      },
+      {
+        "id": "C",
+        "text": "Un pattern architetturale in cui le dipendenze di un componente non vengono istanziate direttamente al suo interno, ma vengono fornite (iniettate) dall'esterno da un container IoC"
+      },
+      {
+        "id": "D",
+        "text": "La sostituzione forzata di un hard disk difettoso in una catena RAID"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "La Dependency Injection applica il principio di Inversione del Controllo (IoC): disaccoppia le classi fornendo le istanze necessarie (servizi, repository) tramite costruttore o annotazioni (@Autowired, @Inject).",
+    "hint": "Le dipendenze vengono passate dall'esterno per disaccoppiare i componenti.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_LANG_064",
+    "question": "In Git, qual è la funzione del comando 'git stash'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cancella in modo permanente l'intero repository locale e remoto"
+      },
+      {
+        "id": "B",
+        "text": "Esegue il push immediato sul branch di produzione senza richiedere password"
+      },
+      {
+        "id": "C",
+        "text": "Crea una copia compressa .zip da spedire via posta elettronica"
+      },
+      {
+        "id": "D",
+        "text": "Salva temporaneamente le modifiche non ancora committate (tracciate e non) in uno stack separato, ripristinando la working directory allo stato pulito dell'ultimo commit"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "'git stash' congela le modifiche in sospeso permettendo allo sviluppatore di cambiare rapidamente branch o fare un pull; le modifiche possono essere poi riapplicate con 'git stash pop'.",
+    "hint": "Ripone temporaneamente le modifiche in un cassetto sicuro per pulire la cartella di lavoro.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_LANG_065",
+    "question": "Quale struttura dati opera secondo il principio LIFO (Last In, First Out)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pila (Stack)"
+      },
+      {
+        "id": "B",
+        "text": "Coda (Queue)"
+      },
+      {
+        "id": "C",
+        "text": "Lista doppiamente concatenata"
+      },
+      {
+        "id": "D",
+        "text": "Albero binario di ricerca (BST)"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Lo Stack (Pila) inserisce ed estrae elementi dallo stesso estremo (top): l'ultimo elemento inserito (Push) è il primo ad essere estratto (Pop) - principio LIFO.",
+    "hint": "LIFO: Last In, First Out = Pila (Stack). La Coda (Queue) è invece FIFO.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_LANG_066",
+    "question": "In termini di complessità computazionale asintotica (notazione Big-O), qual è il tempo medio di ricerca di un elemento in una tabella Hash (Hash Table) ben dimensionata?",
+    "options": [
+      {
+        "id": "A",
+        "text": "O(n^2) - Tempo quadratico"
+      },
+      {
+        "id": "B",
+        "text": "O(1) - Tempo costante"
+      },
+      {
+        "id": "C",
+        "text": "O(log n) - Tempo logaritmico"
+      },
+      {
+        "id": "D",
+        "text": "O(n!) - Tempo fattoriale"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Grazie alla funzione hash che calcola direttamente l'indice del bucket in cui risiede l'elemento, l'accesso, l'inserimento e la cancellazione avvengono in media in tempo costante O(1).",
+    "hint": "Tempo costante medio O(1) grazie alla funzione di hashing.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_LANG_067",
+    "question": "Nel modello MVC (Model-View-Controller), qual è il ruolo del 'Controller'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Memorizza in modo persistente le tabelle del database relazionale"
+      },
+      {
+        "id": "B",
+        "text": "Definisce unicamente lo stile grafico CSS e i colori della pagina web"
+      },
+      {
+        "id": "C",
+        "text": "Riceve gli input dell'utente (richieste HTTP), elabora la logica di controllo invocando il Modello e seleziona la Vista appropriata da restituire"
+      },
+      {
+        "id": "D",
+        "text": "Verifica che il cavo di rete sia collegato allo switch di piano"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Il Controller funge da intermediario: intercetta le azioni dell'utente, aggiorna il Model e restituisce i dati alla View per la renderizzazione finale.",
+    "hint": "Mediatore che riceve l'input, aziona il Model e sceglie la View.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_LANG_068",
+    "question": "In Python, cosa fa la funzione built-in 'zip()'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Comprime i file del progetto in un archivio ZIP con algoritmo DEFLATE"
+      },
+      {
+        "id": "B",
+        "text": "Cripta una stringa con chiave AES a 256 bit"
+      },
+      {
+        "id": "C",
+        "text": "Rallenta l'esecuzione del codice di un secondo per ogni ciclo"
+      },
+      {
+        "id": "D",
+        "text": "Accoppia elementi corrispondenti provenienti da due o più iterabili restituendo un iteratore di tuple"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "`zip([1, 2], ['a', 'b'])` restituisce un iteratore di tuple `(1, 'a'), (2, 'b')`, unendo parallelamente gli iterabili.",
+    "hint": "Unisce a coppie (o n-uple) elementi di liste diverse come una cerniera lampo.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_LANG_069",
+    "question": "Cosa si intende per 'Polimorfismo' nella programmazione ad oggetti?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La capacità di oggetti di classi diverse derivate da una medesima classe base o interfaccia di rispondere allo stesso messaggio (chiamata di metodo) in modo specifico per ciascun tipo"
+      },
+      {
+        "id": "B",
+        "text": "La conversione automatica di file audio in file di testo"
+      },
+      {
+        "id": "C",
+        "text": "La duplicazione del codice sorgente su più dischi per ridondanza"
+      },
+      {
+        "id": "D",
+        "text": "L'assegnazione casuale dei nomi delle variabili a tempo di esecuzione"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il polimorfismo consente di trattare oggetti di tipi derivati tramite riferimenti della classe base/interfaccia comune, risolvendo a tempo di esecuzione (late binding / dynamic dispatch) l'implementazione specifica corretta.",
+    "hint": "Una stessa interfaccia, comportamenti diversi in base al tipo concreto dell'oggetto.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_LANG_070",
+    "question": "In JavaScript, qual è la differenza fondamentale tra '==' (uguaglianza debole) e '===' (uguaglianza stretta)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "'===' assegna un valore alla variabile, mentre '==' esegue un confronto"
+      },
+      {
+        "id": "B",
+        "text": "'==' esegue la coercizione automatica del tipo (type coercion) prima del confronto, mentre '===' confronta sia il valore sia il tipo senza alcuna conversione implicita"
+      },
+      {
+        "id": "C",
+        "text": "'==' funziona solo per i numeri interi, mentre '===' per i numeri a virgola mobile"
+      },
+      {
+        "id": "D",
+        "text": "Non vi è alcuna differenza, '===' è solo una convenzione estetica introdotta in ES6"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "`'5' == 5` restituisce `true` (la stringa viene convertita in numero), mentre `'5' === 5` restituisce `false` perché i tipi differiscono (string vs number).",
+    "hint": "'===' controlla identità di valore E tipo senza conversioni automatiche.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_LANG_071",
+    "question": "Qual è il tempo di esecuzione dell'algoritmo di ordinamento 'Merge Sort' nel caso peggiore?",
+    "options": [
+      {
+        "id": "A",
+        "text": "O(n^2)"
+      },
+      {
+        "id": "B",
+        "text": "O(n)"
+      },
+      {
+        "id": "C",
+        "text": "O(n log n)"
+      },
+      {
+        "id": "D",
+        "text": "O(1)"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Merge Sort è un algoritmo divide-et-impera stabile che garantisce complessità temporale O(n log n) in tutti i casi (ottimo, medio e peggiore), a fronte di uno spazio ausiliario aggiuntivo O(n).",
+    "hint": "Merge Sort garantisce sempre O(n log n) anche nel caso peggiore.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_LANG_072",
+    "question": "In Java, qual è la caratteristica della parola chiave 'final' applicata a una classe?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tutti i metodi della classe diventano automaticamente privati"
+      },
+      {
+        "id": "B",
+        "text": "La classe può essere istanziata una sola volta nell'intero programma"
+      },
+      {
+        "id": "C",
+        "text": "La classe viene cancellata dal disco al termine dell'esecuzione"
+      },
+      {
+        "id": "D",
+        "text": "La classe non può essere estesa (non ammette sottoclassi/ereditarietà)"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Una classe dichiarata `final` (es. `java.lang.String`) è immutabile nella sua gerarchia ed è protetta dall'essere ereditata o sovrascritta (previene sottoclassi).",
+    "hint": "Classe final = non può essere estesa tramite ereditarietà.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_LANG_073",
+    "question": "In Python, qual è il risultato dell'espressione: [x**2 for x in range(5) if x % 2 != 0]?",
+    "options": [
+      {
+        "id": "A",
+        "text": "[1, 9]"
+      },
+      {
+        "id": "B",
+        "text": "[0, 4, 16]"
+      },
+      {
+        "id": "C",
+        "text": "[1, 4, 9, 16]"
+      },
+      {
+        "id": "D",
+        "text": "[0, 1, 4, 9, 16]"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Range(5) genera 0, 1, 2, 3, 4. I numeri dispari (x % 2 != 0) sono 1 e 3. Elevandoli al quadrato: 1^2 = 1 e 3^2 = 9. Il risultato è la lista [1, 9].",
+    "hint": "Filtra i dispari minori di 5 (1 e 3) e ne calcola il quadrato: [1, 9].",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_LANG_074",
+    "question": "Cosa si intende per 'Deadlock' nella programmazione concorrente e multithreading?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un errore di sintassi rilevato dal compilatore prima dell'avvio"
+      },
+      {
+        "id": "B",
+        "text": "Una situazione di stallo permanente in cui due o più thread rimangono bloccati all'infinito poiché ciascuno attende una risorsa trattenuta dall'altro (attesa circolare)"
+      },
+      {
+        "id": "C",
+        "text": "La disconnessione automatica per inattività dell'utente dopo 15 minuti"
+      },
+      {
+        "id": "D",
+        "text": "La chiusura forzata del programma per mancanza di spazio su disco"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il Deadlock (blocco critico) si verifica quando sono soddisfatte le quattro condizioni di Coffman: mutua esclusione, possesso e attesa, assenza di preemption e attesa circolare.",
+    "hint": "Stallo circolare tra thread che si contendono risorse bloccate a vicenda.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_LANG_075",
+    "question": "In SQL o nei linguaggi ad alto livello, cos'è una transazione ACID?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un'istruzione per la cancellazione di virus dai file di registro"
+      },
+      {
+        "id": "B",
+        "text": "Un algoritmo di compressione con perdita per immagini JPEG"
+      },
+      {
+        "id": "C",
+        "text": "Una sequenza di operazioni che soddisfa le quattro proprietà di Atomicità, Coerenza, Isolamento e Durabilità"
+      },
+      {
+        "id": "D",
+        "text": "Un software di gestione degli stipendi dei dipendenti pubblici"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "ACID garantisce affidabilità: Atomicità (tutto o niente), Coerenza (regole di integrità rispettate), Isolamento (transazioni concorrenti separate), Durabilità (modifiche salvate anche dopo crash).",
+    "hint": "Atomicity, Consistency, Isolation, Durability.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_LANG_076",
+    "question": "In C#, cosa rappresenta il costrutto 'using' applicato a un oggetto che implementa l'interfaccia 'IDisposable'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Importa un file musicale MP3 nella timeline del progetto"
+      },
+      {
+        "id": "B",
+        "text": "Crea una nuova connessione satellitare per il backup cloud"
+      },
+      {
+        "id": "C",
+        "text": "Impedisce la scrittura del codice da parte di programmatori junior"
+      },
+      {
+        "id": "D",
+        "text": "Garantisce che il metodo 'Dispose()' venga invocato automaticamente all'uscita dal blocco di codice per rilasciare tempestivamente le risorse non gestite (file, socket), anche in caso di eccezione"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Lo statement `using (var res = new Resource()) { ... }` si traduce in un blocco `try-finally` in cui `res.Dispose()` viene chiamato con certezza per rilasciare handle di file, connessioni o memoria nativa.",
+    "hint": "Chiamata automatica a Dispose() per rilasciare risorse all'uscita dal blocco.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_LANG_077",
+    "question": "Cos'è il pattern 'Observer' (noto anche come Publish-Subscribe)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un pattern comportamentale in cui un oggetto (Subject) mantiene un elenco di dipendenti (Observers) e li notifica automaticamente di qualsiasi cambiamento di stato invocando un loro metodo"
+      },
+      {
+        "id": "B",
+        "text": "Un programma per intercettare i tasti premuti sulle tastiere USB"
+      },
+      {
+        "id": "C",
+        "text": "Un sistema per nascondere le cartelle riservate agli utenti non autorizzati"
+      },
+      {
+        "id": "D",
+        "text": "Un metodo per convertire i numeri binari in esadecimali"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'Observer definisce una dipendenza uno-a-molti: quando lo stato del Subject muta, tutti gli Observer registrati ricevono una notifica automatica (alla base dei sistemi ad eventi, MVC e reactive programming).",
+    "hint": "Pattern uno-a-molti per notificare automaticamente i cambiamenti di stato agli ascoltatori.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_LANG_078",
+    "question": "In Java, qual è la differenza tra 'StringBuilder' e 'StringBuffer'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "'StringBuilder' può contenere solo numeri, mentre 'StringBuffer' solo caratteri alfanumerici"
+      },
+      {
+        "id": "B",
+        "text": "'StringBuffer' è thread-safe (i suoi metodi sono sincronizzati), mentre 'StringBuilder' non è sincronizzato ed è quindi più veloce in contesti a thread singolo"
+      },
+      {
+        "id": "C",
+        "text": "'StringBuffer' salva i dati sul disco rigido in formato HTML"
+      },
+      {
+        "id": "D",
+        "text": "Non esiste alcuna differenza, sono due classi identiche deprecate da Java 8"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Entrambi creano sequenze di caratteri mutabili (a differenza di String che è immutabile); StringBuffer garantisce thread-safety tramite sincronizzazione, mentre StringBuilder è più performante per uso locale.",
+    "hint": "StringBuffer è sincronizzato (thread-safe); StringBuilder è più veloce e non sincronizzato.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_LANG_079",
+    "question": "In Python, cosa si intende per 'decoratore' (decorator) indicato con la sintassi '@'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Uno strumento per colorare il testo all'interno dell'editor di codice"
+      },
+      {
+        "id": "B",
+        "text": "Un'istruzione per aggiungere bordi arrotondati alle finestre dell'interfaccia grafica"
+      },
+      {
+        "id": "C",
+        "text": "Una funzione che accetta un'altra funzione come argomento, ne estende o modifica il comportamento e restituisce una nuova funzione, senza alterare il codice originale"
+      },
+      {
+        "id": "D",
+        "text": "Un comando per formattare i numeri con due cifre decimali fisse"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "I decoratori implementano il pattern Decorator a livello di sintassi: racchiudono la funzione originale in un wrapper per aggiungere funzionalità trasversali (es. logging, timing, autenticazione).",
+    "hint": "Funzione wrapper che aggiunge funzionalità a un'altra funzione senza modificarla.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_LANG_080",
+    "question": "Nel controllo di versione con Git, cosa fa il comando 'git cherry-pick <commit-hash>'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Elimina tutti i commit più vecchi di un anno per risparmiare spazio su disco"
+      },
+      {
+        "id": "B",
+        "text": "Unisce forzatamente tutti i branch del repository in un unico ramo master"
+      },
+      {
+        "id": "C",
+        "text": "Invia una notifica push a tutti i collaboratori registrati su GitHub"
+      },
+      {
+        "id": "D",
+        "text": "Applica le modifiche introdotte da uno specifico commit esistente nel branch corrente creando un nuovo commit"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "'git cherry-pick' consente di prelevare singolarmente una specifica patch/commit da un altro ramo (es. un bugfix su develop) e applicarla al ramo di lavoro attuale.",
+    "hint": "Preleva un singolo commit mirato e lo applica sul branch corrente.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_LANG_081",
+    "question": "Quale struttura dati è ideale per implementare la coda di stampa dei documenti di un ufficio pubblico (FIFO - First In, First Out)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Coda (Queue)"
+      },
+      {
+        "id": "B",
+        "text": "Pila (Stack)"
+      },
+      {
+        "id": "C",
+        "text": "Matrice quadrata sparsa"
+      },
+      {
+        "id": "D",
+        "text": "Grafo aciclico orientato"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La Queue rispetta la politica FIFO: il primo documento inviato alla stampante (enqueue) è il primo a essere stampato (dequeue).",
+    "hint": "FIFO: il primo che entra è il primo a uscire = Coda (Queue).",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_LANG_082",
+    "question": "In JavaScript, che cosa restituisce l'operatore 'typeof null' per una storica anomalia del linguaggio mai rimossa per retrocompatibilità?",
+    "options": [
+      {
+        "id": "A",
+        "text": "\"null\""
+      },
+      {
+        "id": "B",
+        "text": "\"object\""
+      },
+      {
+        "id": "C",
+        "text": "\"undefined\""
+      },
+      {
+        "id": "D",
+        "text": "\"boolean\""
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Nelle prime versioni di JavaScript i valori erano rappresentati con tag di tipo e puntatori: il tipo oggetto aveva tag 0, e il puntatore null (0x00) veniva interpretato come oggetto. Per compatibilità con il web è rimasto `typeof null === 'object'`.",
+    "hint": "Storico bug rimasto per retrocompatibilità: typeof null restituisce 'object'.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_LANG_083",
+    "question": "In Java e nella programmazione OOP, cosa si intende per 'Overloading' rispetto a 'Overriding'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'Overloading si usa solo per le interfacce, mentre l'Overriding solo per le classi astratte"
+      },
+      {
+        "id": "B",
+        "text": "L'Overloading richiede la connessione a un server esterno"
+      },
+      {
+        "id": "C",
+        "text": "L'Overloading definisce metodi con lo stesso nome ma firme/parametri diversi nella stessa classe; l'Overriding ridefinisce nella sottoclasse un metodo ereditato con la medesima firma"
+      },
+      {
+        "id": "D",
+        "text": "Non vi è alcuna differenza, sono due sinonimi per la stessa istruzione"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Overloading = stesso nome, parametri diversi a tempo di compilazione (polimorfismo statico). Overriding = riscrittura di metodo ereditato con annotazione @Override a tempo di esecuzione (polimorfismo dinamico).",
+    "hint": "Overloading: stessi metodi con argomenti diversi. Overriding: ridefinizione del metodo ereditato.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_LANG_084",
+    "question": "Che cos'è una 'Race Condition' nella programmazione software?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un test di velocità tra due processori prodotti da marche concorrenti"
+      },
+      {
+        "id": "B",
+        "text": "La scadenza di una sessione di autenticazione utente"
+      },
+      {
+        "id": "C",
+        "text": "L'aggiornamento simultaneo dell'antivirus su più computer della rete"
+      },
+      {
+        "id": "D",
+        "text": "Un'anomalia in cui il risultato dell'esecuzione dipende dalla sequenza temporale incontrollata o dall'interleaving con cui thread concorrenti accedono e modificano dati condivisi"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Una condizione di gara si verifica quando due thread leggono e scrivono la stessa locazione di memoria senza opportuna sincronizzazione (es. mutex, semafori), producendo stati inconsistenti casuali.",
+    "hint": "Comportamento errato dovuto all'ordine imprevisto di esecuzione tra thread concorrenti.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_LANG_085",
+    "question": "In linguaggi come Rust o C++, cosa si intende per 'RAII' (Resource Acquisition Is Initialization)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un idioma di programmazione in cui l'acquisizione di una risorsa è legata all'inizializzazione dell'oggetto (nel costruttore) e il suo rilascio avviene automaticamente nel distruttore al termine dello scope"
+      },
+      {
+        "id": "B",
+        "text": "L'installazione remota automatizzata del sistema operativo via rete"
+      },
+      {
+        "id": "C",
+        "text": "Un protocollo di trasmissione audio ad alta definizione"
+      },
+      {
+        "id": "D",
+        "text": "Un tipo di connettore elettrico con fusibile incorporato"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "RAII garantisce che non vi siano leak di memoria o handle aperti: la vita della risorsa è legata alla durata dell'oggetto nello stack; uscendo dallo scope, il distruttore viene invocato automaticamente.",
+    "hint": "Gestione delle risorse legata al ciclo di vita dell'oggetto (costruttore/distruttore).",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_LANG_086",
+    "question": "Nel linguaggio C, cosa rappresenta l'operatore unario '&' posto davanti al nome di una variabile (es. &x)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Calcola la radice quadrata del valore della variabile"
+      },
+      {
+        "id": "B",
+        "text": "Restituisce l'indirizzo di memoria fisica in cui risiede la variabile"
+      },
+      {
+        "id": "C",
+        "text": "Incrementa di un'unità il valore contenuto nella variabile"
+      },
+      {
+        "id": "D",
+        "text": "Converte il valore della variabile in lettere maiuscole"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "In C l'operatore `&` è l'operatore 'address-of': restituisce l'indirizzo di memoria della variabile (puntatore), mentre l'asterisco `*` è l'operatore di dereferenziazione.",
+    "hint": "Operatore 'indirizzo di': &var restituisce il puntatore alla variabile.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_LANG_087",
+    "question": "In Python, qual è la differenza tra una 'Lista' ([]) e una 'Tupla' (())?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Le tuple possono contenere solo numeri, mentre le liste solo testo"
+      },
+      {
+        "id": "B",
+        "text": "Le liste non possono essere ordinate con la funzione sort()"
+      },
+      {
+        "id": "C",
+        "text": "Le liste sono strutture dati mutabili (possono essere modificate dopo la creazione), mentre le tuple sono immutabili"
+      },
+      {
+        "id": "D",
+        "text": "Le tuple sono memorizzate esclusivamente su server cloud"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Le tuple sono sequenze immutabili: una volta create non possono essere estese né alterate, il che le rende utilizzabili come chiavi di dizionari (sono hashable) e più veloci delle liste.",
+    "hint": "Lista = mutabile; Tupla = immutabile.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_LANG_088",
+    "question": "Nel paradigma architetturale dei Microservizi, cosa definisce il pattern 'API Gateway'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un firewall fisico installato all'ingresso della sala server"
+      },
+      {
+        "id": "B",
+        "text": "Un modem analogico per l'invio automatico di fax"
+      },
+      {
+        "id": "C",
+        "text": "Un cavo in fibra ottica sottomarino tra Europa e Stati Uniti"
+      },
+      {
+        "id": "D",
+        "text": "Un singolo punto di ingresso per tutti i client esterni che instrada le richieste ai microservizi interni, gestendo autenticazione, rate limiting, logging e aggregazione delle risposte"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'API Gateway centralizza le funzionalità trasversali (reverse proxy, autenticazione JWT, SSL termination, caching, throttling) per evitare che ogni singolo microservizio debba reimplementarle.",
+    "hint": "Punto di ingresso unico che smista il traffico verso i vari microservizi interni.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_LANG_089",
+    "question": "In JavaScript/TypeScript, qual è il comportamento del costrutto 'async / await'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fornisce una sintassi sincrona per lavorare con le Promises, mettendo in pausa l'esecuzione della funzione async finché la Promise non si risolve o viene rifiutata, senza bloccare il thread principale"
+      },
+      {
+        "id": "B",
+        "text": "Costringe il processore a eseguire il codice su un secondo computer"
+      },
+      {
+        "id": "C",
+        "text": "Crea un nuovo processo di sistema operativo con privilegi di root"
+      },
+      {
+        "id": "D",
+        "text": "Salva automaticamente il database su un server di backup ogni minuto"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "`async/await` è zucchero sintattico costruito sopra le Promise: consente di scrivere codice asincrono leggibile in sequenza senza annidare callback (`callback hell`).",
+    "hint": "Sintassi elegante per gestire Promises asincrone in modo lineare.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_LANG_090",
+    "question": "Cosa stabilisce il principio 'Liskov Substitution Principle' (LSP nei principi SOLID)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ogni file di codice deve essere firmato digitalmente da almeno due sviluppatori"
+      },
+      {
+        "id": "B",
+        "text": "Gli oggetti di una classe derivata devono poter sostituire gli oggetti della classe base senza alterare la correttezza del programma"
+      },
+      {
+        "id": "C",
+        "text": "Tutti i nomi delle variabili devono essere scritti in lettere minuscole"
+      },
+      {
+        "id": "D",
+        "text": "Le classi devono contenere un massimo di dieci righe di codice ciascuna"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Formulato da Barbara Liskov: se S è un sottotipo di T, gli oggetti di tipo T devono poter essere rimpiazzati con oggetti di tipo S senza causare comportamenti inattesi o violare pre/post-condizioni.",
+    "hint": "Una sottoclasse deve poter essere usata ovunque sia prevista la classe genitore.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_LANG_091",
+    "question": "In Python, cosa fa il blocco 'try... except... finally' quando viene sollevata un'eccezione non gestita?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il blocco 'finally' viene saltato completamente se si verifica un errore"
+      },
+      {
+        "id": "B",
+        "text": "Il blocco 'finally' viene rieseguito 10 volte consecutive"
+      },
+      {
+        "id": "C",
+        "text": "Il blocco 'finally' viene SEMPRE eseguito prima che l'eccezione si propaghi all'esterno o il programma termini"
+      },
+      {
+        "id": "D",
+        "text": "Il programma ignora l'eccezione e prosegue come se nulla fosse"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "La clausola `finally` è garantita in qualsiasi scenario (con o senza eccezioni sollevate o catturate), motivo per cui è usata per il cleanup di connessioni e file.",
+    "hint": "Il blocco 'finally' viene SEMPRE eseguito, con o senza errori.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_LANG_092",
+    "question": "In Java, qual è la differenza tra un'Interfaccia (dopo Java 8) e una Classe Astratta?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Le interfacce non possono avere alcun metodo implementato con codice"
+      },
+      {
+        "id": "B",
+        "text": "Le classi astratte possono essere istanziate direttamente con l'operatore new"
+      },
+      {
+        "id": "C",
+        "text": "Non esiste alcuna differenza, sono sinonimi"
+      },
+      {
+        "id": "D",
+        "text": "Una classe può implementare molteplici interfacce ma può estendere una sola classe astratta; inoltre le classi astratte possono avere campi di stato di istanza e costruttori, a differenza delle interfacce"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Java supporta l'ereditarietà multipla di tipo tramite interfacce (che da Java 8 possono avere metodi `default` e `static`), ma mantiene l'ereditarietà singola per le classi (astratte o concrete) che mantengono stato e costruttori.",
+    "hint": "Ereditarietà multipla di interfacce vs ereditarietà singola di classe.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_LANG_093",
+    "question": "In un database relazionale o in un'applicazione backend, cosa si intende per 'SQL Injection'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Una vulnerabilità di sicurezza in cui dati forniti dall'utente non sanificati vengono concatenati direttamente in una query SQL, permettendo all'attaccante di eseguire comandi arbitrari sul database"
+      },
+      {
+        "id": "B",
+        "text": "Un'istruzione di ottimizzazione per creare indici clustered"
+      },
+      {
+        "id": "C",
+        "text": "Un cavo in rame per collegare due server di database"
+      },
+      {
+        "id": "D",
+        "text": "Un processo per riordinare alfabeticamente le tabelle"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La SQLi si verifica quando l'input esterno altera la struttura sintattica della query. Si mitiga tassativamente con Prepared Statements e query parametrizzate.",
+    "hint": "Attacco basato sull'iniezione di codice SQL arbitrario tramite input non validato.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_LANG_094",
+    "question": "Quale pattern architetturale viene utilizzato per disaccoppiare la creazione di famiglie di oggetti correlati o dipendenti senza specificarne le classi concrete?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Facade Pattern"
+      },
+      {
+        "id": "B",
+        "text": "Abstract Factory Pattern"
+      },
+      {
+        "id": "C",
+        "text": "Decorator Pattern"
+      },
+      {
+        "id": "D",
+        "text": "Proxy Pattern"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'Abstract Factory fornisce un'interfaccia per creare famiglie di oggetti connessi (es. componenti UI per Windows o Mac) garantendo che l'applicazione utilizzi la famiglia corretta.",
+    "hint": "Fabbrica di fabbriche per creare famiglie di oggetti correlati.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_LANG_095",
+    "question": "In Git, qual è l'effetto del comando 'git reset --hard HEAD~1'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Invia l'ultimo commit al server remoto"
+      },
+      {
+        "id": "B",
+        "text": "Crea un nuovo branch chiamato 'HEAD'"
+      },
+      {
+        "id": "C",
+        "text": "Elimina l'ultimo commit, ripristina la cronologia al commit precedente e cancella irreversibilmente tutte le modifiche sia dalla staging area sia dalla working directory"
+      },
+      {
+        "id": "D",
+        "text": "Apre l'editor di testo per modificare il messaggio di commit"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "`--hard` distrugge sia lo snapshot nel commit sia il lavoro locale non salvato, riportando l'albero di lavoro all'esatto stato del commit puntato.",
+    "hint": "Reset distruttivo: cancella commit, indice e modifiche nella working directory.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_LANG_096",
+    "question": "Che cos'è una funzione 'ricorsiva' nella programmazione?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Una funzione che può essere scritta solo in latino"
+      },
+      {
+        "id": "B",
+        "text": "Una funzione che viene richiamata ogni ora da un timer di sistema"
+      },
+      {
+        "id": "C",
+        "text": "Una funzione memorizzata su una scheda perforata"
+      },
+      {
+        "id": "D",
+        "text": "Una funzione che richiama se stessa all'interno del proprio corpo per risolvere sottoproblemi più piccoli, terminando quando raggiunge un caso base (base case)"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "La ricorsione divide il problema in istanze più piccole dello stesso problema. È indispensabile definire un caso base per evitare il superamento dello stack (StackOverflowError).",
+    "hint": "Funzione che richiama se stessa fino al raggiungimento del caso base.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_LANG_097",
+    "question": "In linguaggi come JavaScript e Python, cosa si intende per 'Closure' (chiusura)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Una funzione che conserva l'accesso alle variabili del suo ambiente lessicale circostante (scope) anche dopo che la funzione esterna ha terminato la propria esecuzione"
+      },
+      {
+        "id": "B",
+        "text": "La chiusura forzata del prompt dei comandi"
+      },
+      {
+        "id": "C",
+        "text": "La disconnessione automatica del monitor a fine orario lavorativo"
+      },
+      {
+        "id": "D",
+        "text": "Un blocco di codice che non restituisce alcun valore numerico"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Una closure combina la funzione con l'ambiente in cui è stata dichiarata: permette alla funzione interna di 'ricordare' e manipolare variabili esterne anche al di fuori del loro scope originale.",
+    "hint": "Funzione che 'ricorda' le variabili dell'ambiente in cui è stata creata.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_LANG_098",
+    "question": "In C++, qual è lo scopo del puntatore speciale 'this' all'interno di un metodo di istanza non statico?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Indica l'indirizzo del primo server della rete locale"
+      },
+      {
+        "id": "B",
+        "text": "Punta all'indirizzo di memoria dell'oggetto corrente sul quale il metodo è stato invocato"
+      },
+      {
+        "id": "C",
+        "text": "Punta alla classe genitore eliminando tutte le proprietà figlie"
+      },
+      {
+        "id": "D",
+        "text": "Memorizza la licenza software del compilatore"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il puntatore implicito `this` (o `self` in Python) rappresenta l'istanza specifica dell'oggetto che sta eseguendo il metodo, consentendo di distinguere parametri locali da attributi di istanza (`this->x = x`).",
+    "hint": "Puntatore all'istanza corrente dell'oggetto.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_LANG_099",
+    "question": "Cosa stabilisce il principio 'Interface Segregation Principle' (ISP nei principi SOLID)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Le interfacce grafiche devono essere utilizzate solo da utenti con schermo a colori"
+      },
+      {
+        "id": "B",
+        "text": "Tutti i programmi devono comunicare solo tramite cavi seriali"
+      },
+      {
+        "id": "C",
+        "text": "I client non dovrebbero essere costretti a dipendere da interfacce contenenti metodi che non utilizzano (è preferibile creare molte interfacce specifiche e snelle anziché una sola interfaccia enorme)"
+      },
+      {
+        "id": "D",
+        "text": "È vietato dichiarare più di due classi nello stesso package"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'ISP raccomanda interfacce coese e granulari: se un'interfaccia ha troppi metodi disomogenei, le classi che la implementano finiscono per contenere metodi vuoti o inutili.",
+    "hint": "Meglio molte interfacce piccole e specifiche che un'unica interfaccia mastodontica.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_LANG_100",
+    "question": "In un contesto di integrazione continua (CI/CD), cosa si intende per 'Test Unitario' (Unit Test)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il collaudo della resistenza al fuoco del server rack"
+      },
+      {
+        "id": "B",
+        "text": "Un questionario a risposte multiple somministrato agli utenti finali dell'applicazione"
+      },
+      {
+        "id": "C",
+        "text": "La verifica che la spina della corrente sia inserita nella presa elettrica"
+      },
+      {
+        "id": "D",
+        "text": "Un test automatizzato che verifica il corretto funzionamento della più piccola unità testabile di codice sorgente (solitamente una singola funzione o metodo) in isolamento da dipendenze esterne"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "I test unitari verificano singoli metodi o funzioni in modo rapido e ripetibile, usando mock o stub per simulare database o servizi esterni e isolare l'unità logica sotto esame.",
+    "hint": "Test automatizzato della più piccola unità isolata di codice (funzione/metodo).",
+    "level": "base"
   }
 ]

@@ -5,22 +5,22 @@
     "options": [
       {
         "id": "A",
-        "text": "A1"
+        "text": "$A$1"
       },
       {
         "id": "B",
-        "text": "$A1"
+        "text": "A1"
       },
       {
         "id": "C",
-        "text": "A$1"
+        "text": "$A1"
       },
       {
         "id": "D",
-        "text": "$A$1"
+        "text": "A$1"
       }
     ],
-    "correctAnswerId": "D",
+    "correctAnswerId": "A",
     "explanation": "In Excel, il simbolo del dollaro ($) posizionato sia prima della lettera della colonna sia prima del numero di riga (es. $A$1) blocca entrambi i riferimenti. Questo impedisce alla cella di variare quando la formula viene copiata o trascinata in altre posizioni, definendo un riferimento assoluto.",
     "hint": "Cerca il simbolo del dollaro applicato sia alla colonna sia alla riga.",
     "level": "base"
@@ -57,22 +57,22 @@
     "options": [
       {
         "id": "A",
-        "text": "La transizione si applica al passaggio da una diapositiva all'altra; l'animazione si applica ai singoli elementi interni di una diapositiva."
-      },
-      {
-        "id": "B",
         "text": "L'animazione riguarda solo i testi; la transizione riguarda solo le immagini e i video."
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "La transizione può contenere suoni; l'animazione non può mai essere associata a file audio."
+      },
+      {
+        "id": "C",
+        "text": "La transizione si applica al passaggio da una diapositiva all'altra; l'animazione si applica ai singoli elementi interni di una diapositiva."
       },
       {
         "id": "D",
         "text": "Le animazioni sono automatiche; le transizioni richiedono sempre il clic del mouse."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "C",
     "explanation": "Le transizioni gestiscono l'effetto visivo durante il passaggio tra diapositive consecutive. Le animazioni, invece, controllano il movimento, l'entrata, l'enfasi o l'uscita dei singoli oggetti (come caselle di testo, forme, immagini) all'interno di una singola diapositiva.",
     "hint": "Una regola il cambio della slide intera, l'altra regola gli elementi interni alla slide.",
     "level": "base"
@@ -87,18 +87,18 @@
       },
       {
         "id": "B",
-        "text": ".ods"
-      },
-      {
-        "id": "C",
         "text": ".odp"
       },
       {
-        "id": "D",
+        "id": "C",
         "text": ".odg"
+      },
+      {
+        "id": "D",
+        "text": ".ods"
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "D",
     "explanation": "L'estensione '.ods' identifica un file OpenDocument Spreadsheet (foglio di calcolo), standard internazionale (ISO/IEC 26300) per la memorizzazione di fogli di lavoro elettronici utilizzato da LibreOffice Calc, OpenOffice Calc e supportato da Excel.",
     "hint": "La lettera finale 's' deriva dall'inglese 'Spreadsheet'.",
     "level": "base"
@@ -195,14 +195,14 @@
       },
       {
         "id": "C",
-        "text": "Creare documenti personalizzati (lettere, buste, etichette) combinando un modello con una sorgente dati esterna."
+        "text": "Stampare simultaneamente in modalità fronte/retro un documento contenente tabelle."
       },
       {
         "id": "D",
-        "text": "Stampare simultaneamente in modalità fronte/retro un documento contenente tabelle."
+        "text": "Creare documenti personalizzati (lettere, buste, etichette) combinando un modello con una sorgente dati esterna."
       }
     ],
-    "correctAnswerId": "C",
+    "correctAnswerId": "D",
     "explanation": "La stampa unione consente di generare in modo massivo lettere, e-mail o etichette personalizzate unendo un documento principale (che funge da modello) con una sorgente dati (come un elenco contatti in un file Excel o in un database).",
     "hint": "Permette di creare, ad esempio, 100 lettere personalizzate ciascuna con il nome di un cliente diverso.",
     "level": "base"
@@ -213,11 +213,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Una visualizzazione che mostra le note e la diapositiva successiva direttamente sullo schermo principale visto dal pubblico."
+        "text": "Una modalità in cui il relatore visualizza sul proprio schermo la diapositiva corrente, le note e l'anteprima della successiva, mentre il pubblico vede solo la diapositiva corrente."
       },
       {
         "id": "B",
-        "text": "Una modalità in cui il relatore visualizza sul proprio schermo la diapositiva corrente, le note e l'anteprima della successiva, mentre il pubblico vede solo la diapositiva corrente."
+        "text": "Una visualizzazione che mostra le note e la diapositiva successiva direttamente sullo schermo principale visto dal pubblico."
       },
       {
         "id": "C",
@@ -228,7 +228,7 @@
         "text": "Una modalità protetta che blocca la presentazione impedendo modifiche stilistiche."
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "A",
     "explanation": "La Visualizzazione Relatore consente di sdoppiare l'interfaccia quando si usa un secondo schermo o proiettore: il pubblico vede la presentazione a schermo intero, mentre chi presenta ha a disposizione un pannello di controllo privato con note, timer, anteprima della slide successiva e strumenti di disegno.",
     "hint": "Mostra informazioni utili a chi parla ma le nasconde al pubblico.",
     "level": "base"
@@ -243,18 +243,18 @@
       },
       {
         "id": "B",
-        "text": ".ods"
+        "text": ".odt"
       },
       {
         "id": "C",
-        "text": ".odt"
+        "text": ".ods"
       },
       {
         "id": "D",
         "text": ".odg"
       }
     ],
-    "correctAnswerId": "C",
+    "correctAnswerId": "B",
     "explanation": "L'estensione '.odt' (OpenDocument Text) identifica i documenti di testo conformi allo standard aperto ODF. Viene utilizzata nativamente da applicazioni come LibreOffice Writer e Apache OpenOffice Writer.",
     "hint": "La lettera finale 't' sta per 'Text' (testo).",
     "level": "base"
@@ -269,18 +269,18 @@
       },
       {
         "id": "B",
-        "text": "A riassumere, analizzare ed esplorare sinteticamente grandi quantità di dati strutturati."
+        "text": "A bloccare la modifica delle formule da parte di utenti non autorizzati."
       },
       {
         "id": "C",
-        "text": "A bloccare la modifica delle formule da parte di utenti non autorizzati."
+        "text": "A riassumere, analizzare ed esplorare sinteticamente grandi quantità di dati strutturati."
       },
       {
         "id": "D",
         "text": "A esportare tabelle di calcolo in formato XML non compresso."
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "C",
     "explanation": "Le tabelle pivot sono uno strumento potente per consolidare ed esaminare insiemi di dati complessi. Consentono di trascinare campi per raggruppare righe e colonne e calcolare somme, medie o percentuali in modo estremamente rapido.",
     "hint": "Riguarda il riepilogo rapido e flessibile di dati grezzi voluminosi.",
     "level": "base"
@@ -295,18 +295,18 @@
       },
       {
         "id": "B",
-        "text": "Viene selezionata l'intera parola su cui si è fatto clic."
-      },
-      {
-        "id": "C",
         "text": "Viene formattata automaticamente in grassetto la parola indicata."
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "Il cursore si sposta alla fine dell'intero paragrafo corrente."
+      },
+      {
+        "id": "D",
+        "text": "Viene selezionata l'intera parola su cui si è fatto clic."
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "D",
     "explanation": "Fare doppio clic su una parola in Word la seleziona interamente. Un triplo clic, invece, seleziona l'intero paragrafo a cui la parola appartiene.",
     "hint": "È una scorciatoia rapida del mouse per evidenziare un singolo vocabolo.",
     "level": "base"
@@ -317,22 +317,22 @@
     "options": [
       {
         "id": "A",
-        "text": "$"
+        "text": "="
       },
       {
         "id": "B",
-        "text": "@"
+        "text": "$"
       },
       {
         "id": "C",
-        "text": "="
+        "text": "@"
       },
       {
         "id": "D",
         "text": "+"
       }
     ],
-    "correctAnswerId": "C",
+    "correctAnswerId": "A",
     "explanation": "Qualsiasi formula, operazione aritmetica o funzione in Excel deve tassativamente aprirsi con il segno di uguale (=). In caso contrario, Excel interpreterà l'input come semplice testo o numero statico.",
     "hint": "È il simbolo matematico utilizzato per esprimere l'uguaglianza tra due valori.",
     "level": "base"
@@ -377,14 +377,14 @@
       },
       {
         "id": "C",
-        "text": ".rtf"
+        "text": ".pdf"
       },
       {
         "id": "D",
-        "text": ".pdf"
+        "text": ".rtf"
       }
     ],
-    "correctAnswerId": "D",
+    "correctAnswerId": "C",
     "explanation": "Il formato PDF (Portable Document Format) è progettato per presentare i documenti in modo indipendente dal software, dall'hardware o dal sistema operativo di visualizzazione, preservando fedelmente caratteri, immagini e impaginazione.",
     "hint": "È il formato standard per la conservazione e consultazione di documenti non modificabili.",
     "level": "base"
@@ -399,18 +399,18 @@
       },
       {
         "id": "B",
-        "text": "Giustificato"
-      },
-      {
-        "id": "C",
         "text": "A sinistra"
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "Distribuito verticale"
+      },
+      {
+        "id": "D",
+        "text": "Giustificato"
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "D",
     "explanation": "L'allineamento 'Giustificato' regola lo spazio tra le parole in modo che ogni riga (eccetto l'ultima del paragrafo) inizi esattamente al margine sinistro e termini esattamente al margine destro della pagina.",
     "hint": "Rende i contorni del testo squadrati, come si vede tipicamente nei libri stampati o nei quotidiani.",
     "level": "base"
@@ -421,11 +421,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Somma tutti i valori compresi nell'intervallo rettangolare da A1 a B3."
+        "text": "Somma esclusivamente il valore della cella A1 e della cella B3."
       },
       {
         "id": "B",
-        "text": "Somma esclusivamente il valore della cella A1 e della cella B3."
+        "text": "Somma tutti i valori compresi nell'intervallo rettangolare da A1 a B3."
       },
       {
         "id": "C",
@@ -436,7 +436,7 @@
         "text": "Restituisce un errore poiché non è specificato l'operatore due punti (:)."
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "A",
     "explanation": "Il punto e virgola (;) funge da operatore di unione in Excel, separando singoli riferimenti. Pertanto, la formula somma solo le due celle indicate. Per sommare l'intervallo completo si dovrebbe usare il carattere due punti (:), ovvero '=SOMMA(A1:B3)'.",
     "hint": "Prestare attenzione alla differenza tra il punto e virgola (;) e i due punti (:) nelle funzioni di Excel.",
     "level": "base"
@@ -451,18 +451,18 @@
       },
       {
         "id": "B",
-        "text": "Apple iWork"
+        "text": "LibreOffice"
       },
       {
         "id": "C",
-        "text": "LibreOffice"
+        "text": "Apple iWork"
       },
       {
         "id": "D",
         "text": "Google Workspace"
       }
     ],
-    "correctAnswerId": "C",
+    "correctAnswerId": "B",
     "explanation": "LibreOffice (derivato da OpenOffice.org) è una celebre suite di produttività libera e open-source che adotta lo standard OpenDocument (.odt, .ods, .odp) come formato nativo predefinito per salvare i file.",
     "hint": "È una delle alternative gratuite più famose a Microsoft Office.",
     "level": "base"
@@ -473,22 +473,22 @@
     "options": [
       {
         "id": "A",
-        "text": "=SE(A1>80; \"Ottimo\"; SE(A1>=50; \"Sufficiente\"; \"Insufficiente\"))"
-      },
-      {
-        "id": "B",
         "text": "=SE(A1>80; \"Ottimo\"; \"Sufficiente\"; SE(A1<50; \"Insufficiente\"))"
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "=SE(A1>80; \"Ottimo\" AND SE(A1>=50; \"Sufficiente\"; \"Insufficiente\"))"
+      },
+      {
+        "id": "C",
+        "text": "=SE(A1>80; \"Ottimo\"; SE(A1>=50; \"Sufficiente\"; \"Insufficiente\"))"
       },
       {
         "id": "D",
         "text": "=SE(A1>80; \"Ottimo\"; SE(A1<50; \"Sufficiente\"; \"Insufficiente\"))"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "C",
     "explanation": "La nidificazione corretta prevede l'inserimento di un secondo costrutto SE come argomento 'se_falso' del primo. Excel valuta la prima condizione (A1>80); se è falsa, passa alla seconda (A1>=50). Se anche questa è falsa, restituisce il valore finale 'Insufficiente'.",
     "hint": "Ogni funzione SE richiede esattamente tre argomenti: test, se_vero, se_falso.",
     "level": "intermedio"
@@ -503,18 +503,18 @@
       },
       {
         "id": "B",
-        "text": "CERCA.VERT richiede che la colonna di ricerca sia a sinistra della colonna dei risultati, mentre CERCA.X può cercare a sinistra del vettore di ritorno senza vincoli di posizione."
-      },
-      {
-        "id": "C",
         "text": "CERCA.VERT supporta la corrispondenza parziale con caratteri jolly, mentre CERCA.X richiede solo valori esatti."
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "CERCA.VERT esegue una ricerca per impostazione predefinita esatta, mentre CERCA.X richiede sempre l'indicazione FALSO."
+      },
+      {
+        "id": "D",
+        "text": "CERCA.VERT richiede che la colonna di ricerca sia a sinistra della colonna dei risultati, mentre CERCA.X può cercare a sinistra del vettore di ritorno senza vincoli di posizione."
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "D",
     "explanation": "A differenza di CERCA.VERT, che è limitata a cercare nella prima colonna a sinistra di un intervallo ed estrarre dati verso destra, CERCA.X separa la colonna di ricerca da quella dei risultati, consentendo ricerche bidirezionali (anche a sinistra della colonna chiave).",
     "hint": "Pensa alla limitazione strutturale del CERCA.VERT che impone alla colonna chiave di essere la prima a sinistra.",
     "level": "intermedio"
@@ -525,11 +525,11 @@
     "options": [
       {
         "id": "A",
-        "text": "A dividere il testo del documento in paragrafi per applicare lo stile corsivo."
+        "text": "A modificare le impostazioni di layout, come l'orientamento della pagina (verticale/orizzontale) o i margini, per una specifica parte del documento."
       },
       {
         "id": "B",
-        "text": "A modificare le impostazioni di layout, come l'orientamento della pagina (verticale/orizzontale) o i margini, per una specifica parte del documento."
+        "text": "A dividere il testo del documento in paragrafi per applicare lo stile corsivo."
       },
       {
         "id": "C",
@@ -540,7 +540,7 @@
         "text": "A forzare la creazione automatica di collegamenti ipertestuali interni."
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "A",
     "explanation": "Le interruzioni di sezione consentono di frammentare il documento in parti indipendenti. Ciascuna sezione può avere layout, margini, orientamento della pagina (es. una tabella orizzontale in mezzo a pagine verticali), colonne e intestazioni/piè di pagina differenti.",
     "hint": "Servono quando diverse parti dello stesso file Word necessitano di layout o formattazioni di pagina differenti.",
     "level": "intermedio"
@@ -607,18 +607,18 @@
       },
       {
         "id": "B",
-        "text": "Un nuovo campo virtuale ottenuto applicando una formula matematica ai campi di dati esistenti della tabella pivot."
-      },
-      {
-        "id": "C",
         "text": "Una riga speciale che visualizza la media ponderata di tutti i record."
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "Un campo che si aggiorna solo quando si ricollega il database tramite connessione SQL."
+      },
+      {
+        "id": "D",
+        "text": "Un nuovo campo virtuale ottenuto applicando una formula matematica ai campi di dati esistenti della tabella pivot."
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "D",
     "explanation": "Un campo calcolato è un elemento inserito all'interno della Tabella Pivot che esegue calcoli basati sui valori di altri campi dell'elenco di origine (ad esempio, calcolare l'imposta partendo dal campo 'Fatturato' moltiplicato per 0,22).",
     "hint": "Consente di eseguire operazioni aritmetiche tra colonne della sorgente dati direttamente nella pivot.",
     "level": "intermedio"
@@ -629,11 +629,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Tutti i titoli dei capitoli e dei paragrafi devono essere scritti interamente in lettere maiuscole."
+        "text": "Ai titoli del documento devono essere applicati gli stili di titolo predefiniti (es. Titolo 1, Titolo 2)."
       },
       {
         "id": "B",
-        "text": "Ai titoli del documento devono essere applicati gli stili di titolo predefiniti (es. Titolo 1, Titolo 2)."
+        "text": "Tutti i titoli dei capitoli e dei paragrafi devono essere scritti interamente in lettere maiuscole."
       },
       {
         "id": "C",
@@ -644,7 +644,7 @@
         "text": "Il documento deve contenere almeno tre interruzioni di sezione per capitolo."
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "A",
     "explanation": "Word genera il sommario automatico (TOC - Table of Contents) scansionando il documento alla ricerca di testo formattato con gli Stili di Titolo nativi (Titolo 1, Titolo 2, ecc.). Senza l'applicazione strutturata di tali stili, Word non sarà in grado di riconoscere la gerarchia del documento.",
     "hint": "Riguarda l'uso corretto e strutturato degli stili di paragrafo presenti nella barra degli strumenti.",
     "level": "intermedio"
@@ -685,18 +685,18 @@
       },
       {
         "id": "B",
-        "text": "Consente la co-autorealizzazione (co-authoring), ossia la modifica simultanea e in tempo reale dello stesso documento da parte di più utenti autorizzati."
+        "text": "Trasforma automaticamente i fogli di calcolo Excel in database SQL Server relazionali."
       },
       {
         "id": "C",
-        "text": "Trasforma automaticamente i fogli di calcolo Excel in database SQL Server relazionali."
+        "text": "Consente la co-autorealizzazione (co-authoring), ossia la modifica simultanea e in tempo reale dello stesso documento da parte di più utenti autorizzati."
       },
       {
         "id": "D",
         "text": "Consente il salvataggio dei documenti eliminando del tutto la necessità di connessione internet."
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "C",
     "explanation": "Il caricamento su servizi cloud integrati come OneDrive o SharePoint sblocca la funzionalità di co-autore (co-authoring). Più utenti possono aprire e modificare simultaneamente lo stesso file, visualizzando i cursori e le modifiche apportate dagli altri colleghi in tempo reale.",
     "hint": "Rende possibile il lavoro di gruppo a più mani sullo stesso identico file in tempo reale.",
     "level": "intermedio"
@@ -711,18 +711,18 @@
       },
       {
         "id": "B",
-        "text": "A un singolo carattere qualsiasi."
-      },
-      {
-        "id": "C",
         "text": "Esclusivamente a un carattere di punteggiatura o fine paragrafo."
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "A un numero indeterminato di cifre numeriche decimali."
+      },
+      {
+        "id": "D",
+        "text": "A un singolo carattere qualsiasi."
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "D",
     "explanation": "Nelle ricerche avanzate con espressioni regolari/caratteri jolly in Word, il punto interrogativo (?) rappresenta esattamente un singolo carattere sconosciuto. L'asterisco (*) rappresenta invece una sequenza indefinita di caratteri.",
     "hint": "È l'equivalente di una tessera bianca o un carattere jolly singolo in un gioco di parole.",
     "level": "intermedio"
@@ -733,11 +733,11 @@
     "options": [
       {
         "id": "A",
-        "text": ".avi"
+        "text": ".mp4"
       },
       {
         "id": "B",
-        "text": ".mp4"
+        "text": ".avi"
       },
       {
         "id": "C",
@@ -748,7 +748,7 @@
         "text": ".pdf"
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "A",
     "explanation": "In PowerPoint, l'esportazione come video (disponibile in Esporta -> Crea video) supporta nativamente il formato MPEG-4 (.mp4). Questo formato garantisce elevata qualità visiva e massima compatibilità su computer, tablet e smartphone.",
     "hint": "È il formato video digitale compresso più diffuso a livello mondiale.",
     "level": "intermedio"
@@ -789,18 +789,18 @@
       },
       {
         "id": "B",
-        "text": "Il testo viene barrato e contrassegnato con un colore specifico, rimanendo visibile fino all'accettazione o rifiuto della revisione."
+        "text": "Il testo viene nascosto e convertito automaticamente in una nota a piè di pagina."
       },
       {
         "id": "C",
-        "text": "Il testo viene nascosto e convertito automaticamente in una nota a piè di pagina."
+        "text": "Il testo viene barrato e contrassegnato con un colore specifico, rimanendo visibile fino all'accettazione o rifiuto della revisione."
       },
       {
         "id": "D",
         "text": "Si apre un avviso di sicurezza che richiede la firma digitale dei collaboratori."
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "C",
     "explanation": "La funzione Revisioni serve a tracciare le proposte di modifica. Le eliminazioni vengono solitamente mostrate come barrate e gli inserimenti come sottolineati (e associati a un colore specifico per autore). La modifica diventa definitiva solo quando viene accettata tramite l'apposito comando.",
     "hint": "Consente di visualizzare le correzioni in modo trasparente prima di renderle definitive.",
     "level": "intermedio"
@@ -819,14 +819,14 @@
       },
       {
         "id": "C",
-        "text": "=A1 & \" \" & B1"
+        "text": "=UNISCI.CELLE(A1; \" \"; B1)"
       },
       {
         "id": "D",
-        "text": "=UNISCI.CELLE(A1; \" \"; B1)"
+        "text": "=A1 & \" \" & B1"
       }
     ],
-    "correctAnswerId": "C",
+    "correctAnswerId": "D",
     "explanation": "In Excel, la e commerciale (&) è l'operatore per unire o concatenare stringhe di testo. La formula =A1 & \" \" & B1 unisce il valore di A1, un carattere spazio racchiuso tra virgolette, e il valore di B1.",
     "hint": "Pensa all'operatore logico/commerciale noto come ampersand.",
     "level": "intermedio"
@@ -837,11 +837,11 @@
     "options": [
       {
         "id": "A",
-        "text": ".odg"
+        "text": ".odp"
       },
       {
         "id": "B",
-        "text": ".odp"
+        "text": ".odg"
       },
       {
         "id": "C",
@@ -852,7 +852,7 @@
         "text": ".ods"
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "A",
     "explanation": "L'estensione '.odp' identifica un file OpenDocument Presentation (presentazione), utilizzato da LibreOffice Impress e Apache OpenOffice Impress per archiviare diapositive multimediali.",
     "hint": "La letteral finale 'p' sta per 'Presentation'.",
     "level": "intermedio"
@@ -863,11 +863,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Blocca riquadri -> Blocca riga superiore"
+        "text": "Formatta come tabella -> Mantieni intestazioni"
       },
       {
         "id": "B",
-        "text": "Formatta come tabella -> Mantieni intestazioni"
+        "text": "Blocca riquadri -> Blocca riga superiore"
       },
       {
         "id": "C",
@@ -878,7 +878,7 @@
         "text": "Visualizza -> Rendi fisso"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "B",
     "explanation": "Andando nella scheda 'Visualizza' e cliccando su 'Blocca riquadri' -> 'Blocca riga superiore', Excel fissa la riga 1 in alto. Così facendo, le intestazioni di colonna rimangono visibili anche quando si scorre molto in basso.",
     "hint": "È una funzionalità della scheda Visualizza legata al blocco dei riquadri.",
     "level": "intermedio"
@@ -893,18 +893,18 @@
       },
       {
         "id": "B",
-        "text": "Diversi per la prima pagina"
+        "text": "Nascondi intestazione su pagina dispari"
       },
       {
         "id": "C",
-        "text": "Nascondi intestazione su pagina dispari"
+        "text": "Diversi per la prima pagina"
       },
       {
         "id": "D",
         "text": "Disattiva collegamento a precedente su pagina 1"
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "C",
     "explanation": "Accedendo alla modifica di un'intestazione o piè di pagina, si sblocca la scheda progettazione dove è presente la casella 'Diversi per la prima pagina'. Attivandola, la prima pagina disporrà di un'intestazione e piè di pagina separati dal resto del documento.",
     "hint": "Cerca un'opzione nativa attivabile tramite casella di controllo direttamente negli strumenti intestazione.",
     "level": "intermedio"
@@ -919,18 +919,18 @@
       },
       {
         "id": "B",
-        "text": "Non risentono dell'inserimento o eliminazione di colonne all'interno dell'intervallo analizzato e consentono ricerche bidirezionali (anche verso sinistra)."
-      },
-      {
-        "id": "C",
         "text": "Riducono l'uso della RAM di oltre il 90% migliorando i tempi di calcolo."
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "Gestiscono automaticamente gli errori mascherando i valori non trovati."
+      },
+      {
+        "id": "D",
+        "text": "Non risentono dell'inserimento o eliminazione di colonne all'interno dell'intervallo analizzato e consentono ricerche bidirezionali (anche verso sinistra)."
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "D",
     "explanation": "La combinazione INDICE e CONFRONTA supera le limitazioni di CERCA.VERT: non richiede che la colonna chiave sia la prima a sinistra dell'intervallo (può cercare in ogni direzione) e non si interrompe se si aggiungono o si rimuovono colonne nel mezzo dell'intervallo di dati.",
     "hint": "Pensa alla dinamicità della formula quando la struttura delle colonne subisce variazioni.",
     "level": "avanzato"
@@ -941,11 +941,11 @@
     "options": [
       {
         "id": "A",
-        "text": "CERCA.VERT"
+        "text": "FILTRA (FILTER)"
       },
       {
         "id": "B",
-        "text": "FILTRA (FILTER)"
+        "text": "CERCA.VERT"
       },
       {
         "id": "C",
@@ -956,7 +956,7 @@
         "text": "DATI.ORDINA"
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "A",
     "explanation": "La funzione FILTRA (FILTER) restituisce una matrice dinamica filtrando un intervallo in base a una serie di condizioni logiche. I risultati si espandono (spill) automaticamente verso il basso e a destra a partire dalla cella in cui è inserita la formula.",
     "hint": "Fa parte delle nuove funzioni di matrice dinamica di Excel 365.",
     "level": "avanzato"
@@ -967,11 +967,11 @@
     "options": [
       {
         "id": "A",
-        "text": "A estrarre dati riepilogativi in modo sicuro basandosi sulla struttura dei campi anziché sulle coordinate fisiche di riga e colonna della cella."
+        "text": "A effettuare ricerche verticali velocizzate all'interno delle righe pivot."
       },
       {
         "id": "B",
-        "text": "A effettuare ricerche verticali velocizzate all'interno delle righe pivot."
+        "text": "A estrarre dati riepilogativi in modo sicuro basandosi sulla struttura dei campi anziché sulle coordinate fisiche di riga e colonna della cella."
       },
       {
         "id": "C",
@@ -982,7 +982,7 @@
         "text": "A forzare l'aggiornamento automatico della pivot al variare di qualsiasi cella."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "B",
     "explanation": "INFO.DATI.TAB.PIVOT recupera dati di sintesi da una tabella pivot basandosi sul nome dei campi e degli elementi. In questo modo si evita il rischio di estrarre valori errati se la tabella pivot si sposta o si ridimensiona modificando le coordinate fisiche (es. B5).",
     "hint": "Riguarda il recupero sicuro dei dati strutturati indipendentemente dallo spostamento della cella.",
     "level": "avanzato"
@@ -997,18 +997,18 @@
       },
       {
         "id": "B",
-        "text": "Usare lo strumento 'Elenco multilivello' definendo un nuovo elenco in cui ciascun livello sia esplicitamente associato ai relativi stili predefiniti di Titolo."
+        "text": "Inserire un'interruzione di sezione prima di ciascun titolo impostando la numerazione manuale delle pagine."
       },
       {
         "id": "C",
-        "text": "Inserire un'interruzione di sezione prima di ciascun titolo impostando la numerazione manuale delle pagine."
+        "text": "Usare lo strumento 'Elenco multilivello' definendo un nuovo elenco in cui ciascun livello sia esplicitamente associato ai relativi stili predefiniti di Titolo."
       },
       {
         "id": "D",
         "text": "Applicare lo strumento Stampa Unione impostando una numerazione sequenziale dei blocchi."
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "C",
     "explanation": "Per creare elenchi numerati automatici coerenti con i capitoli, occorre selezionare 'Elenco multilivello' (nella scheda Home -> Paragrafo) e scegliere o definire uno schema di elenco in cui ciascun livello numerico (Livello 1, Livello 2) risulti collegato a uno stile (Titolo 1, Titolo 2).",
     "hint": "La numerazione automatica deve essere agganciata ai nomi degli stili strutturali del file.",
     "level": "avanzato"
@@ -1023,18 +1023,18 @@
       },
       {
         "id": "B",
-        "text": "Una funzionalità che fa partire l'effetto animato di un oggetto solo quando si fa clic su un determinato elemento o forma della diapositiva."
-      },
-      {
-        "id": "C",
         "text": "Un segnale acustico programmato per avvertire il relatore dello scadere del tempo."
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "Un effetto di transizione che elimina in modo netto gli elementi grafici complessi."
+      },
+      {
+        "id": "D",
+        "text": "Una funzionalità che fa partire l'effetto animato di un oggetto solo quando si fa clic su un determinato elemento o forma della diapositiva."
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "D",
     "explanation": "Un attivatore (Trigger) vincola la riproduzione di un'animazione al clic su uno specifico elemento visivo presente nella slide durante la modalità presentazione. Ad esempio, è possibile fare apparire una casella di testo esplicativa solo quando l'utente fa clic su un pulsante o su un'immagine.",
     "hint": "Collega temporalmente l'animazione di un elemento all'interazione dell'utente su un altro elemento specifico.",
     "level": "avanzato"
@@ -1045,22 +1045,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Un unico file di testo binario proprietario protetto da chiavi asimmetriche."
+        "text": "Un archivio compresso in formato ZIP contenente diversi file XML strutturati (es. content.xml, styles.xml) e le cartelle con le risorse multimediali."
       },
       {
         "id": "B",
-        "text": "Un database relazionale SQL Server compresso contenente indici strutturati."
+        "text": "Un unico file di testo binario proprietario protetto da chiavi asimmetriche."
       },
       {
         "id": "C",
-        "text": "Un archivio compresso in formato ZIP contenente diversi file XML strutturati (es. content.xml, styles.xml) e le cartelle con le risorse multimediali."
+        "text": "Un database relazionale SQL Server compresso contenente indici strutturati."
       },
       {
         "id": "D",
         "text": "Un file HTML puro strutturato con fogli di stile CSS inline."
       }
     ],
-    "correctAnswerId": "C",
+    "correctAnswerId": "A",
     "explanation": "I file basati sullo standard ODF (così come i moderni file OOXML di Microsoft Office) sono a tutti gli effetti dei file d'archivio ZIP compressi. Cambiando l'estensione del file in '.zip', è possibile aprirlo con un programma di decompressione per esaminarne la struttura interna XML e le risorse (es. immagini) salvate all'interno.",
     "hint": "Pensa a un contenitore compresso che racchiude file di testo strutturato XML e immagini.",
     "level": "avanzato"
@@ -1101,18 +1101,18 @@
       },
       {
         "id": "B",
-        "text": "Un database relazionale in-memory integrato in Excel che consente di importare, mettere in relazione e analizzare dati da più tabelle esterne o interne senza l'uso di CERCA.VERT."
+        "text": "Uno strumento per convertire i fogli di lavoro Excel in file di testo non strutturati."
       },
       {
         "id": "C",
-        "text": "Uno strumento per convertire i fogli di lavoro Excel in file di testo non strutturati."
+        "text": "Un database relazionale in-memory integrato in Excel che consente di importare, mettere in relazione e analizzare dati da più tabelle esterne o interne senza l'uso di CERCA.VERT."
       },
       {
         "id": "D",
         "text": "Un meccanismo di sicurezza avanzata che crittografa le celle contenenti dati personali."
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "C",
     "explanation": "Il Modello di dati (introdotto con Power Pivot) consente di creare relazioni logiche (es. uno-a-molti) tra tabelle distanti o importate da fonti diverse. Questo permette di combinare dati e analizzarli in tabelle pivot unificate senza appesantire il file con innumerevoli formule CERCA.VERT.",
     "hint": "Consente di strutturare relazioni di database direttamente all'interno della cartella di lavoro Excel.",
     "level": "avanzato"
@@ -1123,22 +1123,22 @@
     "options": [
       {
         "id": "A",
-        "text": "L'utilizzo dei Codici di Campo (Field Codes) inserendo una struttura condizionale del tipo { IF { PAGE } = { NUMPAGES } \"Fine\" \"\" }."
-      },
-      {
-        "id": "B",
         "text": "La digitazione manuale delle parole all'interno dell'intestazione di pagina."
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "L'uso obbligatorio di una macro VBA ad attivazione periodica sulla formattazione del testo."
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "Word non supporta in nessun modo logiche condizionali interne senza plugin proprietari di terze parti."
+      },
+      {
+        "id": "D",
+        "text": "L'utilizzo dei Codici di Campo (Field Codes) inserendo una struttura condizionale del tipo { IF { PAGE } = { NUMPAGES } \"Fine\" \"\" }."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "D",
     "explanation": "I Codici di Campo in Word (inseribili con scorciatoie come Ctrl + F9) consentono di introdurre istruzioni dinamiche e controlli logici condizionali (come il campo IF). Questo permette al programma di verificare variabili interne (es. numero di pagina corrente vs numero totale) e variare il testo visualizzato.",
     "hint": "Si basa sulle parentesi graffe dei campi speciali che non devono essere digitate da tastiera ma inserite con scorciatoie dedicate.",
     "level": "avanzato"
@@ -1149,11 +1149,11 @@
     "options": [
       {
         "id": "A",
-        "text": "SE.ERRORE (IFERROR)"
+        "text": "SE.NON.DISP (IFNA)"
       },
       {
         "id": "B",
-        "text": "SE.NON.DISP (IFNA)"
+        "text": "SE.ERRORE (IFERROR)"
       },
       {
         "id": "C",
@@ -1164,7 +1164,7 @@
         "text": "SE.ERR (ISERR)"
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "A",
     "explanation": "La funzione SE.NON.DISP (IFNA in inglese) intercetta e gestisce unicamente l'errore #N/D (tipico del CERCA.VERT quando la chiave non viene trovata). In caso di altri errori strutturali nel foglio (es. formule errate o intervalli cancellati che causano #RIF!), la funzione non li maschera, permettendo al programmatore di accorgersene.",
     "hint": "Cerca la funzione specifica per il valore non disponibile (Not Available).",
     "level": "avanzato"
@@ -1179,18 +1179,18 @@
       },
       {
         "id": "B",
-        "text": "La Ricerca obiettivo elabora solo matrici dinamiche; il Risolutore opera su formule statiche."
+        "text": "La Ricerca obiettivo lavora su una sola cella variabile per raggiungere un valore esatto; il Risolutore gestisce più celle variabili, vincoli matematici complessi e ricerca valori massimi o minimi."
       },
       {
         "id": "C",
-        "text": "La Ricerca obiettivo lavora su una sola cella variabile per raggiungere un valore esatto; il Risolutore gestisce più celle variabili, vincoli matematici complessi e ricerca valori massimi o minimi."
+        "text": "La Ricerca obiettivo elabora solo matrici dinamiche; il Risolutore opera su formule statiche."
       },
       {
         "id": "D",
         "text": "Il Risolutore è una formula nativa di cella; la Ricerca obiettivo richiede l'attivazione di macro VBA."
       }
     ],
-    "correctAnswerId": "C",
+    "correctAnswerId": "B",
     "explanation": "La Ricerca obiettivo risolve equazioni semplici variando un solo parametro per giungere ad un valore prefissato. Il Risolutore è uno strumento di ottimizzazione matematica complesso (analisi di programmazione lineare o non lineare) che consente di massimizzare o minimizzare un risultato variando più celle nel rispetto di specifici vincoli (es. budget massimo, disponibilità limitate).",
     "hint": "Uno risolve equazioni a una incognita, l'altro effettua l'ottimizzazione multivariabile con vincoli di diseguaglianza.",
     "level": "avanzato"
@@ -1201,22 +1201,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Una Sub esegue direttamente azioni sul foglio di calcolo, mentre una Function calcola e restituisce un valore e può essere utilizzata come formula personalizzata all'interno delle celle."
-      },
-      {
-        "id": "B",
         "text": "Le Sub si applicano solo in Microsoft Word; le Function si applicano solo in Excel."
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Le Function non accettano parametri in ingresso; le Sub richiedono obbligatoriamente almeno due argomenti."
+      },
+      {
+        "id": "C",
+        "text": "Una Sub esegue direttamente azioni sul foglio di calcolo, mentre una Function calcola e restituisce un valore e può essere utilizzata come formula personalizzata all'interno delle celle."
       },
       {
         "id": "D",
         "text": "Una Sub cancella la cache della memoria al termine dell'esecuzione; una Function mantiene memorizzati i dati delle variabili."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "C",
     "explanation": "Le procedure 'Sub' eseguono una serie di azioni (es. copiare fogli, salvare file) ma non restituiscono valori associati al loro nome. Le procedure 'Function' calcolano e restituiscono un valore di ritorno e, in Excel, possono essere registrate come funzioni definite dall'utente (UDF) per essere usate direttamente nelle formule delle celle (es. =MIAFUNZIONE(A1)).",
     "hint": "Pensa a quale dei due costrutti può essere richiamato direttamente digitandone il nome in una formula di cella di Excel.",
     "level": "avanzato"
@@ -1231,18 +1231,18 @@
       },
       {
         "id": "B",
-        "text": "Entrambi sono standard ISO/IEC, ma ODF nasce da una coalizione indipendente per massimizzare l'interoperabilità, mentre OOXML è stato proposto da Microsoft per standardizzare i propri formati XML nativi garantendo la compatibilità storica."
-      },
-      {
-        "id": "C",
         "text": "OOXML è strutturato come archivio tar.gz; ODF è salvato in formato XML singolo non compresso."
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "I file ODF non sono compatibili con Microsoft Office, mentre i file OOXML si aprono solo su suite libere."
+      },
+      {
+        "id": "D",
+        "text": "Entrambi sono standard ISO/IEC, ma ODF nasce da una coalizione indipendente per massimizzare l'interoperabilità, mentre OOXML è stato proposto da Microsoft per standardizzare i propri formati XML nativi garantendo la compatibilità storica."
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "D",
     "explanation": "Entrambi sono standard ISO (ISO/IEC 26300 per ODF, ISO/IEC 29500 per OOXML). ODF nasce dalla comunità open-source e da OASIS per promuovere la massima interoperabilità libera da brevetti. OOXML è stato introdotto da Microsoft per mappare la ricchezza di funzionalità storiche di Office in formato XML compresso.",
     "hint": "Entrambi sono standard ISO, ma hanno origini e finalità di compatibilità storica diverse.",
     "level": "avanzato"
@@ -1298,5 +1298,1305 @@
     "explanation": "L'Information Rights Management (IRM) consente di applicare controlli granulari (permessi persistenti) sul contenuto del documento (es. vietare la copia del testo o l'inoltro e-mail). Questa protezione viaggia all'interno del file stesso basandosi sull'identità dell'utente autenticato (tramite Active Directory o account aziendale), differentemente dalla firma digitale che attesta solo l'integrità e l'autore.",
     "hint": "Cerca la tecnologia che si occupa di gestire e limitare i diritti sul contenuto informativo.",
     "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_OFF_051",
+    "question": "In Microsoft Excel, quale funzione di ricerca avanzata ha superato i limiti storici di CERCA.VERT (VLOOKUP), consentendo ricerche sia verso destra che verso sinistra e non richiedendo che la colonna di ricerca sia la prima della tabella?",
+    "options": [
+      {
+        "id": "A",
+        "text": "SOMMA.SE (SUMIF)"
+      },
+      {
+        "id": "B",
+        "text": "CONCATENA (CONCATENATE)"
+      },
+      {
+        "id": "C",
+        "text": "CERCA.X (XLOOKUP)"
+      },
+      {
+        "id": "D",
+        "text": "CONTA.VUOTE (COUNTBLANK)"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "CERCA.X (introdotta da Microsoft) cerca in un array e restituisce valori corrispondenti da un altro array in qualsiasi direzione, include la gestione nativa degli errori 'se_non_trovato' e cerca per default corrispondenze esatte.",
+    "hint": "La funzione moderna e flessibile di Excel che sostituisce CERCA.VERT è CERCA.X.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_OFF_052",
+    "question": "In Excel, quale combinazione di funzioni storiche viene utilizzata per effettuare ricerche bidirezionali e dinamiche senza i vincoli di CERCA.VERT?",
+    "options": [
+      {
+        "id": "A",
+        "text": "MEDIA e VARIANZA"
+      },
+      {
+        "id": "B",
+        "text": "SINISTRA e DESTRA"
+      },
+      {
+        "id": "C",
+        "text": "MAIUSC e MINUSC"
+      },
+      {
+        "id": "D",
+        "text": "INDICE e CONFRONTA (INDEX e MATCH)"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "La coppia `INDICE(matrice, CONFRONTA(valore, vettore_ricerca, 0))` restituisce il valore alla riga individuata da CONFRONTA, consentendo ricerche a sinistra e non risentendo dell'inserimento di nuove colonne nella tabella.",
+    "hint": "Coppia celebre per ricerche complesse in Excel: INDICE + CONFRONTA.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_OFF_053",
+    "question": "Cosa fa una 'Tabella Pivot' in Microsoft Excel?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Consente di riassumere, aggregare, analizzare ed esplorare dinamicamente grandi quantità di dati grezzi, organizzandoli per righe, colonne, filtri e valori (somme, conteggi, medie)"
+      },
+      {
+        "id": "B",
+        "text": "Formatta le celle con colori casuali per migliorarne l'estetica"
+      },
+      {
+        "id": "C",
+        "text": "Elimina automaticamente tutte le righe con numeri dispari"
+      },
+      {
+        "id": "D",
+        "text": "Converte il foglio di calcolo in una presentazione PowerPoint"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Le Tabelle Pivot sono lo strumento primario di Business Intelligence in Excel: raggruppano istantaneamente migliaia di record per categorie (es. per sede INPS, per anno o per tipologia prestazione) senza dover scrivere formule complesse.",
+    "hint": "Strumento interattivo di riepilogo e aggregazione multidimensionale dei dati.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_OFF_054",
+    "question": "In Excel, cosa indica il simbolo del dollaro '$' anteposto a una riga o colonna in un riferimento di cella (es. $A$1)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Formatta il contenuto della cella in valuta Dollaro Statunitense"
+      },
+      {
+        "id": "B",
+        "text": "Rende il riferimento 'assoluto', bloccando la colonna o la riga in modo che non cambi quando la formula viene trascinata o copiata in altre celle"
+      },
+      {
+        "id": "C",
+        "text": "Indica che la cella contiene un errore di divisione per zero"
+      },
+      {
+        "id": "D",
+        "text": "Protegge la cella con una password a 8 caratteri"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "I riferimenti relativi (es. `A1`) si aggiornano traslando la formula; anteponendo il `$` si creano riferimenti assoluti (`$A$1`) o misti (`$A1`, `A$1`) che mantengono fisse colonna e/o riga durante il trascinamento.",
+    "hint": "Il dollaro '$' blocca colonna e/o riga rendendo il riferimento assoluto.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_OFF_055",
+    "question": "Quale formato standard internazionale aperto è progettato specificamente per l'archiviazione e conservazione digitale a lungo termine di documenti elettronici (preservandone resa visiva e metadati)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "DOCX"
+      },
+      {
+        "id": "B",
+        "text": "RTF"
+      },
+      {
+        "id": "C",
+        "text": "PDF/A (ISO 19005)"
+      },
+      {
+        "id": "D",
+        "text": "BMP"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "PDF/A (PDF for Archiving) è il formato aperto obbligatorio per la conservazione a norma nella PA: vieta elementi che compromettono la leggibilità futura (font non incorporati, codice JavaScript eseguibile, audio/video esterni).",
+    "hint": "Standard ISO per la conservazione a lungo termine dei documenti digitali della PA: PDF/A.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_OFF_056",
+    "question": "In Microsoft Word, qual è il vantaggio principale dell'utilizzo rigoroso degli 'Stili di testo' (Titolo 1, Titolo 2, Normale)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Impedire che il file venga aperto su computer diversi"
+      },
+      {
+        "id": "B",
+        "text": "Ridurre la dimensione del file Word del 90%"
+      },
+      {
+        "id": "C",
+        "text": "Inviare automaticamente il documento alla stampante"
+      },
+      {
+        "id": "D",
+        "text": "Garantire coerenza grafica all'intero documento, consentire la generazione automatica del sommario/indice e favorire l'accessibilità per i lettori di schermo (screen reader)"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Gli Stili strutturano semanticamente il documento: permettono di aggiornare l'aspetto tipografico globale con un solo clic, generano l'indice ipertestuale automatico e soddisfano i requisiti di accessibilità (L. 4/2004).",
+    "hint": "Strutturazione semantica, aggiornamento rapido e sommario automatico.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_OFF_057",
+    "question": "In Microsoft Word, a cosa serve la funzionalità di 'Stampa Unione' (Mail Merge)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A generare in serie documenti personalizzati (lettere, comunicazioni, etichette) unendo un testo modello a una sorgente dati strutturata (es. tabella Excel o database di indirizzi)"
+      },
+      {
+        "id": "B",
+        "text": "A stampare due fogli contemporaneamente su due stampanti diverse"
+      },
+      {
+        "id": "C",
+        "text": "A unire fisicamente due fogli di carta con la spillatrice"
+      },
+      {
+        "id": "D",
+        "text": "A convertire un documento cartaceo in un file audio MP3"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La Stampa Unione fonde un documento principale (con campi unione come `<<Nome>>`, `<<Indirizzo>>`) con un elenco dati, producendo comunicazioni personalizzate per migliaia di utenti.",
+    "hint": "Unione di un documento modello con un database/foglio Excel per invii massivi personalizzati.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_OFF_058",
+    "question": "In Excel, qual è il risultato della formula: =SE(E(10>5; 3<2); \"OK\"; \"KO\")?",
+    "options": [
+      {
+        "id": "A",
+        "text": "\"OK\""
+      },
+      {
+        "id": "B",
+        "text": "\"KO\""
+      },
+      {
+        "id": "C",
+        "text": "#VALORE!"
+      },
+      {
+        "id": "D",
+        "text": "VERO"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La funzione `E(condizione1; condizione2)` restituisce VERO solo se tutte le condizioni sono verificate. Qui 10>5 è VERO, ma 3<2 è FALSO. `E(...)` vale FALSO; quindi la funzione `SE(...)` restituisce il ramo falso: \"KO\".",
+    "hint": "La funzione logica E richiede che TUTTE le condizioni siano vere; poiché 3<2 è falsa, restituisce KO.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_OFF_059",
+    "question": "In Microsoft PowerPoint, qual è la funzione dello 'Schema diapositiva' (Slide Master)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'indice alfabetico stampato sull'ultima pagina della dispensa"
+      },
+      {
+        "id": "B",
+        "text": "Il telecomando Bluetooth per avanzare tra le slide"
+      },
+      {
+        "id": "C",
+        "text": "La diapositiva principale di controllo che memorizza le informazioni di formattazione globale (sfondo, caratteri, colori, segnaposto e logo) applicate uniformemente a tutte le diapositive della presentazione"
+      },
+      {
+        "id": "D",
+        "text": "Un cronometro per misurare il tempo di esposizione del relatore"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Modificando lo Schema Diapositiva (Slide Master) si modificano layout, loghi istituzionali e font in tutte le slide della presentazione simultaneamente, preservando identità visiva e standard aziendali.",
+    "hint": "Modello globale master che definisce layout, colori e loghi per l'intera presentazione.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_OFF_060",
+    "question": "Cosa rappresenta l'errore '#N/D' (#N/A) in Microsoft Excel?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La colonna è troppo stretta per visualizzare il numero"
+      },
+      {
+        "id": "B",
+        "text": "Una divisione matematica per zero"
+      },
+      {
+        "id": "C",
+        "text": "Il testo inserito contiene caratteri cinesi non riconosciuti"
+      },
+      {
+        "id": "D",
+        "text": "Valore non disponibile (Not Available), tipicamente generato quando una funzione di ricerca (come CERCA.VERT o CONFRONTA) non trova il valore cercato nella matrice specificata"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "`#N/D` indica che la formula non trova una corrispondenza valida. Può essere gestito elegantemente con la funzione `=SE.NON.DISP(formula; valore_alternativo)` o `=SE.ERRORE(...)`.",
+    "hint": "Valore non disponibile: la ricerca non ha trovato alcun elemento corrispondente.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_OFF_061",
+    "question": "In Microsoft Excel, quale strumento consente di impostare regole di controllo sui dati digitati dagli utenti in una cella (es. accettare solo numeri compresi tra 1 e 100 o scegliere da un menu a tendina)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Convalida dati (Data Validation)"
+      },
+      {
+        "id": "B",
+        "text": "Formattazione condizionale"
+      },
+      {
+        "id": "C",
+        "text": "Raggruppa e struttura"
+      },
+      {
+        "id": "D",
+        "text": "Trova e sostituisci"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Lo strumento Convalida Dati consente di limitare l'input degli operatori (elenchi a discesa, range numerici, date valide), mostrando messaggi di avviso o blocco per evitare errori di data entry.",
+    "hint": "Convalida dati permette di creare elenchi a tendina e verificare la correttezza dell'input.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_OFF_062",
+    "question": "Cosa fa la 'Formattazione condizionale' in Excel?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cancella le celle vuote all'uscita dal programma"
+      },
+      {
+        "id": "B",
+        "text": "Modifica automaticamente l'aspetto visivo delle celle (colore di sfondo, testo, barre dei dati o icone) in base al soddisfacimento di criteri o regole logiche sui valori contenuti"
+      },
+      {
+        "id": "C",
+        "text": "Formatta il computer se il file viene copiato su una chiavetta USB"
+      },
+      {
+        "id": "D",
+        "text": "Calcola il codice fiscale del proprietario del computer"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La Formattazione Condizionale colora istantaneamente celle in base a regole (es. evidenzia in rosso i valori negativi, in verde quelli sopra la media o applica scale cromatiche termiche).",
+    "hint": "Evidenziazione visiva e automatica delle celle che rispettano determinate condizioni.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_OFF_063",
+    "question": "Cosa sono le 'Macro' in Microsoft Office (Word, Excel) e quale linguaggio di scripting utilizzano nativamente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Immagini di grandi dimensioni inserite come sfondo delle pagine"
+      },
+      {
+        "id": "B",
+        "text": "Caratteri tipografici con corpo superiore a 48 punti"
+      },
+      {
+        "id": "C",
+        "text": "Sequenze di comandi e istruzioni registrate o programmate in Visual Basic for Applications (VBA) per automatizzare attività e calcoli ripetitivi"
+      },
+      {
+        "id": "D",
+        "text": "File audio preregistrati da ascoltare durante la lettura"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Le macro consentono l'automazione di flussi di lavoro complessi tramite VBA (Visual Basic for Applications); i file Excel contenenti macro hanno estensione `.xlsm`.",
+    "hint": "Automazione basata sul linguaggio Visual Basic for Applications (VBA).",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_OFF_064",
+    "question": "In Microsoft Word, a cosa serve la funzione 'Revisioni' (Track Changes)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A verificare l'autenticità della licenza software con la casa produttrice"
+      },
+      {
+        "id": "B",
+        "text": "A riparare gli errori di stampa della cartuccia d'inchiostro"
+      },
+      {
+        "id": "C",
+        "text": "A cancellare tutte le parole che contengono errori ortografici"
+      },
+      {
+        "id": "D",
+        "text": "A tenere traccia di tutte le modifiche, inserimenti, cancellazioni e commenti apportati al documento dai diversi collaboratori, consentendo all'autore di accettarle o rifiutarle singolarmente"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "La modalità 'Revisioni' evidenzia visivamente le modifiche con colori distinti per ogni revisore (barrato per le eliminazioni, sottolineato per le aggiunte), facilitando il lavoro collaborativo sui testi normativi e relazioni.",
+    "hint": "Tiene traccia delle modifiche collaborative permettendo di accettarle o rifiutarle.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_OFF_065",
+    "question": "Quale formato di file aperto e basato su XML è lo standard nativo utilizzato per i documenti di testo in LibreOffice / OpenOffice Writer?",
+    "options": [
+      {
+        "id": "A",
+        "text": ".ODT (OpenDocument Text)"
+      },
+      {
+        "id": "B",
+        "text": ".EXE"
+      },
+      {
+        "id": "C",
+        "text": ".DLL"
+      },
+      {
+        "id": "D",
+        "text": ".MP4"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Lo standard ODF (Open Document Format for Office Applications - ISO/IEC 26300) definisce le estensioni `.odt` per il testo, `.ods` per i fogli di calcolo e `.odp` per le presentazioni, ed è supportato nativamente anche da MS Office.",
+    "hint": "OpenDocument Text ha estensione .odt.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_OFF_066",
+    "question": "In Microsoft Excel, quale formula calcola la somma dei valori nell'intervallo C1:C50 SOLO per le righe in cui il corrispondente valore nella colonna A è uguale a 'INPS'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "=SOMMA(A1:A50; C1:C50)"
+      },
+      {
+        "id": "B",
+        "text": "=SOMMA.SE(A1:A50; \"INPS\"; C1:C50)"
+      },
+      {
+        "id": "C",
+        "text": "=CONTA.SE(C1:C50; \"INPS\")"
+      },
+      {
+        "id": "D",
+        "text": "=MEDIA.SE(A1:C50; \"INPS\")"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "`SOMMA.SE(intervallo_criterio; criterio; [intervallo_somma])` valuta la colonna A e, quando trova 'INPS', somma il valore corrispondente della colonna C.",
+    "hint": "Sintassi: =SOMMA.SE(intervallo; criterio; [intervallo_somma]).",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_OFF_067",
+    "question": "Cosa rappresenta l'errore '#RIF!' (#REF!) in Microsoft Excel?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La formula contiene un errore di ortografia nel nome della funzione"
+      },
+      {
+        "id": "B",
+        "text": "Il risultato della formula supera un miliardo di euro"
+      },
+      {
+        "id": "C",
+        "text": "Riferimento di cella non valido, che si verifica tipicamente quando le celle o l'intera riga/colonna richiamate nella formula sono state eliminate fisicamente"
+      },
+      {
+        "id": "D",
+        "text": "Il foglio di lavoro è protetto da un certificato digitale scaduto"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "`#RIF!` si genera quando una formula fa riferimento a una cella che è stata cancellata (o sovrascritta con un'operazione di incolla), rendendo impossibile il calcolo per mancanza del riferimento.",
+    "hint": "Riferimento non valido generato dall'eliminazione di righe o colonne coinvolte nella formula.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_OFF_068",
+    "question": "In Microsoft Word, qual è la funzione dell'interruzione di 'Sezione' rispetto a una semplice interruzione di 'Pagina'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'interruzione di sezione divide il documento in due file separati salvati sul desktop"
+      },
+      {
+        "id": "B",
+        "text": "L'interruzione di sezione elimina automaticamente le immagini dalla pagina"
+      },
+      {
+        "id": "C",
+        "text": "Non vi è alcuna differenza, producono esattamente lo stesso effetto"
+      },
+      {
+        "id": "D",
+        "text": "L'interruzione di sezione consente di isolare parti del documento per applicare impostazioni di pagina indipendenti (es. orientamento orizzontale/verticale diverso, margini differenti, intestazioni e piè di pagina diversi o numerazione specifica)"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Una semplice interruzione di pagina sposta il testo alla pagina successiva mantenendo il layout globale; l'interruzione di sezione crea un blocco indipendente che può avere orientamento, margini e intestazioni completamente personalizzate.",
+    "hint": "La sezione permette di cambiare orientamento (es. orizzontale per tabelle larghe) o intestazioni.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_OFF_069",
+    "question": "In Excel, cosa fa la combinazione di tasti 'F4' quando si sta editando una formula all'interno della barra della formula?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cicla ciclicamente il tipo di riferimento della cella selezionata tra relativo (A1), assoluto ($A$1), misto con riga fissa (A$1) e misto con colonna fissa ($A1)"
+      },
+      {
+        "id": "B",
+        "text": "Cancella l'intero foglio di calcolo"
+      },
+      {
+        "id": "C",
+        "text": "Formatta il testo in grassetto e sottolineato"
+      },
+      {
+        "id": "D",
+        "text": "Chiude immediatamente il programma senza salvare"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Premendo F4 sul riferimento di cella vengono aggiunti/rimossi i caratteri `$`, passando rapidamente da relativo ad assoluto o misto.",
+    "hint": "Scorciatoia magica per aggiungere o togliere il '$' nei riferimenti di cella.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_OFF_070",
+    "question": "In Microsoft Outlook, qual è la differenza tra i campi 'CC' (Copia Carbone) e 'CCN' (Copia Carbone Nascosta / BCC)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "I messaggi inviati in CCN hanno una tariffa postale aggiuntiva"
+      },
+      {
+        "id": "B",
+        "text": "I destinatari in CC sono visibili a tutti i partecipanti al messaggio; gli indirizzi inseriti in CCN sono totalmente nascosti e invisibili agli altri destinatari, a tutela della privacy"
+      },
+      {
+        "id": "C",
+        "text": "I messaggi in CC possono essere letti solo su smartphone"
+      },
+      {
+        "id": "D",
+        "text": "Il campo CCN può contenere al massimo un singolo indirizzo email"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'uso del CCN (BCC) è obbligatorio quando si inviano comunicazioni massive a terzi per non violare il GDPR, evitando che gli indirizzi personali siano visibili agli altri riceventi.",
+    "hint": "CCN nasconde gli indirizzi agli altri destinatari per tutelare la privacy.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_OFF_071",
+    "question": "In Excel, quale funzione restituisce la data odierna del computer senza specificare l'orario, aggiornandosi dinamicamente ad ogni ricalcolo?",
+    "options": [
+      {
+        "id": "A",
+        "text": "=ADESSO()"
+      },
+      {
+        "id": "B",
+        "text": "=DATA()"
+      },
+      {
+        "id": "C",
+        "text": "=OGGI()"
+      },
+      {
+        "id": "D",
+        "text": "=ANNO()"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "`=OGGI()` restituisce solo la data corrente (es. 16/09/2026); `=ADESSO()` restituisce sia la data sia l'ora corrente.",
+    "hint": "OGGI() per la sola data corrente; ADESSO() include anche l'ora.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_OFF_072",
+    "question": "Cosa si intende per 'Riferimento circolare' in Microsoft Excel?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un grafico a torta perfettamente rotondo"
+      },
+      {
+        "id": "B",
+        "text": "Una circolare amministrativa inviata a tutte le sedi regionali"
+      },
+      {
+        "id": "C",
+        "text": "Una tabella che contiene più di cento colonne"
+      },
+      {
+        "id": "D",
+        "text": "Una situazione anomala in cui una formula fa riferimento direttamente o indirettamente alla cella in cui risiede la formula stessa, generando un calcolo infinito non risolvibile"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Se nella cella A1 scriviamo `=A1 + 10`, Excel avvisa della presenza di un riferimento circolare perché la cella dipende dal proprio stesso risultato.",
+    "hint": "Una formula che include nel proprio calcolo la cella in cui è scritta.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_OFF_073",
+    "question": "In Microsoft PowerPoint, qual è la funzione delle 'Note del relatore' (Presenter Notes)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Testi e appunti di supporto visibili solo al relatore sul proprio schermo durante la presentazione in modalità relatore, ma nascosti al pubblico che visualizza la proiezione"
+      },
+      {
+        "id": "B",
+        "text": "Note musicali suonate al cambio di ogni slide"
+      },
+      {
+        "id": "C",
+        "text": "I voti assegnati dalla commissione esaminatrice al candidato"
+      },
+      {
+        "id": "D",
+        "text": "Un sommario obbligatorio da stampare su pergamena"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La vista relatore sfrutta il doppio monitor: il pubblico vede la slide pulita sul proiettore, mentre il relatore legge appunti, slide successiva e cronometro sullo schermo del portatile.",
+    "hint": "Appunti visibili solo sullo schermo del presentatore durante la proiezione.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_OFF_074",
+    "question": "Quale funzione di Excel conta quante celle all'interno di un intervallo contengono numeri (ignorando celle vuote e celle con testo)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "=CONTA.VALORI()"
+      },
+      {
+        "id": "B",
+        "text": "=CONTA.NUMERI()"
+      },
+      {
+        "id": "C",
+        "text": "=CONTA.SE()"
+      },
+      {
+        "id": "D",
+        "text": "=SOMMA()"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "`CONTA.NUMERI()` (COUNT) conta solo le celle che contengono valori numerici o date; `CONTA.VALORI()` (COUNTA) conta tutte le celle non vuote (inclusi testi ed errori).",
+    "hint": "CONTA.NUMERI conta solo i numeri; CONTA.VALORI conta tutte le celle piene.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_OFF_075",
+    "question": "In Microsoft Word, come si inserisce una nota che viene visualizzata in calce alla pagina corrente rispetto a una 'Nota di chiusura'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Disegnando una casella di testo a mano con il mouse"
+      },
+      {
+        "id": "B",
+        "text": "Cambiando il colore del testo in giallo"
+      },
+      {
+        "id": "C",
+        "text": "Inserendo una 'Nota a piè di pagina' (Footnote), che appare in fondo alla medesima pagina, mentre la nota di chiusura (Endnote) viene posizionata alla fine dell'intero documento o della sezione"
+      },
+      {
+        "id": "D",
+        "text": "Premendo dieci volte il tasto Invio"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Le note a piè di pagina (Footnotes) si collocano alla base della pagina in cui si trova il rimando; le note di chiusura (Endnotes) si accumulano alla fine del documento.",
+    "hint": "Nota a piè di pagina = fondo pagina corrente; Nota di chiusura = fine documento.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_OFF_076",
+    "question": "Cosa si intende per 'CSV' (Comma-Separated Values)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un algoritmo di compressione video ad alta definizione"
+      },
+      {
+        "id": "B",
+        "text": "Un protocollo di autenticazione biometrica per smartphone"
+      },
+      {
+        "id": "C",
+        "text": "Il codice di sicurezza a tre cifre stampato sul retro delle carte di credito"
+      },
+      {
+        "id": "D",
+        "text": "Un formato di file di testo semplice aperto utilizzato per lo scambio di dati tabulari, in cui ogni riga rappresenta un record e i campi sono separati da un carattere delimitatore (solitamente virgola o punto e virgola)"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "CSV è il formato di interscambio universale tra banche dati e fogli di calcolo: è leggibile con qualsiasi editor di testo e facilmente importabile/esportabile in Excel e database relazionali.",
+    "hint": "File di testo delimitato da virgole o punti e virgola per lo scambio di dati tabulari.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_OFF_077",
+    "question": "In Excel, cosa fa lo strumento 'Blocca riquadri' (Freeze Panes)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mantiene visibili le righe di intestazione o le prime colonne durante lo scorrimento (scrolling) verticale o orizzontale del foglio di lavoro"
+      },
+      {
+        "id": "B",
+        "text": "Protegge il computer dal surriscaldamento estivo"
+      },
+      {
+        "id": "C",
+        "text": "Impedisce la stampa del file su carta chimica"
+      },
+      {
+        "id": "D",
+        "text": "Crittografa le celle con password a 128 bit"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Blocca Riquadri consente di scorrere tabelle enormi senza perdere di vista le etichette delle intestazioni di colonna o la prima colonna con i nominativi.",
+    "hint": "Blocca righe e colonne di intestazione durante lo scorrimento del foglio.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_OFF_078",
+    "question": "In Microsoft Access, cosa rappresenta la 'Chiave Primaria' (Primary Key) di una tabella?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La password per sbloccare il computer dell'ufficio"
+      },
+      {
+        "id": "B",
+        "text": "Un campo o combinazione di campi che identifica in modo univoco e non duplicabile ciascun record all'interno della tabella (non può contenere valori nulli)"
+      },
+      {
+        "id": "C",
+        "text": "Il primo campo di testo creato durante l'installazione del software"
+      },
+      {
+        "id": "D",
+        "text": "Un cavo metallico per fissare il case alla scrivania"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La Primary Key garantisce l'integrità dell'entità nel modello relazionale: identifica univocamente la riga (es. Codice Fiscale, Matricola dipendente) ed è indicizzata univocamente.",
+    "hint": "Identificatore univoco e non nullo di ciascun record della tabella.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_OFF_079",
+    "question": "In Excel, quale funzione estrae un numero specificato di caratteri da una stringa di testo a partire da una posizione iniziale prefissata?",
+    "options": [
+      {
+        "id": "A",
+        "text": "=LUNGHEZZA() (LEN)"
+      },
+      {
+        "id": "B",
+        "text": "=ANNULLA.SPAZI() (TRIM)"
+      },
+      {
+        "id": "C",
+        "text": "=STRINGA.ESTRAI() (MID)"
+      },
+      {
+        "id": "D",
+        "text": "=SOSTITUISCI() (SUBSTITUTE)"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "`=STRINGA.ESTRAI(testo; inizio; num_caratteri)` estrae una sottostringa partendo dalla posizione indicata (es. per estrarre l'anno o mese dal codice fiscale).",
+    "hint": "STRINGA.ESTRAI estrae caratteri dal centro del testo specificando la posizione di partenza.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_OFF_080",
+    "question": "Cosa accade quando si applica la funzione 'Rimuovi duplicati' in una tabella di Microsoft Excel?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Le righe duplicate vengono evidenziate con testo lampeggiante"
+      },
+      {
+        "id": "B",
+        "text": "I dati duplicati vengono spostati in un nuovo file sul Desktop"
+      },
+      {
+        "id": "C",
+        "text": "Le celle duplicate vengono sostituite con il numero zero"
+      },
+      {
+        "id": "D",
+        "text": "Excel elimina definitivamente le righe identiche in base alle colonne selezionate, mantenendo solo la prima istanza del record trovato"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Lo strumento Rimuovi Duplicati esamina le colonne spuntate e cancella fisicamente le righe duplicate ridondanti, lasciando unicamente i record distinti univoci.",
+    "hint": "Cancella le righe duplicate lasciando una sola istanza del record.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_OFF_081",
+    "question": "In Microsoft Word, quale scorciatoia da tastiera standard permette di selezionare istantaneamente tutto il contenuto del documento?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ctrl + 5 (del tastierino) oppure Ctrl + A (nella versione inglese) / Ctrl + T (nella versione italiana)"
+      },
+      {
+        "id": "B",
+        "text": "Alt + F4"
+      },
+      {
+        "id": "C",
+        "text": "Ctrl + Z"
+      },
+      {
+        "id": "D",
+        "text": "Shift + Esc"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "In Word in italiano la scorciatoia classica è `Ctrl + 5` (sul tastierino numerico disattivato) o `Ctrl + T` (seleziona tutto), corrispondente a `Ctrl + A` (Select All) nelle versioni internazionali.",
+    "hint": "Seleziona tutto il testo del documento.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_OFF_082",
+    "question": "Cosa fa la funzione '=TESTO()' in Microsoft Excel?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Legge ad alta voce il testo tramite sintetizzatore vocale"
+      },
+      {
+        "id": "B",
+        "text": "Converte un valore numerico in una stringa di testo applicando una formattazione specifica (es. date, percentuali, valuta) definita tramite un codice di formato"
+      },
+      {
+        "id": "C",
+        "text": "Conta le parole presenti all'interno del foglio"
+      },
+      {
+        "id": "D",
+        "text": "Invia un messaggio SMS al numero memorizzato nella cella"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "`=TESTO(A1; \"gg/mm/aaaa\")` o `=TESTO(B1; \"€ #.##0,00\")` trasforma il numero in testo con il formato desiderato, utile per concatenare numeri e date all'interno di frasi.",
+    "hint": "Formatta un numero o data e lo restituisce come stringa di testo.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_OFF_083",
+    "question": "In Microsoft Access, cosa stabilisce l'opzione 'Integrità referenziale' tra due tabelle collegate da una relazione uno-a-molti?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Raddoppia la velocità del disco fisso durante le query"
+      },
+      {
+        "id": "B",
+        "text": "Formatta automaticamente le tabelle con caratteri Arial"
+      },
+      {
+        "id": "C",
+        "text": "Impedisce l'inserimento di record nella tabella 'molti' privi di una chiave esterna corrispondente valida nella tabella 'uno', e impedisce la cancellazione di record 'padre' che hanno figli collegati (salvo eliminazione a catena)"
+      },
+      {
+        "id": "D",
+        "text": "Permette di condividere il database solo su computer Apple"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'integrità referenziale garantisce che le relazioni tra tabelle rimangano coerenti: evita record 'orfani' (es. un pagamento associato a un cittadino non presente nell'anagrafica).",
+    "hint": "Regola che impedisce la creazione di record orfani nelle relazioni tra tabelle.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_OFF_084",
+    "question": "Quale combinazione di tasti permette di incollare solo i 'Valori' calcolati in Excel senza incollare formule o formattazione?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ctrl + V semplice"
+      },
+      {
+        "id": "B",
+        "text": "Ctrl + X"
+      },
+      {
+        "id": "C",
+        "text": "Shift + Canc"
+      },
+      {
+        "id": "D",
+        "text": "Incolla speciale -> Valori (Ctrl + Alt + V, poi V)"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'opzione Incolla Speciale (Valori) converte formule dinamiche nei loro risultati statici, essenziale prima di cancellare le colonne di supporto da cui dipendeva il calcolo.",
+    "hint": "Incolla Speciale -> Valori.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_OFF_085",
+    "question": "In Microsoft Word, cosa indica il carattere speciale invisibile 'Pilcrow' (¶) visualizzabile premendo il pulsante 'Mostra tutto'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La fine di un paragrafo (generata premendo il tasto Invio)"
+      },
+      {
+        "id": "B",
+        "text": "La presenza di un virus nel documento"
+      },
+      {
+        "id": "C",
+        "text": "Un errore di ortografia non correggibile"
+      },
+      {
+        "id": "D",
+        "text": "Un'interruzione di corrente imminente"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il simbolo ¶ (piede di mosca) delimita i paragrafi in Word: memorizza le impostazioni di formattazione del paragrafo precedente (allineamento, interlinea, rientri).",
+    "hint": "Simbolo di fine paragrafo (tasto Invio).",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_OFF_086",
+    "question": "In Excel, quale funzione restituisce il numero di caratteri totali contenuti in una cella di testo (inclusi spazi e punteggiatura)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "=CONTA.LETTERE()"
+      },
+      {
+        "id": "B",
+        "text": "=LUNGHEZZA() (LEN)"
+      },
+      {
+        "id": "C",
+        "text": "=DIMENSIONE()"
+      },
+      {
+        "id": "D",
+        "text": "=CALCOLA.CARATTERI()"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "`=LUNGHEZZA(\"INPS 2026\")` restituisce 9 (4 lettere + 1 spazio + 4 cifre). È usata per verificare che codici fiscali o IBAN abbiano il numero corretto di caratteri.",
+    "hint": "Funzione LUNGHEZZA (LEN) per contare i caratteri di una cella.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_OFF_087",
+    "question": "Cosa fa lo strumento 'Filtro avanzato' in Microsoft Excel rispetto al 'Filtro automatico' classico?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Elimina le email spam dalla casella di posta"
+      },
+      {
+        "id": "B",
+        "text": "Blocca l'accesso alle celle con password crittografica"
+      },
+      {
+        "id": "C",
+        "text": "Consente di impostare criteri complessi distribuiti su più righe e colonne (con logica E su stessa riga e logica O su righe diverse) e di copiare i risultati filtrati in un'altra posizione del foglio"
+      },
+      {
+        "id": "D",
+        "text": "Formatta le celle in grassetto corsivo"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Il Filtro Avanzato legge un intervallo criteri separato: righe diverse corrispondono a condizioni OR, colonne diverse sulla stessa riga a condizioni AND, permettendo di estrarre elenchi univoci ovunque.",
+    "hint": "Permette criteri logici complessi E/O scritti su un intervallo criteri dedicato.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_OFF_088",
+    "question": "In Microsoft PowerPoint, qual è la differenza tra una 'Transizione' e un''Animazione'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'animazione riguarda solo i suoni, la transizione solo i colori"
+      },
+      {
+        "id": "B",
+        "text": "Le transizioni possono essere inserite solo nei file Excel"
+      },
+      {
+        "id": "C",
+        "text": "Non vi è alcuna differenza tra i due concetti"
+      },
+      {
+        "id": "D",
+        "text": "La transizione è l'effetto visivo che si verifica nel passaggio da una diapositiva all'altra; l'animazione è l'effetto applicato ai singoli elementi (testo, immagini, forme) all'interno della stessa diapositiva"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Transizione = cambio slide (es. dissolvenza, scorrimento tra slide). Animazione = movimento o comparsa degli oggetti interni (es. entrata testo a cascata).",
+    "hint": "Transizione tra diapositive diverse; animazione sugli oggetti interni alla slide.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_OFF_089",
+    "question": "Quale funzione di Excel rimuove automaticamente tutti gli spazi iniziali, finali e gli spazi doppi tra le parole in una stringa di testo?",
+    "options": [
+      {
+        "id": "A",
+        "text": "=ANNULLA.SPAZI() (TRIM)"
+      },
+      {
+        "id": "B",
+        "text": "=PULISCI() (CLEAN)"
+      },
+      {
+        "id": "C",
+        "text": "=ELIMINA.SPAZI()"
+      },
+      {
+        "id": "D",
+        "text": "=COMPRIMI()"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "`=ANNULLA.SPAZI(A1)` ripulisce le stringhe importate da gestionali o database, rimuovendo spazi spuri all'inizio, alla fine e riducendo gli spazi multipli interni a un singolo spazio.",
+    "hint": "ANNULLA.SPAZI (TRIM) per ripulire spazi in eccesso.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_OFF_090",
+    "question": "In Excel, cosa restituisce la formula: =CONCAT(\"Funzionario \"; \"PECS \"; 2026)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "#NOME?"
+      },
+      {
+        "id": "B",
+        "text": "\"Funzionario PECS 2026\""
+      },
+      {
+        "id": "C",
+        "text": "\"FunzionarioPECS2026\""
+      },
+      {
+        "id": "D",
+        "text": "2026"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "`CONCAT` unisce stringhe e numeri in un'unica stringa continua, preservando gli spazi interni dichiarati tra virgolette.",
+    "hint": "Unisce le stringhe nell'ordine specificato.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_OFF_091",
+    "question": "In Microsoft Word, come si imposta un'interruzione di pagina forzata tramite scorciatoia da tastiera?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Shift + Spazio"
+      },
+      {
+        "id": "B",
+        "text": "Alt + Tab"
+      },
+      {
+        "id": "C",
+        "text": "Ctrl + Invio (Enter)"
+      },
+      {
+        "id": "D",
+        "text": "Ctrl + Z"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Premere `Ctrl + Invio` inserisce immediatamente un'interruzione di pagina, spostando il cursore all'inizio della pagina successiva senza dover premere ripetutamente Invio.",
+    "hint": "Ctrl + Invio per andare a una nuova pagina istantaneamente.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_OFF_092",
+    "question": "Cosa fa lo strumento 'Trova obiettivo' (Goal Seek) in Microsoft Excel?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Individua le parole con errori grammaticali nel foglio"
+      },
+      {
+        "id": "B",
+        "text": "Imposta gli obiettivi di carriera del personale dell'ufficio"
+      },
+      {
+        "id": "C",
+        "text": "Verifica che il mouse funzioni regolarmente"
+      },
+      {
+        "id": "D",
+        "text": "Calcola all'indietro il valore di input necessario in una cella per ottenere un risultato desiderato prefissato in una cella contenente una formula (analisi di simulazione what-if a variabile singola)"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Goal Seek risolve equazioni per tentativi: dato il risultato desiderato di una formula (es. rata del prestito = 500€), trova il valore che deve assumere l'input (es. capitale finanziabile).",
+    "hint": "Analisi what-if a ritroso per trovare il valore di input che dà il risultato desiderato.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_OFF_093",
+    "question": "In Microsoft Access, cosa si intende per 'Maschera' (Form)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un'interfaccia grafica user-friendly progettata per visualizzare, inserire e modificare comodamente i dati delle tabelle e query sottostanti, senza interagire direttamente con la griglia dei dati grezzi"
+      },
+      {
+        "id": "B",
+        "text": "Un filtro per la polvere da applicare al computer"
+      },
+      {
+        "id": "C",
+        "text": "La password per accedere come amministratore"
+      },
+      {
+        "id": "D",
+        "text": "Un modulo cartaceo da compilare a penna"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Le maschere in Access fungono da interfaccia utente: contengono pulsanti, caselle combinate, controlli convalidati e sottomaschere per facilitare il data entry e migliorare l'usabilità.",
+    "hint": "Interfaccia grafica per l'inserimento e la visualizzazione amichevole dei dati.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_OFF_094",
+    "question": "In Excel, cosa permette di fare la funzionalità 'Testo in colonne' (Text to Columns)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Colorare il testo con caratteri multicolore"
+      },
+      {
+        "id": "B",
+        "text": "Suddividere il contenuto di una singola colonna di testo in più colonne separate in base a un delimitatore (es. tabulazione, punto e virgola, virgola, spazio) o a larghezza fissa"
+      },
+      {
+        "id": "C",
+        "text": "Ruotare il testo verticalmente di 90 gradi"
+      },
+      {
+        "id": "D",
+        "text": "Cancellare le prime tre colonne del foglio di calcolo"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Testo in Colonne è fondamentale per importare dati non strutturati (es. campi 'Cognome Nome' o stringhe CSV) separandoli rapidamente in colonne distinte.",
+    "hint": "Separa una singola stringa in più colonne basandosi su un delimitatore.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_OFF_095",
+    "question": "In Microsoft Excel, quale formula restituisce il valore MASSIMO presente nell'intervallo B2:B100?",
+    "options": [
+      {
+        "id": "A",
+        "text": "=SUPERIORE(B2:B100)"
+      },
+      {
+        "id": "B",
+        "text": "=GRANDE(B2:B100)"
+      },
+      {
+        "id": "C",
+        "text": "=MAX(B2:B100)"
+      },
+      {
+        "id": "D",
+        "text": "=TOP(B2:B100)"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "`=MAX(intervallo)` restituisce il valore numerico più alto; `=MIN(intervallo)` restituisce il valore più basso.",
+    "hint": "La funzione standard per il valore massimo è =MAX().",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_OFF_096",
+    "question": "In Microsoft Word, a cosa serve il 'Pannello di navigazione' (Navigation Pane)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mostrare le previsioni meteo della città di residenza"
+      },
+      {
+        "id": "B",
+        "text": "Configurare la connessione Wi-Fi aziendale"
+      },
+      {
+        "id": "C",
+        "text": "Stampare le diapositive in formato opuscolo"
+      },
+      {
+        "id": "D",
+        "text": "Visualizzare la struttura dei titoli del documento (basata sugli stili), consentendo di saltare rapidamente da un capitolo all'altro, riorganizzare intere sezioni trascinandole e cercare termini nel testo"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Il Pannello di Navigazione (apribile con `Ctrl + F`) mostra l'albero gerarchico dei Titoli: permette di scorrere agevolmente documenti di centinaia di pagine e spostare sezioni intere col drag-and-drop.",
+    "hint": "Mostra l'albero dei titoli per navigare rapidamente in documenti complessi.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_OFF_097",
+    "question": "Quale funzione di Excel conta le celle vuote presenti all'interno dell'intervallo specificato?",
+    "options": [
+      {
+        "id": "A",
+        "text": "=CONTA.VUOTE() (COUNTBLANK)"
+      },
+      {
+        "id": "B",
+        "text": "=CONTA.ZERO()"
+      },
+      {
+        "id": "C",
+        "text": "=VUOTE()"
+      },
+      {
+        "id": "D",
+        "text": "=NESSUN.DATO()"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "`=CONTA.VUOTE(A1:A50)` restituisce il numero di celle prive di qualsiasi contenuto all'interno dell'intervallo specificato.",
+    "hint": "CONTA.VUOTE conta specificamente le celle prive di dati.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_OFF_098",
+    "question": "In Microsoft Access, cosa rappresenta un 'Report' (Rapporto)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un allarme di sicurezza inviato via email al responsabile IT"
+      },
+      {
+        "id": "B",
+        "text": "Un oggetto formattato per organizzare, riassumere e presentare i dati di tabelle o query in modo ottimizzato per la stampa cartacea o l'esportazione in formato PDF"
+      },
+      {
+        "id": "C",
+        "text": "Il log delle ore di straordinario dei programmatori"
+      },
+      {
+        "id": "D",
+        "text": "Una cartella contenente file di backup non compressi"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "I Report servono per la stampa e la rendicontazione: impaginano dati raggruppati con intestazioni, totalizzatori di gruppo e piè di pagina formattati per documenti cartacei o PDF ufficiali.",
+    "hint": "Oggetto di Access ottimizzato per la formattazione e la stampa cartacea/PDF dei dati.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_OFF_099",
+    "question": "In Excel, cosa fa la funzione '=MAIUSC.INIZ()' (PROPER)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Converte l'intero testo in lettere tutte maiuscole"
+      },
+      {
+        "id": "B",
+        "text": "Converte l'intero testo in lettere tutte minuscole"
+      },
+      {
+        "id": "C",
+        "text": "Converte in maiuscolo la prima lettera di ciascuna parola presente nella stringa di testo, trasformando tutte le altre lettere in minuscolo"
+      },
+      {
+        "id": "D",
+        "text": "Cancella le lettere maiuscole dalla cella"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "`=MAIUSC.INIZ(\"mario rossi\")` restituisce `\"Mario Rossi\"`. È ideale per uniformare nominativi di persone, vie o città scritti in modo disomogeneo.",
+    "hint": "Prima lettera di ogni parola in maiuscolo (Mario Rossi).",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_OFF_100",
+    "question": "Qual è il formato standard per i modelli predefiniti riutilizzabili di Microsoft Word ed Excel?",
+    "options": [
+      {
+        "id": "A",
+        "text": ".exe e .bat"
+      },
+      {
+        "id": "B",
+        "text": ".mp3 e .wav"
+      },
+      {
+        "id": "C",
+        "text": ".sys e .ini"
+      },
+      {
+        "id": "D",
+        "text": ".dotx (per Word) e .xltx (per Excel)"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "I file modello (Template) hanno estensione con la 't' finale: `.dotx` per Word e `.xltx` per Excel. Facendo doppio clic su di essi, il software apre un nuovo documento senza intaccare il modello originale.",
+    "hint": "Modelli: .dotx per Word, .xltx per Excel (la 't' sta per template).",
+    "level": "base"
   }
 ]

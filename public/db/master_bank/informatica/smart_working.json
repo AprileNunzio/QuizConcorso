@@ -61,18 +61,18 @@
       },
       {
         "id": "B",
-        "text": "Permettere una connessione sicura e cifrata tra il dispositivo remoto del lavoratore e la rete privata aziendale."
+        "text": "Monitorare la produttività del dipendente controllando gli orari di attività al computer."
       },
       {
         "id": "C",
-        "text": "Monitorare la produttività del dipendente controllando gli orari di attività al computer."
+        "text": "Permettere una connessione sicura e cifrata tra il dispositivo remoto del lavoratore e la rete privata aziendale."
       },
       {
         "id": "D",
         "text": "Filtrare lo spam e i messaggi pubblicitari provenienti da siti di e-commerce."
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "C",
     "explanation": "La VPN crea un tunnel cifrato su una rete pubblica (Internet) per connettere in modo sicuro il computer dello smart worker alla rete aziendale interna, proteggendo la riservatezza e l'integrità dei dati scambiati.",
     "hint": "Crea un 'tunnel' virtuale sicuro attraverso Internet.",
     "level": "base"
@@ -87,18 +87,18 @@
       },
       {
         "id": "B",
-        "text": "Un meccanismo di sicurezza che richiede due o più prove di identità distinte per autorizzare l'accesso a un account."
-      },
-      {
-        "id": "C",
         "text": "Una politica aziendale per l'utilizzo di più computer contemporaneamente da parte dello stesso utente."
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "Un protocollo di autenticazione per dispositivi wireless basato su tecnologia RFID."
+      },
+      {
+        "id": "D",
+        "text": "Un meccanismo di sicurezza che richiede due o più prove di identità distinte per autorizzare l'accesso a un account."
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "D",
     "explanation": "La MFA (Autenticazione a più fattori) aumenta la sicurezza richiedendo almeno due fattori di verifica diversi, tipicamente classificati in: qualcosa che si conosce (password), qualcosa che si possiede (token/smartphone) o qualcosa che si è (biometria).",
     "hint": "Richiede passaggi aggiuntivi oltre alla classica password (es. codice OTP su cellulare).",
     "level": "base"
@@ -109,11 +109,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Assegnare nuovi compiti a ciascun membro del team da parte del Project Manager."
+        "text": "Ispezionare i progressi verso lo Sprint Goal e adattare il backlog pianificato per il giorno corrente."
       },
       {
         "id": "B",
-        "text": "Ispezionare i progressi verso lo Sprint Goal e adattare il backlog pianificato per il giorno corrente."
+        "text": "Assegnare nuovi compiti a ciascun membro del team da parte del Project Manager."
       },
       {
         "id": "C",
@@ -124,7 +124,7 @@
         "text": "Presentare il software completato al cliente finale per raccogliere i feedback di accettazione."
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "A",
     "explanation": "Il Daily Scrum è un evento giornaliero della durata massima di 15 minuti in cui il Developer Team sincronizza le attività svolte nelle ultime 24 ore, pianifica il lavoro per le successive 24 ore ed evidenzia eventuali impedimenti (blockers) rispetto allo Sprint Goal.",
     "hint": "Dura massimo 15 minuti e serve al team per allinearsi giornalmente.",
     "level": "base"
@@ -161,22 +161,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Web Real-Time Communications"
-      },
-      {
-        "id": "B",
         "text": "Web Remote Transmission Control"
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Wide Ethernet Real-Time Connection"
+      },
+      {
+        "id": "C",
+        "text": "Web Real-Time Communications"
       },
       {
         "id": "D",
         "text": "Web Routing and Technical Configuration"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "C",
     "explanation": "WebRTC sta per Web Real-Time Communications. È uno standard open-source che consente ai browser e alle applicazioni mobili di scambiare file e flussi multimediali (audio/video) in tempo reale tramite connessioni peer-to-peer.",
     "hint": "Si focalizza sulla comunicazione audio/video in tempo reale direttamente nei browser.",
     "level": "base"
@@ -191,18 +191,18 @@
       },
       {
         "id": "B",
-        "text": "Una videochiamata diretta peer-to-peer integrata in una pagina web."
-      },
-      {
-        "id": "C",
         "text": "Il backup incrementale pianificato di database relazionali in cloud."
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "L'invio di messaggi email cifrati con protocollo PGP."
+      },
+      {
+        "id": "D",
+        "text": "Una videochiamata diretta peer-to-peer integrata in una pagina web."
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "D",
     "explanation": "La caratteristica fondamentale di WebRTC è quella di abilitare videochiamate, chat vocali e condivisione di dati peer-to-peer (da browser a browser) in tempo reale, senza bisogno di installare plugin proprietari o software esterni.",
     "hint": "Pensa a Google Meet o Jitsi eseguiti nativamente all'interno di Chrome o Firefox.",
     "level": "base"
@@ -213,11 +213,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Definire il formato di compressione dei dati video trasmessi in rete."
+        "text": "Agire come 'telecomando virtuale' per controllare la riproduzione di flussi multimediali (play, pause, stop)."
       },
       {
         "id": "B",
-        "text": "Agire come 'telecomando virtuale' per controllare la riproduzione di flussi multimediali (play, pause, stop)."
+        "text": "Definire il formato di compressione dei dati video trasmessi in rete."
       },
       {
         "id": "C",
@@ -228,7 +228,7 @@
         "text": "Gestire l'assegnazione dinamica degli indirizzi IP all'interno di una rete aziendale."
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "A",
     "explanation": "RTSP è un protocollo a livello applicativo progettato per controllare la riproduzione di flussi multimediali (es. audio/video da telecamere IP). Viene spesso paragonato a un telecomando virtuale per funzioni quali avvio (PLAY), pausa (PAUSE) e arresto (TEARDOWN) dello streaming.",
     "hint": "Funziona come un telecomando per gestire il flusso, non per trasportare i dati multimediali veri e propri.",
     "level": "base"
@@ -239,11 +239,11 @@
     "options": [
       {
         "id": "A",
-        "text": "IPsec"
+        "text": "HTTPS"
       },
       {
         "id": "B",
-        "text": "HTTPS"
+        "text": "IPsec"
       },
       {
         "id": "C",
@@ -254,7 +254,7 @@
         "text": "WEP"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "B",
     "explanation": "IPsec (Internet Protocol Security) è una suite di protocolli che protegge le comunicazioni a livello di rete (Layer 3) cifrando e autenticando ogni pacchetto IP. È ampiamente utilizzata per configurare connessioni VPN site-to-site o client-to-site sicure.",
     "hint": "Lavora direttamente al livello Network (IP) dello stack OSI.",
     "level": "base"
@@ -269,18 +269,18 @@
       },
       {
         "id": "B",
-        "text": "Un attacco di ingegneria sociale in cui i dipendenti vengono ingannati a rivelare informazioni sensibili tramite e-mail contraffatte."
+        "text": "Un protocollo di routing utilizzato per collegare sedi aziendali distanti."
       },
       {
         "id": "C",
-        "text": "Un protocollo di routing utilizzato per collegare sedi aziendali distanti."
+        "text": "Un attacco di ingegneria sociale in cui i dipendenti vengono ingannati a rivelare informazioni sensibili tramite e-mail contraffatte."
       },
       {
         "id": "D",
         "text": "Un'applicazione software per la pianificazione di riunioni virtuali."
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "C",
     "explanation": "Il phishing è un attacco informatico basato sull'inganno. Il malintenzionato si spaccia per un'entità fidata (es. la banca, il reparto IT dell'azienda) per spingere l'utente a cliccare su link dannosi o inserire credenziali riservate.",
     "hint": "Deriva da 'fishing' (pescare), alludendo alle esche inviate via email.",
     "level": "base"
@@ -295,18 +295,18 @@
       },
       {
         "id": "B",
-        "text": "Il fornitore cloud gestisce hardware, sistemi operativi e middleware, fornendo agli sviluppatori un ambiente pronto per scrivere e pubblicare codice."
-      },
-      {
-        "id": "C",
         "text": "L'utente finale acquista un software già pronto, di cui non può modificare né configurare l'infrastruttura sottostante."
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "È un servizio focalizzato esclusivamente sulla vendita di licenze desktop a vita."
+      },
+      {
+        "id": "D",
+        "text": "Il fornitore cloud gestisce hardware, sistemi operativi e middleware, fornendo agli sviluppatori un ambiente pronto per scrivere e pubblicare codice."
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "D",
     "explanation": "Il modello PaaS fornisce una piattaforma di sviluppo (comprendente sistema operativo, middleware, database e server web) gestita dal provider Cloud. Gli sviluppatori caricano solo il codice dell'applicazione senza preoccuparsi di aggiornamenti di sistema, patch di sicurezza dell'OS o configurazione dell'hardware.",
     "hint": "Il focus è sullo sviluppo del codice senza gestire l'OS.",
     "level": "base"
@@ -317,11 +317,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Un diagramma di flusso ad albero che indica le relazioni gerarchiche tra i dipendenti."
+        "text": "Colonne verticali che rappresentano i diversi stati del flusso di lavoro (es. To Do, In Progress, Done) e schede per i singoli compiti."
       },
       {
         "id": "B",
-        "text": "Colonne verticali che rappresentano i diversi stati del flusso di lavoro (es. To Do, In Progress, Done) e schede per i singoli compiti."
+        "text": "Un diagramma di flusso ad albero che indica le relazioni gerarchiche tra i dipendenti."
       },
       {
         "id": "C",
@@ -332,7 +332,7 @@
         "text": "Una matrice a doppia entrata con i soli orari di entrata e uscita dello smart working."
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "A",
     "explanation": "Una lavagna (board) Kanban organizza i compiti sotto forma di schede disposte all'interno di colonne che indicano lo stato di avanzamento. Lo scopo è visualizzare il flusso di lavoro e limitare il Work In Progress (WIP).",
     "hint": "Visualizza le attività che si spostano da sinistra a destra.",
     "level": "base"
@@ -373,18 +373,18 @@
       },
       {
         "id": "B",
-        "text": "Google Drive"
+        "text": "Ubuntu Server"
       },
       {
         "id": "C",
-        "text": "Ubuntu Server"
+        "text": "Google Drive"
       },
       {
         "id": "D",
         "text": "Apache HTTP Server"
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "C",
     "explanation": "Google Drive è una soluzione SaaS (Software as a Service) accessibile via web che consente la memorizzazione, sincronizzazione e modifica collaborativa in tempo reale dei file all'interno di spazi condivisi.",
     "hint": "Un servizio di cloud storage molto diffuso per archiviare e condividere documenti online.",
     "level": "base"
@@ -399,18 +399,18 @@
       },
       {
         "id": "B",
-        "text": "Un protocollo di controllo della sessione di streaming multimediale."
-      },
-      {
-        "id": "C",
         "text": "Un protocollo per cifrare il disco rigido locale dello smart worker."
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "Un framework agile per coordinare i programmatori a distanza."
+      },
+      {
+        "id": "D",
+        "text": "Un protocollo di controllo della sessione di streaming multimediale."
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "D",
     "explanation": "RTSP è un protocollo di livello applicativo utilizzato per controllare la trasmissione del flusso multimediale. Funziona da protocollo di controllo, definendo le sessioni per avviare o interrompere lo streaming, mentre il trasporto reale dei dati multimediali è delegato a protocolli separati come RTP.",
     "hint": "Pensa a comandi di controllo sessione (es. play, pause).",
     "level": "base"
@@ -421,11 +421,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Lo Scrum Master"
+        "text": "Il Product Owner"
       },
       {
         "id": "B",
-        "text": "Il Product Owner"
+        "text": "Lo Scrum Master"
       },
       {
         "id": "C",
@@ -436,7 +436,7 @@
         "text": "Il Project Manager"
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "A",
     "explanation": "Il Product Owner è il solo responsabile della gestione del Product Backlog, che include la definizione chiara degli elementi, l'ordinamento in base al valore per il business e la garanzia che il backlog sia visibile e comprensibile al team.",
     "hint": "Rappresenta la voce del cliente e degli stakeholder.",
     "level": "base"
@@ -477,18 +477,18 @@
       },
       {
         "id": "B",
-        "text": "Consentire a un host dietro un NAT di scoprire il proprio indirizzo IP pubblico e la porta esterna assegnata."
+        "text": "Archiviare le registrazioni video delle sessioni in un database distribuito."
       },
       {
         "id": "C",
-        "text": "Archiviare le registrazioni video delle sessioni in un database distribuito."
+        "text": "Consentire a un host dietro un NAT di scoprire il proprio indirizzo IP pubblico e la porta esterna assegnata."
       },
       {
         "id": "D",
         "text": "Effettuare la transcodifica video in tempo reale per ridurre la banda consumata."
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "C",
     "explanation": "Poiché la maggior parte dei dispositivi interni si trova dietro un NAT ed ha indirizzi IP privati (non instradabili su Internet pubblica), il server STUN aiuta il client a scoprire il proprio indirizzo IP pubblico e la porta esterna per permettere l'instaurazione di una connessione diretta peer-to-peer.",
     "hint": "Aiuta a superare il NAT scoprendo l'indirizzo pubblico esterno.",
     "level": "intermedio"
@@ -503,18 +503,18 @@
       },
       {
         "id": "B",
-        "text": "STUN permette la connessione diretta (peer-to-peer) fornendo l'IP pubblico, mentre TURN funge da intermediario (relay) inoltrando tutto il traffico multimediale."
-      },
-      {
-        "id": "C",
         "text": "TURN è un protocollo open source, mentre STUN è un protocollo proprietario con licenza commerciale."
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "STUN opera a livello 2 del modello OSI, mentre TURN opera a livello 7."
+      },
+      {
+        "id": "D",
+        "text": "STUN permette la connessione diretta (peer-to-peer) fornendo l'IP pubblico, mentre TURN funge da intermediario (relay) inoltrando tutto il traffico multimediale."
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "D",
     "explanation": "STUN si limita ad aiutare i peer a scoprire i propri IP pubblici in modo che possano connettersi direttamente. Se i firewall o i NAT sono simmetrici e non permettono la comunicazione diretta, viene utilizzato TURN (Traversal Using Relays around NAT), che riceve e reinvia tutto il traffico multimediale, fungendo da server di relay intermedio (con costi di banda notevoli).",
     "hint": "TURN interviene come 'ponte' quando la connessione diretta fallisce.",
     "level": "intermedio"
@@ -525,11 +525,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Un protocollo di sicurezza per verificare l'identità dell'utente tramite token OAuth."
+        "text": "Una stringa di testo strutturata che descrive le caratteristiche multimediali della connessione (codec supportati, risoluzioni, indirizzi IP, ecc.) scambiata durante la negoziazione."
       },
       {
         "id": "B",
-        "text": "Una stringa di testo strutturata che descrive le caratteristiche multimediali della connessione (codec supportati, risoluzioni, indirizzi IP, ecc.) scambiata durante la negoziazione."
+        "text": "Un protocollo di sicurezza per verificare l'identità dell'utente tramite token OAuth."
       },
       {
         "id": "C",
@@ -540,7 +540,7 @@
         "text": "L'algoritmo di compressione audio predefinito utilizzato per i flussi VoIP a bassa latenza."
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "A",
     "explanation": "SDP (Session Description Protocol) definisce le capacità multimediali dei due client (codec, bitrate supportati, indirizzi di trasporto). Durante la fase di segnalazione (signaling), i client si scambiano oggetti SDP tramite messaggi 'Offer' e 'Answer' per accordarsi sulle modalità di comunicazione.",
     "hint": "Contiene i dettagli su formati audio/video e opzioni di trasporto negoziate tra i peer.",
     "level": "intermedio"
@@ -555,18 +555,18 @@
       },
       {
         "id": "B",
-        "text": "Porta 443"
+        "text": "Porta 554"
       },
       {
         "id": "C",
-        "text": "Porta 554"
+        "text": "Porta 443"
       },
       {
         "id": "D",
         "text": "Porta 8080"
       }
     ],
-    "correctAnswerId": "C",
+    "correctAnswerId": "B",
     "explanation": "La porta standard predefinita per il protocollo RTSP (Real Time Streaming Protocol) è la porta TCP e UDP 554. La porta 80 è per HTTP, la 443 per HTTPS.",
     "hint": "È un numero di porta ben noto (Well-Known Port) inferiore a 1000.",
     "level": "intermedio"
@@ -581,18 +581,18 @@
       },
       {
         "id": "B",
-        "text": "OPTIONS"
+        "text": "DESCRIBE"
       },
       {
         "id": "C",
-        "text": "DESCRIBE"
+        "text": "OPTIONS"
       },
       {
         "id": "D",
         "text": "SETUP"
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "C",
     "explanation": "Il metodo OPTIONS di RTSP, in modo simile a HTTP, viene utilizzato per interrogare il server e determinare quali altri metodi di controllo della sessione (come DESCRIBE, SETUP, PLAY, PAUSE, TEARDOWN) sono supportati e disponibili.",
     "hint": "È lo stesso nome del metodo HTTP usato per interrogare le opzioni supportate dal server.",
     "level": "intermedio"
@@ -607,18 +607,18 @@
       },
       {
         "id": "B",
-        "text": "RTP (Real-time Transport Protocol) e RTCP (RTP Control Protocol)"
-      },
-      {
-        "id": "C",
         "text": "IPsec e L2TP"
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "FTP e SFTP"
+      },
+      {
+        "id": "D",
+        "text": "RTP (Real-time Transport Protocol) e RTCP (RTP Control Protocol)"
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "D",
     "explanation": "RTSP gestisce solo il controllo dello streaming (metadati, sessione, avvio/pausa). Il flusso effettivo dei dati multimediali viene trasportato da RTP (Real-time Transport Protocol) mentre il monitoraggio della qualità del servizio (QoS) e la sincronizzazione temporale sono gestiti da RTCP (RTP Control Protocol).",
     "hint": "Riferiti al trasporto del payload reale e al controllo statistico della ricezione.",
     "level": "intermedio"
@@ -629,11 +629,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Full Tunneling cifra i file locali, mentre Split Tunneling cifra solo i file cloud."
+        "text": "In Full Tunneling tutto il traffico Internet del client passa attraverso il tunnel VPN, mentre in Split Tunneling solo il traffico diretto verso la rete aziendale attraversa il tunnel, inviando il traffico Internet generico direttamente tramite l'ISP locale."
       },
       {
         "id": "B",
-        "text": "In Full Tunneling tutto il traffico Internet del client passa attraverso il tunnel VPN, mentre in Split Tunneling solo il traffico diretto verso la rete aziendale attraversa il tunnel, inviando il traffico Internet generico direttamente tramite l'ISP locale."
+        "text": "Full Tunneling cifra i file locali, mentre Split Tunneling cifra solo i file cloud."
       },
       {
         "id": "C",
@@ -644,7 +644,7 @@
         "text": "Full Tunneling è specifico per le connessioni Wi-Fi, mentre Split Tunneling si applica solo alle connessioni cablate ethernet."
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "A",
     "explanation": "Con lo Split Tunneling il client invia al tunnel VPN solo i pacchetti destinati alla rete dell'ufficio (es. 10.0.0.0/8). Il traffico per Internet (es. navigazione generica, YouTube) esce direttamente dall'ISP locale dell'utente. Con il Full Tunneling tutto il traffico Internet passa attraverso la VPN aziendale, aumentando la sicurezza complessiva ma consumando molta più banda del server VPN.",
     "hint": "Riguarda il percorso che prende il traffico Internet non aziendale.",
     "level": "intermedio"
@@ -685,18 +685,18 @@
       },
       {
         "id": "B",
-        "text": "Ad autenticare reciprocamente il client e il server, negoziare gli algoritmi crittografici (cipher suite) e stabilire la chiave simmetrica per la sessione crittografata."
+        "text": "A misurare la distanza geografica tra i nodi per ottimizzare il routing."
       },
       {
         "id": "C",
-        "text": "A misurare la distanza geografica tra i nodi per ottimizzare il routing."
+        "text": "Ad autenticare reciprocamente il client e il server, negoziare gli algoritmi crittografici (cipher suite) e stabilire la chiave simmetrica per la sessione crittografata."
       },
       {
         "id": "D",
         "text": "A verificare l'assenza di virus sulla macchina dell'utente."
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "C",
     "explanation": "L'handshake SSL/TLS è la fase iniziale in cui il client e il server negoziano i parametri crittografici, si scambiano certificati digitali per convalidare le rispettive identità ed eseguono uno scambio di chiavi (es. tramite Diffie-Hellman) per generare la chiave di cifratura simmetrica temporanea che proteggerà la sessione.",
     "hint": "Pensa alla negoziazione delle chiavi di cifratura e all'identificazione del server.",
     "level": "intermedio"
@@ -711,18 +711,18 @@
       },
       {
         "id": "B",
-        "text": "Applicazione delle patch di sicurezza e aggiornamento del sistema operativo guest installato sulla macchina virtuale."
-      },
-      {
-        "id": "C",
         "text": "Riparazione dei server fisici guasti nel data center del provider."
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "Sicurezza fisica degli edifici del data center."
+      },
+      {
+        "id": "D",
+        "text": "Applicazione delle patch di sicurezza e aggiornamento del sistema operativo guest installato sulla macchina virtuale."
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "D",
     "explanation": "In modalità IaaS, il cloud provider gestisce la sicurezza fisica dei server, lo storage, la connettività di rete e l'hypervisor. Il cliente è invece responsabile di tutto ciò che si trova all'interno della macchina virtuale, inclusi sistema operativo guest, software installato, middleware, database e dati.",
     "hint": "Il provider ti dà solo la macchina vuota; chi la deve aggiornare e proteggere?",
     "level": "intermedio"
@@ -733,11 +733,11 @@
     "options": [
       {
         "id": "A",
-        "text": "La capacità fisica dei cavi in fibra ottica del cloud provider di piegarsi senza rompersi."
+        "text": "L'abilità di ridimensionare automaticamente e dinamicamente le risorse computazionali (scale-up e scale-down) in base alla variazione della domanda in tempo reale."
       },
       {
         "id": "B",
-        "text": "L'abilità di ridimensionare automaticamente e dinamicamente le risorse computazionali (scale-up e scale-down) in base alla variazione della domanda in tempo reale."
+        "text": "La capacità fisica dei cavi in fibra ottica del cloud provider di piegarsi senza rompersi."
       },
       {
         "id": "C",
@@ -748,7 +748,7 @@
         "text": "La conversione automatica del software scritto in Java in altri linguaggi."
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "A",
     "explanation": "L'elasticità è la capacità di espandere (scale-out/up) o ridurre (scale-in/down) le risorse (CPU, RAM, istanze) in modo automatico, reattivo o predittivo, in risposta alla quantità di richieste degli utenti, garantendo che le risorse allocate corrispondano strettamente a quelle effettivamente necessarie in ogni momento.",
     "hint": "Riguarda l'adattamento automatico della capacità hardware in base al carico.",
     "level": "intermedio"
@@ -815,18 +815,18 @@
       },
       {
         "id": "B",
-        "text": "A tracciare visivamente la quantità di lavoro rimanente nello Sprint rispetto al tempo rimasto, aiutando a prevedere se il team completerà gli obiettivi."
-      },
-      {
-        "id": "C",
         "text": "A mostrare i costi finanziari sostenuti per ogni singolo membro del team."
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "A calcolare il tempo trascorso da ogni programmatore in riunioni remote."
+      },
+      {
+        "id": "D",
+        "text": "A tracciare visivamente la quantità di lavoro rimanente nello Sprint rispetto al tempo rimasto, aiutando a prevedere se il team completerà gli obiettivi."
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "D",
     "explanation": "Il Burndown Chart mostra sull'asse Y i punti di storia (Story Points) rimanenti e sull'asse X i giorni dello Sprint. Permette al team di vedere a colpo d'occhio la velocità attuale rispetto alla linea ideale di completamento del lavoro (che scende verso zero alla fine dello Sprint).",
     "hint": "Mostra come brucia il lavoro rimanente nel tempo dello sprint.",
     "level": "intermedio"
@@ -837,11 +837,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Recuperare i dati cancellati per errore dall'hard disk dell'utente."
+        "text": "Prevenire la fuga accidentale o intenzionale di dati aziendali sensibili al di fuori dei confini aziendali controllati."
       },
       {
         "id": "B",
-        "text": "Prevenire la fuga accidentale o intenzionale di dati aziendali sensibili al di fuori dei confini aziendali controllati."
+        "text": "Recuperare i dati cancellati per errore dall'hard disk dell'utente."
       },
       {
         "id": "C",
@@ -852,7 +852,7 @@
         "text": "Accelerare il trasferimento dei file tramite tecniche di compressione dei dati."
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "A",
     "explanation": "I sistemi DLP monitorano e bloccano il trasferimento non autorizzato di dati sensibili (es. codici sorgente, dati finanziari, PII). Nello smart working evitano che dati aziendali vengano caricati su cloud personali, salvati su chiavette USB non autorizzate o inviati a email personali.",
     "hint": "Previene la perdita o divulgazione non autorizzata di dati aziendali.",
     "level": "intermedio"
@@ -893,18 +893,18 @@
       },
       {
         "id": "B",
-        "text": "Nella modalità Trasporto viene cifrato solo il payload del pacchetto IP originale lasciando intatta l'intestazione IP originaria; nella modalità Tunnel l'intero pacchetto IP originario viene cifrato e incapsulato in un nuovo pacchetto IP."
+        "text": "La modalità Tunnel è molto più veloce della modalità Trasporto ma non supporta algoritmi a chiave asimmetrica."
       },
       {
         "id": "C",
-        "text": "La modalità Tunnel è molto più veloce della modalità Trasporto ma non supporta algoritmi a chiave asimmetrica."
+        "text": "Nella modalità Trasporto viene cifrato solo il payload del pacchetto IP originale lasciando intatta l'intestazione IP originaria; nella modalità Tunnel l'intero pacchetto IP originario viene cifrato e incapsulato in un nuovo pacchetto IP."
       },
       {
         "id": "D",
         "text": "La modalità Trasporto richiede hardware dedicato, la modalità Tunnel funziona solo a livello software nel browser."
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "C",
     "explanation": "La modalità Trasporto protegge le comunicazioni end-to-end (es. tra due host) inserendo un'intestazione IPsec prima del payload del pacchetto IP ma preservando l'indirizzo IP di origine e destinazione originale. La modalità Tunnel protegge le comunicazioni gateway-to-gateway (es. tra due router VPN): l'intero pacchetto IP originario viene cifrato e inserito in un pacchetto IP nuovo con indirizzi IP esterni dei gateway.",
     "hint": "Riguarda se l'intestazione IP originale viene nascosta/cifrata sotto una nuova intestazione oppure no.",
     "level": "intermedio"
@@ -919,18 +919,18 @@
       },
       {
         "id": "B",
-        "text": "Trovare in modo sistematico il percorso di comunicazione di rete ottimale raccogliendo e testando varie combinazioni di indirizzi IP/porte (ICE candidates) locali, STUN e TURN."
-      },
-      {
-        "id": "C",
         "text": "Prevenire attacchi di tipo Man-in-the-Middle gestendo lo scambio di certificati digitali autogestiti."
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "Controllare la sincronizzazione dei fotogrammi video tra client con framerate differenti."
+      },
+      {
+        "id": "D",
+        "text": "Trovare in modo sistematico il percorso di comunicazione di rete ottimale raccogliendo e testando varie combinazioni di indirizzi IP/porte (ICE candidates) locali, STUN e TURN."
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "D",
     "explanation": "ICE raccoglie diversi indirizzi IP e porte (chiamati candidati ICE) da tre fonti: interfacce di rete locali (host candidates), server STUN (srflx candidates) e server TURN (relay candidates). Successivamente effettua dei test di connettività per determinare la combinazione di indirizzi migliore per stabilire il collegamento peer-to-peer con la latenza più bassa possibile.",
     "hint": "Raccoglie i candidati (indirizzi IP e porte) e prova a trovare il percorso migliore tra i due nodi.",
     "level": "avanzato"
@@ -941,11 +941,11 @@
     "options": [
       {
         "id": "A",
-        "text": "IPsec per i flussi multimediali e SSH per i canali dati."
+        "text": "SRTP (Secure Real-time Transport Protocol) per i flussi multimediali e DTLS (Datagram Transport Layer Security) per i canali dati e lo scambio delle chiavi SRTP."
       },
       {
         "id": "B",
-        "text": "SRTP (Secure Real-time Transport Protocol) per i flussi multimediali e DTLS (Datagram Transport Layer Security) per i canali dati e lo scambio delle chiavi SRTP."
+        "text": "IPsec per i flussi multimediali e SSH per i canali dati."
       },
       {
         "id": "C",
@@ -956,7 +956,7 @@
         "text": "TLS 1.3 per entrambi i tipi di canali senza alcuna eccezione di prestazioni."
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "A",
     "explanation": "In WebRTC la sicurezza è integrata per specifica. I flussi multimediali sono cifrati tramite SRTP (Secure Real-time Transport Protocol). La negoziazione delle chiavi crittografiche per SRTP e la cifratura dei canali dati generici (DataChannels) avvengono tramite il protocollo DTLS (Datagram Transport Layer Security, una variante di TLS ottimizzata per UDP).",
     "hint": "Combina un protocollo multimediale sicuro con la versione Datagram di TLS.",
     "level": "avanzato"
@@ -997,18 +997,18 @@
       },
       {
         "id": "B",
-        "text": "A negoziare i parametri di trasporto della sessione multimediale, specificando come allocare i canali audio/video e su quali porte locali/remote inviare i dati RTP/RTCP."
+        "text": "A configurare le credenziali di accesso amministrativo del server di streaming."
       },
       {
         "id": "C",
-        "text": "A configurare le credenziali di accesso amministrativo del server di streaming."
+        "text": "A negoziare i parametri di trasporto della sessione multimediale, specificando come allocare i canali audio/video e su quali porte locali/remote inviare i dati RTP/RTCP."
       },
       {
         "id": "D",
         "text": "A terminare la sessione liberando tutte le risorse allocate nel sistema."
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "C",
     "explanation": "Il metodo SETUP definisce la modalità di trasporto per il flusso multimediale prima dell'inizio dello streaming. Specifica se i dati viaggeranno via UDP o TCP (interleaved) e le porte locali/remote su cui viaggeranno i pacchetti RTP (dati multimediali) e RTCP (statistiche di controllo).",
     "hint": "Avviene dopo DESCRIBE ed alloca le risorse di rete e le porte necessarie prima di eseguire PLAY.",
     "level": "avanzato"
@@ -1023,18 +1023,18 @@
       },
       {
         "id": "B",
-        "text": "HTTP è stateless (senza stato), mentre RTSP mantiene uno stato persistente (stateful) in cui sia il client che il server mantengono un identificatore di sessione (Session ID) per tracciare lo stato attuale dello streaming (es. Ready, Playing)."
-      },
-      {
-        "id": "C",
         "text": "HTTP supporta solo connessioni TCP, mentre RTSP funziona esclusivamente su connessioni UDP."
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "RTSP non prevede l'utilizzo di codici di stato di risposta numerici (es. 200 OK)."
+      },
+      {
+        "id": "D",
+        "text": "HTTP è stateless (senza stato), mentre RTSP mantiene uno stato persistente (stateful) in cui sia il client che il server mantengono un identificatore di sessione (Session ID) per tracciare lo stato attuale dello streaming (es. Ready, Playing)."
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "D",
     "explanation": "HTTP è originariamente un protocollo senza stato (stateless). RTSP, al contrario, deve tenere traccia dello stato di riproduzione della risorsa multimediale. Il server assegna un Session ID al client (durante la chiamata SETUP). Entrambe le parti ricordano lo stato (es. Init, Ready, Playing) per sapere quali comandi (PLAY, PAUSE, TEARDOWN) sono validi in un dato momento.",
     "hint": "Il server deve sapere in quale stato si trova la riproduzione (es. in riproduzione o in pausa).",
     "level": "avanzato"
@@ -1045,11 +1045,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Cifrando entrambi i flussi con la medesima chiave simmetrica AES."
+        "text": "Tramite i pacchetti Sender Report (SR) di RTCP, che associano i timestamp relativi RTP (specifici per sorgente) a un orologio assoluto comune a livello di sistema (NTP timestamp)."
       },
       {
         "id": "B",
-        "text": "Tramite i pacchetti Sender Report (SR) di RTCP, che associano i timestamp relativi RTP (specifici per sorgente) a un orologio assoluto comune a livello di sistema (NTP timestamp)."
+        "text": "Cifrando entrambi i flussi con la medesima chiave simmetrica AES."
       },
       {
         "id": "C",
@@ -1060,7 +1060,7 @@
         "text": "Inviando i dati audio e video alternativamente nello stesso singolo pacchetto TCP."
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "A",
     "explanation": "I flussi audio e video viaggiano su sessioni RTP indipendenti con clock differenti. Per sincronizzarli all'arrivo, il server invia periodicamente pacchetti RTCP Sender Report (SR). Questi contengono una mappatura tra il timestamp RTP del flusso multimediale e il timestamp assoluto NTP (Network Time Protocol) del server. Il client usa questa corrispondenza per calcolare l'allineamento temporale corretto dei flussi.",
     "hint": "RTCP mappa i timestamp specifici delle tracce multimediali su un tempo di riferimento comune (NTP).",
     "level": "avanzato"
@@ -1075,18 +1075,18 @@
       },
       {
         "id": "B",
-        "text": "Funziona all'interno dello spazio utente (userspace) senza bisogno di integrazione nel kernel."
+        "text": "Ha una base di codice estremamente ridotta (poche migliaia di righe di codice), opera interamente nel kernel (in Linux) per massime prestazioni ed implementa una crittografia moderna basata su standard fissi (Noise protocol framework, Curve25519, ChaCha20)."
       },
       {
         "id": "C",
-        "text": "Ha una base di codice estremamente ridotta (poche migliaia di righe di codice), opera interamente nel kernel (in Linux) per massime prestazioni ed implementa una crittografia moderna basata su standard fissi (Noise protocol framework, Curve25519, ChaCha20)."
+        "text": "Funziona all'interno dello spazio utente (userspace) senza bisogno di integrazione nel kernel."
       },
       {
         "id": "D",
         "text": "Consente l'accesso anonimo senza richiedere alcuno scambio di chiavi pubbliche/private."
       }
     ],
-    "correctAnswerId": "C",
+    "correctAnswerId": "B",
     "explanation": "WireGuard è stato progettato per essere estremamente veloce, leggero e sicuro. Ha circa 4000 righe di codice (rispetto alle centinaia di migliaia di OpenVPN/IPsec), il che rende molto semplice l'audit di sicurezza. Inoltre, non prevede la negoziazione dinamica di algoritmi crittografici complessi, eliminando vulnerabilità associate a cipher suite deboli.",
     "hint": "Codice compatto, esecuzione nello spazio del kernel per alta velocità e crittografia moderna prefissata.",
     "level": "avanzato"
@@ -1101,18 +1101,18 @@
       },
       {
         "id": "B",
-        "text": "Viene garantita l'autenticità e l'integrità del payload e dell'intestazione IP (esclusi i campi mutabili), ma non viene fornita alcuna riservatezza (i dati viaggiano in chiaro)."
+        "text": "L'intestazione IP viene modificata inserendo un indirizzo IP di destinazione fittizio per garantire l'anonimato totale dei pacchetti."
       },
       {
         "id": "C",
-        "text": "L'intestazione IP viene modificata inserendo un indirizzo IP di destinazione fittizio per garantire l'anonimato totale dei pacchetti."
+        "text": "Viene garantita l'autenticità e l'integrità del payload e dell'intestazione IP (esclusi i campi mutabili), ma non viene fornita alcuna riservatezza (i dati viaggiano in chiaro)."
       },
       {
         "id": "D",
         "text": "Il protocollo AH cifrerà i pacchetti solo se il trasporto sottostante avviene su protocollo UDP."
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "C",
     "explanation": "Il protocollo AH (Authentication Header) di IPsec fornisce integrità dei dati, autenticazione dell'origine e protezione contro gli attacchi di replay, calcolando un hash crittografico anche sull'intestazione IP (tranne i campi che cambiano durante il transito come TTL). Tuttavia, AH non offre cifratura (riservatezza). Per cifrare i dati, è necessario utilizzare il protocollo ESP (Encapsulating Security Payload).",
     "hint": "AH serve per l'autenticazione e l'integrità, non per la riservatezza dei dati.",
     "level": "avanzato"
@@ -1127,18 +1127,18 @@
       },
       {
         "id": "B",
-        "text": "Negoziare le associazioni di sicurezza (SA - Security Associations), autenticare i peer e scambiare le chiavi crittografiche necessarie per stabilire il tunnel sicuro di IPsec."
-      },
-      {
-        "id": "C",
         "text": "Fornire una compressione a livello di bit prima della trasmissione dei dati nel tunnel."
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "Mappare gli indirizzi IP privati dei client su indirizzi IP pubblici aziendali."
+      },
+      {
+        "id": "D",
+        "text": "Negoziare le associazioni di sicurezza (SA - Security Associations), autenticare i peer e scambiare le chiavi crittografiche necessarie per stabilire il tunnel sicuro di IPsec."
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "D",
     "explanation": "IKE (tipicamente IKEv2) è il protocollo di controllo responsabile della configurazione del tunnel IPsec. Gestisce la negoziazione automatica dei parametri di sicurezza (algoritmi di cifratura e hashing), autentica le identità dei due nodi remoti (tramite certificati o chiavi condivise) ed esegue lo scambio Diffie-Hellman per generare le chiavi simmetriche delle Security Association (SA).",
     "hint": "È il protocollo che stabilisce le Security Associations (SA) e scambia le chiavi crittografiche.",
     "level": "avanzato"
@@ -1149,11 +1149,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Hybrid Cloud utilizza solo cloud pubblici di provider diversi, mentre Multicloud combina cloud pubblici e cloud privati."
+        "text": "Hybrid Cloud prevede l'integrazione e l'orchestrazione tra un'infrastruttura cloud privata (on-premise) e uno o più cloud pubblici; Multicloud si riferisce all'uso coordinato di servizi forniti da diversi cloud provider pubblici (es. AWS + Azure) senza necessariamente includere un cloud privato."
       },
       {
         "id": "B",
-        "text": "Hybrid Cloud prevede l'integrazione e l'orchestrazione tra un'infrastruttura cloud privata (on-premise) e uno o più cloud pubblici; Multicloud si riferisce all'uso coordinato di servizi forniti da diversi cloud provider pubblici (es. AWS + Azure) senza necessariamente includere un cloud privato."
+        "text": "Hybrid Cloud utilizza solo cloud pubblici di provider diversi, mentre Multicloud combina cloud pubblici e cloud privati."
       },
       {
         "id": "C",
@@ -1164,7 +1164,7 @@
         "text": "Hybrid Cloud è una tecnologia legacy obsoleta, mentre Multicloud è lo standard esclusivo per le startup software."
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "A",
     "explanation": "L'Hybrid Cloud connette e integra un'infrastruttura privata interna (on-premise/privata) con un cloud pubblico (es. AWS o Azure), consentendo ai dati e alle applicazioni di muoversi tra le due piattaforme. Il Multicloud è la strategia che prevede l'uso di più servizi cloud pubblici forniti da provider diversi per evitare il vendor lock-in o ottimizzare i costi e le prestazioni (es. database su Azure e frontend su AWS), senza che vi sia per forza una componente on-premise.",
     "hint": "Pensa alla presenza obbligatoria di risorse on-premise (privato) in una delle due definizioni.",
     "level": "avanzato"
@@ -1205,18 +1205,18 @@
       },
       {
         "id": "B",
-        "text": "Perché all'aumentare delle dimensioni e della complessità di un'attività aumenta proporzionalmente l'incertezza della stima; la distanza esponenziale tra i numeri scoraggia dibattiti inutili su differenze minime."
+        "text": "È una convenzione imposta dai creatori del software Jira senza basi metodologiche."
       },
       {
         "id": "C",
-        "text": "È una convenzione imposta dai creatori del software Jira senza basi metodologiche."
+        "text": "Perché all'aumentare delle dimensioni e della complessità di un'attività aumenta proporzionalmente l'incertezza della stima; la distanza esponenziale tra i numeri scoraggia dibattiti inutili su differenze minime."
       },
       {
         "id": "D",
         "text": "Per allineare la stima delle ore di lavoro alla tassonomia dei costi fiscali dei dipendenti."
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "C",
     "explanation": "La legge psicofisica di Weber-Fechner indica che la percezione umana della differenza tra due stimoli è proporzionale all'intensità dello stimolo stesso. In Agile, stimare compiti grandi e incerti con precisione lineare (es. 20 ore vs 21 ore) è impossibile e controproducente. Usare distacchi ampi come 8, 13, 20 o 40 punti rende evidente che i compiti più grandi comportano una maggiore incertezza e richiedono di essere spezzati (decomposizione).",
     "hint": "Riflette il fatto che compiti più grandi portano con sé molta più incertezza e non ha senso cercare una precisione assoluta.",
     "level": "avanzato"
@@ -1231,18 +1231,18 @@
       },
       {
         "id": "B",
-        "text": "Il file binario o pacchetto di distribuzione (es. un archivio .war, un'immagine Docker o un pacchetto .apk) generato automaticamente dal codice sorgente durante la compilazione e pronto per il deployment."
-      },
-      {
-        "id": "C",
         "text": "Una scheda di bug creata su Jira che non è stata risolta entro la fine del ciclo di sviluppo."
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "Un blocco di codice sorgente legacy commentato all'interno del codice principale."
+      },
+      {
+        "id": "D",
+        "text": "Il file binario o pacchetto di distribuzione (es. un archivio .war, un'immagine Docker o un pacchetto .apk) generato automaticamente dal codice sorgente durante la compilazione e pronto per il deployment."
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "D",
     "explanation": "Un artifact è il risultato concreto del processo di build di una pipeline CI/CD. Una volta che il codice sorgente passa con successo i test unitari e di integrazione, viene compilato e impacchettato. Questo pacchetto compilato (l'artifact) viene archiviato in un repository di artifact (es. Nexus, Artifactory) per essere distribuito in modo riproducibile negli ambienti di test e produzione.",
     "hint": "È il prodotto finale compilato e pronto all'uso generato dalla build del codice sorgente.",
     "level": "avanzato"
@@ -1253,11 +1253,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Fidarsi completamente di qualsiasi dispositivo collegato se inserisce la password corretta al primo tentativo."
+        "text": "Ritenere che nessuna richiesta di accesso sia sicura a priori, indipendentemente dalla provenienza (interna o esterna alla rete aziendale); ogni richiesta deve essere autenticata, autorizzata e crittografata continuamente prima di concedere l'accesso."
       },
       {
         "id": "B",
-        "text": "Ritenere che nessuna richiesta di accesso sia sicura a priori, indipendentemente dalla provenienza (interna o esterna alla rete aziendale); ogni richiesta deve essere autenticata, autorizzata e crittografata continuamente prima di concedere l'accesso."
+        "text": "Fidarsi completamente di qualsiasi dispositivo collegato se inserisce la password corretta al primo tentativo."
       },
       {
         "id": "C",
@@ -1268,7 +1268,7 @@
         "text": "Consentire l'accesso a tutti i database aziendali a chiunque sia fisicamente connesso al Wi-Fi aziendale."
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "A",
     "explanation": "Il modello Zero Trust si basa sul motto 'Never trust, always verify' (Non fidarsi mai, verificare sempre). A differenza del modello tradizionale perimetrale ('castello e fossato'), assume che le minacce possano provenire anche dall'interno. Pertanto, l'accesso a risorse sensibili viene concesso valutando costantemente il contesto (identità dell'utente, integrità del dispositivo, posizione geografica) limitando i permessi secondo il principio del minimo privilegio.",
     "hint": "Assume che nessuna richiesta di connessione debba essere considerata attendibile di default, nemmeno se proviene dall'interno dell'ufficio.",
     "level": "avanzato"
@@ -1279,11 +1279,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Consentire a un'applicazione terza di accedere in modo limitato a risorse protette per conto dell'utente, tramite l'emissione di token di accesso, senza doverne condividere le credenziali (password)."
+        "text": "Fornire un protocollo di crittografia per la posta elettronica aziendale basato su firme digitali asimmetriche."
       },
       {
         "id": "B",
-        "text": "Fornire un protocollo di crittografia per la posta elettronica aziendale basato su firme digitali asimmetriche."
+        "text": "Consentire a un'applicazione terza di accedere in modo limitato a risorse protette per conto dell'utente, tramite l'emissione di token di accesso, senza doverne condividere le credenziali (password)."
       },
       {
         "id": "C",
@@ -1294,9 +1294,1309 @@
         "text": "Coordinare la compilazione automatica del codice sorgente prima dell'invio in produzione."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "B",
     "explanation": "OAuth 2.0 è uno standard aperto per l'autorizzazione. Consente a un utente di concedere l'accesso a risorse personali (es. file su Google Drive) ad un'applicazione terza (es. uno strumento di project management) tramite token di autorizzazione (Access Token) con permessi limitati (scope), evitando di rivelare la password principale dell'account all'app terza.",
     "hint": "Permette l'autorizzazione di app esterne tramite token temporanei senza rivelare la propria password.",
     "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_SW_051",
+    "question": "Nel contesto delle tecnologie per il lavoro agile (smart working), che cos'è una soluzione 'VDI' (Virtual Desktop Infrastructure)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Uno schermo a cristalli liquidi da collegare al portatile"
+      },
+      {
+        "id": "B",
+        "text": "Un programma per inviare messaggi SMS pubblicitari ai dipendenti"
+      },
+      {
+        "id": "C",
+        "text": "Una tecnologia che ospita e gestisce ambienti desktop utente completi su macchine virtuali residenti in un datacenter/server centrale, accessibili da remoto tramite thin client o PC personali (BYOD)"
+      },
+      {
+        "id": "D",
+        "text": "Un contratto di fornitura di arredi ergonomici per la casa"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "La VDI (es. Citrix Virtual Apps, VMware Horizon, Azure Virtual Desktop) centralizza i dati e l'elaborazione nei server aziendali sicuri: sui terminali remoti viaggiano solo flussi video dei pixel crittografati, evitando che dati riservati siano memorizzati su PC non gestiti.",
+    "hint": "Virtual Desktop Infrastructure: il desktop gira sui server del datacenter e l'utente vi accede da remoto.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_SW_052",
+    "question": "Cosa stabilisce la Legge 81/2017 in ordine al 'diritto alla disconnessione' per il lavoratore agile nella Pubblica Amministrazione?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il lavoratore deve rimanere reperibile 24 ore su 24 inclusi i festivi"
+      },
+      {
+        "id": "B",
+        "text": "Il lavoratore non può utilizzare la posta elettronica aziendale per più di trenta minuti al giorno"
+      },
+      {
+        "id": "C",
+        "text": "La connessione Wi-Fi domestica viene pagata interamente dal Ministero della Difesa"
+      },
+      {
+        "id": "D",
+        "text": "L'accordo individuale deve individuare le fasce temporali di reperibilità e le misure tecniche e organizzative necessarie per garantire la disattivazione dei dispositivi e la disconnessione del lavoratore dalle comunicazioni aziendali al di fuori dell'orario stabilito"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Il diritto alla disconnessione (art. 19 L. 81/2017 e CCNL Funzioni Centrali) tutela la salute psicofisica del lavoratore, garantendo che non vi sia obbligo di rispondere a email, telefonate o messaggi nelle ore di riposo.",
+    "hint": "Fasce di disconnessione per tutelare i tempi di riposo al di fuori dell'orario di lavoro.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_SW_053",
+    "question": "Che cos'è una soluzione 'MDM' (Mobile Device Management) nella sicurezza delle postazioni mobili della PA?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Una piattaforma software che permette agli amministratori IT di monitorare, configurare, applicare criteri di sicurezza (crittografia, PIN, blocco installazioni) e cancellare dati da remoto (remote wipe) su smartphone, tablet e laptop aziendali"
+      },
+      {
+        "id": "B",
+        "text": "Un caricabatterie a induzione magnetica da tavolo"
+      },
+      {
+        "id": "C",
+        "text": "Un accordo sindacale per l'acquisto di auricolari Bluetooth"
+      },
+      {
+        "id": "D",
+        "text": "Un'applicazione per il monitoraggio della frequenza cardiaca"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "I sistemi MDM (es. Microsoft Intune, VMware Workspace ONE) consentono di separare dati aziendali e personali (containerization) e di cancellare selettivamente i dati aziendali in caso di smarrimento o furto del dispositivo mobile.",
+    "hint": "Mobile Device Management per la gestione e sicurezza centralizzata dei dispositivi mobili.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_SW_054",
+    "question": "Quale protocollo aperto standard per la telefonia e comunicazione multimediale su IP (VoIP) gestisce l'inizializzazione, la modifica e la terminazione delle sessioni di chiamata?",
+    "options": [
+      {
+        "id": "A",
+        "text": "SNMP"
+      },
+      {
+        "id": "B",
+        "text": "SIP (Session Initiation Protocol)"
+      },
+      {
+        "id": "C",
+        "text": "POP3"
+      },
+      {
+        "id": "D",
+        "text": "IMAP4"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "SIP (RFC 3261) è il protocollo di segnalazione text-based per il VoIP: negozia i parametri audio/video (codec, porte tramite SDP), lasciando poi il trasporto dei flussi multimediali al protocollo RTP.",
+    "hint": "SIP (Session Initiation Protocol) stabilisce e gestisce le chiamate VoIP.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_SW_055",
+    "question": "Quale protocollo di trasporto in tempo reale trasmette i flussi di dati audio e video digitalizzati durante le videochiamate e conferenze web?",
+    "options": [
+      {
+        "id": "A",
+        "text": "FTP"
+      },
+      {
+        "id": "B",
+        "text": "Telnet"
+      },
+      {
+        "id": "C",
+        "text": "RTP (Real-time Transport Protocol) / SRTP"
+      },
+      {
+        "id": "D",
+        "text": "DHCP"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "RTP viaggia tipicamente su UDP e include timestamp e numeri di sequenza per consentire al ricevitore di ricostruire l'ordine e compensare il jitter. Nella versione sicura cifrata (SRTP) garantisce la riservatezza delle conversazioni.",
+    "hint": "RTP e Secure RTP (SRTP) trasportano audio e video in tempo reale.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_SW_056",
+    "question": "In cosa consiste la tecnologia 'WebRTC' (Web Real-Time Communication) integrata nei moderni browser web?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un software per la scansione di documenti cartacei in PDF"
+      },
+      {
+        "id": "B",
+        "text": "Un protocollo per la trasmissione di file audio preregistrati via email"
+      },
+      {
+        "id": "C",
+        "text": "Un connettore hardware USB per cuffie telefoniche"
+      },
+      {
+        "id": "D",
+        "text": "Uno standard e framework open source che consente la comunicazione audio/video peer-to-peer e la condivisione dati in tempo reale direttamente all'interno delle pagine web senza necessità di installare plugin proprietari"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "WebRTC permette videoconferenze dirette tra browser (usato da Google Meet, Microsoft Teams web, ecc.) sfruttando API JavaScript e protocolli standard (SDP, ICE, STUN, TURN, SRTP) senza estensioni aggiuntive.",
+    "hint": "Comunicazione audio/video in tempo reale tra browser senza plugin esterni.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_SW_057",
+    "question": "Quale misura di sicurezza informatica è OBBLIGATORIA per consentire l'accesso da remoto ai dipendenti in smart working verso i sistemi informativi dell'INPS?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Autenticazione a più fattori (MFA / 2FA) combinata con canale VPN cifrato e certificati digitali"
+      },
+      {
+        "id": "B",
+        "text": "L'invio di un fax di autorizzazione prima di ogni connessione"
+      },
+      {
+        "id": "C",
+        "text": "L'uso esclusivo di monitor con risoluzione a 4K"
+      },
+      {
+        "id": "D",
+        "text": "L'obbligo di connettersi esclusivamente tramite reti Wi-Fi pubbliche aperte"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Le Linee Guida AgID e ACN impongono l'adozione dell'autenticazione a più fattori (qualcosa che sai, qualcosa che hai, qualcosa che sei) e tunnel VPN cifrati per qualsiasi accesso remoto ai sistemi della PA.",
+    "hint": "Autenticazione a due fattori (MFA) e connessione cifrata VPN.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_SW_058",
+    "question": "Cosa indica l'acronimo 'BYOD' nella gestione delle postazioni di lavoro e quali rischi comporta?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un protocollo di backup notturno su nastro magnetico"
+      },
+      {
+        "id": "B",
+        "text": "'Bring Your Own Device' (uso di dispositivi personali del dipendente per lavoro): comporta rischi di fuga di dati riservati, presenza di malware non controllato e difficoltà di separazione tra sfera personale e professionale"
+      },
+      {
+        "id": "C",
+        "text": "La consegna obbligatoria del computer portatile ogni venerdì sera"
+      },
+      {
+        "id": "D",
+        "text": "Un tipo di connettore di alimentazione elettrica universale"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il BYOD consente ai dipendenti di usare PC o smartphone privati per lavorare, ma espone la PA a rischi di sicurezza se i dispositivi non sono governati da soluzioni MDM e sandbox isolate.",
+    "hint": "Bring Your Own Device: uso di dispositivi personali con rischi di sicurezza e privacy.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_SW_059",
+    "question": "Quale modello architetturale di sicurezza informatica sostituisce la fiducia implicita nella rete interna con il principio 'Never Trust, Always Verify'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Perimeter Security tradizionale"
+      },
+      {
+        "id": "B",
+        "text": "Default Allow Policy"
+      },
+      {
+        "id": "C",
+        "text": "Zero Trust Architecture (ZTA)"
+      },
+      {
+        "id": "D",
+        "text": "Open Access Network"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Zero Trust non si fida di nessun utente o dispositivo anche se all'interno della LAN: richiede autenticazione continua, principio del minimo privilegio, micro-segmentazione e verifica costante dello stato del dispositivo.",
+    "hint": "Zero Trust: non fidarsi mai, verificare sempre ogni accesso.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_SW_060",
+    "question": "Che cos'è un server 'STUN' (Session Traversal Utilities for NAT) utilizzato nelle videochiamate WebRTC e VoIP?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un generatore di rumore bianco per mascherare la voce"
+      },
+      {
+        "id": "B",
+        "text": "Un software per il download di file torrent"
+      },
+      {
+        "id": "C",
+        "text": "Un firewall per bloccare le email pubblicitarie"
+      },
+      {
+        "id": "D",
+        "text": "Un server che consente ai client situati dietro a un router NAT di scoprire il proprio indirizzo IP pubblico e la porta esterna assegnata per stabilire comunicazioni peer-to-peer dirette"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "STUN permette al dispositivo di scoprire 'come viene visto da internet' all'esterno del NAT locale; se il NAT è di tipo simmetrico e blocca il peer-to-peer, si ricorre a un server di inoltro TURN (relay).",
+    "hint": "Aiuta i client dietro NAT a scoprire il proprio IP pubblico per videochiamate P2P.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_SW_061",
+    "question": "In Microsoft Teams o piattaforme di Unified Communications, cos'è la 'Presence' (stato di presenza)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La funzionalità che indica la disponibilità in tempo reale dell'utente (Disponibile, Occupato, Non disturbare, In riunione, Assente), aggiornata automaticamente dal calendario e dall'attività sul computer"
+      },
+      {
+        "id": "B",
+        "text": "La firma autografa sul registro cartaceo delle presenze dell'ufficio"
+      },
+      {
+        "id": "C",
+        "text": "Il rilevamento delle impronte digitali all'ingresso della sala riunioni"
+      },
+      {
+        "id": "D",
+        "text": "Un allarme acustico che suona ogni 30 minuti"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La Presence segnala dinamicamente lo stato del collega (integrandosi con Outlook/Exchange), permettendo di sapere se è impegnato in una chiamata o se può essere contattato immediatamente.",
+    "hint": "Stato di disponibilità in tempo reale (Occupato, Disponibile, In riunione).",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_SW_062",
+    "question": "Nel protocollo di desktop remoto 'RDP' (Remote Desktop Protocol - porta TCP 3389) di Microsoft, quale componente fa da gateway sicuro nella DMZ evitando l'esposizione diretta della porta 3389 su internet?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Server Telnet"
+      },
+      {
+        "id": "B",
+        "text": "Remote Desktop Gateway (RD Gateway) su porta HTTPS 443"
+      },
+      {
+        "id": "C",
+        "text": "Proxy FTP anonimo"
+      },
+      {
+        "id": "D",
+        "text": "Switch unmanaged a 10 Mbps"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Esporre direttamente la porta 3389 su internet è un grave rischio di attacco brute force e ransomware. L'RD Gateway incapsula il traffico RDP in un tunnel HTTPS sicuro (porta 443) con autenticazione a due fattori.",
+    "hint": "RD Gateway incapsula il traffico RDP su HTTPS sicuro (porta 443).",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_SW_063",
+    "question": "Cosa si intende per 'E2EE' (End-to-End Encryption) nelle applicazioni di messaggistica e collaborazione aziendale?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'eliminazione dei messaggi dopo 5 secondi dalla lettura"
+      },
+      {
+        "id": "B",
+        "text": "La stampa automatica dei messaggi su carta chimica"
+      },
+      {
+        "id": "C",
+        "text": "La crittografia in cui solo i dispositivi dei partecipanti alla conversazione possiedono le chiavi per decifrare i messaggi, impedendo a fornitori del servizio, intermediari di rete o terzi di accedere al contenuto in chiaro"
+      },
+      {
+        "id": "D",
+        "text": "L'invio di messaggi esclusivamente tramite codice Morse"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Nella cifratura End-to-End, il messaggio viene cifrato sul dispositivo del mittente e decifrato solo su quello del destinatario: il server di transito vede solo dati cifrati incomprensibili.",
+    "hint": "Crittografia da estremo a estremo: solo mittente e destinatario possono leggere il messaggio.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_SW_064",
+    "question": "Quale tipologia di attacco di ingegneria sociale mira specificamente a dipendenti pubblici in smart working fingendosi il reparto IT dell'INPS per sottrarre credenziali VPN o aziendali?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Attacco di tipo Brute Force offline"
+      },
+      {
+        "id": "B",
+        "text": "Defacement di siti web"
+      },
+      {
+        "id": "C",
+        "text": "SQL Injection manuale"
+      },
+      {
+        "id": "D",
+        "text": "Spear Phishing / Vishing (Voice Phishing)"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Lo Spear Phishing (e la variante telefonica Vishing) è mirato e contestualizzato: l'attaccante usa informazioni reali sull'ente per ingannare il dipendente inducendolo a inserire credenziali su finti portali di login.",
+    "hint": "Phishing mirato (Spear Phishing) o telefonico (Vishing) per rubare credenziali aziendali.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_SW_065",
+    "question": "Cosa si intende per 'Remote Wipe' nelle policy di sicurezza MDM dei dispositivi mobili aziendali?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La cancellazione remota dei dati e il ripristino delle impostazioni di fabbrica del dispositivo avviata dall'amministratore via rete in caso di furto, smarrimento o dimissioni del dipendente"
+      },
+      {
+        "id": "B",
+        "text": "La pulizia dello schermo con un panno in microfibra"
+      },
+      {
+        "id": "C",
+        "text": "Il riavvio della linea Wi-Fi casalinga"
+      },
+      {
+        "id": "D",
+        "text": "La disattivazione del microfono durante le videochiamate"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il Remote Wipe protegge i dati aziendali dal rischio di accesso non autorizzato: appena il dispositivo rubato si connette a internet, riceve il comando di cancellazione sicura e formattazione crittografica.",
+    "hint": "Cancellazione da remoto dei dati aziendali da un dispositivo smarrito o rubato.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_SW_066",
+    "question": "In termini di ergonomia e tutela della salute del lavoratore agile al videoterminale (D.Lgs. 81/2008), quale pausa obbligatoria è prevista per chi utilizza continuativamente lo schermo?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Una pausa di un'ora ogni mezz'ora di digitazione"
+      },
+      {
+        "id": "B",
+        "text": "Una pausa di 15 minuti ogni 120 minuti (due ore) di applicazione continuativa al videoterminale"
+      },
+      {
+        "id": "C",
+        "text": "Nessuna pausa se il monitor è dotato di filtro per la luce blu"
+      },
+      {
+        "id": "D",
+        "text": "Una pausa di 5 minuti solo a fine turno"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 175 del D.Lgs. 81/2008 prescrive che il lavoratore addetto a videoterminali ha diritto a un'interruzione della sua attività mediante pause o cambiamento di attività per almeno 15 minuti ogni due ore di lavoro continuo.",
+    "hint": "15 minuti di pausa ogni due ore (120 minuti) di lavoro al videoterminale.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_SW_067",
+    "question": "Nel protocollo di videoconferenza e streaming multimediale, cos'è il 'Jitter'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il tremolio fisico della webcam sulla cornice del monitor"
+      },
+      {
+        "id": "B",
+        "text": "La compressione automatica delle immagini in formato PNG"
+      },
+      {
+        "id": "C",
+        "text": "La variazione statistica nel tempo di ritardo di propagazione (delay) dei pacchetti tra mittente e destinatario, che causa scatti o distorsioni audio se non compensata da un buffer"
+      },
+      {
+        "id": "D",
+        "text": "La disconnessione periodica della stampante di rete"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Il jitter misura l'irregolarità con cui arrivano i pacchetti UDP; i client VoIP utilizzano un 'Jitter Buffer' per riordinare e ritardare leggermente i pacchetti prima della riproduzione vocale.",
+    "hint": "Variazione temporale del ritardo di ricezione dei pacchetti che degrada l'audio/video.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_SW_068",
+    "question": "Che cos'è 'WireGuard' nel panorama delle reti private virtuali (VPN)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un cavo in acciaio per legare il portatile alla scrivania"
+      },
+      {
+        "id": "B",
+        "text": "Un programma per bloccare le notifiche di Facebook"
+      },
+      {
+        "id": "C",
+        "text": "Una rete di satelliti geostazionari commerciali"
+      },
+      {
+        "id": "D",
+        "text": "Un protocollo di comunicazione VPN moderno, estremamente snello (meno di 4000 righe di codice nel kernel Linux) e veloce, basato su crittografia all'avanguardia (ChaCha20, Curve25519) come alternativa a OpenVPN e IPsec"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "WireGuard è integrato direttamente nel kernel Linux: è molto più performante e semplice da configurare rispetto a IPsec e OpenVPN, ideale per connessioni mobili e smart working.",
+    "hint": "Protocollo VPN moderno, ultra-veloce e leggero basato su crittografia moderna.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_SW_069",
+    "question": "Cosa si intende per 'Shadow IT' nel contesto del lavoro da remoto?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'utilizzo da parte dei dipendenti di dispositivi, software cloud, app di messaggistica o servizi di file-sharing personali non autorizzati né controllati dal reparto IT dell'amministrazione"
+      },
+      {
+        "id": "B",
+        "text": "L'uso del computer con la luce della stanza spenta"
+      },
+      {
+        "id": "C",
+        "text": "Un attacco di hacker che cancella le ombre dalle immagini fotografiche"
+      },
+      {
+        "id": "D",
+        "text": "L'installazione di condizionatori d'aria nei datacenter sotterranei"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La Shadow IT (es. inviare documenti istituzionali tramite account Gmail privato o WhatsApp) espone la PA a gravi rischi di violazione del GDPR, data leak e perdita di controllo sulle informazioni.",
+    "hint": "Uso di app e servizi cloud personali non autorizzati dal reparto IT per compiti d'ufficio.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_SW_070",
+    "question": "Quale codec audio ad alta efficienza è diventato lo standard de facto per la voce e la musica in WebRTC e nelle piattaforme di comunicazione unificata?",
+    "options": [
+      {
+        "id": "A",
+        "text": "MP3"
+      },
+      {
+        "id": "B",
+        "text": "Opus"
+      },
+      {
+        "id": "C",
+        "text": "G.711 solo a 64 kbps"
+      },
+      {
+        "id": "D",
+        "text": "WAV non compresso"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il codec Opus (RFC 6716) offre flessibilità ineguagliata: adatta dinamicamente il bitrate da 6 kbps a 510 kbps, gestisce audio a banda stretta e larga con bassissima latenza ed è royalty-free.",
+    "hint": "Opus è il codec audio moderno e versatile di riferimento per WebRTC.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_SW_071",
+    "question": "In termini di sicurezza delle identità digitali in smart working, che cosa sono i sistemi 'SSO' (Single Sign-On)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Password composte da un solo carattere numerico"
+      },
+      {
+        "id": "B",
+        "text": "La firma su un unico modulo cartaceo all'atto dell'assunzione"
+      },
+      {
+        "id": "C",
+        "text": "Meccanismi di controllo accessi che consentono a un utente di autenticarsi una sola volta con le proprie credenziali per accedere a molteplici applicazioni e servizi aziendali indipendenti (es. via SAML 2.0 o OIDC)"
+      },
+      {
+        "id": "D",
+        "text": "L'obbligo di usare il computer per un solo compito al giorno"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Il Single Sign-On (basato su SAML o OpenID Connect) migliora l'esperienza utente ed elimina la proliferazione di password deboli, centralizzando l'autenticazione su un Identity Provider (es. SPID/CIE, Azure AD/Entra ID).",
+    "hint": "Un'unica autenticazione per accedere a tutte le applicazioni autorizzate.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_SW_072",
+    "question": "Cos'è una 'Smart Card' con certificato digitale utilizzata dai funzionari pubblici per la firma e l'accesso remoto protetto?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Una carta fedeltà del supermercato"
+      },
+      {
+        "id": "B",
+        "text": "Un biglietto da visita plastificato con codice QR"
+      },
+      {
+        "id": "C",
+        "text": "Una scheda di memoria per registrare video in formato MP4"
+      },
+      {
+        "id": "D",
+        "text": "Un dispositivo hardware sicuro (token o carta a microprocessore) contenente la chiave privata crittografica non esportabile dell'utente, protetta da un codice PIN segreto"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "La smart card (come la CNS o la CIE) garantisce l'autenticazione a due fattori basata su certificati: il chip esegue le operazioni crittografiche a bordo senza mai rivelare la chiave privata alla memoria del computer.",
+    "hint": "Dispositivo crittografico sicuro (microchip protetto da PIN) con chiave privata non estraibile.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_SW_073",
+    "question": "In merito alla sicurezza delle reti Wi-Fi domestiche utilizzate dai lavoratori in smart working, quale configurazione è FORTEMENTE sconsigliata?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mantenere la password predefinita di fabbrica dell'amministratore del router e utilizzare protocolli di cifratura obsoleti come WEP o WPA-TKIP"
+      },
+      {
+        "id": "B",
+        "text": "Impostare una password complessa di almeno 16 caratteri con cifratura WPA2/WPA3-AES"
+      },
+      {
+        "id": "C",
+        "text": "Aggiornare regolarmente il firmware del modem router"
+      },
+      {
+        "id": "D",
+        "text": "Disattivare il protocollo WPS (Wi-Fi Protected Setup) vulnerabile a brute-force"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Lasciare le credenziali di fabbrica o usare WEP (compromesso in pochi minuti da tool banali) espone il modem ad accessi abusivi e dirottamento DNS, mettendo a rischio la sicurezza del lavoratore.",
+    "hint": "Password di default e WEP/TKIP rappresentano gravissime vulnerabilità di sicurezza.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_SW_074",
+    "question": "Che cos'è un 'TURN' (Traversal Using Relays around NAT) server nel funzionamento delle comunicazioni audio/video in smart working?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un interruttore per spegnere le luci dell'ufficio a distanza"
+      },
+      {
+        "id": "B",
+        "text": "Un server di inoltro (relay) che instrada l'intero flusso multimediale audio/video quando i firewall o i NAT simmetrici dei client impediscono categoricamente la connessione peer-to-peer diretta"
+      },
+      {
+        "id": "C",
+        "text": "Un generatore di corrente di riserva"
+      },
+      {
+        "id": "D",
+        "text": "Un'applicazione per calcolare i rimborsi chilometrici"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Mentre STUN aiuta solo a scoprire l'indirizzo pubblico, TURN fa da ponte (relay) consumando banda: se i due computer remoti non riescono a parlarsi direttamente per colpa di firewall rigidi, tutto il traffico passa dal server TURN.",
+    "hint": "Server di ponte/relay per inoltrare i flussi quando la connessione diretta è bloccata.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_SW_075",
+    "question": "Nel protocollo di condivisione file cloud (es. OneDrive, Google Drive), cosa si intende per 'Selective Sync' (Sincronizzazione selettiva)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La sincronizzazione di file musicali solo durante il weekend"
+      },
+      {
+        "id": "B",
+        "text": "L'eliminazione forzata dei file creati da altri utenti"
+      },
+      {
+        "id": "C",
+        "text": "La possibilità per l'utente di scegliere quali specifiche cartelle o file del cloud scaricare e mantenere memorizzati sul disco locale del proprio PC, lasciando gli altri accessibili solo on-demand"
+      },
+      {
+        "id": "D",
+        "text": "La stampa automatica dei file con estensione .pdf"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "La sincronizzazione selettiva (o file su richiesta / Files On-Demand) evita di saturare lo spazio disco locale dei laptop dei dipendenti, scaricando i file solo al momento dell'apertura effettiva.",
+    "hint": "Permette di scegliere quali cartelle scaricare in locale per non esaurire lo spazio disco.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_SW_076",
+    "question": "Cosa stabilisce l'approccio di sicurezza 'CASB' (Cloud Access Security Broker)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un connettore metallico per il fissaggio dei monitor alle pareti"
+      },
+      {
+        "id": "B",
+        "text": "Un tipo di assicurazione sanitaria per i dipendenti statali"
+      },
+      {
+        "id": "C",
+        "text": "Un protocollo di trasmissione audio analogico"
+      },
+      {
+        "id": "D",
+        "text": "Un punto di controllo della sicurezza interposto tra gli utenti remoti e le applicazioni cloud (SaaS/IaaS), che applica policy di conformità, rilevamento minacce, crittografia e prevenzione della perdita dei dati (DLP)"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "I CASB monitorano l'uso del cloud aziendale: individuano la Shadow IT, bloccano il download di dati riservati su dispositivi personali non sicuri e verificano la conformità normativa (GDPR).",
+    "hint": "Piattaforma di sicurezza che controlla e protegge l'accesso ai servizi cloud aziendali.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_SW_077",
+    "question": "Quale applicazione o tecnologia viene impiegata dai sistemi operativi per isolare le applicazioni di lavoro aziendali dai dati personali su dispositivi mobili (Android Enterprise / Apple MDM)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Profilo di lavoro (Work Profile / Containerization applicativa)"
+      },
+      {
+        "id": "B",
+        "text": "Cancellazione dell'intera memoria microSD"
+      },
+      {
+        "id": "C",
+        "text": "Blocco permanente della fotocamera dello smartphone"
+      },
+      {
+        "id": "D",
+        "text": "Disattivazione della connessione dati 4G/5G"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il Work Profile separa a livello crittografico le app personali (WhatsApp, foto private) dalle app gestite dall'INPS (email aziendale, intranet): l'amministratore può controllare solo il container di lavoro senza invadere la privacy dell'utente.",
+    "hint": "Work Profile / Containerization per separare dati aziendali e personali sullo smartphone.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_SW_078",
+    "question": "Cosa indica il parametro 'Packet Loss' (Perdita di pacchetti) durante una sessione di smart working in videoconferenza?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il numero di lettere dell'alfabeto scritte in modo errato"
+      },
+      {
+        "id": "B",
+        "text": "La percentuale di pacchetti di dati trasmessi attraverso la rete che non riescono a raggiungere la destinazione a causa di congestione, attenuazione o problemi hardware, provocando audio a scatti o video congelato"
+      },
+      {
+        "id": "C",
+        "text": "La perdita della chiave crittografica di avvio"
+      },
+      {
+        "id": "D",
+        "text": "Lo smarrimento fisico del computer portatile"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La perdita di pacchetti (packet loss) superiore all'1-2% degrada sensibilmente le chiamate real-time; i codec moderni tentano di compensare con tecniche di Packet Loss Concealment (PLC).",
+    "hint": "Percentuale di pacchetti persi in transito che causa interruzioni audio/video.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_SW_079",
+    "question": "In una VPN aziendale, a cosa serve il protocollo di scambio chiavi 'IKEv2' (Internet Key Exchange v2)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A sincronizzare i file audio tra smartphone e autoradio"
+      },
+      {
+        "id": "B",
+        "text": "A cancellare i file temporanei dal disco C:"
+      },
+      {
+        "id": "C",
+        "text": "A negoziare in modo sicuro le associazioni di sicurezza (SA) e scambiare le chiavi crittografiche per il tunnel IPsec, garantendo riconnessioni ultra-rapide e stabili quando il dispositivo mobile cambia rete (MOBIKE)"
+      },
+      {
+        "id": "D",
+        "text": "A stampare i turni di lavoro dei dipendenti su carta A4"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "IKEv2 è ideale per lo smart working su dispositivi portatili: supporta la specifica MOBIKE, permettendo al tunnel VPN di rimanere attivo senza disconnettersi quando l'utente passa dal Wi-Fi di casa alla rete cellulare 4G/5G.",
+    "hint": "Negozia le chiavi per IPsec e supporta la mobilità tra reti Wi-Fi e cellulari (MOBIKE).",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_SW_080",
+    "question": "Quale misura organizzativa e tecnica è fondamentale per prevenire il fenomeno dell'isolamento e del sovraccarico psicologico (technostress) nei dipendenti in lavoro agile?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'obbligo di tenere la telecamera accesa ininterrottamente per 8 ore al giorno"
+      },
+      {
+        "id": "B",
+        "text": "L'installazione di software spia per registrare i movimenti del mouse del lavoratore"
+      },
+      {
+        "id": "C",
+        "text": "L'annullamento delle ferie annuali per i lavoratori da remoto"
+      },
+      {
+        "id": "D",
+        "text": "La definizione chiara di obiettivi misurabili di risultato (Project Management), fasce orarie di contatto certe, alternanza equilibrata tra lavoro in sede e da remoto e canali di comunicazione strutturati"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Lo smart working si fonda sul management per obiettivi e sull'autonomia organizzativa (L. 81/2017); il controllo invasivo a distanza è vietato dallo Statuto dei Lavoratori (art. 4 L. 300/1970) e genera stress psicofisico.",
+    "hint": "Gestione per obiettivi, fasce orarie chiare e alternanza tra sede e remoto.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_SW_081",
+    "question": "Cosa si intende per 'DLP' (Data Loss Prevention) installato sulle postazioni di lavoro dei dipendenti pubblici?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Una tecnologia che monitora e blocca tentativi non autorizzati di copiare, stampare o inviare all'esterno dati sensibili o confidenziali (es. impedendo la copia di codici fiscali o numeri di carta su chiavette USB o email personali)"
+      },
+      {
+        "id": "B",
+        "text": "Un programma per pulire le cartucce delle stampanti laser"
+      },
+      {
+        "id": "C",
+        "text": "Un protocollo di backup giornaliero su disco rigido esterno"
+      },
+      {
+        "id": "D",
+        "text": "Uno strumento per contare i caratteri digitati sulla tastiera"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il DLP analizza i dati sia a riposo (at rest), sia in transito (in transit), sia in uso (in use sull'endpoint), bloccando esfiltrazioni accidentali o malevole di dati protetti da privacy.",
+    "hint": "Tecnologia di sicurezza per prevenire la fuga e l'esfiltrazione non autorizzata di dati.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_SW_082",
+    "question": "Nelle videochiamate con Microsoft Teams o Zoom, quale funzionalità riduce il rischio di violazione della privacy domestica del lavoratore inquadrato dalla webcam?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'aumento della luminosità dello schermo del 100%"
+      },
+      {
+        "id": "B",
+        "text": "La sfocatura dello sfondo (Background Blur) o la sostituzione con un'immagine di sfondo virtuale predefinita o istituzionale"
+      },
+      {
+        "id": "C",
+        "text": "La registrazione automatica della riunione sul cloud pubblico"
+      },
+      {
+        "id": "D",
+        "text": "L'invio delle immagini alla stazione di polizia locale"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La sfocatura dello sfondo o l'uso di background virtuali evita che dettagli della propria abitazione, familiari o informazioni private siano visibili agli altri partecipanti alla conferenza.",
+    "hint": "Sfocatura o sostituzione virtuale dello sfondo per tutelare la riservatezza domestica.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_SW_083",
+    "question": "Che cos'è un attacco di tipo 'Credential Stuffing' a cui sono particolarmente esposti i servizi web aziendali accessibili da remoto?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un virus che blocca la rotellina del mouse del computer"
+      },
+      {
+        "id": "B",
+        "text": "Il furto fisico di foglietti post-it attaccati allo schermo"
+      },
+      {
+        "id": "C",
+        "text": "Un attacco automatizzato che testa milioni di coppie di username e password rubate da precedenti violazioni (data breach) su altri siti, sfruttando la pessima abitudine degli utenti di riutilizzare la medesima password su più servizi"
+      },
+      {
+        "id": "D",
+        "text": "La distruzione di cavi telefonici sottomarini"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "I bot automatizzati iniettano elenchi massivi di credenziali leakate: se un dipendente usa per la VPN aziendale la stessa password usata su un forum violato, l'account viene compromesso (si neutralizza con MFA obbligatoria).",
+    "hint": "Test automatizzato di credenziali rubate altrove per violare account che riusano la stessa password.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_SW_084",
+    "question": "Cosa stabilisce lo standard di sicurezza 'FIDO2 / WebAuthn' per l'autenticazione remota?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un software per la scansione antivirus di cartelle condivise"
+      },
+      {
+        "id": "B",
+        "text": "Una licenza d'uso commerciale per server web Apache"
+      },
+      {
+        "id": "C",
+        "text": "Un metodo per convertire i numeri binari in ottali"
+      },
+      {
+        "id": "D",
+        "text": "Consente un'autenticazione robusta e senza password (passwordless) basata su crittografia a chiave pubblica e chiavi fisiche hardware (es. YubiKey) o biometria locale (Windows Hello), totalmente immune agli attacchi di phishing convenzionali"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "FIDO2 lega la crittografia al dominio del sito: l'autenticazione avviene tramite chiave privata custodita nel dispositivo (token hardware o TPM); anche se l'utente digita su un sito di phishing, il browser non invierà mai la firma.",
+    "hint": "Standard moderno passwordless immune al phishing basato su chiavi hardware (YubiKey) o biometria.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_SW_085",
+    "question": "Quale protocollo di posta elettronica permette di mantenere le cartelle e i messaggi costantemente sincronizzati sul server aziendale e consultabili in modo coerente da smartphone, portatile e webmail?",
+    "options": [
+      {
+        "id": "A",
+        "text": "IMAP4 (Internet Message Access Protocol) / Exchange ActiveSync"
+      },
+      {
+        "id": "B",
+        "text": "POP3 semplice"
+      },
+      {
+        "id": "C",
+        "text": "SNMP"
+      },
+      {
+        "id": "D",
+        "text": "TFTP"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "A differenza di POP3 (che di default scarica i messaggi in locale e li elimina dal server), IMAP mantiene la posta sul server: lo stato 'letto', le cartelle e le bozze sono sincronizzate in tempo reale su tutti i dispositivi.",
+    "hint": "IMAP mantiene la posta sincronizzata sul server tra tutti i dispositivi del dipendente.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_SW_086",
+    "question": "Nel lavoro agile, cosa indica il termine 'Asynchronous Communication' (Comunicazione Asincrona)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La trasmissione di file audio a velocità raddoppiata"
+      },
+      {
+        "id": "B",
+        "text": "La modalità di collaborazione in cui mittente e destinatario non interagiscono nello stesso istante, consentendo di leggere e rispondere ai messaggi o documenti nei tempi più opportuni (es. tramite email, ticket, wiki o task board)"
+      },
+      {
+        "id": "C",
+        "text": "Una telefonata vocale in cui entrambi parlano contemporaneamente"
+      },
+      {
+        "id": "D",
+        "text": "Una connessione internet che si disconnette ogni 10 minuti"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La comunicazione asincrona riduce le interruzioni continue e favorisce la produttività profonda (deep work): i collaboratori non devono attendere risposte istantanee, a differenza di chiamate e videochiamate sincrone.",
+    "hint": "Comunicazione non istantanea (email, ticket) che rispetta i tempi di lavoro di ciascuno.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_SW_087",
+    "question": "Qual è il rischio informatico associato all'utilizzo di reti Wi-Fi pubbliche aperte (es. in stazioni ferroviarie, hotel o bar) senza l'uso di una VPN?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La batteria dello smartphone si scarica istantaneamente"
+      },
+      {
+        "id": "B",
+        "text": "Il monitor del computer portatile perde la calibrazione dei colori"
+      },
+      {
+        "id": "C",
+        "text": "Il traffico di rete non cifrato può essere intercettato (sniffing) da malintenzionati sulla stessa rete, o gli utenti possono essere ingannati da access point malevoli civetta (Evil Twin Attack)"
+      },
+      {
+        "id": "D",
+        "text": "I tasti della tastiera invertono automaticamente le funzioni"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Nelle reti aperte non c'è crittografia a livello radio: un attaccante con software di packet sniffing (es. Wireshark) può catturare pacchetti in chiaro o allestire un hotspot gemello malevolo per rubare dati.",
+    "hint": "Intercettazione dati (sniffing) ed hotspot contraffatti (Evil Twin) su Wi-Fi pubbliche non protette.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_SW_088",
+    "question": "In ambiente Windows, quale strumento nativo consente di eseguire l'accesso sicuro a un'altra macchina desktop visualizzandone lo schermo e controllando mouse e tastiera?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Blocco note (notepad.exe)"
+      },
+      {
+        "id": "B",
+        "text": "Calcolatrice (calc.exe)"
+      },
+      {
+        "id": "C",
+        "text": "Paint (mspaint.exe)"
+      },
+      {
+        "id": "D",
+        "text": "Connessione Desktop remoto (mstsc.exe)"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "`mstsc.exe` (Microsoft Terminal Services Client) è il client nativo di Windows per avviare sessioni grafiche remote basate sul protocollo RDP.",
+    "hint": "Comando nativo di Windows: mstsc per Connessione Desktop Remoto.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_SW_089",
+    "question": "Cosa si intende per 'Session Hijacking' (dirottamento di sessione) nel contesto del lavoro su applicazioni web aziendali?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un attacco in cui un malintenzionato sottrae l'identificativo di sessione valido (Session ID o Cookie di sessione) di un utente autenticato, potendo così impersonare la vittima sull'applicazione senza conoscere la password"
+      },
+      {
+        "id": "B",
+        "text": "L'abbandono anticipato di una riunione su Microsoft Teams"
+      },
+      {
+        "id": "C",
+        "text": "Il blocco della stampante di rete dovuto a carta inceppata"
+      },
+      {
+        "id": "D",
+        "text": "Un errore di battitura nell'indirizzo URL del sito web"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Se l'ID di sessione viene catturato (tramite XSS, packet sniffing o cookie rubati), l'attaccante può navigare l'applicazione con i privilegi della vittima. Si previene con HTTPS forzato, flag Secure, HttpOnly e SameSite nei cookie.",
+    "hint": "Furto del cookie o ID di sessione per impersonare l'utente autenticato.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_SW_090",
+    "question": "In merito alla conservazione dei dati in smart working, dove devono essere tassativamente salvati i documenti e le pratiche lavorate dal funzionario pubblico?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Esclusivamente su chiavette USB promozionali trovate nei convegni"
+      },
+      {
+        "id": "B",
+        "text": "Sui repository documentali, cartelle di rete o piattaforme cloud ufficiali e protette dell'ente, e MAI sul desktop locale o su supporti non cifrati del dispositivo personale"
+      },
+      {
+        "id": "C",
+        "text": "Su canali Telegram pubblici per facilitare l'accesso ai colleghi"
+      },
+      {
+        "id": "D",
+        "text": "Su CD-ROM non riscrivibili da conservare a casa propria"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "I dati della PA devono risiedere esclusivamente nell'infrastruttura sicura dell'ente (sottoposta a backup regolari, disaster recovery e controlli di accesso GDPR); archiviarli in locale espone a perdita o violazione del dato.",
+    "hint": "I file devono risiedere sempre nei repository istituzionali dell'amministrazione.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_SW_091",
+    "question": "Cos'è il 'Push-based MFA' (notifica push di autenticazione a due fattori su smartphone con Authenticator)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Una spinta fisica per allontanare un intruso dal computer"
+      },
+      {
+        "id": "B",
+        "text": "L'invio di lettere raccomandate per ogni accesso al sistema"
+      },
+      {
+        "id": "C",
+        "text": "Un metodo in cui l'utente riceve una notifica istantanea sull'app Authenticator con richiesta di approvazione e spesso accoppiamento numerico (number matching), più sicuro dei codici SMS intercettabili via SIM Swapping"
+      },
+      {
+        "id": "D",
+        "text": "Una telefonata preregistrata effettuata dalla segreteria"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Le notifiche push con number matching (es. Microsoft Authenticator) impediscono il 'MFA Fatigue' (spam di approvazioni) e proteggono contro l'intercettazione degli SMS (vulnerabili a SIM swap e SS7 exploit).",
+    "hint": "Notifica su app con abbinamento numerico per approvare l'accesso sicuro.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_SW_092",
+    "question": "In una rete domestica per lo smart working, a cosa serve configurare la 'Rete Ospiti' (Guest Network) sul modem Wi-Fi?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Raddoppiare la velocità della connessione in fibra ottica"
+      },
+      {
+        "id": "B",
+        "text": "Consentire ai vicini di casa di navigare gratis a spese del dipendente"
+      },
+      {
+        "id": "C",
+        "text": "Spegnere automaticamente il computer alle ore 18:00"
+      },
+      {
+        "id": "D",
+        "text": "Isolare i dispositivi smart/IoT di casa (Smart TV, telecamere, elettrodomestici) e i visitatori dalla rete principale a cui è collegato il computer di lavoro, prevenendo che malware su dispositivi IoT compromettano il PC aziendale"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Molti dispositivi IoT domestici hanno firmware vulnerabili: confinarli sulla rete Guest isola il computer di lavoro, evitando attacchi laterali da dispositivi domestici compromessi verso la rete aziendale.",
+    "hint": "Isola i dispositivi IoT domestici e gli ospiti per proteggere il computer di lavoro.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_SW_093",
+    "question": "Cosa stabilisce il protocollo di sicurezza 'OpenVPN'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un protocollo VPN open source basato sulla libreria OpenSSL, che opera sia su UDP sia su TCP (utilizzando crittografia robusta e certificati X.509) per stabilire tunnel sicuri site-to-site o client-to-server"
+      },
+      {
+        "id": "B",
+        "text": "Una rete sociale aperta per la condivisione di video musicali"
+      },
+      {
+        "id": "C",
+        "text": "Un formato aperto per documenti di testo"
+      },
+      {
+        "id": "D",
+        "text": "Un comando per formattare i dischi rigidi in Linux"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "OpenVPN è uno dei protocolli VPN più flessibili e collaudati al mondo: può essere incapsulato su porta TCP 443 per bypassare firewall restrittivi o su UDP per massimizzare la velocità.",
+    "hint": "Protocollo VPN open source ampiamente supportato basato su OpenSSL e certificati.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_SW_094",
+    "question": "Che cos'è il fenomeno del 'MFA Fatigue' (o MFA Prompt Bombing)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La stanchezza fisica dovuta alla digitazione di password complesse"
+      },
+      {
+        "id": "B",
+        "text": "Una tecnica di attacco in cui un hacker che possiede già le credenziali della vittima bombarda il suo smartphone con continue notifiche di approvazione push MFA finché l'utente esasperato preme 'Approva'"
+      },
+      {
+        "id": "C",
+        "text": "Un difetto della batteria dello smartphone che si gonfia"
+      },
+      {
+        "id": "D",
+        "text": "Un errore di compilazione in linguaggio C++"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Sfrutta la stanchezza o confusione psicologica dell'utente. Si contrasta implementando il 'Number Matching' (l'utente deve digitare sul telefono lo specifico numero mostrato a schermo) e policy di blocco tentativi.",
+    "hint": "Invio ossessivo di notifiche push di autenticazione per spingere l'utente a cliccare 'Approva'.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_SW_095",
+    "question": "Quale strumento di Microsoft 365 / Office permette di organizzare compiti, assegnare attività ai collaboratori in bacheche visive stile Kanban e monitorare lo stato di avanzamento dei progetti in smart working?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Microsoft Paint"
+      },
+      {
+        "id": "B",
+        "text": "Blocco note"
+      },
+      {
+        "id": "C",
+        "text": "Microsoft Planner (o To Do)"
+      },
+      {
+        "id": "D",
+        "text": "Windows Media Player"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Planner consente ai team di lavoro di creare bacheche con schede di attività, scadenze, etichette di priorità e grafici di avanzamento, integrandosi perfettamente all'interno di Microsoft Teams.",
+    "hint": "Strumento di project management visuale a schede Kanban integrato in Teams.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_SW_096",
+    "question": "Cosa si intende per 'Watermarking' (marcatura visibile o invisibile) sui documenti visualizzati da remoto in smart working?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La verifica che il computer sia impermeabile all'acqua"
+      },
+      {
+        "id": "B",
+        "text": "La pulizia automatica dei cookie dal browser"
+      },
+      {
+        "id": "C",
+        "text": "Un timbro digitale per la cancellazione definitiva dei file"
+      },
+      {
+        "id": "D",
+        "text": "L'apposizione automatica di un testo in sovrimpressione (es. nome del dipendente, data, ora e indirizzo IP) su schermate e documenti per scoraggiare e tracciare eventuali fotografie non autorizzate allo schermo o fughe di notizie"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Nei sistemi VDI enterprise o di consultazione fascicoli sensibili, il dynamic watermarking mostra in trasparenza l'identità di chi visualizza la pratica, disincentivando scatti fotografici con lo smartphone.",
+    "hint": "Sovrimpressione dell'identità dell'operatore per tracciare ed evitare fughe di documenti.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_SW_097",
+    "question": "In caso di furto del computer portatile aziendale con cui si lavora da remoto, qual è la prima misura tempestiva che il dipendente deve compiere?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Segnalare immediatamente l'accaduto al referente della sicurezza IT aziendale (CISO/CSIRT/Help Desk) e al Responsabile Protezione Dati (DPO) per avviare il blocco dell'account, il wipe da remoto e la notifica di Data Breach entro 72 ore, oltre a sporgere denuncia alle autorità di polizia"
+      },
+      {
+        "id": "B",
+        "text": "Acquistare un computer identico al centro commerciale per sostituirlo senza dire nulla"
+      },
+      {
+        "id": "C",
+        "text": "Attendere 30 giorni per verificare se il ladro restituisce la macchina"
+      },
+      {
+        "id": "D",
+        "text": "Cambiare solo la password di Facebook dal proprio cellulare"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Lo smarrimento di un asset aziendale contenente dati personali è un potenziale Data Breach (art. 33 GDPR): la tempestività è vitale per revocare certificati, bloccare sessioni e notificare il Garante entro 72 ore.",
+    "hint": "Segnalazione immediata a IT e DPO per blocco/remote wipe e gestione Data Breach.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_SW_098",
+    "question": "Che cos'è una scheda di rete virtuale 'TAP' rispetto a una 'TUN' utilizzata dai client VPN?",
+    "options": [
+      {
+        "id": "A",
+        "text": "TAP funziona solo senza connessione a internet"
+      },
+      {
+        "id": "B",
+        "text": "TAP simula un dispositivo di rete a livello 2 (Data Link - frame ethernet, supportando broadcast e bridging); TUN simula un dispositivo di rete a livello 3 (Network - pacchetti IP punto-a-punto)"
+      },
+      {
+        "id": "C",
+        "text": "TUN serve solo per la trasmissione di musica in streaming"
+      },
+      {
+        "id": "D",
+        "text": "Non esiste alcuna distinzione tecnica"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "TUN (network TUNnel) opera a livello IP puro (Layer 3), più veloce e adatto al routing; TAP (network TAP) simula una scheda ethernet completa (Layer 2), permettendo di trasportare traffico non-IP e broadcast.",
+    "hint": "TUN opera al livello 3 (pacchetti IP); TAP opera al livello 2 (frame Ethernet).",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_SW_099",
+    "question": "In termini di protezione dei dati sul cloud, qual è il significato del modello di 'Responsabilità Condivisa' (Shared Responsibility Model) tra cliente PA e Cloud Provider?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il cloud provider risponde penalmente di tutti gli errori commessi dai dipendenti pubblici"
+      },
+      {
+        "id": "B",
+        "text": "La PA è esentata da qualsiasi obbligo di sicurezza informatica"
+      },
+      {
+        "id": "C",
+        "text": "Il provider cloud è responsabile della sicurezza 'DEL' cloud (infrastruttura fisica, datacenter, hypervisor, reti di base); la PA cliente è responsabile della sicurezza 'NEL' cloud (dati, gestione accessi e identità, configurazioni e aggiornamenti applicativi)"
+      },
+      {
+        "id": "D",
+        "text": "Tutte le spese di sicurezza vengono addebitate ai cittadini"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Anche usando cloud qualificati da ACN, la PA non può disinteressarsi della sicurezza: configurare male i permessi, usare password deboli o non applicare cifratura ai dati ricade sotto la piena responsabilità della PA.",
+    "hint": "Provider responsabile della sicurezza 'del' cloud; cliente responsabile della sicurezza 'nel' cloud.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_SW_100",
+    "question": "Quale strumento software installato sugli endpoint aziendali raccoglie telemetria continua, rileva comportamenti anomali basati su intelligenza artificiale e consente l'isolamento automatico del PC in caso di infezione ransomware?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un semplice salvaschermo animato"
+      },
+      {
+        "id": "B",
+        "text": "Un editor di fogli di calcolo"
+      },
+      {
+        "id": "C",
+        "text": "Un lettore di file musicali MP3"
+      },
+      {
+        "id": "D",
+        "text": "EDR (Endpoint Detection and Response) / XDR"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Gli agenti EDR (es. Microsoft Defender for Endpoint, CrowdStrike) superano i vecchi antivirus a sole firme: monitorano processi e memorie, bloccano attacchi 'fileless' e isolano istantaneamente la macchina dalla rete per bloccare la diffusione di ransomware.",
+    "hint": "EDR monitora in tempo reale gli endpoint e risponde isolando la macchina infetta.",
+    "level": "intermedio"
   }
 ]

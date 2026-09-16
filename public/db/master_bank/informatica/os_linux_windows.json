@@ -5,22 +5,22 @@
     "options": [
       {
         "id": "A",
-        "text": "-h"
+        "text": "-a"
       },
       {
         "id": "B",
-        "text": "-l"
+        "text": "-h"
       },
       {
         "id": "C",
-        "text": "-a"
+        "text": "-l"
       },
       {
         "id": "D",
         "text": "-r"
       }
     ],
-    "correctAnswerId": "C",
+    "correctAnswerId": "A",
     "explanation": "L'opzione '-a' (all) indica al comando 'ls' di mostrare tutti i file, compresi quelli nascosti che iniziano con il carattere '.' (punto), come .bashrc o .profile.",
     "hint": "L'opzione deriva dalla parola inglese 'all'.",
     "level": "base"
@@ -31,11 +31,11 @@
     "options": [
       {
         "id": "A",
-        "text": "pwd"
+        "text": "path"
       },
       {
         "id": "B",
-        "text": "path"
+        "text": "pwd"
       },
       {
         "id": "C",
@@ -46,7 +46,7 @@
         "text": "whereami"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "B",
     "explanation": "Il comando 'pwd' sta per 'Print Working Directory' (stampa la directory di lavoro) e mostra il percorso assoluto della directory corrente a partire dalla root '/'.",
     "hint": "È un acronimo di tre lettere legato alla stampa della directory di lavoro.",
     "level": "base"
@@ -57,22 +57,22 @@
     "options": [
       {
         "id": "A",
-        "text": "755"
-      },
-      {
-        "id": "B",
         "text": "644"
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "777"
+      },
+      {
+        "id": "C",
+        "text": "755"
       },
       {
         "id": "D",
         "text": "711"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "C",
     "explanation": "I permessi sono divisi in tre classi: Proprietario (rwx = 4+2+1 = 7), Gruppo (r-x = 4+0+1 = 5) e Altri (r-x = 4+0+1 = 5). Pertanto, la notazione ottale è 755.",
     "hint": "Ricorda che r=4, w=2, x=1. Somma i valori separatamente per proprietario, gruppo e altri.",
     "level": "base"
@@ -87,18 +87,18 @@
       },
       {
         "id": "B",
-        "text": "grep"
-      },
-      {
-        "id": "C",
         "text": "search"
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "locate"
+      },
+      {
+        "id": "D",
+        "text": "grep"
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "D",
     "explanation": "grep (Global Regular Expression Print) cerca righe corrispondenti a un determinato pattern (o espressione regolare) all'interno dei file specificati e le stampa a schermo.",
     "hint": "Il nome deriva da una sequenza di comandi dell'editor ed: g/re/p.",
     "level": "base"
@@ -135,11 +135,11 @@
     "options": [
       {
         "id": "A",
-        "text": "-p"
+        "text": "-m"
       },
       {
         "id": "B",
-        "text": "-m"
+        "text": "-p"
       },
       {
         "id": "C",
@@ -150,7 +150,7 @@
         "text": "-f"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "B",
     "explanation": "L'opzione '-p' (parents) dice a 'mkdir' di non mostrare errori se la directory esiste già e di creare tutte le directory genitore intermedie indicate nel percorso se non sono presenti.",
     "hint": "La lettera sta per 'parents'.",
     "level": "base"
@@ -165,18 +165,18 @@
       },
       {
         "id": "B",
-        "text": "/etc/passwd"
+        "text": "/etc/users"
       },
       {
         "id": "C",
-        "text": "/etc/users"
+        "text": "/etc/passwd"
       },
       {
         "id": "D",
         "text": "/etc/group"
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "C",
     "explanation": "Il file '/etc/passwd' contiene le informazioni di base degli account utente nel formato strutturato con campi separati da due punti. Le password cifrate, invece, si trovano in '/etc/shadow'.",
     "hint": "Un file storicamente dedicato a contenere le informazioni degli utenti (un tempo anche le password in chiaro).",
     "level": "base"
@@ -187,22 +187,22 @@
     "options": [
       {
         "id": "A",
-        "text": "cat"
-      },
-      {
-        "id": "B",
         "text": "less"
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "more"
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "head"
+      },
+      {
+        "id": "D",
+        "text": "cat"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "D",
     "explanation": "Il comando 'cat' (concatenate) legge i file sequenzialmente e ne stampa il contenuto sullo standard output. Per visualizzazioni lunghe e paginate si usano invece 'less' o 'more'.",
     "hint": "È lo stesso comando usato per concatenare più file in uno solo.",
     "level": "base"
@@ -269,18 +269,18 @@
       },
       {
         "id": "B",
-        "text": "Utenti e computer di Active Directory (Active Directory Users and Computers)"
+        "text": "Editor del Registro di sistema (Regedit)"
       },
       {
         "id": "C",
-        "text": "Editor del Registro di sistema (Regedit)"
+        "text": "Utenti e computer di Active Directory (Active Directory Users and Computers)"
       },
       {
         "id": "D",
         "text": "Configurazione di sistema (Msconfig)"
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "C",
     "explanation": "Utenti e computer di Active Directory (dsa.msc) è lo strumento MMC (Microsoft Management Console) standard utilizzato per gestire oggetti comuni di AD quali utenti, contatti, gruppi e computer.",
     "hint": "Ha un nome esplicativo riferito ai due principali tipi di account gestiti.",
     "level": "base"
@@ -291,22 +291,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Process Identifier (Identificatore del Processo)"
-      },
-      {
-        "id": "B",
         "text": "Physical Interface Driver (Driver dell'Interfaccia Fisica)"
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Protocol Initialization Daemon (Demone di Inizializzazione del Protocollo)"
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "Page Index Directory (Directory dell'Indice di Pagina)"
+      },
+      {
+        "id": "D",
+        "text": "Process Identifier (Identificatore del Processo)"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "D",
     "explanation": "Il PID (Process Identifier) è un numero intero univoco assegnato dal kernel a ciascun processo attivo nel sistema operativo per poterlo tracciare e gestire.",
     "hint": "Serve a identificare in modo univoco ciascun programma in esecuzione.",
     "level": "base"
@@ -317,11 +317,11 @@
     "options": [
       {
         "id": "A",
-        "text": "ps"
+        "text": "top"
       },
       {
         "id": "B",
-        "text": "top"
+        "text": "ps"
       },
       {
         "id": "C",
@@ -332,7 +332,7 @@
         "text": "df"
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "A",
     "explanation": "Il comando 'top' fornisce una visualizzazione dinamica e in tempo reale dell'attività del sistema, mostrando i processi che consumano più risorse e statistiche generali sulle prestazioni.",
     "hint": "Il suo nome fa pensare alla parte 'più alta' o ai processi più esigenti.",
     "level": "base"
@@ -373,18 +373,18 @@
       },
       {
         "id": "B",
-        "text": "ext4"
+        "text": "FAT16"
       },
       {
         "id": "C",
-        "text": "FAT16"
+        "text": "ext4"
       },
       {
         "id": "D",
         "text": "HFS+"
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "C",
     "explanation": "ext4 (fourth extended filesystem) è il file system di default per la stragrande maggioranza delle distribuzioni Linux. Supporta volumi e file di grandi dimensioni e include il journaling.",
     "hint": "È la quarta versione del file system 'extended'.",
     "level": "base"
@@ -399,18 +399,18 @@
       },
       {
         "id": "B",
-        "text": "Il modulo software centrale che gestisce direttamente le risorse hardware e fa da interfaccia con i programmi utente."
-      },
-      {
-        "id": "C",
         "text": "Il browser web integrato nel sistema per navigare su Internet."
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "Il chip fisico saldato sulla scheda madre che contiene la memoria volatile del sistema."
+      },
+      {
+        "id": "D",
+        "text": "Il modulo software centrale che gestisce direttamente le risorse hardware e fa da interfaccia con i programmi utente."
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "D",
     "explanation": "Il kernel è il cuore del sistema operativo. Esso gestisce il processore, la memoria, i dispositivi hardware e fornisce i servizi di base per l'esecuzione dei programmi applicativi.",
     "hint": "Rappresenta il 'nocciolo' o nucleo centrale del sistema operativo.",
     "level": "base"
@@ -421,11 +421,11 @@
     "options": [
       {
         "id": "A",
-        "text": "rn"
+        "text": "mv"
       },
       {
         "id": "B",
-        "text": "mv"
+        "text": "rn"
       },
       {
         "id": "C",
@@ -436,7 +436,7 @@
         "text": "rm"
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "A",
     "explanation": "Il comando 'mv' (move) sposta o rinomina file e directory. Se la destinazione è un nome di file diverso nella stessa directory, l'effetto è la rinomina.",
     "hint": "È l'abbreviazione del verbo inglese 'move'.",
     "level": "base"
@@ -473,22 +473,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Proprietario: lettura e scrittura; Gruppo: lettura; Altri: lettura."
-      },
-      {
-        "id": "B",
         "text": "Proprietario: lettura ed esecuzione; Gruppo: scrittura; Altri: esecuzione."
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Proprietario: lettura, scrittura ed esecuzione; Gruppo: lettura; Altri: nessun permesso."
+      },
+      {
+        "id": "C",
+        "text": "Proprietario: lettura e scrittura; Gruppo: lettura; Altri: lettura."
       },
       {
         "id": "D",
         "text": "Proprietario: lettura; Gruppo: lettura; Altri: lettura e scrittura."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "C",
     "explanation": "La cifra 6 equivale a lettura e scrittura (4+2); la cifra 4 equivale a sola lettura (4). Quindi: proprietario ha lettura/scrittura (6), gruppo sola lettura (4), altri sola lettura (4).",
     "hint": "Traduci il numero ottale in binario: 6 = 110 (rw-), 4 = 100 (r--).",
     "level": "intermedio"
@@ -499,22 +499,22 @@
     "options": [
       {
         "id": "A",
-        "text": "df mostra lo spazio libero e utilizzato dei file system montati, mentre du analizza lo spazio occupato da specifici file e directory."
-      },
-      {
-        "id": "B",
         "text": "df viene usato solo per file system NTFS, mentre du solo per ext4."
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "df visualizza l'utilizzo della memoria RAM, mentre du visualizza lo spazio sul disco."
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "df crea una directory, mentre du cancella una directory vuota."
+      },
+      {
+        "id": "D",
+        "text": "df mostra lo spazio libero e utilizzato dei file system montati, mentre du analizza lo spazio occupato da specifici file e directory."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "D",
     "explanation": "df sta per 'disk free' ed esamina lo spazio a livello di intero file system. du sta per 'disk usage' e stima lo spazio occupato in modo ricorsivo da file e directory specifici.",
     "hint": "Uno sta per 'disk free' e l'altro per 'disk usage'.",
     "level": "intermedio"
@@ -525,22 +525,22 @@
     "options": [
       {
         "id": "A",
-        "text": "$*"
+        "text": "$#"
       },
       {
         "id": "B",
-        "text": "$@"
+        "text": "$*"
       },
       {
         "id": "C",
-        "text": "$#"
+        "text": "$@"
       },
       {
         "id": "D",
         "text": "$?"
       }
     ],
-    "correctAnswerId": "C",
+    "correctAnswerId": "A",
     "explanation": "In Bash, la variabile speciale '$#' restituisce il numero di argomenti passati allo script da riga di comando. Ad esempio, se si esegue './script.sh a b', '$#' conterrà 2.",
     "hint": "È un carattere che spesso rappresenta il concetto di 'numero' (cancelletto).",
     "level": "intermedio"
@@ -581,18 +581,18 @@
       },
       {
         "id": "B",
-        "text": "Memorizza le password cifrate degli utenti e le informazioni sulla scadenza della password per prevenire attacchi di tipo dizionario offline."
+        "text": "Contiene l'elenco dei servizi che devono essere eseguiti in modalità provvisoria al boot del sistema."
       },
       {
         "id": "C",
-        "text": "Contiene l'elenco dei servizi che devono essere eseguiti in modalità provvisoria al boot del sistema."
+        "text": "Memorizza le password cifrate degli utenti e le informazioni sulla scadenza della password per prevenire attacchi di tipo dizionario offline."
       },
       {
         "id": "D",
         "text": "Contiene i driver hardware proprietari caricati direttamente dal kernel in modalità protetta."
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "C",
     "explanation": "Originariamente le password cifrate erano salvate in '/etc/passwd' che è leggibile da chiunque. Per motivi di sicurezza, sono state spostate in '/etc/shadow', leggibile solo da root o utenti privilegiati, ostacolando i tentativi di cracking delle password offline.",
     "hint": "Contiene le password degli utenti sotto forma di hash crittografici.",
     "level": "intermedio"
@@ -607,18 +607,18 @@
       },
       {
         "id": "B",
-        "text": "A definire e distribuire impostazioni di configurazione e politiche di sicurezza a utenti e computer del dominio."
-      },
-      {
-        "id": "C",
         "text": "A gestire l'indirizzamento IP dinamico e la risoluzione dei nomi all'interno della rete LAN."
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "A ottimizzare l'allocazione della larghezza di banda di rete tra i vari switch."
+      },
+      {
+        "id": "D",
+        "text": "A definire e distribuire impostazioni di configurazione e politiche di sicurezza a utenti e computer del dominio."
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "D",
     "explanation": "Le GPO (Criteri di Gruppo) permettono agli amministratori di configurare impostazioni di sistema, restrizioni di sicurezza, installazione di software e comportamenti del desktop per gruppi di computer e utenti a livello centralizzato.",
     "hint": "Sono noti anche come Criteri di Gruppo e servono ad applicare regole centralizzate a computer e utenti.",
     "level": "intermedio"
@@ -685,18 +685,18 @@
       },
       {
         "id": "B",
-        "text": "Il kernel termina immediatamente il processo senza che questo possa intercettare il segnale, ripulire le risorse o salvare lo stato."
+        "text": "Il processo esegue una routine di chiusura controllata salvando le informazioni su disco."
       },
       {
         "id": "C",
-        "text": "Il processo esegue una routine di chiusura controllata salvando le informazioni su disco."
+        "text": "Il kernel termina immediatamente il processo senza che questo possa intercettare il segnale, ripulire le risorse o salvare lo stato."
       },
       {
         "id": "D",
         "text": "Il processo si riavvia in modalità provvisoria ricaricando il file di configurazione iniziale."
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "C",
     "explanation": "A differenza di SIGTERM (15) che può essere catturato o ignorato dal processo per chiudersi in modo pulito, SIGKILL (9) viene gestito direttamente dal kernel, che abbatte immediatamente il processo senza concedergli alcuna operazione di pulizia.",
     "hint": "È il segnale più drastico per terminare un processo ed è associato all'opzione -9 del comando kill.",
     "level": "intermedio"
@@ -711,18 +711,18 @@
       },
       {
         "id": "B",
-        "text": "Un processo che è terminato ma la cui voce rimane nella tabella dei processi poiché il processo padre non ha ancora letto il suo codice di stato di uscita tramite la syscall wait()."
-      },
-      {
-        "id": "C",
         "text": "Un processo in esecuzione invisibile all'amministratore che serve a infettare altri sistemi."
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "Un demone che si attiva solo quando il sistema entra in modalità di sospensione."
+      },
+      {
+        "id": "D",
+        "text": "Un processo che è terminato ma la cui voce rimane nella tabella dei processi poiché il processo padre non ha ancora letto il suo codice di stato di uscita tramite la syscall wait()."
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "D",
     "explanation": "Quando un processo figlio termina, esso rilascia quasi tutte le sue risorse ma mantiene la sua entry nella tabella dei processi (con lo stato di 'zombie') fino a quando il padre non esegue la system call wait() per raccoglierne lo stato di uscita.",
     "hint": "È un processo 'morto' ma non ancora rimosso dalla tabella dei processi del kernel.",
     "level": "intermedio"
@@ -733,11 +733,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Eseguire una copia speculare (mirroring) dell'intero disco fisso su un archivio remoto in background."
+        "text": "Annotare le modifiche ai metadati in un registro dedicato prima che vengano scritte sul disco, garantendo l'integrità del file system in caso di crash improvviso."
       },
       {
         "id": "B",
-        "text": "Annotare le modifiche ai metadati in un registro dedicato prima che vengano scritte sul disco, garantendo l'integrità del file system in caso di crash improvviso."
+        "text": "Eseguire una copia speculare (mirroring) dell'intero disco fisso su un archivio remoto in background."
       },
       {
         "id": "C",
@@ -748,7 +748,7 @@
         "text": "Criptare le informazioni sensibili degli utenti per proteggerle da accessi non autorizzati."
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "A",
     "explanation": "Il journaling registra i cambiamenti imminenti in un'area riservata (il journal). In caso di interruzione improvvisa della corrente, all'avvio successivo il sistema operativo può riparare rapidamente le incoerenze del file system leggendo il journal, senza dover scansionare l'intero disco.",
     "hint": "È una funzione di prevenzione dei guasti basata su un registro che traccia le operazioni di scrittura dei metadati del file system.",
     "level": "intermedio"
@@ -763,18 +763,18 @@
       },
       {
         "id": "B",
-        "text": "Memorizzare la tabella di routing per i pacchetti di rete."
+        "text": "Fungere da database strutturato contenente record su tutti i file e le directory presenti sul volume, incluse le relative proprietà e la collocazione fisica dei dati."
       },
       {
         "id": "C",
-        "text": "Fungere da database strutturato contenente record su tutti i file e le directory presenti sul volume, incluse le relative proprietà e la collocazione fisica dei dati."
+        "text": "Memorizzare la tabella di routing per i pacchetti di rete."
       },
       {
         "id": "D",
         "text": "Catalogare le password di tutti gli account utente locali."
       }
     ],
-    "correctAnswerId": "C",
+    "correctAnswerId": "B",
     "explanation": "La MFT è il cuore del file system NTFS. Si tratta di un database in cui ogni file o cartella sul volume corrisponde a uno o più record da 1 KB. In questi record sono archiviati attributi (nome, dimensione, date, permessi) e la posizione dei cluster di dati.",
     "hint": "È una struttura a griglia o tabella che mappa ogni singolo elemento del file system NTFS.",
     "level": "intermedio"
@@ -789,18 +789,18 @@
       },
       {
         "id": "B",
-        "text": "In User Mode il codice ha privilegi di accesso limitati e memoria protetta, mentre in Kernel Mode il codice ha accesso illimitato alle risorse hardware e di memoria del sistema."
+        "text": "La modalità Kernel viene eseguita solo quando il computer è spento o in stand-by."
       },
       {
         "id": "C",
-        "text": "La modalità Kernel viene eseguita solo quando il computer è spento o in stand-by."
+        "text": "In User Mode il codice ha privilegi di accesso limitati e memoria protetta, mentre in Kernel Mode il codice ha accesso illimitato alle risorse hardware e di memoria del sistema."
       },
       {
         "id": "D",
         "text": "I programmi grafici girano in Kernel Mode, mentre i comandi testuali a caratteri girano in User Mode."
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "C",
     "explanation": "I moderni processori supportano differenti livelli di privilegio (ring). La modalità Kernel (Ring 0) permette l'esecuzione di qualsiasi istruzione CPU e l'accesso completo all'hardware e alla memoria fisica. La modalità Utente (Ring 3) è protetta e limitata; i programmi che necessitano di accedere all'hardware devono farlo tramite system call passanti per il kernel.",
     "hint": "Pensa a quale delle due modalità richiede il massimo livello di privilegio e di vicinanza all'hardware per gestire il sistema.",
     "level": "intermedio"
@@ -811,22 +811,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Solo l'utente proprietario della directory, il proprietario del file o root può eliminare o rinominare i file all'interno di essa, anche se altri utenti hanno permessi di scrittura sulla directory stessa."
-      },
-      {
-        "id": "B",
         "text": "Tutti i file creati nella directory ereditano automaticamente il gruppo proprietario della directory anziché quello dell'utente che li ha creati."
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "La directory viene bloccata e nessun utente, ad eccezione di root, può creare file al suo interno."
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "Il sistema comprime automaticamente ogni file inserito nella directory."
+      },
+      {
+        "id": "D",
+        "text": "Solo l'utente proprietario della directory, il proprietario del file o root può eliminare o rinominare i file all'interno di essa, anche se altri utenti hanno permessi di scrittura sulla directory stessa."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "D",
     "explanation": "Lo Sticky Bit (impostato con 'chmod +t' o 1 davanti ai permessi ottali) in una directory condivisa in cui molti hanno diritti di scrittura (come /tmp) garantisce la sicurezza impedendo che un utente possa cancellare o rinominare i file creati da un altro utente.",
     "hint": "Viene utilizzato su /tmp per evitare che gli utenti si cancellino i file a vicenda.",
     "level": "intermedio"
@@ -837,11 +837,11 @@
     "options": [
       {
         "id": "A",
-        "text": "tar -czvf"
+        "text": "tar -xzvf"
       },
       {
         "id": "B",
-        "text": "tar -xzvf"
+        "text": "tar -czvf"
       },
       {
         "id": "C",
@@ -852,7 +852,7 @@
         "text": "tar -d"
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "A",
     "explanation": "Le opzioni indicano rispettivamente: '-x' per estrarre (extract), '-z' per gestire la compressione gzip, '-v' per mostrare i file elaborati (verbose) e '-f' per specificare il file di input (file).",
     "hint": "La lettera fondamentale per l'estrazione è la 'x' (extract), mentre 'c' serve per creare.",
     "level": "intermedio"
@@ -893,18 +893,18 @@
       },
       {
         "id": "B",
-        "text": "Stop-Process"
+        "text": "Remove-Process"
       },
       {
         "id": "C",
-        "text": "Remove-Process"
+        "text": "Stop-Process"
       },
       {
         "id": "D",
         "text": "End-Process"
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "C",
     "explanation": "Il cmdlet 'Stop-Process' interrompe uno o più processi in esecuzione in ambiente PowerShell. È possibile specificare il processo tramite il parametro '-Name' o '-Id'.",
     "hint": "PowerShell usa la convenzione Verbo-Sostantivo; il verbo per fermare qualcosa è 'Stop'.",
     "level": "intermedio"
@@ -915,22 +915,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Directory: rwxr-x--- (750); File: rw-r----- (640)."
-      },
-      {
-        "id": "B",
         "text": "Directory: rwxr-xr-x (755); File: rw-r--r-- (644)."
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Directory: rwx-w-r-x (725); File: rw--w-r-- (624)."
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "Directory: rwxrwx--- (770); File: rw-rw---- (660)."
+      },
+      {
+        "id": "D",
+        "text": "Directory: rwxr-x--- (750); File: rw-r----- (640)."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "D",
     "explanation": "I permessi massimi di partenza sono 777 per le directory e 666 per i file. Sottraendo (tramite operazione logica AND NOT) la maschera umask 027 si ottiene: 777 - 027 = 750 (rwxr-x---) per le directory, e 666 - 027 = 640 (rw-r-----) per i file (ricordando che i file ordinari non hanno il bit di esecuzione attivo di base).",
     "hint": "Ricorda che la umask sottrae permessi dai massimi teorici. Con umask 027, gli 'others' (l'ultima cifra, 7) perderanno tutti i permessi (r, w, x).",
     "level": "avanzato"
@@ -941,11 +941,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Lo script crea un processo figlio in background tramite fork, lasciando lo shell corrente in attesa."
+        "text": "Il processo corrente della shell viene interamente sostituito dal processo del 'comando' specificato, senza che avvenga una fork. Al termine del comando, lo script originale non prosegue."
       },
       {
         "id": "B",
-        "text": "Il processo corrente della shell viene interamente sostituito dal processo del 'comando' specificato, senza che avvenga una fork. Al termine del comando, lo script originale non prosegue."
+        "text": "Lo script crea un processo figlio in background tramite fork, lasciando lo shell corrente in attesa."
       },
       {
         "id": "C",
@@ -956,7 +956,7 @@
         "text": "Viene forzato lo svuotamento della cache della memoria RAM associata allo script."
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "A",
     "explanation": "La chiamata di sistema exec sovrascrive lo spazio di indirizzamento del processo corrente con il nuovo programma. Il PID rimane lo stesso, ma il codice dello script Bash non esiste più in memoria, quindi le righe successive non verranno mai eseguite.",
     "hint": "Il comando sostituisce l'immagine del processo corrente con il nuovo eseguibile, senza creare un nuovo PID.",
     "level": "avanzato"
@@ -967,11 +967,11 @@
     "options": [
       {
         "id": "A",
-        "text": "find /var/log -name \"*.log\" -size +100M -exec rm {} \\;"
+        "text": "find /var/log -type f -name \"*.log\" -size 100M | rm"
       },
       {
         "id": "B",
-        "text": "find /var/log -type f -name \"*.log\" -size 100M | rm"
+        "text": "find /var/log -name \"*.log\" -size +100M -exec rm {} \\;"
       },
       {
         "id": "C",
@@ -982,7 +982,7 @@
         "text": "grep -r \"*.log\" /var/log --size +100M -delete"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "B",
     "explanation": "Il comando 'find' cerca ricorsivamente. '-name \"*.log\"' filtra per nome, '-size +100M' seleziona file superiori a 100 MB, e '-exec rm {} \\;' esegue il comando 'rm' su ciascun file trovato rimpiazzando '{}' col percorso del file.",
     "hint": "find richiede l'opzione -exec seguita dal comando da eseguire, terminando con '\\;' (o con '+' per passaggi multipli).",
     "level": "avanzato"
@@ -997,18 +997,18 @@
       },
       {
         "id": "B",
-        "text": "L'eseguibile viene eseguito con i privilegi dell'utente proprietario del file anziché con i privilegi dell'utente che ha effettivamente lanciato il comando."
+        "text": "Il file viene contrassegnato come di sistema e non può essere modificato fino al riavvio."
       },
       {
         "id": "C",
-        "text": "Il file viene contrassegnato come di sistema e non può essere modificato fino al riavvio."
+        "text": "L'eseguibile viene eseguito con i privilegi dell'utente proprietario del file anziché con i privilegi dell'utente che ha effettivamente lanciato il comando."
       },
       {
         "id": "D",
         "text": "L'eseguibile viene inserito nello spazio di indirizzamento riservato al kernel durante l'esecuzione."
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "C",
     "explanation": "Il SetUID (Set User ID) consente a chiunque esegua il file di assumere temporaneamente i privilegi del proprietario del file (spesso root) per la durata dell'esecuzione. Un esempio classico è '/usr/bin/passwd', che deve poter modificare il file protetto '/etc/shadow'.",
     "hint": "Permette a un utente comune di lanciare un programma che si comporterà come se fosse eseguito dal proprietario del file stesso.",
     "level": "avanzato"
@@ -1023,18 +1023,18 @@
       },
       {
         "id": "B",
-        "text": "Generare e ottimizzare automaticamente la topologia di replica all'interno e tra i siti di Active Directory."
-      },
-      {
-        "id": "C",
         "text": "Verificare che lo schema del database Active Directory non contenga definizioni duplicate o corrotte."
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "Analizzare l'hardware del Domain Controller per verificarne la compatibilità con le licenze software."
+      },
+      {
+        "id": "D",
+        "text": "Generare e ottimizzare automaticamente la topologia di replica all'interno e tra i siti di Active Directory."
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "D",
     "explanation": "Il KCC è un processo integrato che viene eseguito su tutti i Domain Controller. Esso crea e mantiene in modo dinamico la topologia di replica logica per la replica intra-sito e inter-sito, adattandosi ad aggiunte/rimozioni di controller di dominio o a guasti della rete.",
     "hint": "Ha a che fare con la 'consistenza' e l'efficienza della mappa di replica del database di directory.",
     "level": "avanzato"
@@ -1101,18 +1101,18 @@
       },
       {
         "id": "B",
-        "text": "Un inode è una struttura dati che memorizza i metadati di un file (eccetto nome e dati effettivi). Se gli inode terminano, non sarà più possibile creare alcun file o directory sul disco, indipendentemente dallo spazio disponibile."
+        "text": "Un inode è la tabella delle password del file system; se terminano, gli utenti non possono più autenticarsi."
       },
       {
         "id": "C",
-        "text": "Un inode è la tabella delle password del file system; se terminano, gli utenti non possono più autenticarsi."
+        "text": "Un inode è una struttura dati che memorizza i metadati di un file (eccetto nome e dati effettivi). Se gli inode terminano, non sarà più possibile creare alcun file o directory sul disco, indipendentemente dallo spazio disponibile."
       },
       {
         "id": "D",
         "text": "Un inode memorizza il backup del boot sector; la sua mancanza impedisce al sistema operativo di avviarsi."
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "C",
     "explanation": "L'inode contiene informazioni essenziali come permessi, proprietario, timestamp e puntatori ai blocchi di dati. Poiché ogni file/directory consuma un inode, l'esaurimento degli inode impedisce la creazione di ulteriori file, anche se c'è spazio libero residuo in byte.",
     "hint": "Ogni file corrisponde a un inode. Senza indici, non si possono catalogare nuovi oggetti sul file system.",
     "level": "avanzato"
@@ -1127,18 +1127,18 @@
       },
       {
         "id": "B",
-        "text": "Un hard link è una nuova voce di directory che punta direttamente allo stesso numero di inode del file originale, mentre un soft link è un file speciale contenente il percorso testuale del file di destinazione."
-      },
-      {
-        "id": "C",
         "text": "Eliminando il file originale, l'hard link si corrompe (diventa 'broken link'), mentre il soft link continua a funzionare regolarmente."
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "Gli hard link sono supportati solo in ext4, mentre i soft link solo su NTFS."
+      },
+      {
+        "id": "D",
+        "text": "Un hard link è una nuova voce di directory che punta direttamente allo stesso numero di inode del file originale, mentre un soft link è un file speciale contenente il percorso testuale del file di destinazione."
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "D",
     "explanation": "Un hard link incrementa il link counter dell'inode esistente; i dati permangono finché almeno un link punta a quell'inode. Un soft link ha un suo inode separato che contiene una stringa con il percorso del file target; se il target viene rimosso, il soft link diventa orfano e inutilizzabile.",
     "hint": "L'hard link condivide l'inode del file di origine; il soft link contiene semplicemente un percorso testuale.",
     "level": "avanzato"
@@ -1205,18 +1205,18 @@
       },
       {
         "id": "B",
-        "text": "Utilizza un albero rosso-nero (red-black tree) per tenere traccia del tempo di esecuzione virtuale (vruntime) dei processi, assegnando la CPU al processo che ha accumulato il minor vruntime."
+        "text": "Favorisce esclusivamente i processi che fanno massiccio uso di operazioni di Input/Output penalizzando costantemente i calcoli matematici."
       },
       {
         "id": "C",
-        "text": "Favorisce esclusivamente i processi che fanno massiccio uso di operazioni di Input/Output penalizzando costantemente i calcoli matematici."
+        "text": "Utilizza un albero rosso-nero (red-black tree) per tenere traccia del tempo di esecuzione virtuale (vruntime) dei processi, assegnando la CPU al processo che ha accumulato il minor vruntime."
       },
       {
         "id": "D",
         "text": "Alloca la CPU al processo che ha la dimensione in byte minore in memoria RAM."
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "C",
     "explanation": "Il CFS mira a simulare un 'hardware di multitasking ideale'. Utilizza la metrica vruntime (virtual runtime) per registrare quanta CPU ha consumato un processo, pesandola in base alla sua priorità (valore di nice). I processi pronti sono memorizzati in un albero rosso-nero auto-bilanciante; il CFS seleziona costantemente il nodo più a sinistra, che rappresenta il processo con il minor vruntime.",
     "hint": "Si basa su una struttura dati ad albero auto-bilanciante per minimizzare il vruntime dei processi pronti.",
     "level": "avanzato"
@@ -1231,18 +1231,18 @@
       },
       {
         "id": "B",
-        "text": "while IFS= read -r line; do echo \"$line\"; done < file.txt"
-      },
-      {
-        "id": "C",
         "text": "foreach line (cat file.txt) { echo $line }"
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "cat file.txt | for line; do echo $line; done"
+      },
+      {
+        "id": "D",
+        "text": "while IFS= read -r line; do echo \"$line\"; done < file.txt"
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "D",
     "explanation": "L'approccio 'for line in $(cat file.txt)' fallisce se le righe contengono spazi, in quanto Bash usa lo spazio come delimitatore di default (IFS). Il metodo robusto e corretto è l'uso di 'while read' combinato con 'IFS=' (per preservare spazi iniziali e finali) e '-r' (per impedire l'interpretazione dei caratteri di backslash).",
     "hint": "La redirezione '< file.txt' combinata con 'while read' legge in modo sicuro l'input riga per riga.",
     "level": "avanzato"
@@ -1253,11 +1253,11 @@
     "options": [
       {
         "id": "A",
-        "text": "È la chiave di cifratura utilizzata per proteggere le comunicazioni tra i vari client e il server DNS."
+        "text": "È un ticket emesso dal KDC (Key Distribution Center) dopo la prima autenticazione dell'utente, utilizzato per richiedere ticket di servizio specifici per accedere alle risorse di rete senza dover reinserire le credenziali."
       },
       {
         "id": "B",
-        "text": "È un ticket emesso dal KDC (Key Distribution Center) dopo la prima autenticazione dell'utente, utilizzato per richiedere ticket di servizio specifici per accedere alle risorse di rete senza dover reinserire le credenziali."
+        "text": "È la chiave di cifratura utilizzata per proteggere le comunicazioni tra i vari client e il server DNS."
       },
       {
         "id": "C",
@@ -1268,7 +1268,7 @@
         "text": "È una password temporanea generata ogni 30 secondi per l'autenticazione a due fattori."
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "A",
     "explanation": "L'utente invia le sue credenziali al KDC (Authentication Service). Se corrette, riceve un TGT cifrato. Successivamente, quando l'utente vuole accedere a un servizio (es. una cartella condivisa), presenta il suo TGT al Ticket Granting Service (TGS) per ottenere un ticket di servizio specifico, abilitando il Single Sign-On (SSO).",
     "hint": "È un ticket speciale che serve a 'ottenere altri ticket' per i singoli servizi della rete senza ripetere il login.",
     "level": "avanzato"
@@ -1279,11 +1279,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Invia il segnale SIGTERM che richiede una terminazione pulita al processo; è identico al comportamento di default di kill."
+        "text": "Invia il segnale SIGKILL che termina immediatamente il processo; kill senza argomenti invia invece SIGSTOP."
       },
       {
         "id": "B",
-        "text": "Invia il segnale SIGKILL che termina immediatamente il processo; kill senza argomenti invia invece SIGSTOP."
+        "text": "Invia il segnale SIGTERM che richiede una terminazione pulita al processo; è identico al comportamento di default di kill."
       },
       {
         "id": "C",
@@ -1294,9 +1294,1309 @@
         "text": "Invia il segnale SIGHUP che forza il processo a ricaricare i file di configurazione."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "B",
     "explanation": "Il comando 'kill' senza specificare un segnale invia per impostazione predefinita il segnale numero 15, ossia SIGTERM (Signal Terminate). Questo segnale può essere catturato dal processo, consentendogli di chiudere i descrittori di file, liberare risorse e salvare lo stato prima di terminare.",
     "hint": "Il segnale 15 corrisponde a SIGTERM ed è esattamente il comportamento di default del comando 'kill'.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_OS_051",
+    "question": "Nel sistema operativo Linux, qual è il gestore di sistema e dei servizi (init system) adottato come standard dalla maggior parte delle distribuzioni moderne (Debian, Ubuntu, RHEL, CentOS)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "SysVinit"
+      },
+      {
+        "id": "B",
+        "text": "Upstart"
+      },
+      {
+        "id": "C",
+        "text": "systemd"
+      },
+      {
+        "id": "D",
+        "text": "OpenRC"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "systemd è l'init system e gestore di servizi predefinito su Linux moderno: gestisce l'avvio parallelo dei demoni, le unit (.service, .target, .socket) e il logging unificato con journalctl.",
+    "hint": "L'init system moderno di Linux basato sul comando systemctl.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_OS_052",
+    "question": "In ambiente Linux, con quale comando si visualizzano in tempo reale i processi in esecuzione, l'uso di CPU, memoria e swap?",
+    "options": [
+      {
+        "id": "A",
+        "text": "ls -la"
+      },
+      {
+        "id": "B",
+        "text": "cat /etc/passwd"
+      },
+      {
+        "id": "C",
+        "text": "chmod 777"
+      },
+      {
+        "id": "D",
+        "text": "top (oppure htop)"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "`top` (o l'alternativa avanzata `htop`) fornisce una panoramica interattiva in tempo reale sui processi attivi, percentuali di carico CPU, memoria allocata e tempo di uptime.",
+    "hint": "Comando per monitorare dinamicamente i processi di sistema in tempo reale.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_OS_053",
+    "question": "In Linux, cosa rappresenta il valore ottale '755' applicato ai permessi di un file con il comando 'chmod 755 script.sh'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Proprietario: lettura, scrittura, esecuzione (rwx); Gruppo: lettura ed esecuzione (r-x); Altri: lettura ed esecuzione (r-x)"
+      },
+      {
+        "id": "B",
+        "text": "Tutti gli utenti hanno permessi di scrittura illimitati"
+      },
+      {
+        "id": "C",
+        "text": "Il file è crittografato e accessibile solo da root"
+      },
+      {
+        "id": "D",
+        "text": "Il file può essere modificato solo dopo aver riavviato la macchina"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "In notazione ottale: r=4, w=2, x=1. 7 = 4+2+1 (rwx per l'owner); 5 = 4+1 (r-x per il group); 5 = 4+1 (r-x per others).",
+    "hint": "7 (4+2+1) per il proprietario, 5 (4+1) per gruppo e altri utenti.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_OS_054",
+    "question": "Quale file di configurazione in Linux definisce i punti di montaggio statici dei filesystem e delle partizioni all'avvio del sistema?",
+    "options": [
+      {
+        "id": "A",
+        "text": "/etc/hosts"
+      },
+      {
+        "id": "B",
+        "text": "/etc/fstab"
+      },
+      {
+        "id": "C",
+        "text": "/etc/resolv.conf"
+      },
+      {
+        "id": "D",
+        "text": "/var/log/syslog"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "`/etc/fstab` (File System Table) elenca i dispositivi a blocchi, i loro UUID, i punti di montaggio (mount point), i tipi di filesystem (ext4, xfs) e le opzioni di montaggio automatico al boot.",
+    "hint": "File System Table = fstab.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_OS_055",
+    "question": "In Windows Server e ambienti Active Directory Domain Services (AD DS), cosa sono i 'Group Policy Objects' (GPO)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "I gruppi di lavoro creati su WhatsApp per comunicare tra colleghi"
+      },
+      {
+        "id": "B",
+        "text": "I moduli di espansione fisica della memoria RAM del server"
+      },
+      {
+        "id": "C",
+        "text": "Insiemi di impostazioni di configurazione centralizzate che gli amministratori applicano a utenti e computer appartenenti a un dominio o a specifiche Unità Organizzative (OU)"
+      },
+      {
+        "id": "D",
+        "text": "Certificati cartacei rilasciati dopo un corso di formazione"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Le GPO consentono di gestire centralmente configurazioni di sicurezza, policy di password, blocco periferiche USB, installazione software e restrizioni desktop per migliaia di postazioni nel dominio.",
+    "hint": "Criteri di gruppo centralizzati in Active Directory per utenti e computer.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_OS_056",
+    "question": "Cosa si intende per 'Spazio Utente' (User Space) e 'Spazio Kernel' (Kernel Space) nei sistemi operativi moderni?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La dimensione fisica dell'hard disk riservata ai file personali dell'utente"
+      },
+      {
+        "id": "B",
+        "text": "L'area dello schermo visibile prima del login"
+      },
+      {
+        "id": "C",
+        "text": "Il limite di tempo di utilizzo del computer stabilito dal contratto di lavoro"
+      },
+      {
+        "id": "D",
+        "text": "Una separazione di privilegi di memoria: il kernel opera in modalità privilegiata (Ring 0) con accesso diretto all'hardware, mentre le applicazioni utente girano in Ring 3 con accesso controllato tramite System Calls"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Questa separazione architetturale (protezione ad anelli, tipicamente Ring 0 e Ring 3 x86) isola i processi utente difettosi o malevoli, impedendo loro di corrompere la memoria del kernel o crashare l'intero sistema.",
+    "hint": "Ring 0 (kernel privilegiato) vs Ring 3 (applicazioni utente isolate con chiamate di sistema).",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_OS_057",
+    "question": "In PowerShell su Windows, quale cmdlet viene utilizzato per recuperare informazioni sui processi in esecuzione nel sistema?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Get-Process"
+      },
+      {
+        "id": "B",
+        "text": "Show-Task"
+      },
+      {
+        "id": "C",
+        "text": "Find-Execution"
+      },
+      {
+        "id": "D",
+        "text": "Select-Program"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "PowerShell segue la convenzione Verbo-Sostantivo: `Get-Process` (alias `gps` o `ps`) restituisce oggetti processo .NET con ID, CPU, memoria e handle.",
+    "hint": "Convenzione standard Verbo-Sostantivo in PowerShell: Get-Process.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_OS_058",
+    "question": "Nel filesystem NTFS di Windows, qual è la differenza tra 'Permessi Condivisione' (Share Permissions) e 'Permessi NTFS' (NTFS Permissions)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "I permessi NTFS funzionano solo per gli amministratori di dominio"
+      },
+      {
+        "id": "B",
+        "text": "I permessi di condivisione si applicano solo all'accesso via rete, mentre i permessi NTFS si applicano sia localmente sia via rete; quando combinati, prevale il permesso più restrittivo"
+      },
+      {
+        "id": "C",
+        "text": "I permessi di condivisione crittografano i file con algoritmo BitLocker"
+      },
+      {
+        "id": "D",
+        "text": "Non vi è alcuna differenza, condividono la stessa tabella ACL"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Se una cartella è condivisa in rete, l'utente è soggetto sia ai permessi di Share sia a quelli NTFS della cartella/file: il sistema calcola l'intersezione applicando la restrizione più severa (most restrictive wins).",
+    "hint": "Prevale sempre la combinazione più restrittiva tra Share ed NTFS.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_OS_059",
+    "question": "In Linux, cosa fa il demone 'cron'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sincronizza l'orologio con i satelliti GPS"
+      },
+      {
+        "id": "B",
+        "text": "Misura la velocità di scrittura dell'hard disk"
+      },
+      {
+        "id": "C",
+        "text": "Esegue pianificazioni di comandi, script e compiti automatici a orari, giorni o intervalli periodici prefissati (definiti nei file crontab)"
+      },
+      {
+        "id": "D",
+        "text": "Gestisce le finestre dell'interfaccia grafica X11"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "cron è lo scheduler fondamentale di Linux: legge le configurazioni crontab (es. `0 2 * * * backup.sh` per le 2:00 di notte) ed esegue i job in background.",
+    "hint": "Scheduler di processi e script pianificati in ambiente Linux/Unix.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_OS_060",
+    "question": "Cos'è la memoria 'Swap' in Linux (o il file 'pagefile.sys' in Windows)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Una scheda di memoria aggiuntiva inserita in una presa USB"
+      },
+      {
+        "id": "B",
+        "text": "La memoria cache L1 della CPU"
+      },
+      {
+        "id": "C",
+        "text": "Una cartella riservata ai file del cestino"
+      },
+      {
+        "id": "D",
+        "text": "Uno spazio su memoria di massa (disco o partizione) utilizzato dal sistema operativo per estendere la memoria virtuale, trasferendovi pagine di memoria RAM inattive quando la RAM fisica scarseggia"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Il paging/swapping consente al gestore della memoria virtuale (VMM) di spostare blocchi di dati (pagine) tra RAM e disco, evitando il blocco immediato per esaurimento memoria (OOM), al costo di tempi di accesso più lenti.",
+    "hint": "Spazio su disco per estendere virtualmente la RAM fisica.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_OS_061",
+    "question": "Quale comando Linux consente di terminare forzatamente e immediatamente un processo conoscendone il PID (Process ID)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "kill -9 <PID> (oppure kill -SIGKILL <PID>)"
+      },
+      {
+        "id": "B",
+        "text": "exit <PID>"
+      },
+      {
+        "id": "C",
+        "text": "stop -force <PID>"
+      },
+      {
+        "id": "D",
+        "text": "delete <PID>"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il segnale 9 (SIGKILL) è un segnale non intercettabile né ignorabile dal processo: il kernel termina immediatamente il processo e ne dealloca le risorse.",
+    "hint": "SIGKILL (segnale 9) termina forzatamente il processo a livello di kernel.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_OS_062",
+    "question": "Cosa si intende per 'Kerberos' nell'infrastruttura di autenticazione di Windows Active Directory?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un malware che cripta i file e chiede un riscatto in criptovalute"
+      },
+      {
+        "id": "B",
+        "text": "Un protocollo di autenticazione di rete a chiave simmetrica basato su ticket (TGT e Service Ticket) rilasciati dal KDC (Key Distribution Center), che impedisce la trasmissione di password in chiaro sulla rete"
+      },
+      {
+        "id": "C",
+        "text": "Il browser web sviluppato dalla Microsoft per gli uffici ministeriali"
+      },
+      {
+        "id": "D",
+        "text": "Un cavo di alimentazione schermato per rack industriali"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Kerberos v5 è il protocollo di autenticazione predefinito in Active Directory: un client si autentica al KDC (sul Domain Controller), ottiene un Ticket-Granting Ticket (TGT) e lo usa per richiedere ticket di servizio senza mai inviare la password sulla rete.",
+    "hint": "Protocollo di autenticazione basato su ticket del KDC per Single Sign-On sicuro in rete.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_OS_063",
+    "question": "In ambiente Linux, qual è la funzione del comando 'grep'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Creare un archivio compresso di backup"
+      },
+      {
+        "id": "B",
+        "text": "Modificare la password dell'amministratore di sistema"
+      },
+      {
+        "id": "C",
+        "text": "Cercare stringhe di testo o pattern basati su espressioni regolari all'interno di file o dall'input standard (stdin)"
+      },
+      {
+        "id": "D",
+        "text": "Riavviare la scheda di rete wireless"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "`grep` (Global Regular Expression Print) analizza il testo riga per riga e stampa tutte le righe corrispondenti al pattern o espressione regolare specificata.",
+    "hint": "Comando principe per la ricerca di testo e pattern regex nei file.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_OS_064",
+    "question": "Che cos'è il 'Registro di sistema' (Windows Registry) nei sistemi operativi Microsoft?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il libro mastro cartaceo su cui annotare i numeri di inventario dei monitor"
+      },
+      {
+        "id": "B",
+        "text": "Un software per la gestione dei turni del personale di segreteria"
+      },
+      {
+        "id": "C",
+        "text": "L'elenco degli indirizzi IP bloccati dal provider internet"
+      },
+      {
+        "id": "D",
+        "text": "Un database gerarchico centralizzato (organizzato in Hive come HKEY_LOCAL_MACHINE e HKEY_CURRENT_USER) che memorizza le impostazioni di configurazione dell'hardware, del sistema operativo, dei driver e delle applicazioni"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Il Registry di Windows è il repository centrale di configurazione accessibile tramite l'editor `regedit`, strutturato ad albero con chiavi e valori binari, stringhe e DWORD.",
+    "hint": "Database gerarchico di configurazione di Windows (HKEY_...).",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_OS_065",
+    "question": "In Linux, cosa indica il 'Load Average' mostrato dal comando 'uptime' con tre valori numerici (es. 0.50, 1.20, 2.10)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il numero medio di processi in stato di esecuzione (running) o in attesa non interrompibile di I/O (uninterruptible sleep) calcolato rispettivamente nell'ultimo minuto, negli ultimi 5 minuti e negli ultimi 15 minuti"
+      },
+      {
+        "id": "B",
+        "text": "La percentuale di batteria residua per ciascuna cella"
+      },
+      {
+        "id": "C",
+        "text": "Il consumo in Kilowattora delle ultime tre ore"
+      },
+      {
+        "id": "D",
+        "text": "Il numero di tentativi falliti di accesso via SSH"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "I tre numeri del Load Average rappresentano il carico di lavoro del sistema su 1, 5 e 15 minuti. Su un sistema con 4 core, un load average di 4.00 corrisponde al 100% di saturazione.",
+    "hint": "Carico medio dei processi in coda o in esecuzione su 1, 5 e 15 minuti.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_OS_066",
+    "question": "In Windows Server, quale ruolo gestisce la risoluzione dei nomi di dominio (FQDN) in indirizzi IP numerici all'interno della rete aziendale?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Server DHCP (Dynamic Host Configuration Protocol)"
+      },
+      {
+        "id": "B",
+        "text": "Server DNS (Domain Name System)"
+      },
+      {
+        "id": "C",
+        "text": "Server WINS (Windows Internet Name Service)"
+      },
+      {
+        "id": "D",
+        "text": "Server RADIUS"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il ruolo DNS Server in Windows è indispensabile per Active Directory, mappando nomi host (es. `server01.inps.it`) a indirizzi IP e pubblicando record SRV per localizzare i domain controller.",
+    "hint": "Risoluzione da nomi a indirizzi IP = DNS.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_OS_067",
+    "question": "Quale comando Linux consente di cambiare il proprietario (user) e il gruppo di un file o di una directory?",
+    "options": [
+      {
+        "id": "A",
+        "text": "chmod 777 nomefile"
+      },
+      {
+        "id": "B",
+        "text": "mv nomefile utente"
+      },
+      {
+        "id": "C",
+        "text": "chown utente:gruppo nomefile"
+      },
+      {
+        "id": "D",
+        "text": "passwd utente"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "`chown` (Change Owner) modifica il proprietario e opzionalmente il gruppo assegnato (`chown user:group file`). Con l'opzione `-R` agisce ricorsivamente.",
+    "hint": "Change Owner = chown.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_OS_068",
+    "question": "Nel registro eventi di Windows (Event Viewer), quali sono i tre registri principali di sistema storici?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Audio, Video e Grafica"
+      },
+      {
+        "id": "B",
+        "text": "Hardware, Software e Reti"
+      },
+      {
+        "id": "C",
+        "text": "Browser, Email e Chat"
+      },
+      {
+        "id": "D",
+        "text": "Applicazione (Application), Sicurezza (Security) e Sistema (System)"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "I registri cardine di Windows sono: System (eventi del kernel e driver), Application (eventi dei programmi installati) e Security (eventi di audit, logon/logoff e accessi alle risorse).",
+    "hint": "I tre registri storici fondamentali di Windows: Application, Security, System.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_OS_069",
+    "question": "Cosa si intende per 'Inode' in un filesystem Unix/Linux (come ext4)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Una struttura dati su disco che memorizza tutti i metadati di un file (dimensione, permessi, UID/GID, timestamp, puntatori ai blocchi di dati fisici) ad eccezione del nome del file e del contenuto vero e proprio"
+      },
+      {
+        "id": "B",
+        "text": "L'icona visualizzata sul desktop dell'utente"
+      },
+      {
+        "id": "C",
+        "text": "La password cifrata dell'utente di sistema"
+      },
+      {
+        "id": "D",
+        "text": "Il comando per avviare il browser web in modalità provvisoria"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'inode contiene tutti i metadati del file e i puntatori ai blocchi dati su disco. Il nome del file è invece conservato nella directory, che funge da mappa tra stringhe di testo e numeri di inode.",
+    "hint": "Struttura che memorizza i metadati del file e i puntatori ai blocchi fisici.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_OS_070",
+    "question": "In Windows, che cosa fa lo strumento 'Sysprep' (System Preparation Tool)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ripara automaticamente i pixel bruciati del monitor"
+      },
+      {
+        "id": "B",
+        "text": "Generalizza un'installazione di Windows rimuovendo informazioni specifiche del sistema (come il SID del computer) per renderla pronta per la clonazione e distribuzione massiva tramite immagini (imaging)"
+      },
+      {
+        "id": "C",
+        "text": "Cancella la cronologia di navigazione di tutti gli utenti"
+      },
+      {
+        "id": "D",
+        "text": "Crea una nuova partizione formattata in FAT32"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "`sysprep /generalize` rimuove il SID univoco della macchina, i driver specifici e reimposta la fase OOBE (Out-of-Box Experience), consentendo di distribuire l'immagine su centinaia di PC aziendali senza conflitti di SID.",
+    "hint": "Prepara e generalizza l'immagine di Windows per la clonazione massiva senza duplicati di SID.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_OS_071",
+    "question": "In Linux, qual è la funzione del comando 'tar -czvf backup.tar.gz /var/www'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Estrae il contenuto di un file ZIP nella cartella temporanea"
+      },
+      {
+        "id": "B",
+        "text": "Elimina in modo sicuro i file di log più vecchi di 30 giorni"
+      },
+      {
+        "id": "C",
+        "text": "Crea un archivio compresso con gzip contenente la directory specificata, mostrando l'output dettagliato a terminale"
+      },
+      {
+        "id": "D",
+        "text": "Verifica l'integrità crittografica di una chiave GPG"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "`c` = create, `z` = comprimi con gzip, `v` = verbose (mostra i file processati), `f` = file di output specificato. È il comando standard per creare archivi `.tar.gz` in ambiente Unix.",
+    "hint": "-c (create), -z (gzip), -v (verbose), -f (file).",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_OS_072",
+    "question": "Cosa stabilisce l'algoritmo di scheduling 'Round Robin' utilizzato dal kernel per l'assegnazione della CPU ai processi?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Esegue prima i processi più corti senza mai interromperli"
+      },
+      {
+        "id": "B",
+        "text": "Dà precedenza esclusiva ai processi avviati dall'utente amministratore"
+      },
+      {
+        "id": "C",
+        "text": "Assegna la CPU in modo casuale mediante estrazione numerica"
+      },
+      {
+        "id": "D",
+        "text": "Assegna a ciascun processo in coda un intervallo di tempo fisso di CPU (quanto di tempo o time slice); scaduto il quanto, il processo viene preemptato e reinserito in fondo alla coda"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Round Robin è l'algoritmo di scheduling preemptive per eccellenza nei sistemi time-sharing: garantisce equità (fairness) e previene lo starvation assegnando a ogni processo una fetta di tempo definita (time slice).",
+    "hint": "Assegnazione equa di una fetta di tempo (time slice) a rotazione.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_OS_073",
+    "question": "In Windows PowerShell, come si concatenano i comandi in modo che l'output di un cmdlet venga passato come oggetto strutturato in input al cmdlet successivo?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Utilizzando il carattere pipeline '|'"
+      },
+      {
+        "id": "B",
+        "text": "Utilizzando il carattere cancelletto '#'"
+      },
+      {
+        "id": "C",
+        "text": "Utilizzando due punti '::'"
+      },
+      {
+        "id": "D",
+        "text": "Separando i comandi con virgole multiple"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "A differenza delle shell Unix tradizionali che trasmettono flussi di testo grezzo, la pipeline `|` di PowerShell trasmette veri e propri oggetti .NET strutturati con proprietà e metodi.",
+    "hint": "Il simbolo di pipeline '|' trasmette oggetti completi tra cmdlet in PowerShell.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_OS_074",
+    "question": "In ambiente Linux, cosa indica la directory speciale '/proc'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La cartella in cui risiedono i file di installazione dei programmi commerciali"
+      },
+      {
+        "id": "B",
+        "text": "Un filesystem virtuale (pseudo-filesystem) creato dal kernel in memoria RAM che espone informazioni in tempo reale sullo stato del kernel, della memoria e dei processi attivi"
+      },
+      {
+        "id": "C",
+        "text": "L'archivio dei documenti cestinati da oltre 60 giorni"
+      },
+      {
+        "id": "D",
+        "text": "La partizione riservata all'avvio sicuro UEFI"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "`/proc` non occupa spazio su disco: i suoi file (es. `/proc/cpuinfo`, `/proc/meminfo`, `/proc/[PID]/`) sono finestre dinamiche sulla memoria del kernel che permettono di leggere parametri di sistema con comandi testuali come `cat`.",
+    "hint": "Pseudo-filesystem virtuale in RAM che espone lo stato del kernel e dei processi.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_OS_075",
+    "question": "Cos'è la funzionalità 'VSS' (Volume Shadow Copy Service) in ambiente Windows Server?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un programma per la grafica vettoriale 3D"
+      },
+      {
+        "id": "B",
+        "text": "Un driver per la gestione delle ventole di raffreddamento"
+      },
+      {
+        "id": "C",
+        "text": "Un framework che consente di creare snapshot coerenti e copie shadow a livello di blocco di volumi disco, permettendo il backup di file aperti e database in uso senza bloccare le applicazioni"
+      },
+      {
+        "id": "D",
+        "text": "Un protocollo di compressione video per videoconferenze"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "VSS coordina applicazioni, writer (come SQL Server o Exchange) e provider di archiviazione per 'congelare' istantaneamente lo stato del volume e fare snapshot/backup affidabili di file bloccati o aperti.",
+    "hint": "Volume Shadow Copy = snapshot e backup di file e database in uso senza interruzioni.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_OS_076",
+    "question": "In Linux, cosa indica un 'Hard Link' rispetto a un 'Soft Link' (o Symbolic Link)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'hard link può collegare file presenti su computer diversi collegati in rete"
+      },
+      {
+        "id": "B",
+        "text": "Il soft link può essere aperto solo da utenti con permessi di root"
+      },
+      {
+        "id": "C",
+        "text": "L'hard link occupa sempre il doppio dello spazio su disco rispetto al file originale"
+      },
+      {
+        "id": "D",
+        "text": "L'hard link è un ulteriore nome assegnato al medesimo inode del file originale (se si cancella l'originale i dati rimangono accessibili); il soft link è un file speciale che contiene solo il percorso del file target (se l'originale viene cancellato, il link si rompe)"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'hard link punta direttamente all'inode e incrementa il reference count del file (non può attraversare filesystem diversi); il soft link (`ln -s`) è un puntatore al percorso testuale.",
+    "hint": "Hard link = stesso inode condiviso. Soft link = puntatore al path (scorciatoia).",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_OS_077",
+    "question": "Quale comando Linux consente di analizzare lo spazio libero e occupato su tutte le partizioni e filesystem montati in formato leggibile (MB/GB)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "df -h"
+      },
+      {
+        "id": "B",
+        "text": "du -sh /"
+      },
+      {
+        "id": "C",
+        "text": "fdisk -l"
+      },
+      {
+        "id": "D",
+        "text": "free -m"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "`df -h` (Disk Free, human-readable) mostra spazio totale, usato e disponibile per ogni filesystem montato. `du` calcola invece lo spazio occupato da file/directory specifiche.",
+    "hint": "df sta per Disk Free; l'opzione -h rende i valori in MB e GB facilmente leggibili.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_OS_078",
+    "question": "In Windows, che cos'è il 'SID' (Security Identifier)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La password cifrata dell'account di posta elettronica"
+      },
+      {
+        "id": "B",
+        "text": "Un identificatore univoco di lunghezza variabile assegnato a ogni account utente, gruppo o computer di sicurezza per controllarne i diritti di accesso nelle liste ACL"
+      },
+      {
+        "id": "C",
+        "text": "Il numero di serie della scheda madre impresso dal costruttore"
+      },
+      {
+        "id": "D",
+        "text": "Il nome del dominio internet associato al server"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il SID (es. `S-1-5-21-...`) identifica univocamente l'entità di sicurezza all'interno del database SAM o di Active Directory. Se si rinomina un utente, il suo SID non cambia e i permessi rimangono intatti.",
+    "hint": "Identificatore di sicurezza univoco su cui si basano i permessi di Windows.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_OS_079",
+    "question": "Quale comando Linux visualizza la configurazione degli indirizzi IP, maschere e interfacce di rete (sostituto moderno del vecchio 'ifconfig')?",
+    "options": [
+      {
+        "id": "A",
+        "text": "netstat -r"
+      },
+      {
+        "id": "B",
+        "text": "route -n"
+      },
+      {
+        "id": "C",
+        "text": "ip addr (oppure ip a)"
+      },
+      {
+        "id": "D",
+        "text": "ping localhost"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "La suite `iproute2` ha sostituito `net-tools`: il comando `ip addr` (o `ip a`) è lo standard per visualizzare e configurare gli indirizzi IPv4 e IPv6 su Linux.",
+    "hint": "ip addr della suite iproute2 ha sostituito il deprecato ifconfig.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_OS_080",
+    "question": "Che cos'è 'WSL' (Windows Subsystem for Linux) presente in Windows 10 e 11?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un virus che converte i file Word in formati testo non leggibili"
+      },
+      {
+        "id": "B",
+        "text": "Un emulatore di vecchi videogiochi per console"
+      },
+      {
+        "id": "C",
+        "text": "Un software per la navigazione anonima nel Deep Web"
+      },
+      {
+        "id": "D",
+        "text": "Una funzionalità che permette di eseguire un ambiente Linux completo (incluso kernel Linux nativo in WSL 2) direttamente all'interno di Windows senza l'overhead di una macchina virtuale tradizionale"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "WSL 2 utilizza una macchina virtuale leggera gestita direttamente dall'hypervisor Hyper-V con un vero kernel Linux open source, offrendo piena compatibilità con chiamate di sistema e supporto per container Docker.",
+    "hint": "Esegue binari Linux nativi direttamente all'interno di Windows con kernel reale.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_OS_081",
+    "question": "In Linux, come si reindirizza contemporaneamente sia lo standard output (stdout) sia lo standard error (stderr) di un comando verso un file di log sovrascrivendolo?",
+    "options": [
+      {
+        "id": "A",
+        "text": "comando > log.txt 2>&1 (oppure comando &> log.txt)"
+      },
+      {
+        "id": "B",
+        "text": "comando 2> log.txt"
+      },
+      {
+        "id": "C",
+        "text": "comando < log.txt"
+      },
+      {
+        "id": "D",
+        "text": "comando | log.txt"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "`>` reindirizza il descrittore 1 (stdout) al file; `2>&1` reindirizza il descrittore 2 (stderr) verso il descrittore 1. In bash moderna la sintassi compatta è `&> file`.",
+    "hint": "Reindirizzamento stdout (1) e stderr (2): > file 2>&1 oppure &> file.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_OS_082",
+    "question": "Cosa si intende per 'BitLocker' nei sistemi operativi Windows?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un programma per comprimere file ZIP con password a 4 cifre"
+      },
+      {
+        "id": "B",
+        "text": "La tecnologia di crittografia completa del volume (Full Disk Encryption) che protegge i dati memorizzati sul disco integrandosi con il chip TPM per impedire accessi non autorizzati in caso di furto fisico del PC"
+      },
+      {
+        "id": "C",
+        "text": "Un blocco automatico della tastiera dopo 5 tentativi di PIN errati"
+      },
+      {
+        "id": "D",
+        "text": "Un firewall hardware installato nella scheda di rete"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "BitLocker cifra l'intero volume di sistema operativo e i dischi dati con algoritmi XTS-AES a 128 o 256 bit: se il disco viene rimosso e collegato a un altro PC, i dati rimangono illeggibili senza la chiave di recupero.",
+    "hint": "Crittografia completa del disco integrata con il chip TPM in ambiente Windows.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_OS_083",
+    "question": "In Linux, cosa rappresenta il segnale 'SIGTERM' (segnale 15) rispetto a 'SIGKILL' (segnale 9)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "SIGTERM riavvia la macchina, mentre SIGKILL spegne il monitor"
+      },
+      {
+        "id": "B",
+        "text": "SIGTERM può essere inviato solo da utenti con permessi guest"
+      },
+      {
+        "id": "C",
+        "text": "SIGTERM richiede la chiusura ordinata del processo, consentendogli di salvare lo stato e rilasciare le risorse prima di terminare; SIGKILL forza la chiusura immediata da parte del kernel senza possibilità di intercettazione"
+      },
+      {
+        "id": "D",
+        "text": "SIGKILL e SIGTERM sono identici in tutto e per tutto"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "La buona prassi sistemistica prevede di inviare prima SIGTERM (15) per consentire una terminazione pulita (graceful shutdown). Solo se il processo non risponde entro un tempo limite si invia SIGKILL (9).",
+    "hint": "SIGTERM (15) = richiesta di chiusura ordinata; SIGKILL (9) = abbattimento immediato forzato.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_OS_084",
+    "question": "Quale file in Linux elenca gli account utente di sistema, i loro identificativi numerici UID/GID, le directory home e le shell di login assegnate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "/etc/shadow"
+      },
+      {
+        "id": "B",
+        "text": "/etc/group"
+      },
+      {
+        "id": "C",
+        "text": "/etc/sudoers"
+      },
+      {
+        "id": "D",
+        "text": "/etc/passwd"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "`/etc/passwd` contiene i record degli utenti (username, x, UID, GID, commento, home dir, shell). Gli hash delle password cifrate sono invece conservati in `/etc/shadow`, leggibile solo da root.",
+    "hint": "/etc/passwd contiene le anagrafiche utenti e UID; /etc/shadow custodisce gli hash delle password.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_OS_085",
+    "question": "In Windows, cosa fa il comando da riga di comando 'sfc /scannow'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Scansiona l'integrità di tutti i file di sistema protetti e sostituisce i file corrotti o mancanti con copie corrette memorizzate nella cache locale (System File Checker)"
+      },
+      {
+        "id": "B",
+        "text": "Verifica se il cavo di rete è inserito nello switch"
+      },
+      {
+        "id": "C",
+        "text": "Formatta la memoria RAM per liberare spazio"
+      },
+      {
+        "id": "D",
+        "text": "Invia una segnalazione di errore anonima a Microsoft"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "System File Checker (`sfc /scannow`) verifica i checksum dei file critici del sistema operativo e ripristina versioni originali integre dalla directory `WinSxS` se rileva corruzioni.",
+    "hint": "System File Checker per scansionare e ripristinare file di sistema Windows corrotti.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_OS_086",
+    "question": "Quale comando Linux consente di cercare file nel filesystem in base a criteri avanzati come nome, dimensione, permessi o data di ultima modifica?",
+    "options": [
+      {
+        "id": "A",
+        "text": "locate"
+      },
+      {
+        "id": "B",
+        "text": "find"
+      },
+      {
+        "id": "C",
+        "text": "search"
+      },
+      {
+        "id": "D",
+        "text": "which"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il comando `find` attraversa la gerarchia di directory in tempo reale valutando parametri complessi (es. `find /var/log -name '*.log' -size +100M -mtime -7`).",
+    "hint": "find scansiona il filesystem applicando molteplici filtri di ricerca.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_OS_087",
+    "question": "In Windows Server, qual è il protocollo di rete utilizzato dai client per accedere a cartelle e file condivisi in rete locale?",
+    "options": [
+      {
+        "id": "A",
+        "text": "NFS"
+      },
+      {
+        "id": "B",
+        "text": "AFP"
+      },
+      {
+        "id": "C",
+        "text": "SMB (Server Message Block) / CIFS"
+      },
+      {
+        "id": "D",
+        "text": "Telnet"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "SMB (Server Message Block, con le versioni moderne SMB 3.x che includono crittografia end-to-end e multi-channel) è il protocollo standard per la condivisione file e stampanti nell'ecosistema Windows.",
+    "hint": "Protocollo di condivisione cartelle di Windows = SMB.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_OS_088",
+    "question": "In Linux, cosa indica il bit speciale 'Setuid' (SUID) impostato sui permessi di un file eseguibile?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il file viene automaticamente cancellato dopo il primo utilizzo"
+      },
+      {
+        "id": "B",
+        "text": "L'eseguibile può essere lanciato solo tramite interfaccia grafica"
+      },
+      {
+        "id": "C",
+        "text": "Il programma viene eseguito solo in modalità provvisoria"
+      },
+      {
+        "id": "D",
+        "text": "Il programma viene eseguito con i privilegi del proprietario del file (tipicamente root) anziché con i privilegi dell'utente che lo sta lanciando (es. /usr/bin/passwd)"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Il bit SUID (visibile come una 's' al posto della 'x' dell'owner, es. `-rwsr-xr-x`) permette a utenti comuni di eseguire operazioni privilegiate controllate (come cambiare la propria password modificando `/etc/shadow`).",
+    "hint": "Esegue il binario con i privilegi del proprietario del file (spesso root).",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_OS_089",
+    "question": "In Windows, quale strumento a riga di comando consente di visualizzare e configurare i criteri di gruppo applicati a un utente o a una macchina (forzando ad esempio l'aggiornamento con /force)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "gpupdate / gpresult"
+      },
+      {
+        "id": "B",
+        "text": "ipconfig /renew"
+      },
+      {
+        "id": "C",
+        "text": "chkdsk /f"
+      },
+      {
+        "id": "D",
+        "text": "net user /add"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "`gpupdate /force` forza l'applicazione immediata delle Group Policy (GPO) scaricandole dal Domain Controller; `gpresult /r` genera un report riassuntivo delle policy effettivamente applicate.",
+    "hint": "Group Policy Update e Group Policy Result = gpupdate e gpresult.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_OS_090",
+    "question": "Cosa si intende per 'Zombie Process' (processo defunto) nei sistemi operativi Unix/Linux?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un virus che invia spam nottetempo all'insaputa dell'utente"
+      },
+      {
+        "id": "B",
+        "text": "Un processo che ha completato l'esecuzione ma mantiene la propria voce nella tabella dei processi perché il processo genitore (parent) non ha ancora letto il suo stato di uscita tramite la system call 'wait()'"
+      },
+      {
+        "id": "C",
+        "text": "Un processo che consuma il 100% della memoria RAM all'infinito"
+      },
+      {
+        "id": "D",
+        "text": "Un'applicazione chiusa bruscamente per spegnimento della corrente"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Un processo zombie non consuma CPU o memoria RAM viva, ma occupa uno slot nella tabella dei processi (PID). Se il genitore muore senza raccoglierne lo stato, il processo orfano viene adottato da `init/systemd` (PID 1) che esegue la wait ripulendolo.",
+    "hint": "Processo terminato il cui stato di uscita non è stato ancora letto dal genitore tramite wait().",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_OS_091",
+    "question": "In Linux, quale comando visualizza le connessioni di rete attive, le porte in ascolto (listening) e i relativi processi (sostituto moderno di netstat)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "ping -c 4"
+      },
+      {
+        "id": "B",
+        "text": "traceroute"
+      },
+      {
+        "id": "C",
+        "text": "ss -tulpn"
+      },
+      {
+        "id": "D",
+        "text": "nslookup"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "`ss` (Socket Statistics) estrae informazioni direttamente dallo spazio kernel; le opzioni `-tulpn` mostrano socket TCP (-t), UDP (-u), in ascolto (-l), numeriche (-n) e con nome del processo/PID (-p).",
+    "hint": "ss (Socket Statistics) è il successore rapido di netstat.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_OS_092",
+    "question": "In Windows, cos'è il 'Task Manager' (Gestione attività) e quale combinazione rapida di tasti lo apre direttamente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un programma per inviare email; si apre con Alt + F4"
+      },
+      {
+        "id": "B",
+        "text": "L'editor del registro; si apre con Windows + R"
+      },
+      {
+        "id": "C",
+        "text": "Il visualizzatore di eventi; si apre con Shift + Tab"
+      },
+      {
+        "id": "D",
+        "text": "Lo strumento per visualizzare processi, prestazioni, avvio e utenti; si apre direttamente con Ctrl + Shift + Esc"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "`Ctrl + Shift + Esc` bypassa la schermata intermedia di sicurezza e apre istantaneamente il Task Manager di Windows.",
+    "hint": "Scorciatoia rapida diretta: Ctrl + Shift + Esc.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_OS_093",
+    "question": "Cosa stabilisce l'algoritmo 'OOM Killer' (Out-Of-Memory Killer) del kernel Linux?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Interviene quando la memoria RAM e lo spazio di swap sono completamente saturi, selezionando e terminando forzatamente il processo con il punteggio oom_score più elevato per salvare il sistema dal crash totale"
+      },
+      {
+        "id": "B",
+        "text": "Elimina i file duplicati per recuperare spazio su disco"
+      },
+      {
+        "id": "C",
+        "text": "Riavvia la scheda grafica in caso di sfarfallio dello schermo"
+      },
+      {
+        "id": "D",
+        "text": "Chiude automaticamente le schede del browser web non utilizzate da più di un'ora"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Quando la memoria fisica e lo swap si esauriscono completamente, l'OOM Killer calcola un punteggio di penalità e invia un SIGKILL al processo più 'vorace' o meno critico per evitare il kernel panic.",
+    "hint": "Meccanismo estremo del kernel per abbattere processi quando la memoria è completamente esaurita.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_OS_094",
+    "question": "In Windows Server, quale tecnologia cluster consente a due o più server fisici di lavorare insieme per garantire alta disponibilità (failover) a macchine virtuali Hyper-V o database?",
+    "options": [
+      {
+        "id": "A",
+        "text": "DirectShow"
+      },
+      {
+        "id": "B",
+        "text": "WSFC (Windows Server Failover Clustering)"
+      },
+      {
+        "id": "C",
+        "text": "Windows Media Player Sharing"
+      },
+      {
+        "id": "D",
+        "text": "BitLocker Network Unlock"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Windows Server Failover Clustering (WSFC) monitora i nodi del cluster: se un server si guasta, i servizi e le VM vengono migrati e riavviati automaticamente sui nodi superstiti senza perdita di disponibilità.",
+    "hint": "Failover Clustering di Windows Server per garantire alta affidabilità e continuità.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_OS_095",
+    "question": "In Linux, cosa fa il comando 'tail -f /var/log/nginx/access.log'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cancella le ultime 10 righe del file di log"
+      },
+      {
+        "id": "B",
+        "text": "Converte il file di log in un documento PDF"
+      },
+      {
+        "id": "C",
+        "text": "Visualizza le ultime righe del file di log e rimane in attesa continua, mostrando a schermo ogni nuova riga aggiunta in tempo reale"
+      },
+      {
+        "id": "D",
+        "text": "Invia il file di log tramite email all'amministratore"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'opzione `-f` (follow) mantiene il comando aperto in ascolto sul descrittore di file, consentendo di monitorare in diretta gli accessi web o gli errori nei file di log.",
+    "hint": "L'opzione -f segue (follow) in diretta le nuove righe scritte nel file di log.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_OS_096",
+    "question": "Qual è la funzione del comando 'chkdsk C: /f /r' in Windows?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Formatta il disco C: eliminando tutti i programmi"
+      },
+      {
+        "id": "B",
+        "text": "Aggiorna i driver della scheda madre"
+      },
+      {
+        "id": "C",
+        "text": "Scarica l'ultima versione di Windows Update"
+      },
+      {
+        "id": "D",
+        "text": "Verifica l'integrità del filesystem del disco C:, corregge gli errori logici (/f) e individua i settori danneggiati fisicamente recuperando le informazioni leggibili (/r)"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "`chkdsk` (Check Disk) è l'utilità di verifica del disco: `/f` corregge gli errori di filesystem, `/r` localizza i settori danneggiati (bad sectors) e tenta il recupero dei dati leggibili.",
+    "hint": "Check Disk per correggere errori di filesystem e scovare settori danneggiati.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_OS_097",
+    "question": "In Linux, cosa si intende per 'systemd target' rispetto ai vecchi 'runlevel' di SysVinit?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un'unità di raggruppamento che definisce uno stato di sincronizzazione o modalità operativa del sistema (es. multi-user.target equivale al runlevel 3, graphical.target al runlevel 5)"
+      },
+      {
+        "id": "B",
+        "text": "Il disco di destinazione per i backup automatici"
+      },
+      {
+        "id": "C",
+        "text": "Un bersaglio grafico per calibrare il puntatore del mouse"
+      },
+      {
+        "id": "D",
+        "text": "Un'applicazione per il disegno tecnico assistito"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "I target di systemd hanno sostituito i runlevel numerici: `multi-user.target` è la modalità testo multi-utente, `graphical.target` avvia il server grafico, `rescue.target` la modalità di emergenza a singolo utente.",
+    "hint": "I target di systemd hanno rimpiazzato i runlevel (es. graphical.target = runlevel 5).",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_OS_098",
+    "question": "In Windows, cos'è il file system 'ReFS' (Resilient File System) introdotto nei sistemi Windows Server?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un filesystem compatibile solo con dischetti floppy da 1,44 MB"
+      },
+      {
+        "id": "B",
+        "text": "Un filesystem progettato per massimizzare la disponibilità e la resilienza dei dati, dotato di auto-riparazione della corruzione dei metadati mediante checksum di integrità e supporto per volumi enormi (fino a 35 PB)"
+      },
+      {
+        "id": "C",
+        "text": "Un protocollo di crittografia per chat aziendali"
+      },
+      {
+        "id": "D",
+        "text": "La partizione su cui risiede il cestino di Windows"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "ReFS è il successore enterprise di NTFS per grossi archivi e macchine virtuali: rileva e corregge automaticamente la corruzione silente dei dati (bit rot) grazie a checksum di integrità.",
+    "hint": "Resilient File System con auto-riparazione e checksum per l'integrità dei dati.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_OS_099",
+    "question": "In ambiente Linux, qual è la funzione del comando 'strace'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un software per tracciare la rotta aerea dei voli commerciali"
+      },
+      {
+        "id": "B",
+        "text": "Un programma per eliminare i file temporanei della cronologia internet"
+      },
+      {
+        "id": "C",
+        "text": "Uno strumento di diagnostica e debug che intercetta e registra tutte le chiamate di sistema (system calls) effettuate da un processo e i segnali che riceve"
+      },
+      {
+        "id": "D",
+        "text": "Un comando per formattare i dischi SSD in formato ext3"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "`strace` traccia l'interazione tra processo e kernel: mostra aperture di file (`open`), letture/scritture (`read`/`write`), allocazioni di memoria (`mmap`), risultando fondamentale per capire perché un programma va in errore.",
+    "hint": "Intercetta e visualizza tutte le chiamate di sistema (system call) di un processo.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_OS_100",
+    "question": "In Windows Server Active Directory, quali sono i ruoli 'FSMO' (Flexible Single Master Operation) assegnati ai Domain Controller?",
+    "options": [
+      {
+        "id": "A",
+        "text": "I protocolli di crittografia usati per le videochiamate di Teams"
+      },
+      {
+        "id": "B",
+        "text": "I livelli di velocità delle ventole del server rack"
+      },
+      {
+        "id": "C",
+        "text": "Le classi di indirizzi IP assegnate ai client Wi-Fi"
+      },
+      {
+        "id": "D",
+        "text": "Cinque ruoli specializzati (Schema Master, Domain Naming Master, RID Master, PDC Emulator, Infrastructure Master) in cui un solo DC alla volta è autorizzato a compiere specifiche modifiche per prevenire conflitti"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Sebbene Active Directory sia un modello multi-master, 5 compiti critici (2 a livello di foresta e 3 a livello di dominio) richiedono un unico master per evitare collisioni (Schema, Domain Naming, RID, PDC Emulator, Infrastructure).",
+    "hint": "I 5 ruoli a master singolo in Active Directory (Schema, RID, PDC, ecc.).",
     "level": "avanzato"
   }
 ]
