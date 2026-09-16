@@ -1,0 +1,702 @@
+[
+  {
+    "id": "Q_LNG_ENG_001",
+    "question": "Nel contesto informatico, qual è la traduzione corretta del termine inglese 'desktop' riferito alla tipologia di computer?",
+    "options": [
+      { "id": "A", "text": "Computer portatile" },
+      { "id": "B", "text": "Computer da tavolo o fisso" },
+      { "id": "C", "text": "Tastiera wireless" },
+      { "id": "D", "text": "Monitor LCD" }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il termine 'desktop' (letteralmente 'sopra la scrivania') indica il classico computer fisso da tavolo, in contrapposizione al 'laptop' o 'notebook' che identifica il computer portatile.",
+    "hint": "Si riferisce a un computer progettato per rimanere in una posizione fissa su una scrivania.",
+    "level": "base"
+  },
+  {
+    "id": "Q_LNG_ENG_002",
+    "question": "Nelle reti di telecomunicazione, cosa indica il termine inglese 'bandwidth'?",
+    "options": [
+      { "id": "A", "text": "La larghezza di banda, ovvero la capacità di trasmissione dati di una connessione" },
+      { "id": "B", "text": "La lunghezza fisica del cavo di rete Ethernet" },
+      { "id": "C", "text": "La password di accesso amministrativo del router" },
+      { "id": "D", "text": "Il numero massimo di dispositivi collegabili a un hub" }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il termine 'bandwidth' indica la larghezza di banda, ossia la quantità massima di dati che possono essere trasferiti su una connessione di rete in un dato intervallo di tempo (solitamente espressa in bit al secondo, bps).",
+    "hint": "Misura la capacità potenziale di trasmissione della rete.",
+    "level": "base"
+  },
+  {
+    "id": "Q_LNG_ENG_003",
+    "question": "Nel gergo della programmazione software, con quale termine inglese viene comunemente indicato un errore di logica o sintassi nel codice?",
+    "options": [
+      { "id": "A", "text": "Feature" },
+      { "id": "B", "text": "Patch" },
+      { "id": "C", "text": "Bug" },
+      { "id": "D", "text": "Commit" }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Un 'bug' è un errore, difetto o guasto nel software che causa un comportamento inatteso o errato. L'operazione di individuazione e rimozione dei bug è chiamata 'debugging'.",
+    "hint": "Il termine in inglese significa letteralmente 'insetto'.",
+    "level": "base"
+  },
+  {
+    "id": "Q_LNG_ENG_004",
+    "question": "Cosa si intende in inglese con il termine 'query' nell'ambito dei database relazionali?",
+    "options": [
+      { "id": "A", "text": "Un backup completo dei dati strutturati" },
+      { "id": "B", "text": "La chiave primaria utilizzata per indicizzare una tabella" },
+      { "id": "C", "text": "La cancellazione definitiva di un record o di una riga" },
+      { "id": "D", "text": "Un'interrogazione o richiesta rivolta al database per estrarre o modificare dati" }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Il sostantivo 'query' significa 'interrogazione' o 'domanda'. Nei database relazionali, si riferisce a un'istruzione (solitamente scritta in SQL) inviata al DBMS per recuperare o manipolare dati.",
+    "hint": "Corrisponde alla richiesta di estrazione o consultazione dati.",
+    "level": "base"
+  },
+  {
+    "id": "Q_LNG_ENG_005",
+    "question": "Nel contesto della Pubblica Amministrazione europea, come viene tradotto il termine 'public procurement'?",
+    "options": [
+      { "id": "A", "text": "Assunzione di dipendenti pubblici" },
+      { "id": "B", "text": "Appalti pubblici / procedure di acquisto della PA" },
+      { "id": "C", "text": "Erogazione di finanziamenti a fondo perduto" },
+      { "id": "D", "text": "Principio di trasparenza amministrativa" }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "'Public procurement' si traduce con 'appalti pubblici' o 'procedure di acquisto della pubblica amministrazione'. Indica l'approvvigionamento di beni, servizi o lavori da parte di enti pubblici.",
+    "hint": "Si riferisce alle procedure di gara e acquisto da parte di enti governativi.",
+    "level": "base"
+  },
+  {
+    "id": "Q_LNG_ENG_006",
+    "question": "Complete the following sentence: 'An operating system is the software that ________ the computer's hardware and software resources.'",
+    "options": [
+      { "id": "A", "text": "manages" },
+      { "id": "B", "text": "compiles" },
+      { "id": "C", "text": "deletes" },
+      { "id": "D", "text": "downloads" }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il verbo corretto è 'manages' (gestisce). La frase completa significa: 'Un sistema operativo è il software che gestisce le risorse hardware e software del computer'.",
+    "hint": "Pensa alla funzione principale di controllo e coordinamento svolta dal sistema operativo.",
+    "level": "base"
+  },
+  {
+    "id": "Q_LNG_ENG_007",
+    "question": "Nel campo della sicurezza informatica e delle reti, a cosa corrisponde letteralmente il termine 'firewall'?",
+    "options": [
+      { "id": "A", "text": "Porta girevole automatica" },
+      { "id": "B", "text": "Cavo schermato ad alta temperatura" },
+      { "id": "C", "text": "Muro tagliafuoco / Parete antincendio" },
+      { "id": "D", "text": "Sistema di raffreddamento a liquido" }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Il termine 'firewall' significa letteralmente 'muro tagliafuoco'. In informatica indica un dispositivo (hardware o software) di difesa perimetrale che filtra il traffico di rete in base a regole predefinite.",
+    "hint": "È una metafora di sicurezza edile applicata alla protezione delle reti.",
+    "level": "base"
+  },
+  {
+    "id": "Q_LNG_ENG_008",
+    "question": "In programmazione, cosa indica il termine inglese 'loop'?",
+    "options": [
+      { "id": "A", "text": "Un commento esplicativo inserito dallo sviluppatore" },
+      { "id": "B", "text": "Una variabile non inizializzata che provoca un crash" },
+      { "id": "C", "text": "Un tipo di dato utilizzato per rappresentare numeri decimali" },
+      { "id": "D", "text": "Un ciclo, ovvero una struttura di controllo che ripete un blocco di codice" }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Un 'loop' (ciclo) è una struttura iterativa che ripete l'esecuzione di un blocco di istruzioni finché una determinata condizione rimane soddisfatta.",
+    "hint": "Si riferisce all'iterazione o ripetizione controllata di istruzioni.",
+    "level": "base"
+  },
+  {
+    "id": "Q_LNG_ENG_009",
+    "question": "Qual è il significato del termine informatico 'backup'?",
+    "options": [
+      { "id": "A", "text": "Ripristino del sistema operativo alle impostazioni di fabbrica" },
+      { "id": "B", "text": "Copia di sicurezza dei dati per prevenirne la perdita accidentale" },
+      { "id": "C", "text": "Configurazione iniziale di un router o access point" },
+      { "id": "D", "text": "Scansione alla ricerca di virus e malware attivi" }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il termine 'backup' indica una copia di sicurezza di file, database o sistemi interi, realizzata per permetterne il ripristino in caso di guasti, perdite o attacchi informatici.",
+    "hint": "Consente l'operazione di 'restore' dei dati in caso di emergenza.",
+    "level": "base"
+  },
+  {
+    "id": "Q_LNG_ENG_010",
+    "question": "Nel contesto dei contratti pubblici europei, cosa si intende con il termine 'framework agreement'?",
+    "options": [
+      { "id": "A", "text": "Un accordo quadro per stabilire le condizioni di futuri appalti" },
+      { "id": "B", "text": "Una clausola di risoluzione immediata del contratto" },
+      { "id": "C", "text": "Un bando di concorso per l'assunzione di personale" },
+      { "id": "D", "text": "Una penale per il ritardo nella consegna dei lavori" }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "'Framework agreement' si traduce come 'accordo quadro'. Si tratta di un accordo tra una o più amministrazioni aggiudicatrici e uno o più operatori economici, volto a stabilire le clausole relative ai singoli appalti da aggiudicare durante un dato periodo.",
+    "hint": "Definisce la 'cornice' (framework) regolamentare e tariffaria per commesse future.",
+    "level": "base"
+  },
+  {
+    "id": "Q_LNG_ENG_011",
+    "question": "Cosa indica l'aggettivo 'open-source' riferito a un software?",
+    "options": [
+      { "id": "A", "text": "Che il software funziona solo se connesso a Internet" },
+      { "id": "B", "text": "Che l'applicazione può essere eseguita solo su sistemi operativi Linux" },
+      { "id": "C", "text": "Che il codice sorgente è reso liberamente accessibile, modificabile e distribuibile" },
+      { "id": "D", "text": "Che il software non richiede installazione e si avvia da browser" }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "'Open-source' (sorgente aperto) indica un software i cui autori rendono pubblico il codice sorgente originale, permettendo a chiunque di studiarlo, modificarlo e migliorarlo.",
+    "hint": "Si contrappone al software proprietario ('closed-source').",
+    "level": "base"
+  },
+  {
+    "id": "Q_LNG_ENG_012",
+    "question": "Cosa significa la parola 'Local' nell'acronimo di rete 'LAN'?",
+    "options": [
+      { "id": "A", "text": "Link" },
+      { "id": "B", "text": "Logical" },
+      { "id": "C", "text": "Linear" },
+      { "id": "D", "text": "Local" }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "LAN sta per 'Local Area Network' (Rete ad area locale). Si tratta di una rete di computer limitata a un'area geografica circoscritta, come un ufficio o un edificio.",
+    "hint": "Indica che la rete copre un'area geografica ristretta.",
+    "level": "base"
+  },
+  {
+    "id": "Q_LNG_ENG_013",
+    "question": "In programmazione, qual è il compito principale di un software denominato 'compiler' (compilatore)?",
+    "options": [
+      { "id": "A", "text": "Tradurre il codice sorgente scritto in linguaggio ad alto livello in linguaggio macchina" },
+      { "id": "B", "text": "Organizzare i file di codice sorgente in cartelle e directory sul server" },
+      { "id": "C", "text": "Correggere automaticamente gli errori di logica commessi dal programmatore" },
+      { "id": "D", "text": "Eseguire i test automatici dell'interfaccia grafica" }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Un 'compiler' (compilatore) traduce l'intero programma scritto in un linguaggio ad alto livello (como C o C++) nel linguaggio macchina nativo della CPU prima dell'esecuzione.",
+    "hint": "Trasforma il codice sorgente leggibile dall'uomo in un eseguibile leggibile dall'elaboratore.",
+    "level": "base"
+  },
+  {
+    "id": "Q_LNG_ENG_014",
+    "question": "Nei database relazionali, come viene tradotto il termine 'foreign key'?",
+    "options": [
+      { "id": "A", "text": "Chiave primaria" },
+      { "id": "B", "text": "Chiave esterna" },
+      { "id": "C", "text": "Indice univoco" },
+      { "id": "D", "text": "Tabella di transizione" }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "'Foreign key' si traduce come 'chiave esterna'. È un campo (o insieme di campi) in una tabella che fa riferimento alla chiave primaria di un'altra tabella, stabilendo un vincolo di integrità referenziale.",
+    "hint": "Serve a mettere in relazione due tabelle referenziando un ID esterno.",
+    "level": "base"
+  },
+  {
+    "id": "Q_LNG_ENG_015",
+    "question": "Che cosa si intende con il termine inglese 'e-government'?",
+    "options": [
+      { "id": "A", "text": "La votazione elettronica per le elezioni politiche nazionali" },
+      { "id": "B", "text": "La sicurezza informatica applicata esclusivamente alle reti militari" },
+      { "id": "C", "text": "L'uso delle tecnologie informatiche per migliorare i servizi e l'efficienza della PA" },
+      { "id": "D", "text": "Un sistema operativo sviluppato dall'Unione Europea per gli uffici comunali" }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'e-government (electronic government, o amministrazione digitale) indica l'utilizzo delle tecnologie dell'informazione e della comunicazione (ICT) da parte delle pubbliche amministrazioni per migliorare i servizi offerti a cittadini e imprese.",
+    "hint": "Corrisponde alla digitalizzazione e semplificazione dei servizi della Pubblica Amministrazione.",
+    "level": "base"
+  },
+  {
+    "id": "Q_LNG_ENG_016",
+    "question": "Complete the following sentence with the correct verb: 'Cloud storage allows users to __________ their files on remote servers, making them accessible from any device connected to the Internet.'",
+    "options": [
+      { "id": "A", "text": "delete" },
+      { "id": "B", "text": "compile" },
+      { "id": "C", "text": "execute" },
+      { "id": "D", "text": "store" }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Il verbo 'to store' significa memorizzare, archiviare o salvare. La frase tradotta è: 'Lo storage cloud consente agli utenti di archiviare i propri file su server remoti...'.",
+    "hint": "Pensa al concetto di archiviazione o salvataggio dati.",
+    "level": "base"
+  },
+  {
+    "id": "Q_LNG_ENG_017",
+    "question": "Nelle attività quotidiane su Internet, qual è il significato del verbo inglese 'to download'?",
+    "options": [
+      { "id": "A", "text": "Scaricare dati da un sistema remoto a un dispositivo locale" },
+      { "id": "B", "text": "Inviare dati da un sistema locale a un server remoto" },
+      { "id": "C", "text": "Interrompere improvvisamente la connessione di rete in uso" },
+      { "id": "D", "text": "Spegnere in sicurezza il computer o il dispositivo mobile" }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "'To download' significa scaricare dati, ossia trasferire file o informazioni da un server remoto al proprio computer o dispositivo locale. Il processo inverso si definisce 'to upload'.",
+    "hint": "Indica il flusso di dati che viene 'tirato giù' dal cloud verso il proprio dispositivo.",
+    "level": "base"
+  },
+  {
+    "id": "Q_LNG_ENG_018",
+    "question": "In informatica e programmazione, che cos'è un 'array'?",
+    "options": [
+      { "id": "A", "text": "Un protocollo di routing per reti locali wireless ad alta velocità" },
+      { "id": "B", "text": "Un vettore o matrice, ovvero una struttura dati che memorizza elementi dello stesso tipo" },
+      { "id": "C", "text": "Una scheda grafica di ultima generazione per elaborazioni 3D" },
+      { "id": "D", "text": "Un tipo di attacco informatico basato sull'invio di email di phishing" }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Un 'array' (in italiano spesso denominato vettore o matrice) è una struttura dati omogenea che contiene una collezione di elementi dello stesso tipo, memorizzati in posizioni di memoria contigue.",
+    "hint": "È una struttura dati indicizzata che contiene elementi omogenei.",
+    "level": "base"
+  },
+  {
+    "id": "Q_LNG_ENG_019",
+    "question": "Nel contesto IT e dello sviluppo software, cosa si intende con il termine 'scalability' (scalabilità)?",
+    "options": [
+      { "id": "A", "text": "La velocità massima di calcolo di un processore multi-core" },
+      { "id": "B", "text": "La facilità con cui un utente impara ad utilizzare una nuova interfaccia" },
+      { "id": "C", "text": "La capacità di un sistema di gestire carichi di lavoro crescenti aumentando le risorse" },
+      { "id": "D", "text": "Il processo di eliminazione dei file duplicati all'interno di un server" }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "'Scalability' (scalabilità) descrive la capacità di un sistema informatico, rete o processo di adattarsi ed espandersi per gestire un incremento del carico (ad esempio, più utenti o transazioni) senza subire cali prestazionali significativi.",
+    "hint": "Riguarda l'adeguamento di un sistema all'aumento delle richieste hardware o software.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_LNG_ENG_020",
+    "question": "Nelle reti informatiche, qual è la distinzione fondamentale tra i concetti di 'bandwidth' e 'throughput'?",
+    "options": [
+      { "id": "A", "text": "Bandwidth è la capacità teorica massima del canale, mentre throughput è la quantità reale di dati trasmessa" },
+      { "id": "B", "text": "Bandwidth si misura in metri di cavo, mentre throughput si misura in millisecondi di latenza" },
+      { "id": "C", "text": "Throughput indica il livello di sicurezza del canale, mentre bandwidth indica la frequenza delle onde radio" },
+      { "id": "D", "text": "Non vi è alcuna differenza tecnica, sono sinonimi intercambiabili in qualsiasi contesto" }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Mentre 'bandwidth' rappresenta la larghezza di banda teorica massima di un canale di comunicazione, il 'throughput' indica l'effettiva velocità di trasmissione misurata sul campo, che risente di overhead, latenze e collisioni.",
+    "hint": "Teoria (banda massima disponibile) vs Pratica (dati effettivamente consegnati con successo).",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_LNG_ENG_021",
+    "question": "Nell'ingegneria del software, cosa si intende con il termine 'refactoring'?",
+    "options": [
+      { "id": "A", "text": "La compilazione del codice in un linguaggio a basso livello per CPU differenti" },
+      { "id": "B", "text": "La ristrutturazione del codice sorgente per migliorarne la struttura interna senza cambiarne l'output esterno" },
+      { "id": "C", "text": "La rivendita di licenze software dismesse a terzi" },
+      { "id": "D", "text": "Il ripristino di un database a seguito di un blocco hardware imprevisto" }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il 'code refactoring' consiste nel modificare la struttura interna del codice (es. migliorando la leggibilità e riducendo la complessità) lasciando completamente inalterato il comportamento esterno (input/output) visto dall'utente.",
+    "hint": "Migliorare la qualità e la manutenibilità del codice senza cambiare la funzionalità.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_LNG_ENG_022",
+    "question": "In database theory, what does 'data redundancy' refer to?",
+    "options": [
+      { "id": "A", "text": "The process of encrypting database tables using symmetric key algorithms" },
+      { "id": "B", "text": "The total execution time of a SELECT query under high user load conditions" },
+      { "id": "C", "text": "The automatic rollback of a database transaction when an error occurs" },
+      { "id": "D", "text": "The storage of the same data in multiple separate places within the database" }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "La ridondanza dei dati ('data redundancy') si riferisce alla memorizzazione ripetuta delle stesse informazioni in tabelle o database diversi. Se non controllata tramite normalizzazione, può causare incoerenze e spreco di spazio.",
+    "hint": "Indica la duplicazione o ripetizione non necessaria delle informazioni.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_LNG_ENG_023",
+    "question": "Nel contesto del GDPR e dei regolamenti europei, qual è il significato del termine inglese 'compliance'?",
+    "options": [
+      { "id": "A", "text": "La conformità o aderenza a norme, leggi e standard definiti" },
+      { "id": "B", "text": "La sanzione amministrativa irrogata per la violazione di dati" },
+      { "id": "C", "text": "Il consenso esplicito espresso dall'interessato per il trattamento" },
+      { "id": "D", "text": "La crittografia dei dati sensibili durante il transito su Internet" }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il termine 'compliance' indica la conformità normativa, ovvero il processo di allineamento e rispetto di leggi, direttive (es. GDPR), regolamenti o standard di settore da parte di un'organizzazione.",
+    "hint": "Deriva dal verbo 'to comply', che significa conformarsi, rispettare.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_LNG_ENG_024",
+    "question": "Complete the sentence with the correct adverb: 'Virtualization allows multiple operating systems to run __________ on a single physical machine, sharing its underlying hardware resources.'",
+    "options": [
+      { "id": "A", "text": "rarely" },
+      { "id": "B", "text": "manually" },
+      { "id": "C", "text": "simultaneously" },
+      { "id": "D", "text": "sequentially" }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'avverbio corretto è 'simultaneously' (simultaneamente). La virtualizzazione consente a più macchine virtuali e sistemi operativi di essere eseguiti contemporaneamente sul medesimo hardware fisico.",
+    "hint": "Significa 'allo stesso tempo' (at the same time).",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_LNG_ENG_025",
+    "question": "Nel protocollo TCP, con quale termine inglese viene indicata la procedura a tre vie utilizzata per stabilire una connessione tra client e server?",
+    "options": [
+      { "id": "A", "text": "Three-step forwarding" },
+      { "id": "B", "text": "Three-way handshake" },
+      { "id": "C", "text": "Triple-layer pinging" },
+      { "id": "D", "text": "Three-way tunneling" }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il processo di instaurazione della connessione TCP si chiama 'three-way handshake' (stretta di mano a tre vie) e prevede l'invio sequenziale dei pacchetti SYN, SYN-ACK e ACK tra mittente e destinatario.",
+    "hint": "È una metafora tratta dal cerimoniale sociale di stringersi la mano prima di iniziare a parlare.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_LNG_ENG_026",
+    "question": "Nella programmazione orientata agli oggetti (OOP), cosa indica il concetto di 'inheritance'?",
+    "options": [
+      { "id": "A", "text": "Il rilascio della memoria allocata dinamicamente al termine dell'esecuzione" },
+      { "id": "B", "text": "L'occultamento dei dettagli interni di implementazione di un oggetto" },
+      { "id": "C", "text": "La possibilità di definire più funzioni con lo stesso nome ma parametri diversi" },
+      { "id": "D", "text": "L'ereditarietà, ovvero la capacità di una classe di derivare attributi e metodi da un'altra" }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "'Inheritance' significa ereditarietà. Permette di definire una nuova classe (sottoclasse) a partire da una esistente (superclasse), ereditandone i comportamenti ed estendendoli, favorendo il riuso del codice.",
+    "hint": "Si riferisce al passaggio di caratteristiche da una classe madre a una figlia.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_LNG_ENG_027",
+    "question": "In un database, che cos'è l'operazione nota come 'indexing' (indicizzazione) e qual è il suo scopo principale?",
+    "options": [
+      { "id": "A", "text": "La creazione di strutture dati ausiliarie per velocizzare il recupero dei record durante le query" },
+      { "id": "B", "text": "La rimozione fisica dei record contrassegnati come eliminati per liberare spazio su disco" },
+      { "id": "C", "text": "La suddivisione di una singola tabella logica in più tabelle fisiche separate" },
+      { "id": "D", "text": "L'esportazione periodica dei log delle transazioni su un server di backup freddo" }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'indicizzazione ('indexing') consiste nel creare strutture dati ausiliarie (indici, ad esempio basati su alberi B-Tree) per trovare velocemente i record desiderati senza scorrere l'intera tabella.",
+    "hint": "Ha lo stesso scopo dell'indice analitico posto alla fine di un libro.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_LNG_ENG_028",
+    "question": "Nel quadro europeo dell'interoperabilità (EIF) per le pubbliche amministrazioni, cosa significa il termine 'interoperability'?",
+    "options": [
+      { "id": "A", "text": "La velocità massima di calcolo condivisa tra i supercomputer degli Stati membri" },
+      { "id": "B", "text": "La manutenzione periodica obbligatoria dei server ministeriali" },
+      { "id": "C", "text": "La capacità di organizzazioni diverse di interagire e scambiare dati in modo efficiente e coerente" },
+      { "id": "D", "text": "L'obbligo di utilizzare esclusivamente software proprietario con licenze statali" }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "'Interoperability' (interoperabilità) è la capacità di sistemi informativi e processi amministrativi di cooperare e scambiare dati tra diverse pubbliche amministrazioni, garantendo l'erogazione di servizi pubblici integrati.",
+    "hint": "Significa far comunicare e lavorare insieme sistemi informatici eterogenei.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_LNG_ENG_029",
+    "question": "Nel settore IT, cosa si intende con l'espressione 'legacy system'?",
+    "options": [
+      { "id": "A", "text": "Un server configurato per ricevere ed elaborare l'eredità digitale dei cittadini" },
+      { "id": "B", "text": "Un sistema informatico o applicazione obsoleti, ma ancora in uso perché essenziali per le attività operative" },
+      { "id": "C", "text": "Un sistema operativo moderno distribuito sotto licenza di pubblico dominio" },
+      { "id": "D", "text": "Un tipo speciale di database NoSQL progettato per gestire dati non strutturati" }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Un 'legacy system' (sistema ereditato) è un sistema informativo basato su tecnologie obsolete che continua ad essere utilizzato perché le funzioni svolte sono critiche e i costi di sostituzione o migrazione sarebbero troppo elevati.",
+    "hint": "Indica una tecnologia ereditata dal passato ma ancora operativa in produzione.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_LNG_ENG_030",
+    "question": "Nelle telecomunicazioni e reti mobili, come viene definita la 'latency' (latenza)?",
+    "options": [
+      { "id": "A", "text": "La perdita percentuale di pacchetti durante una trasmissione wireless" },
+      { "id": "B", "text": "L'intervallo temporale minimo tra due backup consecutivi del sistema" },
+      { "id": "C", "text": "L'ampiezza massima del canale radio utilizzato dal router WiFi" },
+      { "id": "D", "text": "Il tempo impiegato da un pacchetto dati per viaggiare dalla sorgente alla destinazione" }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "La latenza ('latency') indica il ritardo temporale che intercorre tra l'invio di un segnale di input e la ricezione dell'output a destinazione, solitamente misurato in millisecondi (ms).",
+    "hint": "Misura il ritardo temporale di rete (es. il valore di 'ping').",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_LNG_ENG_031",
+    "question": "Nello sviluppo software, se una funzione o una libreria viene dichiarata 'deprecated' (deprecata), cosa significa?",
+    "options": [
+      { "id": "A", "text": "Che è ancora provvisoriamente supportata ma se ne sconsiglia l'uso perché obsoleta e destinata alla rimozione" },
+      { "id": "B", "text": "Che contiene un bug di sicurezza critico ed è stata bloccata a livello di kernel" },
+      { "id": "C", "text": "Che è stata ottimizzata per consumare meno memoria RAM ed essere eseguita più velocemente" },
+      { "id": "D", "text": "Che richiede il pagamento obbligatorio di una licenza d'uso commerciale per essere integrata" }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il termine 'deprecated' (deprecato) indica una funzionalità che, pur essendo ancora presente nel software per garantire compatibilità retroattiva, è considerata obsoleta e non dovrebbe essere usata in nuovi progetti perché destinata alla rimozione futura.",
+    "hint": "Significa sconsigliata e obsoleta.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_LNG_ENG_032",
+    "question": "Which of the following database properties is represented by the letter 'I' in the acronym 'ACID'?",
+    "options": [
+      { "id": "A", "text": "Integrity" },
+      { "id": "B", "text": "Indexability" },
+      { "id": "C", "text": "Isolation" },
+      { "id": "D", "text": "Iteration" }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'acronimo ACID indica le quattro proprietà fondamentali delle transazioni in un database: Atomicity, Consistency, Isolation, Durability. La 'I' corrisponde a 'Isolation' (Isolamento), che impedisce a transazioni concorrenti di interferire tra loro.",
+    "hint": "Garantisce che ciascuna transazione venga eseguita come se fosse l'unica attiva nel sistema.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_LNG_ENG_033",
+    "question": "In European public administrations and compliance policies, who is a 'whistleblower'?",
+    "options": [
+      { "id": "A", "text": "A senior IT administrator responsible for system security audits" },
+      { "id": "B", "text": "An employee who reports misconduct, corruption, or illegal activities occurring within the organization" },
+      { "id": "C", "text": "An external contractor who fails to deliver the contracted services on time" },
+      { "id": "D", "text": "A government official representing the public interest in international summits" }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Un 'whistleblower' (segnalatore di illeciti, letteralmente 'chi soffia nel fischietto') è un soggetto (spesso dipendente pubblico) che denuncia o segnala condotte illecite o corruttive di cui è venuto a conoscenza nell'ambiente di lavoro.",
+    "hint": "Indica il segnalatore interno di violazioni o atti illegali.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_LNG_ENG_034",
+    "question": "Complete the following sentence: 'A __________ vulnerability is a software security flaw that is known to the software vendor but has not yet been patched, making it highly attractive to attackers.'",
+    "options": [
+      { "id": "A", "text": "open-source" },
+      { "id": "B", "text": "legacy" },
+      { "id": "C", "text": "deprecated" },
+      { "id": "D", "text": "zero-day" }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Una vulnerabilità 'zero-day' (giorno zero) è una falla di sicurezza software non ancora nota al produttore o per la quale non esiste ancora una patch correttiva.",
+    "hint": "Il nome deriva dai giorni che mancano allo sviluppatore per correggere la falla dopo che è stata scoperta dagli hacker.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_LNG_ENG_035",
+    "question": "Nei sistemi di controllo versione (come Git), cosa indica l'operazione denominata 'merge'?",
+    "options": [
+      { "id": "A", "text": "L'unione delle modifiche provenienti da diversi rami (branches) di codice" },
+      { "id": "B", "text": "La cancellazione definitiva del repository locale e remoto" },
+      { "id": "C", "text": "La cifratura dei file prima dell'invio al server centralizzato" },
+      { "id": "D", "text": "La scomposizione di un modulo software monolitico in più microservizi" }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Nei sistemi di controllo versione, 'merge' (fondere) indica l'operazione che unisce le modifiche apportate su un ramo (branch) di sviluppo secondario all'interno del ramo principale.",
+    "hint": "Consiste nella fusione di due flussi di sviluppo separati.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_LNG_ENG_036",
+    "question": "Nel contesto dell'architettura software a microservizi e della containerizzazione, cosa significa che un container è 'stateless'?",
+    "options": [
+      { "id": "A", "text": "Che non possiede un indirizzo IP statico all'interno della rete" },
+      { "id": "B", "text": "Che non memorizza dati persistenti o sessioni localmente, delegandoli a servizi esterni" },
+      { "id": "C", "text": "Che l'applicazione al suo interno è priva di interfaccia utente grafica" },
+      { "id": "D", "text": "Che il container è momentaneamente inattivo e non consuma risorse di CPU" }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Un container 'stateless' (senza stato) non mantiene informazioni persistenti sul proprio file system locale. Se il container viene riavviato o eliminato, non conserva memoria delle interazioni precedenti, garantendo un'elevata scalabilità orizzontale.",
+    "hint": "Significa che non conserva lo stato (state) al proprio interno.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_LNG_ENG_037",
+    "question": "In network security, what is the meaning of a 'Man-in-the-Middle' (MitM) attack?",
+    "options": [
+      { "id": "A", "text": "A denial of service attack that floods a server with millions of packets" },
+      { "id": "B", "text": "An automated script that brute-forces passwords using dictionary attacks" },
+      { "id": "C", "text": "An attacker intercepts and potentially alters the communication between two parties without their knowledge" },
+      { "id": "D", "text": "An administrative tool used to monitor employee web history" }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Un attacco 'Man-in-the-Middle' (MitM) si verifica quando un utente malintenzionato intercetta, inserendosi segretamente nel canale, le comunicazioni tra due entità legittime, potendole anche alterare o decifrare.",
+    "hint": "Descrive un intermediario malevolo inserito 'nel mezzo' del canale di comunicazione.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_LNG_ENG_038",
+    "question": "In concurrent programming, what is a 'race condition'?",
+    "options": [
+      { "id": "A", "text": "A compiler optimization technique that increases the processing speed of loops" },
+      { "id": "B", "text": "A database query that consumes excessive bandwidth due to a missing JOIN condition" },
+      { "id": "C", "text": "A security attack targeting high-performance web servers using buffer overflows" },
+      { "id": "D", "text": "A situation where the output of a program depends on the non-deterministic order of execution of concurrent threads" }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Una 'race condition' (condizione di corsa) si verifica quando il risultato di un programma concorrente dipende dall'ordine o dalla sincronizzazione temporale con cui i singoli thread accedono a una risorsa condivisa.",
+    "hint": "Si verifica quando più processi 'corrono' per modificare lo stesso dato senza una sincronizzazione (mutex o lock).",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_LNG_ENG_039",
+    "question": "Nel contesto dei database distribuiti e del partizionamento dei dati, che cosa indica la tecnica dello 'sharding'?",
+    "options": [
+      { "id": "A", "text": "La frammentazione orizzontale di un database su più server fisici separati per distribuire il carico" },
+      { "id": "B", "text": "La cifratura dei dati a riposo (data at rest) residenti su supporti di memoria" },
+      { "id": "C", "text": "La traduzione automatica delle query SQL in formati NoSQL compatibili" },
+      { "id": "D", "text": "L'eliminazione dei record basata sulla scadenza temporale specificata dal TTL" }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Lo 'sharding' consiste nel suddividere le righe di un database (partizionamento orizzontale) su più nodi fisici distinti chiamati 'shards', migliorando le prestazioni di scrittura e la scalabilità del sistema.",
+    "hint": "Consiste nella frammentazione orizzontale delle tabelle su macchine diverse.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_LNG_ENG_040",
+    "question": "Nel contesto dei servizi digitali della Pubblica Amministrazione europea, in cosa consiste il 'Once-Only Principle' (Principio dell'Una Tantum)?",
+    "options": [
+      { "id": "A", "text": "Ogni pubblica amministrazione può acquistare una licenza software una sola volta l'anno" },
+      { "id": "B", "text": "Cittadini e imprese forniscono i dati alle PA una sola volta, e queste collaborano per scambiarseli" },
+      { "id": "C", "text": "I dipendenti pubblici possono modificare la propria password di rete una sola volta al mese" },
+      { "id": "D", "text": "I bandi di gara europei devono essere pubblicati esclusivamente su un unico portale ministeriale" }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il 'Once-Only Principle' (OOP) stabilisce che i cittadini e le imprese debbano presentare determinati dati standard solo una volta alle autorità pubbliche. Le PA hanno poi l'obbligo di condividere internamente tali dati nel rispetto delle norme.",
+    "hint": "Evita di richiedere a un cittadino documenti che un altro ufficio pubblico possiede già.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_LNG_ENG_041",
+    "question": "Complete the sentence with the correct verb: 'In asymmetric cryptography, a message encrypted with the recipient's public key can only be __________ using their corresponding private key.'",
+    "options": [
+      { "id": "A", "text": "serialized" },
+      { "id": "B", "text": "compiled" },
+      { "id": "C", "text": "decrypted" },
+      { "id": "D", "text": "deprecated" }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Il verbo corretto è 'decrypted' (decifrato). In crittografia asimmetrica, solo la chiave privata posseduta dal destinatario può decifrare un messaggio che sia stato cifrato ('encrypted') con la sua corrispondente chiave pubblica.",
+    "hint": "Rappresenta l'operazione inversa di 'to encrypt' (cifrare).",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_LNG_ENG_042",
+    "question": "In computer networking, what does the term 'packet encapsulation' refer to?",
+    "options": [
+      { "id": "A", "text": "The compression of data packets to reduce bandwidth consumption over links" },
+      { "id": "B", "text": "The verification of data integrity using cryptographic hashing functions" },
+      { "id": "C", "text": "The storage of routing tables in non-volatile flash memory" },
+      { "id": "D", "text": "The process of wrapping data from a higher-level protocol inside a lower-level protocol header" }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'incapsulamento ('encapsulation') è il meccanismo mediante il quale un livello dello stack protocollare (es. TCP/IP) racchiude le informazioni provenienti dal livello superiore all'interno del proprio pacchetto, aggiungendovi un header (intestazione) e talvolta un trailer (coda).",
+    "hint": "Pensa alla struttura 'a matrioska' dei protocolli di rete (es. HTTP dentro TCP, dentro IP).",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_LNG_ENG_043",
+    "question": "Nei linguaggi di programmazione moderni (come Java, C# o Go), che cos'è il 'Garbage Collector'?",
+    "options": [
+      { "id": "A", "text": "Un sottosistema automatico per rilevare e liberare la memoria heap non più referenziata" },
+      { "id": "B", "text": "Un tool di sicurezza per identificare codice ridondante o non raggiungibile" },
+      { "id": "C", "text": "Un archivio cloud remoto in cui vengono depositati i file sorgente eliminati" },
+      { "id": "D", "text": "Un processo di sistema per la pulizia delle cache del browser" }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il 'Garbage Collector' (spazzino) è un meccanismo automatico di gestione della memoria che individua e rilascia lo spazio occupato in memoria dinamica (heap) da oggetti che non vengono più utilizzati dall'applicazione.",
+    "hint": "Solleva il programmatore dal compito di liberare manualmente la memoria heap (es. evitando memory leak).",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_LNG_ENG_044",
+    "question": "In relational database transactions, what is the highest level of 'transaction isolation' defined by the SQL standard?",
+    "options": [
+      { "id": "A", "text": "Read Committed" },
+      { "id": "B", "text": "Serializable" },
+      { "id": "C", "text": "Repeatable Read" },
+      { "id": "D", "text": "Read Uncommitted" }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il livello 'Serializable' (serializzabile) offre l'isolamento massimo. Le transazioni concorrenti vengono eseguite in modo tale da garantire lo stesso risultato che si otterrebbe eseguendole l'una dopo l'altra (in serie), prevenendo tutte le anomalie di lettura.",
+    "hint": "Offre la massima coerenza dei dati a scapito del livello di concorrenza delle transazioni.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_LNG_ENG_045",
+    "question": "Nel contesto del procurement europeo (appalti pubblici), quale documento corrisponde all'inglese 'call for tenders'?",
+    "options": [
+      { "id": "A", "text": "Il capitolato d'oneri" },
+      { "id": "B", "text": "L'offerta economica presentata" },
+      { "id": "C", "text": "Il bando di gara" },
+      { "id": "D", "text": "Il verbale di aggiudicazione provvisoria" }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "'Call for tenders' (o anche 'invitation to tender') si traduce in italiano con 'bando di gara'. È l'invito formale pubblicato da un ente pubblico per richiedere agli operatori di presentare offerte commerciali.",
+    "hint": "È la pubblicazione ufficiale con cui l'amministrazione indice la gara pubblica.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_LNG_ENG_046",
+    "question": "In cloud architecture, what is 'failover'?",
+    "options": [
+      { "id": "A", "text": "The unexpected termination of a transaction due to database deadlocks" },
+      { "id": "B", "text": "The process of migrating an on-premises monolithic application to microservices" },
+      { "id": "C", "text": "The billing system failure caused by exceeding resource consumption limits" },
+      { "id": "D", "text": "The automatic switching to a redundant or standby server upon the failure of the primary one" }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Il 'failover' è la capacità di un'infrastruttura di commutare automaticamente le richieste da un server principale che si è guastato a un sistema secondario ridondato o di standby, garantendo continuità del servizio.",
+    "hint": "Indica il meccanismo automatico di ripristino o commutazione a seguito di un guasto.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_LNG_ENG_047",
+    "question": "Nelle reti a pacchetto e nelle comunicazioni multimediali in tempo reale (come VoIP o videoconferenze), cosa indica il termine 'jitter'?",
+    "options": [
+      { "id": "A", "text": "La variazione nel ritardo di ricezione dei pacchetti di dati (variabilità della latenza)" },
+      { "id": "B", "text": "Il tasso di compressione degli algoritmi audio a banda larga" },
+      { "id": "C", "text": "La crittografia asimmetrica applicata ai flussi RTP" },
+      { "id": "D", "text": "Il numero massimo di salti (hops) che un pacchetto può compiere" }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il 'jitter' indica la fluttuazione temporale (variabilità) della latenza di ricezione dei pacchetti. Se i pacchetti arrivano con intervalli non uniformi, si possono verificare interruzioni e degrado nella qualità audio/video.",
+    "hint": "Rappresenta l'instabilità o la variazione nel ritardo di arrivo dei pacchetti.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_LNG_ENG_048",
+    "question": "In software development, what does the metaphor 'Technical Debt' refer to?",
+    "options": [
+      { "id": "A", "text": "The unpaid licensing fees owed to database and operating system vendors" },
+      { "id": "B", "text": "The implied cost of additional rework caused by choosing an easy but suboptimal solution now" },
+      { "id": "C", "text": "The money spent by a public administration to replace obsolete physical server hardware" },
+      { "id": "D", "text": "The time developers waste troubleshooting local development environment configuration issues" }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il 'Technical Debt' (debito tecnico) rappresenta il costo futuro derivante dalla scelta di implementare scorciatoie di programmazione o soluzioni di bassa qualità nel presente, le quali richiederanno refactoring futuri per consentire l'evoluzione del software.",
+    "hint": "Una scorciatoia odierna che si traduce in un 'interesse' da pagare sotto forma di fatica di programmazione futura.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_LNG_ENG_049",
+    "question": "Nelle architetture database ad alta affidabilità, qual è il limite principale del meccanismo noto come 'asynchronous replication' (replica asincrona)?",
+    "options": [
+      { "id": "A", "text": "Richiede l'interruzione completa dei servizi di lettura su tutti i nodi durante la sincronizzazione" },
+      { "id": "B", "text": "Provoca un blocco temporaneo di tutte le transazioni di scrittura sul server primario (write lock)" },
+      { "id": "C", "text": "Esiste il rischio di perdita di dati (data loss) se il server primario si guasta prima che le repliche ricevano le modifiche" },
+      { "id": "D", "text": "Rende impossibile l'utilizzo di chiavi primarie di tipo auto-incrementale nelle tabelle" }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Nella replica asincrona, il server primario conferma la scrittura al client senza attendere l'effettiva memorizzazione sui nodi secondari. Se il primario si guasta prima della propagazione, gli ultimi dati scritti andranno persi.",
+    "hint": "Dipende dal fatto che il nodo primario non attende il feedback del nodo secondario.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_LNG_ENG_050",
+    "question": "Nel contesto dei contratti di servizi IT della Pubblica Amministrazione dell'Unione Europea, cosa indica l'espressione 'Service Level Agreement' (SLA)?",
+    "options": [
+      { "id": "A", "text": "Un protocollo di crittografia per la trasmissione dei dati tra ministeri" },
+      { "id": "B", "text": "La graduatoria provvisoria per l'assegnazione di fondi europei" },
+      { "id": "C", "text": "La licenza d'uso del software rilasciata per fini di ricerca scientifica" },
+      { "id": "D", "text": "Un accordo sul livello del servizio, che definisce metriche e standard minimi di qualità garantiti" }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Un 'Service Level Agreement' (SLA, accordo sul livello del servizio) definisce contrattualmente le prestazioni minime attese del servizio IT (es. percentuale di uptime, tempi massimi di risposta all'assistenza) e le penali applicabili in caso di disservizio.",
+    "hint": "È lo strumento contrattuale per garantire e monitorare i livelli qualitativi di un servizio esternalizzato.",
+    "level": "avanzato"
+  }
+]

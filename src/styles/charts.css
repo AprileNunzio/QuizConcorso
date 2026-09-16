@@ -1,0 +1,79 @@
+.chart-container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.chart-svg {
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+
+.chart-grid-line {
+  stroke: var(--border-hairline);
+  stroke-dasharray: 4 4;
+  stroke-width: 1;
+}
+
+.chart-axis-label {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  fill: var(--text-dim);
+  font-weight: 600;
+}
+
+.chart-path-glow {
+  filter: drop-shadow(0 4px 12px var(--primary-glow));
+}
+
+.chart-data-point {
+  transition: transform var(--transition-fast), r var(--transition-fast);
+  cursor: pointer;
+}
+
+.chart-data-point:hover {
+  r: 6;
+  transform: scale(1.3);
+}
+
+.heatmap-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 4px;
+}
+
+.heatmap-cell {
+  aspect-ratio: 1;
+  border-radius: var(--radius-xs);
+  background: var(--bg-inset);
+  transition: transform var(--transition-fast), background var(--transition-fast);
+  cursor: pointer;
+}
+
+.heatmap-cell:hover {
+  transform: scale(1.2);
+  z-index: 2;
+  box-shadow: 0 2px 8px rgba(99, 102, 241, 0.4);
+}
+
+.heatmap-cell.lvl-1 { background: rgba(16, 185, 129, 0.25); }
+.heatmap-cell.lvl-2 { background: rgba(16, 185, 129, 0.5); }
+.heatmap-cell.lvl-3 { background: rgba(16, 185, 129, 0.75); }
+.heatmap-cell.lvl-4 { background: #10b981; }
+
+.gauge-ring-bg {
+  stroke: var(--bg-inset);
+  stroke-width: 8;
+  fill: none;
+}
+
+.gauge-ring-fill {
+  stroke: url(#gaugeGradient);
+  stroke-width: 8;
+  stroke-linecap: round;
+  fill: none;
+  transition: stroke-dashoffset 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}

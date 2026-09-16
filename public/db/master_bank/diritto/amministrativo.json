@@ -1,0 +1,1302 @@
+[
+  {
+    "id": "Q_DIR_AMM_001",
+    "question": "Qual è il termine generale per la conclusione del procedimento amministrativo, stabilito dall'art. 2 della Legge 241/1990, ove non sia previsto un termine diverso?",
+    "options": [
+      {
+        "id": "A",
+        "text": "15 giorni"
+      },
+      {
+        "id": "B",
+        "text": "30 giorni"
+      },
+      {
+        "id": "C",
+        "text": "60 giorni"
+      },
+      {
+        "id": "D",
+        "text": "90 giorni"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 2, comma 3, della Legge 241/1990 stabilisce che, ove i procedimenti di competenza delle amministrazioni statali non siano determinati da leggi o regolamenti diversi, il termine generale di conclusione del procedimento è di 30 giorni.",
+    "hint": "Si tratta del termine residuale standard, applicabile in assenza di disposizioni specifiche.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_AMM_002",
+    "question": "Quale dei seguenti non è espressamente annoverato tra i principi generali dell'attività amministrativa ai sensi dell'art. 1 della Legge 241/1990?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Principio di economicità ed efficacia"
+      },
+      {
+        "id": "B",
+        "text": "Principio di pubblicità e trasparenza"
+      },
+      {
+        "id": "C",
+        "text": "Principio di rotazione degli affidamenti"
+      },
+      {
+        "id": "D",
+        "text": "Principi dell'ordinamento comunitario"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Il principio di rotazione è tipico della materia dei contratti pubblici (Codice dei contratti). L'art. 1 della L. 241/1990 menziona economicità, efficacia, imparzialità, pubblicità e trasparenza, oltre ai principi dell'ordinamento comunitario.",
+    "hint": "Pensa ai principi generali del procedimento amministrativo e non a quelli degli appalti pubblici.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_AMM_003",
+    "question": "In base all'art. 3 della Legge 241/1990, la motivazione del provvedimento amministrativo:",
+    "options": [
+      {
+        "id": "A",
+        "text": "È facoltativa per i provvedimenti favorevoli al destinatario"
+      },
+      {
+        "id": "B",
+        "text": "È obbligatoria per ogni provvedimento amministrativo, compresi quelli concernenti l'organizzazione e i concorsi, esclusi gli atti normativi e a contenuto generale"
+      },
+      {
+        "id": "C",
+        "text": "Deve essere redatta solo su espressa richiesta degli interessati entro 10 giorni"
+      },
+      {
+        "id": "D",
+        "text": "È obbligatoria anche per gli atti normativi e per quelli a contenuto generale"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 3 della L. 241/1990 impone l'obbligo di motivazione per ogni provvedimento amministrativo, compresi quelli sull'organizzazione, concorsi e personale. La motivazione non è richiesta solo per gli atti normativi e per quelli a contenuto generale.",
+    "hint": "Ricorda l'eccezione generale per atti normativi e regolamentari (che contengono già criteri generali).",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_AMM_004",
+    "question": "Chi è il soggetto incaricato dell'istruttoria e di ogni altro adempimento inerente al singolo procedimento amministrativo?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il Ministro competente per materia"
+      },
+      {
+        "id": "B",
+        "text": "Il Responsabile del procedimento"
+      },
+      {
+        "id": "C",
+        "text": "Il Direttore Generale dell'ente"
+      },
+      {
+        "id": "D",
+        "text": "Il Difensore Civico territoriale"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Ai sensi del Capo II (artt. 4, 5 e 6) della L. 241/1990, il responsabile del procedimento è la figura chiave che segue il procedimento dall'avvio alla conclusione, curandone l'istruttoria.",
+    "hint": "È la figura disciplinata specificamente dagli articoli 4 e 5 della L. 241/1990.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_AMM_005",
+    "question": "La comunicazione di avvio del procedimento deve indicare obbligatoriamente:",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'ammontare delle spese istruttorie previste per il privato"
+      },
+      {
+        "id": "B",
+        "text": "L'amministrazione competente, l'oggetto, l'ufficio e la persona del responsabile, la data di conclusione e i rimedi esperibili"
+      },
+      {
+        "id": "C",
+        "text": "Il testo completo del provvedimento finale che l'amministrazione intende adottare"
+      },
+      {
+        "id": "D",
+        "text": "I nominativi di tutti i soggetti controinteressati già individuati"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 8 della L. 241/1990 elenca gli elementi essenziali della comunicazione di avvio del procedimento: amministrazione competente, oggetto del procedimento, ufficio e responsabile, termine di conclusione, rimedi esperibili, e l'ufficio dove si può prendere visione degli atti.",
+    "hint": "Contiene le informazioni utili a consentire al privato di partecipare attivamente fin dall'inizio.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_AMM_006",
+    "question": "L'istituto della comunicazione dei motivi ostativi all'accoglimento dell'istanza (art. 10-bis L. 241/1990) si applica:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Esclusivamente ai procedimenti avviati d'ufficio"
+      },
+      {
+        "id": "B",
+        "text": "Ai procedimenti ad istanza di parte, prima della formale adozione di un provvedimento negativo"
+      },
+      {
+        "id": "C",
+        "text": "A tutti i procedimenti amministrativi, compresi quelli concorsuali e previdenziali, senza eccezione alcuna"
+      },
+      {
+        "id": "D",
+        "text": "Soltanto dopo che il provvedimento di rigetto è già diventato efficace"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 10-bis stabilisce che, nei procedimenti ad istanza di parte, il responsabile del procedimento o l'organo competente, prima della formale adozione di un provvedimento negativo, comunica tempestivamente agli istanti i motivi che ostano all'accoglimento della domanda.",
+    "hint": "È anche noto come 'preavviso di rigetto' ed è finalizzato a instaurare un contraddittorio procedimentale.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_AMM_007",
+    "question": "Qual è il dovere della Pubblica Amministrazione rispetto alle memorie scritte e ai documenti presentati dai partecipanti al procedimento?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ha l'obbligo di valutarli ove siano pertinenti all'oggetto del procedimento"
+      },
+      {
+        "id": "B",
+        "text": "Ha la facoltà discrezionale di prenderli in esame o rigettarli senza motivazione"
+      },
+      {
+        "id": "C",
+        "text": "Deve obbligatoriamente accogliere le richieste in essi contenute"
+      },
+      {
+        "id": "D",
+        "text": "Deve trasmetterli immediatamente al Giudice Amministrativo per la loro validazione"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 10, comma 1, lett. b) della L. 241/1990 prevede il diritto dei partecipanti di presentare memorie scritte e documenti, che l'amministrazione ha l'obbligo di valutare ove siano pertinenti all'oggetto del procedimento.",
+    "hint": "La PA deve esaminarli e tenerne conto nella motivazione del provvedimento, ma non è obbligata a conformarvisi.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_AMM_008",
+    "question": "Il silenzio assenso previsto dall'art. 20 della Legge 241/1990 opera:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Per tutti i procedimenti d'ufficio in cui l'amministrazione rimanga inerte"
+      },
+      {
+        "id": "B",
+        "text": "Nei procedimenti ad istanza di parte per il rilascio di provvedimenti amministrativi, qualora la PA non comunichi il diniego o non indica una conferenza di servizi nei termini"
+      },
+      {
+        "id": "C",
+        "text": "Esclusivamente nei procedimenti che riguardano la tutela della salute e dell'incolumità pubblica"
+      },
+      {
+        "id": "D",
+        "text": "Solo se espressamente pattuito tramite accordo integrativo tra PA e privato"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 20 della L. 241/1990 stabilisce che, nei procedimenti ad istanza di parte per il rilascio di provvedimenti amministrativi, il silenzio dell'amministrazione competente equivale a provvedimento di accoglimento della domanda, senza necessità di ulteriori istanze, se l'amministrazione non comunica all'interessato il diniego o non indice una conferenza di servizi.",
+    "hint": "Rappresenta la regola generale per le istanze di parte, salve le numerose materie escluse.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_AMM_009",
+    "question": "La SCIA (Segnalazione Certificata di Inizio Attività) consente al privato di iniziare l'attività:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Decorsi 30 giorni dalla data di presentazione della segnalazione all'amministrazione competente"
+      },
+      {
+        "id": "B",
+        "text": "Dalla data di presentazione della segnalazione all'amministrazione competente"
+      },
+      {
+        "id": "C",
+        "text": "Solo dopo aver ottenuto il nulla osta scritto da parte del responsabile del procedimento"
+      },
+      {
+        "id": "D",
+        "text": "Decorsi 60 giorni dalla presentazione, salvo sospensione dei termini"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Ai sensi dell'art. 19, comma 2, della L. 241/1990, l'attività oggetto della segnalazione può essere iniziata dalla data di presentazione della segnalazione all'amministrazione competente.",
+    "hint": "La SCIA produce effetti immediati (liberalizzazione dell'attività), a differenza della vecchia DIA.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_AMM_010",
+    "question": "Ai sensi dell'art. 21-septies della L. 241/1990, quale delle seguenti NON è causa di nullità del provvedimento amministrativo?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mancanza degli elementi essenziali"
+      },
+      {
+        "id": "B",
+        "text": "Difetto assoluto di attribuzione"
+      },
+      {
+        "id": "C",
+        "text": "Adozione in violazione o elusione del giudicato"
+      },
+      {
+        "id": "D",
+        "text": "Violazione di norme sul procedimento o sulla forma degli atti"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "La violazione di norme sul procedimento o sulla forma degli atti configura, al più, un'ipotesi di annullabilità (art. 21-octies), non di nullità. La nullità colpisce i vizi più gravi indicati all'art. 21-septies.",
+    "hint": "La violazione di forme procedimentali è un vizio tipico di annullabilità, regolato dall'art. 21-octies.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_AMM_011",
+    "question": "I tre vizi di legittimità che determinano l'annullabilità del provvedimento amministrativo sono:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Incompetenza, eccesso di potere, violazione di legge"
+      },
+      {
+        "id": "B",
+        "text": "Carenza di potere, travisamento dei fatti, illogicità"
+      },
+      {
+        "id": "C",
+        "text": "Errore materiale, dolo del funzionario, vizio di forma"
+      },
+      {
+        "id": "D",
+        "text": "Violazione del giudicato, incompetenza assoluta, mancanza di motivazione"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 21-octies, comma 1, della L. 241/1990 sancisce che è annullabile il provvedimento amministrativo adottato in violazione di legge o viziato da eccesso di potere o da incompetenza (relativa).",
+    "hint": "Si tratta della triade tradizionale dei vizi di legittimità dell'atto amministrativo.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_AMM_012",
+    "question": "Il provvedimento con cui la PA rimuove con efficacia retroattiva (ex tunc) un provvedimento illegittimo, previo accertamento dell'interesse pubblico, si definisce:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Revoca"
+      },
+      {
+        "id": "B",
+        "text": "Annullamento d'ufficio"
+      },
+      {
+        "id": "C",
+        "text": "Convalida"
+      },
+      {
+        "id": "D",
+        "text": "Recesso unilateralmente concordato"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'annullamento d'ufficio (art. 21-nonies L. 241/1990) elimina un provvedimento viziato da illegittimità originaria con efficacia retroattiva (ex tunc), ripristinando la situazione preesistente, qualora sussistano ragioni di interesse pubblico.",
+    "hint": "Pensa all'autotutela demolitoria che agisce su vizi di legittimità originari dell'atto.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_AMM_013",
+    "question": "Ai sensi dell'art. 22 della Legge 241/1990, il diritto di accesso documentale è riconosciuto a:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Chiunque, senza necessità di motivare la richiesta"
+      },
+      {
+        "id": "B",
+        "text": "Tutti i cittadini residenti nel territorio dello Stato da almeno 5 anni"
+      },
+      {
+        "id": "C",
+        "text": "Tutti i soggetti privati che abbiano un interesse diretto, concreto e attuale, corrispondente ad una situazione giuridicamente tutelata e collegata al documento richiesto"
+      },
+      {
+        "id": "D",
+        "text": "Esclusivamente ai partiti politici e alle associazioni sindacali maggiormente rappresentative"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'art. 22, comma 1, lett. b) definisce 'soggetti interessati' coloro che hanno diritto all'accesso documentale, richiedendo la sussistenza di un interesse diretto, concreto e attuale, corrispondente ad una situazione giuridicamente tutelata e collegata al documento.",
+    "hint": "Questo tipo di accesso non è un'azione popolare; richiede una posizione qualificata e differenziata rispetto al documento.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_AMM_014",
+    "question": "L'accesso civico 'semplice' previsto dal D.Lgs. 33/2013 attribuisce a chiunque il diritto di richiedere dati e documenti:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Coperti da segreto di Stato, qualora siano trascorsi 10 anni dalla loro classificazione"
+      },
+      {
+        "id": "B",
+        "text": "Nei casi in cui sia stata omessa la loro pubblicazione obbligatoria per legge sul sito istituzionale dell'ente"
+      },
+      {
+        "id": "C",
+        "text": "Al solo fine di tutelare una propria situazione giuridica soggettiva lesa"
+      },
+      {
+        "id": "D",
+        "text": "Relativi alle sole procedure di concorso pubblico a cui il richiedente ha partecipato"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'accesso civico semplice (art. 5, comma 1, D.Lgs. 33/2013) è circoscritto ai soli documenti, informazioni e dati oggetto di pubblicazione obbligatoria, nell'ipotesi in cui l'amministrazione ne abbia omesso la pubblicazione sul proprio sito internet.",
+    "hint": "È strettamente collegato agli obblighi di trasparenza (sezione 'Amministrazione trasparente').",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_AMM_015",
+    "question": "L'accesso civico 'generalizzato' (FOIA italiano) si caratterizza per il fatto che:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Non richiede una legittimazione soggettiva nè una motivazione, e riguarda dati e documenti ulteriori rispetto a quelli oggetto di pubblicazione obbligatoria"
+      },
+      {
+        "id": "B",
+        "text": "Richiede la dimostrazione di un interesse diretto, concreto e attuale collegato al documento"
+      },
+      {
+        "id": "C",
+        "text": "Può essere esercitato esclusivamente nei confronti degli enti locali e non dello Stato"
+      },
+      {
+        "id": "D",
+        "text": "Comporta sempre il pagamento di una tariffa fissa di istruttoria a carico del richiedente"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 5, comma 2, del D.Lgs. 33/2013 disciplina l'accesso civico generalizzato (ispirato al FOIA anglosassone), consentendo a chiunque di accedere a dati e documenti detenuti dalle PA, ulteriori rispetto a quelli sottoposti a pubblicazione obbligatoria, senza obbligo di motivazione.",
+    "hint": "Mira a favorire forme diffuse di controllo sul perseguimento delle funzioni istituzionali e sull'utilizzo delle risorse pubbliche.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_AMM_016",
+    "question": "L'esecutorietà del provvedimento amministrativo (art. 21-ter L. 241/1990) consiste nel potere della PA di:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dichiarare nullo l'atto in qualunque momento d'ufficio"
+      },
+      {
+        "id": "B",
+        "text": "Imporre l'adempimento degli obblighi nei suoi confronti coattivamente, nei casi e con le modalità stabiliti dalla legge, senza ricorrere al giudice"
+      },
+      {
+        "id": "C",
+        "text": "Produrre effetti giuridici immediati nella sfera dei destinatari indipendentemente dalla loro volontà"
+      },
+      {
+        "id": "D",
+        "text": "Sospendere l'efficacia del provvedimento per ragioni di convenienza"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'esecutorietà è il carattere in forza del quale la PA può imporre coattivamente l'adempimento degli obblighi nei suoi confronti da parte del privato inadempiente, nei casi e con le modalità stabiliti dalla legge (art. 21-ter L. 241/1990). Si distingue dall'esecutività.",
+    "hint": "Riguarda la fase dell'esecuzione coattiva delle prestazioni non adempiute dal privato.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_AMM_017",
+    "question": "In forza dell'art. 6-bis della Legge 241/1990, il responsabile del procedimento e i titolari degli uffici competenti ad adottare pareri, valutazioni tecniche e provvedimenti finali:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Devono astenersi solo se il conflitto di interessi riguarda parenti entro il primo grado"
+      },
+      {
+        "id": "B",
+        "text": "Devono astenersi in caso di conflitto di interessi, segnalando ogni situazione di conflitto, anche potenziale"
+      },
+      {
+        "id": "C",
+        "text": "Possono comunque agire se autorizzati per iscritto dal dirigente apicale"
+      },
+      {
+        "id": "D",
+        "text": "Non sono soggetti a norme sul conflitto di interessi, le quali si applicano solo ai magistrati"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 6-bis della L. 241/1990 sancisce l'obbligo di astensione per il responsabile del procedimento e per i titolari degli uffici in caso di conflitto di interessi, con obbligo di segnalare ogni situazione di conflitto, anche potenziale.",
+    "hint": "La norma mira a garantire l'imparzialità dell'azione amministrativa, coprendo anche i conflitti potenziali.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_AMM_018",
+    "question": "Gli accordi integrativi o sostitutivi del provvedimento, stipulati tra la PA e gli interessati ai sensi dell'art. 11 della L. 241/1990, devono essere redatti:",
+    "options": [
+      {
+        "id": "A",
+        "text": "In forma scritta a pena di nullità, salvo che la legge disponga diversamente"
+      },
+      {
+        "id": "B",
+        "text": "In qualunque forma, anche verbale, purchè vi siano testimoni"
+      },
+      {
+        "id": "C",
+        "text": "Esclusivamente tramite atto pubblico notarile"
+      },
+      {
+        "id": "D",
+        "text": "In forma elettronica autenticata solo dal Difensore Civico"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 11, comma 2, della L. 241/1990 prevede che gli accordi procedimentali devono essere stipulati, a pena di nullità, per atto scritto, salvo che la legge disponga diversamente. Ad essi si applicano i principi del codice civile in materia di obbligazioni e contratti, in quanto compatibili.",
+    "hint": "La forma scritta ad substantiam è richiesta a garanzia della trasparenza e certezza del contenuto dell'accordo.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_AMM_019",
+    "question": "Ove l'amministrazione ravvisi termini diversi da quello generale di 30 giorni, i decreti del Presidente del Consiglio dei ministri possono fissare termini non superiori a:",
+    "options": [
+      {
+        "id": "A",
+        "text": "60 giorni di norma, ed eccezionalmente 90 giorni"
+      },
+      {
+        "id": "B",
+        "text": "90 giorni di norma, ed eccezionalmente 180 giorni per procedimenti di particolare complessità"
+      },
+      {
+        "id": "C",
+        "text": "120 giorni in ogni caso, senza eccezioni"
+      },
+      {
+        "id": "D",
+        "text": "365 giorni per le amministrazioni centrali"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Ai sensi dell'art. 2, commi 3 e 4, della L. 241/1990, i termini per la conclusione del procedimento stabiliti con D.P.C.M. non possono superare i 90 giorni. Tuttavia, in presenza di particolari presupposti (complessità), possono essere fissati termini fino a un massimo di 180 giorni.",
+    "hint": "Considera i due limiti temporali massimi previsti dai commi 3 e 4 dell'art. 2 per la decretazione governativa.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_AMM_020",
+    "question": "A norma dell'art. 20 della L. 241/1990, il silenzio assenso è escluso, tra l'altro, per i procedimenti riguardanti:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Le attività economiche e commerciali a livello locale"
+      },
+      {
+        "id": "B",
+        "text": "Il patrimonio culturale e paesaggistico, l'ambiente, la difesa nazionale, la salute e la pubblica incolumità"
+      },
+      {
+        "id": "C",
+        "text": "La concessione di sovvenzioni e sussidi inferiori a 10.000 euro"
+      },
+      {
+        "id": "D",
+        "text": "Le istanze presentate da cittadini non appartenenti all'Unione Europea in materia di commercio al dettaglio"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 20, comma 4, L. 241/1990 esclude l'applicazione del silenzio assenso per i procedimenti riguardanti interessi sensibili: patrimonio culturale e paesaggistico, ambiente, tutela dal rischio idrogeologico, difesa nazionale, pubblica sicurezza, immigrazione, asilo, cittadinanza, salute e pubblica incolumità.",
+    "hint": "Si tratta dei cosiddetti 'interessi sensibili' o di rango costituzionale primario per i quali è richiesto un controllo espresso.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_AMM_021",
+    "question": "Ai sensi dell'art. 10-bis della L. 241/1990 (modificato dal D.L. 76/2020), la comunicazione dei motivi ostativi all'accoglimento dell'istanza determina:",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'interruzione dei termini di conclusione del procedimento, che iniziano a decorrere ex novo dalla data di presentazione delle osservazioni"
+      },
+      {
+        "id": "B",
+        "text": "La sospensione dei termini di conclusione del procedimento, che ricominciano a decorrere dieci giorni dopo la presentazione delle osservazioni o, in mancanza, dalla scadenza del termine per presentarle"
+      },
+      {
+        "id": "C",
+        "text": "La decadenza immediata dell'istanza, obbligando il privato a presentare una nuova domanda"
+      },
+      {
+        "id": "D",
+        "text": "L'obbligo per la PA di emanare un provvedimento favorevole entro i successivi 30 giorni"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La L. 120/2020 (di conversione del D.L. 76/2020) ha modificato l'art. 10-bis stabilendo che la comunicazione dei motivi ostativi *sospende* (e non più interrompe) i termini di conclusione del procedimento. I termini ricominciano a decorrere dieci giorni dopo la presentazione delle osservazioni o, in mancanza, dalla scadenza del termine di dieci giorni assegnato al privato.",
+    "hint": "Fai attenzione alla differenza tra sospensione e interruzione introdotta dalla riforma semplificazioni del 2020.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_AMM_022",
+    "question": "In merito al rapporto tra il responsabile del procedimento e l'organo competente ad adottare il provvedimento finale (art. 6 L. 241/1990):",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'organo competente è libero di ignorare l'istruttoria del responsabile senza fornire alcuna motivazione"
+      },
+      {
+        "id": "B",
+        "text": "L'organo competente non può discostarsi dalle risultanze dell'istruttoria condotta dal responsabile se non indicandone il motivo nel provvedimento finale"
+      },
+      {
+        "id": "C",
+        "text": "Il responsabile del procedimento deve necessariamente coincidere con l'organo competente all'adozione del provvedimento"
+      },
+      {
+        "id": "D",
+        "text": "L'organo competente deve obbligatoriamente conformarsi all'istruttoria, senza possibilità di dissenso"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 6, comma 1, lett. e) stabilisce che l'organo competente all'adozione del provvedimento finale, qualora non coincida con il responsabile del procedimento, non può discostarsi dalle risultanze dell'istruttoria condotta dal responsabile, se non indicandone il motivo nel provvedimento finale.",
+    "hint": "C'è un vincolo motivazionale forte per l'organo decidente rispetto alle risultanze istruttorie.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_AMM_023",
+    "question": "L'obbligo di comunicazione dell'avvio del procedimento ex art. 7 L. 241/1990 sussiste anche nei confronti dei soggetti che non sono i destinatari diretti dell'atto, qualora:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Siano residenti nello stesso Comune in cui si svolge l'attività istruttoria"
+      },
+      {
+        "id": "B",
+        "text": "Da esso possa derivare loro un pregiudizio, purché individuati o facilmente individuabili"
+      },
+      {
+        "id": "C",
+        "text": "Siano dipendenti pubblici della stessa amministrazione procedente"
+      },
+      {
+        "id": "D",
+        "text": "Siano parenti dell'istante entro il quarto grado civile"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 7 della L. 241/1990 dispone che l'avvio del procedimento deve essere comunicato non solo ai destinatari diretti e ai soggetti tenuti per legge a intervenirvi, ma anche a quei soggetti terzi (controinteressati sostanziali) ai quali possa derivare un pregiudizio dall'atto, qualora individuati o facilmente individuabili.",
+    "hint": "Pensa alla figura dei soggetti terzi potenzialmente danneggiati dal provvedimento finale.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_AMM_024",
+    "question": "A norma dell'art. 21-nonies della L. 241/1990, qual è il termine massimo ordinario entro cui l'amministrazione può annullare d'ufficio i provvedimenti autorizzatori o attributivi di vantaggi economici?",
+    "options": [
+      {
+        "id": "A",
+        "text": "6 mesi dal momento dell'adozione"
+      },
+      {
+        "id": "B",
+        "text": "12 mesi dal momento dell'adozione"
+      },
+      {
+        "id": "C",
+        "text": "18 mesi dal momento dell'adozione"
+      },
+      {
+        "id": "D",
+        "text": "24 mesi dal momento dell'adozione"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il termine massimo per l'annullamento d'ufficio di provvedimenti di autorizzazione o di attribuzione di vantaggi economici è stato ridotto da 18 a 12 mesi ad opera del D.L. 77/2021 (Legge di conversione 108/2021) che ha modificato l'art. 21-nonies, comma 1.",
+    "hint": "Il termine originario di 18 mesi è stato recentemente abbreviato per rafforzare la certezza del diritto e l'affidamento del privato.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_AMM_025",
+    "question": "Quale delle seguenti affermazioni sulla revoca del provvedimento amministrativo (art. 21-quinquies L. 241/1990) è corretta?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Opera con efficacia retroattiva (ex tunc) e non comporta alcun indennizzo"
+      },
+      {
+        "id": "B",
+        "text": "Determina l'idoneità del provvedimento revocato a non produrre ulteriori effetti (ex nunc) e obbliga l'amministrazione all'indennizzo degli eventuali pregiudizi in danno dei soggetti interessati"
+      },
+      {
+        "id": "C",
+        "text": "È ammessa solo per vizi di legittimità originari dell'atto"
+      },
+      {
+        "id": "D",
+        "text": "Può essere disposta liberamente anche in assenza di sopravvenuti motivi di pubblico interesse"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La revoca (art. 21-quinquies) opera ex nunc (rimozione per motivi di merito o opportunità sopravvenuti) e comporta l'obbligo di indennizzare i pregiudizi arrecati ai privati interessati. Si distingue dall'annullamento d'ufficio che opera ex tunc ed è legato a vizi di legittimità.",
+    "hint": "La revoca incide sul merito ed elimina l'atto per il futuro, tutelando il privato tramite indennizzo.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_AMM_026",
+    "question": "Ai sensi dell'art. 5, comma 3, del D.Lgs. 33/2013, a quale dei seguenti uffici NON può essere indirizzata la richiesta di accesso civico (semplice o generalizzato)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "All'ufficio che detiene i dati, le informazioni o i documenti"
+      },
+      {
+        "id": "B",
+        "text": "All'Ufficio Relazioni con il Pubblico (URP)"
+      },
+      {
+        "id": "C",
+        "text": "Al Responsabile della prevenzione della corruzione e della trasparenza (RPCT), ove l'accesso sia civico semplice"
+      },
+      {
+        "id": "D",
+        "text": "Al Sindaco o al Presidente della Provincia in via gerarchica esclusiva"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'art. 5, comma 3, del D.Lgs. 33/2013 individua chiaramente i destinatari della richiesta: a) l'ufficio che detiene i dati; b) l'URP; c) altro ufficio indicato dall'amministrazione; d) il RPCT (se l'istanza ha ad oggetto documenti per cui vi è obbligo di pubblicazione, cioè accesso civico semplice). Il Sindaco o Presidente dell'ente in via gerarchica esclusiva non è tra i destinatari indicati dalla legge.",
+    "hint": "La legge prevede canali specifici per facilitare l'accesso dei cittadini senza appesantire gli organi politici di vertice.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_AMM_027",
+    "question": "Il silenzio rifiuto in materia di accesso ai documenti amministrativi ai sensi dell'art. 25 della L. 241/1990 si forma quando:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Decorrono inutilmente 15 giorni dalla richiesta senza risposta della PA"
+      },
+      {
+        "id": "B",
+        "text": "Decorrono inutilmente 30 giorni dalla richiesta senza risposta della PA"
+      },
+      {
+        "id": "C",
+        "text": "Decorrono inutilmente 60 giorni dalla richiesta senza risposta della PA"
+      },
+      {
+        "id": "D",
+        "text": "L'amministrazione risponde negando l'accesso con atto motivato"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 25, comma 4, della L. 241/1990 stabilisce che, decorsi inutilmente trenta giorni dalla richiesta, questa si intende respinta (silenzio-rigetto o silenzio-diniego), consentendo al richiedente di proporre ricorso.",
+    "hint": "Il termine di 30 giorni è il termine classico che regola sia il procedimento di accesso sia la formazione del relativo silenzio.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_AMM_028",
+    "question": "Ai sensi dell'art. 14, comma 2, della L. 241/1990, la Conferenza di Servizi decisoria è indetta:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sempre, quando sia opportuno effettuare un esame contestuale di vari interessi pubblici coinvolti in un procedimento"
+      },
+      {
+        "id": "B",
+        "text": "Dall'amministrazione procedente quando la conclusione del procedimento è subordinata all'acquisizione di più pareri, intese, concerti, nulla osta o altri atti di assenso resi da diverse amministrazioni pubbliche"
+      },
+      {
+        "id": "C",
+        "text": "Su richiesta esclusiva del privato interessato ad accelerare l'istruttoria"
+      },
+      {
+        "id": "D",
+        "text": "Solo quando il procedimento deve concludersi entro il termine perentorio di 15 giorni"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La conferenza di servizi decisoria (art. 14, comma 2) è obbligatoria (indetta dall'amministrazione procedente) quando la conclusione del procedimento è subordinata all'acquisizione di più atti di assenso, comunque denominati, resi da diverse amministrazioni pubbliche.",
+    "hint": "Si distingue dalla conferenza istruttoria (che è facoltativa) per il suo scopo prettamente decisorio ed obbligatorio.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_AMM_029",
+    "question": "In tema di accesso documentale ex L. 241/1990, chi assume la qualifica di 'controinteressato'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Qualsiasi cittadino che si oppone alla trasparenza amministrativa"
+      },
+      {
+        "id": "B",
+        "text": "I soggetti, individuati o facilmente individuabili in base alla natura del documento richiesto, che dall'esercizio dell'accesso vedrebbero compromesso il loro diritto alla riservatezza"
+      },
+      {
+        "id": "C",
+        "text": "Esclusivamente le Pubbliche Amministrazioni diverse da quella detentrice del documento"
+      },
+      {
+        "id": "D",
+        "text": "I soggetti che hanno avviato un ricorso giurisdizionale contro lo stesso richiedente"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 22, comma 1, lett. c) L. 241/1990 definisce 'controinteressati' tutti i soggetti, individuati o facilmente individuabili in base alla natura del documento richiesto, che dall'esercizio dell'accesso vedrebbero compromesso il loro diritto alla riservatezza.",
+    "hint": "Si tratta di soggetti i cui dati personali e riservatezza sono potenzialmente esposti a seguito dell'accesso altrui.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_AMM_030",
+    "question": "L'art. 19 della L. 241/1990 esclude l'applicazione della SCIA, tra l'altro, nei casi in cui sussistano vincoli:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Di bilancio o spesa pubblica locale superiori a 50.000 euro"
+      },
+      {
+        "id": "B",
+        "text": "Ambientali, paesaggistici o culturali e nei procedimenti relativi all'amministrazione della giustizia, alle finanze e alla difesa nazionale"
+      },
+      {
+        "id": "C",
+        "text": "Relativi all'età dei richiedenti qualora inferiore a 25 anni"
+      },
+      {
+        "id": "D",
+        "text": "Di natura puramente commerciale e settoriale stabiliti dai regolamenti comunali"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Ai sensi dell'art. 19, comma 1, L. 241/1990, la SCIA è esclusa qualora sussistano vincoli ambientali, paesaggistici o culturali, e per gli atti rilasciati dalle amministrazioni preposte alla difesa nazionale, alla pubblica sicurezza, all'immigrazione, all'asilo, alla cittadinanza, all'amministrazione della giustizia e alle finanze.",
+    "hint": "Anche per la SCIA operano limitazioni per la tutela di interessi sensibili dello Stato e della collettività.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_AMM_031",
+    "question": "L'art. 21-octies, comma 2, della L. 241/1990 stabilisce che non è annullabile il provvedimento adottato in violazione di norme sul procedimento o sulla forma degli atti qualora:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il provvedimento sia favorevole al privato, indipendentemente dalla natura del vizio"
+      },
+      {
+        "id": "B",
+        "text": "Per la natura vincolata del provvedimento, sia palese che il suo contenuto dispositivo non avrebbe potuto essere diverso da quello in concreto adottato"
+      },
+      {
+        "id": "C",
+        "text": "Il termine per impugnarlo dinanzi al TAR sia decorso da oltre 10 giorni"
+      },
+      {
+        "id": "D",
+        "text": "L'amministrazione provveda alla sanatoria retroattiva del vizio tramite una delibera di giunta"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 21-octies, comma 2, prima parte, introduce la cosiddetta dequotazione dei vizi formali: il provvedimento non è annullabile per violazione di norme sul procedimento o sulla forma se, per la natura vincolata del provvedimento, sia palese che il suo contenuto non avrebbe potuto essere diverso.",
+    "hint": "Si applica ai provvedimenti a carattere strettamente vincolato, dove il vizio di forma non ha inciso sul risultato finale.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_AMM_032",
+    "question": "Ai sensi dell'art. 24, comma 1, della Legge 241/1990, l'accesso documentale è escluso per via legislativa:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Per i soli documenti contabili e di bilancio delle amministrazioni centrali"
+      },
+      {
+        "id": "B",
+        "text": "Per i documenti coperti da segreto di Stato, nonché nei casi di segreto o di divieto di divulgazione espressamente previsti dalla legge"
+      },
+      {
+        "id": "C",
+        "text": "Per le istanze inoltrate da dipendenti in stato di sospensione dal servizio"
+      },
+      {
+        "id": "D",
+        "text": "Nei confronti dei concessionari di pubblici servizi"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 24, comma 1, individua i casi tassativi di esclusione del diritto di accesso previsti direttamente dalla legge (es. segreto di Stato, segreto o divieto di divulgazione ex lege, procedimenti tributari, attività di programmazione e pianificazione, ecc.).",
+    "hint": "Si tratta dei limiti assoluti disposti dal legislatore per ragioni di sicurezza dello Stato e riservatezza qualificata.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_AMM_033",
+    "question": "Nel caso in cui l'accesso civico generalizzato sia rifiutato o differito, il richiedente può presentare richiesta di riesame:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Esclusivamente al Prefetto del capoluogo di regione"
+      },
+      {
+        "id": "B",
+        "text": "Al Responsabile della prevenzione della corruzione e della trasparenza (RPCT) dell'amministrazione detentrice, che decide entro 20 giorni"
+      },
+      {
+        "id": "C",
+        "text": "Al Comitato Nazionale per la Privacy (CNP) entro il termine di 60 giorni"
+      },
+      {
+        "id": "D",
+        "text": "Al TAR in via amministrativa preventiva, a pena di decadenza"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 5, comma 7, del D.Lgs. 33/2013 prevede che, contro il diniego o differimento dell'accesso civico, il richiedente può presentare richiesta di riesame al RPCT, il quale decide con provvedimento motivato entro il termine di 20 giorni.",
+    "hint": "È una tutela amministrativa interna, rapida e gratuita, affidata al soggetto garante della trasparenza dell'ente.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_AMM_034",
+    "question": "In forza delle previsioni della Legge 241/1990, la mancata o tardiva emanazione del provvedimento costituisce:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Elemento di valutazione della performance individuale e di responsabilità disciplinare e amministrativo-contabile del dirigente e del funzionario inadempiente"
+      },
+      {
+        "id": "B",
+        "text": "Reato di omissione di atti d'ufficio punibile automaticamente con la reclusione"
+      },
+      {
+        "id": "C",
+        "text": "Causa di nullità insanabile di tutti gli atti istruttori precedentemente compiuti"
+      },
+      {
+        "id": "D",
+        "text": "Motivo di avocazione obbligatoria del procedimento da parte del Prefetto"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 2, comma 9, della L. 241/1990 stabilisce che la mancata o tardiva emanazione del provvedimento costituisce elemento di valutazione della performance individuale, nonchè di responsabilità disciplinare e amministrativo-contabile del dirigente e del funzionario inadempiente.",
+    "hint": "Ha riflessi sia sulla valutazione lavorativa (performance) sia sulla responsabilità risarcitoria e disciplinare.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_AMM_035",
+    "question": "La competenza giurisdizionale sulle controversie relative al risarcimento del danno da ritardo nella conclusione del procedimento amministrativo (art. 2-bis L. 241/1990) spetta al:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Giudice Ordinario (Tribunale Civile)"
+      },
+      {
+        "id": "B",
+        "text": "Giudice Amministrativo in giurisdizione esclusiva"
+      },
+      {
+        "id": "C",
+        "text": "Corte dei Conti in via principale"
+      },
+      {
+        "id": "D",
+        "text": "Tribunale Superiore delle Acque Pubbliche"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 2-bis, comma 1, L. 241/1990, letto in combinato disposto con il Codice del processo amministrativo (D.Lgs. 104/2010), attribuisce le controversie relative al risarcimento del danno da ritardo alla giurisdizione esclusiva del Giudice Amministrativo (TAR in primo grado).",
+    "hint": "Il legislatore ha voluto concentrare dinanzi al Giudice Amministrativo la tutela risarcitoria derivante dall'esercizio (o mancato esercizio) del potere pubblico.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_AMM_036",
+    "question": "Ai sensi dell'art. 21-octies, comma 2, seconda parte, della L. 241/1990, il provvedimento limitativo della sfera giuridica dei privati non è annullabile per mancata comunicazione dell'avvio del procedimento qualora:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il destinatario abbia comunque partecipato a un altro procedimento presso la stessa amministrazione negli ultimi due anni"
+      },
+      {
+        "id": "B",
+        "text": "L'amministrazione dimostri in giudizio che il contenuto del provvedimento non avrebbe potuto essere diverso da quello in concreto adottato"
+      },
+      {
+        "id": "C",
+        "text": "Si tratti di un atto vincolato e l'amministrazione non abbia potuto rintracciare l'indirizzo del privato"
+      },
+      {
+        "id": "D",
+        "text": "Il privato non riesca a provare che la sua partecipazione avrebbe modificato l'esito dell'atto"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 21-octies, comma 2, seconda parte, stabilisce che il provvedimento non è annullabile per mancata comunicazione dell'avvio del procedimento qualora l'amministrazione dimostri in giudizio che il contenuto del provvedimento non avrebbe potuto essere diverso da quello in concreto adottato. L'onere della prova grava quindi sulla PA.",
+    "hint": "Si applica anche ai provvedimenti discrezionali, ma l'onere probatorio circa l'inutilità della partecipazione è posto a carico della PA.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_DIR_AMM_037",
+    "question": "In materia di accordi procedimentali ex art. 11 della L. 241/1990, l'amministrazione può recedere unilateralmente dall'accordo?",
+    "options": [
+      {
+        "id": "A",
+        "text": "No, gli accordi sono irrevocabili, salvo mutuo consenso delle parti"
+      },
+      {
+        "id": "B",
+        "text": "Sì, per sopravvenuti motivi di pubblico interesse, previo pagamento di un indennizzo per gli eventuali pregiudizi in danno del privato"
+      },
+      {
+        "id": "C",
+        "text": "Sì, liberamente e in ogni momento, senza obbligo di indennizzo o motivazione"
+      },
+      {
+        "id": "D",
+        "text": "Solo se il recesso viene preventivamente autorizzato con sentenza del TAR"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 11, comma 4, L. 241/1990 prevede che, per sopravvenuti motivi di pubblico interesse, l'amministrazione recede unilateralmente dall'accordo, salvo l'obbligo di provvedere alla liquidazione di un indennizzo in relazione agli eventuali pregiudizi verificatisi in danno del privato.",
+    "hint": "È una proiezione del potere di autotutela (revoca) in ambito convenzionale, bilanciata dall'obbligo indennitario.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_DIR_AMM_038",
+    "question": "Nella Conferenza di Servizi decisoria semplificata (art. 14-bis L. 241/1990), la mancata comunicazione della determinazione entro il termine perentorio fissato dall'amministrazione procedente:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Equivale a dissenso, bloccando l'adozione del provvedimento finale"
+      },
+      {
+        "id": "B",
+        "text": "Comporta la nullità dell'intera conferenza e l'obbligo di riconvocazione in presenza"
+      },
+      {
+        "id": "C",
+        "text": "Equivale ad assenso senza condizioni, fatte salve le eccezioni previste dal diritto dell'Unione Europea"
+      },
+      {
+        "id": "D",
+        "text": "Consente all'amministrazione procedente di infliggere sanzioni pecuniarie all'ente inadempiente"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Ai sensi dell'art. 14-bis, comma 4, della L. 241/1990, la mancata comunicazione della determinazione entro il termine perentorio equivale ad assenso senza condizioni (meccanismo del silenzio assenso endoprocedimentale). L'assenso espresso è richiesto solo ove previsto dal diritto dell'UE.",
+    "hint": "La mancata espressione del parere nei termini perentori viene considerata dalla legge come un assenso incondizionato per garantire la celerità dell'azione.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_DIR_AMM_039",
+    "question": "Ai sensi dell'art. 21-septies della L. 241/1990, le controversie relative alla nullità dei provvedimenti adottati in violazione o elusione del giudicato sono attribuite alla giurisdizione esclusiva del:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Giudice Amministrativo"
+      },
+      {
+        "id": "B",
+        "text": "Giudice Ordinario (Sezione Civile ordinaria)"
+      },
+      {
+        "id": "C",
+        "text": "Giudice Penale, stante il rilievo penale dell'elusione"
+      },
+      {
+        "id": "D",
+        "text": "Corte di Cassazione a Sezioni Unite in unico grado"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 21-septies, comma 2, L. 241/1990 stabilisce che le questioni relative alla nullità dei provvedimenti amministrativi adottati in violazione o elusione del giudicato sono attribuite alla giurisdizione esclusiva del giudice amministrativo, da proporsi normalmente nell'ambito del giudizio di ottemperanza.",
+    "hint": "Si tratta di un'importante deroga al riparto ordinario di giurisdizione, concentrata davanti al Giudice Amministrativo (ottemperanza).",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_DIR_AMM_040",
+    "question": "Nell'accesso civico generalizzato (art. 5-bis, comma 2, D.Lgs. 33/2013), i limiti 'relativi' a tutela di interessi privati per i quali l'accesso deve essere rifiutato riguardano la protezione di:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dati personali, libertà e segretezza della corrispondenza, e interessi economici e commerciali (inclusi proprietà intellettuale e segreti commerciali)"
+      },
+      {
+        "id": "B",
+        "text": "Segreto di Stato e segreto d'ufficio dei soli dipendenti pubblici apicali"
+      },
+      {
+        "id": "C",
+        "text": "Dati relativi ai procedimenti penali coperti da segreto istruttorio"
+      },
+      {
+        "id": "D",
+        "text": "Attività di indagine della polizia giudiziaria ed economico-finanziaria"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 5-bis, comma 2, del D.Lgs. 33/2013 prevede che l'accesso civico generalizzato è rifiutato se il diniego è necessario per evitare un pregiudizio concreto alla tutela di: a) protezione dati personali; b) libertà e segretezza della corrispondenza; c) interessi economici e commerciali di una persona fisica o giuridica (proprietà intellettuale, segreti commerciali).",
+    "hint": "Sono i limiti posti a tutela della sfera privata dei terzi che potrebbero risentire negativamente della divulgazione diffusa dei dati.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_DIR_AMM_041",
+    "question": "Decorso il termine di 60 giorni dalla presentazione della SCIA ordinaria, l'amministrazione può adottare provvedimenti di divieto di prosecuzione dell'attività e rimozione degli effetti:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Senza limiti temporali, qualora ritenga che l'attività sia comunque contraria al pubblico interesse"
+      },
+      {
+        "id": "B",
+        "text": "Solo in presenza delle condizioni previste dall'art. 21-nonies (annullamento d'ufficio) per l'esercizio dell'autotutela"
+      },
+      {
+        "id": "C",
+        "text": "Esclusivamente previa autorizzazione del Prefetto o del Giudice Amministrativo"
+      },
+      {
+        "id": "D",
+        "text": "In nessun caso, l'attività diviene definitivamente inattaccabile sia in via ordinaria che di autotutela"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Ai sensi dell'art. 19, comma 4, L. 241/1990, decorso il termine ordinario per i controlli (60 giorni, o 30 per la SCIA edilizia), l'amministrazione può intervenire ed esercitare i poteri interdittivi solo in presenza delle condizioni previste dall'art. 21-nonies in materia di annullamento d'ufficio (interesse pubblico, termine ragionevole, ecc.).",
+    "hint": "Il potere di controllo tardivo sulla SCIA si converte in un potere di autotutela governato dalle regole dell'art. 21-nonies.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_DIR_AMM_042",
+    "question": "A norma dell'art. 20, comma 2-bis, della L. 241/1990 (introdotto dal D.L. 76/2020), nei casi in cui si applica il silenzio assenso, la PA è tenuta a rilasciare all'interessato, su richiesta:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un provvedimento espresso tardivo di autorizzazione con valore retroattivo"
+      },
+      {
+        "id": "B",
+        "text": "Un'attestazione in via telematica dell'avvenuta formazione del silenzio assenso, che decorsi inutilmente 10 giorni può essere sostituita da una dichiarazione del privato ex art. 47 D.P.R. 445/2000"
+      },
+      {
+        "id": "C",
+        "text": "Una quietanza liberatoria delle spese istruttorie precedentemente versate"
+      },
+      {
+        "id": "D",
+        "text": "Una certificazione speciale del RPCT attestante la regolarità della condotta del dipendente inerte"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 20, comma 2-bis, prevede che nei casi in cui si applica il silenzio assenso, l'amministrazione rilascia in via telematica, entro 10 giorni dalla richiesta, un'attestazione dell'avvenuta formazione del silenzio. In mancanza, decorsi i 10 giorni, l'attestazione è sostituita da una dichiarazione sostitutiva dell'atto di notorietà ai sensi dell'art. 47 del DPR 445/2000.",
+    "hint": "Si tratta di una misura volta a semplificare la prova della formazione del silenzio assenso a beneficio del privato nei rapporti con terzi.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_DIR_AMM_043",
+    "question": "In tema di accesso documentale ex L. 241/1990, qualora l'amministrazione individui soggetti controinteressati, entro quale termine perentorio questi possono presentare motivata opposizione alla richiesta di accesso?",
+    "options": [
+      {
+        "id": "A",
+        "text": "5 giorni dalla ricezione della comunicazione"
+      },
+      {
+        "id": "B",
+        "text": "10 giorni dalla ricezione della comunicazione"
+      },
+      {
+        "id": "C",
+        "text": "15 giorni dalla ricezione della comunicazione"
+      },
+      {
+        "id": "D",
+        "text": "30 giorni, coincidente con il termine di conclusione del procedimento di accesso"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 3 del D.P.R. 184/2006 (regolamento sull'accesso) stabilisce che i controinteressati hanno 10 giorni di tempo dalla ricezione della comunicazione dell'istanza di accesso per presentare una motivata opposizione scritta.",
+    "hint": "È un termine dilatorio breve per consentire il bilanciamento tra l'interesse all'accesso e il diritto alla riservatezza.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_DIR_AMM_044",
+    "question": "Nel caso in cui la PA decida di accogliere la richiesta di accesso civico generalizzato nonostante l'opposizione del controinteressato, l'amministrazione:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Consente l'accesso immediato, senza ulteriori adempimenti"
+      },
+      {
+        "id": "B",
+        "text": "Ne dà comunicazione al controinteressato e differisce l'accesso di almeno 15 giorni dalla ricezione della stessa"
+      },
+      {
+        "id": "C",
+        "text": "È tenuta ad attendere il passaggio in giudicato di un'eventuale sentenza del TAR"
+      },
+      {
+        "id": "D",
+        "text": "Richiede al controinteressato il pagamento di una cauzione a garanzia delle spese legali"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Ai sensi dell'art. 5, comma 6, del D.Lgs. 33/2013, in caso di accoglimento della richiesta di accesso civico generalizzato nonostante l'opposizione del controinteressato, l'amministrazione dà comunicazione al controinteressato e differisce l'accesso di almeno 15 giorni, per consentirgli di attivare i rimedi di tutela.",
+    "hint": "Il differimento di 15 giorni serve a evitare che la divulgazione dei dati divenga irreversibile prima che il controinteressato possa opporsi legalmente.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_DIR_AMM_045",
+    "question": "Ai sensi dell'art. 21-quater della L. 241/1990, il provvedimento amministrativo efficace può essere sospeso per gravi ragioni e per il tempo strettamente necessario. Il termine della sospensione:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Può essere prorogato o differito per una sola volta, ed è ridotto per sopravvenute esigenze"
+      },
+      {
+        "id": "B",
+        "text": "Non può mai superare i 30 giorni complessivi, pena la nullità insanabile"
+      },
+      {
+        "id": "C",
+        "text": "È stabilito liberamente e senza obbligo di indicarne la durata nel provvedimento di sospensione"
+      },
+      {
+        "id": "D",
+        "text": "Può essere prorogato illimitatamente a discrezione del responsabile del procedimento"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 21-quater, comma 2, L. 241/1990 stabilisce che l'efficacia o l'esecuzione del provvedimento può essere sospesa dallo stesso organo o da altro organo previsto dalla legge. Il termine della sospensione è espressamente indicato e può essere prorogato o differito per una sola volta, nonché ridotto per sopravvenute esigenze.",
+    "hint": "La legge pone limiti precisi per evitare che la sospensione si trasformi in una revoca di fatto o in una paralisi a tempo indeterminato.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_DIR_AMM_046",
+    "question": "Il cd. 'soccorso istruttorio' in sede di procedimento amministrativo generale (art. 6, comma 1, lett. b), L. 241/1990):",
+    "options": [
+      {
+        "id": "A",
+        "text": "Consente al privato di sanare la mancanza di requisiti di partecipazione sostanziali non posseduti alla scadenza del termine"
+      },
+      {
+        "id": "B",
+        "text": "Impone al responsabile del procedimento di chiedere il rilascio di dichiarazioni e la rettifica di istanze erronee o incomplete, nonché esperire accertamenti ordinando esibizioni documentali"
+      },
+      {
+        "id": "C",
+        "text": "È limitato esclusivamente alle procedure di gara pubblica per l'affidamento di contratti sopra soglia"
+      },
+      {
+        "id": "D",
+        "text": "Viene attivato facoltativamente solo su autorizzazione scritta dell'organo politico di vertice"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 6, comma 1, lett. b) L. 241/1990 individua tra i compiti del responsabile del procedimento quello di chiedere il rilascio di dichiarazioni e la rettifica di dichiarazioni o istanze erronee o incomplete, oltre all'esperimento di accertamenti tecnici ed esibizioni documentali (soccorso istruttorio in senso lato).",
+    "hint": "È l'espressione del principio di collaborazione e buona fede tra PA e cittadino per evitare rigetti puramente formali.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_DIR_AMM_047",
+    "question": "Ai sensi dell'art. 17-bis della L. 241/1990 (silenzio assenso tra amministrazioni pubbliche), qualora un'amministrazione debba acquisire assensi, concerti o nulla osta di altre amministrazioni per l'adozione di un provvedimento pluristrutturato, questi si intendono acquisiti se non comunicati entro:",
+    "options": [
+      {
+        "id": "A",
+        "text": "30 giorni dal ricevimento dello schema di provvedimento (salva proroga di ulteriori 30 giorni in caso di particolari esigenze istruttorie)"
+      },
+      {
+        "id": "B",
+        "text": "45 giorni fissi, non prorogabili o differibili in alcun caso"
+      },
+      {
+        "id": "C",
+        "text": "60 giorni di regola, ridotti a 30 per le amministrazioni preposte alla tutela ambientale"
+      },
+      {
+        "id": "D",
+        "text": "90 giorni per le amministrazioni statali, e 60 giorni per gli enti locali"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 17-bis, comma 1, della L. 241/1990 prevede che gli assensi, concerti o nulla osta devono essere resi entro 30 giorni dal ricevimento dello schema di provvedimento. Il termine può essere prorogato di ulteriori 30 giorni in caso di particolari esigenze istruttorie rappresentate dall'amministrazione interpellata.",
+    "hint": "È il meccanismo di silenzio assenso cd. endoprocedimentale o orizzontale volto a fluidificare i rapporti interni alla PA.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_DIR_AMM_048",
+    "question": "Secondo la giurisprudenza amministrativa consolidata (Consiglio di Stato, Adunanza Plenaria n. 10/2020), il rapporto tra l'accesso documentale ex L. 241/1990 e l'accesso civico generalizzato (FOIA) si connota come:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Alternativo e incompatibile: la presentazione di una domanda esclude la proponibilità dell'altra"
+      },
+      {
+        "id": "B",
+        "text": "Autonomo e non sovrapponibile, stante la diversa legittimazione e finalità degli istituti, che possono essere proposti anche cumulativamente nella stessa istanza"
+      },
+      {
+        "id": "C",
+        "text": "Di sussidiarietà necessaria: l'accesso generalizzato è esperibile solo se l'accesso documentale è stato rigettato con sentenza passata in giudicato"
+      },
+      {
+        "id": "D",
+        "text": "Di assorbimento: l'accesso civico generalizzato ha abrogato tacitamente l'accesso documentale ex L. 241/1990"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'Adunanza Plenaria n. 10/2020 ha chiarito che l'accesso documentale ex L. 241/1990 e l'accesso civico generalizzato ex D.Lgs. 33/2013 sono istituti autonomi e distinti, rispondenti a finalità diverse, che possono essere esercitati cumulativamente dallo stesso soggetto anche con un'unica istanza.",
+    "hint": "Ciascun istituto conserva la propria autonomia per via della differente legittimazione soggettiva e dello scopo perseguito.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_DIR_AMM_049",
+    "question": "Ai sensi dell'art. 21-nonies, comma 2-bis, della L. 241/1990, i provvedimenti amministrativi conseguiti sulla base di false rappresentazioni dei fatti o di dichiarazioni false o mendaci accertate con sentenza penale passata in giudicato:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Non possono mai essere annullati d'ufficio se è decorso il termine di 12 mesi, stante la stabilità dell'affidamento"
+      },
+      {
+        "id": "B",
+        "text": "Possono essere annullati dall'amministrazione anche dopo la scadenza del termine di 12 mesi, fatte salve le sanzioni penali e amministrative"
+      },
+      {
+        "id": "C",
+        "text": "Sono nulli di diritto ex art. 21-septies e non richiedono alcun atto di annullamento d'ufficio"
+      },
+      {
+        "id": "D",
+        "text": "Possono essere annullati d'ufficio entro il termine massimo raddoppiato di 24 mesi"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 21-nonies, comma 2-bis, prevede che i provvedimenti conseguiti sulla base di dichiarazioni false o mendaci o false rappresentazioni, accertate con sentenza penale passata in giudicato, possono essere annullati anche dopo la scadenza dei 12 mesi.",
+    "hint": "Il legislatore esclude la tutela dell'affidamento per il privato che ha agito in frode o commesso reati per ottenere il provvedimento.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_DIR_AMM_050",
+    "question": "In base all'art. 2-bis della L. 241/1990, l'istituto dell'indennizzo da ritardo si differenzia dal risarcimento del danno da ritardo per il fatto che:",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'indennizzo spetta per il solo superamento del termine nei procedimenti ad istanza di parte, a prescindere dalla prova del dolo/colpa della PA e del danno, mentre il risarcimento richiede tali elementi"
+      },
+      {
+        "id": "B",
+        "text": "L'indennizzo spetta solo nei procedimenti ad avvio d'ufficio, mentre il risarcimento spetta solo a quelli ad istanza di parte"
+      },
+      {
+        "id": "C",
+        "text": "L'indennizzo deve essere richiesto al Giudice Ordinario, mentre il risarcimento spetta al Giudice Amministrativo"
+      },
+      {
+        "id": "D",
+        "text": "Non vi è alcuna differenza, trattandosi di termini sinonimi indicanti la medesima obbligazione risarcitoria"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'indennizzo da ritardo (art. 2-bis, comma 1-bis) è una tutela indennitaria automatica spettante per il solo fatto del superamento del termine procedimentale ad istanza di parte, con determinazione forfettaria. Il risarcimento del danno (comma 1) richiede invece la prova della colpa/dolo della PA, della spettanza del bene della vita (fondatezza dell'istanza) e del danno ingiusto subito.",
+    "hint": "L'indennizzo ha una funzione di ristoro automatico e standardizzato del tempo perso, mentre il risarcimento segue le regole generali della responsabilità civile.",
+    "level": "avanzato"
+  }
+]

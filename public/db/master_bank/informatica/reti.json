@@ -1,0 +1,702 @@
+[
+  {
+    "id": "Q_INF_NET_001",
+    "question": "A quale livello del modello di riferimento ISO/OSI appartiene il protocollo IP (Internet Protocol)?",
+    "options": [
+      { "id": "A", "text": "Livello 2 - Collegamento dati (Data Link)" },
+      { "id": "B", "text": "Livello 3 - Rete (Network)" },
+      { "id": "C", "text": "Livello 4 - Trasporto (Transport)" },
+      { "id": "D", "text": "Livello 5 - Sessione (Session)" }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il protocollo IP opera al Livello 3 (Rete) del modello ISO/OSI, occupandosi dell'indirizzamento logico e dell'instradamento (routing) dei pacchetti attraverso reti diverse.",
+    "hint": "Si occupa dell'instradamento logico e della consegna dei pacchetti.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_NET_002",
+    "question": "Qual è la porta TCP predefinita utilizzata dal protocollo HTTPS per garantire connessioni web cifrate?",
+    "options": [
+      { "id": "A", "text": "80" },
+      { "id": "B", "text": "8080" },
+      { "id": "C", "text": "443" },
+      { "id": "D", "text": "22" }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "La porta standard per HTTPS (HTTP Secure) è la 443 TCP, mentre la porta 80 è utilizzata per le connessioni HTTP non cifrate.",
+    "hint": "È un numero a tre cifre, poco superiore a 400.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_NET_003",
+    "question": "Qual è lo scopo principale del protocollo DHCP (Dynamic Host Configuration Protocol)?",
+    "options": [
+      { "id": "A", "text": "Risolvere i nomi di dominio in indirizzi IP numerici." },
+      { "id": "B", "text": "Assegnare automaticamente la configurazione IP e altri parametri di rete agli host." },
+      { "id": "C", "text": "Crittografare il traffico dati all'interno di una rete locale (LAN)." },
+      { "id": "D", "text": "Monitorare le prestazioni della CPU dei router di rete." }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il DHCP è progettato per automatizzare l'assegnazione di parametri di rete essenziali agli host, come indirizzo IP, subnet mask, default gateway e server DNS.",
+    "hint": "Evita la necessità di configurare manualmente l'indirizzo IP di ogni dispositivo.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_NET_004",
+    "question": "Quanti bit compongono un indirizzo IPv4?",
+    "options": [
+      { "id": "A", "text": "32 bit" },
+      { "id": "B", "text": "64 bit" },
+      { "id": "C", "text": "128 bit" },
+      { "id": "D", "text": "16 bit" }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Un indirizzo IPv4 è composto da 32 bit, solitamente rappresentati come quattro ottetti decimali separati da punti (es. 192.168.1.1).",
+    "hint": "Corrisponde a 4 byte.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_NET_005",
+    "question": "Quale dei seguenti protocolli ha il compito di tradurre nomi di dominio leggibili (es. www.esempio.it) in indirizzi IP numerici?",
+    "options": [
+      { "id": "A", "text": "DHCP" },
+      { "id": "B", "text": "DNS" },
+      { "id": "C", "text": "ARP" },
+      { "id": "D", "text": "FTP" }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il DNS (Domain Name System) funziona come una 'rubrica telefonica' di Internet, traducendo i nomi di dominio digitati dagli utenti in indirizzi IP interpretabili dai computer.",
+    "hint": "Domain Name System.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_NET_006",
+    "question": "Quale delle seguenti rappresenta la maschera di sottorete (subnet mask) standard per un indirizzo di Classe C in notazione decimale puntata?",
+    "options": [
+      { "id": "A", "text": "255.0.0.0" },
+      { "id": "B", "text": "255.255.0.0" },
+      { "id": "C", "text": "255.255.255.0" },
+      { "id": "D", "text": "255.255.255.255" }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "La maschera di sottorete standard per una rete di Classe C è 255.255.255.0, che corrisponde a un prefisso CIDR /24 (24 bit per la parte di rete, 8 bit per gli host).",
+    "hint": "È associata a reti di piccole dimensioni con prefisso CIDR /24.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_NET_007",
+    "question": "Quale dei seguenti protocolli opera al livello di Trasporto (Transport Layer) dello stack TCP/IP?",
+    "options": [
+      { "id": "A", "text": "HTTP" },
+      { "id": "B", "text": "TCP" },
+      { "id": "C", "text": "IP" },
+      { "id": "D", "text": "Ethernet" }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "TCP (Transmission Control Protocol) e UDP (User Datagram Protocol) sono i due principali protocolli del livello di Trasporto. HTTP è a livello Applicazione, IP è a livello Rete, ed Ethernet è a livello Accesso alla rete.",
+    "hint": "Si occupa del controllo della connessione e del flusso end-to-end.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_NET_008",
+    "question": "Quale comando di diagnostica di rete invia pacchetti ICMP Echo Request per verificare se un host remoto è raggiungibile?",
+    "options": [
+      { "id": "A", "text": "nslookup" },
+      { "id": "B", "text": "ipconfig" },
+      { "id": "C", "text": "ping" },
+      { "id": "D", "text": "netstat" }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Il comando ping invia pacchetti ICMP Echo Request all'host di destinazione e attende le relative risposte Echo Reply per misurare la raggiungibilità e il tempo di round-trip (RTT).",
+    "hint": "Deriva dal suono del sonar sottomarino.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_NET_009",
+    "question": "Nel contesto di una configurazione IP, cos'è il 'default gateway'?",
+    "options": [
+      { "id": "A", "text": "L'indirizzo IP del server che risolve i nomi di dominio in indirizzi IP." },
+      { "id": "B", "text": "Il router o dispositivo a cui un host invia i pacchetti diretti a sottoreti diverse dalla propria." },
+      { "id": "C", "text": "L'interfaccia utilizzata per configurare i parametri di sicurezza wireless." },
+      { "id": "D", "text": "Il software firewall installato localmente sul PC client." }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il default gateway è l'indirizzo IP del router locale che funge da punto d'uscita per il traffico non destinato alla sottorete locale dell'host.",
+    "hint": "È la porta di uscita verso Internet o altre reti.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_NET_010",
+    "question": "Quanti livelli (layers) sono definiti all'interno del modello di riferimento teorico ISO/OSI?",
+    "options": [
+      { "id": "A", "text": "4 livelli" },
+      { "id": "B", "text": "5 livelli" },
+      { "id": "C", "text": "7 livelli" },
+      { "id": "D", "text": "8 livelli" }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Il modello ISO/OSI si articola in 7 livelli: Fisico, Collegamento, Rete, Trasporto, Sessione, Presentazione e Applicazione.",
+    "hint": "Sette livelli, da quello fisico a quello applicativo.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_NET_011",
+    "question": "Quale porta logica utilizza per impostazione predefinita il protocollo HTTP (Hypertext Transfer Protocol) non sicuro?",
+    "options": [
+      { "id": "A", "text": "80" },
+      { "id": "B", "text": "443" },
+      { "id": "C", "text": "21" },
+      { "id": "D", "text": "25" }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il protocollo HTTP non cifrato comunica sulla porta TCP 80, mentre la porta 443 è per HTTPS, la 21 per FTP e la 25 per SMTP.",
+    "hint": "È una porta a due cifre multiplo di 10.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_NET_012",
+    "question": "Quale delle seguenti caratteristiche descrive correttamente il protocollo UDP (User Datagram Protocol)?",
+    "options": [
+      { "id": "A", "text": "È orientato alla connessione e garantisce che tutti i pacchetti arrivino a destinazione." },
+      { "id": "B", "text": "Non è orientato alla connessione (connectionless) e non garantisce la consegna dei pacchetti." },
+      { "id": "C", "text": "Utilizza un handshake a tre vie (three-way handshake) per stabilire la sessione." },
+      { "id": "D", "text": "Lavora esclusivamente a livello applicativo per la formattazione dei messaggi." }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "UDP è un protocollo di trasporto non orientato alla connessione e non affidabile (best-effort), preferito quando la velocità è critica (es. streaming, gaming) rispetto alla certezza della consegna.",
+    "hint": "Non ha overhead di controllo connessione o re-invio.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_NET_013",
+    "question": "In una configurazione DNS, quale record associa un nome host (ad esempio www.esempio.com) al suo indirizzo IPv4?",
+    "options": [
+      { "id": "A", "text": "Record AAAA" },
+      { "id": "B", "text": "Record MX" },
+      { "id": "C", "text": "Record A" },
+      { "id": "D", "text": "Record CNAME" }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Il record A (Address) è utilizzato per mappare un nome a un indirizzo IPv4 a 32 bit. Il record AAAA mappa invece verso indirizzi IPv6.",
+    "hint": "È una singola lettera dell'alfabeto.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_NET_014",
+    "question": "Nel protocollo IPv4, a cosa serve l'indirizzo 127.0.0.1?",
+    "options": [
+      { "id": "A", "text": "Per inviare un pacchetto in broadcast a tutti i dispositivi della rete locale." },
+      { "id": "B", "text": "È l'indirizzo di loopback (localhost) utilizzato per testare lo stack TCP/IP locale del dispositivo." },
+      { "id": "C", "text": "È l'indirizzo predefinito assegnato a un server DHCP durante il primo avvio." },
+      { "id": "D", "text": "È un indirizzo IP speciale per le trasmissioni multicast a livello geografico." }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'indirizzo 127.0.0.1 (e l'intero blocco 127.0.0.0/8) rappresenta l'interfaccia di loopback, che consente a un dispositivo di inviare e ricevere traffico di rete a se stesso per scopi di test locale.",
+    "hint": "Localhost.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_NET_015",
+    "question": "Quale dei seguenti protocolli garantisce l'integrità e la riservatezza del traffico web crittografandolo tramite SSL/TLS?",
+    "options": [
+      { "id": "A", "text": "SFTP" },
+      { "id": "B", "text": "SSH" },
+      { "id": "C", "text": "HTTPS" },
+      { "id": "D", "text": "SNMP" }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "HTTPS (HTTP Secure) è l'estensione crittografata di HTTP che sfrutta i protocolli SSL/TLS a livello di sessione/presentazione per proteggere i dati web trasmessi.",
+    "hint": "Ha la lettera 'S' finale che indica 'Secure'.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_NET_016",
+    "question": "Quale dispositivo di rete opera principalmente a livello 2 (Collegamento Dati - Data Link) del modello ISO/OSI per instradare i frame basandosi sui MAC address?",
+    "options": [
+      { "id": "A", "text": "Hub" },
+      { "id": "B", "text": "Router" },
+      { "id": "C", "text": "Switch" },
+      { "id": "D", "text": "Repeater" }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Lo Switch lavora al Livello 2 analizzando gli indirizzi fisici (MAC) contenuti nei frame Ethernet per inoltrarli selettivamente alla porta corretta. L'Hub lavora al Livello 1, mentre il Router opera al Livello 3.",
+    "hint": "Sostituisce i vecchi Hub limitando i domini di collisione.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_NET_017",
+    "question": "In conformità alla RFC 1918, quale dei seguenti indirizzi IP fa parte dei blocchi riservati per le reti private (LAN) e non è instradabile su Internet pubblica?",
+    "options": [
+      { "id": "A", "text": "8.8.8.8" },
+      { "id": "B", "text": "192.168.1.50" },
+      { "id": "C", "text": "200.100.50.4" },
+      { "id": "D", "text": "100.64.0.1" }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La RFC 1918 definisce tre blocchi di indirizzi per uso privato: 10.0.0.0/8, 172.16.0.0/12 e 192.168.0.0/16. Pertanto, 192.168.1.50 è un indirizzo IP privato.",
+    "hint": "È il tipico IP dei router o dei PC domestici.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_NET_018",
+    "question": "Qual è il formato standard di rappresentazione di un indirizzo IPv6?",
+    "options": [
+      { "id": "A", "text": "Quattro ottetti decimali separati da punti (es. 192.168.1.1)." },
+      { "id": "B", "text": "Otto gruppi di quattro cifre esadecimali separati da due punti (es. 2001:0db8:85a3:0000:0000:8a2e:0370:7334)." },
+      { "id": "C", "text": "Una stringa alfanumerica binaria priva di punteggiatura." },
+      { "id": "D", "text": "Dodici valori decimali separati da trattini." }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Gli indirizzi IPv6, lunghi 128 bit, sono visualizzati in notazione esadecimale divisa in 8 gruppi da 16 bit ciascuno, delimitati dal carattere due punti.",
+    "hint": "Utilizza l'esadecimale e i due punti.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_NET_019",
+    "question": "Qual è la corretta sequenza di messaggi TCP scambiati per instaurare una connessione (Three-Way Handshake)?",
+    "options": [
+      { "id": "A", "text": "SYN, ACK, SYN-ACK" },
+      { "id": "B", "text": "SYN, SYN-ACK, ACK" },
+      { "id": "C", "text": "DISCOVER, OFFER, REQUEST" },
+      { "id": "D", "text": "FIN, ACK-FIN, ACK" }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il client invia un pacchetto con flag SYN; il server risponde con un pacchetto contenente i flag SYN e ACK (SYN-ACK); infine, il client invia un pacchetto ACK per confermare l'avvenuta connessione.",
+    "hint": "Il client avvia la sincronizzazione (SYN), il server risponde a sua volta sincronizzando ed evidenziando l'avvenuta ricezione.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_NET_020",
+    "question": "Data la sottorete 192.168.1.0/26, quanti indirizzi IP per host utilizzabili possono essere configurati in questa rete?",
+    "options": [
+      { "id": "A", "text": "64" },
+      { "id": "B", "text": "62" },
+      { "id": "C", "text": "30" },
+      { "id": "D", "text": "126" }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Un prefisso /26 riserva 26 bit per la rete e lascia 6 bit per gli host (32 - 26 = 6). Il numero totale di indirizzi è 2^6 = 64. Bisogna sottrarre 2 indirizzi per l'indirizzo di rete e l'indirizzo di broadcast, lasciando 62 indirizzi utili per gli host.",
+    "hint": "Sottrai due (indirizzo di rete e broadcast) dal totale teorico calcolato con le potenze di 2 basate sui bit rimanenti.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_NET_021",
+    "question": "In un database DNS, qual è lo scopo specifico del record MX (Mail Exchanger)?",
+    "options": [
+      { "id": "A", "text": "Associa un nome di dominio all'indirizzo IP del server web principale." },
+      { "id": "B", "text": "Identifica i mail server incaricati di ricevere le e-mail per conto del dominio." },
+      { "id": "C", "text": "Definisce le restrizioni di invio posta tramite il framework SPF." },
+      { "id": "D", "text": "Reindirizza il traffico da un sottodominio a un URL esterno." }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il record MX (Mail Exchanger) mappa un nome di dominio a una lista di server di posta preposti a gestire i messaggi in ingresso per quel dominio, ordinati per priorità.",
+    "hint": "MX sta per Mail eXchanger.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_NET_022",
+    "question": "Quale sequenza temporale descrive correttamente le quattro fasi del protocollo DHCPv4 per il rilascio di un indirizzo IP a un client?",
+    "options": [
+      { "id": "A", "text": "Request, Offer, Discover, Acknowledge" },
+      { "id": "B", "text": "Discover, Offer, Request, Acknowledge" },
+      { "id": "C", "text": "Solicitation, Advertise, Request, Reply" },
+      { "id": "D", "text": "Discover, Request, Offer, Acknowledge" }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Le quattro fasi del protocollo DHCPv4 seguono l'acronimo DORA: Discover (il client cerca un server), Offer (il server propone una configurazione), Request (il client accetta la configurazione offerta), e Acknowledge (il server conferma l'assegnazione).",
+    "hint": "Pensa all'acronimo inglese 'DORA'.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_NET_023",
+    "question": "Quale protocollo di routing dinamico di tipo Link-State si serve dell'algoritmo di Dijkstra (Shortest Path First) per calcolare la topologia di rete ottimale?",
+    "options": [
+      { "id": "A", "text": "RIP (Routing Information Protocol)" },
+      { "id": "B", "text": "BGP (Border Gateway Protocol)" },
+      { "id": "C", "text": "OSPF (Open Shortest Path First)" },
+      { "id": "D", "text": "EIGRP (Enhanced Interior Gateway Routing Protocol)" }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "OSPF (Open Shortest Path First) è un protocollo di tipo Link-State che traccia una mappa completa dell'area di rete e calcola i percorsi ottimali tramite l'algoritmo SPF/Dijkstra. RIP è Distance-Vector e BGP è Path-Vector.",
+    "hint": "La risposta è racchiusa nell'acronimo del protocollo: Open Shortest Path First.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_NET_024",
+    "question": "Nel modello TCP/IP, a quale PDU (Protocol Data Unit) ci si riferisce tipicamente al livello di Trasporto quando si utilizza il protocollo TCP?",
+    "options": [
+      { "id": "A", "text": "Pacchetto (Packet)" },
+      { "id": "B", "text": "Frame (Frame)" },
+      { "id": "C", "text": "Segmento (Segment)" },
+      { "id": "D", "text": "Bit" }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Al livello di trasporto, i dati vengono incapsulati in Segmenti (se si usa TCP) o Datagrammi (se si usa UDP). Al livello di rete si parla di Pacchetti, al livello di collegamento di Frame e al livello fisico di Bit.",
+    "hint": "Il protocollo TCP suddivide il flusso continuo di byte in porzioni chiamate...",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_NET_025",
+    "question": "Qual è l'indirizzo di loopback standard definito nello standard IPv6?",
+    "options": [
+      { "id": "A", "text": "::" },
+      { "id": "B", "text": "::1" },
+      { "id": "C", "text": "fe80::1" },
+      { "id": "D", "text": "ff02::1" }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'indirizzo di loopback IPv6 è espresso come 0:0:0:0:0:0:0:1, che compresso diventa ::1. L'indirizzo :: è l'indirizzo non specificato, fe80::1 è un link-local e ff02::1 è un multicast link-local.",
+    "hint": "È l'equivalente di 127.0.0.1 in IPv4, abbreviato al minimo valore non nullo finale.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_NET_026",
+    "question": "Qual es la funzione di un record DNS di tipo CNAME (Canonical Name)?",
+    "options": [
+      { "id": "A", "text": "Fornisce l'indirizzo IP canonico di un server di posta." },
+      { "id": "B", "text": "Definisce le impostazioni del server dei nomi autorevole per la zona DNS." },
+      { "id": "C", "text": "Crea un alias che punta a un altro nome di dominio già esistente (Canonical Name)." },
+      { "id": "D", "text": "Specifica l'indirizzo IPv6 del server web primario." }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Un record CNAME viene utilizzato per creare un alias per un nome di dominio esistente. Risulta utile quando si vuole puntare più servizi allo stesso record host A (es. m.esempio.com che punta a esempio.com).",
+    "hint": "Funziona come un collegamento o alias a un altro hostname.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_NET_027",
+    "question": "Quale delle seguenti opzioni rappresenta la corretta contrazione dell'indirizzo IPv6 2001:0db8:0000:0000:0008:0800:200c:417a?",
+    "options": [
+      { "id": "A", "text": "2001:db8::8:800:200c:417a" },
+      { "id": "B", "text": "2001:0db8::8:800:200c:417a" },
+      { "id": "C", "text": "2001:db8:0:0:8:8:200c:417a" },
+      { "id": "D", "text": "2001:db8::8:8::200c:417a" }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Per contrarre un indirizzo IPv6 si eliminano i zeri iniziali in ogni blocco (es. 0db8 diventa db8, 0008 diventa 8) e si sostituisce una singola sequenza contigua di blocchi interamente a zero con ::. Non si può usare :: più di una volta nello stesso indirizzo.",
+    "hint": "Rimuovi gli zeri a sinistra di ogni gruppo e comprimi la sequenza più lunga di zeri consecutivi in ::.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_NET_028",
+    "question": "Quale protocollo di routing dinamico di tipo Distance Vector invia aggiornamenti periodici dell'intera tabella di routing e considera una metrica massima di 15 hop, oltre la quale la rete è considerata irraggiungibile?",
+    "options": [
+      { "id": "A", "text": "OSPF" },
+      { "id": "B", "text": "RIP" },
+      { "id": "C", "text": "BGP" },
+      { "id": "D", "text": "IS-IS" }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il protocollo RIP (Routing Information Protocol) definisce il costo del percorso unicamente tramite il numero di hop (salti). Il limite massimo di salti è 15; un valore di 16 equivale all'infinito (destinazione irraggiungibile).",
+    "hint": "È uno dei protocolli IGP più vecchi e semplici, basato sul calcolo dei salti.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_NET_029",
+    "question": "Nel protocollo TCP, a quale scopo serve il campo 'Window Size' (Dimensione della finestra) presente nell'header?",
+    "options": [
+      { "id": "A", "text": "Definisce il tempo di time-to-live del segmento TCP." },
+      { "id": "B", "text": "Specifica la quantità massima di byte che il mittente può inviare prima di ricevere un riscontro (ACK) dal ricevente." },
+      { "id": "C", "text": "Determina la grandezza dell'MTU del mezzo fisico." },
+      { "id": "D", "text": "Calcola il checksum per verificare la correttezza del payload." }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il campo Window Size viene impiegato per il meccanismo di controllo del flusso basato su finestra scorrevole. Consente al ricevente di comunicare al mittente quanta memoria di buffer ha a disposizione per accettare dati.",
+    "hint": "Serve a evitare che il mittente saturi il buffer di ricezione del destinatario.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_NET_030",
+    "question": "Per implementare una ricezione sicura di posta elettronica crittografata tramite protocollo IMAPS, quale porta standard e protocollo di trasporto/sicurezza si utilizzano?",
+    "options": [
+      { "id": "A", "text": "Porta 143 con HTTP" },
+      { "id": "B", "text": "Porta 993 con SSL/TLS" },
+      { "id": "C", "text": "Porta 995 con SSL/TLS" },
+      { "id": "D", "text": "Porta 465 con SSH" }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "IMAPS (IMAP Secure) utilizza di default la porta TCP 993 e protegge la comunicazione mediante un tunnel SSL/TLS. La porta 143 è l'IMAP non cifrato, mentre la 995 è per POP3S.",
+    "hint": "IMAP standard è 143; la versione sicura usa una porta vicina a 1000.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_NET_031",
+    "question": "Dato l'indirizzo di rete 172.16.0.0/22, qual è l'indirizzo di broadcast della rete?",
+    "options": [
+      { "id": "A", "text": "172.16.0.255" },
+      { "id": "B", "text": "172.16.255.255" },
+      { "id": "C", "text": "172.16.3.255" },
+      { "id": "D", "text": "172.16.4.255" }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Con una maschera /22, gli indirizzi sono aggregati in blocchi di dimensione 2^(32-22) = 1024 indirizzi IP. In termini di ottetti, una maschera /22 equivale a 255.255.252.0. La rete va da 172.16.0.0 a 172.16.3.255. Il broadcast è l'ultimo indirizzo: 172.16.3.255.",
+    "hint": "Con /22, la maschera del terzo ottetto è 252 (256 - 4). Le reti avanzano di 4 in 4 nel terzo ottetto.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_NET_032",
+    "question": "Durante la fase di handshake di una sessione SSL/TLS, quale tecnologia crittografica viene impiegata per lo scambio o la negoziazione sicura della chiave simmetrica (session key)?",
+    "options": [
+      { "id": "A", "text": "Crittografia asimmetrica (a chiave pubblica/privata)." },
+      { "id": "B", "text": "Crittografia simmetrica (AES o DES)." },
+      { "id": "C", "text": "Hashing SHA-256 a senso unico." },
+      { "id": "D", "text": "Crittografia XOR a flusso continuo." }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'handshake SSL/TLS ricorre inizialmente alla crittografia asimmetrica (come RSA o Diffie-Hellman) per scambiare in modo sicuro i dati necessari a generare la chiave simmetrica. Questa chiave simmetrica verrà poi impiegata per crittografare la trasmissione effettiva dei dati.",
+    "hint": "Consente a due soggetti che non si conoscono di scambiare un segreto usando chiavi pubbliche e private.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_NET_033",
+    "question": "Nel contesto di IPv6, in cosa consiste la funzionalità SLAAC (Stateless Address Autoconfiguration)?",
+    "options": [
+      { "id": "A", "text": "Consente a un server DHCPv6 di monitorare costantemente tutti gli indirizzi attivi in una cache centralizzata." },
+      { "id": "B", "text": "Permette a un host di configurare in autonomia il proprio indirizzo IPv6 globale combinando il prefisso di rete ricevuto dai messaggi Router Advertisement (RA) con il proprio indirizzo MAC (tramite EUI-64) o un ID casuale." },
+      { "id": "C", "text": "È un protocollo di traduzione degli indirizzi (NAT) da IPv6 a IPv4." },
+      { "id": "D", "text": "Esegue la risoluzione dei nomi a livello di rete locale senza interrogare i server DNS esterni." }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "SLAAC consente l'autoconfigurazione automatica stateless. L'host riceve dal router locale il prefisso di rete (/64) tramite Router Solicitation/Advertisement, e autogenera i restanti 64 bit dell'interfaccia (es. con EUI-64 o privacy extensions).",
+    "hint": "Significa autoconfigurazione senza stato, ovvero senza un server DHCP che assegni e tenga traccia dell'indirizzo.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_NET_034",
+    "question": "Qual è lo scopo primario del protocollo ARP (Address Resolution Protocol) nelle reti locali Ethernet IPv4?",
+    "options": [
+      { "id": "A", "text": "Trovare l'indirizzo IP logico corrispondente a un nome di dominio DNS." },
+      { "id": "B", "text": "Mappare un indirizzo IP logico di livello 3 noto sul rispettivo indirizzo MAC hardware di livello 2." },
+      { "id": "C", "text": "Convertire frame Ethernet in pacchetti IP da trasmettere su tratte in fibra ottica." },
+      { "id": "D", "text": "Consentire il routing statico tra reti non collegate direttamente." }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'ARP opera tra il livello 2 e il livello 3. Quando un host deve inviare dati a un indirizzo IP nella stessa LAN, invia una richiesta ARP in broadcast chiedendo 'Chi possiede questo IP?'. Il proprietario risponde comunicando il proprio MAC address.",
+    "hint": "Associa l'IP del vicino di casa alla sua scheda di rete fisica.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_NET_035",
+    "question": "A quale livello del modello ISO/OSI opera un Router per effettuare la selezione del percorso ottimale (routing) basandosi sull'indirizzo logico di destinazione?",
+    "options": [
+      { "id": "A", "text": "Livello 1 - Fisico" },
+      { "id": "B", "text": "Livello 2 - Collegamento dati" },
+      { "id": "C", "text": "Livello 3 - Rete" },
+      { "id": "D", "text": "Livello 4 - Trasporto" }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "I Router lavorano al Livello 3 (Rete) perché esaminano l'header dei pacchetti IP per prendere decisioni di instradamento basandosi sugli indirizzi IP e sulle tabelle di routing.",
+    "hint": "È il livello incaricato dell'instradamento logico end-to-end.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_NET_036",
+    "question": "Quale problema risolve l'estensione SNI (Server Name Indication) nel protocollo TLS?",
+    "options": [
+      { "id": "A", "text": "Consente la frammentazione dei messaggi TLS quando l'MTU della rete è inferiore a 1500 byte." },
+      { "id": "B", "text": "Consente al client di specificare l'hostname del sito a cui si desidera connettere all'inizio dell'handshake TLS, permettendo al server web di presentare il certificato SSL/TLS corretto per domini diversi ospitati sullo stesso indirizzo IP." },
+      { "id": "C", "text": "Protegge la sessione dai tentativi di spoofing dei record DNS tramite firma crittografica asimmetrica." },
+      { "id": "D", "text": "Permette l'autenticazione a due fattori direttamente nell'handshake senza interazione dell'utente." }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Poiché l'handshake TLS avviene prima che il server web riceva la richiesta HTTP (che contiene l'header Host), senza SNI il server non potrebbe sapere quale certificato presentare in caso di host virtuali multipli sullo stesso IP. SNI inserisce il nome host nell'estensione del messaggio Client Hello.",
+    "hint": "Permette l'hosting di più siti HTTPS su un solo server con un unico indirizzo IP.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_NET_037",
+    "question": "Dato l'indirizzo IP di rete 10.128.0.0/9, si desidera creare sottoreti che contengano almeno 8.000 host utilizzabili ciascuna. Quale maschera di sottorete soddisfa questa richiesta massimizzando il numero di sottoreti creabili?",
+    "options": [
+      { "id": "A", "text": "/19" },
+      { "id": "B", "text": "/20" },
+      { "id": "C", "text": "/18" },
+      { "id": "D", "text": "/21" }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Per contenere almeno 8.000 host, servono N bit per l'host tali che 2^N - 2 >= 8000. La potenza di 2 sufficiente è 2^13 = 8192 (quindi 13 bit host, poiché 2^12 = 4096 non basta). Con 13 bit per gli host, la maschera sarà di 32 - 13 = 19 bit (/19). Qualsiasi maschera con prefisso più piccolo (es. /18) conterrebbe più host ma produrrebbe meno sottoreti, mentre prefissi più grandi (/20) non conterrebbero abbastanza host.",
+    "hint": "2^12 = 4096, 2^13 = 8192. Sottrai i bit host da 32 per trovare il prefisso CIDR.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_NET_038",
+    "question": "Il protocollo BGP (Border Gateway Protocol) è classificato come un protocollo di routing di tipo Path Vector. Qual è il suo ruolo principale nell'infrastruttura globale di Internet?",
+    "options": [
+      { "id": "A", "text": "Gestire la distribuzione dinamica degli indirizzi IP locali all'interno di una singola LAN." },
+      { "id": "B", "text": "Agire come protocollo Exterior Gateway Protocol (EGP) per scambiare informazioni di routing e instradamento tra diversi Autonomous Systems (AS) su Internet." },
+      { "id": "C", "text": "Monitorare lo stato dei link interni a una LAN aziendale e convergere in meno di un secondo in caso di guasto." },
+      { "id": "D", "text": "Mappa i record DNS autoritativi per i domini di primo livello (TLD)." }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "BGP è il protocollo cardine di Internet, utilizzato come protocollo di routing esterno (EGP) per connettere e instradare il traffico tra Autonomous Systems (AS) appartenenti a provider, università e grandi aziende.",
+    "hint": "È il protocollo che tiene uniti i vari nodi e reti che compongono l'intera infrastruttura globale di Internet.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_NET_039",
+    "question": "In una richiesta DNS inviata da un client (stub resolver) a un server DNS locale, qual è lo scopo esatto del flag 'RD' (Recursion Desired) nell'header della query?",
+    "options": [
+      { "id": "A", "text": "Impone al server DNS di non consultare la propria cache locale e forzare il recupero del record dal server autoritativo." },
+      { "id": "B", "text": "Richiede al server DNS (resolver) di farsi carico della ricerca ricorsiva interrogando iterativamente i vari Name Server (root, TLD, autoritativo) fino a restituire una risposta definitiva (o un errore) al client." },
+      { "id": "C", "text": "Indica che la query deve essere inoltrata esclusivamente a server DNS secondari per motivi di bilanciamento del carico." },
+      { "id": "D", "text": "Specifica che la risposta deve essere firmata digitalmente con chiavi DNSSEC per verificarne l'integrità." }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il flag RD (Recursion Desired) indica che il client desidera che il server esegua una risoluzione ricorsiva. Se impostato, il resolver si occuperà di fare le query iterative a nome del client, sollevando lo stub resolver dall'onere di contattare direttamente i server root, TLD e autoritativi.",
+    "hint": "Chiede al server DNS di fare tutto il lavoro di interrogazione sequenziale fino alla risposta finale.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_NET_040",
+    "question": "Quali sono le differenze principali introdotte nel protocollo TLS 1.3 rispetto a TLS 1.2 in termini di prestazioni dell'handshake e sicurezza crittografica?",
+    "options": [
+      { "id": "A", "text": "TLS 1.3 aumenta la dimensione delle chiavi di cifratura simmetrica a 1024 bit eliminando la crittografia asimmetrica per l'handshake." },
+      { "id": "B", "text": "TLS 1.3 riduce l'handshake standard da due Round Trip (2-RTT) a un solo Round Trip (1-RTT), introduce la modalità 0-RTT per le riconnessioni, rimuove algoritmi crittografici vulnerabili (come MD5, RC4, 3DES) e rende obbligatoria la Perfect Forward Secrecy (PFS)." },
+      { "id": "C", "text": "TLS 1.3 sostituisce del tutto l'handshake TCP con un protocollo interamente basato su UDP non orientato alla connessione." },
+      { "id": "D", "text": "TLS 1.3 rimuove l'uso dei certificati digitali X.509, sostituendoli con un'architettura decentralizzata Web-of-Trust." }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "TLS 1.3 è stato progettato per migliorare sicurezza e prestazioni: riduce l'handshake di base da 2-RTT a 1-RTT, rimuove algoritmi e cifrari obsoleti e deboli, e impone lo scambio chiavi basato solo su algoritmi che offrono Perfect Forward Secrecy, escludendo lo scambio chiavi statico basato su RSA.",
+    "hint": "Velocizza la connessione dimezzando i tempi di setup e rimuove gli algoritmi obsoleti del passato.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_NET_041",
+    "question": "Si consideri una tabella di routing in cui sono presenti le seguenti rotte statiche: la rotta R1 per 192.168.10.128/25 e la rotta R2 per 192.168.10.192/26. Se il router deve instradare un pacchetto IP con indirizzo di destinazione 192.168.10.200, come si comporterà?",
+    "options": [
+      { "id": "A", "text": "Scarterà il pacchetto perché le due rotte sono in conflitto e sovrapposte nello stesso spazio di indirizzamento." },
+      { "id": "B", "text": "Instraderà il pacchetto utilizzando la rotta R2, in quanto il prefisso /26 è più specifico rispetto a /25 (regola del 'Longest Prefix Match')." },
+      { "id": "C", "text": "Instraderà il pacchetto su R1 poiché ha un prefisso più corto e quindi consuma meno risorse del router." },
+      { "id": "D", "text": "Eseguirà un bilanciamento del carico inviando alternativamente il traffico su R1 e R2." }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Quando un pacchetto corrisponde a più rotte nella tabella di routing, il router applica la regola del Longest Prefix Match (corrispondenza del prefisso più lungo). Poiché 192.168.10.200 rientra sia in 192.168.10.128/25 sia in 192.168.10.192/26, verrà scelta R2 poiché la maschera /26 è più specifica (lunga) di /25.",
+    "hint": "La decisione si basa sulla specificità della maschera: vince la maschera con il prefisso più lungo.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_NET_042",
+    "question": "Nel protocollo DNS, qual è la struttura e lo scopo del record SRV (Service Record)?",
+    "options": [
+      { "id": "A", "text": "Associa un indirizzo MAC a un indirizzo IP all'interno del database del server." },
+      { "id": "B", "text": "Definisce priorità, peso, porta e hostname di destinazione per servizi specifici (es. SIP, LDAP) in un dominio." },
+      { "id": "C", "text": "Fornisce una firma digitale asimmetrica per confermare l'origine di un record di tipo A o AAAA." },
+      { "id": "D", "text": "Specifica l'indirizzo IPv4 del server DNS secondario abilitato al trasferimento di zona." }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il record SRV (RFC 2782) definisce la locazione di servizi specifici. La sua struttura comprende il servizio, il protocollo, il nome dominio, e nel valore definisce: Priorità, Peso, Porta del servizio e Host di destinazione.",
+    "hint": "Consente ai client di scoprire su quale porta specifica sta girando un servizio all'interno di un server.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_NET_043",
+    "question": "In che modo la frammentazione dei pacchetti in IPv6 differisce fondamentalmente rispetto a quanto avviene in IPv4?",
+    "options": [
+      { "id": "A", "text": "In IPv6 i router intermedi possono frammentare i pacchetti ma solo se il flag DF (Don't Fragment) è impostato a zero." },
+      { "id": "B", "text": "In IPv6 la frammentazione viene eseguita esclusivamente dall'host mittente; i router intermedi non frammentano mai i pacchetti, e se incontrano un pacchetto superiore all'MTU del link successivo, lo scartano inviando un messaggio ICMPv6 'Packet Too Big'." },
+      { "id": "C", "text": "IPv6 non supporta in alcun modo la frammentazione e impone una dimensione massima fissa dei pacchetti a 1280 byte." },
+      { "id": "D", "text": "IPv6 delega la frammentazione al livello di collegamento dati (Ethernet), eliminando l'header di frammentazione IP." }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "In IPv6, per ridurre l'overhead di calcolo sui router, questi non frammentano mai i pacchetti in transito. Spetta all'host sorgente scoprire il Path MTU (PMTUD) e frammentare i pacchetti inserendo un Extension Header di frammentazione prima dell'invio.",
+    "hint": "I router intermedi in IPv6 sono più leggeri: non spezzano i pacchetti, ma avvisano la sorgente con un messaggio ICMPv6 di errore affinché ci pensi lei.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_NET_044",
+    "question": "Nel protocollo TCP, quale stato assume il socket del client che ha iniziato la chiusura della connessione inviando il primo segmento FIN ed ha già ricevuto il relativo ACK dal server remoto, ma è ancora in attesa del segmento FIN da parte del server?",
+    "options": [
+      { "id": "A", "text": "LAST_ACK" },
+      { "id": "B", "text": "CLOSE_WAIT" },
+      { "id": "C", "text": "FIN_WAIT_2" },
+      { "id": "D", "text": "TIME_WAIT" }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "La chiusura in TCP è a quattro vie. Il client invia FIN ed entra in FIN_WAIT_1. Riceve ACK ed entra in FIN_WAIT_2. In questo stato attende il FIN del server. Quando arriva il FIN dal server, il client risponde con ACK ed entra in TIME_WAIT per un periodo (2MSL) prima di chiudere definitivamente.",
+    "hint": "È la seconda fase di attesa della chiusura sul lato che ha iniziato la disconnessione.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_NET_045",
+    "question": "Qual è il principio di funzionamento del protocollo DNSSEC (Domain Name System Security Extensions) per contrastare attacchi di DNS Spoofing o DNS Cache Poisoning?",
+    "options": [
+      { "id": "A", "text": "Crittografa tutte le query DNS tramite canali TLS (DNS over TLS) per impedire lo sniffing dei dati." },
+      { "id": "B", "text": "Introduce firme digitali crittografiche (chiave pubblica/privata) associate ai record DNS, consentendo ai resolver di verificare l'autenticità dell'origine e l'integrità dei dati ricevuti." },
+      { "id": "C", "text": "Modifica le query DNS standard costringendole a transitare esclusivamente su connessioni VPN protette IPSec." },
+      { "id": "D", "text": "Richiede un'autenticazione a due fattori (2FA) ogni volta che un client richiede un indirizzo IP esterno alla propria rete." }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "DNSSEC non fornisce riservatezza (non crittografa il traffico), ma garantisce l'autenticità dei dati e l'integrità dell'origine. I record DNS vengono firmati digitalmente dall'amministratore della zona e verificati dal resolver usando chiavi pubbliche distribuite lungo la gerarchia DNS.",
+    "hint": "Utilizza firme digitali crittografiche per validare che la risposta provenga realmente dal server autorizzato e non sia stata alterata.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_NET_046",
+    "question": "Qual è la differenza fondamentale tra l'indirizzamento IPv6 di tipo Multicast e quello di tipo Anycast?",
+    "options": [
+      { "id": "A", "text": "L'Anycast invia i pacchetti a tutti i nodi di Internet globale, mentre il Multicast li invia solo ai nodi di una singola sottorete locale." },
+      { "id": "B", "text": "Un indirizzo Anycast identifica un gruppo di interfacce, ma il pacchetto viene recapitato solo all'interfaccia fisicamente o logicamente più vicina del gruppo (secondo le tabelle di routing), mentre il Multicast recapita il pacchetto a tutte le interfacce registrate al gruppo." },
+      { "id": "C", "text": "Anycast richiede la presenza di un server proxy centrale per l'inoltro, mentre il Multicast lavora in modalità wireless diretta." },
+      { "id": "D", "text": "Gli indirizzi Anycast sono cifrati dinamicamente ad ogni salto, mentre i Multicast sono trasmessi in chiaro." }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Sia Multicast che Anycast associano un indirizzo a più dispositivi. La differenza è che il Multicast invia a tutti i membri del gruppo, mentre l'Anycast consegna il pacchetto a uno solo dei membri del gruppo, nello specifico quello più vicino in termini di routing cost.",
+    "hint": "Anycast = consegna a 'uno qualsiasi (il più vicino)', Multicast = consegna a 'tutti i registrati del gruppo'.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_NET_047",
+    "question": "Nel protocollo TLS 1.2, qual è lo scopo specifico del messaggio 'Finished' inviato alla fine del processo di handshake e come viene trasmesso?",
+    "options": [
+      { "id": "A", "text": "Viene inviato in chiaro per notificare al sistema operativo che il socket può iniziare a inviare dati applicativi HTTP." },
+      { "id": "B", "text": "È il primo messaggio crittografato con la chiave di sessione (simmetrica) appena negoziata; contiene l'hash di tutti i messaggi scambiati nell'handshake per dimostrare che quest'ultimo non è stato manomesso da un terzo incomodo (Man-in-the-Middle)." },
+      { "id": "C", "text": "Serve a revocare la validità dei certificati digitali scambiati durante la connessione precedente." },
+      { "id": "D", "text": "Specifica l'elenco degli indirizzi IP dei server alternativi da contattare in caso di crash improvviso del server primario." }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il messaggio Finished è fundamental per la sicurezza dell'handshake TLS. Viene inviato dopo il cambio delle chiavi (ChangeCipherSpec) ed è cifrato con la chiave simmetrica negoziata. Contiene un digest di tutti i messaggi scambiati in precedenza, garantendo che nessuno abbia modificato o alterato i messaggi di negoziazione crittografica intermedi.",
+    "hint": "Conferma la corretta negoziazione delle chiavi simmetriche e la validità dell'intero processo di negoziazione precedente.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_NET_048",
+    "question": "Nel protocollo TCP, quale approccio differenzia gli algoritmi di controllo della congestione 'Delay-based' (come TCP Vegas o BBR) dagli algoritmi tradizionali 'Loss-based' (come TCP Tahoe, Reno o CUBIC)?",
+    "options": [
+      { "id": "A", "text": "Gli algoritmi Delay-based regolano la finestra di congestione basandosi sulle variazioni del tempo di Round Trip (RTT) e sul throughput effettivo per rilevare l'accumulo di buffer nei router prima che avvenga una perdita reale, riducendo così la congestione preventiva." },
+      { "id": "B", "text": "Gli algoritmi Delay-based ignorano completamente la perdita di pacchetti e continuano ad aumentare la finestra di invio finché il timer di timeout non scade." },
+      { "id": "C", "text": "Gli algoritmi Loss-based aumentano la velocità di invio solo quando ricevono pacchetti ICMP Source Quench dal gateway." },
+      { "id": "D", "text": "Gli algoritmi Delay-based calcolano la congestione basandosi esclusivamente sul carico elettrico misurato sulla scheda di rete." }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Gli algoritmi loss-based tradizionali (Reno, Cubic) aumentano la finestra di congestione finché non avviene una perdita di pacchetti (rilevata da 3 ACK duplicati o timeout). Algoritmi moderni delay-based (Vegas) o rate-based (BBR) monitorano le variazioni del ritardo (RTT) per capire se le code nei router stanno crescendo, frenando l'invio prima che i pacchetti vengano scartati.",
+    "hint": "Uno rileva la congestione misurando il rallentamento (ritardo) del viaggio dei pacchetti, l'altro aspetta che i pacchetti vengano fisicamente persi.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_NET_049",
+    "question": "Quale specifica minaccia alla sicurezza di livello 2 viene mitigata mediante l'attivazione della funzionalità di 'DHCP Snooping' sugli switch di rete?",
+    "options": [
+      { "id": "A", "text": "L'iniezione di pacchetti IP con indirizzo sorgente falsificato (IP Spoofing) diretti verso Internet esterna." },
+      { "id": "B", "text": "L'inserimento in rete di server DHCP non autorizzati (Rogue DHCP) che potrebbero distribuire gateway fasulli per condurre attacchi di tipo Man-in-the-Middle o esaurire gli indirizzi disponibili (DHCP Starvation)." },
+      { "id": "C", "text": "Il sovraccarico del processore dello switch dovuto a tempeste di broadcast di tipo ARP." },
+      { "id": "D", "text": "L'intercettazione fisica delle onde elettromagnetiche trasmesse dai cavi UTP." }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il DHCP Snooping crea una distinzione tra porte trusted (fidate, a cui possono essere collegati server DHCP legittimi) e porte untrusted. Se un messaggio DHCP Offer o DHCP Ack viene ricevuto su una porta untrusted, lo switch lo scarta impedendo l'azione di server DHCP malevoli o non autorizzati.",
+    "hint": "Impedisce a un malintenzionato di fingersi il server DHCP legittimo all'interno della rete locale.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_NET_050",
+    "question": "Durante il processo di allocazione degli indirizzi tramite DHCPv4, come fa un server DHCP a garantire che un indirizzo IP, selezionato per essere offerto a un client, non sia già in uso da un altro host configurato manualmente sulla rete?",
+    "options": [
+      { "id": "A", "text": "Richiede a tutti gli host della rete di spegnersi temporaneamente prima di emettere l'IP." },
+      { "id": "B", "text": "Prima di inviare il pacchetto DHCP OFFER, il server invia un pacchetto ICMP Echo Request (ping) verso quell'indirizzo IP; se non riceve risposta in un tempo stabilito, assume che sia libero e lo assegna al client." },
+      { "id": "C", "text": "Utilizza il DNS per verificare se quell'IP è associato a qualche record host attivo." },
+      { "id": "D", "text": "Esegue una scansione dei file di registro del sistema operativo locale del client remoto." }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Molti server DHCP eseguono un controllo preventivo prima di offrire o assegnare un indirizzo IP. Inviando un ping ICMP (o una richiesta ARP) verso l'indirizzo destinato all'offerta, il server verifica se qualcuno risponde. Se c'è risposta, l'indirizzo viene marcato come in conflitto e il server ne seleziona un altro.",
+    "hint": "Il server fa una chiamata di prova (un ping) all'IP prescelto per sentire se qualcuno risponde al telefono prima di darlo a un nuovo utente.",
+    "level": "avanzato"
+  }
+]

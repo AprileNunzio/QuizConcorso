@@ -1,0 +1,1302 @@
+[
+  {
+    "id": "Q_DIR_ANTI_001",
+    "question": "Qual è il principale provvedimento normativo che disciplina la prevenzione e la repressione della corruzione e dell'illegalità nella Pubblica Amministrazione in Italia?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il Decreto Legislativo 30 marzo 2001, n. 165"
+      },
+      {
+        "id": "B",
+        "text": "La Legge 6 novembre 2012, n. 190"
+      },
+      {
+        "id": "C",
+        "text": "La Legge 7 agosto 1990, n. 241"
+      },
+      {
+        "id": "D",
+        "text": "Il Decreto Legislativo 18 agosto 2000, n. 267"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La Legge 6 novembre 2012, n. 190 (nota come Legge Severino) rappresenta il pilastro fondamentale della normativa anticorruzione italiana, introducendo un sistema integrato di prevenzione basato su piani nazionali e territoriali.",
+    "hint": "Viene comunemente definita 'Legge Severino' ed è stata emanata a fine 2012.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_ANTI_002",
+    "question": "Quale autorità indipendente esercita poteri di vigilanza, controllo e regolamentazione in materia di prevenzione della corruzione e trasparenza all'interno delle PA?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La Corte dei Conti"
+      },
+      {
+        "id": "B",
+        "text": "Il Dipartimento della Funzione Pubblica"
+      },
+      {
+        "id": "C",
+        "text": "L'Autorità Nazionale Anticorruzione (ANAC)"
+      },
+      {
+        "id": "D",
+        "text": "Il Garante per la protezione dei dati personali"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'ANAC (Autorità Nazionale Anticorruzione) ha il compito istituzionale di prevenire la corruzione in ambito pubblico e di vigilare sul rispetto degli obblighi di trasparenza previsti dal D.Lgs. 33/2013.",
+    "hint": "È l'ente guidato in passato da Raffaele Cantone, con sigla ANAC.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_ANTI_003",
+    "question": "Chi è, di norma, il soggetto interno all'amministrazione deputato a vigilare sul funzionamento e sull'osservanza del piano anticorruzione?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il Responsabile della Prevenzione della Corruzione e della Trasparenza (RPCT)"
+      },
+      {
+        "id": "B",
+        "text": "Il Segretario Generale o il Direttore Generale"
+      },
+      {
+        "id": "C",
+        "text": "Il componente unico del Nucleo di Valutazione"
+      },
+      {
+        "id": "D",
+        "text": "Il Sindaco o il Presidente dell'ente"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il RPCT (Responsabile della Prevenzione della Corruzione e della Trasparenza) è nominato dall'organo di indirizzo politico e risponde dell'attuazione delle misure preventive e dell'adempimento degli obblighi di trasparenza.",
+    "hint": "La sigla ufficiale di questo ruolo interno è RPCT.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_ANTI_004",
+    "question": "Quale decreto legislativo disciplina in modo organico il riordino delle norme riguardanti gli obblighi di pubblicità, trasparenza e diffusione di informazioni da parte delle PA?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il Decreto Legislativo 25 maggio 2016, n. 97"
+      },
+      {
+        "id": "B",
+        "text": "Il Decreto Legislativo 18 aprile 2016, n. 50"
+      },
+      {
+        "id": "C",
+        "text": "Il Decreto Legislativo 30 giugno 2003, n. 196"
+      },
+      {
+        "id": "D",
+        "text": "Il Decreto Legislativo 14 marzo 2013, n. 33"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Il D.Lgs. 14 marzo 2013, n. 33 costituisce il 'Testo Unico della Trasparenza', che elenca dettagliatamente tutti i documenti, le informazioni e i dati che le pubbliche amministrazioni hanno l'obbligo di pubblicare.",
+    "hint": "Viene spesso chiamato 'Decreto Trasparenza' ed è del 2013.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_ANTI_005",
+    "question": "In base al D.Lgs. 33/2013, qual è la denominazione della sezione in cui le PA devono inserire tutti i dati oggetto di pubblicazione obbligatoria sul proprio sito web?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Albo Pretorio Online"
+      },
+      {
+        "id": "B",
+        "text": "Amministrazione Trasparente"
+      },
+      {
+        "id": "C",
+        "text": "Ufficio Relazioni con il Pubblico (URP)"
+      },
+      {
+        "id": "D",
+        "text": "Bacheca Pubblica Informativa"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "I dati, le informazioni e i documenti oggetto di pubblicazione obbligatoria devono essere inseriti in un'apposita sezione denominata 'Amministrazione Trasparente', collocata nella home page del sito istituzionale.",
+    "hint": "Ha come prima parola 'Amministrazione' e come seconda parola 'Trasparente'.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_ANTI_006",
+    "question": "Con quale frequenza viene adottato e aggiornato dall'ANAC il Piano Nazionale Anticorruzione (PNA)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ha durata triennale ed è aggiornato annualmente"
+      },
+      {
+        "id": "B",
+        "text": "Ha durata annuale senza possibilità di proroga"
+      },
+      {
+        "id": "C",
+        "text": "Viene redatto ogni tre anni senza alcuna revisione intermedia"
+      },
+      {
+        "id": "D",
+        "text": "Ha durata quinquennale ed è approvato con decreto del Presidente della Repubblica"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il Piano Nazionale Anticorruzione (PNA) ha una durata triennale e costituisce l'atto di indirizzo generale con cui l'ANAC individua le aree di rischio prioritario e definisce le linee guida metodologiche per i PTPCT delle singole amministrazioni.",
+    "hint": "Guarda all'orizzonte temporale tipico della programmazione finanziaria e amministrativa (3 anni), con revisione costante.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_ANTI_007",
+    "question": "Quale provvedimento normativo ha riformato la disciplina del whistleblowing in Italia, recependo la Direttiva UE 2019/1937?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La Legge 30 novembre 2017, n. 179"
+      },
+      {
+        "id": "B",
+        "text": "Il Decreto Legislativo 25 maggio 2016, n. 97"
+      },
+      {
+        "id": "C",
+        "text": "Il Decreto Legislativo 10 marzo 2023, n. 24"
+      },
+      {
+        "id": "D",
+        "text": "Il Decreto Legislativo 30 giugno 2003, n. 196"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "La materia del whistleblowing è attualmente regolata dal D.Lgs. 24/2023, che ha abrogato le norme precedenti e ampliato notevolmente l'ambito oggettivo e soggettivo di tutela dei segnalanti sia nel settore pubblico sia in quello privato.",
+    "hint": "È un decreto legislativo approvato a inizio marzo del 2023.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_ANTI_008",
+    "question": "Che cos'è l'accesso civico 'semplice' previsto dall'art. 5, comma 1, del D.Lgs. 33/2013?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il diritto di accedere ai documenti amministrativi subordinato alla dimostrazione di un interesse diretto, concreto e attuale"
+      },
+      {
+        "id": "B",
+        "text": "La facoltà di visionare liberamente l'Albo Pretorio comunale senza formalità"
+      },
+      {
+        "id": "C",
+        "text": "L'obbligo di registrarsi sul portale istituzionale per scaricare i bandi di concorso"
+      },
+      {
+        "id": "D",
+        "text": "Il diritto di chiunque di richiedere documenti, informazioni o dati di cui sia stata omessa la pubblicazione obbligatoria sul sito istituzionale"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'accesso civico semplice è strettamente legato agli obblighi di pubblicazione: chiunque può richiedere all'amministrazione di pubblicare i dati omessi e di fornirgli contemporaneamente il relativo link o documento.",
+    "hint": "Nasce per sanzionare l'inadempimento dell'ente rispetto alla pubblicazione obbligatoria in 'Amministrazione Trasparente'.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_ANTI_009",
+    "question": "Quale principale novità ha introdotto l'accesso civico 'generalizzato' (FOIA) introdotto nel D.Lgs. 33/2013 dal D.Lgs. 97/2016?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il diritto di chiunque di accedere a dati e documenti detenuti dalle PA, ulteriori rispetto a quelli oggetto di pubblicazione obbligatoria, senza dover motivare la richiesta"
+      },
+      {
+        "id": "B",
+        "text": "La possibilità di accedere esclusivamente agli atti dei procedimenti edilizi e urbanistici del proprio Comune"
+      },
+      {
+        "id": "C",
+        "text": "L'obbligo di dimostrare una posizione giuridica qualificata per esaminare i bilanci degli enti pubblici"
+      },
+      {
+        "id": "D",
+        "text": "La limitazione del diritto di accesso ai soli cittadini italiani residenti nel territorio nazionale"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'accesso civico generalizzato (ispirato al Freedom of Information Act - FOIA) consente l'accesso a tutti i documenti e dati detenuti dall'amministrazione per favorire il controllo diffuso, escludendo la necessità di motivazione o interesse qualificato, con i soli limiti previsti dall'art. 5-bis.",
+    "hint": "Consente di accedere a dati non obbligatoriamente pubblicati ed è aperto a 'chiunque'.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_ANTI_010",
+    "question": "Salvo eccezioni previste dalla legge o dal Garante Privacy, per quanti anni devono rimanere pubblicati i dati e i documenti nella sezione 'Amministrazione Trasparente'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "10 anni, in analogia con i termini di prescrizione ordinaria"
+      },
+      {
+        "id": "B",
+        "text": "5 anni, decorrenti dal 1° gennaio dell'anno successivo a quello da cui decorre l'obbligo di pubblicazione"
+      },
+      {
+        "id": "C",
+        "text": "3 anni, coincidenti con la durata del piano anticorruzione dell'ente"
+      },
+      {
+        "id": "D",
+        "text": "Illimitatamente, per garantire la memoria storica dell'attività amministrativa"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 8, comma 3, del D.Lgs. 33/2013 stabilisce che i dati e le informazioni pubblicate devono rimanere accessibili per un periodo di 5 anni, decorrenti dal 1° gennaio dell'anno successivo a quello da cui decorre l'obbligo, dopodiché vanno archiviati.",
+    "hint": "Pensa alla durata di una legislatura ordinaria o al periodo classico di conservazione dei documenti fiscali semplificati (5 anni).",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_ANTI_011",
+    "question": "A quale soggetto esterno il segnalante (whistleblower) può presentare una segnalazione tramite canale esterno qualora ricorrano le condizioni di legge?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Alla Procura della Repubblica presso il Tribunale territorialmente competente"
+      },
+      {
+        "id": "B",
+        "text": "Al Garante per la protezione dei dati personali"
+      },
+      {
+        "id": "C",
+        "text": "All'Autorità Nazionale Anticorruzione (ANAC)"
+      },
+      {
+        "id": "D",
+        "text": "Alla Corte dei Conti in sede di sezione giurisdizionale"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'ANAC è l'unica autorità designata dalla legge italiana (D.Lgs. 24/2023) a gestire il canale di segnalazione esterno e a irrogare le relative sanzioni in caso di ostacolo alla segnalazione o ritorsioni.",
+    "hint": "È l'autorità amministrativa indipendente garante della prevenzione della corruzione.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_ANTI_012",
+    "question": "Ai sensi dell'art. 6-bis della Legge 241/1990 e dei Codici di comportamento, qual è l'obbligo principale del dipendente pubblico in caso di conflitto di interessi, anche potenziale?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ha l'obbligo di astenersi dal partecipare all'adozione della decisione o dell'atto, segnalando il conflitto al proprio superiore gerarchico"
+      },
+      {
+        "id": "B",
+        "text": "Deve semplicemente darne comunicazione verbale ai colleghi dell'ufficio"
+      },
+      {
+        "id": "C",
+        "text": "Può decidere in autonomia se procedere o meno purché ne dia atto nella motivazione del provvedimento"
+      },
+      {
+        "id": "D",
+        "text": "È tenuto a rassegnare le dimissioni dall'incarico entro 5 giorni lavorativi"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'obbligo di astensione in caso di conflitto di interessi è assoluto e riguarda sia conflitti di natura finanziaria sia affettiva, estendendosi anche a situazioni potenziali per garantire l'imparzialità dell'azione amministrativa.",
+    "hint": "Il dovere cardine è quello di allontanarsi dal procedimento (astensione).",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_ANTI_013",
+    "question": "Quale organo all'interno di una Pubblica Amministrazione è competente per l'adozione del Piano Triennale per la Prevenzione della Corruzione e della Trasparenza (PTPCT)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il Responsabile della prevenzione della corruzione e della trasparenza in via esclusiva"
+      },
+      {
+        "id": "B",
+        "text": "L'Organismo Indipendente di Valutazione (OIV)"
+      },
+      {
+        "id": "C",
+        "text": "Il Collegio dei Revisori dei Conti"
+      },
+      {
+        "id": "D",
+        "text": "L'organo di indirizzo politico dell'amministrazione"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'adozione formale del PTPCT (oggi inserito all'interno del PIAO) spetta all'organo di indirizzo politico dell'amministrazione (es. Giunta nei Comuni, Consiglio di Amministrazione, Ministro), su proposta del RPCT.",
+    "hint": "È l'organo che esercita la rappresentanza politica dell'ente e fissa gli indirizzi strategici.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_ANTI_014",
+    "question": "In materia di whistleblowing, qual è l'obiettivo principale delle tutele previste dal D.Lgs. 24/2023?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Garantire al segnalante un compenso economico proporzionato all'entità della frode scoperta"
+      },
+      {
+        "id": "B",
+        "text": "Proteggere il segnalante da qualsiasi misura ritorsiva o discriminatoria intrapresa a causa della segnalazione delle violazioni"
+      },
+      {
+        "id": "C",
+        "text": "Fornire al segnalante una promozione automatica di livello o carriera"
+      },
+      {
+        "id": "D",
+        "text": "Garantire l'immunità penale assoluta per qualsiasi reato commesso in precedenza dal segnalante"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Le tutele vietano qualunque ritorsione (licenziamento, demansionamento, trasferimento, ecc.) nei confronti del segnalante e pongono l'onere della prova a carico dell'amministrazione o datore di lavoro per dimostrare che tali misure non sono collegate alla segnalazione.",
+    "hint": "Mira ad evitare vendette professionali o lavorative contro chi denuncia.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_ANTI_015",
+    "question": "In base alla definizione aggiornata del D.Lgs. 33/2013, come viene definita la trasparenza amministrativa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Accessibilità totale dei dati e documenti detenuti dalle pubbliche amministrazioni, allo scopo di tutelare i diritti dei cittadini e favorire forme diffuse di controllo"
+      },
+      {
+        "id": "B",
+        "text": "La pubblicazione sul sito web delle sole delibere e determine comunali che comportino impegni di spesa superiori a 10.000 euro"
+      },
+      {
+        "id": "C",
+        "text": "La possibilità di accedere agli uffici pubblici durante gli orari di apertura senza previo appuntamento"
+      },
+      {
+        "id": "D",
+        "text": "L'obbligo di pubblicare esclusivamente i curricula e i compensi dei dipendenti pubblici con qualifica dirigenziale"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La trasparenza è intesa come accessibilità totale ai dati e ai documenti detenuti dalle pubbliche amministrazioni, diretta a tutelare i diritti dei cittadini, promuovere la partecipazione e favorire forme diffuse di controllo sul perseguimento delle funzioni istituzionali.",
+    "hint": "Coinvolge un concetto di accessibilità che dev'essere totale.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_ANTI_016",
+    "question": "Quale delle seguenti affermazioni sulla gratuità del rilascio di dati o documenti tramite accesso civico è corretta?",
+    "options": [
+      {
+        "id": "A",
+        "text": "È soggetto a un'imposta di bollo fissa di 16,00 euro indipendentemente dal formato richiesto"
+      },
+      {
+        "id": "B",
+        "text": "L'amministrazione ha facoltà di tariffare ciascun accesso secondo il proprio regolamento interno per coprire i costi di ricerca del personale"
+      },
+      {
+        "id": "C",
+        "text": "Il rilascio è gratuito, salvo il rimborso del costo effettivamente sostenuto e documentato dall'amministrazione per la riproduzione su supporti materiali"
+      },
+      {
+        "id": "D",
+        "text": "È sempre totalmente gratuito e le spese di spedizione postale cartacea sono interamente a carico dell'amministrazione"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'art. 5, comma 4, del D.Lgs. 33/2013 stabilisce che il rilascio di dati o documenti in formato elettronico o cartaceo è gratuito, salvo il rimborso dei soli costi effettivamente sostenuti e documentati dall'amministrazione per la riproduzione.",
+    "hint": "Non c'è un costo di istruttoria o imposta di bollo, ma l'ente non può rimetterci sulle fotocopie fisiche o supporti USB.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_ANTI_017",
+    "question": "Quale normativa dell'Unione Europea disciplina in modo uniforme il trattamento dei dati personali a livello sovranazionale, impattando sul bilanciamento con gli obblighi di trasparenza?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La Direttiva (UE) 2019/1937"
+      },
+      {
+        "id": "B",
+        "text": "Il Regolamento (UE) 2016/679 (GDPR)"
+      },
+      {
+        "id": "C",
+        "text": "Il Regolamento (CE) n. 1049/2001"
+      },
+      {
+        "id": "D",
+        "text": "La Direttiva (UE) 2016/680"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il Regolamento Generale sulla Protezione dei Dati (GDPR) costituisce la disciplina fondamentale che le amministrazioni pubbliche devono rispettare ed equilibrare quando pubblicano dati personali in Amministrazione Trasparente o concedono l'accesso civico.",
+    "hint": "Comunemente abbreviato in GDPR.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_ANTI_018",
+    "question": "Se un'amministrazione rifiuta o omette di provvedere su una richiesta di accesso civico generalizzato entro i termini, come viene qualificato il silenzio dell'ente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Equivale a silenzio-assenso, determinando il diritto del richiedente ad ottenere i documenti seduta stante"
+      },
+      {
+        "id": "B",
+        "text": "Comporta l'annullamento d'ufficio di tutti i provvedimenti a cui la richiesta faceva riferimento"
+      },
+      {
+        "id": "C",
+        "text": "Non è previsto alcun rimedio giuridico se non la reiterazione all'infinito della richiesta"
+      },
+      {
+        "id": "D",
+        "text": "Equivale a un diniego impugnabile dinanzi al giudice amministrativo o dinanzi agli organi di riesame interni"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Il silenzio serbato dall'amministrazione decorsi i 30 giorni non equivale ad assenso, ma si configura come diniego (silenzio-rigetto/inadempimento), legittimando il richiedente a presentare istanza di riesame al RPCT o ricorso al TAR.",
+    "hint": "Nel diritto di accesso in genere, il silenzio prolungato non gioca a favore del rilascio immediato automatico.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_ANTI_019",
+    "question": "Qual è il termine temporale entro il quale deve concludersi il procedimento di accesso civico (semplice o generalizzato), con provvedimento espresso e motivato?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Entro 15 giorni per l'accesso civico semplice ed entro 45 giorni per quello generalizzato"
+      },
+      {
+        "id": "B",
+        "text": "Entro 30 giorni dalla presentazione dell'istanza, fatti salvi i tempi di sospensione per i controinteressati"
+      },
+      {
+        "id": "C",
+        "text": "Entro 60 giorni, termine generale dei procedimenti amministrativi ex art. 2 L. 241/90"
+      },
+      {
+        "id": "D",
+        "text": "Entro 90 giorni nei casi in cui siano presenti dati personali o sensibili"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 5, comma 6, del D.Lgs. 33/2013 prevede che il procedimento di accesso civico debba concludersi entro 30 giorni con provvedimento espresso. Se vi sono controinteressati, il termine è sospeso per massimo 10 giorni in attesa delle loro osservazioni.",
+    "hint": "È il termine standard per l'accesso, equivalente a circa un mese.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_ANTI_020",
+    "question": "In caso di diniego totale o parziale dell'accesso civico generalizzato, dinanzi a quale figura interna all'ente può essere presentata la richiesta di riesame?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Al Dirigente del settore Risorse Umane"
+      },
+      {
+        "id": "B",
+        "text": "Al Nucleo di Valutazione o OIV dell'ente"
+      },
+      {
+        "id": "C",
+        "text": "Al Responsabile della Prevenzione della Corruzione e della Trasparenza (RPCT)"
+      },
+      {
+        "id": "D",
+        "text": "Al Segretario Comunale solo nel caso in cui non coincida con l'RPCT"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'art. 5, comma 7, del D.Lgs. 33/2013 stabilisce che nei casi di diniego dell'accesso civico, il richiedente può presentare istanza di riesame al RPCT, che decide con provvedimento motivato entro il termine di 20 giorni.",
+    "hint": "È il controllore interno della trasparenza, figura già nominata per l'anticorruzione.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_ANTI_021",
+    "question": "Quale delle seguenti categorie di soggetti NON rientra tra i beneficiari delle tutele sul whistleblowing secondo la disciplina del D.Lgs. 24/2023?",
+    "options": [
+      {
+        "id": "A",
+        "text": "I clienti privati dell'ente o dell'azienda che acquistano beni o servizi a titolo di consumatori"
+      },
+      {
+        "id": "B",
+        "text": "I dipendenti pubblici, compresi i lavoratori delle autorità indipendenti e degli enti pubblici economici"
+      },
+      {
+        "id": "C",
+        "text": "I lavoratori autonomi, i collaboratori, i liberi professionisti e i consulenti che prestano attività presso l'ente"
+      },
+      {
+        "id": "D",
+        "text": "I tirocinanti, i volontari e i lavoratori in prova, sia retribuiti sia non retribuiti"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La tutela del whistleblowing (D.Lgs. 24/2023) copre chiunque operi in un contesto lavorativo collegato all'ente pubblico o privato (dipendenti, collaboratori, tirocinanti, azionisti, fornitori), ma non si estende ai meri clienti finali o consumatori dell'ente.",
+    "hint": "La tutela mira a salvaguardare chi rischia ritorsioni nel proprio ambiente di lavoro.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_ANTI_022",
+    "question": "A seguito dell'introduzione del Piano Integrato di Attività e Organizzazione (PIAO) ex D.L. 80/2021, dove viene inserita la programmazione delle misure anticorruzione per i soggetti obbligati?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Continua ad essere redatta in un documento del tutto autonomo denominato PTPCT e scollegato dal PIAO"
+      },
+      {
+        "id": "B",
+        "text": "Nel Piano della Performance, all'interno degli obiettivi individuali dell'RPCT"
+      },
+      {
+        "id": "C",
+        "text": "Viene soppressa per evitare la duplicazione degli adempimenti burocratici"
+      },
+      {
+        "id": "D",
+        "text": "In una specifica sezione del PIAO dedicata alla prevenzione della corruzione e alla trasparenza"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Il PIAO assorbe diversi piani programmatori delle PA (performance, fabbisogno del personale, lavoro agile ecc.). La programmazione anticorruzione confluisce in un'apposita sezione del PIAO, ferma restando la competenza propositiva dell'RPCT e di vigilanza dell'ANAC.",
+    "hint": "Il PIAO è un contenitore unico, e l'anticorruzione è uno dei suoi pilastri programmatori obbligatori.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_ANTI_023",
+    "question": "Quale tra le seguenti costituisce un'esclusione o limite assoluto all'accesso civico generalizzato (art. 5-bis, comma 3, D.Lgs. 33/2013)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La circostanza che la richiesta provenga da un cittadino privo di residenza nel Comune interessato"
+      },
+      {
+        "id": "B",
+        "text": "L'esistenza di un segreto di Stato o di altri divieti di accesso o divulgazione tassativamente previsti dalla legge"
+      },
+      {
+        "id": "C",
+        "text": "Il fatto che l'amministrazione ritenga l'istanza eccessivamente generica o priva di motivazione politica"
+      },
+      {
+        "id": "D",
+        "text": "L'esistenza di controinteressati che non abbiano prestato il proprio consenso espresso"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Mentre i limiti di cui ai commi 1 e 2 dell'art. 5-bis (es. protezione dati personali, stabilità finanziaria, ordine pubblico) richiedono una valutazione del pregiudizio concreto (limiti qualificati), il comma 3 elenca i limiti assoluti legati a divieti di divulgazione previsti dalla legge (es. segreto di Stato, segreto d'ufficio).",
+    "hint": "Cerca la tutela della sicurezza dello Stato regolata da leggi speciali non derogabili.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_ANTI_024",
+    "question": "Come deve comportarsi l'amministrazione che riceve un'istanza di accesso civico generalizzato qualora individui soggetti 'controinteressati'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Deve inviare loro comunicazione copia dell'istanza a mezzo raccomandata A/R o PEC, concedendo 10 giorni per presentare eventuale opposizione motivata"
+      },
+      {
+        "id": "B",
+        "text": "Deve rigettare immediatamente l'istanza per motivi di riservatezza, senza procedere oltre"
+      },
+      {
+        "id": "C",
+        "text": "Deve richiedere il preventivo parere vincolante del Garante Privacy prima di fare qualsiasi comunicazione"
+      },
+      {
+        "id": "D",
+        "text": "Può rilasciare direttamente i documenti oscurando solo i nomi dei dipendenti, senza informare i soggetti interessati"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Ai sensi dell'art. 5, comma 5, del D.Lgs. 33/2013, qualora l'amministrazione individui controinteressati (soggetti che potrebbero subire un pregiudizio concreto), è tenuta a darne comunicazione agli stessi, che hanno 10 giorni per opporsi.",
+    "hint": "C'è un obbligo di notifica formale ai soggetti il cui interesse privato è in gioco, concedendo loro un termine a due cifre.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_ANTI_025",
+    "question": "Nel procedimento di accesso civico generalizzato, entro quale termine i controinteressati possono presentare la loro motivata opposizione all'ostensione?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Entro 15 giorni dalla pubblicazione della richiesta sull'Albo Pretorio"
+      },
+      {
+        "id": "B",
+        "text": "Entro 5 giorni lavorativi, per non rallentare l'azione amministrativa"
+      },
+      {
+        "id": "C",
+        "text": "Entro 10 giorni dalla ricezione della comunicazione da parte dell'amministrazione"
+      },
+      {
+        "id": "D",
+        "text": "Entro il termine massimo di conclusione del procedimento (30 giorni)"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'opposizione dei controinteressati deve essere presentata entro 10 giorni dalla ricezione della comunicazione. Durante questo periodo, il termine di 30 giorni per la conclusione del procedimento d'accesso rimane sospeso.",
+    "hint": "Il termine corrisponde a una decade.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_ANTI_026",
+    "question": "Quale organo ha il potere di irrogare sanzioni pecuniarie amministrative in caso di mancata adozione del Piano triennale di prevenzione della corruzione o di omissione degli obblighi di pubblicazione?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il Prefetto territorialmente competente"
+      },
+      {
+        "id": "B",
+        "text": "Il Garante per la protezione dei dati personali"
+      },
+      {
+        "id": "C",
+        "text": "Il Dipartimento della Funzione Pubblica presso la Presidenza del Consiglio"
+      },
+      {
+        "id": "D",
+        "text": "L'ANAC (Autorità Nazionale Anticorruzione)"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "La Legge 190/2012 e le sue modifiche attribuiscono all'ANAC il potere sanzionatorio pecuniario (da 1.000 a 10.000 euro) nei confronti dell'organo di indirizzo politico o dei soggetti che hanno omesso di adottare il Piano o le misure di trasparenza.",
+    "hint": "È l'Autorità centrale regolatrice del settore anticorruzione.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_ANTI_027",
+    "question": "In ordine alla riservatezza dell'identità del whistleblower (D.Lgs. 24/2023), in quale dei seguenti casi tale identità può essere rivelata nell'ambito del procedimento penale?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A semplice richiesta scritta della difesa del soggetto denunciato sin dalla fase delle indagini preliminari"
+      },
+      {
+        "id": "B",
+        "text": "Nei modi e nei limiti stabiliti dall'articolo 329 del codice di procedura penale (segreto investigativo)"
+      },
+      {
+        "id": "C",
+        "text": "Qualora il superiore gerarchico ne faccia formale richiesta scritta all'RPCT per ragioni di ufficio"
+      },
+      {
+        "id": "D",
+        "text": "L'identità del segnalante non è mai segretata dinanzi al datore di lavoro se il fatto costituisce reato"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'identità del segnalante gode della massima protezione: nell'ambito del procedimento penale è coperta dal segreto nei modi e nei limiti previsti dall'art. 329 c.p.p., mentre nel procedimento disciplinare può essere rivelata solo col consenso del segnalante o se indispensabile per la difesa dell'incolpato.",
+    "hint": "Cerca il riferimento alle regole del codice di procedura penale sul segreto investigativo.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_ANTI_028",
+    "question": "Cos'è il 'Registro degli Accessi' raccomandato dalle Linee Guida ANAC in tema di FOIA?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un registro interno riservato che traccia gli accessi fisici del pubblico all'interno dei singoli uffici"
+      },
+      {
+        "id": "B",
+        "text": "Il registro informatico che tiene traccia dei log di accesso dei dipendenti al sistema di protocollo informatico"
+      },
+      {
+        "id": "C",
+        "text": "Un elenco pubblico e costantemente aggiornato delle richieste di accesso presentate (documentale, civico e generalizzato) con indicazione dell'oggetto e dell'esito"
+      },
+      {
+        "id": "D",
+        "text": "Una banca dati gestita dal Ministero dell'Interno che raccoglie i dati personali di chiunque interroghi i siti web della PA"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Il Registro degli Accessi, pubblicato sul sito web istituzionale in 'Amministrazione Trasparente', serve sia a semplificare l'attività dell'ente (evitando richieste ripetitive) sia a monitorare l'andamento delle istanze e favorire l'omogeneità delle decisioni.",
+    "hint": "Serve a rendere trasparenti le stesse richieste di trasparenza presentate dai cittadini.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_ANTI_029",
+    "question": "Nel valutare un'istanza di accesso civico generalizzato (FOIA) che coinvolge dati personali, quale operazione deve compiere l'amministrazione destinataria?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un bilanciamento concreto, valutando se la divulgazione arrechi un pregiudizio concreto e sproporzionato alla vita privata e alla protezione dei dati del controinteressato"
+      },
+      {
+        "id": "B",
+        "text": "Deve negare preventivamente e in modo assoluto l'accesso a qualunque documento contenga un nome o un cognome"
+      },
+      {
+        "id": "C",
+        "text": "Deve chiedere il pagamento di un'indennità speciale di riservatezza a favore del soggetto i cui dati vengono diffusi"
+      },
+      {
+        "id": "D",
+        "text": "Deve richiedere il consenso obbligatorio e vincolante al Garante per la protezione dei dati personali per ogni singola istanza"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'accesso civico generalizzato non è un diritto incondizionato: richiede una valutazione del 'pregiudizio concreto' alla vita privata dei terzi. Se il pregiudizio sussiste ed è sproporzionato rispetto al controllo diffuso, l'amministrazione deve negare o parzializzare l'accesso (es. mascherando i dati).",
+    "hint": "L'operazione consiste in un giudizio di bilanciamento degli interessi costituzionali in conflitto (Trasparenza vs Privacy).",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_ANTI_030",
+    "question": "Qual è il limite economico di modico valore entro il quale il dipendente pubblico può accettare regali o altre utilità in base al Codice di comportamento dei dipendenti pubblici (D.P.R. 62/2013)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fino a un massimo di 500 euro all'anno, purché non in denaro contante"
+      },
+      {
+        "id": "B",
+        "text": "Non superiore a 150 euro, anche sotto forma di sconto, salvo che i singoli enti stabiliscano limiti inferiori o il divieto assoluto"
+      },
+      {
+        "id": "C",
+        "text": "Non superiore a 50 euro, limite fissato inderogabilmente dalla legge per tutte le amministrazioni"
+      },
+      {
+        "id": "D",
+        "text": "Non vi è alcun limite per i regali di cortesia natalizi ricevuti da fornitori storici"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 4 del D.P.R. 62/2013 (Codice di comportamento) stabilisce la regola generale del divieto di accettare regali, ad eccezione di quelli d'uso di modico valore (fissato in via orientativa in 150 euro). Molti enti nei propri codici interni riducono questa soglia o pongono il divieto assoluto.",
+    "hint": "La cifra è di centocinquanta euro.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_ANTI_031",
+    "question": "Che cos'è l'Anagrafe delle prestazioni regolata dall'art. 53 del D.Lgs. n. 165/2001?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il registro dei dipendenti pubblici che beneficiano dei permessi della Legge 104/1992"
+      },
+      {
+        "id": "B",
+        "text": "Il registro delle sole prestazioni sanitarie erogate in convenzione con il Servizio Sanitario Nazionale"
+      },
+      {
+        "id": "C",
+        "text": "Il sistema di tracciamento delle presenze e degli straordinari del personale in smart working"
+      },
+      {
+        "id": "D",
+        "text": "La banca dati che raccoglie tutti gli incarichi, anche a titolo gratuito, conferiti o autorizzati dalle PA ai propri dipendenti e a soggetti esterni"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'Anagrafe delle prestazioni (gestita dal Dipartimento della Funzione Pubblica) raccoglie i dati relativi agli incarichi conferiti o autorizzati ai dipendenti pubblici e a collaboratori esterni, per monitorare il rispetto delle regole sulle incompatibilità e sul cumulo di impieghi.",
+    "hint": "Riguarda gli incarichi extra-istituzionali e di consulenza.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_ANTI_032",
+    "question": "Nel corso del procedimento di riesame di un diniego di accesso civico generalizzato, in quale caso il RPCT è tenuto a sentire il Garante Privacy?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sempre, per qualsiasi istanza che contenga riferimenti a persone fisiche decedute"
+      },
+      {
+        "id": "B",
+        "text": "Solo se richiesto espressamente dal controinteressato nella sua opposizione scritta"
+      },
+      {
+        "id": "C",
+        "text": "Qualora l'accesso sia stato rifiutato o differito per motivi di tutela della protezione dei dati personali"
+      },
+      {
+        "id": "D",
+        "text": "Mai, il parere del Garante può essere richiesto solo dal giudice amministrativo (TAR)"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'art. 5, comma 7, del D.Lgs. 33/2013 prevede che se l'accesso è stato negato o differito a tutela dei dati personali, il RPCT provvede sul riesame sentito il Garante per la protezione dei dati personali, che si pronuncia entro 10 giorni.",
+    "hint": "È una garanzia procedimentale quando c'è una potenziale lesione della privacy di terzi.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_ANTI_033",
+    "question": "Secondo la disciplina del whistleblowing (D.Lgs. 24/2023), a quale specifica condizione il segnalante può ricorrere alla 'divulgazione pubblica' (stampa, social media) beneficiando delle tutele?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Se ha già effettuato una segnalazione interna ed esterna senza aver ricevuto riscontro nei termini, o ha fondato motivo di ritenere che la violazione costituisca un pericolo imminente o palese per il pubblico interesse"
+      },
+      {
+        "id": "B",
+        "text": "Sempre, trattandosi di un diritto costituzionale di libera manifestazione del pensiero (art. 21 Cost.)"
+      },
+      {
+        "id": "C",
+        "text": "Solo dopo aver ottenuto l'autorizzazione scritta da parte dell'RPCT o dell'ufficio procedimenti disciplinari"
+      },
+      {
+        "id": "D",
+        "text": "In nessun caso la divulgazione a mezzo stampa o canali non istituzionali consente di mantenere le tutele del whistleblower"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La divulgazione pubblica è considerata una misura residuale ed estrema. Il segnalante mantiene le tutele solo se ha già tentato i canali ordinari senza esito, o se vi è un pericolo imminente per il pubblico interesse, o se il canale esterno comporta un rischio concreto di ritorsioni o inefficacia.",
+    "hint": "È ammessa come extrema ratio quando i canali ordinari falliscono o sono inutilizzabili/pericolosi.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_ANTI_034",
+    "question": "Quale fondamentale differenza sussiste, sotto il profilo della legittimazione attiva, tra l'accesso documentale (L. 241/1990) e l'accesso civico generalizzato (D.Lgs. 33/2013)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'accesso civico generalizzato spetta solo ai residenti nel Comune, mentre l'accesso L. 241/90 spetta a tutti"
+      },
+      {
+        "id": "B",
+        "text": "L'accesso L. 241/90 richiede un interesse diretto, concreto e attuale connesso a una situazione giuridica protetta; l'accesso civico generalizzato spetta a chiunque senza obbligo di motivazione"
+      },
+      {
+        "id": "C",
+        "text": "Non vi è alcuna differenza, in quanto il D.Lgs. 97/2016 ha abrogato e assorbito l'accesso agli atti ex L. 241/1990"
+      },
+      {
+        "id": "D",
+        "text": "L'accesso L. 241/90 è gratuito, mentre l'accesso civico generalizzato richiede sempre il pagamento di marche da bollo"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'accesso ex L. 241/90 è di tipo egoistico/difensivo (richiede un interesse qualificato e motivazione), mentre l'accesso civico generalizzato ha una funzione democratica/altruistica (favorisce il controllo diffuso dei cittadini sulle istituzioni, spetta a chiunque senza motivazione).",
+    "hint": "Pensa alla differenza tra la tutela di una posizione individuale qualificata (241/90) e il controllo diffuso della collettività (FOIA).",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_ANTI_035",
+    "question": "Quale finalità persegue la misura anticorruzione della 'rotazione del personale' introdotta dalla Legge 190/2012?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Garantire una formazione professionale completa del dipendente in tutti i settori dell'amministrazione"
+      },
+      {
+        "id": "B",
+        "text": "Ridurre il carico di lavoro dei funzionari mediante una redistribuzione ciclica delle pratiche"
+      },
+      {
+        "id": "C",
+        "text": "Evitare il consolidamento di posizioni di potere e la creazione di relazioni di favore tra utenti o imprese e dipendenti operanti in aree ad alto rischio"
+      },
+      {
+        "id": "D",
+        "text": "Sanzionare in via amministrativa i dipendenti che non raggiungono gli obiettivi della performance"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "La rotazione del personale (dirigenziale e non) è una misura di prevenzione di carattere organizzativo. L'obiettivo è impedire che la permanenza prolungata di un funzionario nello stesso ruolo esposto a rischio (es. contratti, autorizzazioni) possa favorire fenomeni di deviazione o connivenza.",
+    "hint": "Mira a rompere le incrostazioni burocratiche e relazionali dannose per l'imparzialità.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_ANTI_036",
+    "question": "In caso di commissione di un reato di corruzione accertato con sentenza passata in giudicato all'interno dell'amministrazione, qual è la responsabilità del RPCT?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Risponde in via oggettiva penale in concorso con l'autore del reato di corruzione"
+      },
+      {
+        "id": "B",
+        "text": "Risponde sul piano disciplinare e della responsabilità dirigenziale, a meno che non provi di aver predisposto prima del fatto un piano idoneo e di aver vigilato sul suo funzionamento"
+      },
+      {
+        "id": "C",
+        "text": "È esente da responsabilità in quanto la responsabilità penale è strettamente personale e non si estende al controllore"
+      },
+      {
+        "id": "D",
+        "text": "Subisce l'immediata decadenza automatica dall'impiego pubblico senza possibilità di ricorso"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 1, comma 12, della Legge 190/2012 prevede una responsabilità dirigenziale e disciplinare per il RPCT in caso di reato corruttivo accertato all'interno dell'ente. Si trata di una colpa organizzativa presunta (in vigilando), superabile solo dimostrando l'efficacia del piano e l'assenza di propria negligenza.",
+    "hint": "Si applica una forma di responsabilità dirigenziale ex art. 21 D.Lgs. 165/2001, superabile solo fornendo una prova contraria rigorosa.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_DIR_ANTI_037",
+    "question": "In base al principio di minimizzazione dei dati personali e alla disciplina del GDPR, come devono comportarsi le PA nella pubblicazione di atti e documenti in 'Amministrazione Trasparente'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Devono pubblicare integralmente i documenti, comprese le firme autografe e i numeri di telefono privati, prevalendo sempre l'obbligo di trasparenza"
+      },
+      {
+        "id": "B",
+        "text": "Devono astenersi dal pubblicare qualsiasi atto contenente dati personali, limitandosi a pubblicare solo estratti statistici anonimizzati"
+      },
+      {
+        "id": "C",
+        "text": "La pubblicazione integrale è obbligatoria solo per i provvedimenti amministrativi che recano benefici economici inferiori a 1.000 euro"
+      },
+      {
+        "id": "D",
+        "text": "Devono oscurare i dati personali non pertinenti o sensibili che non siano strettamente necessari ad assolvere alla specifica finalità di trasparenza"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'obbligo di pubblicazione deve conformarsi al principio di minimizzazione ex art. 5 GDPR e alle linee guida del Garante Privacy. I dati personali particolari o non pertinenti alle finalità di trasparenza (es. codici fiscali, recapiti personali, dati sanitari) devono essere oscurati prima della pubblicazione.",
+    "hint": "Cerca il giusto equilibrio: si pubblica ciò che la legge impone, ma limitandosi al minimo indispensabile per i dati personali.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_DIR_ANTI_038",
+    "question": "Che cosa si intende per 'pantouflage' (o revolving doors) ai sensi dell'art. 53, comma 16-ter, del D.Lgs. 165/2001?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il divieto per i dipendenti pubblici che hanno esercitato poteri autoritativi o negoziali per conto della PA di svolgere attività lavorativa o professionale presso i privati destinatari di tali poteri nei 3 anni successivi alla cessazione del rapporto"
+      },
+      {
+        "id": "B",
+        "text": "Il transito incontrollato di dipendenti tra diverse amministrazioni pubbliche mediante procedure di mobilità volontaria agevolata"
+      },
+      {
+        "id": "C",
+        "text": "La facoltà dei dipendenti pubblici di svolgere attività professionale privata concorrenziale previa semplice comunicazione scritta all'amministrazione"
+      },
+      {
+        "id": "D",
+        "text": "L'assunzione temporanea di ex dirigenti privati all'interno degli uffici di diretta collaborazione dei Ministri"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il pantouflage mira a prevenire il rischio che un dipendente pubblico, durante lo svolgimento delle sue funzioni, possa favorire un soggetto privato in vista di una futura assunzione o collaborazione lavorativa presso quest'ultimo una volta cessato il rapporto con la PA.",
+    "hint": "È una limitazione post-impiego volta a tutelare l'imparzialità del dipendente mentre è ancora in servizio.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_DIR_ANTI_039",
+    "question": "Quali sono le sanzioni e le conseguenze civilistiche stabilite dall'art. 53, comma 16-ter, in caso di violazione del divieto di 'pantouflage'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Annullabilità del contratto, attivabile esclusivamente su istanza dell'ex amministrazione di appartenenza"
+      },
+      {
+        "id": "B",
+        "text": "Una sanzione amministrativa pecuniaria a carico del solo dipendente, ferma restando la validità del contratto di lavoro privato"
+      },
+      {
+        "id": "C",
+        "text": "Nullità del contratto concluso o dell'incarico e divieto per il soggetto privato di negoziare con le PA per i successivi 3 anni, con obbligo di restituzione dei compensi"
+      },
+      {
+        "id": "D",
+        "text": "La perdita dei diritti pensionistici maturati dal dipendente pubblico durante l'intera carriera"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "La sanzione è drastica: nullità assoluta del contratto di lavoro o dell'incarico concluso in violazione del divieto, accompagnata dal divieto triennale per l'impresa privata di contrattare con le PA (c.d. black list) e dall'obbligo di restituzione dei compensi percepiti.",
+    "hint": "La violazione comporta una nullità insanabile del negozio e una sanzione di 'interdizione negoziale' per l'impresa privata per un triennio.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_DIR_ANTI_040",
+    "question": "Nel contesto del FOIA, qual è l'orientamento giurisprudenziale e dell'ANAC sull'ostensibilità delle dichiarazioni dei redditi e patrimoniali dei dirigenti pubblici ex art. 14 D.Lgs. 33/2013?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sono accessibili solo se il richiedente dimostra un sospetto fondato di arricchimento illecito dell'interessato"
+      },
+      {
+        "id": "B",
+        "text": "Sono protette da segreto fiscale assoluto e non possono essere divulgate a terzi estranei all'amministrazione finanziaria"
+      },
+      {
+        "id": "C",
+        "text": "Sono accessibili esclusivamente previa autorizzazione giudiziaria della Corte dei Conti"
+      },
+      {
+        "id": "D",
+        "text": "Sono pienamente ostensibili in quanto la legge stessa prevede un obbligo specifico di pubblicazione per finalità di trasparenza ed etica pubblica"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "La Corte Costituzionale (sentenza n. 20/2019) e la giurisprudenza consolidata hanno confermato che i dati reddituali e patrimoniali dei dirigenti pubblici (e dei titolari di incarichi politici) sono soggetti a pubblicità obbligatoria e sono quindi accessibili, rappresentando una misura proporzionata di prevenzione della corruzione.",
+    "hint": "Trattandosi di obblighi di trasparenza stabiliti direttamente dalla legge per figure apicali, l'interesse alla trasparenza è considerato prevalente.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_DIR_ANTI_041",
+    "question": "Ai sensi dell'art. 2-bis del D.Lgs. 33/2013, a quali soggetti, oltre alle pubbliche amministrazioni in senso stretto, si applica la disciplina sulla trasparenza?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Esclusivamente alle amministrazioni dello Stato, con esclusione delle società partecipate e degli ordini professionali"
+      },
+      {
+        "id": "B",
+        "text": "Agli enti pubblici economici, agli ordini professionali, alle società in controllo pubblico e, limitatamente all'attività di pubblico interesse, a partecipate ed enti privati che esercitano funzioni pubbliche"
+      },
+      {
+        "id": "C",
+        "text": "A tutte le imprese private iscritte al registro delle imprese, a prescindere dal fatto che abbiano o meno rapporti con la PA"
+      },
+      {
+        "id": "D",
+        "text": "Solo agli enti territoriali (Regioni, Province, Comuni) e alle aziende del Servizio Sanitario Nazionale"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'ambito di applicazione soggettivo (art. 2-bis) è estremamente ampio e include gli enti pubblici economici, gli ordini professionali, le società in controllo pubblico. Per le società partecipate non in controllo e gli enti privati che gestiscono servizi pubblici o funzioni pubbliche, gli obblighi si applicano limitatamente all'attività di pubblico interesse.",
+    "hint": "Cerca l'opzione che include anche gli ordini professionali e distingue l'ambito applicativo per le partecipate non di controllo.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_DIR_ANTI_042",
+    "question": "Quale effetto produce la richiesta di parere al Garante Privacy da parte del RPCT in sede di riesame di una decisione di accesso civico generalizzato?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il termine di 20 giorni entro cui il RPCT deve decidere sul riesame è sospeso per il tempo necessario a rendere il parere (comunque non oltre 10 giorni)"
+      },
+      {
+        "id": "B",
+        "text": "Determina l'immediata archiviazione del procedimento di riesame, che dovrà essere riassunto dinanzi al TAR"
+      },
+      {
+        "id": "C",
+        "text": "Rende il parere reso dal Garante vincolante ed inappellabile sia per il cittadino sia per l'amministrazione"
+      },
+      {
+        "id": "D",
+        "text": "Sospende il termine di decisione per un periodo indeterminato e a discrezione esclusiva dello stesso Garante"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 5, comma 7, del D.Lgs. 33/2013 stabilisce che il Garante deve pronunciarsi entro 10 giorni dalla richiesta. Durante questo periodo, il termine per la decisione del RPCT (pari a 20 giorni) è sospeso.",
+    "hint": "Si tratta di una sospensione temporale definita per legge (non superiore a 10 giorni).",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_DIR_ANTI_043",
+    "question": "In materia di whistleblowing (D.Lgs. 24/2023), come devono essere gestite le segnalazioni che pervengono in forma anonima?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Devono essere immediatamente cestinate senza alcuna istruttoria, trattandosi di pratiche vietate dall'ordinamento"
+      },
+      {
+        "id": "B",
+        "text": "Devono essere trasmesse direttamente all'autorità giudiziaria penale entro 48 ore dal ricevimento"
+      },
+      {
+        "id": "C",
+        "text": "Se contengono elementi precisi e concordanti, sono trattate come segnalazioni ordinarie; tuttavia, le tutele contro le ritorsioni operano solo se il segnalante viene successivamente identificato"
+      },
+      {
+        "id": "D",
+        "text": "Vengono registrate ma non danno mai luogo a istruttoria o verifica interna, fungendo solo da mero elemento statistico"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'art. 6 del D.Lgs. 24/2023 prevede che le segnalazioni anonime, se circostanziate, siano esaminate. Inoltre, se il segnalante anonimo viene successivamente identificato e subisce misure ritorsive, a lui si applicano comunque le medesime tutele previste per i segnalanti non anonimi.",
+    "hint": "Cerca la risposta che valorizza le segnalazioni anonime precise, ma condiziona la tutela contro le ritorsioni all'effettiva identificazione successiva.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_DIR_ANTI_044",
+    "question": "In caso di diniego all'accesso civico generalizzato opposto da un'amministrazione comunale o provinciale, a quale figura esterna alternativa al TAR può rivolgersi il richiedente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Al Prefetto della provincia in cui ha sede l'amministrazione comunale"
+      },
+      {
+        "id": "B",
+        "text": "Al Presidente del Consiglio Comunale"
+      },
+      {
+        "id": "C",
+        "text": "All'Ufficio Territoriale del Governo per l'avvio della procedura di commissariamento"
+      },
+      {
+        "id": "D",
+        "text": "Al Difensore Civico territorialmente competente (o a quello dell'ambito provinciale o regionale se non costituito)"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'art. 5, comma 8, del D.Lgs. 33/2013 prevede che per gli atti delle amministrazioni delle regioni o degli enti locali, il richiedente può presentare ricorso al difensore civico territorialmente competente, il quale può chiedere il riesame all'amministrazione.",
+    "hint": "È una figura di garanzia a tutela dei cittadini nei rapporti con gli enti locali, spesso di livello regionale.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_DIR_ANTI_045",
+    "question": "Nel PNA 2022 approvato dall'ANAC, quale standard metodologico viene adottato come riferimento principale per la gestione del rischio corruzione nelle pubbliche amministrazioni?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il metodo induttivo-statistico basato esclusivamente sul tasso storico di criminalità nella provincia di riferimento"
+      },
+      {
+        "id": "B",
+        "text": "La norma ISO 31000 (Risk Management), basata sulla mappatura dei processi e sulla valutazione di impatto e probabilità"
+      },
+      {
+        "id": "C",
+        "text": "La metodologia di auditing contabile definita dall'Unione Europea per i fondi strutturali"
+      },
+      {
+        "id": "D",
+        "text": "Il modello di compliance aziendale basato esclusivamente sul D.Lgs. 231/2001"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il Piano Nazionale Anticorruzione (PNA) 2022 ha consolidato la metodologia di gestione del rischio basata sullo standard internazionale UNI ISO 31000, strutturando il processo in: analisi del contesto, identificazione dei rischi, valutazione del rischio (probabilità/impatto) e trattamento del rischio attraverso misure di prevenzione.",
+    "hint": "È la norma tecnica internazionale sul risk management (gestione del rischio).",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_DIR_ANTI_046",
+    "question": "In forza dell'art. 22, comma 3, del D.Lgs. 33/2013, quali dati personali particolari NON possono in nessun caso essere diffusi o pubblicati sui siti istituzionali in attuazione degli obblighi di trasparenza?",
+    "options": [
+      {
+        "id": "A",
+        "text": "I dati idonei a rivelare lo stato di salute e la vita sessuale o l'orientamento sessuale dei soggetti interessati"
+      },
+      {
+        "id": "B",
+        "text": "I curricula dei titolari di incarichi dirigenziali e i relativi dati patrimoniali"
+      },
+      {
+        "id": "C",
+        "text": "I dati relativi all'appartenenza a sindacati o a partiti politici dei dipendenti"
+      },
+      {
+        "id": "D",
+        "text": "I provvedimenti giudiziari di condanna passati in giudicato a carico di dirigenti in servizio"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La trasparenza incontra un limite insuperabile nella tutela della dignità umana: l'art. 22 del D.Lgs. 33/2013 vieta in modo assoluto la pubblicazione e diffusione di dati sensibili idonei a rivelare lo stato di salute e l'orientamento o la vita sessuale.",
+    "hint": "Cerca la categoria di dati personali definita come super-sensibile (salute e sfera sessuale).",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_DIR_ANTI_047",
+    "question": "Qual è la posizione dell'ANAC e della normativa vigente in merito alla cumulabilità del ruolo di RPCT con incarichi dirigenziali nei settori gestionali considerati ad alto rischio corruttivo?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'RPCT deve obbligatoriamente coincidere con il dirigente del settore contratti pubblici per garantire una conoscenza tecnica immediata"
+      },
+      {
+        "id": "B",
+        "text": "La carica di RPCT può essere cumulata senza alcuna limitazione con qualsiasi ufficio gestionale, compreso il settore urbanistica e territorio"
+      },
+      {
+        "id": "C",
+        "text": "L'incarico di RPCT deve essere preferibilmente attribuito a dirigenti non preposti a uffici di gestione attiva nei settori maggiormente esposti al rischio"
+      },
+      {
+        "id": "D",
+        "text": "La normativa vieta l'attribuzione del ruolo di RPCT a qualunque dipendente di ruolo, imponendo l'assunzione di un professionista esterno"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'ANAC ha chiarito che, per evitare situazioni di conflitto di interessi o di inefficacia dei controlli (controllore coincidente con il controllato), l'incarico di RPCT dovrebbe essere affidato a dirigenti di settori non esposti a rischio di corruzione specifico (es. affari generali).",
+    "hint": "L'obiettivo è separare la funzione di controllo preventivo dalla gestione attiva nei settori a rischio (es. appalti, urbanistica).",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_DIR_ANTI_048",
+    "question": "Quale sanzione specifica prevede l'art. 53, comma 15, del D.Lgs. 165/2001 per l'amministrazione che omette di comunicare al Dipartimento della funzione pubblica i dati relativi agli incarichi conferiti a collaboratori esterni?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'amministrazione non può conferire nuovi incarichi fino a quando non adempie alla comunicazione, ferma restando la responsabilità dirigenziale per il soggetto inadempiente"
+      },
+      {
+        "id": "B",
+        "text": "L'immediata nullità di tutti i contratti in essere presso l'ufficio del personale"
+      },
+      {
+        "id": "C",
+        "text": "Il commissariamento prefettizio dell'ente con sospensione dell'organo politico"
+      },
+      {
+        "id": "D",
+        "text": "Una sanzione amministrativa pecuniaria di importo fisso a carico di ciascun dipendente dell'ente"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La mancata comunicazione all'Anagrafe delle prestazioni determina un blocco operativo: l'amministrazione non può conferire nuovi incarichi fino a quando non adempie, configurandosi altresì una responsabilità dirigenziale per il dirigente responsabile della mancata comunicazione.",
+    "hint": "Si tratta di una sanzione di tipo 'interdittivo' temporaneo sul conferimento di nuovi incarichi.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_DIR_ANTI_049",
+    "question": "Qual è l'efficacia giuridica del 'Patto di integrità' inserito nei bandi di gara d'appalto ai fini della prevenzione della corruzione?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ha un mero valore morale e di indirizzo non vincolante, non potendo incidere sulla legittimità dell'aggiudicazione"
+      },
+      {
+        "id": "B",
+        "text": "Sostituisce integralmente il certificato antimafia per le imprese che hanno aderito a protocolli di legalità nazionali"
+      },
+      {
+        "id": "C",
+        "text": "È obbligatorio solo per le gare d'appalto sopra soglia comunitaria che beneficiano di fondi PNRR"
+      },
+      {
+        "id": "D",
+        "text": "La mancata accettazione del patto di integrità costituisce causa di esclusione dalla gara, e la sua violazione successiva legittima la risoluzione del contratto"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "I patti di integrità (art. 1, comma 17, L. 190/2012) sono strumenti di natura contrattuale. La giurisprudenza ha confermato che l'accettazione del patto di integrità è un requisito obbligatorio di partecipazione se previsto nel bando; la sua violazione comporta l'esclusione o la risoluzione del rapporto contrattuale.",
+    "hint": "È una clausola di esclusione legittima in gara e causa di risoluzione contrattuale in fase esecutiva.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_DIR_ANTI_050",
+    "question": "Dinanzi a quale organo giurisdizionale deve essere proposta l'opposizione avverso i provvedimenti sanzionatori pecuniari irrogati dall'ANAC nei confronti dell'organo di indirizzo politico o dei dirigenti per violazione degli obblighi anticorruzione?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dinanzi al Giudice Amministrativo (TAR del Lazio in via esclusiva)"
+      },
+      {
+        "id": "B",
+        "text": "Dinanzi al Giudice Ordinario (Tribunale civile in composizione monocratica)"
+      },
+      {
+        "id": "C",
+        "text": "Dinanzi alla Sezione Giurisdizionale Regionale della Corte dei Conti"
+      },
+      {
+        "id": "D",
+        "text": "Dinanzi al Consiglio di Stato in unico grado di giudizio"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'opposizione avverso le sanzioni amministrative pecuniarie applicate dall'ANAC ex L. 190/2012 rientra nella giurisdizione del Giudice Ordinario (ai sensi dell'art. 22 del D.Lgs. 150/2011), trattandosi di sanzioni pecuniarie non correlate a procedure contrattuali pubbliche o procedimenti di gara di competenza del giudice amministrativo.",
+    "hint": "Si applica il regime generale di opposizione alle sanzioni amministrative (Legge 689/1981), che devolve la cognizione alla magistratura civile ordinaria.",
+    "level": "avanzato"
+  }
+]

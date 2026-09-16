@@ -1,0 +1,709 @@
+const fs = require('fs');
+const path = require('path');
+
+const questions = [
+  {
+    id: "Q_PECS_PREV_001",
+    question: "In base all'art. 38 della Costituzione italiana, a chi spetta il diritto al mantenimento e all'assistenza sociale?",
+    options: [
+      { id: "A", text: "A ogni cittadino inabile al lavoro e sprovvisto dei mezzi necessari per vivere" },
+      { id: "B", text: "Esclusivamente ai lavoratori subordinati che abbiano versato almeno 5 anni di contribuzione" },
+      { id: "C", text: "A tutti i residenti indipendentemente dalla capacità lavorativa e dal reddito" },
+      { id: "D", text: "Ai soli nuclei familiari con almeno tre figli minori a carico" }
+    ],
+    correctAnswerId: "A",
+    explanation: "L'art. 38, primo comma, della Costituzione stabilisce che 'Ogni cittadino inabile al lavoro e sprovvisto dei mezzi necessari per vivere ha diritto al mantenimento e all'assistenza sociale', distinguendo l'assistenza (primo comma) dalla previdenza sociale a favore dei lavoratori (secondo comma).",
+    hint: "Riguarda i cittadini che non possono lavorare e non hanno risorse economiche.",
+    level: "base"
+  },
+  {
+    id: "Q_PECS_PREV_002",
+    question: "Quale importante riforma ha introdotto nel sistema pensionistico italiano il metodo di calcolo contributivo a decorrere dal 1° gennaio 1996?",
+    options: [
+      { id: "A", text: "La Riforma Dini (Legge 8 agosto 1995, n. 335)" },
+      { id: "B", text: "La Riforma Fornero (Decreto-Legge 6 dicembre 2011, n. 201)" },
+      { id: "C", text: "La Riforma Amato (Decreto Legislativo 30 dicembre 1992, n. 503)" },
+      { id: "D", text: "La Riforma Maroni (Legge 23 agosto 2004, n. 243)" }
+    ],
+    correctAnswerId: "A",
+    explanation: "La Legge n. 335/1995 (Riforma Dini) ha introdotto il sistema contributivo, basato sul montante contributivo rivalutato e sull'applicazione dei coefficienti di trasformazione, applicato integralmente a chi ha iniziato a lavorare dal 1/1/1996 e con sistema pro-rata/misto per gli altri.",
+    hint: "È la fondamentale legge di riforma approvata nel 1995.",
+    level: "base"
+  },
+  {
+    id: "Q_PECS_PREV_003",
+    question: "Nel sistema di calcolo contributivo, come viene rivalutato annualmente il montante contributivo individuale accumulato dal lavoratore?",
+    options: [
+      { id: "A", text: "Sulla base del tasso medio annuo di variazione del PIL nominale nei cinque anni precedenti, calcolato dall'ISTAT" },
+      { id: "B", text: "Esclusivamente in base all'indice dei prezzi al consumo per famiglie di operai e impiegati (FOI)" },
+      { id: "C", text: "In proporzione all'incremento dei tassi di interesse dei Buoni Ordinari del Tesoro (BOT)" },
+      { id: "D", text: "Con un tasso fisso del 3% annuo stabilito con decreto del Ministero dell'Economia" }
+    ],
+    correctAnswerId: "A",
+    explanation: "Ai sensi dell'art. 1, commi 8 e 9, della L. 335/1995, il montante contributivo è rivalutato al 31 dicembre di ciascun anno in base al tasso di capitalizzazione dato dalla variazione media quinquennale del Prodotto Interno Lordo nominale calcolata dall'ISTAT.",
+    hint: "La capitalizzazione è agganciata all'andamento dell'economia nazionale (PIL a cinque anni).",
+    level: "intermedio"
+  },
+  {
+    id: "Q_PECS_PREV_004",
+    question: "Cosa stabilisce la Riforma Fornero (D.L. 201/2011, conv. in L. 214/2011) in merito all'applicazione del metodo contributivo per i lavoratori con almeno 18 anni di contributi al 31 dicembre 1995?",
+    options: [
+      { id: "A", text: "Estende il metodo di calcolo contributivo alle anzianità contributive maturate a decorrere dal 1° gennaio 2012" },
+      { id: "B", text: "Mantiene il calcolo retributivo puro fino al momento del pensionamento" },
+      { id: "C", text: "Ricalcola retroattivamente tutta la loro carriera con il sistema contributivo fin dal primo versamento" },
+      { id: "D", text: "Impedisce il pensionamento anticipato prima del raggiungimento dei 70 anni di età" }
+    ],
+    correctAnswerId: "A",
+    explanation: "L'art. 24, comma 2, del D.L. 201/2011 ha previsto che, con effetto dal 1° gennaio 2012, la quota di pensione corrispondente alle anzianità contributive maturate a partire da tale data sia calcolata secondo il sistema contributivo per tutti i lavoratori, superando la deroga dei 18 anni previsti dalla L. 335/1995.",
+    hint: "A decorrere dal 2012 tutti i lavoratori hanno una quota calcolata con il contributivo (sistema pro-rata).",
+    level: "intermedio"
+  },
+  {
+    id: "Q_PECS_PREV_005",
+    question: "Quali sono i requisiti ordinari minimi per accedere alla pensione di vecchiaia nel regime generale INPS per i lavoratori nel sistema misto?",
+    options: [
+      { id: "A", text: "67 anni di età anagrafica e almeno 20 anni di anzianità contributiva" },
+      { id: "B", text: "65 anni di età anagrafica e almeno 15 anni di anzianità contributiva" },
+      { id: "C", text: "62 anni di età anagrafica e almeno 30 anni di anzianità contributiva" },
+      { id: "D", text: "67 anni di età anagrafica e almeno 35 anni di anzianità contributiva" }
+    ],
+    correctAnswerId: "A",
+    explanation: "Attualmente, ai sensi della normativa vigente e dell'adeguamento alla speranza di vita, la pensione di vecchiaia ordinaria richiede 67 anni di età e almeno 20 anni di contribuzione accreditata (salve le deroghe Amato del 1992 che consentono 15 anni in casi specifici).",
+    hint: "I requisiti standard sono 67 anni anagrafici e due decenni di contributi.",
+    level: "base"
+  },
+  {
+    id: "Q_PECS_PREV_006",
+    question: "Nel sistema contributivo puro (per chi ha iniziato a versare contributi dal 1° gennaio 1996), oltre a 67 anni di età e 20 anni di contributi, quale ulteriore condizione economica è richiesta per la pensione di vecchiaia?",
+    options: [
+      { id: "A", text: "Che l'importo della pensione risulti non inferiore all'importo dell'Assegno Sociale" },
+      { id: "B", text: "Che l'importo della pensione sia pari ad almeno 3 volte l'Assegno Sociale" },
+      { id: "C", text: "Nessuna condizione economica minima" },
+      { id: "D", text: "Aver versato almeno 50.000 euro di contributi effettivi nell'ultimo decennio" }
+    ],
+    correctAnswerId: "A",
+    explanation: "A decorrere dal 1° gennaio 2024 (Legge di Bilancio 2024), per i lavoratori interamente contributivi l'importo della pensione di vecchiaia deve risultare non inferiore all'importo dell'Assegno Sociale (precedentemente era pari a 1,5 volte l'Assegno Sociale).",
+    hint: "La soglia minima economica è pari al valore dell'Assegno Sociale.",
+    level: "intermedio"
+  },
+  {
+    id: "Q_PECS_PREV_007",
+    question: "Nel sistema contributivo puro, a quale età anagrafica è possibile conseguire la pensione di vecchiaia con soli 5 anni di contribuzione effettiva prescindendo dall'importo soglia?",
+    options: [
+      { id: "A", text: "A 71 anni di età" },
+      { id: "B", text: "A 68 anni di età" },
+      { id: "C", text: "A 75 anni di età" },
+      { id: "D", text: "A 65 anni di età" }
+    ],
+    correctAnswerId: "A",
+    explanation: "Per i lavoratori che ricadono interamente nel sistema contributivo, l'art. 24, comma 7, del D.L. 201/2011 consente di accedere alla pensione di vecchiaia con almeno 5 anni di contribuzione effettiva al compimento dei 71 anni (età adeguata alla speranza di vita).",
+    hint: "Si tratta dell'uscita tardiva consentita a 71 anni per i contributivi con carriere brevi.",
+    level: "intermedio"
+  },
+  {
+    id: "Q_PECS_PREV_008",
+    question: "Qual è il requisito contributivo ordinario per la pensione anticipata indipendente dall'età anagrafica (previsto fino al 2026 dal D.L. 4/2019)?",
+    options: [
+      { id: "A", text: "42 anni e 10 mesi di contributi per gli uomini e 41 anni e 10 mesi per le donne, con finestra di 3 mesi" },
+      { id: "B", text: "40 anni di contributi per entrambi i sessi senza alcuna finestra mobile" },
+      { id: "C", text: "43 anni e 6 mesi per gli uomini e 42 anni e 6 mesi per le donne con finestra di 6 mesi" },
+      { id: "D", text: "38 anni di contributi per gli uomini e 36 anni per le donne" }
+    ],
+    correctAnswerId: "A",
+    explanation: "La pensione anticipata ordinaria prescinde dall'età anagrafica e richiede 42 anni e 10 mesi di contribuzione per gli uomini e 41 anni e 10 mesi per le donne, con applicazione di una finestra trimestrale di decorrenza (3 mesi dalla maturazione del requisito).",
+    hint: "I requisiti sono 42a e 10m (uomini) e 41a e 10m (donne).",
+    level: "base"
+  },
+  {
+    id: "Q_PECS_PREV_009",
+    question: "Chi sono i cosiddetti 'lavoratori precoci' ai fini dell'accesso alla pensione anticipata agevolata con 41 anni di contributi?",
+    options: [
+      { id: "A", text: "Lavoratori con almeno 12 mesi di contribuzione effettiva da lavoro versata prima del compimento del 19° anno di età e appartenenti a specifiche categorie tutelate" },
+      { id: "B", text: "Tutti coloro che hanno iniziato a lavorare prima dei 25 anni di età con contratto a tempo indeterminato" },
+      { id: "C", text: "Lavoratori che hanno svolto apprendistato prima dei 18 anni indipendentemente dai mesi accreditati" },
+      { id: "D", text: "Esclusivamente i lavoratori del pubblico impiego assunti tramite concorso prima del 1990" }
+    ],
+    correctAnswerId: "A",
+    explanation: "I lavoratori precoci sono coloro che possono far valere almeno 12 mesi di contribuzione effettiva antecedente al compimento del 19° anno di età e che si trovano in una delle condizioni di disagio previste dalla legge (disoccupati, caregiver, invalidi almeno al 74%, addetti a mansioni gravose o usuranti).",
+    hint: "Occorre almeno un anno intero di contributi prima di compiere 19 anni, più una situazione di tutela.",
+    level: "intermedio"
+  },
+  {
+    id: "Q_PECS_PREV_010",
+    question: "Quali sono i requisiti anagrafici e contributivi per l'accesso a 'Quota 103' (pensione anticipata flessibile)?",
+    options: [
+      { id: "A", text: "Almeno 62 anni di età anagrafica e almeno 41 anni di anzianità contributiva" },
+      { id: "B", text: "Almeno 64 anni di età anagrafica e almeno 39 anni di anzianità contributiva" },
+      { id: "C", text: "Almeno 60 anni di età anagrafica e almeno 43 anni di anzianità contributiva" },
+      { id: "D", text: "Almeno 63 anni di età anagrafica e almeno 40 anni di anzianità contributiva" }
+    ],
+    correctAnswerId: "A",
+    explanation: "Quota 103 consente il pensionamento anticipato flessibile al raggiungimento congiunto di almeno 62 anni di età e 41 anni di contribuzione (62 + 41 = 103), con calcolo contributivo della prestazione e tetto all'importo fino ai 67 anni.",
+    hint: "La somma dei due requisiti (62 + 41) dà 103.",
+    level: "base"
+  },
+  {
+    id: "Q_PECS_PREV_011",
+    question: "Quale vincolo o limitazione caratterizza il trattamento erogato con Quota 103 fino al raggiungimento dell'età di vecchiaia (67 anni)?",
+    options: [
+      { id: "A", text: "L'importo massimo del trattamento non può superare un tetto stabilito dalla legge (4 o 5 volte il trattamento minimo) e vige l'incumulabilità con redditi da lavoro dipendente o autonomo (salvo lavoro autonomo occasionale entro 5.000 euro annui)" },
+      { id: "B", text: "La pensione non viene erogata nei mesi estivi" },
+      { id: "C", text: "Il beneficiario deve prestare 20 ore mensili di volontariato obbligatorio" },
+      { id: "D", text: "L'assegno è ridotto del 50% per sempre anche dopo i 67 anni" }
+    ],
+    correctAnswerId: "A",
+    explanation: "Per Quota 103 la pensione è liquidata con il calcolo interamente contributivo e con un tetto mensile massimo; inoltre non è cumulabile con redditi da lavoro fino al perfezionamento dell'età di vecchiaia, eccetto il lavoro autonomo occasionale fino a 5.000 euro lordi annui.",
+    hint: "C'è un tetto massimo all'assegno e il divieto di cumulo con redditi da lavoro.",
+    level: "intermedio"
+  },
+  {
+    id: "Q_PECS_PREV_012",
+    question: "Quali categorie di lavoratrici possono accedere a 'Opzione Donna' secondo la disciplina recente?",
+    options: [
+      { id: "A", text: "Lavoratrici con 35 anni di contributi che assistono persone con handicap grave (caregiver), o con invalidità civile almeno al 74%, oppure licenziate/dipendenti di imprese in crisi" },
+      { id: "B", text: "Tutte le lavoratrici con 35 anni di contributi e 58 anni di età senza alcuna restrizione soggettiva" },
+      { id: "C", text: "Le sole lavoratrici del pubblico impiego con almeno 3 figli a carico" },
+      { id: "D", text: "Le lavoratrici autonome del commercio che abbiano cessato definitivamente l'attività" }
+    ],
+    correctAnswerId: "A",
+    explanation: "La disciplina recente di Opzione Donna limita l'accesso con 35 anni di contributi alle sole lavoratrici che siano caregiver familiari di disabile grave, invalide civili al 74% o più, ovvero licenziate o dipendenti da imprese con tavolo di crisi aperto.",
+    hint: "L'accesso è circoscritto a specifiche situazioni di svantaggio (caregiver, invalidità o crisi aziendale).",
+    level: "intermedio"
+  },
+  {
+    id: "Q_PECS_PREV_013",
+    question: "Cos'è l'APE Sociale erogata dall'INPS?",
+    options: [
+      { id: "A", text: "Un'indennità a carico dello Stato erogata fino al raggiungimento dell'età prevista per la pensione di vecchiaia a soggetti in particolari condizioni di tutela con almeno 63 anni e 5 mesi di età" },
+      { id: "B", text: "Un prestito bancario vitalizio garantito dalla cessione del quinto dello stipendio" },
+      { id: "C", text: "Una pensione di vecchiaia anticipata definitiva senza revisione al compimento dei 67 anni" },
+      { id: "D", text: "Un sussidio di disoccupazione riservato ai lavoratori autonomi della pesca" }
+    ],
+    correctAnswerId: "A",
+    explanation: "L'APE Sociale non è un trattamento pensionistico vero e proprio ma un'indennità assistenziale ponte erogata dall'INPS a carico dello Stato fino all'età della pensione di vecchiaia, riservata a disoccupati, caregiver, invalidi civili >= 74% e addetti a mansioni gravose.",
+    hint: "È un'indennità ponte a carico dello Stato per categorie fragili a partire da 63 anni e 5 mesi.",
+    level: "base"
+  },
+  {
+    id: "Q_PECS_PREV_014",
+    question: "Qual è la differenza fondamentale tra 'pensione di reversibilità' e 'pensione indiretta' ai superstiti?",
+    options: [
+      { id: "A", text: "La reversibilità spetta quando il dante causa era già titolare di pensione diretta; l'indiretta spetta quando il dante causa non era pensionato ma era assicurato e possedeva i requisiti contributivi prescritti" },
+      { id: "B", text: "La reversibilità spetta ai figli, mentre la pensione indiretta spetta solo al coniuge superstite" },
+      { id: "C", text: "La reversibilità è a carico dell'INPS, mentre l'indiretta è pagata dall'INAIL" },
+      { id: "D", text: "La reversibilità richiede 40 anni di contributi, mentre l'indiretta ne richiede solo 2" }
+    ],
+    correctAnswerId: "A",
+    explanation: "La pensione di reversibilità compete ai superstiti del lavoratore già pensionato al momento del decesso. La pensione indiretta compete ai superstiti del lavoratore assicurato non ancora pensionato, purché avesse maturato i requisiti per la pensione di inabilità o vecchiaia (almeno 5 anni di cui 3 nell'ultimo quinquennio o 15 anni).",
+    hint: "Reversibilità se il defunto era già pensionato, indiretta se era ancora assicurato attivo.",
+    level: "intermedio"
+  },
+  {
+    id: "Q_PECS_PREV_015",
+    question: "In quale percentuale spetta ordinariamente la pensione ai superstiti al coniuge superstite in assenza di figli aventi diritto?",
+    options: [
+      { id: "A", text: "60%" },
+      { id: "B", text: "80%" },
+      { id: "C", text: "100%" },
+      { id: "D", text: "40%" }
+    ],
+    correctAnswerId: "A",
+    explanation: "Ai sensi dell'art. 22 della Legge n. 903/1965 e successive modifiche, la pensione ai superstiti spetta al solo coniuge superstite nella misura del 60% dell'importo spettante al dante causa.",
+    hint: "La quota ordinaria spettante al coniuge da solo è pari a tre quinti.",
+    level: "base"
+  },
+  {
+    id: "Q_PECS_PREV_016",
+    question: "In caso di concorso tra coniuge superstite e un figlio minore o studente con i requisiti, a quale percentuale complessiva ammonta la pensione ai superstiti?",
+    options: [
+      { id: "A", text: "80% (60% coniuge e 20% figlio)" },
+      { id: "B", text: "100% (50% ciascuno)" },
+      { id: "C", text: "70% (50% coniuge e 20% figlio)" },
+      { id: "D", text: "60% diviso in parti uguali" }
+    ],
+    correctAnswerId: "A",
+    explanation: "In presenza di coniuge e un figlio avente diritto, l'aliquota complessiva della pensione ai superstiti è pari all'80% (60% attribuito al coniuge e 20% al figlio). Se i figli sono due o più, l'aliquota sale al 100%.",
+    hint: "Con un figlio la percentuale sale dal 60% all'80%.",
+    level: "intermedio"
+  },
+  {
+    id: "Q_PECS_PREV_017",
+    question: "Cosa prevede la Tabella F allegata alla Legge 335/1995 in materia di cumulabilità della pensione ai superstiti con i redditi propri del titolare?",
+    options: [
+      { id: "A", text: "Una riduzione percentuale della pensione (del 25%, 40% o 50%) qualora il reddito personale del superstite superi determinati scaglioni rispetto al trattamento minimo" },
+      { id: "B", text: "La perdita totale del diritto alla pensione in caso di percezione di qualsiasi reddito da lavoro" },
+      { id: "C", text: "La completa incumulabilità con redditi da fabbricati" },
+      { id: "D", text: "Un aumento del trattamento del 10% per i contribuenti virtuosi" }
+    ],
+    correctAnswerId: "A",
+    explanation: "La Tabella F della L. 335/1995 dispone che la pensione ai superstiti sia ridotta del 25%, 40% o 50% se il titolare possiede altri redditi superiori a 3, 4 o 5 volte il trattamento minimo annuo. La riduzione non si applica se nel nucleo vi sono figli minori, studenti o inabili.",
+    hint: "Prevede tagli progressivi (25%, 40%, 50%) all'aumentare dei redditi del superstite.",
+    level: "avanzato"
+  },
+  {
+    id: "Q_PECS_PREV_018",
+    question: "Quale condizione sanitaria dà diritto all'Assegno Ordinario di Invalidità (AOI) disciplinato dalla Legge 12 giugno 1984, n. 222?",
+    options: [
+      { id: "A", text: "La riduzione permanente a meno di un terzo della capacità di lavoro, in occupazioni confacenti alle attitudini dell'assicurato, a causa di infermità o difetto fisico o mentale" },
+      { id: "B", text: "L'assoluta e permanente impossibilità di svolgere qualsiasi attività lavorativa" },
+      { id: "C", text: "La presenza di un'invalidità civile accertata nella misura minima del 50%" },
+      { id: "D", text: "La perdita della vista o dell'udito derivante da infortunio sul lavoro" }
+    ],
+    correctAnswerId: "A",
+    explanation: "Ai sensi dell'art. 1 della L. 222/1984, l'AOI spetta all'assicurato la cui capacità di lavoro, in occupazioni confacenti alle sue attitudini, sia ridotta in modo permanente a meno di un terzo a causa di infermità o difetto fisico o mentale.",
+    hint: "La capacità lavorativa deve essere ridotta ad almeno due terzi (resta meno di un terzo).",
+    level: "base"
+  },
+  {
+    id: "Q_PECS_PREV_019",
+    question: "Quali requisiti contributivi minimi sono richiesti per il riconoscimento dell'Assegno Ordinario di Invalidità e della Pensione di Inabilità ex L. 222/1984?",
+    options: [
+      { id: "A", text: "Almeno 5 anni di contribuzione accreditata, di cui almeno 3 anni versati nel quinquennio precedente la data di presentazione della domanda" },
+      { id: "B", text: "Almeno 10 anni di contribuzione continuativa senza interruzioni" },
+      { id: "C", text: "Almeno 20 anni di contributi effettivi da lavoro subordinato" },
+      { id: "D", text: "Almeno 1 anno di contribuzione negli ultimi 12 mesi" }
+    ],
+    correctAnswerId: "A",
+    explanation: "Per entrambe le prestazioni della L. 222/1984 (AOI e pensione di inabilità) sono richiesti almeno 5 anni di anzianità assicurativa e contributiva (260 contributi settimanali), dei quali almeno 3 anni (156 contributi settimanali) nel quinquennio precedente la domanda.",
+    hint: "5 anni di contributi in totale, di cui 3 nel quinquennio precedente.",
+    level: "intermedio"
+  },
+  {
+    id: "Q_PECS_PREV_020",
+    question: "Che durata ha l'Assegno Ordinario di Invalidità (AOI) e come si consolida nel tempo?",
+    options: [
+      { id: "A", text: "È riconosciuto per un periodo di 3 anni, è rinnovabile su domanda dell'interessato per altri due periodi triennali e, dopo tre riconoscimenti consecutivi, è confermato a tempo indeterminato" },
+      { id: "B", text: "È riconosciuto per sempre fin dalla prima concessione senza possibilità di revisione" },
+      { id: "C", text: "Ha una durata fissa e improrogabile di 24 mesi" },
+      { id: "D", text: "Dura un anno e si rinnova automaticamente ogni anno senza verifiche sanitarie" }
+    ],
+    correctAnswerId: "A",
+    explanation: "Ai sensi dell'art. 1 della L. 222/1984, l'AOI è concesso per un triennio. Può essere rinnovato per ulteriori periodi di tre anni previa visita di revisione. Dopo tre riconoscimenti consecutivi l'assegno è confermato definitivamente, ferma restando la facoltà di revisione dell'INPS.",
+    hint: "Ha validità triennale e si consolida dopo tre rinnovi consecutivi.",
+    level: "intermedio"
+  },
+  {
+    id: "Q_PECS_PREV_021",
+    question: "Cosa accade all'Assegno Ordinario di Invalidità (AOI) quando il titolare compie l'età anagrafica per la pensione di vecchiaia e ne possiede i requisiti?",
+    options: [
+      { id: "A", text: "Si trasforma automaticamente in pensione di vecchiaia, purché sia cessata l'attività di lavoro dipendente" },
+      { id: "B", text: "Viene revocato senza che venga liquidata alcuna pensione" },
+      { id: "C", text: "Continua a essere corrisposto come AOI in cumulo con la pensione di vecchiaia" },
+      { id: "D", text: "Viene sospeso per un anno in attesa del ricalcolo d'ufficio" }
+    ],
+    correctAnswerId: "A",
+    explanation: "L'art. 1, comma 10, della Legge n. 222/1984 stabilisce che, al compimento dell'età stabilita per la pensione di vecchiaia, l'assegno ordinario di invalidità si trasforma automaticamente in pensione di vecchiaia in presenza dei requisiti contributivi e di cessazione del rapporto di lavoro dipendente.",
+    hint: "Avviene la trasformazione automatica in pensione di vecchiaia.",
+    level: "intermedio"
+  },
+  {
+    id: "Q_PECS_PREV_022",
+    question: "Quale beneficio spetta al lavoratore a cui viene riconosciuta la Pensione di Inabilità assoluta e permanente ex art. 2 della L. 222/1984?",
+    options: [
+      { id: "A", text: "Una maggiorazione dell'anzianità contributiva calcolata fino al compimento del 60° anno di età (nel limite massimo di 40 anni di contributi)" },
+      { id: "B", text: "L'esenzione a vita dal pagamento delle imposte comunali e regionali" },
+      { id: "C", text: "L'assunzione automatica di un parente di primo grado nella Pubblica Amministrazione" },
+      { id: "D", text: "Il raddoppio immediato del montante contributivo accumulato" }
+    ],
+    correctAnswerId: "A",
+    explanation: "Per compensare la perdita totale della capacità di guadagno prima del termine della carriera, l'art. 2 della L. 222/1984 riconosce al titolare di pensione di inabilità una maggiorazione dell'anzianità contributiva pari al periodo mancante al compimento dei 60 anni di età, fino al massimo di 40 anni.",
+    hint: "Viene attribuita una maggiorazione contributiva virtuale fino a 60 anni.",
+    level: "avanzato"
+  },
+  {
+    id: "Q_PECS_PREV_023",
+    question: "L'Assegno Sociale disciplinato dall'art. 3, comma 6, della Legge 335/1995:",
+    options: [
+      { id: "A", text: "È una prestazione assistenziale economica a carattere non contributivo erogata ai cittadini residenti con almeno 67 anni di età che si trovano in stato di bisogno economico" },
+      { id: "B", text: "È un trattamento pensionistico reversibile ai figli minori in caso di decesso del titolare" },
+      { id: "C", text: "È esportabile in qualsiasi Paese del mondo per i cittadini dell'UE" },
+      { id: "D", text: "Richiede almeno 10 anni di versamenti contributivi effettivi all'INPS" }
+    ],
+    correctAnswerId: "A",
+    explanation: "L'Assegno Sociale ha natura prettamente assistenziale e non contributiva. Spetta a 67 anni di età ai residenti legali in Italia che soddisfano i limiti reddituali personali e coniugali fissati dalla legge. Non è reversibile ed è inesportabile all'estero.",
+    hint: "È la fondamentale misura assistenziale per gli over 67 privi di reddito sufficiente.",
+    level: "base"
+  },
+  {
+    id: "Q_PECS_PREV_024",
+    question: "Quale requisito di soggiorno è richiesto per ottenere l'Assegno Sociale in Italia?",
+    options: [
+      { id: "A", text: "Soggiorno legale e continuativo in Italia per almeno 10 anni" },
+      { id: "B", text: "Residenza anagrafica in Italia da almeno 2 anni" },
+      { id: "C", text: "Essere nati sul territorio della Repubblica Italiana" },
+      { id: "D", text: "Soggiorno continuativo in Italia da almeno 6 mesi antecedenti la domanda" }
+    ],
+    correctAnswerId: "A",
+    explanation: "Ai sensi dell'art. 20, comma 10, del D.L. n. 112/2008 (conv. in L. 133/2008), l'Assegno Sociale è corrisposto a condizione che il richiedente abbia soggiornato legalmente e in via continuativa per almeno dieci anni nel territorio nazionale.",
+    hint: "La legge richiede un decennio di soggiorno continuativo e legale.",
+    level: "intermedio"
+  },
+  {
+    id: "Q_PECS_PREV_025",
+    question: "L'Assegno Unico e Universale (AUU) per i figli a carico, introdotto dal D.Lgs. 230/2021:",
+    options: [
+      { id: "A", text: "Spetta per ogni figlio minorenne a carico e per ciascun figlio maggiorenne fino al compimento dei 21 anni con specifiche condizioni (studio, tirocinio, lavoro con reddito basso o disoccupazione), senza limiti di età per figli disabili" },
+      { id: "B", text: "Spetta esclusivamente ai lavoratori dipendenti con contratto a tempo indeterminato" },
+      { id: "C", text: "Sostituisce le detrazioni fiscali per coniuge a carico e l'Assegno di Inclusione" },
+      { id: "D", text: "Viene erogato solo ai nuclei familiari con ISEE inferiore a 10.000 euro" }
+    ],
+    correctAnswerId: "A",
+    explanation: "Il D.Lgs. 230/2021 ha istituito l'AUU come beneficio universale per tutti i figli a carico fino a 21 anni (se studenti, tirocinanti, registrati come disoccupati o con reddito da lavoro modesto) e senza limiti di età per i figli con disabilità, indipendentemente dalla condizione lavorativa dei genitori.",
+    hint: "Vale fino a 21 anni con condizioni di studio/lavoro e senza limiti di età per disabili.",
+    level: "base"
+  },
+  {
+    id: "Q_PECS_PREV_026",
+    question: "In assenza di presentazione della dichiarazione ISEE, cosa accade all'Assegno Unico e Universale?",
+    options: [
+      { id: "A", text: "Viene comunque erogato nella misura minima base prevista dalla legge" },
+      { id: "B", text: "La domanda viene rigettata automaticamente per difetto di documentazione" },
+      { id: "C", text: "L'assegno viene sospeso fino a quando non intervenga la dichiarazione ISEE" },
+      { id: "D", text: "Viene erogato nella misura massima ma con obbligo di restituzione degli interessi" }
+    ],
+    correctAnswerId: "A",
+    explanation: "Essendo una prestazione 'universale', l'AUU garantisce una quota base minima a tutti i nuclei familiari anche in assenza di ISEE o per ISEE superiori alla soglia massima. La presentazione dell'ISEE permette di ottenere l'importo maggiorato in base alla condizione economica.",
+    hint: "È garantito l'importo minimo a chiunque abbia figli a carico anche senza ISEE.",
+    level: "intermedio"
+  },
+  {
+    id: "Q_PECS_PREV_027",
+    question: "Quale provvedimento normativo ha istituito l'Assegno di Inclusione (ADI) e il Supporto per la Formazione e il Lavoro (SFL) in sostituzione del Reddito di Cittadinanza?",
+    options: [
+      { id: "A", text: "Il Decreto-Legge 4 maggio 2023, n. 48 (convertito con modificazioni dalla Legge 3 luglio 2023, n. 85)" },
+      { id: "B", text: "Il Decreto-Legge 28 gennaio 2019, n. 4" },
+      { id: "C", text: "Il Decreto Legislativo 15 settembre 2017, n. 147" },
+      { id: "D", text: "La Legge 30 dicembre 2020, n. 178" }
+    ],
+    correctAnswerId: "A",
+    explanation: "Il D.L. n. 48/2023 (c.d. Decreto Lavoro), convertito dalla L. 85/2023, ha abolito il Reddito di Cittadinanza e ha istituito l'Assegno di Inclusione (ADI) dal 1° gennaio 2024 e il Supporto per la Formazione e il Lavoro (SFL) dal 1° settembre 2023.",
+    hint: "È il Decreto Lavoro del 2023 (D.L. 48/2023).",
+    level: "base"
+  },
+  {
+    id: "Q_PECS_PREV_028",
+    question: "Per accedere all'Assegno di Inclusione (ADI), quale composizione deve avere il nucleo familiare del richiedente?",
+    options: [
+      { id: "A", text: "Nel nucleo deve essere presente almeno un componente con disabilità, minorenne, con almeno 60 anni di età, oppure in condizione di svantaggio e inserito in programmi di cura e assistenza certificati" },
+      { id: "B", text: "Tutti i componenti del nucleo devono avere un'età compresa tra 18 e 59 anni ed essere abili al lavoro" },
+      { id: "C", text: "È sufficiente che il richiedente sia disoccupato da almeno tre mesi" },
+      { id: "D", text: "Devono esservi almeno due componenti che lavorano part-time con orario inferiore a 15 ore settimanali" }
+    ],
+    correctAnswerId: "A",
+    explanation: "L'ADI è una misura condizionata rivolta a nuclei 'non occupabili' o fragili: richiede che all'interno del nucleo vi sia almeno un minore, un disabile, un soggetto over 60 o un individuo in condizioni di grave svantaggio sociale certificato dalla PA.",
+    hint: "Presenza di minori, disabili, over 60 o persone in comprovata condizione di svantaggio.",
+    level: "intermedio"
+  },
+  {
+    id: "Q_PECS_PREV_029",
+    question: "Qual è la durata massima ordinaria dell'erogazione dell'Assegno di Inclusione (ADI)?",
+    options: [
+      { id: "A", text: "Fino a 18 mesi, con possibilità di rinnovo per ulteriori 12 mesi previa sospensione di un mese" },
+      { id: "B", text: "12 mesi senza possibilità di alcun rinnovo" },
+      { id: "C", text: "24 mesi continuativi senza alcuna sospensione" },
+      { id: "D", text: "36 mesi rinnovabili automaticamente ogni anno" }
+    ],
+    correctAnswerId: "A",
+    explanation: "L'art. 3 del D.L. 48/2023 stabilisce che l'ADI è concesso per un periodo massimo di 18 mesi e può essere rinnovato, dopo la sospensione di un mese, per ulteriori periodi di 12 mesi.",
+    hint: "18 mesi iniziali, un mese di pausa, poi rinnovabile per 12 mesi.",
+    level: "intermedio"
+  },
+  {
+    id: "Q_PECS_PREV_030",
+    question: "In cosa consiste il 'Supporto per la Formazione e il Lavoro' (SFL) gestito congiuntamente da INPS e Ministero del Lavoro sulla piattaforma SIISL?",
+    options: [
+      { id: "A", text: "Un'indennità economica individuale di 350 euro mensili, erogata per un massimo di 12 mesi, a soggetti occupabili tra 18 e 59 anni che partecipano a percorsi di politica attiva del lavoro" },
+      { id: "B", text: "Un buono spesa alimentare da 500 euro trimestrali senza vincoli formativi" },
+      { id: "C", text: "Un rimborso forfettario delle spese di viaggio per colloqui di lavoro all'estero" },
+      { id: "D", text: "Una pensione supplementare anticipata a favore degli iscritti alla gestione artigiani" }
+    ],
+    correctAnswerId: "A",
+    explanation: "L'art. 12 del D.L. 48/2023 ha introdotto il SFL: un'indennità economica mensile pari a 350 euro, corrisposta per tutta la durata della partecipazione a progetti di formazione, qualificazione e politiche attive (per massimo 12 mesi), a favore di soggetti a rischio povertà tra 18 e 59 anni.",
+    hint: "Importo di 350 euro al mese per un massimo di un anno legato alla partecipazione a percorsi formativi.",
+    level: "intermedio"
+  },
+  {
+    id: "Q_PECS_PREV_031",
+    question: "Quale grado minimo di riduzione permanente della capacità lavorativa è richiesto per avere diritto all'Assegno Mensile di Assistenza per invalidi civili parziali (art. 13 L. 118/1971)?",
+    options: [
+      { id: "A", text: "Dal 74% al 99%" },
+      { id: "B", text: "Dal 50% al 66%" },
+      { id: "C", text: "Dal 33% al 50%" },
+      { id: "D", text: "Almeno l'85%" }
+    ],
+    correctAnswerId: "A",
+    explanation: "L'assegno mensile di assistenza spetta agli invalidi civili nei cui confronti sia accertata una riduzione della capacità lavorativa compresa tra il 74% e il 99%, privi di occupazione e con redditi entro il limite stabilito annualmente per legge.",
+    hint: "La soglia per l'assegno parte dal 74%.",
+    level: "base"
+  },
+  {
+    id: "Q_PECS_PREV_032",
+    question: "Quali sono le caratteristiche essenziali dell'Indennità di Accompagnamento (Legge 11 febbraio 1980, n. 18)?",
+    options: [
+      { id: "A", text: "È concessa ai mutilati ed invalidi civili totali (100%) che si trovano nell'impossibilità di deambulare senza l'aiuto permanente di un accompagnatore o necessitanti di assistenza continua, a prescindere dal reddito e dall'età" },
+      { id: "B", text: "È subordinata al superamento di severi limiti di reddito personale e familiare" },
+      { id: "C", text: "Spetta a tutti gli ultraottantenni indipendentemente dalle condizioni sanitarie" },
+      { id: "D", text: "È reversibile agli eredi dopo la morte del beneficiario" }
+    ],
+    correctAnswerId: "A",
+    explanation: "L'indennità di accompagnamento è una prestazione economica assistenziale non legata al reddito e all'età anagrafica: spetta ai soggetti dichiarati totalmente inabili (100%) non deambulanti autonomamente o incapaci di compiere gli atti quotidiani della vita senza assistenza continua, purché non ricoverati gratuitamente in istituto.",
+    hint: "Prestazione non legata al reddito per soggetti al 100% non autosufficienti.",
+    level: "base"
+  },
+  {
+    id: "Q_PECS_PREV_033",
+    question: "A favore di chi è prevista l'Indennità Mensile di Frequenza disciplinata dalla Legge 289/1990?",
+    options: [
+      { id: "A", text: "A favore dei minori con difficoltà persistenti a svolgere i compiti e le funzioni proprie della loro età, o con ipoacusia, che frequentano centri di riabilitazione o scuole di ogni ordine e grado" },
+      { id: "B", text: "A favore degli studenti universitari con media esami superiore a 28/30" },
+      { id: "C", text: "A favore di tutti i minori di 14 anni residenti nel Mezzogiorno" },
+      { id: "D", text: "A favore dei lavoratori che frequentano corsi serali di alfabetizzazione" }
+    ],
+    correctAnswerId: "A",
+    explanation: "La L. 289/1990 riconosce l'indennità di frequenza a favore dei mutilati e invalidi civili minori di 18 anni che presentino difficoltà persistenti a svolgere i compiti della loro età, per sostenere l'inserimento scolastico, formativo o riabilitativo.",
+    hint: "È la prestazione specifica per i minori con difficoltà che frequentano percorsi scolastici o terapeutici.",
+    level: "intermedio"
+  },
+  {
+    id: "Q_PECS_PREV_034",
+    question: "Cosa si intende per 'contribuzione figurativa' nell'assicurazione generale obbligatoria INPS?",
+    options: [
+      { id: "A", text: "Periodi di mancata prestazione lavorativa dovuti a eventi tutelati dalla legge (es. maternità, malattia, cassa integrazione, disoccupazione), per i quali i contributi sono accreditati senza onere economico a carico del lavoratore" },
+      { id: "B", text: "Contributi versati volontariamente dal lavoratore licenziato per completare la carriera" },
+      { id: "C", text: "Contributi previdenziali versati dal datore di lavoro per lavoro straordinario" },
+      { id: "D", text: "Periodi di ferie non godute e monetizzate all'atto del licenziamento" }
+    ],
+    correctAnswerId: "A",
+    explanation: "I contributi figurativi sono versamenti virtuali accreditati dall'INPS sulla posizione assicurativa del lavoratore in corrispondenza di eventi in cui è stata sospesa o ridotta l'attività lavorativa (es. congedi di maternità, malattia, CIG, NASpI), utili sia per il diritto che per la misura della pensione.",
+    hint: "Contributi accreditati a costo zero per periodi di sospensione tutelata del lavoro.",
+    level: "base"
+  },
+  {
+    id: "Q_PECS_PREV_035",
+    question: "Quale requisito contributivo minimo deve possedere il lavoratore per essere autorizzato dall'INPS alla prosecuzione volontaria dei versamenti (contribuzione volontaria)?",
+    options: [
+      { id: "A", text: "Almeno 5 anni di contribuzione effettiva in tutta la vita lavorativa, oppure almeno 3 anni nel quinquennio precedente la data della domanda" },
+      { id: "B", text: "Almeno 10 anni di contribuzione continuativa nello stesso settore" },
+      { id: "C", text: "Almeno 20 anni di contribuzione" },
+      { id: "D", text: "È sufficiente aver lavorato almeno un mese nella Pubblica Amministrazione" }
+    ],
+    correctAnswerId: "A",
+    explanation: "Ai sensi dell'art. 5 del D.Lgs. n. 184/1997, per ottenere l'autorizzazione alla prosecuzione volontaria occorrono almeno 5 anni di contribuzione (260 contributi settimanali) nell'arco della vita, oppure almeno 3 anni di contribuzione (156 settimane) nel quinquennio antecedente la domanda.",
+    hint: "Regola del 5 o del 3 negli ultimi 5 anni.",
+    level: "intermedio"
+  },
+  {
+    id: "Q_PECS_PREV_036",
+    question: "Il 'riscatto agevolato' del corso legale di laurea, introdotto dal D.L. 4/2019 (art. 20 c. 6), come determina l'onere economico a carico del richiedente?",
+    options: [
+      { id: "A", text: "Applicando l'aliquota contributiva IVS vigente al minimale di reddito previsto per la gestione artigiani e commercianti per ciascun anno da riscattare, esclusivamente per periodi da collocare nel sistema contributivo" },
+      { id: "B", text: "Calcolando l'onere mediante la riserva matematica attuariale capitalizzata al 5%" },
+      { id: "C", text: "Imponendo un importo fisso di 1.000 euro per l'intero percorso universitario" },
+      { id: "D", text: "Trattenendo il 10% del TFR maturando nei successivi dieci anni" }
+    ],
+    correctAnswerId: "A",
+    explanation: "Il riscatto agevolato della laurea consente di riscattare gli anni di studio collocati temporalmente nel sistema contributivo (dal 1996 in poi) applicando l'aliquota del 33% sul minimale degli artigiani e commercianti (con un costo di circa 5.500-6.000 euro per anno riscattato, fiscalmente deducibile).",
+    hint: "Onere parametrato al minimale artigiani/commercianti con aliquota del 33% per periodi contributivi.",
+    level: "avanzato"
+  },
+  {
+    id: "Q_PECS_PREV_037",
+    question: "Che differenza sostanziale intercorre tra la 'Ricongiunzione' (L. 29/1979) e il 'Cumulo gratuito' dei periodi assicurativi (L. 228/2012 e L. 232/2016)?",
+    options: [
+      { id: "A", text: "La ricongiunzione unifica fisicamente tutti i periodi in un'unica gestione ed è normalmente a titolo oneroso per il lavoratore; il cumulo è gratuito e ciascuna gestione liquida la propria quota pro-quota di pensione" },
+      { id: "B", text: "La ricongiunzione è sempre gratuita, mentre il cumulo comporta il pagamento di un riscatto all'INPS" },
+      { id: "C", text: "La ricongiunzione si applica solo tra enti privati, mentre il cumulo riguarda solo i dipendenti pubblici" },
+      { id: "D", text: "Non vi è alcuna differenza, sono sinonimi legislativi" }
+    ],
+    correctAnswerId: "A",
+    explanation: "La ricongiunzione ex L. 29/1979 trasferisce tutti i contributi verso un'unica gestione (spesso con ingente onere a carico dell'assicurato). Il cumulo gratuito (L. 228/2012 e L. 232/2016) somma i periodi non coincidenti ai fini del diritto, lasciando a ciascun fondo la liquidazione pro-quota senza costi per l'assicurato.",
+    hint: "La ricongiunzione trasferisce i contributi ed è onerosa; il cumulo somma i periodi gratuitamente con liquidazione pro-quota.",
+    level: "intermedio"
+  },
+  {
+    id: "Q_PECS_PREV_038",
+    question: "La Gestione Separata dell'INPS, istituita dalla Legge 335/1995 (art. 2 c. 26), a quali categorie di lavoratori è rivolta obbligatoriamente?",
+    options: [
+      { id: "A", text: "Ai collaboratori coordinati e continuativi, ai lavoratori autonomi occasionali oltre i 5.000 euro annui e ai liberi professionisti privi di una specifica cassa di previdenza di categoria" },
+      { id: "B", text: "Ai soli dipendenti pubblici delle amministrazioni centrali dello Stato" },
+      { id: "C", text: "A tutti i lavoratori dipendenti del settore privato metalmeccanico" },
+      { id: "D", text: "Esclusivamente ai coltivatori diretti e mezzadri con reddito agrario" }
+    ],
+    correctAnswerId: "A",
+    explanation: "La Gestione Separata INPS accoglie i lavoratori autonomi privi di cassa professionale autonoma (commerciali, freelance senza albo, ecc.), i collaboratori a progetto/co.co.co., gli assegnisti di ricerca, i dottorandi e i lavoratori autonomi occasionali con compensi superiori a 5.000 euro lordi annui.",
+    hint: "Nasce per i collaboratori continuativi e i professionisti senza un'apposita cassa ordinistica.",
+    level: "base"
+  },
+  {
+    id: "Q_PECS_PREV_039",
+    question: "Cosa sancisce il principio di 'automaticità delle prestazioni previdenziali' di cui all'art. 2116 del Codice Civile?",
+    options: [
+      { id: "A", text: "Le prestazioni previdenziali sono dovute al prestatore di lavoro anche quando l'imprenditore non ha versato regolarmente i contributi dovuti alle istituzioni di previdenza e di assistenza, salve diverse disposizioni di legge" },
+      { id: "B", text: "La pensione viene erogata in automatico senza necessità di presentare alcuna domanda formale all'INPS" },
+      { id: "C", text: "Il datore di lavoro risponde penalmente dell'inabilità lavorativa sopravvenuta del dipendente" },
+      { id: "D", text: "Tutti i cittadini ricevono automaticamente una pensione al compimento del 60° anno" }
+    ],
+    correctAnswerId: "A",
+    explanation: "L'art. 2116 c.c. tutela il lavoratore subordinato assicurando il diritto alle prestazioni anche in caso di inadempimento contributivo datoriale (entro i limiti di prescrizione dei contributi). Il principio non opera invece, di regola, per i lavoratori autonomi.",
+    hint: "Tutela il lavoratore subordinato anche se il datore di lavoro non ha pagato i contributi.",
+    level: "intermedio"
+  },
+  {
+    id: "Q_PECS_PREV_040",
+    question: "Che cos'è l'estratto conto certificativo (EcoCert) rilasciato dall'INPS?",
+    options: [
+      { id: "A", text: "Un documento con valore legale e probatorio che certifica in modo analitico e definitivo la posizione assicurativa e i periodi utili al pensionamento maturati dal lavoratore" },
+      { id: "B", text: "Una ricevuta di avvenuto pagamento del bollettino della Gestione Separata" },
+      { id: "C", text: "Il certificato medico attestante l'idoneità alla mansione lavorativa" },
+      { id: "D", text: "Un prospetto puramente informativo non opponibile all'INPS in sede di liquidazione" }
+    ],
+    correctAnswerId: "A",
+    explanation: "L'EcoCert (Estratto Conto Certificativo) è la certificazione con valore legale rilasciata dall'INPS su richiesta dell'assicurato prossimo alla pensione; a differenza dell'estratto conto ordinario online, ha efficacia vincolante circa i contributi utili per l'accesso a pensione.",
+    hint: "È l'estratto conto certificato dall'ente con pieno valore vincolante.",
+    level: "intermedio"
+  },
+  {
+    id: "Q_PECS_PREV_041",
+    question: "Quale funzione fondamentale assolve il Fondo di Garanzia istituito presso l'INPS ai sensi della Legge 297/1982 e del D.Lgs. 80/1992?",
+    options: [
+      { id: "A", text: "Garantisce il pagamento del Trattamento di Fine Rapporto (TFR) e delle ultime tre mensilità retributive in caso di insolvenza o fallimento del datore di lavoro" },
+      { id: "B", text: "Eroga prestiti a tasso agevolato ai giovani imprenditori del settore agricolo" },
+      { id: "C", text: "Finanzia la formazione continua dei funzionari dell'amministrazione centrale" },
+      { id: "D", text: "Copre i risarcimenti per danni da infortunio sul lavoro quando l'azienda non ha assicurazione INAIL" }
+    ],
+    correctAnswerId: "A",
+    explanation: "Il Fondo di Garanzia INPS (art. 2 L. 297/1982 e D.Lgs. 80/1992) interviene a tutela dei lavoratori dipendenti in caso di fallimento o procedura concorsuale del datore di lavoro, liquidando il TFR maturato e le retribuzioni inerenti agli ultimi tre mesi del rapporto.",
+    hint: "Paga il TFR e gli ultimi stipendi quando l'azienda fallisce.",
+    level: "base"
+  },
+  {
+    id: "Q_PECS_PREV_042",
+    question: "Qual è il termine di decadenza per proporre azione giudiziaria contro l'INPS avverso i provvedimenti di liquidazione o diniego delle prestazioni pensionistiche (art. 47 D.P.R. 639/1970)?",
+    options: [
+      { id: "A", text: "Tre anni dalla comunicazione del provvedimento o dalla scadenza del termine per la decisione del ricorso amministrativo" },
+      { id: "B", text: "Un anno per tutte le prestazioni previdenziali" },
+      { id: "C", text: "Dieci anni secondo la prescrizione ordinaria del Codice Civile" },
+      { id: "D", text: "Sessanta giorni dalla notifica dell'atto di rigetto" }
+    ],
+    correctAnswerId: "A",
+    explanation: "L'art. 47 del D.P.R. 639/1970 (come modificato dal D.L. 98/2011) fissa il termine perentorio di decadenza per l'azione giudiziaria a 3 anni per i trattamenti pensionistici e a 1 anno per le prestazioni temporanee (es. malattia, maternità, NASpI).",
+    hint: "3 anni per le prestazioni pensionistiche, 1 anno per quelle temporanee.",
+    level: "avanzato"
+  },
+  {
+    id: "Q_PECS_PREV_043",
+    question: "In materia previdenziale, il preventivo esperimento del ricorso amministrativo dinanzi agli organi dell'INPS:",
+    options: [
+      { id: "A", text: "Costituisce condizione di procedibilità della domanda giudiziale ai sensi dell'art. 443 del Codice di Procedura Civile" },
+      { id: "B", text: "È vietato a pena di nullità dell'azione" },
+      { id: "C", text: "È facoltativo e non produce alcun effetto sui termini giudiziali" },
+      { id: "D", text: "Sostituisce definitivamente il processo civile senza facoltà di ricorrere al giudice" }
+    ],
+    correctAnswerId: "A",
+    explanation: "L'art. 443 c.p.c. stabilisce che la domanda giudiziale nelle controversie previdenziali e assistenziali non è procedibile se non siano stati previamente esauriti i ricorsi amministrativi previsti dalle leggi speciali o siano decorsi i termini per la loro decisione (90 giorni).",
+    hint: "È una condizione di procedibilità dell'azione dinanzi al giudice del lavoro.",
+    level: "intermedio"
+  },
+  {
+    id: "Q_PECS_PREV_044",
+    question: "Quale organo dell'INPS è ordinariamente competente a decidere i ricorsi amministrativi presentati dai lavoratori dipendenti contro i provvedimenti sulle prestazioni pensionistiche?",
+    options: [
+      { id: "A", text: "Il Comitato Provinciale dell'INPS (o i Comitati speciali di gestione per le rispettive categorie)" },
+      { id: "B", text: "Il Presidente dell'INPS in via esclusiva e monocratica" },
+      { id: "C", text: "La Corte dei Conti - Sezione Giurisdizionale Regionale" },
+      { id: "D", text: "Il Ministero dell'Economia e delle Finanze" }
+    ],
+    correctAnswerId: "A",
+    explanation: "I ricorsi amministrativi sulle prestazioni della gestione generale dei lavoratori dipendenti sono decisi dal Comitato Provinciale dell'INPS o dai competenti Comitati Amministratori di gestione (es. gestione commercianti, artigiani, coltivatori diretti).",
+    hint: "I ricorsi territoriali vengono esaminati dal Comitato Provinciale dell'Istituto.",
+    level: "intermedio"
+  },
+  {
+    id: "Q_PECS_PREV_045",
+    question: "Cosa prevede l'istituto dell'indennizzo per cessazione definitiva dell'attività commerciale (c.d. 'rottamazione licenze commerciali') erogato dall'INPS?",
+    options: [
+      { id: "A", text: "Un indennizzo mensile pari al trattamento minimo di pensione fino al compimento dell'età per la pensione di vecchiaia, riservato a commercianti con almeno 62 anni (uomini) o 57 anni (donne) e 15 anni di contribuzione che rottamino definitivamente l'attività" },
+      { id: "B", text: "Un contributo a fondo perduto pari al valore commerciale dell'avviamento" },
+      { id: "C", text: "La restituzione integrale di tutti i contributi IVS versati negli ultimi vent'anni" },
+      { id: "D", text: "Una pensione vitalizia non assoggettata a tassazione IRPEF" }
+    ],
+    correctAnswerId: "A",
+    explanation: "L'indennizzo per commercianti (D.Lgs. 207/1996 reso permanente dalla L. 145/2018) consente agli esercenti commercio al minuto in sede fissa o ambulanti e gestori di bar/ristoranti che cessano l'attività di ricevere un assegno pari al trattamento minimo fino all'età di vecchiaia.",
+    hint: "Assegno ponte pari al trattamento minimo fino a 67 anni per commercianti che chiudono l'attività.",
+    level: "avanzato"
+  },
+  {
+    id: "Q_PECS_PREV_046",
+    question: "Che cosa si intende per 'totalizzazione dei periodi assicurativi' ai sensi del D.Lgs. 42/2006?",
+    options: [
+      { id: "A", text: "La facoltà gratuita di cumulare periodi assicurativi non coincidenti versati in diverse gestioni previdenziali, al fine di conseguire un unico trattamento pensionistico liquidato pro-quota da ciascun ente con metodo contributivo" },
+      { id: "B", text: "L'obbligo di unificare tutti i contributi pagando una maggiorazione del 20% all'ente ricevente" },
+      { id: "C", text: "Il versamento anticipato della contribuzione mancante alla pensione in un'unica rata" },
+      { id: "D", text: "La rinuncia ai periodi inferiori a tre anni di contributi in cambio di un rimborso fiscale" }
+    ],
+    correctAnswerId: "A",
+    explanation: "La totalizzazione ex D.Lgs. 42/2006 consente a chi ha contributi in più gestioni (inclusi gli enti privatizzati) di sommarli gratuitamente per raggiungere il diritto a pensione, con liquidazione pro-rata secondo il sistema contributivo di ciascuna cassa.",
+    hint: "Consente la somma gratuita dei contributi con calcolo contributivo pro-rata da parte di ciascun ente.",
+    level: "intermedio"
+  },
+  {
+    id: "Q_PECS_PREV_047",
+    question: "In caso di fallimento del datore di lavoro, entro quale termine di prescrizione il lavoratore può chiedere l'intervento del Fondo di Garanzia INPS per il pagamento del TFR?",
+    options: [
+      { id: "A", text: "Cinque anni dal giorno in cui il credito è divenuto esigibile (es. chiusura dello stato passivo fallimentare)" },
+      { id: "B", text: "Un anno dalla sentenza dichiarativa di fallimento" },
+      { id: "C", text: "Dieci anni dalla cessazione del rapporto di lavoro" },
+      { id: "D", text: "Sei mesi dalla prima udienza concorsuale" }
+    ],
+    correctAnswerId: "A",
+    explanation: "Il diritto alla liquidazione del TFR da parte del Fondo di Garanzia INPS è soggetto al termine di prescrizione quinquennale (art. 2948 n. 5 c.c.), che decorre dal momento in cui il credito è divenuto liquido ed esigibile (tipicamente dal deposito dello stato passivo definitivo).",
+    hint: "Il termine di prescrizione ordinario per i crediti da TFR è di 5 anni.",
+    level: "intermedio"
+  },
+  {
+    id: "Q_PECS_PREV_048",
+    question: "La 'Certificazione Unica' (CU) inviata dall'INPS ai pensionati e percettori di indennità assolve a quale funzione principale?",
+    options: [
+      { id: "A", text: "Certificare fiscalmente l'ammontare complessivo dei redditi corrisposti nell'anno d'imposta precedente, le ritenute IRPEF operate e le detrazioni applicate" },
+      { id: "B", text: "Certificare l'assenza di pendenze penali del cittadino" },
+      { id: "C", text: "Attestare l'idoneità fisica per la ripresa del lavoro subordinato" },
+      { id: "D", text: "Confermare il rinnovo automatico dell'Assegno di Inclusione per il nuovo anno" }
+    ],
+    correctAnswerId: "A",
+    explanation: "L'INPS, in qualità di sostituto d'imposta, rilascia annualmente la Certificazione Unica attestante tutti i redditi erogati a titolo di pensione, NASpI, cassa integrazione, ecc., con il dettaglio delle ritenute fiscali e previdenziali operate, necessaria per la dichiarazione dei redditi.",
+    hint: "È il documento fiscale con cui l'INPS certifica redditi corrisposti e ritenute fiscali applicate.",
+    level: "base"
+  },
+  {
+    id: "Q_PECS_PREV_049",
+    question: "Cos'è la perequazione automatica delle pensioni erogate dall'INPS?",
+    options: [
+      { id: "A", text: "Il meccanismo di rivalutazione periodica degli importi pensionistici volto a preservarne il potere d'acquisto rispetto all'aumento del costo della vita misurato dall'ISTAT" },
+      { id: "B", text: "Il conguaglio contributivo operato ogni trimestre tra le diverse gestioni INPS" },
+      { id: "C", text: "La redistribuzione dei fondi previdenziali a favore dei dirigenti della Pubblica Amministrazione" },
+      { id: "D", text: "L'allineamento obbligatorio delle pensioni italiane al salario minimo tedesco" }
+    ],
+    correctAnswerId: "A",
+    explanation: "La perequazione automatica delle pensioni è l'adeguamento annuale (di norma a decorrere dal 1° gennaio) dei trattamenti pensionistici all'inflazione rilevata dall'ISTAT, applicato per fasce progressive di importo a salvaguardia del potere d'acquisto.",
+    hint: "È la rivalutazione dei trattamenti pensionistici in base all'inflazione ISTAT.",
+    level: "base"
+  },
+  {
+    id: "Q_PECS_PREV_050",
+    question: "Quale percentuale di maggiorazione sociale della pensione o 'integrazione al trattamento minimo' spetta a chi è interamente assoggettato al sistema contributivo puro?",
+    options: [
+      { id: "A", text: "Nessuna integrazione al minimo, in quanto l'integrazione al trattamento minimo non si applica alle pensioni liquidate interamente con il sistema contributivo" },
+      { id: "B", text: "Un'integrazione forfettaria pari al 50% dell'importo dell'Assegno Sociale" },
+      { id: "C", text: "La stessa integrazione prevista per le pensioni del sistema retributivo fino a 600 euro mensili" },
+      { id: "D", text: "Un'integrazione automatica finanziata con il fondo pensione di categoria" }
+    ],
+    correctAnswerId: "A",
+    explanation: "Uno dei principi cardine della L. 335/1995 (art. 1 comma 16) è che le pensioni liquidate esclusivamente con il sistema contributivo non beneficiano dell'integrazione al trattamento minimo; per tali soggetti la tutela della vecchiaia in condizioni di bisogno economico è affidata all'Assegno Sociale.",
+    hint: "Nel contributivo puro l'integrazione al minimo non è prevista.",
+    level: "avanzato"
+  }
+];
+
+const dest = path.join(__dirname, '../public/db/master_bank/previdenza/previdenza_inps.json');
+fs.writeFileSync(dest, JSON.stringify(questions, null, 2), 'utf8');
+console.log(`Generated ${questions.length} questions in ${dest}`);

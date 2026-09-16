@@ -1,0 +1,702 @@
+[
+  {
+    "id": "Q_INF_DB_001",
+    "question": "Che cosa indica l'acronimo DBMS nell'ambito delle basi di dati?",
+    "options": [
+      { "id": "A", "text": "Database Management System" },
+      { "id": "B", "text": "Data Building and Modeling System" },
+      { "id": "C", "text": "Distributed Database Maintenance Service" },
+      { "id": "D", "text": "Digital Business Management Structure" }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "DBMS sta per Database Management System (Sistema di Gestione di Basi di Dati), ed è il software responsabile della memorizzazione, gestione e recupero efficiente e sicuro dei dati.",
+    "hint": "Si tratta del software di base per la gestione del database.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_DB_002",
+    "question": "In un database relazionale, che cos'è una chiave primaria (Primary Key)?",
+    "options": [
+      { "id": "A", "text": "Un attributo o un insieme di attributi che identificano univocamente ogni riga di una tabella." },
+      { "id": "B", "text": "Una chiave che viene utilizzata per cifrare i dati sensibili all'interno della tabella." },
+      { "id": "C", "text": "Il primo attributo inserito durante la creazione di una tabella tramite DDL." },
+      { "id": "D", "text": "Un vincolo che permette l'inserimento di valori duplicati all'interno della stessa colonna." }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La chiave primaria ha il compito fondamentale di garantire l'univocità delle tuple (righe) all'interno di una tabella. Nessun valore della chiave primaria può essere nullo (NULL) o duplicato.",
+    "hint": "Serve a identificare in modo univoco ciascun record.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_DB_003",
+    "question": "Quale dei seguenti comandi appartiene al DDL (Data Definition Language) dell'SQL?",
+    "options": [
+      { "id": "A", "text": "SELECT" },
+      { "id": "B", "text": "CREATE" },
+      { "id": "C", "text": "UPDATE" },
+      { "id": "D", "text": "GRANT" }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il comando CREATE (ad esempio CREATE TABLE) fa parte del Data Definition Language (DDL), che viene utilizzato per definire, modificare o eliminare la struttura degli oggetti del database (como tabelle, indici e viste).",
+    "hint": "I comandi DDL modificano o creano la struttura (schema) del database.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_DB_004",
+    "question": "Quale delle seguenti clausole SQL viene utilizzata per filtrare i record restituiti da una query sulla base di una determinata condizione?",
+    "options": [
+      { "id": "A", "text": "GROUP BY" },
+      { "id": "B", "text": "ORDER BY" },
+      { "id": "C", "text": "WHERE" },
+      { "id": "D", "text": "HAVING" }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "La clausola WHERE specifica le condizioni di ricerca per le righe restituite da una query SELECT o interessate da comandi UPDATE e DELETE.",
+    "hint": "Filtra le righe prima dell'eventuale raggruppamento.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_DB_005",
+    "question": "In una tabella di un database relazionale, cosa rappresenta una colonna?",
+    "options": [
+      { "id": "A", "text": "Un'istanza o una tupla specifica." },
+      { "id": "B", "text": "Un attributo del modello dei dati con un tipo di dato definito." },
+      { "id": "C", "text": "Il numero totale di righe presenti nella tabella." },
+      { "id": "D", "text": "Un collegamento logico con un'altra tabella." }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "In una tabella (relazione), le colonne rappresentano gli attributi (o campi) della relazione, ciascuno caratterizzato da un nome e da un dominio (tipo di dato).",
+    "hint": "Indica una proprietà o caratteristica dell'entità rappresentata.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_DB_006",
+    "question": "Quale operatore SQL viene utilizzato per cercare un pattern specifico all'interno di una colonna di testo?",
+    "options": [
+      { "id": "A", "text": "LIKE" },
+      { "id": "B", "text": "BETWEEN" },
+      { "id": "C", "text": "IN" },
+      { "id": "D", "text": "EXISTS" }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'operatore LIKE viene utilizzato nella clausola WHERE per cercare un pattern specificato in una colonna, spesso abbinato ai caratteri jolly '%' e '_'.",
+    "hint": "Si usa comunemente con i caratteri jolly per ricerche parziali.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_DB_007",
+    "question": "Quale comando SQL DML viene utilizzato per modificare i dati esistenti all'interno di una tabella?",
+    "options": [
+      { "id": "A", "text": "ALTER" },
+      { "id": "B", "text": "CHANGE" },
+      { "id": "C", "text": "MODIFY" },
+      { "id": "D", "text": "UPDATE" }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Il comando UPDATE fa parte del DML (Data Manipulation Language) e viene utilizzato per modificare i valori dei record già presenti all'interno di una tabella. ALTER è invece un comando DDL.",
+    "hint": "Non confondere la modifica della struttura con la modifica dei dati del record.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_DB_008",
+    "question": "Quale delle seguenti funzioni SQL è una funzione di aggregazione?",
+    "options": [
+      { "id": "A", "text": "CONCAT" },
+      { "id": "B", "text": "SUM" },
+      { "id": "C", "text": "SUBSTRING" },
+      { "id": "D", "text": "UPPER" }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "SUM è una funzione di aggregazione che calcola la somma totale dei valori di una colonna numerica. CONCAT, SUBSTRING e UPPER sono funzioni scalari su singole stringhe.",
+    "hint": "Le funzioni di aggregazione operano su un insieme di righe restituendo un singolo valore cumulativo.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_DB_009",
+    "question": "Che cosa si intende per 'integrità referenziale' in un DBMS relazionale?",
+    "options": [
+      { "id": "A", "text": "La regola per cui ogni tabella deve avere almeno tre indici attivi." },
+      { "id": "B", "text": "Il vincolo secondo cui un valore in una chiave esterna deve corrispondere a un valore esistente nella chiave primaria della tabella associata." },
+      { "id": "C", "text": "La capacità di cifrare i dati trasmessi tramite la rete tra client e server." },
+      { "id": "D", "text": "L'obbligo di definire tutte le colonne come NOT NULL." }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'integrità referenziale garantisce che le relazioni tra tabelle rimangano coerenti. Essa impone che per ogni valore non nullo inserito in una chiave esterna (Foreign Key) debba esistere un corrispondente valore chiave primaria (o chiave univoca) nella tabella a cui fa riferimento.",
+    "hint": "Riguarda il legame tra le chiavi esterne (Foreign Key) e le chiavi primarie (Primary Key).",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_DB_010",
+    "question": "Quale tra le seguenti istruzioni fa parte del DCL (Data Control Language)?",
+    "options": [
+      { "id": "A", "text": "GRANT" },
+      { "id": "B", "text": "COMMIT" },
+      { "id": "C", "text": "DROP" },
+      { "id": "D", "text": "DELETE" }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il comando GRANT fa parte del Data Control Language (DCL), che viene utilizzato per gestire i permessi di accesso e di sicurezza degli utenti del database. L'altro principale comando DCL è REVOKE.",
+    "hint": "Riguarda l'assegnazione o la revoca dei privilegi di accesso e sicurezza.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_DB_011",
+    "question": "Cosa fa il comando SQL 'DELETE FROM Tabella' se eseguito senza una clausola WHERE?",
+    "options": [
+      { "id": "A", "text": "Elimina definitivamente la struttura della tabella dal database." },
+      { "id": "B", "text": "Genera un errore di sintassi obbligatorio." },
+      { "id": "C", "text": "Elimina tutte le righe all'interno della tabella, ma mantiene intatta la sua struttura." },
+      { "id": "D", "text": "Rinomina la tabella aggiungendo un suffisso temporaneo." }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Se eseguito senza clausola WHERE, il comando DELETE rimuove tutti i record (righe) presenti nella tabella, ma la tabella stessa e la sua struttura (colonne, vincoli, indici) rimangono intatte nel database.",
+    "hint": "Attenzione alla differenza tra eliminare i dati (DML) ed eliminare la struttura (DDL).",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_DB_012",
+    "question": "Nel contesto dei database relazionali, che cos'è un valore NULL?",
+    "options": [
+      { "id": "A", "text": "Equivale al valore numerico zero (0)." },
+      { "id": "B", "text": "Rappresenta una stringa vuota ('')." },
+      { "id": "C", "text": "Rappresenta un valore mancante, sconosciuto o non applicabile." },
+      { "id": "D", "text": "È una parola chiave che forza l'eliminazione immediata della riga." }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "NULL non equivale a zero o a una stringa vuota. È uno stato speciale che indica l'assenza di dati per quell'attributo, ossia che il dato è mancante, non noto o non applicabile.",
+    "hint": "Indica l'assenza di valore, non un valore nullo dal punto di vista algebrico o testuale.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_DB_013",
+    "question": "Quale valore di default assume l'ordinamento tramite clausola ORDER BY se non viene esplicitato ASC o DESC?",
+    "options": [
+      { "id": "A", "text": "Casuale" },
+      { "id": "B", "text": "Crescente (ASC)" },
+      { "id": "C", "text": "Decrescente (DESC)" },
+      { "id": "D", "text": "Alfabetico inverso" }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Per impostazione predefinita, se non viene specificato l'ordine nella clausola ORDER BY, il DBMS ordina i record in modo crescente (ASC, ovvero Ascending).",
+    "hint": "Dall'elemento più piccolo a quello più grande.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_DB_014",
+    "question": "Quale comando SQL DDL viene utilizzato per rimuovere completamente una tabella e la sua struttura dal database?",
+    "options": [
+      { "id": "A", "text": "DELETE TABLE" },
+      { "id": "B", "text": "TRUNCATE TABLE" },
+      { "id": "C", "text": "DROP TABLE" },
+      { "id": "D", "text": "REMOVE TABLE" }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Il comando DROP TABLE è un'istruzione DDL che cancella definitivamente sia la struttura della tabella sia tutti i dati in essa contenuti, rimuovendola completamente dallo schema del database.",
+    "hint": "È un'azione distruttiva irreversibile sulla struttura della tabella.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_DB_015",
+    "question": "Nelle proprietà ACID di una transazione, cosa rappresenta la lettera 'A'?",
+    "options": [
+      { "id": "A", "text": "Automazione" },
+      { "id": "B", "text": "Atomicità" },
+      { "id": "C", "text": "Archiviazione" },
+      { "id": "D", "text": "Associazione" }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La lettera 'A' sta per Atomicità (Atomicity). Significa che la transazione deve essere trattata come un'unica unità di lavoro indivisibile: o viene eseguita interamente con successo (COMMIT) oppure non deve lasciare alcuna traccia nel database (ROLLBACK).",
+    "hint": "Regola del 'tutto o niente'.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_DB_016",
+    "question": "Quale delle seguenti clausole SQL permette di eliminare i duplicati dal set di risultati di una query SELECT?",
+    "options": [
+      { "id": "A", "text": "DISTINCT" },
+      { "id": "B", "text": "UNIQUE" },
+      { "id": "C", "text": "NO DUPLICATE" },
+      { "id": "D", "text": "GROUP BY ALL" }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La parola chiave DISTINCT inserita subito dopo il comando SELECT indica al DBMS di restituire solo righe univoche, eliminando le righe duplicate dal risultato della query.",
+    "hint": "Si scrive subito dopo la SELECT.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_DB_017",
+    "question": "Che cos'è una Foreign Key (Chiave Esterna)?",
+    "options": [
+      { "id": "A", "text": "Una chiave utilizzata per connettere il database a un server esterno." },
+      { "id": "B", "text": "Un attributo o gruppo di attributi in una tabella che fa riferimento alla chiave primaria (o univoca) di un'altra tabella." },
+      { "id": "C", "text": "Una password di cifratura fornita dal DBMS per motivi di sicurezza." },
+      { "id": "D", "text": "Una colonna che può contenere solo valori numerici decimali." }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La chiave esterna è un vincolo di integrità referenziale che crea un collegamento logico tra due tabelle, facendo corrispondere i valori di una tabella a quelli della chiave primaria di un'altra.",
+    "hint": "Crea un legame logico e gerarchico tra tabelle diverse.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_DB_018",
+    "question": "Quale tipo di dato SQL è più appropriato per memorizzare una data senza informazioni sull'ora?",
+    "options": [
+      { "id": "A", "text": "TIMESTAMP" },
+      { "id": "B", "text": "DATE" },
+      { "id": "C", "text": "TIME" },
+      { "id": "D", "text": "DATETIME" }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il tipo di dato DATE è progettato specificamente per memorizzare valori relativi a date (giorno, mese, anno) senza includere la componente dell'ora (che è invece gestita da TIME, DATETIME o TIMESTAMP).",
+    "hint": "Riguarda solo il calendario, non l'orologio.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_DB_019",
+    "question": "Cosa accade quando viene eseguito un comando ROLLBACK all'interno di una transazione?",
+    "options": [
+      { "id": "A", "text": "Vengono salvate permanentemente tutte le modifiche fatte fino a quel momento." },
+      { "id": "B", "text": "Vengono annullate tutte le modifiche apportate al database dall'inizio della transazione corrente." },
+      { "id": "C", "text": "Il database viene arrestato in modo anomalo per motivi di sicurezza." },
+      { "id": "D", "text": "Viene cancellata solo l'ultima riga inserita nella tabella principale." }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il comando ROLLBACK ripristina lo stato del database al momento precedente all'inizio della transazione, annullando tutte le modifiche (INSERT, UPDATE, DELETE) effettuate all'interno di essa.",
+    "hint": "Ripristina lo stato iniziale della transazione.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_DB_020",
+    "question": "Qual è la differenza principale tra la clausola WHERE e la clausola HAVING?",
+    "options": [
+      { "id": "A", "text": "WHERE viene utilizzata solo con SELECT, mentre HAVING si usa solo con UPDATE." },
+      { "id": "B", "text": "WHERE filtra le righe prima dell'aggregazione, mentre HAVING filtra i gruppi dopo che l'aggregazione GROUP BY è stata eseguita." },
+      { "id": "C", "text": "WHERE richiede l'uso di indici, mentre HAVING non può usarli in nessun caso." },
+      { "id": "D", "text": "Non c'è alcuna differenza sostanziale, sono sinonimi intercambiabili." }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La clausola WHERE filtra i singoli record prima che vengano applicate le funzioni di aggregazione o le operazioni di raggruppamento. HAVING, al contrario, agisce sui risultati dei raggruppamenti definiti dalla clausola GROUP BY.",
+    "hint": "HAVING si applica sempre dopo GROUP BY per filtrare i gruppi in base a valori calcolati.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_DB_021",
+    "question": "Quale tipo di JOIN restituisce tutte le righe della tabella di sinistra (Left Table) e le righe corrispondenti della tabella di destra, compilando con NULL dove non c'è corrispondenza?",
+    "options": [
+      { "id": "A", "text": "INNER JOIN" },
+      { "id": "B", "text": "LEFT OUTER JOIN" },
+      { "id": "C", "text": "RIGHT OUTER JOIN" },
+      { "id": "D", "text": "FULL OUTER JOIN" }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "LEFT OUTER JOIN (o semplicemente LEFT JOIN) restituisce tutte le righe della tabella a sinistra della clausola JOIN. Se non vi sono corrispondenze nella tabella a destra, le colonne di quest'ultima conterranno il valore NULL.",
+    "hint": "La tabella posizionata prima della parola chiave JOIN comanda il risultato.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_DB_022",
+    "question": "Quale delle seguenti definizioni descrive correttamente la Prima Forma Normale (1NF)?",
+    "options": [
+      { "id": "A", "text": "Ogni tabella deve contenere almeno una chiave esterna e tutti i campi devono essere numerici." },
+      { "id": "B", "text": "Non devono esserci dipendenze transitive tra gli attributi non chiave." },
+      { "id": "C", "text": "Tutti gli attributi devono contenere solo valori atomici (non divisibili) e non devono esserci gruppi ripetuti di colonne." },
+      { "id": "D", "text": "Ogni attributo non chiave deve dipendere interamente dalla chiave primaria." }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Una relazione è in 1NF se e solo se tutti gli attributi contengono valori atomici (ovvero non multivalore o compositi) e non esistono gruppi ripetuti di attributi.",
+    "hint": "Atomicità dei valori e assenza di tabelle annidate o array nei campi.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_DB_023",
+    "question": "Una tabella si trova in Seconda Forma Normale (2NF) se soddisfa i requisiti della 1NF e inoltre:",
+    "options": [
+      { "id": "A", "text": "Non contiene colonne di tipo VARCHAR." },
+      { "id": "B", "text": "Ogni attributo non chiave dipende in modo funzionale completo dall'intera chiave primaria (non c'è dipendenza parziale)." },
+      { "id": "C", "text": "Non possiede alcuna chiave esterna dichiarata." },
+      { "id": "D", "text": "Esclude la presenza di qualsiasi valore NULL nelle colonne di testo." }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La 2NF elimina le dipendenze parziali. Questo significa che se la chiave primaria è composta (ha più attributi), ogni attributo non chiave deve dipendere dall'intera chiave primaria e non solo da una parte di essa.",
+    "hint": "Riguarda l'assenza di dipendenze parziali da chiavi primarie composite.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_DB_024",
+    "question": "Nel linguaggio SQL, che cosa fa l'operatore UNION?",
+    "options": [
+      { "id": "A", "text": "Combina le colonne di due tabelle diverse basandosi su una condizione logica." },
+      { "id": "B", "text": "Unisce i risultati di due o più query SELECT in un unico set di risultati, rimuovendo automaticamente i duplicati." },
+      { "id": "C", "text": "Crea un legame permanente di chiave esterna tra due tabelle dello schema." },
+      { "id": "D", "text": "Esegue una moltiplicazione cartesiana tra due tabelle." }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "UNION combina le righe risultanti da due o più istruzioni SELECT in un unico risultato. Le SELECT devono avere lo stesso numero di colonne con tipi di dati compatibili. UNION rimuove i duplicati, mentre UNION ALL li mantiene.",
+    "hint": "Unisce i set di risultati verticalmente (aggiungendo righe), a differenza dei JOIN (che aggiungono colonne).",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_DB_025",
+    "question": "Cosa garantisce la proprietà di 'Isolamento' (Isolation) nelle transazioni ACID?",
+    "options": [
+      { "id": "A", "text": "Che la transazione rimanga memorizzata anche in caso di crash del server." },
+      { "id": "B", "text": "Che l'esecuzione concorrente di transazioni lasci il database nello stesso stato che si otterrebbe eseguendole sequenzialmente." },
+      { "id": "C", "text": "Che i dati sensibili siano isolati e non leggibili da amministratori non autorizzati." },
+      { "id": "D", "text": "Che il database non consenta accessi remoti durante la scrittura." }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'isolamento garantisce che le operazioni di una transazione concorrente siano invisibili alle altre transazioni fino al completamento (COMMIT) della transazione stessa, prevenendo anomalie da concorrenza.",
+    "hint": "Impedisce alle transazioni simultanee di interferire l'una con l'altra.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_DB_026",
+    "question": "Quale comando SQL DDL viene utilizzato per modificare la struttura di una tabella esistente, ad esempio aggiungendo una nuova colonna?",
+    "options": [
+      { "id": "A", "text": "UPDATE TABLE" },
+      { "id": "B", "text": "CHANGE SCHEMA" },
+      { "id": "C", "text": "ALTER TABLE" },
+      { "id": "D", "text": "MODIFY STRUCTURE" }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'istruzione DDL 'ALTER TABLE' consente di modificare la definizione di una tabella esistente, permettendo di aggiungere, modificare o eliminare colonne e vincoli di integrità.",
+    "hint": "Significa 'alterare' o cambiare la struttura definita in precedenza.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_DB_027",
+    "question": "Che cosa si intende per 'indipendenza fisica dei dati' in un DBMS a tre livelli?",
+    "options": [
+      { "id": "A", "text": "La possibilità di spostare fisicamente il server del database senza perdere la connessione internet." },
+      { "id": "B", "text": "La capacità di modificare lo schema interno (fisico) del database senza dover modificare lo schema logico o le applicazioni." },
+      { "id": "C", "text": "Il fatto che il codice SQL sia eseguibile su qualsiasi sistema operativo." },
+      { "id": "D", "text": "L'uso di dischi rigidi separati per i file di log e per i file dei dati." }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'indipendenza fisica dei dati assicura che le variazioni nelle modalità di memorizzazione fisica dei dati (come la scelta dei file system, l'uso di indici o la compressione) non influenzino lo schema logico né le applicazioni che vi accedono.",
+    "hint": "Riguarda l'astrazione tra come i dati sono memorizzati fisicamente sul disco e come sono visti logicamente.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_DB_028",
+    "question": "Qual è lo scopo principale dell'indice (Index) in un database relazionale?",
+    "options": [
+      { "id": "A", "text": "Garantire che tutti i dati siano ordinati alfabeticamente su disco per scopi statistici." },
+      { "id": "B", "text": "Velocizzare il recupero dei record durante le operazioni di ricerca e interrogazione." },
+      { "id": "C", "text": "Impedire modifiche accidentali ai record storici della tabella." },
+      { "id": "D", "text": "Consentire l'inserimento di più chiavi primarie nella stessa tabella." }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Gli indici sono strutture dati ausiliarie create per accelerare le operazioni di ricerca, filtro e ordinamento, a costo di un maggiore consumo di spazio su disco e un leggero rallentamento delle operazioni di scrittura.",
+    "hint": "Funziona in modo simile all'indice analitico di un libro.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_DB_029",
+    "question": "Quale operatore viene utilizzato per verificare se un valore rientra in un intervallo inclusivo di valori?",
+    "options": [
+      { "id": "A", "text": "IN" },
+      { "id": "B", "text": "BETWEEN" },
+      { "id": "C", "text": "LIKE" },
+      { "id": "D", "text": "RANGE" }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'operatore BETWEEN seleziona i valori all'interno di un intervallo specificato. I valori estremi dell'intervallo sono inclusi nella ricerca (ad esempio, 'WHERE eta BETWEEN 18 AND 25').",
+    "hint": "Sostituisce la scrittura 'eta >= 18 AND eta <= 25'.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_DB_030",
+    "question": "In una query SQL con clausola GROUP BY, a cosa serve il comando HAVING?",
+    "options": [
+      { "id": "A", "text": "Ad ordinare i risultati raggruppati in base a una colonna specifica." },
+      { "id": "B", "text": "A filtrare le righe della query prima che vengano eseguiti i raggruppamenti." },
+      { "id": "C", "text": "A specificare condizioni di filtro che coinvolgono funzioni di aggregazione sui gruppi generati." },
+      { "id": "D", "text": "A dichiarare variabili locali all'interno della query stessa." }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "HAVING consente di applicare condizioni di filtro sui risultati aggregati (es. 'HAVING COUNT(*) > 5'). Poiché WHERE non può essere usata con funzioni di aggregazione, HAVING è fondamentale.",
+    "hint": "È il corrispettivo di WHERE ma applicato ai gruppi.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_DB_031",
+    "question": "Che cos'è una vista (View) in SQL?",
+    "options": [
+      { "id": "A", "text": "Una tabella temporanea che viene memorizzata fisicamente su disco ogni volta che la query viene modificata." },
+      { "id": "B", "text": "Una tabella virtuale definita da una query SQL, il cui contenuto viene calcolato dinamicamente al momento dell'interrogazione." },
+      { "id": "C", "text": "Uno screenshot grafico del database utilizzato per la reportistica." },
+      { "id": "D", "text": "Un software esterno per visualizzare graficamente lo schema ER." }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Una vista è una tabella virtuale basata sul set di risultati di un'istruzione SQL SELECT. Non memorizza fisicamente i dati in sé, ma conserva la definizione della query per calcolare i dati al volo ogni volta che viene interrogata.",
+    "hint": "Non occupa spazio per i dati sul disco, ma solo per la query definita nello schema.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_DB_032",
+    "question": "Qual è il comportamento predefinito di un vincolo ON DELETE RESTRICT in una relazione chiave esterna?",
+    "options": [
+      { "id": "A", "text": "Se la riga genitore viene eliminata, le righe figlie collegate vengono automaticamente eliminate." },
+      { "id": "B", "text": "Impedisce l'eliminazione della riga genitore se esistono righe collegate nella tabella figlia." },
+      { "id": "C", "text": "Imposta a NULL la chiave esterna nelle tabelle figlie quando il genitore viene eliminato." },
+      { "id": "D", "text": "Sposta le righe orfane in una tabella di archivio del sistema." }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il vincolo ON DELETE RESTRICT impedisce l'eliminazione di un record nella tabella genitore (a cui si fa riferimento) se vi sono ancora record correlati nella tabella figlia, preservando così l'integrità referenziale.",
+    "hint": "Limita o 'restringe' l'operazione di eliminazione per evitare record orfani.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_DB_033",
+    "question": "Nello standard SQL, quale comando DCL viene usato per rimuovere privilegi precedentemente concessi a un utente?",
+    "options": [
+      { "id": "A", "text": "DENY" },
+      { "id": "B", "text": "REVOKE" },
+      { "id": "C", "text": "REMOVE" },
+      { "id": "D", "text": "CANCEL" }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il comando REVOKE viene utilizzato per ritirare o annullare i privilegi di accesso precedentemente assegnati a un utente del database tramite il comando GRANT.",
+    "hint": "È il comando opposto a GRANT.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_DB_034",
+    "question": "Quale delle seguenti è una tipica anomalia di aggiornamento (Update Anomaly) che la normalizzazione mira ad evitare?",
+    "options": [
+      { "id": "A", "text": "L'impossibilità di inserire dati in una tabella a causa di un vincolo di chiave primaria." },
+      { "id": "B", "text": "La necessità di modificare lo stesso dato in molteplici righe duplicate, col rischio di introdurre incoerenze se l'operazione è incompleta." },
+      { "id": "C", "text": "Il rallentamento delle performance del server a causa di un indice non ottimizzato." },
+      { "id": "D", "text": "La cancellazione accidentale dell'intero schema del database dovuto a un comando errato." }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'anomalia di aggiornamento si verifica quando le informazioni ridondanti richiedono modifiche in più posizioni per mantenere la coerenza. Se una riga viene aggiornata ma un'altra riga duplicata no, il database diventa incoerente.",
+    "hint": "La ridondanza causa la duplicazione dello stesso dato in più righe.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_DB_035",
+    "question": "Quale delle seguenti funzioni di aggregazione ignora completamente i valori NULL nel calcolo?",
+    "options": [
+      { "id": "A", "text": "Solo COUNT(*)" },
+      { "id": "B", "text": "Tutte le funzioni di aggregazione (SUM, AVG, MIN, MAX, COUNT) tranne COUNT(*)" },
+      { "id": "C", "text": "Nessuna, i valori NULL causano sempre un errore di runtime nelle funzioni di aggregazione" },
+      { "id": "D", "text": "Solo la funzione SUM()" }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Le funzioni di aggregazione come SUM, AVG, MIN, MAX e COUNT(colonna) ignorano i valori NULL durante il calcolo. L'unica eccezione è COUNT(*), che conta il numero totale di righe nel set di risultati, indipendentemente dalla presenza di valori NULL al loro interno.",
+    "hint": "COUNT(colonna) conta solo i record non nulli di quella colonna.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_DB_036",
+    "question": "Quale livello di isolamento delle transazioni garantisce la massima coerenza ed evita del tutto le anomalie di Dirty Read, Non-repeatable Read e Phantom Read?",
+    "options": [
+      { "id": "A", "text": "Read Committed" },
+      { "id": "B", "text": "Repeatable Read" },
+      { "id": "C", "text": "Serializable" },
+      { "id": "D", "text": "Snapshot Isolation" }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Il livello SERIALIZABLE è il più alto livello di isolamento previsto dallo standard SQL. Esso impone un blocco rigoroso sulle risorse in modo che le transazioni sembrino eseguite in sequenza, eliminando tutte le anomalie di concorrenza, a scapito però delle prestazioni complessive.",
+    "hint": "È l'isolamento più restrittivo e sicuro.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_DB_037",
+    "question": "Una relazione si trova in Terza Forma Normale (3NF) se soddisfa i requisiti della 2NF e inoltre:",
+    "options": [
+      { "id": "A", "text": "Non contiene più di cose chiavi candidate." },
+      { "id": "B", "text": "Nessun attributo non chiave dipende transitivamente dalla chiave primaria." },
+      { "id": "C", "text": "Tutti gli attributi chiave fanno parte di una chiave primaria composta." },
+      { "id": "D", "text": "Ogni colonna ha un indice univoco associato." }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La 3NF elimina le dipendenze transitive degli attributi non chiave dalla chiave primaria. Ovvero, per ogni dipendenza funzionale non banale X -> A, X deve essere una superchiave oppure A deve essere un attributo primo.",
+    "hint": "Evita che un attributo non chiave dipenda da un altro attributo non chiave che a sua volta dipende dalla chiave primaria.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_DB_038",
+    "question": "Che cosa si intende per 'Phantom Read' (Lettura Fantasma) nel contesto del controllo della concorrenza?",
+    "options": [
+      { "id": "A", "text": "Quando una transazione legge dati modificati da un'altra transazione non ancora confermata." },
+      { "id": "B", "text": "Quando una transazione rilegge gli stessi dati e scopre che sono stati modificati o eliminati da un'altra transazione confermata." },
+      { "id": "C", "text": "Quando una transazione riesegue una query di ricerca e ottiene un insieme di righe diverso a causa di inserimenti effettuati da un'altra transazione concorrente appena confermata." },
+      { "id": "D", "text": "La corruzione dell'indice principale a seguito di un crash hardware imprevisto." }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "La lettura fantasma si verifica quando una Transazione A esegue una query che restituisce un set di righe soddisfacenti una determinata condizione. Successivamente, la Transazione B inserisce nuove righe che soddisfano quella stessa condizione e fa il commit. Se la Transazione A riesegue la query, vedrà comparire queste nuove righe 'fantasma'.",
+    "hint": "Riguarda l'inserimento concorrente di nuove righe che rientrano in un filtro precedentemente eseguito.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_DB_039",
+    "question": "In cosa differisce la Forma Normale di Boyce-Codd (BCNF) rispetto alla Terza Forma Normale (3NF)?",
+    "options": [
+      { "id": "A", "text": "La BCNF ammette dipendenze transitive ma vieta le dipendenze multivalore." },
+      { "id": "B", "text": "La BCNF richiede che per ogni dipendenza funzionale non banale X -> A, il determinante X sia necessariamente una superchiave, senza eccezioni per gli attributi primi." },
+      { "id": "C", "text": "La BCNF si applica solo a database non relazionali o distribuiti (NoSQL)." },
+      { "id": "D", "text": "La 3NF è strettamente più restrittiva della BCNF, pertanto ogni tabella in 3NF è automaticamente in BCNF." }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La BCNF è una versione più forte e restrittiva della 3NF. Nella 3NF è consentita la dipendenza X -> A se A fa parte di una chiave candidata (attributo primo). Nella BCNF, invece, questa eccezione non è ammessa: X deve essere sempre una superchiave.",
+    "hint": "BCNF non fa eccezioni per gli attributi primi nel membro destro della dipendenza funzionale.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_DB_040",
+    "question": "Quale delle seguenti anomalie si verifica quando due transazioni leggono lo stesso record, lo modificano concorrentemente e poi salvano le modifiche, facendo sì che l'ultimo commit sovrascriva silenziosamente la modifica della prima transazione?",
+    "options": [
+      { "id": "A", "text": "Dirty Read" },
+      { "id": "B", "text": "Lost Update (Aggiornamento Perduto)" },
+      { "id": "C", "text": "Phantom Read" },
+      { "id": "D", "text": "Non-repeatable Read" }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'aggiornamento perduto (Lost Update) si verifica quando la Transazione A e la Transazione B leggono contemporaneamente lo stesso valore. Successivamente, A modifica il valore e fa commit, ma subito dopo anche B modifica lo stesso valore basandosi sulla lettura originaria e fa commit, sovrascrivendo l'aggiornamento di A senza tenerne conto.",
+    "hint": "Riguarda la sovrascrittura di modifiche concorrenti dovuta a mancanza di lock adeguati in lettura/scrittura.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_DB_041",
+    "question": "Che cosa stabilisce il teorema CAP per i sistemi di database distribuiti?",
+    "options": [
+      { "id": "A", "text": "È possibile garantire contemporaneamente solo due tra Consistenza (Consistency), Disponibilità (Availability) e Tolleranza alla partizione di rete (Partition Tolerance)." },
+      { "id": "B", "text": "La velocità di calcolo di una query JOIN raddoppia ogni due anni all'aumentare dei nodi fisici." },
+      { "id": "C", "text": "Un database distribuito deve memorizzare le chiavi primarie, gli attributi e i puntatori in nodi separati." },
+      { "id": "D", "text": "Le transazioni distribuite richiedono sempre l'uso di un protocollo a tre fasi (3PC)." }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il Teorema CAP (o teorema di Brewer) afferma che in un sistema informativo distribuito non è possibile garantire contemporaneamente tutte e tre le seguenti proprietà: Coerenza (Consistency), Disponibilità (Availability) e Tolleranza alla partizione (Partition Tolerance). Se ne possono scegliere al massimo due.",
+    "hint": "Sigla CAP: Consistency, Availability, Partition tolerance.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_DB_042",
+    "question": "Quale meccanismo di locking viene comunemente utilizzato dai DBMS per implementare il protocollo di lock a due fasi (2PL - Two-Phase Locking) garantendo la serializzabilità delle transazioni?",
+    "options": [
+      { "id": "A", "text": "Locks distribuiti basati esclusivamente su indirizzi IP." },
+      { "id": "B", "text": "Una fase di acquisizione (growing phase) in cui vengono ottenuti i lock, seguita da una fase di rilascio (shrinking phase) in cui non possono essere acquisiti nuovi lock." },
+      { "id": "C", "text": "Un blocco rigido dell'intero database all'inizio di qualsiasi transazione DML." },
+      { "id": "D", "text": "L'uso esclusivo di lock ottimistici senza memorizzazione di metadati su disco." }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il protocollo 2PL garantisce la serializzabilità dividendo la gestione dei lock in due fasi distinte: una fase crescente (growing phase) in cui la transazione acquisisce i lock ma non ne rilascia alcuno, e una fase decrescente (shrinking phase) in cui i lock vengono rilasciati ma non ne viene acquisito nessun altro.",
+    "hint": "Riguarda la regola per cui nessun lock può essere acquisito dopo che ne è stato rilasciato uno.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_DB_043",
+    "question": "In SQL, qual è lo scopo principale del livello di isolamento 'READ UNCOMMITTED'?",
+    "options": [
+      { "id": "A", "text": "Impedire qualsiasi operazione di scrittura sulle tabelle del database." },
+      { "id": "B", "text": "Consentire a una transazione di leggere modifiche non ancora confermate (committed) da altre transazioni, riducendo al minimo i blocchi di lettura." },
+      { "id": "C", "text": "Forzare l'uso immediato del comando ROLLBACK in caso di collisione di chiavi primarie." },
+      { "id": "D", "text": "Criptare i dati in transito tra il client e il DBMS." }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il livello READ UNCOMMITTED è il più basso livello di isolamento. Permette le cosiddette 'letture sporche' (Dirty Reads), cioè consente a una transazione di visualizzare i dati modificati da un'altra transazione concorrente anche se quest'ultima non ha ancora effettuato il COMMIT.",
+    "hint": "Rende possibili le letture sporche di dati temporanei.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_DB_044",
+    "question": "Nel contesto delle query complesse, che cos'è una Common Table Expression (CTE) e come viene introdotta in SQL?",
+    "options": [
+      { "id": "A", "text": "È una tabella memorizzata permanentemente nello schema di sistema, introdotta con il comando CREATE CTE." },
+      { "id": "B", "text": "È un set di risultati temporaneo nominato, valido solo all'interno dell'ambito di esecuzione di una singola query, introdotto con la clausola WITH." },
+      { "id": "C", "text": "È un indice speciale per velocizzare le query nidificate, introdotto con CREATE INDEX ON CTE." },
+      { "id": "D", "text": "È una stored procedure ricorsiva precompilata introdotta con EXECUTE CTE." }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Le CTE (Common Table Expressions) sono introdotte tramite la parola chiave WITH. Rappresentano tabelle temporanee virtuali definite all'interno della query stessa e sono utili per migliorare la leggibilità del codice SQL o per implementare query ricorsive.",
+    "hint": "Si definisce con la clausola 'WITH nome_cte AS (SELECT ...)'.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_DB_045",
+    "question": "Nel protocollo di commit a due fasi (2PC - Two-Phase Commit) utilizzato nei database distribuiti, cosa accade durante la prima fase (fase di preparazione)?",
+    "options": [
+      { "id": "A", "text": "Il coordinatore effettua direttamente il commit dei dati su tutti i nodi." },
+      { "id": "B", "text": "Il coordinatore chiede a tutti i nodi partecipanti (coorti) se sono pronti a effettuare il commit, e ciascun nodo risponde con VOTE_COMMIT o VOTE_ABORT." },
+      { "id": "C", "text": "I nodi partecipanti rilasciano immediatamente tutti i lock acquisiti." },
+      { "id": "D", "text": "Viene eseguito un backup incrementale dei dati distribuiti sui nodi attivi." }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Nella prima fase del 2PC (Phase 1: Prepare Phase), il coordinatore interroga tutti i partecipanti per verificare se sono pronti a impegnarsi a scrivere i dati. Ogni partecipante scrive nel proprio log e risponde votando per il commit o l'aborto dell'operazione globale.",
+    "hint": "È la fase di votazione in cui si verifica la disponibilità dei nodi.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_DB_046",
+    "question": "Che cosa si intende per 'Dipendenza Funzionale Multivalore' (MVD) e a quale forma normale fa riferimento principalmente?",
+    "options": [
+      { "id": "A", "text": "Una dipendenza in cui un attributo dipende da due chiavi primarie diverse, e fa riferimento alla 2NF." },
+      { "id": "B", "text": "Una situazione in cui la presenza di uno o più attributi in una riga implica la presenza di un insieme di altri attributi, e costituisce il fulcro della Quarta Forma Normale (4NF)." },
+      { "id": "C", "text": "Il legame tra tabelle nidificate all'interno di un database NoSQL orientato ai grafi." },
+      { "id": "D", "text": "Il vincolo per cui una chiave primaria deve necessariamente contenere solo attributi interi." }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La dipendenza multivalore (MVD), indicata con X -> Y, si verifica quando, data una relazione con attributi X, Y, Z, il valore di X determina univocamente un insieme di valori per Y in modo indipendente dai valori di Z. Viene eliminata con la Quarta Forma Normale (4NF).",
+    "hint": "Riguarda l'indipendenza reciproca di due attributi multivalore associati alla stessa chiave.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_DB_047",
+    "question": "Quale delle seguenti affermazioni descrive correttamente il comportamento di una transazione concorrente con livello di isolamento 'REPEATABLE READ'?",
+    "options": [
+      { "id": "A", "text": "Permette letture sporche (Dirty Reads) ma impedisce le letture fantasma (Phantom Reads)." },
+      { "id": "B", "text": "Garantisce che se una transazione rilegge gli stessi record all'interno della stessa transazione, otterrà esattamente gli stessi valori (impedisce i Non-repeatable Reads), ma potrebbero comunque verificarsi Phantom Reads." },
+      { "id": "C", "text": "Non consente a nessun'altra transazione di inserire nuovi record nel database durante tutta la sua esecuzione." },
+      { "id": "D", "text": "Sblocca automaticamente tutti i record modificati non appena viene eseguita una SELECT." }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il livello REPEATABLE READ garantisce che le letture effettuate all'interno della transazione siano coerenti e ripetibili. I record letti vengono bloccati in modo che nessun'altra transazione possa modificarli o eliminarli prima della fine della transazione corrente. Tuttavia, nuove righe possono essere inserite da terzi (Phantom Read).",
+    "hint": "Evita la modifica dei record esistenti letti, ma non previene la comparsa di record aggiunti ex-novo.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_DB_048",
+    "question": "Cosa stabilisce la proprietà di 'Consistenza' (Consistency) all'interno delle proprietà ACID?",
+    "options": [
+      { "id": "A", "text": "Che il database debba rispondere entro un tempo prestabilito di millisecondi a qualsiasi richiesta di interrogazione." },
+      { "id": "B", "text": "Che una transazione possa portare il database solo da uno stato valido a un altro stato valido, rispettando tutti i vincoli di integrità dello schema." },
+      { "id": "C", "text": "Che i dati rimangano memorizzati in modo consistente e non volatile su supporti a stato solido." },
+      { "id": "D", "text": "Che il database non consenta mai l'inserimento di righe duplicate o di chiavi esterne nulle." }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La proprietà di Consistenza (Consistency) garantisce che una transazione modifichi il database rispettando rigorosamente tutte le regole e i vincoli stabiliti (come chiavi primarie, vincoli di unicità, integrità referenziale). Se una transazione viola le regole, viene annullata.",
+    "hint": "Riguarda la transizione tra stati del database coerenti con le regole dello schema.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_DB_049",
+    "question": "Che cos'è l'ottimizzatore delle query (Query Optimizer) basato sui costi (Cost-Based Optimizer - CBO) in un DBMS?",
+    "options": [
+      { "id": "A", "text": "Un modulo software che calcola la tariffazione in denaro basata sul consumo di CPU per ciascun utente." },
+      { "id": "B", "text": "Un componente del DBMS che analizza diverse strategie di esecuzione per una query SQL e seleziona quella con il costo stimato inferiore (basato su statistiche dei dati, I/O e CPU)." },
+      { "id": "C", "text": "Un indice speciale che riduce i costi di memorizzazione comprimendo i dati storici delle tabelle DML." },
+      { "id": "D", "text": "Un tool grafico per analizzare le licenze d'uso del database relazionale." }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il Cost-Based Optimizer (CBO) valuta diversi piani di esecuzione alternativi per una singola query SQL. Utilizza le statistiche memorizzate nel catalogo del database per stimare il costo computazionale (I/O, CPU) di ciascun piano e sceglie quello teoricamente più efficiente.",
+    "hint": "Trova la via più rapida ed efficiente per accedere ai dati richiesti basandosi su statistiche.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_DB_050",
+    "question": "In SQL, qual è la principale differenza tra una sottoquery definita come 'correlata' (Correlated Subquery) e una 'non correlata'?",
+    "options": [
+      { "id": "A", "text": "La sottoquery correlata viene eseguita una sola volta per l'intera query, mentre quella non correlata viene eseguita per ciascuna riga della query esterna." },
+      { "id": "B", "text": "La sottoquery correlata fa riferimento a colonne della tabella presente nella query esterna, richiedendo quindi di essere valutata per ciascuna riga elaborata dalla query esterna." },
+      { "id": "C", "text": "Le sottoquery correlate non possono contenere clausole WHERE o GROUP BY." },
+      { "id": "D", "text": "Le sottoquery correlate sono supportate solo all'interno delle istruzioni DDL CREATE TABLE." }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Una sottoquery correlata dipende dalla query esterna perché fa riferimento a uno o più dei suoi attributi. Di conseguenza, il DBMS deve valutarla ripetutamente, una volta per ciascuna riga esaminata dalla query esterna. Al contrario, una sottoquery non correlata è indipendente.",
+    "hint": "Cerca dipendenze tra i campi della query esterna e quelli della sottoquery interna.",
+    "level": "avanzato"
+  }
+]

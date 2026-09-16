@@ -1,0 +1,1302 @@
+[
+  {
+    "id": "Q_INF_SW_001",
+    "question": "Che cosa si intende per SaaS (Software as a Service) nel Cloud Computing?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un modello di servizio in cui l'utente finale accede a un'applicazione software tramite browser o client leggero, senza gestire l'infrastruttura sottostante."
+      },
+      {
+        "id": "B",
+        "text": "Un modello in cui il fornitore mette a disposizione server fisici, storage e connettività di rete lasciando al cliente la gestione di OS e middleware."
+      },
+      {
+        "id": "C",
+        "text": "Una piattaforma di sviluppo completa fornita come servizio, utile per programmatori che creano software personalizzato."
+      },
+      {
+        "id": "D",
+        "text": "Un protocollo di sicurezza per cifrare i dati memorizzati in cloud."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il SaaS (Software as a Service) permette di utilizzare applicazioni software ospitate sul cloud (come Microsoft 365 o Salesforce) tramite un abbonamento o gratuitamente, senza doversi preoccupare di installazioni, manutenzione del server, sistema operativo o aggiornamenti hardware.",
+    "hint": "Pensa ad applicazioni web pronte all'uso come Gmail o Google Workspace.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_SW_002",
+    "question": "Quale delle seguenti opzioni rappresenta un esempio classico di servizio IaaS (Infrastructure as a Service)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Google Drive"
+      },
+      {
+        "id": "B",
+        "text": "Microsoft Azure Virtual Machines (VM)"
+      },
+      {
+        "id": "C",
+        "text": "Google App Engine"
+      },
+      {
+        "id": "D",
+        "text": "Slack"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "IaaS fornisce risorse di calcolo virtualizzate (come macchine virtuali, storage e reti). Azure VM è un esempio perfetto di infrastruttura fornita come servizio, dove l'utente deve installare e gestire il proprio sistema operativo e le proprie applicazioni.",
+    "hint": "Fornisce server virtuali vuoti su cui installare ciò che si desidera.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_SW_003",
+    "question": "Qual è lo scopo principale di una VPN (Virtual Private Network) nel contesto del lavoro agile (smart working)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Aumentare la velocità della connessione Internet domestica dell'operatore."
+      },
+      {
+        "id": "B",
+        "text": "Permettere una connessione sicura e cifrata tra il dispositivo remoto del lavoratore e la rete privata aziendale."
+      },
+      {
+        "id": "C",
+        "text": "Monitorare la produttività del dipendente controllando gli orari di attività al computer."
+      },
+      {
+        "id": "D",
+        "text": "Filtrare lo spam e i messaggi pubblicitari provenienti da siti di e-commerce."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La VPN crea un tunnel cifrato su una rete pubblica (Internet) per connettere in modo sicuro il computer dello smart worker alla rete aziendale interna, proteggendo la riservatezza e l'integrità dei dati scambiati.",
+    "hint": "Crea un 'tunnel' virtuale sicuro attraverso Internet.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_SW_004",
+    "question": "Che cosa si intende per MFA (Multi-Factor Authentication)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un sistema di cifratura che richiede l'uso di più algoritmi simmetrici contemporaneamente."
+      },
+      {
+        "id": "B",
+        "text": "Un meccanismo di sicurezza che richiede due o più prove di identità distinte per autorizzare l'accesso a un account."
+      },
+      {
+        "id": "C",
+        "text": "Una politica aziendale per l'utilizzo di più computer contemporaneamente da parte dello stesso utente."
+      },
+      {
+        "id": "D",
+        "text": "Un protocollo di autenticazione per dispositivi wireless basato su tecnologia RFID."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La MFA (Autenticazione a più fattori) aumenta la sicurezza richiedendo almeno due fattori di verifica diversi, tipicamente classificati in: qualcosa che si conosce (password), qualcosa che si possiede (token/smartphone) o qualcosa che si è (biometria).",
+    "hint": "Richiede passaggi aggiuntivi oltre alla classica password (es. codice OTP su cellulare).",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_SW_005",
+    "question": "Nello sviluppo Agile con metodologia Scrum, qual è lo scopo principale del Daily Scrum (o Daily Stand-up)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Assegnare nuovi compiti a ciascun membro del team da parte del Project Manager."
+      },
+      {
+        "id": "B",
+        "text": "Ispezionare i progressi verso lo Sprint Goal e adattare il backlog pianificato per il giorno corrente."
+      },
+      {
+        "id": "C",
+        "text": "Discutere in dettaglio le soluzioni tecniche a problemi di architettura del codice."
+      },
+      {
+        "id": "D",
+        "text": "Presentare il software completato al cliente finale per raccogliere i feedback di accettazione."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il Daily Scrum è un evento giornaliero della durata massima di 15 minuti in cui il Developer Team sincronizza le attività svolte nelle ultime 24 ore, pianifica il lavoro per le successive 24 ore ed evidenzia eventuali impedimenti (blockers) rispetto allo Sprint Goal.",
+    "hint": "Dura massimo 15 minuti e serve al team per allinearsi giornalmente.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_SW_006",
+    "question": "Che cos'è una 'User Story' in ambito Agile?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un documento formale di specifica tecnica firmato dal committente che descrive l'intera architettura del database."
+      },
+      {
+        "id": "B",
+        "text": "Una breve descrizione informale di una funzionalità software scritta dal punto di vista dell'utente finale."
+      },
+      {
+        "id": "C",
+        "text": "Un rapporto statistico sui tempi di utilizzo di un software da parte degli utenti finali."
+      },
+      {
+        "id": "D",
+        "text": "Una fase del ciclo di vita del software dedicata al collaudo dell'interfaccia grafica."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Le User Story descrivono in linguaggio naturale e comprensibile per il business le funzionalità desiderate dal punto di vista dell'utente finale (es. 'Come utente, voglio poter reimpostare la mia password...').",
+    "hint": "Segue tipicamente la struttura: 'Come [ruolo], voglio [azione] per ottenere [beneficio]'.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_SW_007",
+    "question": "Che cosa indica l'acronimo WebRTC?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Web Real-Time Communications"
+      },
+      {
+        "id": "B",
+        "text": "Web Remote Transmission Control"
+      },
+      {
+        "id": "C",
+        "text": "Wide Ethernet Real-Time Connection"
+      },
+      {
+        "id": "D",
+        "text": "Web Routing and Technical Configuration"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "WebRTC sta per Web Real-Time Communications. È uno standard open-source che consente ai browser e alle applicazioni mobili di scambiare file e flussi multimediali (audio/video) in tempo reale tramite connessioni peer-to-peer.",
+    "hint": "Si focalizza sulla comunicazione audio/video in tempo reale direttamente nei browser.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_SW_008",
+    "question": "In quale scenario l'uso di WebRTC offre il massimo valore senza la necessità di componenti aggiuntivi esterni?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Lo streaming unidirezionale massivo di contenuti video registrati (es. Netflix)."
+      },
+      {
+        "id": "B",
+        "text": "Una videochiamata diretta peer-to-peer integrata in una pagina web."
+      },
+      {
+        "id": "C",
+        "text": "Il backup incrementale pianificato di database relazionali in cloud."
+      },
+      {
+        "id": "D",
+        "text": "L'invio di messaggi email cifrati con protocollo PGP."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La caratteristica fondamentale di WebRTC è quella di abilitare videochiamate, chat vocali e condivisione di dati peer-to-peer (da browser a browser) in tempo reale, senza bisogno di installare plugin proprietari o software esterni.",
+    "hint": "Pensa a Google Meet o Jitsi eseguiti nativamente all'interno di Chrome o Firefox.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_SW_009",
+    "question": "Qual è la funzione primaria del protocollo RTSP (Real Time Streaming Protocol)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Definire il formato di compressione dei dati video trasmessi in rete."
+      },
+      {
+        "id": "B",
+        "text": "Agire come 'telecomando virtuale' per controllare la riproduzione di flussi multimediali (play, pause, stop)."
+      },
+      {
+        "id": "C",
+        "text": "Fornire una cifratura end-to-end per i file musicali archiviati localmente."
+      },
+      {
+        "id": "D",
+        "text": "Gestire l'assegnazione dinamica degli indirizzi IP all'interno di una rete aziendale."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "RTSP è un protocollo a livello applicativo progettato per controllare la riproduzione di flussi multimediali (es. audio/video da telecamere IP). Viene spesso paragonato a un telecomando virtuale per funzioni quali avvio (PLAY), pausa (PAUSE) e arresto (TEARDOWN) dello streaming.",
+    "hint": "Funziona come un telecomando per gestire il flusso, non per trasportare i dati multimediali veri e propri.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_SW_010",
+    "question": "Quale suite di protocolli di sicurezza a livello di rete (Network Layer) viene utilizzata per cifrare e autenticare il traffico di una VPN?",
+    "options": [
+      {
+        "id": "A",
+        "text": "IPsec"
+      },
+      {
+        "id": "B",
+        "text": "HTTPS"
+      },
+      {
+        "id": "C",
+        "text": "SSH"
+      },
+      {
+        "id": "D",
+        "text": "WEP"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "IPsec (Internet Protocol Security) è una suite di protocolli che protegge le comunicazioni a livello di rete (Layer 3) cifrando e autenticando ogni pacchetto IP. È ampiamente utilizzata per configurare connessioni VPN site-to-site o client-to-site sicure.",
+    "hint": "Lavora direttamente al livello Network (IP) dello stack OSI.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_SW_011",
+    "question": "In smart working, che cos'è il phishing?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Una tecnica di ottimizzazione della memoria RAM dei server aziendali."
+      },
+      {
+        "id": "B",
+        "text": "Un attacco di ingegneria sociale in cui i dipendenti vengono ingannati a rivelare informazioni sensibili tramite e-mail contraffatte."
+      },
+      {
+        "id": "C",
+        "text": "Un protocollo di routing utilizzato per collegare sedi aziendali distanti."
+      },
+      {
+        "id": "D",
+        "text": "Un'applicazione software per la pianificazione di riunioni virtuali."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il phishing è un attacco informatico basato sull'inganno. Il malintenzionato si spaccia per un'entità fidata (es. la banca, il reparto IT dell'azienda) per spingere l'utente a cliccare su link dannosi o inserire credenziali riservate.",
+    "hint": "Deriva da 'fishing' (pescare), alludendo alle esche inviate via email.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_SW_012",
+    "question": "Quale delle seguenti caratteristiche definisce al meglio il modello PaaS (Platform as a Service)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il fornitore offre solo l'hardware fisico, lasciando la gestione dell'hypervisor e dei server virtuali all'utente."
+      },
+      {
+        "id": "B",
+        "text": "Il fornitore cloud gestisce hardware, sistemi operativi e middleware, fornendo agli sviluppatori un ambiente pronto per scrivere e pubblicare codice."
+      },
+      {
+        "id": "C",
+        "text": "L'utente finale acquista un software già pronto, di cui non può modificare né configurare l'infrastruttura sottostante."
+      },
+      {
+        "id": "D",
+        "text": "È un servizio focalizzato esclusivamente sulla vendita di licenze desktop a vita."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il modello PaaS fornisce una piattaforma di sviluppo (comprendente sistema operativo, middleware, database e server web) gestita dal provider Cloud. Gli sviluppatori caricano solo il codice dell'applicazione senza preoccuparsi di aggiornamenti di sistema, patch di sicurezza dell'OS o configurazione dell'hardware.",
+    "hint": "Il focus è sullo sviluppo del codice senza gestire l'OS.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_SW_013",
+    "question": "Qual è l'elemento visivo cardine di una board Kanban?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un diagramma di flusso ad albero che indica le relazioni gerarchiche tra i dipendenti."
+      },
+      {
+        "id": "B",
+        "text": "Colonne verticali che rappresentano i diversi stati del flusso di lavoro (es. To Do, In Progress, Done) e schede per i singoli compiti."
+      },
+      {
+        "id": "C",
+        "text": "Un grafico a torta che mostra la ripartizione del budget economico mensile."
+      },
+      {
+        "id": "D",
+        "text": "Una matrice a doppia entrata con i soli orari di entrata e uscita dello smart working."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Una lavagna (board) Kanban organizza i compiti sotto forma di schede disposte all'interno di colonne che indicano lo stato di avanzamento. Lo scopo è visualizzare il flusso di lavoro e limitare il Work In Progress (WIP).",
+    "hint": "Visualizza le attività che si spostano da sinistra a destra.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_SW_014",
+    "question": "Nel contesto dei protocolli di rete, cosa significa l'acronimo VPN?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Virtual Protocol Network"
+      },
+      {
+        "id": "B",
+        "text": "Virtual Private Network"
+      },
+      {
+        "id": "C",
+        "text": "Verified Private Node"
+      },
+      {
+        "id": "D",
+        "text": "Variable Port Network"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'acronimo VPN sta per Virtual Private Network (Rete Privata Virtuale). Si tratta di un servizio che protegge la connessione Internet e la privacy online creando una rete privata virtuale a partire da una connessione pubblica.",
+    "hint": "Significa Rete Privata Virtuale.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_SW_015",
+    "question": "Quale delle seguenti tecnologie rappresenta una soluzione Cloud SaaS per lo storage collaborativo di documenti?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Docker"
+      },
+      {
+        "id": "B",
+        "text": "Google Drive"
+      },
+      {
+        "id": "C",
+        "text": "Ubuntu Server"
+      },
+      {
+        "id": "D",
+        "text": "Apache HTTP Server"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Google Drive è una soluzione SaaS (Software as a Service) accessibile via web che consente la memorizzazione, sincronizzazione e modifica collaborativa in tempo reale dei file all'interno di spazi condivisi.",
+    "hint": "Un servizio di cloud storage molto diffuso per archiviare e condividere documenti online.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_SW_016",
+    "question": "RTSP (Real Time Streaming Protocol) lavora principalmente come:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un codec video per comprimere la risoluzione dell'immagine."
+      },
+      {
+        "id": "B",
+        "text": "Un protocollo di controllo della sessione di streaming multimediale."
+      },
+      {
+        "id": "C",
+        "text": "Un protocollo per cifrare il disco rigido locale dello smart worker."
+      },
+      {
+        "id": "D",
+        "text": "Un framework agile per coordinare i programmatori a distanza."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "RTSP è un protocollo di livello applicativo utilizzato per controllare la trasmissione del flusso multimediale. Funziona da protocollo di controllo, definendo le sessioni per avviare o interrompere lo streaming, mentre il trasporto reale dei dati multimediali è delegato a protocolli separati come RTP.",
+    "hint": "Pensa a comandi di controllo sessione (es. play, pause).",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_SW_017",
+    "question": "Nella metodologia Scrum, quale figura ha la responsabilità principale di massimizzare il valore del prodotto e gestire il Product Backlog?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Lo Scrum Master"
+      },
+      {
+        "id": "B",
+        "text": "Il Product Owner"
+      },
+      {
+        "id": "C",
+        "text": "I Developers"
+      },
+      {
+        "id": "D",
+        "text": "Il Project Manager"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il Product Owner è il solo responsabile della gestione del Product Backlog, che include la definizione chiara degli elementi, l'ordinamento in base al valore per il business e la garanzia che il backlog sia visibile e comprensibile al team.",
+    "hint": "Rappresenta la voce del cliente e degli stakeholder.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_SW_018",
+    "question": "Qual è un vantaggio fondamentale dell'architettura WebRTC rispetto alle vecchie tecnologie di comunicazione in tempo reale basate su browser (como Flash o Silverlight)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Funziona solo su sistemi operativi Linux nativi."
+      },
+      {
+        "id": "B",
+        "text": "Non richiede alcun plugin proprietario o software aggiuntivo, essendo supportata nativamente dai moderni browser."
+      },
+      {
+        "id": "C",
+        "text": "Rilascia le informazioni personali dell'utente direttamente su Internet senza crittografia."
+      },
+      {
+        "id": "D",
+        "text": "Funziona esclusivamente quando il PC è connesso a una VPN a 128 bit."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "WebRTC è uno standard integrato direttamente nelle API HTML5 dei browser moderni. Consente lo scambio di flussi audio/video e dati in tempo reale senza richiedere all'utente di scaricare e installare estensioni esterne o plugin proprietari.",
+    "hint": "Viene eseguito nativamente nel browser (HTML5).",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_SW_019",
+    "question": "Qual è lo scopo principale di un server STUN (Session Traversal Utilities for NAT) in un'architettura WebRTC?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cifrare i dati multimediali utilizzando chiavi private asimmetriche."
+      },
+      {
+        "id": "B",
+        "text": "Consentire a un host dietro un NAT di scoprire il proprio indirizzo IP pubblico e la porta esterna assegnata."
+      },
+      {
+        "id": "C",
+        "text": "Archiviare le registrazioni video delle sessioni in un database distribuito."
+      },
+      {
+        "id": "D",
+        "text": "Effettuare la transcodifica video in tempo reale per ridurre la banda consumata."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Poiché la maggior parte dei dispositivi interni si trova dietro un NAT ed ha indirizzi IP privati (non instradabili su Internet pubblica), il server STUN aiuta il client a scoprire il proprio indirizzo IP pubblico e la porta esterna per permettere l'instaurazione di una connessione diretta peer-to-peer.",
+    "hint": "Aiuta a superare il NAT scoprendo l'indirizzo pubblico esterno.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_SW_020",
+    "question": "Nel contesto di WebRTC, qual è la principale differenza tra un server STUN e un server TURN?",
+    "options": [
+      {
+        "id": "A",
+        "text": "STUN viene utilizzato solo per i messaggi di testo, TURN solo per le videochiamate."
+      },
+      {
+        "id": "B",
+        "text": "STUN permette la connessione diretta (peer-to-peer) fornendo l'IP pubblico, mentre TURN funge da intermediario (relay) inoltrando tutto il traffico multimediale."
+      },
+      {
+        "id": "C",
+        "text": "TURN è un protocollo open source, mentre STUN è un protocollo proprietario con licenza commerciale."
+      },
+      {
+        "id": "D",
+        "text": "STUN opera a livello 2 del modello OSI, mentre TURN opera a livello 7."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "STUN si limita ad aiutare i peer a scoprire i propri IP pubblici in modo che possano connettersi direttamente. Se i firewall o i NAT sono simmetrici e non permettono la comunicazione diretta, viene utilizzato TURN (Traversal Using Relays around NAT), che riceve e reinvia tutto il traffico multimediale, fungendo da server di relay intermedio (con costi di banda notevoli).",
+    "hint": "TURN interviene come 'ponte' quando la connessione diretta fallisce.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_SW_021",
+    "question": "Che cos'è l'SDP (Session Description Protocol) nel ciclo di vita di una connessione WebRTC?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un protocollo di sicurezza per verificare l'identità dell'utente tramite token OAuth."
+      },
+      {
+        "id": "B",
+        "text": "Una stringa di testo strutturata che descrive le caratteristiche multimediali della connessione (codec supportati, risoluzioni, indirizzi IP, ecc.) scambiata durante la negoziazione."
+      },
+      {
+        "id": "C",
+        "text": "Un database distribuito contenente gli indirizzi IP dei server di segnalazione."
+      },
+      {
+        "id": "D",
+        "text": "L'algoritmo di compressione audio predefinito utilizzato per i flussi VoIP a bassa latenza."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "SDP (Session Description Protocol) definisce le capacità multimediali dei due client (codec, bitrate supportati, indirizzi di trasporto). Durante la fase di segnalazione (signaling), i client si scambiano oggetti SDP tramite messaggi 'Offer' e 'Answer' per accordarsi sulle modalità di comunicazione.",
+    "hint": "Contiene i dettagli su formati audio/video e opzioni di trasporto negoziate tra i peer.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_SW_022",
+    "question": "Qual è la porta di rete standard registrata dallo IANA per l'utilizzo del protocollo RTSP?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Porta 80"
+      },
+      {
+        "id": "B",
+        "text": "Porta 443"
+      },
+      {
+        "id": "C",
+        "text": "Porta 554"
+      },
+      {
+        "id": "D",
+        "text": "Porta 8080"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "La porta standard predefinita per il protocollo RTSP (Real Time Streaming Protocol) è la porta TCP e UDP 554. La porta 80 è per HTTP, la 443 per HTTPS.",
+    "hint": "È un numero di porta ben noto (Well-Known Port) inferiore a 1000.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_SW_023",
+    "question": "Quale comando (metodo) del protocollo RTSP viene inviato da un client a un server multimediale per richiedere l'elenco dei metodi supportati (es. OPTIONS, DESCRIBE, SETUP, PLAY)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "GET"
+      },
+      {
+        "id": "B",
+        "text": "OPTIONS"
+      },
+      {
+        "id": "C",
+        "text": "DESCRIBE"
+      },
+      {
+        "id": "D",
+        "text": "SETUP"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il metodo OPTIONS di RTSP, in modo simile a HTTP, viene utilizzato per interrogare il server e determinare quali altri metodi di controllo della sessione (come DESCRIBE, SETUP, PLAY, PAUSE, TEARDOWN) sono supportati e disponibili.",
+    "hint": "È lo stesso nome del metodo HTTP usato per interrogare le opzioni supportate dal server.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_SW_024",
+    "question": "Quale coppia di protocolli dello stack IETF viene di norma utilizzata per trasportare i dati del flusso multimediale e sincronizzarli nel tempo, controllando la qualità della trasmissione avviata tramite RTSP?",
+    "options": [
+      {
+        "id": "A",
+        "text": "TCP e TLS"
+      },
+      {
+        "id": "B",
+        "text": "RTP (Real-time Transport Protocol) e RTCP (RTP Control Protocol)"
+      },
+      {
+        "id": "C",
+        "text": "IPsec e L2TP"
+      },
+      {
+        "id": "D",
+        "text": "FTP e SFTP"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "RTSP gestisce solo il controllo dello streaming (metadati, sessione, avvio/pausa). Il flusso effettivo dei dati multimediali viene trasportato da RTP (Real-time Transport Protocol) mentre il monitoraggio della qualità del servizio (QoS) e la sincronizzazione temporale sono gestiti da RTCP (RTP Control Protocol).",
+    "hint": "Riferiti al trasporto del payload reale e al controllo statistico della ricezione.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_SW_025",
+    "question": "Qual è la differenza fondamentale tra una configurazione VPN in modalità 'Full Tunneling' e una in modalità 'Split Tunneling'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Full Tunneling cifra i file locali, mentre Split Tunneling cifra solo i file cloud."
+      },
+      {
+        "id": "B",
+        "text": "In Full Tunneling tutto il traffico Internet del client passa attraverso il tunnel VPN, mentre in Split Tunneling solo il traffico diretto verso la rete aziendale attraversa il tunnel, inviando il traffico Internet generico direttamente tramite l'ISP locale."
+      },
+      {
+        "id": "C",
+        "text": "Split Tunneling richiede l'uso di due schede di rete fisiche distinte sul PC del dipendente."
+      },
+      {
+        "id": "D",
+        "text": "Full Tunneling è specifico per le connessioni Wi-Fi, mentre Split Tunneling si applica solo alle connessioni cablate ethernet."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Con lo Split Tunneling il client invia al tunnel VPN solo i pacchetti destinati alla rete dell'ufficio (es. 10.0.0.0/8). Il traffico per Internet (es. navigazione generica, YouTube) esce direttamente dall'ISP locale dell'utente. Con il Full Tunneling tutto il traffico Internet passa attraverso la VPN aziendale, aumentando la sicurezza complessiva ma consumando molta più banda del server VPN.",
+    "hint": "Riguarda il percorso che prende il traffico Internet non aziendale.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_SW_026",
+    "question": "Quale delle seguenti affermazioni descrive accuratamente il protocollo di VPN 'OpenVPN'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "È un vecchio protocollo obsoleto privo di cifratura proprietaria Microsoft."
+      },
+      {
+        "id": "B",
+        "text": "È un protocollo open source basato su SSL/TLS che garantisce elevata sicurezza e flessibilità, potendo funzionare sia su porte TCP che UDP su qualsiasi numero di porta."
+      },
+      {
+        "id": "C",
+        "text": "Lavora solo su porte fisse predefinite della suite IPsec non modificabili."
+      },
+      {
+        "id": "D",
+        "text": "È un protocollo di livello fisico che richiede modem certificati."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "OpenVPN è un protocollo open source estremamente sicuro che utilizza la libreria OpenSSL (ora anche mbedTLS) per cifrare i dati. La sua forza sta nella flessibilità: può essere configurato per transitare su qualsiasi porta e protocollo di trasporto (sia TCP che UDP), consentendogli di superare facilmente firewall e filtri di rete.",
+    "hint": "Utilizza librerie SSL/TLS per creare la connessione sicura e può girare su qualsiasi porta.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_SW_027",
+    "question": "Durante la connessione a una VPN SSL/TLS, a cosa serve la fase di 'handshake'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A scaricare il pacchetto di installazione del browser web client."
+      },
+      {
+        "id": "B",
+        "text": "Ad autenticare reciprocamente il client e il server, negoziare gli algoritmi crittografici (cipher suite) e stabilire la chiave simmetrica per la sessione crittografata."
+      },
+      {
+        "id": "C",
+        "text": "A misurare la distanza geografica tra i nodi per ottimizzare il routing."
+      },
+      {
+        "id": "D",
+        "text": "A verificare l'assenza di virus sulla macchina dell'utente."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'handshake SSL/TLS è la fase iniziale in cui il client e il server negoziano i parametri crittografici, si scambiano certificati digitali per convalidare le rispettive identità ed eseguono uno scambio di chiavi (es. tramite Diffie-Hellman) per generare la chiave di cifratura simmetrica temporanea che proteggerà la sessione.",
+    "hint": "Pensa alla negoziazione delle chiavi di cifratura e all'identificazione del server.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_SW_028",
+    "question": "Nel modello di responsabilità condivisa dei fornitori di Cloud Computing, quale dei seguenti compiti è a carico del CLIENTE in un ambiente IaaS (Infrastructure as a Service)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Manutenzione dell'infrastruttura di virtualizzazione (Hypervisor)."
+      },
+      {
+        "id": "B",
+        "text": "Applicazione delle patch di sicurezza e aggiornamento del sistema operativo guest installato sulla macchina virtuale."
+      },
+      {
+        "id": "C",
+        "text": "Riparazione dei server fisici guasti nel data center del provider."
+      },
+      {
+        "id": "D",
+        "text": "Sicurezza fisica degli edifici del data center."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "In modalità IaaS, il cloud provider gestisce la sicurezza fisica dei server, lo storage, la connettività di rete e l'hypervisor. Il cliente è invece responsabile di tutto ciò che si trova all'interno della macchina virtuale, inclusi sistema operativo guest, software installato, middleware, database e dati.",
+    "hint": "Il provider ti dà solo la macchina vuota; chi la deve aggiornare e proteggere?",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_SW_029",
+    "question": "Che cosa si intende per 'Elasticità' nel Cloud Computing?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La capacità fisica dei cavi in fibra ottica del cloud provider di piegarsi senza rompersi."
+      },
+      {
+        "id": "B",
+        "text": "L'abilità di ridimensionare automaticamente e dinamicamente le risorse computazionali (scale-up e scale-down) in base alla variazione della domanda in tempo reale."
+      },
+      {
+        "id": "C",
+        "text": "La possibilità per il cliente di rinegoziare il prezzo del servizio ogni mese."
+      },
+      {
+        "id": "D",
+        "text": "La conversione automatica del software scritto in Java in altri linguaggi."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'elasticità è la capacità di espandere (scale-out/up) o ridurre (scale-in/down) le risorse (CPU, RAM, istanze) in modo automatico, reattivo o predittivo, in risposta alla quantità di richieste degli utenti, garantendo che le risorse allocate corrispondano strettamente a quelle effettivamente necessarie in ogni momento.",
+    "hint": "Riguarda l'adattamento automatico della capacità hardware in base al carico.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_SW_030",
+    "question": "Quale dei seguenti servizi è il miglior esempio di offerta Cloud di tipo PaaS (Platform as a Service)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Amazon Elastic Compute Cloud (EC2)"
+      },
+      {
+        "id": "B",
+        "text": "Google App Engine"
+      },
+      {
+        "id": "C",
+        "text": "Dropbox"
+      },
+      {
+        "id": "D",
+        "text": "Microsoft Office 365"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Google App Engine e AWS Elastic Beanstalk sono piattaforme PaaS dove gli sviluppatori caricano il proprio codice sorgente (es. Python, Java, Node.js) e la piattaforma si occupa di allocare i server, scalare le risorse e gestire i sistemi operativi sottostanti in modo invisibile all'utente. EC2 è invece IaaS; Dropbox e Office 365 sono SaaS.",
+    "hint": "Offre un ambiente in cui carichi il codice dell'applicazione e questa viene eseguita senza gestire server virtuali.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_SW_031",
+    "question": "Nel software Jira, comunemente utilizzato dai team agili, che cosa indica il termine 'Epic'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Una serie di grafici sul tempo totale di utilizzo del software da parte del project manager."
+      },
+      {
+        "id": "B",
+        "text": "Una specifica di bug critica che rischia di bloccare la pubblicazione in produzione."
+      },
+      {
+        "id": "C",
+        "text": "Un blocco significativo di lavoro (un macro-obiettivo) che può essere suddiviso in diverse attività più piccole (storie, bug, task)."
+      },
+      {
+        "id": "D",
+        "text": "Il nome dato al report riassuntivo finale a conclusione di un progetto di un anno."
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "In Jira e in Agile in generale, una Epic rappresenta un grande obiettivo o funzionalità macro (es. 'Nuovo sistema di pagamento online') che richiede più sprint per essere completato e viene diviso in User Story o Task di dimensioni minori.",
+    "hint": "Rappresenta una macro-storia che racchiude sotto-compiti.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_SW_032",
+    "question": "In un tipico progetto gestito con metodologia Scrum, a cosa serve il diagramma di 'Burndown Chart' dello Sprint?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A stimare la probabilità di guasto dei server di staging durante le ore notturne."
+      },
+      {
+        "id": "B",
+        "text": "A tracciare visivamente la quantità di lavoro rimanente nello Sprint rispetto al tempo rimasto, aiutando a prevedere se il team completerà gli obiettivi."
+      },
+      {
+        "id": "C",
+        "text": "A mostrare i costi finanziari sostenuti per ogni singolo membro del team."
+      },
+      {
+        "id": "D",
+        "text": "A calcolare il tempo trascorso da ogni programmatore in riunioni remote."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il Burndown Chart mostra sull'asse Y i punti di storia (Story Points) rimanenti e sull'asse X i giorni dello Sprint. Permette al team di vedere a colpo d'occhio la velocità attuale rispetto alla linea ideale di completamento del lavoro (che scende verso zero alla fine dello Sprint).",
+    "hint": "Mostra come brucia il lavoro rimanente nel tempo dello sprint.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_SW_033",
+    "question": "Nel contesto del lavoro da remoto, qual è lo scopo principale delle tecnologie DLP (Data Loss Prevention)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Recuperare i dati cancellati per errore dall'hard disk dell'utente."
+      },
+      {
+        "id": "B",
+        "text": "Prevenire la fuga accidentale o intenzionale di dati aziendali sensibili al di fuori dei confini aziendali controllati."
+      },
+      {
+        "id": "C",
+        "text": "Cancellare automaticamente i file duplicati per risparmiare spazio sui server."
+      },
+      {
+        "id": "D",
+        "text": "Accelerare il trasferimento dei file tramite tecniche di compressione dei dati."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "I sistemi DLP monitorano e bloccano il trasferimento non autorizzato di dati sensibili (es. codici sorgente, dati finanziari, PII). Nello smart working evitano che dati aziendali vengano caricati su cloud personali, salvati su chiavette USB non autorizzate o inviati a email personali.",
+    "hint": "Previene la perdita o divulgazione non autorizzata di dati aziendali.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_SW_034",
+    "question": "Cosa si intende per VDI (Virtual Desktop Infrastructure) in ambiente di lavoro agile?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Una videocamera ad alta definizione per videoconferenze professionali."
+      },
+      {
+        "id": "B",
+        "text": "Una tecnologia che ospita gli ambienti desktop desktop aziendali su server centralizzati in modalità macchina virtuale, accessibili dai lavoratori in remoto."
+      },
+      {
+        "id": "C",
+        "text": "Un protocollo di compressione dei file audio condivisi tra dipendenti."
+      },
+      {
+        "id": "D",
+        "text": "Un ufficio fisico temporaneo destinato al co-working."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La VDI consente di eseguire sistemi operativi desktop (es. Windows 10/11) all'interno di macchine virtuali su un server centrale nel data center aziendale o nel cloud. L'utente da remoto accede a questo desktop virtuale visualizzandone la schermata, garantendo che nessun dato aziendale risieda localmente sul suo dispositivo personale.",
+    "hint": "Consente l'accesso a un PC virtuale ospitato sul server aziendale.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_SW_035",
+    "question": "Nel protocollo IPsec, qual è la differenza fondamentale tra la modalità Trasporto (Transport Mode) e la modalità Tunnel (Tunnel Mode)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La modalità Trasporto cifra solo la connessione Wi-Fi, la modalità Tunnel cifra anche le connessioni mobili."
+      },
+      {
+        "id": "B",
+        "text": "Nella modalità Trasporto viene cifrato solo il payload del pacchetto IP originale lasciando intatta l'intestazione IP originaria; nella modalità Tunnel l'intero pacchetto IP originario viene cifrato e incapsulato in un nuovo pacchetto IP."
+      },
+      {
+        "id": "C",
+        "text": "La modalità Tunnel è molto più veloce della modalità Trasporto ma non supporta algoritmi a chiave asimmetrica."
+      },
+      {
+        "id": "D",
+        "text": "La modalità Trasporto richiede hardware dedicato, la modalità Tunnel funziona solo a livello software nel browser."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La modalità Trasporto protegge le comunicazioni end-to-end (es. tra due host) inserendo un'intestazione IPsec prima del payload del pacchetto IP ma preservando l'indirizzo IP di origine e destinazione originale. La modalità Tunnel protegge le comunicazioni gateway-to-gateway (es. tra due router VPN): l'intero pacchetto IP originario viene cifrato e inserito in un pacchetto IP nuovo con indirizzi IP esterni dei gateway.",
+    "hint": "Riguarda se l'intestazione IP originale viene nascosta/cifrata sotto una nuova intestazione oppure no.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_SW_036",
+    "question": "Nel protocollo WebRTC, qual è il ruolo del framework ICE (Interactive Connectivity Establishment)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Eseguire la compressione lossless del segnale audio trasmesso tramite codec Opus."
+      },
+      {
+        "id": "B",
+        "text": "Trovare in modo sistematico il percorso di comunicazione di rete ottimale raccogliendo e testando varie combinazioni di indirizzi IP/porte (ICE candidates) locali, STUN e TURN."
+      },
+      {
+        "id": "C",
+        "text": "Prevenire attacchi di tipo Man-in-the-Middle gestendo lo scambio di certificati digitali autogestiti."
+      },
+      {
+        "id": "D",
+        "text": "Controllare la sincronizzazione dei fotogrammi video tra client con framerate differenti."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "ICE raccoglie diversi indirizzi IP e porte (chiamati candidati ICE) da tre fonti: interfacce di rete locali (host candidates), server STUN (srflx candidates) e server TURN (relay candidates). Successivamente effettua dei test di connettività per determinare la combinazione di indirizzi migliore per stabilire il collegamento peer-to-peer con la latenza più bassa possibile.",
+    "hint": "Raccoglie i candidati (indirizzi IP e porte) e prova a trovare il percorso migliore tra i due nodi.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_SW_037",
+    "question": "In WebRTC, quali protocolli crittografici e di sicurezza sono obbligatori per proteggere rispettivamente i canali dei flussi multimediali (audio/video) e i canali dei dati generici (DataChannel)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "IPsec per i flussi multimediali e SSH per i canali dati."
+      },
+      {
+        "id": "B",
+        "text": "SRTP (Secure Real-time Transport Protocol) per i flussi multimediali e DTLS (Datagram Transport Layer Security) per i canali dati e lo scambio delle chiavi SRTP."
+      },
+      {
+        "id": "C",
+        "text": "WPA3 per i flussi multimediali e HTTPS per i canali dati."
+      },
+      {
+        "id": "D",
+        "text": "TLS 1.3 per entrambi i tipi di canali senza alcuna eccezione di prestazioni."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "In WebRTC la sicurezza è integrata per specifica. I flussi multimediali sono cifrati tramite SRTP (Secure Real-time Transport Protocol). La negoziazione delle chiavi crittografiche per SRTP e la cifratura dei canali dati generici (DataChannels) avvengono tramite il protocollo DTLS (Datagram Transport Layer Security, una variante di TLS ottimizzata per UDP).",
+    "hint": "Combina un protocollo multimediale sicuro con la versione Datagram di TLS.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_SW_038",
+    "question": "Qual è lo scopo principale dell'estensione del protocollo ICE chiamata 'Trickle ICE' nello stabilire una sessione WebRTC?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ridurre drasticamente il consumo energetico della CPU del client."
+      },
+      {
+        "id": "B",
+        "text": "Permettere ai peer di scambiarsi i singoli candidati ICE incrementali non appena vengono scoperti, velocizzando l'instaurazione della chiamata senza attendere la fine dell'intera scansione."
+      },
+      {
+        "id": "C",
+        "text": "Rilevare automaticamente se la webcam dell'utente ha una risoluzione insufficiente."
+      },
+      {
+        "id": "D",
+        "text": "Cifrare i metadati dello streaming tramite protocollo SSL."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Senza Trickle ICE, il client deve completare l'intera scansione locale, STUN e TURN per raccogliere tutti i candidati ICE prima di generare l'SDP finale da inviare all'altro peer, il che può richiedere diversi secondi. Trickle ICE consente di inviare immediatamente la prima offerta SDP e poi inviare in tempo reale i candidati di trasporto man mano che vengono scoperti, riducendo notevolmente i tempi di setup della connessione.",
+    "hint": "Permette lo scambio continuo e 'a goccia' (trickle) dei candidati man mano che vengono rilevati.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_SW_039",
+    "question": "Nel protocollo RTSP, a cosa serve nello specifico il comando (metodo) SETUP?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A far iniziare l'invio del flusso multimediale sul canale dati specificato."
+      },
+      {
+        "id": "B",
+        "text": "A negoziare i parametri di trasporto della sessione multimediale, specificando come allocare i canali audio/video e su quali porte locali/remote inviare i dati RTP/RTCP."
+      },
+      {
+        "id": "C",
+        "text": "A configurare le credenziali di accesso amministrativo del server di streaming."
+      },
+      {
+        "id": "D",
+        "text": "A terminare la sessione liberando tutte le risorse allocate nel sistema."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il metodo SETUP definisce la modalità di trasporto per il flusso multimediale prima dell'inizio dello streaming. Specifica se i dati viaggeranno via UDP o TCP (interleaved) e le porte locali/remote su cui viaggeranno i pacchetti RTP (dati multimediali) e RTCP (statistiche di controllo).",
+    "hint": "Avviene dopo DESCRIBE ed alloca le risorse di rete e le porte necessarie prima di eseguire PLAY.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_SW_040",
+    "question": "Quale caratteristica distingue fondamentalmente il protocollo RTSP da HTTP nella gestione delle sessioni?",
+    "options": [
+      {
+        "id": "A",
+        "text": "HTTP è basato su testo, mentre RTSP utilizza esclusivamente una codifica binaria proprietaria."
+      },
+      {
+        "id": "B",
+        "text": "HTTP è stateless (senza stato), mentre RTSP mantiene uno stato persistente (stateful) in cui sia il client che il server mantengono un identificatore di sessione (Session ID) per tracciare lo stato attuale dello streaming (es. Ready, Playing)."
+      },
+      {
+        "id": "C",
+        "text": "HTTP supporta solo connessioni TCP, mentre RTSP funziona esclusivamente su connessioni UDP."
+      },
+      {
+        "id": "D",
+        "text": "RTSP non prevede l'utilizzo di codici di stato di risposta numerici (es. 200 OK)."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "HTTP è originariamente un protocollo senza stato (stateless). RTSP, al contrario, deve tenere traccia dello stato di riproduzione della risorsa multimediale. Il server assegna un Session ID al client (durante la chiamata SETUP). Entrambe le parti ricordano lo stato (es. Init, Ready, Playing) per sapere quali comandi (PLAY, PAUSE, TEARDOWN) sono validi in un dato momento.",
+    "hint": "Il server deve sapere in quale stato si trova la riproduzione (es. in riproduzione o in pausa).",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_SW_041",
+    "question": "Come viene garantita la sincronizzazione temporale dei flussi (lip sync) di audio e video trasmessi tramite protocolli associati a RTSP (RTP/RTCP)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cifrando entrambi i flussi con la medesima chiave simmetrica AES."
+      },
+      {
+        "id": "B",
+        "text": "Tramite i pacchetti Sender Report (SR) di RTCP, che associano i timestamp relativi RTP (specifici per sorgente) a un orologio assoluto comune a livello di sistema (NTP timestamp)."
+      },
+      {
+        "id": "C",
+        "text": "Impedendo fisicamente la trasmissione di pacchetti video ad un framerate superiore a quello audio."
+      },
+      {
+        "id": "D",
+        "text": "Inviando i dati audio e video alternativamente nello stesso singolo pacchetto TCP."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "I flussi audio e video viaggiano su sessioni RTP indipendenti con clock differenti. Per sincronizzarli all'arrivo, il server invia periodicamente pacchetti RTCP Sender Report (SR). Questi contengono una mappatura tra il timestamp RTP del flusso multimediale e il timestamp assoluto NTP (Network Time Protocol) del server. Il client usa questa corrispondenza per calcolare l'allineamento temporale corretto dei flussi.",
+    "hint": "RTCP mappa i timestamp specifici delle tracce multimediali su un tempo di riferimento comune (NTP).",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_SW_042",
+    "question": "Qual è un vantaggio architetturale fondamentale del protocollo VPN WireGuard rispetto a protocolli classici come OpenVPN o IPsec?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Supporta un numero maggiore di algoritmi crittografici obsoleti per garantire la compatibilità con i sistemi legacy."
+      },
+      {
+        "id": "B",
+        "text": "Funziona all'interno dello spazio utente (userspace) senza bisogno di integrazione nel kernel."
+      },
+      {
+        "id": "C",
+        "text": "Ha una base di codice estremamente ridotta (poche migliaia di righe di codice), opera interamente nel kernel (in Linux) per massime prestazioni ed implementa una crittografia moderna basata su standard fissi (Noise protocol framework, Curve25519, ChaCha20)."
+      },
+      {
+        "id": "D",
+        "text": "Consente l'accesso anonimo senza richiedere alcuno scambio di chiavi pubbliche/private."
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "WireGuard è stato progettato per essere estremamente veloce, leggero e sicuro. Ha circa 4000 righe di codice (rispetto alle centinaia di migliaia di OpenVPN/IPsec), il che rende molto semplice l'audit di sicurezza. Inoltre, non prevede la negoziazione dinamica di algoritmi crittografici complessi, eliminando vulnerabilità associate a cipher suite deboli.",
+    "hint": "Codice compatto, esecuzione nello spazio del kernel per alta velocità e crittografia moderna prefissata.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_SW_043",
+    "question": "Nel protocollo IPsec operante in modalità trasporto con il solo uso dell'Authentication Header (AH), quale delle seguenti affermazioni sulla sicurezza dei pacchetti è corretta?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'intero pacchetto IP, inclusa l'intestazione originale e il payload, viene cifrato in modo asimmetrico."
+      },
+      {
+        "id": "B",
+        "text": "Viene garantita l'autenticità e l'integrità del payload e dell'intestazione IP (esclusi i campi mutabili), ma non viene fornita alcuna riservatezza (i dati viaggiano in chiaro)."
+      },
+      {
+        "id": "C",
+        "text": "L'intestazione IP viene modificata inserendo un indirizzo IP di destinazione fittizio per garantire l'anonimato totale dei pacchetti."
+      },
+      {
+        "id": "D",
+        "text": "Il protocollo AH cifrerà i pacchetti solo se il trasporto sottostante avviene su protocollo UDP."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il protocollo AH (Authentication Header) di IPsec fornisce integrità dei dati, autenticazione dell'origine e protezione contro gli attacchi di replay, calcolando un hash crittografico anche sull'intestazione IP (tranne i campi che cambiano durante il transito come TTL). Tuttavia, AH non offre cifratura (riservatezza). Per cifrare i dati, è necessario utilizzare il protocollo ESP (Encapsulating Security Payload).",
+    "hint": "AH serve per l'autenticazione e l'integrità, non per la riservatezza dei dati.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_SW_044",
+    "question": "Qual è il ruolo del protocollo IKE (Internet Key Exchange) nello stabilire una VPN basata su IPsec?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rottura e decifratura dei pacchetti IP intercettati da parte del firewall."
+      },
+      {
+        "id": "B",
+        "text": "Negoziare le associazioni di sicurezza (SA - Security Associations), autenticare i peer e scambiare le chiavi crittografiche necessarie per stabilire il tunnel sicuro di IPsec."
+      },
+      {
+        "id": "C",
+        "text": "Fornire una compressione a livello di bit prima della trasmissione dei dati nel tunnel."
+      },
+      {
+        "id": "D",
+        "text": "Mappare gli indirizzi IP privati dei client su indirizzi IP pubblici aziendali."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "IKE (tipicamente IKEv2) è il protocollo di controllo responsabile della configurazione del tunnel IPsec. Gestisce la negoziazione automatica dei parametri di sicurezza (algoritmi di cifratura e hashing), autentica le identità dei due nodi remoti (tramite certificati o chiavi condivise) ed esegue lo scambio Diffie-Hellman per generare le chiavi simmetriche delle Security Association (SA).",
+    "hint": "È il protocollo che stabilisce le Security Associations (SA) e scambia le chiavi crittografiche.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_SW_045",
+    "question": "Nel Cloud Computing, qual è la distinzione corretta tra un'architettura 'Hybrid Cloud' e una 'Multicloud'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hybrid Cloud utilizza solo cloud pubblici di provider diversi, mentre Multicloud combina cloud pubblici e cloud privati."
+      },
+      {
+        "id": "B",
+        "text": "Hybrid Cloud prevede l'integrazione e l'orchestrazione tra un'infrastruttura cloud privata (on-premise) e uno o più cloud pubblici; Multicloud si riferisce all'uso coordinato di servizi forniti da diversi cloud provider pubblici (es. AWS + Azure) senza necessariamente includere un cloud privato."
+      },
+      {
+        "id": "C",
+        "text": "Multicloud richiede per legge la presenza di server di backup fisici nello stesso edificio aziendale."
+      },
+      {
+        "id": "D",
+        "text": "Hybrid Cloud è una tecnologia legacy obsoleta, mentre Multicloud è lo standard esclusivo per le startup software."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'Hybrid Cloud connette e integra un'infrastruttura privata interna (on-premise/privata) con un cloud pubblico (es. AWS o Azure), consentendo ai dati e alle applicazioni di muoversi tra le due piattaforme. Il Multicloud è la strategia che prevede l'uso di più servizi cloud pubblici forniti da provider diversi per evitare il vendor lock-in o ottimizzare i costi e le prestazioni (es. database su Azure e frontend su AWS), senza che vi sia per forza una componente on-premise.",
+    "hint": "Pensa alla presenza obbligatoria di risorse on-premise (privato) in una delle due definizioni.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_SW_046",
+    "question": "Il paradigma Serverless Computing (noto anche come FaaS - Function as a Service) offre quale dei seguenti vantaggi architetturali ed economici?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Permette di eliminare completamente l'uso dei database relazionali."
+      },
+      {
+        "id": "B",
+        "text": "Esegue il codice in risposta a eventi specifici, scalando automaticamente a zero quando non ci sono richieste e addebitando i costi esclusivamente per il tempo di esecuzione effettivo della singola funzione (al millisecondo)."
+      },
+      {
+        "id": "C",
+        "text": "Garantisce che il server virtuale sia costantemente attivo e accessibile tramite SSH per configurazioni manuali."
+      },
+      {
+        "id": "D",
+        "text": "Risolve nativamente i problemi di latenza della prima connessione (cold start) riducendola sempre a zero assoluto."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Nel Serverless Computing, gli sviluppatori non effettuano il provisioning né gestiscono server virtuali. Il provider cloud esegue il codice in micro-container temporanei solo quando si verifica un evento scatenante (es. una richiesta HTTP, l'upload di un file). Se non ci sono chiamate, non ci sono server attivi (scale-to-zero) e non si paga nulla. Quando arrivano richieste, il sistema scala istantaneamente.",
+    "hint": "Il costo si basa sul consumo effettivo (durata di esecuzione e numero di invocazioni), non sull'allocazione fissa di server.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_SW_047",
+    "question": "Nel contesto delle metodologie Agili (come Scrum), per quale motivo scientifico-pratico durante la stima dello sforzo (Planning Poker) si adotta una sequenza di Fibonacci modificata (es. 1, 2, 3, 5, 8, 13, 20, 40, 100) anziché una scala lineare?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Perché i computer interpretano le stime più velocemente se sono numeri primi."
+      },
+      {
+        "id": "B",
+        "text": "Perché all'aumentare delle dimensioni e della complessità di un'attività aumenta proporzionalmente l'incertezza della stima; la distanza esponenziale tra i numeri scoraggia dibattiti inutili su differenze minime."
+      },
+      {
+        "id": "C",
+        "text": "È una convenzione imposta dai creatori del software Jira senza basi metodologiche."
+      },
+      {
+        "id": "D",
+        "text": "Per allineare la stima delle ore di lavoro alla tassonomia dei costi fiscali dei dipendenti."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La legge psicofisica di Weber-Fechner indica che la percezione umana della differenza tra due stimoli è proporzionale all'intensità dello stimolo stesso. In Agile, stimare compiti grandi e incerti con precisione lineare (es. 20 ore vs 21 ore) è impossibile e controproducente. Usare distacchi ampi come 8, 13, 20 o 40 punti rende evidente che i compiti più grandi comportano una maggiore incertezza e richiedono di essere spezzati (decomposizione).",
+    "hint": "Riflette il fatto che compiti più grandi portano con sé molta più incertezza e non ha senso cercare una precisione assoluta.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_SW_048",
+    "question": "In una pipeline CI/CD (Continuous Integration / Continuous Deployment) integrata con repository Git, che cos'è un 'artifact' (manufatto) di build?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un file di testo contenente le credenziali d'accesso degli sviluppatori memorizzato in Git per sicurezza."
+      },
+      {
+        "id": "B",
+        "text": "Il file binario o pacchetto di distribuzione (es. un archivio .war, un'immagine Docker o un pacchetto .apk) generato automaticamente dal codice sorgente durante la compilazione e pronto per il deployment."
+      },
+      {
+        "id": "C",
+        "text": "Una scheda di bug creata su Jira che non è stata risolta entro la fine del ciclo di sviluppo."
+      },
+      {
+        "id": "D",
+        "text": "Un blocco di codice sorgente legacy commentato all'interno del codice principale."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Un artifact è il risultato concreto del processo di build di una pipeline CI/CD. Una volta che il codice sorgente passa con successo i test unitari e di integrazione, viene compilato e impacchettato. Questo pacchetto compilato (l'artifact) viene archiviato in un repository di artifact (es. Nexus, Artifactory) per essere distribuito in modo riproducibile negli ambienti di test e produzione.",
+    "hint": "È il prodotto finale compilato e pronto all'uso generato dalla build del codice sorgente.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_SW_049",
+    "question": "Qual è il principio cardine di sicurezza informatica definito dal paradigma 'Zero Trust' (ZTA) applicato all'accesso remoto dei dipendenti?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fidarsi completamente di qualsiasi dispositivo collegato se inserisce la password corretta al primo tentativo."
+      },
+      {
+        "id": "B",
+        "text": "Ritenere che nessuna richiesta di accesso sia sicura a priori, indipendentemente dalla provenienza (interna o esterna alla rete aziendale); ogni richiesta deve essere autenticata, autorizzata e crittografata continuamente prima di concedere l'accesso."
+      },
+      {
+        "id": "C",
+        "text": "Evitare l'installazione di antivirus sui dispositivi personali per non rallentare l'accesso."
+      },
+      {
+        "id": "D",
+        "text": "Consentire l'accesso a tutti i database aziendali a chiunque sia fisicamente connesso al Wi-Fi aziendale."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il modello Zero Trust si basa sul motto 'Never trust, always verify' (Non fidarsi mai, verificare sempre). A differenza del modello tradizionale perimetrale ('castello e fossato'), assume che le minacce possano provenire anche dall'interno. Pertanto, l'accesso a risorse sensibili viene concesso valutando costantemente il contesto (identità dell'utente, integrità del dispositivo, posizione geografica) limitando i permessi secondo il principio del minimo privilegio.",
+    "hint": "Assume che nessuna richiesta di connessione debba essere considerata attendibile di default, nemmeno se proviene dall'interno dell'ufficio.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_SW_050",
+    "question": "Nel contesto dell'integrazione di servizi SaaS in Cloud, qual è la funzione principale del protocollo OAuth 2.0?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Consentire a un'applicazione terza di accedere in modo limitato a risorse protette per conto dell'utente, tramite l'emissione di token di accesso, senza doverne condividere le credenziali (password)."
+      },
+      {
+        "id": "B",
+        "text": "Fornire un protocollo di crittografia per la posta elettronica aziendale basato su firme digitali asimmetriche."
+      },
+      {
+        "id": "C",
+        "text": "Mappar gli indirizzi hardware MAC (Media Access Control) sui server cloud."
+      },
+      {
+        "id": "D",
+        "text": "Coordinare la compilazione automatica del codice sorgente prima dell'invio in produzione."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "OAuth 2.0 è uno standard aperto per l'autorizzazione. Consente a un utente di concedere l'accesso a risorse personali (es. file su Google Drive) ad un'applicazione terza (es. uno strumento di project management) tramite token di autorizzazione (Access Token) con permessi limitati (scope), evitando di rivelare la password principale dell'account all'app terza.",
+    "hint": "Permette l'autorizzazione di app esterne tramite token temporanei senza rivelare la propria password.",
+    "level": "avanzato"
+  }
+]

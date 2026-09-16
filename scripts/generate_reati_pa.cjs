@@ -1,0 +1,712 @@
+const fs = require('fs');
+const path = require('path');
+
+const dir = path.join(__dirname, '../public/db/master_bank/penale');
+fs.mkdirSync(dir, { recursive: true });
+
+const questions = [
+  {
+    id: "Q_PECS_PEN_001",
+    question: "In base all'art. 357 del Codice Penale, chi è considerato 'pubblico ufficiale' agli effetti della legge penale?",
+    options: [
+      { id: "A", text: "Colui che esercita una pubblica funzione legislativa, giudiziaria o amministrativa disciplinata da norme di diritto pubblico e da atti autoritativi, e caratterizzata dalla formazione e manifestazione della volontà della PA o dall'esercizio di poteri autoritativi o certificativi" },
+      { id: "B", text: "Chiunque abbia un contratto di lavoro a tempo indeterminato con un'azienda privata" },
+      { id: "C", text: "Esclusivamente i magistrati e gli appartenenti alle forze dell'ordine" },
+      { id: "D", text: "I soli titolari di cariche elettive parlamentari" }
+    ],
+    correctAnswerId: "A",
+    explanation: "L'art. 357 c.p. adotta una nozione oggettiva-funzionale: è pubblico ufficiale chiunque eserciti una pubblica funzione amministrativa caratterizzata dal concorrere a formare o manifestare la volontà dell'amministrazione o dall'esercizio di poteri autoritativi o certificativi.",
+    hint: "Nozione oggettivo-funzionale legata a poteri deliberativi, autoritativi o certificativi.",
+    level: "base"
+  },
+  {
+    id: "Q_PECS_PEN_002",
+    question: "Chi è l''incaricato di un pubblico servizio' ai sensi dell'art. 358 del Codice Penale?",
+    options: [
+      { id: "A", text: "Colui che, a qualunque titolo, presta un pubblico servizio disciplinato da norme di diritto pubblico, ma privo dei poteri autoritativi e certificativi propri della pubblica funzione, con esclusione delle semplici mansioni di ordine e della prestazione di opera meramente materiale" },
+      { id: "B", text: "Il lavoratore che svolge mansioni esclusivamente manuali di pulizia degli uffici comunali" },
+      { id: "C", text: "Il cittadino che effettua volontariato privato nel fine settimana" },
+      { id: "D", text: "L'amministratore delegato di una multinazionale farmaceutica quotata all'estero" }
+    ],
+    correctAnswerId: "A",
+    explanation: "L'art. 358 c.p. definisce l'incaricato di un pubblico servizio: è un'attività pubblica regolata nelle forme del diritto pubblico ma priva dei poteri deliberativi, autoritativi e certificativi della funzione pubblica. La legge esclude espressamente le mansioni d'ordine o meramente materiali.",
+    hint: "Attività pubblica senza poteri autoritativi o certificativi, con esclusione di mansioni meramente materiali.",
+    level: "intermedio"
+  },
+  {
+    id: "Q_PECS_PEN_003",
+    question: "Nel contesto dell'INPS, quale qualifica pubblicistica rivestono i funzionari addetti all'istruttoria, accertamento dei requisiti e liquidazione delle prestazioni?",
+    options: [
+      { id: "A", text: "Rivestono la qualifica di pubblici ufficiali in quanto partecipano alla formazione e manifestazione della volontà dell'ente ed esercitano poteri certificativi e autoritativi in materia previdenziale" },
+      { id: "B", text: "Sono semplici privati cittadini senza alcuna responsabilità penale specifica" },
+      { id: "C", text: "Rivestono la qualifica di esercenti un servizio di pubblica necessità" },
+      { id: "D", text: "Hanno la qualifica di ufficiali di polizia giudiziaria permanente" }
+    ],
+    correctAnswerId: "A",
+    explanation: "I funzionari INPS (come i funzionari PECS) che istruiscono, verificano e adottano atti con efficacia esterna o certificazioni con fede privilegiata rivestono la qualifica di pubblici ufficiali ex art. 357 c.p.",
+    hint: "I funzionari che manifestano la volontà dell'ente e certificano dati sono pubblici ufficiali.",
+    level: "base"
+  },
+  {
+    id: "Q_PECS_PEN_004",
+    question: "Quale condotta integra il delitto di 'peculato' previsto dall'art. 314 c.p.?",
+    options: [
+      { id: "A", text: "Il pubblico ufficiale o l'incaricato di un pubblico servizio che, avendo per ragione del suo ufficio o servizio il possesso o comunque la disponibilità di denaro o di altra cosa mobile altrui, se ne appropria" },
+      { id: "B", text: "Il pubblico dipendente che accetta una somma di denaro per ritardare un atto d'ufficio" },
+      { id: "C", text: "Il cittadino che minaccia il pubblico impiegato per ottenere una prestazione" },
+      { id: "D", text: "Il funzionario che rifiuta di firmare una delibera collegiale" }
+    ],
+    correctAnswerId: "A",
+    explanation: "L'art. 314 c.p. punisce l'appropriazione indebita commessa da chi riveste una qualifica pubblicistica e ha la disponibilità materiale o giuridica del bene o denaro per ragioni di ufficio o servizio, convertendolo nel proprio patrimonio personale o di terzi.",
+    hint: "Appropriazione di denaro o cose mobili possedute per ragioni d'ufficio.",
+    level: "base"
+  },
+  {
+    id: "Q_PECS_PEN_005",
+    question: "In cosa consiste il 'peculato d'uso' disciplinato dall'art. 314, comma 2, del Codice Penale?",
+    options: [
+      { id: "A", text: "Nell'appropriazione della cosa al solo scopo di fare un uso momentaneo della medesima, immediatamente restituita dopo l'uso momentaneo" },
+      { id: "B", text: "Nel furto di materiale informatico poi venduto sul mercato secondario" },
+      { id: "C", text: "Nell'utilizzo del telefono d'ufficio per ragioni di emergenza sanitaria" },
+      { id: "D", text: "Nel mancato utilizzo dei fondi stanziati a bilancio" }
+    ],
+    correctAnswerId: "A",
+    explanation: "Il peculato d'uso si configura quando l'agente si appropria della cosa mobile (es. auto di servizio) per farne un uso transitorio e momentaneo, restituendola tempestivamente subito dopo l'uso; la pena è notevolmente attenuata rispetto al peculato comune.",
+    hint: "Uso momentaneo della cosa con immediata restituzione.",
+    level: "intermedio"
+  },
+  {
+    id: "Q_PECS_PEN_006",
+    question: "Quali sono gli elementi costitutivi del delitto di 'concussione' ai sensi dell'art. 317 del Codice Penale?",
+    options: [
+      { id: "A", text: "Il pubblico ufficiale o incaricato di pubblico servizio che, abusando della sua qualità o dei suoi poteri, costringe taluno a dare o a promettere indebitamente, a lui o a un terzo, denaro o altra utilità" },
+      { id: "B", text: "Il libero accordo paritetico tra privato e pubblico ufficiale per compiere un atto illegittimo" },
+      { id: "C", text: "La sottrazione clandestina di fascicoli dagli archivi dell'ente" },
+      { id: "D", text: "La richiesta verbale di anticipo stipendiale avanzata dal dipendente" }
+    ],
+    correctAnswerId: "A",
+    explanation: "La concussione (art. 317 c.p.) richiede la 'costrizione' esercitata con abuso di poteri o qualità, ponendo la vittima in una condizione di timore o soggezione psicologica senza alternativa reale se non cedere alla pretesa indebita (metus publicae potestatis).",
+    hint: "Abuso dei poteri e costrizione della vittima con grave pressione psichica.",
+    level: "base"
+  },
+  {
+    id: "Q_PECS_PEN_007",
+    question: "Qual è la differenza fondamentale tra 'concussione' (art. 317 c.p.) e 'induzione indebita a dare o promettere utilità' (art. 319-quater c.p. introdotto dalla Legge Severino)?",
+    options: [
+      { id: "A", text: "Nella concussione il privato è costretto con violenza o minaccia e non è punibile; nell'induzione indebita il privato è persuaso o indotto ma conserva un margine di scelta e aderisce per conseguire un proprio vantaggio indebito, risultando anch'egli punito penalmente" },
+      { id: "B", text: "Non vi è alcuna differenza sostanziale, sono reati puniti con la stessa pena" },
+      { id: "C", text: "La concussione riguarda solo somme inferiori a 1.000 euro" },
+      { id: "D", text: "Nell'induzione indebita il pubblico ufficiale non commette reato" }
+    ],
+    correctAnswerId: "A",
+    explanation: "La storica sentenza delle Sezioni Unite della Cassazione (sent. Maldera n. 12228/2014) distingue: nella concussione il privato subisce una violenza psichica per evitare un danno ingiusto (vittima); nell'art. 319-quater il privato contratta per ottenere un indebito vantaggio e perciò è corresponsabile penalmente.",
+    hint: "Concussione = costrizione e privato non punito; Induzione = persuasione per un vantaggio indebito e privato punito.",
+    level: "avanzato"
+  },
+  {
+    id: "Q_PECS_PEN_008",
+    question: "Cosa punisce l'art. 318 del Codice Penale ('Corruzione per l'esercizio della funzione')?",
+    options: [
+      { id: "A", text: "Il pubblico ufficiale che, per l'esercizio delle sue funzioni o dei suoi poteri, indebitamente riceve, per sé o per un terzo, denaro o altra utilità o ne accetta la promessa (c.d. asservimento della funzione o mercimonio)" },
+      { id: "B", text: "Il pubblico ufficiale che esegue un arresto in flagranza di reato" },
+      { id: "C", text: "Il dipendente che riceve un premio di produttività previsto dal CCNL" },
+      { id: "D", text: "Il ritardo incolpevole nell'apertura dello sportello al pubblico" }
+    ],
+    correctAnswerId: "A",
+    explanation: "L'art. 318 c.p. (modificato dalla L. 190/2012) punisce la c.d. corruzione per l'esercizio della funzione: non serve dimostrare quale specifico atto sia stato compiuto, bastando la dazione o promessa di utilità legata all'esercizio generale dell'ufficio o per compiacere il funzionario.",
+    hint: "Ricezione o promessa di denaro/utilità per l'esercizio della funzione senza necessità di atto contrario.",
+    level: "intermedio"
+  },
+  {
+    id: "Q_PECS_PEN_009",
+    question: "In che cosa si differenzia la 'corruzione propria' (art. 319 c.p.) dalla 'corruzione per l'esercizio della funzione' (art. 318 c.p.)?",
+    options: [
+      { id: "A", text: "La corruzione propria punisce la ricezione o promessa di utilità per omettere o ritardare un atto d'ufficio, ovvero per compiere un atto contrario ai doveri di ufficio (più gravemente sanzionata)" },
+      { id: "B", text: "La corruzione propria riguarda solo somme pagate in moneta straniera" },
+      { id: "C", text: "La corruzione propria non comporta alcuna sanzione penale per il privato corruttore" },
+      { id: "D", text: "L'art. 319 c.p. si applica esclusivamente ai membri del Parlamento" }
+    ],
+    correctAnswerId: "A",
+    explanation: "L'art. 319 c.p. (corruzione propria) è caratterizzato dall'accordo avente a oggetto il compimento di un atto contrario ai doveri d'ufficio o l'omissione/ritardo di un atto doveroso (es. liquidare una pensione a chi non ne ha diritto in cambio di denaro).",
+    hint: "Accordo per compiere un atto contrario ai doveri o per omettere un atto d'ufficio.",
+    level: "base"
+  },
+  {
+    id: "Q_PECS_PEN_010",
+    question: "Che cosa configura il delitto di 'istigazione alla corruzione' disciplinato dall'art. 322 c.p.?",
+    options: [
+      { id: "A", text: "L'offerta o la promessa di denaro o altra utilità al pubblico ufficiale non accettata da quest'ultimo, ovvero la sollecitazione di denaro o utilità da parte del pubblico ufficiale non accolta dal privato" },
+      { id: "B", text: "La corruzione andata a buon fine con il pagamento dell'intera tangente" },
+      { id: "C", text: "La discussione accademica sulla corruzione durante un convegno universitario" },
+      { id: "D", text: "La pubblicazione di articoli di giornale su tangenti all'estero" }
+    ],
+    correctAnswerId: "A",
+    explanation: "L'art. 322 c.p. punisce il tentativo unilaterale non andato a buon fine (reato a consumazione anticipata): sia l'offerta/promessa del privato respinta dal pubblico ufficiale, sia la richiesta del pubblico ufficiale respinta dal cittadino.",
+    hint: "Offerta, promessa o richiesta di tangente che non viene accettata dalla controparte.",
+    level: "intermedio"
+  },
+  {
+    id: "Q_PECS_PEN_011",
+    question: "Cosa prevede la speciale causa di non punibilità introdotta dall'art. 323-ter c.p. (c.d. legge Spazzacorrotti L. 3/2019)?",
+    options: [
+      { id: "A", text: "Non è punibile chi ha commesso un reato di corruzione se, prima di avere notizia di indagini e comunque entro 4 mesi dalla commissione del fatto, lo denuncia volontariamente all'autorità giudiziaria, fornendo elementi utili e decisivi per identificare i colpevoli e restituendo il prezzo/profitto" },
+      { id: "B", text: "L'impunità per tutti i reati commessi se il funzionario va in pensione" },
+      { id: "C", text: "Il perdono giudiziale automatico se la somma è inferiore a 10.000 euro" },
+      { id: "D", text: "La cancellazione della pena se il reo devolve il denaro in beneficenza" }
+    ],
+    correctAnswerId: "A",
+    explanation: "L'art. 323-ter c.p. (premio di collaborazione/ravvedimento) mira a rompere l'omertà del patto corruttivo: il corruttore o corrotto non è punibile se autodenuncia il fatto entro 4 mesi e prima delle indagini, collabora e restituisce il prezzo del reato.",
+    hint: "Ravvedimento operoso: autodenuncia spontanea entro 4 mesi prima delle indagini con restituzione del profitto.",
+    level: "avanzato"
+  },
+  {
+    id: "Q_PECS_PEN_012",
+    question: "Come si articola il delitto di 'rifiuto di atti d'ufficio e omissione' previsto dall'art. 328 del Codice Penale?",
+    options: [
+      { id: "A", text: "Il primo comma punisce il rifiuto indebito di un atto urgente per ragioni di giustizia, sicurezza pubblica, ordine pubblico o igiene e sanità; il secondo comma punisce la mancata adozione o risposta motivata entro 30 giorni dalla richiesta scritta del privato (messa in mora)" },
+      { id: "B", text: "Punisce esclusivamente l'omesso pagamento delle bollette energetiche della sede" },
+      { id: "C", text: "Si applica solo se il funzionario si rifiuta di andare in ferie" },
+      { id: "D", text: "Prevede la reclusione fino a 20 anni per il ritardo di 24 ore nella posta" }
+    ],
+    correctAnswerId: "A",
+    explanation: "L'art. 328 c.p. distingue due fattispecie: 1) comma 1: reato di pericolo che punisce l'indebito rifiuto di atti urgenti qualificati (sanità, sicurezza, giustizia); 2) comma 2: reato di danno su istanza del cittadino decorsi inutilmente 30 giorni dalla messa in mora formale senza compiere l'atto o esporne le ragioni.",
+    hint: "Due commi: rifiuto immediato per atti qualificati urgenti; mancata risposta/adozione entro 30 giorni dalla messa in mora.",
+    level: "intermedio"
+  },
+  {
+    id: "Q_PECS_PEN_013",
+    question: "Cosa punisce l'art. 326 del Codice Penale ('Rivelazione ed utilizzazione di segreti di ufficio')?",
+    options: [
+      { id: "A", text: "Il pubblico ufficiale o l'incaricato di un pubblico servizio che, violando i doveri inerenti alle funzioni o al servizio, o comunque abusando della sua qualità, rivela notizie di ufficio, le quali debbano rimanere segrete, o ne agevola in qualsiasi modo la conoscenza, ovvero le utilizza per procurare a sé o ad altri un indebito profitto patrimoniale" },
+      { id: "B", text: "Il dipendente che racconta ai familiari che la sede dell'INPS è chiusa per ristrutturazione" },
+      { id: "C", text: "La pubblicazione di circolari esplicative sul sito internet istituzionale" },
+      { id: "D", text: "La notifica a mezzo PEC di un provvedimento finale all'interessato" }
+    ],
+    correctAnswerId: "A",
+    explanation: "L'art. 326 c.p. tutela il segreto d'ufficio e la riservatezza delle informazioni istituzionali non accessibili al pubblico (es. dati sanitari di invalidità, accessi ispettivi programmati, indagini patrimoniali antifrode).",
+    hint: "Rivelazione indebita di notizie d'ufficio coperte da segreto o loro uso per profitto.",
+    level: "base"
+  },
+  {
+    id: "Q_PECS_PEN_014",
+    question: "Quale condotta integra il delitto di 'truffa aggravata per il conseguimento di erogazioni pubbliche' (art. 640-bis c.p.)?",
+    options: [
+      { id: "A", text: "La truffa commessa mediante artifizi o raggiri avente a oggetto l'ottenimento indebito di contributi, finanziamenti, mutui agevolati ovvero altre erogazioni dello stesso tipo, comunque denominate, concesse dallo Stato, da altri enti pubblici (come l'INPS) o dall'Unione Europea" },
+      { id: "B", text: "Il mancato pagamento del canone televisivo per dimenticanza" },
+      { id: "C", text: "La richiesta verbale di informazioni presso lo sportello pensioni" },
+      { id: "D", text: "Il furto di un ombrello all'interno della sala d'attesa dell'ente" }
+    ],
+    correctAnswerId: "A",
+    explanation: "L'art. 640-bis c.p. sanziona duramente chi, con artifizi o raggiri (es. fittizie assunzioni di braccianti agricoli per intascare la disoccupazione o simulazione di requisiti per l'Assegno di Inclusione), induce l'INPS in errore per percepire prestazioni economiche pubbliche.",
+    hint: "Artifizi o raggiri per percepire indebitamente fondi, pensioni o contributi erogati da enti pubblici.",
+    level: "base"
+  },
+  {
+    id: "Q_PECS_PEN_015",
+    question: "Cosa punisce l'art. 316-ter del Codice Penale ('Indebita percezione di erogazioni a danno dello Stato') e quale rapporto ha con l'art. 640-bis c.p.?",
+    options: [
+      { id: "A", text: "Punisce chi, mediante l'utilizzo o la presentazione di dichiarazioni o di documenti falsi o attestanti cose non vere, ovvero mediante l'omissione di informazioni dovute, ottiene indebitamente erogazioni pubbliche; ha natura sussidiaria rispetto alla truffa aggravata e si applica quando manchino veri e propri artifizi o raggiri" },
+      { id: "B", text: "È un reato identico che si applica solo per somme superiori a un milione di euro" },
+      { id: "C", text: "Si applica solo quando la vittima è una banca privata" },
+      { id: "D", text: "Non prevede mai alcuna pena detentiva" }
+    ],
+    correctAnswerId: "A",
+    explanation: "L'art. 316-ter c.p. si apre con la clausola 'Salvo che il fatto costituisca il reato previsto dall'art. 640-bis'. Interviene quando vi è una mera dichiarazione falsa o un'omissione informativa (senza quella messa in scena ingannevole tipica dei raggiri della truffa).",
+    hint: "Reato sussidiario che scatta in caso di false dichiarazioni od omissioni senza artifizi o raggiri.",
+    level: "intermedio"
+  },
+  {
+    id: "Q_PECS_PEN_016",
+    question: "Qual è la soglia di punibilità penale stabilita dall'art. 316-ter, comma 2, c.p., al di sotto della quale il fatto non costituisce reato ma illecito amministrativo?",
+    options: [
+      { id: "A", text: "Euro 3.999,96" },
+      { id: "B", text: "Euro 10.000,00" },
+      { id: "C", text: "Euro 516,46" },
+      { id: "D", text: "Euro 1.000,00" }
+    ],
+    correctAnswerId: "A",
+    explanation: "Il secondo comma dell'art. 316-ter c.p. stabilisce che se la somma indebitamente percepita è pari o inferiore a 3.999,96 euro (vecchi 7.745.000 lire), il fatto non è punito penalmente ma si applica soltanto una sanzione amministrativa pecuniaria da parte della Prefettura.",
+    hint: "La soglia esatta di depenalizzazione è pari a 3.999,96 euro.",
+    level: "intermedio"
+  },
+  {
+    id: "Q_PECS_PEN_017",
+    question: "Che cosa caratterizza il delitto di 'malversazione di erogazioni pubbliche' (art. 316-bis c.p.)?",
+    options: [
+      { id: "A", text: "Chiunque, estraneo alla PA, avendo ottenuto dallo Stato, da altro ente pubblico o dall'UE contributi o finanziamenti destinati a favorire specifiche opere o attività di pubblico interesse, non li destina a tali finalità" },
+      { id: "B", text: "Il furto di fondi pubblici commesso direttamente dal cassiere della banca" },
+      { id: "C", text: "L'omesso versamento dei contributi INPS da parte del datore di lavoro" },
+      { id: "D", text: "La richiesta di ferie non spettanti da parte del dipendente" }
+    ],
+    correctAnswerId: "A",
+    explanation: "A differenza della truffa (in cui l'erogazione è ab origine illegittima), nella malversazione il finanziamento è ottenuto legittimamente, ma le somme ricevute vengono distratte per finalità personali o diverse da quelle vincolate per legge.",
+    hint: "Distrazione di fondi pubblici legittimamente ottenuti per finalità diverse da quelle prescritte.",
+    level: "intermedio"
+  },
+  {
+    id: "Q_PECS_PEN_018",
+    question: "In cosa si differenzia la 'falsità materiale' (art. 476 c.p.) dalla 'falsità ideologica' (art. 479 c.p.) commessa dal pubblico ufficiale in atti pubblici?",
+    options: [
+      { id: "A", text: "La falsità materiale riguarda la contraffazione o alterazione estrinseca del documento (es. firme false, cancellature, abrasioni); la falsità ideologica riguarda la non veridicità del contenuto attestato dal pubblico ufficiale in un atto genuino" },
+      { id: "B", text: "La falsità materiale è un reato contravvenzionale, la ideologica un delitto grave" },
+      { id: "C", text: "La falsità ideologica si applica solo alle opere d'arte" },
+      { id: "D", text: "Non vi è alcuna differenza giurisprudenziale" }
+    ],
+    correctAnswerId: "A",
+    explanation: "La falsità materiale attiene alla paternità o integrità fisica del documento (formazione di atto falso o alterazione di atto vero). La falsità ideologica presuppone un documento autentico, ma nel quale il pubblico ufficiale attesta fatti non veri o omette di attestare fatti avvenuti in sua presenza.",
+    hint: "Materiale: alterazione del documento fisico; Ideologica: attestazione di fatti non veri in un atto autentico.",
+    level: "base"
+  },
+  {
+    id: "Q_PECS_PEN_019",
+    question: "Quale reato commette il privato cittadino che, nel presentare una Dichiarazione Sostitutiva Unica (DSU) per l'ISEE o una domanda di prestazione all'INPS, attesta falsamente stati o fatti propri (art. 483 c.p.)?",
+    options: [
+      { id: "A", text: "Falsità ideologica commessa dal privato in atto pubblico" },
+      { id: "B", text: "Peculato mediante profitto dell'errore altrui" },
+      { id: "C", text: "Insubordinazione civile" },
+      { id: "D", text: "Nessun reato, le autocertificazioni non hanno valore penale" }
+    ],
+    correctAnswerId: "A",
+    explanation: "Ai sensi dell'art. 76 del D.P.R. 445/2000 e dell'art. 483 c.p., chiunque rilascia dichiarazioni mendaci o esibisce atti falsi nelle dichiarazioni sostitutive rese a una pubblica amministrazione risponde di falsità ideologica del privato in atto pubblico.",
+    hint: "Art. 483 c.p.: falsità ideologica commessa dal privato in atto pubblico.",
+    level: "base"
+  },
+  {
+    id: "Q_PECS_PEN_020",
+    question: "Quale obbligo penale grava sul pubblico ufficiale dell'INPS che, nell'esercizio o a causa delle sue funzioni, ha notizia di un reato perseguibile d'ufficio (art. 361 c.p.)?",
+    options: [
+      { id: "A", text: "L'obbligo di fare denuncia per iscritto senza ritardo al pubblico ministero o a un ufficiale di polizia giudiziaria, a pena di sanzione penale per omessa denuncia" },
+      { id: "B", text: "Ha facoltà discrezionale di decidere se avvisare o meno i carabinieri" },
+      { id: "C", text: "Può concordare privatamente con il colpevole il risarcimento del danno" },
+      { id: "D", text: "Deve attendere almeno 6 mesi prima di informare la procura" }
+    ],
+    correctAnswerId: "A",
+    explanation: "L'art. 361 c.p. punisce il pubblico ufficiale che omette o ritarda di denunciare all'Autorità Giudiziaria un reato perseguibile d'ufficio di cui abbia avuto notizia nell'esercizio o a causa delle sue funzioni (obbligo tassativo e non discrezionale).",
+    hint: "Obbligo immediato di denuncia scritta alla Procura o polizia giudiziaria (art. 361 c.p.).",
+    level: "intermedio"
+  },
+  {
+    id: "Q_PECS_PEN_021",
+    question: "Cosa punisce il delitto di 'traffico di influenze illecite' disciplinato dall'art. 346-bis del Codice Penale?",
+    options: [
+      { id: "A", text: "Chiunque, sfruttando o vantando relazioni con un pubblico ufficiale o incaricato di pubblico servizio, indebitamente fa dare o promettere a sé o ad altri denaro o altra utilità economica come prezzo della propria mediazione illecita o per remunerare il funzionario per l'esercizio delle sue funzioni" },
+      { id: "B", text: "L'esercizio non autorizzato del commercio ambulante" },
+      { id: "C", text: "La trasmissione di segnali radio senza concessione ministeriale" },
+      { id: "D", text: "La vendita di contratti assicurativi porta a porta" }
+    ],
+    correctAnswerId: "A",
+    explanation: "L'art. 346-bis c.p. colpisce la mediazione illecita e parasita: punisce chi sfrutta reali o millantate conoscenze nei palazzi pubblici per farsi pagare dai privati in cambio di favori o promesse di condizionamento dei funzionari.",
+    hint: "Mediazione illecita a pagamento sfruttando relazioni con pubblici funzionari.",
+    level: "intermedio"
+  },
+  {
+    id: "Q_PECS_PEN_022",
+    question: "Quale sanzione accessoria consegue di diritto alla condanna alla reclusione non inferiore a tre anni per un delitto commesso con abuso dei poteri o violazione dei doveri d'ufficio?",
+    options: [
+      { id: "A", text: "L'interdizione dai pubblici uffici (temporanea per non meno di cinque anni, o perpetua in caso di ergastolo o reclusione non inferiore a cinque anni)" },
+      { id: "B", text: "La revoca della patente di guida per dieci anni" },
+      { id: "C", text: "Il divieto di espatrio per tutta la famiglia" },
+      { id: "D", text: "L'obbligo di prestare servizio militare di leva" }
+    ],
+    correctAnswerId: "A",
+    explanation: "Ai sensi degli artt. 28 e 29 c.p., la condanna alla reclusione per un tempo non inferiore a tre anni importa l'interdizione dai pubblici uffici per la durata di cinque anni; la condanna all'ergastolo o a reclusione non inferiore a cinque anni comporta l'interdizione perpetua.",
+    hint: "Interdizione dai pubblici uffici temporanea o perpetua.",
+    level: "intermedio"
+  },
+  {
+    id: "Q_PECS_PEN_023",
+    question: "Cosa stabilisce l'art. 32-quinquies c.p. in materia di estinzione del rapporto di lavoro per condanne di reati contro la Pubblica Amministrazione?",
+    options: [
+      { id: "A", text: "La condanna alla reclusione per un tempo non inferiore a due anni per peculato, concussione, corruzione o induzione indebita importa in ogni caso l'estinzione del rapporto di lavoro o di impiego del dipendente pubblico" },
+      { id: "B", text: "Il dipendente viene promosso automaticamente per evitare scandali" },
+      { id: "C", text: "Il dipendente può continuare a lavorare part-time da casa" },
+      { id: "D", text: "Si applica solo ai lavoratori con contratto a tempo determinato" }
+    ],
+    correctAnswerId: "A",
+    explanation: "L'art. 32-quinquies c.p. prevede come pena accessoria automatica l'estinzione ope legis del rapporto di impiego con la PA a seguito di condanna ad almeno due anni di reclusione per i principali delitti contro la PA.",
+    hint: "Estinzione automatica del rapporto di impiego con la PA per condanne da due anni in su.",
+    level: "intermedio"
+  },
+  {
+    id: "Q_PECS_PEN_024",
+    question: "Cos'è la 'confisca per equivalente' prevista dall'art. 322-ter c.p. per i delitti contro la Pubblica Amministrazione?",
+    options: [
+      { id: "A", text: "L'ablazione forzata di beni, denaro o altre utilità di proprietà del reo per un valore corrispondente al prezzo o al profitto del reato, qualora non sia possibile aggredire direttamente il bene originario oggetto dell'illecito" },
+      { id: "B", text: "Il pagamento di una somma simbolica di 100 euro allo Stato" },
+      { id: "C", text: "La donazione dei computer dell'ufficio a scuole pubbliche" },
+      { id: "D", text: "La detrazione fiscale del 50% sull'IRPEF dovuta" }
+    ],
+    correctAnswerId: "A",
+    explanation: "Se il prezzo o profitto del reato corruttivo o di truffa è stato speso o disperso, l'art. 322-ter c.p. consente al giudice di confiscare qualsiasi altro bene di valore equivalente di proprietà del condannato (immobili, conti, auto).",
+    hint: "Confisca di beni di valore pari al profitto illecito quando non si trova il bene originario.",
+    level: "base"
+  },
+  {
+    id: "Q_PECS_PEN_025",
+    question: "Quale reato configura l'omesso versamento delle ritenute previdenziali e assistenziali operate dal datore di lavoro sulle retribuzioni dei lavoratori (art. 2 D.L. 463/1983 conv. in L. 638/1983)?",
+    options: [
+      { id: "A", text: "Reato punito con la reclusione fino a tre anni e la multa se l'omesso versamento supera l'importo di 10.000 euro annui; al di sotto di tale importo si applica una sanzione amministrativa pecuniaria, fermo restando che il datore non è punibile se versa entro 3 mesi dalla contestazione" },
+      { id: "B", text: "Peculato aggravato in ogni caso" },
+      { id: "C", text: "Bancarotta fraudolenta documentale" },
+      { id: "D", text: "Nessun reato, il datore è libero di non versare i contributi" }
+    ],
+    correctAnswerId: "A",
+    explanation: "L'art. 2 della L. 638/1983 (modificato dal D.Lgs. 8/2016) punisce penalmente l'omesso versamento delle ritenute operate sulla busta paga dei dipendenti solo se l'importo annuo supera 10.000 euro. Il versamento entro 3 mesi dalla notifica dell'accertamento estingue il reato.",
+    hint: "Reato penale sopra i 10.000 euro annui; il versamento entro 3 mesi sana l'illecito.",
+    level: "intermedio"
+  },
+  {
+    id: "Q_PECS_PEN_026",
+    question: "Che cosa si intende per 'caporalato' ai sensi dell'art. 603-bis del Codice Penale?",
+    options: [
+      { id: "A", text: "Intermediazione illecita e sfruttamento del lavoro mediante reclutamento di manodopera allo scopo di destinarla al lavoro presso terzi in condizioni di sfruttamento e approfittando dello stato di bisogno dei lavoratori" },
+      { id: "B", text: "L'attività di selezione del personale svolta dalle agenzie per il lavoro autorizzate" },
+      { id: "C", text: "La gestione delle mense aziendali all'interno delle caserme militari" },
+      { id: "D", text: "L'accordo sindacale per l'assegnazione dei turni di guardia notturna" }
+    ],
+    correctAnswerId: "A",
+    explanation: "L'art. 603-bis c.p. punisce severamente sia il caporale (intermediario) sia il datore di lavoro che assume o impiega manodopera sottoponendola a condizioni di sfruttamento (violazione orari, retribuzioni palesemente difformi dai CCNL, violazioni sicurezza, alloggi degradanti).",
+    hint: "Intermediazione illecita e sfruttamento della manodopera approfittando dello stato di bisogno.",
+    level: "base"
+  },
+  {
+    id: "Q_PECS_PEN_027",
+    question: "Nel reato di truffa aggravata per il conseguimento di erogazioni pubbliche (art. 640-bis c.p.), quale elemento distingue gli 'artifizi' dai 'raggiri'?",
+    options: [
+      { id: "A", text: "Gli artifizi consistono nell'alterazione della realtà esteriore mediante simulazione o dissimulazione materiale; i raggiri consistono in un discorso insidioso e menzognero che avvolge la psiche della vittima inducendola in errore" },
+      { id: "B", text: "Gli artifizi sono commessi solo da dirigenti, i raggiri da privati cittadini" },
+      { id: "C", text: "I raggiri richiedono l'uso di armi, gli artifizi l'uso del computer" },
+      { id: "D", text: "Non vi è alcuna distinzione dottrinaria" }
+    ],
+    correctAnswerId: "A",
+    explanation: "La giurisprudenza tradizionale definisce l'artifizio come una trasfigurazione della realtà oggettiva (creazione di apparenze ingannevoli fisiche o documentali) e il raggiro come un ragionamento capzioso che agisce sull'intelletto inducendo in errore la persona o l'ente.",
+    hint: "Artifizio: alterazione della realtà esterna; Raggiro: discorso o trama insidiosa volta a ingannare.",
+    level: "intermedio"
+  },
+  {
+    id: "Q_PECS_PEN_028",
+    question: "Quale responsabilità grava sulla società o ente (ex D.Lgs. 231/2001) in caso di commissione di truffa aggravata ai danni dell'INPS da parte di un proprio dirigente nell'interesse dell'impresa?",
+    options: [
+      { id: "A", text: "Responsabilità amministrativa da reato dell'ente, con applicazione di pesanti sanzioni pecuniarie, sanzioni interdittive (es. divieto di contrattare con la PA) e confisca del profitto" },
+      { id: "B", text: "Nessuna responsabilità per l'azienda, risponde solo la persona fisica in proprio" },
+      { id: "C", text: "La trasformazione automatica della società in associazione di volontariato" },
+      { id: "D", text: "L'ente è obbligato a donare tutte le proprie azioni all'INPS" }
+    ],
+    correctAnswerId: "A",
+    explanation: "I reati contro la PA (tra cui la truffa aggravata art. 640-bis) sono reati presupposto della responsabilità amministrativa degli enti ex D.Lgs. 231/2001: l'ente risponde con sanzioni pecuniarie e interdittive se non dimostra di aver adottato un efficace Modello di Organizzazione e Gestione (MOG).",
+    hint: "Responsabilità amministrativa da reato ex D.Lgs. 231/2001 con sanzioni pecuniarie e interdittive.",
+    level: "intermedio"
+  },
+  {
+    id: "Q_PECS_PEN_029",
+    question: "Che cosa si intende per 'dolo generico' e 'dolo specifico' nel diritto penale?",
+    options: [
+      { id: "A", text: "Il dolo generico consiste nella coscienza e volontà del fatto tipico descritto dalla norma; il dolo specifico richiede che l'agente agisca per un fine ulteriore espressamente previsto dalla legge, la cui realizzazione non è necessaria per la consumazione del reato" },
+      { id: "B", text: "Il dolo generico si applica a chiunque, quello specifico solo ai laureati in giurisprudenza" },
+      { id: "C", text: "Il dolo generico è punito con una multa, quello specifico con l'ergastolo" },
+      { id: "D", text: "Il dolo specifico richiede sempre la confessione dell'indagato" }
+    ],
+    correctAnswerId: "A",
+    explanation: "Nel dolo generico basta volere l'evento descritto dalla norma (es. omicidio). Nel dolo specifico la legge esige che il reo agisca per una finalità particolare (es. nel furto: 'al fine di trarne profitto per sé o per altri'), indipendentemente dal fatto che tale scopo sia poi raggiunto.",
+    hint: "Dolo specifico: finalità ulteriore tipizzata dalla norma incriminatrice.",
+    level: "base"
+  },
+  {
+    id: "Q_PECS_PEN_030",
+    question: "Nel delitto di peculato (art. 314 c.p.), che tipo di possesso o disponibilità della cosa deve avere il pubblico ufficiale?",
+    options: [
+      { id: "A", text: "Una disponibilità materiale o anche soltanto giuridica (potere di disposizione contabile o amministrativa) derivante dalla propria funzione o mansione istituzionale" },
+      { id: "B", text: "Il possesso fisico immediato nella propria tasca o cassaforte personale" },
+      { id: "C", text: "La titolarità della proprietà catastale del bene" },
+      { id: "D", text: "L'autorizzazione scritta rilasciata dal Prefetto" }
+    ],
+    correctAnswerId: "A",
+    explanation: "Per la giurisprudenza consolidata delle Sezioni Unite, nel peculato non occorre la detenzione materiale del denaro: basta la disponibilità giuridica, ossia il potere dispositivo di ordinare bonifici, mandati di pagamento o movimenti di spesa in ragione dell'ufficio.",
+    hint: "Disponibilità materiale o giuridica (potere di disposizione sui flussi di cassa o mandati).",
+    level: "intermedio"
+  },
+  {
+    id: "Q_PECS_PEN_031",
+    question: "Quale reato commette chi presenta una falsa attestazione di gravidanza o di malattia per ottenere dall'INPS l'indennità economica di maternità o di malattia non spettante?",
+    options: [
+      { id: "A", text: "Truffa aggravata per il conseguimento di erogazioni pubbliche (art. 640-bis c.p.) in concorso con la falsità in atti" },
+      { id: "B", text: "Bancarotta semplice" },
+      { id: "C", text: "Esercizio abusivo di una professione sanitaria" },
+      { id: "D", text: "Frode fiscale internazionale" }
+    ],
+    correctAnswerId: "A",
+    explanation: "La produzione di certificati falsi integra gli artifizi e raggiri necessari a indurre in errore i funzionari dell'INPS, configurando il reato di truffa aggravata per il conseguimento di erogazioni pubbliche in concorso con il falso documentale.",
+    hint: "Truffa aggravata per erogazioni pubbliche (art. 640-bis c.p.) in concorso con il falso.",
+    level: "base"
+  },
+  {
+    id: "Q_PECS_PEN_032",
+    question: "Cosa prevede l'art. 379-bis del Codice Penale in ordine alla 'rivelazione di segreti inerenti a un procedimento penale'?",
+    options: [
+      { id: "A", text: "Punisce chiunque rivela indebitamente notizie relative a un procedimento penale coperte dal segreto istruttorio delle quali sia venuto a conoscenza per ragioni di ufficio o per aver partecipato a un atto investigativo" },
+      { id: "B", text: "Premia i giornalisti che pubblicano intercettazioni coperte da segreto" },
+      { id: "C", text: "Si applica solo alle confessioni religiose" },
+      { id: "D", text: "Non prevede alcuna pena per i pubblici dipendenti" }
+    ],
+    correctAnswerId: "A",
+    explanation: "L'art. 379-bis c.p. presidia la segretezza degli atti di indagine penale, punendo chi rivela informazioni coperte da segreto istruttorio (es. un funzionario che avvisa un datore di lavoro di un'imminente perquisizione disposta dalla Procura).",
+    hint: "Rivelazione indebita di atti investigativi coperti dal segreto di indagine.",
+    level: "intermedio"
+  },
+  {
+    id: "Q_PECS_PEN_033",
+    question: "Quale conseguenza sanzionatoria speciale è prevista dall'art. 32-quater c.p. per i condannati per peculato, concussione o corruzione?",
+    options: [
+      { id: "A", text: "L'incapacità di contrattare con la Pubblica Amministrazione per un periodo da uno a cinque anni (o fino a sette anni a seconda della pena)" },
+      { id: "B", text: "La perdita della cittadinanza italiana" },
+      { id: "C", text: "L'obbligo di risiedere in un'isola minore" },
+      { id: "D", text: "La cancellazione dell'iscrizione al Servizio Sanitario Nazionale" }
+    ],
+    correctAnswerId: "A",
+    explanation: "L'incapacità di contrattare con la PA (art. 32-quater c.p.) impedisce all'imprenditore o al privato condannato per reati contro la PA di stipulare contratti di appalto, fornitura o concessione con qualsiasi ente pubblico.",
+    hint: "Incapacità di contrattare con la Pubblica Amministrazione.",
+    level: "base"
+  },
+  {
+    id: "Q_PECS_PEN_034",
+    question: "Che cos'è l'esimente dell''ordine del superiore' nel diritto penale (art. 51 c.p.)?",
+    options: [
+      { id: "A", text: "L'adempimento di un dovere imposto da un ordine legittimo della pubblica autorità esclude la punibilità; se l'ordine è illegittimo, risponde del reato sempre il pubblico ufficiale che lo ha impartito e anche chi lo ha eseguito, salvo che per legge non gli sia consentito alcun sindacato sulla legittimità dell'ordine" },
+      { id: "B", text: "La totale immunità penale per chiunque esegua qualsiasi ordine del proprio capo anche manifestamente criminoso" },
+      { id: "C", text: "Una circostanza aggravante che raddoppia sempre la pena" },
+      { id: "D", text: "Un'esclusiva applicabile al solo personale delle ferrovie dello Stato" }
+    ],
+    correctAnswerId: "A",
+    explanation: "L'art. 51 c.p. stabilisce che il dipendente pubblico ha il dovere e il diritto di rifiutare l'esecuzione di un ordine manifestamente criminoso. Se esegue un ordine illegittimo risponde del reato insieme a chi lo ha ordinato.",
+    hint: "L'ordine illegittimo non giustifica l'esecutore, salvo che non avesse potere di sindacato sull'atto.",
+    level: "intermedio"
+  },
+  {
+    id: "Q_PECS_PEN_035",
+    question: "Nel caso di 'appropriazione indebita' (art. 646 c.p.) commessa da un privato vs 'peculato' (art. 314 c.p.) commesso da un pubblico ufficiale, qual è il discrimine fondamentale?",
+    options: [
+      { id: "A", text: "La qualifica soggettiva dell'agente: nel peculato l'autore è un pubblico ufficiale o incaricato di pubblico servizio che possiede il bene in ragione della funzione o del servizio; nell'appropriazione indebita l'autore è un soggetto privato comune" },
+      { id: "B", text: "Il valore economico del bene sottratto" },
+      { id: "C", text: "Il fatto che il reato sia commesso di giorno o di notte" },
+      { id: "D", text: "L'approvazione preventiva della Corte dei Conti" }
+    ],
+    correctAnswerId: "A",
+    explanation: "Il peculato è un reato proprio del pubblico ufficiale o incaricato di pubblico servizio: la ratio dell'aggravamento sanzionatorio rispetto all'art. 646 c.p. risiede nella violazione dei doveri di probità e fedeltà verso la PA.",
+    hint: "Reato proprio del pubblico ufficiale con violazione dei doveri d'ufficio.",
+    level: "base"
+  },
+  {
+    id: "Q_PECS_PEN_036",
+    question: "Quando si configura il delitto di 'accesso abusivo a un sistema informatico o telematico' (art. 615-ter c.p.) all'interno dell'INPS?",
+    options: [
+      { id: "A", text: "Quando chiunque si introduce abusivamente in un sistema protetto da misure di sicurezza, ovvero vi si mantiene contro la volontà del titolare; per il funzionario pubblico si applica l'aggravante se commesso con abuso dei poteri o con violazione dei doveri d'ufficio (es. consultazione di dati previdenziali per fini personali estranei al servizio)" },
+      { id: "B", text: "Solo se il computer viene infettato da un virus distruttivo" },
+      { id: "C", text: "Solo se si ruba fisicamente l'hardware della sala server" },
+      { id: "D", text: "Mai, i dipendenti INPS hanno il diritto insindacabile di consultare qualsiasi archivio" }
+    ],
+    correctAnswerId: "A",
+    explanation: "Le Sezioni Unite della Cassazione (sent. Casani n. 4694/2012 e Savarese n. 41210/2017) hanno sancito che commette accesso abusivo anche il dipendente abilitato con password che interroga gli archivi INPS per finalità personali o estranee alle ragioni di servizio.",
+    hint: "Accesso o permanenza nel sistema informatico per finalità estranee al servizio con abuso dei poteri.",
+    level: "intermedio"
+  },
+  {
+    id: "Q_PECS_PEN_037",
+    question: "Quale pena è prevista per il reato di 'frode nelle pubbliche forniture' (art. 356 c.p.)?",
+    options: [
+      { id: "A", text: "La reclusione da uno a cinque anni e la multa per chi commette frode nell'esecuzione dei contratti di fornitura o nell'adempimento degli obblighi contrattuali verso lo Stato o altro ente pubblico" },
+      { id: "B", text: "Il solo richiamo verbale del Ministero dello Sviluppo Economico" },
+      { id: "C", text: "L'arresto da uno a tre mesi convertibile in pena pecuniaria" },
+      { id: "D", text: "L'ergastolo senza possibilità di patteggiamento" }
+    ],
+    correctAnswerId: "A",
+    explanation: "L'art. 356 c.p. tutela la regolarità e qualità delle forniture pubbliche: punisce i fornitori che consegnano beni o servizi difformi, viziati o scadenti rispetto a quanto pattuito nel capitolato d'appalto pubblico con l'ente.",
+    hint: "Frode commessa nell'adempimento delle forniture pubbliche (reclusione da 1 a 5 anni).",
+    level: "intermedio"
+  },
+  {
+    id: "Q_PECS_PEN_038",
+    question: "Che cosa si intende per 'reato proprio' nel diritto penale?",
+    options: [
+      { id: "A", text: "Un reato che può essere commesso soltanto da soggetti che rivestono una particolare qualifica giuridica, qualifica naturalistica o posizione di dovere richiesta espressamente dalla norma incriminatrice (es. pubblico ufficiale nel peculato)" },
+      { id: "B", text: "Un reato commesso esclusivamente nella propria abitazione privata" },
+      { id: "C", text: "Un reato che non ammette il concorso di altre persone" },
+      { id: "D", text: "Una contravvenzione punita solo con l'ammenda" }
+    ],
+    correctAnswerId: "A",
+    explanation: "I reati propri si distinguono dai reati comuni (commettibili da 'chiunque'): richiedono una qualifica speciale dell'autore (es. pubblico ufficiale, genitore, testimone) senza la quale il fatto non costituisce reato o integra un reato diverso.",
+    hint: "Reato che può essere commesso solo da chi possiede una specifica qualifica giuridica.",
+    level: "base"
+  },
+  {
+    id: "Q_PECS_PEN_039",
+    question: "Cosa stabilisce l'art. 319-ter c.p. in tema di 'corruzione in atti giudiziari'?",
+    options: [
+      { id: "A", text: "Punisce più gravemente i fatti di corruzione commessi per favorire o danneggiare una parte in un processo civile, penale o amministrativo" },
+      { id: "B", text: "Punisce l'avvocato che perde una causa per negligenza" },
+      { id: "C", text: "Si applica solo alle liti condominiali davanti al giudice di pace" },
+      { id: "D", text: "È un reato estinto nel 1990" }
+    ],
+    correctAnswerId: "A",
+    explanation: "La corruzione in atti giudiziari (art. 319-ter c.p.) è un'autonoma e gravissima figura di corruzione che offende la rettitudine della giurisdizione: scatta se il patto corruttivo mira a orientare o pilotare l'esito di un processo giudiziario.",
+    hint: "Patto corruttivo finalizzato a favorire o danneggiare una parte processuale.",
+    level: "intermedio"
+  },
+  {
+    id: "Q_PECS_PEN_040",
+    question: "In caso di concorso di persone nel reato (art. 110 c.p.), come rispondono il pubblico ufficiale e il privato che concordano l'erogazione di una prestazione INPS non dovuta dietro compenso?",
+    options: [
+      { id: "A", text: "Entrambi rispondono a titolo di concorso nel medesimo reato (corruzione propria o truffa aggravata), soggiacendo ciascuno alle pene stabilite per il reato commesso" },
+      { id: "B", text: "Risponde solo il privato cittadino perché ha offerto i soldi" },
+      { id: "C", text: "Risponde solo il pubblico ufficiale perché ha il dovere di fedeltà" },
+      { id: "D", text: "La pena è divisa esattamente al 50% tra i due compartecipi" }
+    ],
+    correctAnswerId: "A",
+    explanation: "L'art. 110 c.p. sancisce il principio di parità di titolo di reato nel concorso: quando più persone concorrono nel medesimo reato, ciascuna di esse risponde del reato stesso, salve le circostanze attenuanti o aggravanti individuali (artt. 111-114 c.p.).",
+    hint: "Concorso nel medesimo reato: entrambi rispondono della fattispecie commessa.",
+    level: "base"
+  },
+  {
+    id: "Q_PECS_PEN_041",
+    question: "Quale delitto commette il privato che promette o dà denaro al pubblico ufficiale affinché ometta un verbale di accertamento di lavoro nero?",
+    options: [
+      { id: "A", text: "Corruzione propria (art. 319 e 321 c.p.) in concorso con il pubblico ufficiale" },
+      { id: "B", text: "Semplice violazione amministrativa del codice del lavoro" },
+      { id: "C", text: "Diffamazione a mezzo stampa" },
+      { id: "D", text: "Esercizio arbitrario delle proprie ragioni" }
+    ],
+    correctAnswerId: "A",
+    explanation: "L'accordo corruttivo per omettere un atto doveroso (il verbale ispettivo) integra il delitto di corruzione propria per atto contrario ai doveri d'ufficio: l'art. 321 c.p. estende espressamente le stesse pene del pubblico ufficiale al corruttore.",
+    hint: "Corruzione propria ex artt. 319 e 321 c.p. che punisce allo stesso modo il corruttore.",
+    level: "base"
+  },
+  {
+    id: "Q_PECS_PEN_042",
+    question: "Che cos'è la 'falsità ideologica commessa dal pubblico ufficiale in certificati o in autorizzazioni amministrative' (art. 480 c.p.)?",
+    options: [
+      { id: "A", text: "Il reato commesso dal pubblico ufficiale che, nell'esercizio delle sue funzioni, attesta falsamente fatti dei quali l'atto è destinato a provare la verità mediante un certificato o autorizzazione amministrativa" },
+      { id: "B", text: "L'omessa risposta a una mail formale di richiesta informazioni" },
+      { id: "C", text: "La perdita accidentale di una carta d'identità" },
+      { id: "D", text: "La falsificazione di biglietti del cinema" }
+    ],
+    correctAnswerId: "A",
+    explanation: "L'art. 480 c.p. punisce specificamente il falso ideologico contenuto in certificati (es. certificato di regolarità contributiva DURC falso emesso consapevolmente) o autorizzazioni amministrative.",
+    hint: "Falso ideologico in certificazioni destinate a provare la verità dei fatti attestati.",
+    level: "intermedio"
+  },
+  {
+    id: "Q_PECS_PEN_043",
+    question: "Quale causa di giustificazione (scriminante) esclude l'antigiuridicità penale del fatto commesso per la necessità di salvare sé o altri dal pericolo attuale di un danno grave alla persona (art. 54 c.p.)?",
+    options: [
+      { id: "A", text: "Lo stato di necessità" },
+      { id: "B", text: "Il consenso dell'avente diritto" },
+      { id: "C", text: "La legittima difesa contro cose inanimate" },
+      { id: "D", text: "L'uso legittimo delle armi per motivi economici" }
+    ],
+    correctAnswerId: "A",
+    explanation: "L'art. 54 c.p. disciplina lo stato di necessità: non è punibile chi commette il fatto costretto dalla necessità di salvare sé o altri dal pericolo attuale di un danno grave alla persona, non causato da lui e non altrimenti evitabile, purché il fatto sia proporzionato al pericolo.",
+    hint: "Stato di necessità (art. 54 c.p.).",
+    level: "base"
+  },
+  {
+    id: "Q_PECS_PEN_044",
+    question: "Cosa si intende per 'reato consumato' e 'delitto tentato' (art. 56 c.p.)?",
+    options: [
+      { id: "A", text: "Il reato è consumato quando si sono realizzati tutti gli elementi costitutivi descritti dalla fattispecie; il delitto è tentato quando l'agente compie atti idonei, diretti in modo non equivoco a commettere un delitto, ma l'azione non si compie o l'evento non si verifica" },
+      { id: "B", text: "Il delitto tentato è punito solo con una sanzione morale" },
+      { id: "C", text: "Il reato consumato richiede sempre la confessione scritta del reo" },
+      { id: "D", text: "Non vi è alcuna differenza nella pena applicabile" }
+    ],
+    correctAnswerId: "A",
+    explanation: "L'art. 56 c.p. disciplina il tentativo: occorrono atti idonei e non equivoci e la mancata consumazione per cause indipendenti dalla volontà del colpevole. La pena per il delitto tentato è diminuita da un terzo a due terzi rispetto al reato consumato.",
+    hint: "Tentativo: atti idonei e univoci con mancata consumazione dell'evento.",
+    level: "base"
+  },
+  {
+    id: "Q_PECS_PEN_045",
+    question: "Cosa prevede l'istituto della 'desistenza volontaria' nel delitto tentato (art. 56, comma 3, c.p.)?",
+    options: [
+      { id: "A", text: "Se il colpevole volontariamente desiste dall'azione, soggiace soltanto alla pena per gli atti compiuti, qualora questi costituiscano per sé un reato diverso" },
+      { id: "B", text: "È punito con la stessa pena del reato consumato aumentata di un terzo" },
+      { id: "C", text: "Comporta l'ergastolo immediato" },
+      { id: "D", text: "Non ha alcun effetto sulla responsabilità penale" }
+    ],
+    correctAnswerId: "A",
+    explanation: "La desistenza volontaria (c.d. ponte d'oro al colpevole che torna sui suoi passi prima di completare l'azione) comporta la non punibilità a titolo di tentativo: il soggetto risponde solo se i singoli atti già posti in essere integrino autonomamente un reato diverso.",
+    hint: "Interruzione volontaria dell'azione criminosa che esclude la punibilità per il tentativo.",
+    level: "intermedio"
+  },
+  {
+    id: "Q_PECS_PEN_046",
+    question: "Quale tutela accorda la legge penale al funzionario pubblico vittima di minaccia o violenza per costringerlo a fare un atto contrario ai doveri o per omettere un atto d'ufficio (art. 336 c.p.)?",
+    options: [
+      { id: "A", text: "Il delitto di 'Violenza o minaccia a un pubblico ufficiale', punito con la reclusione da sei mesi a cinque anni" },
+      { id: "B", text: "Una semplice sanzione contravvenzionale da 50 euro" },
+      { id: "C", text: "Il trasferimento del funzionario in un'altra sede per motivi di sicurezza" },
+      { id: "D", text: "La perdita della qualifica di pubblico ufficiale" }
+    ],
+    correctAnswerId: "A",
+    explanation: "L'art. 336 c.p. tutela la libertà di autodeterminazione e la sicurezza del pubblico ufficiale, sanzionando chiunque usi violenza o minaccia per costringerlo a compiere un atto contrario ai suoi doveri o a omettere un atto doveroso.",
+    hint: "Art. 336 c.p.: violenza o minaccia a pubblico ufficiale.",
+    level: "base"
+  },
+  {
+    id: "Q_PECS_PEN_047",
+    question: "Qual è la differenza tra 'oltraggio a pubblico ufficiale' (art. 341-bis c.p.) e 'diffamazione' (art. 595 c.p.)?",
+    options: [
+      { id: "A", text: "L'oltraggio richiede che l'offesa all'onore e al prestigio del pubblico ufficiale sia proferita in luogo pubblico o aperto al pubblico e in presenza di più persone, mentre compie un atto d'ufficio ed a causa o nell'esercizio delle sue funzioni" },
+      { id: "B", text: "L'oltraggio riguarda solo offese rivolte a cittadini stranieri" },
+      { id: "C", text: "La diffamazione è un delitto contro la personalità dello Stato" },
+      { id: "D", text: "Non vi è alcuna differenza, l'oltraggio è stato depenalizzato totalmente" }
+    ],
+    correctAnswerId: "A",
+    explanation: "L'art. 341-bis c.p. tutela il prestigio della funzione pubblica: l'offesa deve avvenire in pubblico, alla presenza di terzi e contestualmente all'atto d'ufficio. Si estingue se l'imputato risarcisce integralmente il danno prima del giudizio.",
+    hint: "Offesa in luogo pubblico alla presenza di più persone contestualmente all'atto d'ufficio.",
+    level: "intermedio"
+  },
+  {
+    id: "Q_PECS_PEN_048",
+    question: "Nel diritto penale, quale efficacia ha l''ignoranza della legge penale' ai sensi dell'art. 5 c.p. alla luce della sentenza Corte Costituzionale n. 364/1988?",
+    options: [
+      { id: "A", text: "L'ignoranza della legge penale non scusa, a meno che non si tratti di ignoranza inevitabile e incolpevole" },
+      { id: "B", text: "L'ignoranza della legge scusa sempre chiunque non abbia la laurea" },
+      { id: "C", text: "La legge penale si applica solo a chi ha dichiarato per iscritto di conoscerla" },
+      { id: "D", text: "Nessuna norma penale può essere applicata se non comunicata con raccomandata A/R" }
+    ],
+    correctAnswerId: "A",
+    explanation: "La storica sentenza della Corte Costituzionale n. 364/1988 ha dichiarato parzialmente illegittimo l'art. 5 c.p., introducendo il principio secondo cui l'errore o l'ignoranza scusa soltanto se scaturisce da un'inevitabilità oggettiva (es. testi normativi oscuri o contrastanti prassi giudiziarie).",
+    hint: "Non scusa, salvo che si tratti di ignoranza inevitabile e incolpevole (Corte Cost. 364/1988).",
+    level: "intermedio"
+  },
+  {
+    id: "Q_PECS_PEN_049",
+    question: "In tema di prescrizione del reato (art. 157 c.p.), come viene calcolato il tempo necessario a prescrivere un delitto contro la Pubblica Amministrazione?",
+    options: [
+      { id: "A", text: "Il tempo corrisponde al massimo della pena edittale stabilita dalla legge per ciascun reato, e comunque non può essere inferiore a sei anni per i delitti" },
+      { id: "B", text: "Tutti i reati si prescrivono in due anni fissi" },
+      { id: "C", text: "I delitti contro la PA sono imprescrittibili per sempre come l'omicidio" },
+      { id: "D", text: "La prescrizione decorre solo dopo che l'imputato ha compiuto 70 anni" }
+    ],
+    correctAnswerId: "A",
+    explanation: "L'art. 157 c.p. stabilisce che la prescrizione estingue il reato decorso il tempo corrispondente al massimo della pena edittale stabilita dalla legge, non inferiore comunque a sei anni per i delitti e a quattro anni per le contravvenzioni.",
+    hint: "Massimo edittale della pena, con un minimo di 6 anni per i delitti.",
+    level: "intermedio"
+  },
+  {
+    id: "Q_PECS_PEN_050",
+    question: "Quale effetto produce la sentenza irrevocabile di condanna penale per reati contro la PA nel giudizio disciplinare dinanzi all'Ufficio Procedimenti Disciplinari (UPD) dell'INPS (art. 653 c.p.p. e art. 55-ter D.Lgs. 165/2001)?",
+    options: [
+      { id: "A", text: "Ha efficacia di giudicato quanto all'accertamento della sussistenza del fatto, della sua illiceità penale e all'affermazione che l'imputato lo ha commesso, vincolando l'amministrazione per le sanzioni disciplinari (compreso il licenziamento)" },
+      { id: "B", text: "Non ha alcun valore, l'amministrazione deve ricominciare le indagini da capo" },
+      { id: "C", text: "Comporta l'annullamento di qualsiasi sanzione disciplinare" },
+      { id: "D", text: "Vincola l'ente ad aumentare lo stipendio al condannato" }
+    ],
+    correctAnswerId: "A",
+    explanation: "Ai sensi dell'art. 653 c.p.p. e del D.Lgs. 165/2001, la condanna penale definitiva fa pieno stato nel giudizio disciplinare circa la materialità del fatto e la responsabilità del dipendente, costituendo base certa per l'UPD per irrogare il licenziamento per giusta causa.",
+    hint: "Efficacia di giudicato vincolante sulla sussistenza del fatto e sulla colpevolezza del dipendente.",
+    level: "intermedio"
+  }
+];
+
+const dest = path.join(dir, 'reati_pa.json');
+fs.writeFileSync(dest, JSON.stringify(questions, null, 2), 'utf8');
+console.log(`Generated ${questions.length} questions in ${dest}`);

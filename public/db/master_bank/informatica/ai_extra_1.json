@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "Q_INF_AI_051",
+    "question": "Cosa si intende con il termine 'Computer Vision'?",
+    "options": [
+      {"id": "A", "text": "Una branca dell'IA che permette ai computer di interpretare e comprendere informazioni visive dal mondo reale"},
+      {"id": "B", "text": "Un sistema di rendering 3D per applicazioni grafiche"},
+      {"id": "C", "text": "Un protocollo di trasmissione video su rete"},
+      {"id": "D", "text": "Un'interfaccia utente basata su comandi vocali"}
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La Computer Vision è un campo dell'intelligenza artificiale che consente ai computer di acquisire, elaborare e interpretare immagini e video in modo simile alla visione umana.",
+    "hint": "Pensa a come un computer 'vede' il mondo attraverso fotocamere e algoritmi.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_AI_052",
+    "question": "Qual è la principale funzione di una rete neurale convoluzionale (CNN)?",
+    "options": [
+      {"id": "A", "text": "Elaborare sequenze temporali di dati"},
+      {"id": "B", "text": "Estrarre automaticamente feature spaziali da immagini attraverso filtri convoluzionali"},
+      {"id": "C", "text": "Generare testo in linguaggio naturale"},
+      {"id": "D", "text": "Ottimizzare problemi di scheduling"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Le CNN utilizzano strati convoluzionali con filtri (kernel) che scorrono sull'immagine per rilevare pattern locali come bordi, texture e forme, costruendo rappresentazioni gerarchiche.",
+    "hint": "Il nome stesso contiene l'operazione matematica fondamentale che le caratterizza.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_AI_053",
+    "question": "Cosa si intende per 'pooling' nelle reti CNN?",
+    "options": [
+      {"id": "A", "text": "Un meccanismo di aggregazione che riduce le dimensioni spaziali della feature map"},
+      {"id": "B", "text": "Una tecnica di normalizzazione dei pesi"},
+      {"id": "C", "text": "Un metodo per aumentare la risoluzione delle immagini"},
+      {"id": "D", "text": "Un algoritmo di backpropagation ottimizzato"}
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il pooling (es. max pooling, average pooling) riduce la dimensionalità spaziale della feature map, rendendo la rete più efficiente, riducendo l'overfitting e introducendo invarianza alle traslazioni.",
+    "hint": "Pensa alla parola 'riduzione' e a cosa succede alla mappa delle feature.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_AI_054",
+    "question": "Quale tecnica di Computer Vision consente di rilevare e localizzare oggetti all'interno di un'immagine con bounding box?",
+    "options": [
+      {"id": "A", "text": "Image classification"},
+      {"id": "B", "text": "Object detection"},
+      {"id": "C", "text": "Image segmentation semantica"},
+      {"id": "D", "text": "Style transfer"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'object detection non solo classifica gli oggetti in un'immagine, ma ne identifica anche la posizione tramite bounding box rettangolari. Algoritmi noti includono YOLO, SSD e Faster R-CNN.",
+    "hint": "Si tratta di 'rilevare' e 'localizzare' contemporaneamente.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_AI_055",
+    "question": "Cosa distingue la segmentazione semantica dalla segmentazione per istanze?",
+    "options": [
+      {"id": "A", "text": "La segmentazione semantica assegna una classe a ogni pixel; quella per istanze distingue anche singole istanze della stessa classe"},
+      {"id": "B", "text": "La segmentazione semantica è più veloce perché usa solo CNN, quella per istanze usa Transformer"},
+      {"id": "C", "text": "Non c'è differenza pratica, sono sinonimi"},
+      {"id": "D", "text": "La segmentazione per istanze classifica solo oggetti in movimento"}
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Nella segmentazione semantica ogni pixel riceve un'etichetta di classe (es. 'auto'), senza distinguere tra diverse auto. La segmentazione per istanze (es. Mask R-CNN) distingue ogni singolo oggetto separatamente.",
+    "hint": "Considera due auto fianco a fianco: come le tratta ciascuna tecnica?",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_AI_056",
+    "question": "Il Reinforcement Learning si basa su quale paradigma fondamentale?",
+    "options": [
+      {"id": "A", "text": "Un agente apprende tramite supervisione da un dataset etichettato"},
+      {"id": "B", "text": "Un agente interagisce con un ambiente ricevendo ricompense o penalità per le sue azioni"},
+      {"id": "C", "text": "Un algoritmo trova cluster nei dati senza supervisione"},
+      {"id": "D", "text": "Un modello impara imitando direttamente esempi umani"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Nel Reinforcement Learning (RL) un agente esegue azioni in un ambiente, transita tra stati e riceve un segnale di ricompensa (reward). L'obiettivo è massimizzare la ricompensa cumulativa nel tempo.",
+    "hint": "Pensa al modo in cui gli animali apprendono tramite premi e punizioni.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_AI_057",
+    "question": "Nel Reinforcement Learning, cos'è la 'policy'?",
+    "options": [
+      {"id": "A", "text": "La funzione che mappa gli stati alle azioni che l'agente deve compiere"},
+      {"id": "B", "text": "Il dataset di training dell'agente"},
+      {"id": "C", "text": "Il meccanismo di backpropagation della rete neurale"},
+      {"id": "D", "text": "Il tasso di apprendimento dell'algoritmo di ottimizzazione"}
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La policy (π) è la strategia dell'agente: determina quale azione intraprendere in ogni stato. Può essere deterministica (a = π(s)) o stocastica (π(a|s) = probabilità di azione a nello stato s).",
+    "hint": "È la 'strategia' o 'regola decisionale' dell'agente.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_AI_058",
+    "question": "Cosa rappresenta la Q-function (Q-value) nel Reinforcement Learning?",
+    "options": [
+      {"id": "A", "text": "La probabilità di raggiungere lo stato terminale"},
+      {"id": "B", "text": "Il valore atteso della ricompensa cumulativa partendo da uno stato, compiendo un'azione e seguendo poi la policy"},
+      {"id": "C", "text": "Il numero di iterazioni necessarie per convergere"},
+      {"id": "D", "text": "La qualità del dataset di training"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Q(s,a) è la value function di stato-azione: stima la ricompensa totale attesa se si parte dallo stato s, si compie l'azione a e poi si segue la policy ottima. È la base di algoritmi come Q-learning e DQN.",
+    "hint": "La 'Q' sta per 'Quality' di uno stato-azione.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_AI_059",
+    "question": "Qual è la differenza tra RL model-free e model-based?",
+    "options": [
+      {"id": "A", "text": "Model-free apprende direttamente dall'interazione senza modellare l'ambiente; model-based costruisce un modello interno dell'ambiente per pianificare"},
+      {"id": "B", "text": "Model-free usa reti neurali, model-based usa alberi decisionali"},
+      {"id": "C", "text": "Model-free è più lento ma più accurato; model-based è più veloce ma meno preciso"},
+      {"id": "D", "text": "Non esiste una differenza concettuale rilevante"}
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Gli algoritmi model-free (Q-learning, PPO, A3C) imparano la policy/value function direttamente dall'esperienza. Gli algoritmi model-based (Dyna-Q, AlphaZero) costruiscono un modello delle dinamiche dell'ambiente per eseguire pianificazione (lookahead).",
+    "hint": "Un approccio usa un 'modello interno' del mondo, l'altro no.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_AI_060",
+    "question": "Cosa si intende con 'Explainable AI' (XAI)?",
+    "options": [
+      {"id": "A", "text": "Modelli di IA con prestazioni auto-documentate nel codice"},
+      {"id": "B", "text": "Un insieme di tecniche e metodi che rendono i processi decisionali dei modelli IA comprensibili agli esseri umani"},
+      {"id": "C", "text": "L'uso di commenti nel codice sorgente dei modelli IA"},
+      {"id": "D", "text": "Un framework per visualizzare architetture di reti neurali"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "XAI mira a rendere interpretabili i modelli di ML/DL, permettendo di capire perché un modello ha preso una determinata decisione. È fondamentale per fiducia, accountability, e conformità normativa (es. AI Act).",
+    "hint": "La parola chiave è 'spiegabile': gli umani devono capire le decisioni dell'IA.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_AI_061",
+    "question": "LIME (Local Interpretable Model-agnostic Explanations) funziona:",
+    "options": [
+      {"id": "A", "text": "Addestrando un modello interpretabile localmente attorno alla predizione da spiegare, perturbando l'input"},
+      {"id": "B", "text": "Calcolando il gradiente del modello rispetto all'input"},
+      {"id": "C", "text": "Utilizzando alberi decisionali come unico modello di base"},
+      {"id": "D", "text": "Analizzando i pesi degli strati della rete neurale globalmente"}
+    ],
+    "correctAnswerId": "A",
+    "explanation": "LIME genera perturbazioni intorno a un'istanza, ottiene predizioni del modello black-box su di esse e addestra un modello semplice (es. regressione lineare) localmente per approssimare il comportamento del modello complesso in quella zona.",
+    "hint": "Il nome contiene 'Local': agisce localmente attorno a un singolo esempio.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_AI_062",
+    "question": "I valori SHAP (SHapley Additive exPlanations) si basano su:",
+    "options": [
+      {"id": "A", "text": "La teoria dei giochi cooperativi, calcolando il contributo marginale medio di ogni feature"},
+      {"id": "B", "text": "L'analisi delle componenti principali (PCA)"},
+      {"id": "C", "text": "La backpropagation guidata dei gradienti"},
+      {"id": "D", "text": "La distanza euclidea tra istanze nel feature space"}
+    ],
+    "correctAnswerId": "A",
+    "explanation": "SHAP utilizza i valori di Shapley dalla teoria dei giochi per attribuire a ogni feature il suo contributo alla predizione, calcolando la media ponderata dei contributi marginali su tutte le possibili coalizioni di feature.",
+    "hint": "Pensa ai giochi di squadra e alla distribuzione equa dei 'guadagni'.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_AI_063",
+    "question": "Cosa sono le GAN (Generative Adversarial Networks)?",
+    "options": [
+      {"id": "A", "text": "Reti usate esclusivamente per la classificazione di immagini mediche"},
+      {"id": "B", "text": "Architetture composte da un generatore e un discriminatore che si addestrano in modo antagonista"},
+      {"id": "C", "text": "Algoritmi di clustering non supervisionato basati su reti neurali"},
+      {"id": "D", "text": "Sistemi di raccomandazione basati su reti ricorrenti"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Le GAN (Goodfellow et al., 2014) consistono in un Generatore che crea dati sintetici e un Discriminatore che cerca di distinguere dati reali da sintetici. Il training è un gioco minimax: G minimizza, D massimizza la probabilità di classificare correttamente.",
+    "hint": "La parola 'Adversarial' indica un rapporto di 'opposizione' tra due componenti.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_AI_064",
+    "question": "Qual è il problema del 'mode collapse' nelle GAN?",
+    "options": [
+      {"id": "A", "text": "Il discriminatore converge troppo velocemente rispetto al generatore"},
+      {"id": "B", "text": "Il generatore produce sempre lo stesso output o un insieme molto limitato di output, ignorando la varietà dei dati reali"},
+      {"id": "C", "text": "La GAN smette di aggiornarsi dopo un certo numero di epoche"},
+      {"id": "D", "text": "Il modello richiede troppa memoria GPU durante il training"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il mode collapse avviene quando il generatore trova poche soluzioni che 'ingannano' il discriminatore e le replica sempre, perdendo diversità. È uno dei problemi di training più comuni nelle GAN tradizionali.",
+    "hint": "Il generatore 'collassa' su un numero limitato di 'modalità' (modes) della distribuzione.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_AI_065",
+    "question": "Le Conditional GAN (cGAN) differiscono dalle GAN classiche perché:",
+    "options": [
+      {"id": "A", "text": "Generano immagini in alta risoluzione usando più discriminatori"},
+      {"id": "B", "text": "Sia il generatore che il discriminatore ricevono informazioni condizionali (es. etichette di classe) come input aggiuntivo"},
+      {"id": "C", "text": "Usano una funzione di perdita basata sulla distanza di Wasserstein"},
+      {"id": "D", "text": "Vengono addestrate solo su dataset video non su immagini statiche"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Nelle cGAN il generatore produce immagini condizionate a un'informazione aggiuntiva (es. classe, etichetta, immagine), permettendo una generazione controllata. Questo risolve il problema di non sapere cosa il generatore sta sintetizzando.",
+    "hint": "La parola 'Conditional' indica che la generazione è condizionata a qualcosa di specifico.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_AI_066",
+    "question": "Cosa distingue l'architettura Transformer dalle reti RNN/LSTM?",
+    "options": [
+      {"id": "A", "text": "I Transformer usano connessioni ricorrenti per elaborare sequenze token per token"},
+      {"id": "B", "text": "I Transformer processano l'intera sequenza in parallelo tramite self-attention, senza ricorrenza"},
+      {"id": "C", "text": "I Transformer richiedono meno dati di training rispetto a RNN/LSTM"},
+      {"id": "D", "text": "I Transformer sono architetture progettate esclusivamente per dati tabellari"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "A differenza di RNN/LSTM che elaborano sequenze in modo sequenziale (un token alla volta), i Transformer (Vaswani et al., 2017 - 'Attention is All You Need') processano tutti i token simultaneamente tramite il meccanismo di self-attention, consentendo parallelizzazione massiva.",
+    "hint": "Il titolo del paper originale ('Attention is All You Need') dà un indizio importante.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_AI_067",
+    "question": "Nel meccanismo di self-attention del Transformer, cosa rappresentano Query (Q), Key (K) e Value (V)?",
+    "options": [
+      {"id": "A", "text": "Q è il token corrente, K sono i token di contesto, V sono i pesi della rete"},
+      {"id": "B", "text": "Tre proiezioni lineari dell'input che permettono di calcolare quanto ogni token debba 'attendere' agli altri token"},
+      {"id": "C", "text": "Tre dataset separati usati per training, validation e test"},
+      {"id": "D", "text": "Tre layer di normalizzazione applicati sequenzialmente"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "In self-attention: Q (Query) rappresenta il token che 'chiede', K (Key) rappresenta i token a cui confrontarsi, V (Value) contiene il contenuto da aggregare. L'attention score è: softmax(QK^T / √d_k) × V.",
+    "hint": "Pensa a un sistema di ricerca: la Query cerca tra le Key e recupera i Value.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_AI_068",
+    "question": "Cos'è la Multi-Head Attention nei Transformer?",
+    "options": [
+      {"id": "A", "text": "Un meccanismo che addestra più modelli separati e ne combina i risultati"},
+      {"id": "B", "text": "Un'estensione del self-attention che proietta Q, K, V in più sottospazi e combina le attention da diverse 'teste'"},
+      {"id": "C", "text": "Una tecnica di regularizzazione che applica dropout su più strati"},
+      {"id": "D", "text": "Un sistema di attention applicato solo al primo e ultimo token"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La Multi-Head Attention esegue h operazioni di attention in parallelo (heads), ognuna con proiezioni diverse, permettendo al modello di cogliere relazioni da diverse 'prospettive' contemporaneamente. Gli output delle heads vengono concatenati e riproiettati.",
+    "hint": "Più 'teste' = più prospettive diverse sulle relazioni tra token.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_AI_069",
+    "question": "Cosa si intende per 'positional encoding' nei Transformer?",
+    "options": [
+      {"id": "A", "text": "Un sistema di indicizzazione degli strati del modello"},
+      {"id": "B", "text": "Una codifica aggiunta agli embedding per iniettare informazioni sull'ordine posizionale dei token"},
+      {"id": "C", "text": "Un meccanismo per codificare informazioni geografiche nel modello"},
+      {"id": "D", "text": "Una tecnica per normalizzare i vettori di embedding alla stessa magnitudine"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Poiché la self-attention è permutation-invariant (non sa la posizione dei token), il positional encoding aggiunge una rappresentazione della posizione all'embedding di ogni token. L'originale usa funzioni seno/coseno a diverse frequenze.",
+    "hint": "Senza di esso, il modello non saprebbe che 'il cane morde l'uomo' è diverso da 'l'uomo morde il cane'.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_AI_070",
+    "question": "BERT (Bidirectional Encoder Representations from Transformers) è caratterizzato da:",
+    "options": [
+      {"id": "A", "text": "Un'architettura decoder-only che genera testo token per token"},
+      {"id": "B", "text": "Un'architettura encoder-only che legge il testo in modo bidirezionale, pre-addestrata con Masked Language Modeling e Next Sentence Prediction"},
+      {"id": "C", "text": "Un modello che usa solo strati ricorrenti LSTM con attention"},
+      {"id": "D", "text": "Un sistema di traduzione automatica encoder-decoder"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "BERT (Devlin et al., 2018) è un encoder Transformer bidirezionale. Usa due task di pre-training: Masked Language Modeling (MLM - predire token mascherati) e Next Sentence Prediction (NSP). La bidirezionalità è cruciale per capire il contesto completo.",
+    "hint": "La 'B' di BERT sta proprio per 'Bidirectional'.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_AI_071",
+    "question": "GPT (Generative Pre-trained Transformer) differisce da BERT principalmente perché:",
+    "options": [
+      {"id": "A", "text": "GPT è bidirezionale, BERT è unidirezionale"},
+      {"id": "B", "text": "GPT usa un'architettura decoder-only con attention causale (unidirezionale left-to-right), addestrata per la generazione di testo"},
+      {"id": "C", "text": "GPT è addestrato solo su dati tabulari, BERT su testo"},
+      {"id": "D", "text": "GPT ha meno parametri di BERT per essere più efficiente"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "GPT (OpenAI) usa solo il decoder del Transformer con masked self-attention causale: ogni token può vedere solo i token precedenti. Questo lo rende ideale per generazione di testo (language modeling autoregressivo). BERT usa invece l'encoder con attention bidirezionale.",
+    "hint": "GPT genera testo in avanti, quindi può guardare solo a sinistra, non a destra.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_AI_072",
+    "question": "Cosa si intende con 'fine-tuning' di un Large Language Model (LLM)?",
+    "options": [
+      {"id": "A", "text": "Il processo di aggiornamento dell'architettura del modello per ridurne le dimensioni"},
+      {"id": "B", "text": "L'adattamento di un modello pre-addestrato su un task o dominio specifico tramite training su dati etichettati pertinenti"},
+      {"id": "C", "text": "La fase iniziale di training da zero su grandi corpus di testo"},
+      {"id": "D", "text": "La compressione del modello tramite quantizzazione dei pesi"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il fine-tuning aggiorna i parametri di un modello pre-addestrato su un dataset specifico del task target. Sfrutta le rappresentazioni generali apprese durante il pre-training, adattandole al contesto specifico con relativamente pochi dati.",
+    "hint": "È l'equivalente di 'rifinire' competenze già acquisite per uno scopo specifico.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_AI_073",
+    "question": "Cosa è la Retrieval-Augmented Generation (RAG)?",
+    "options": [
+      {"id": "A", "text": "Una tecnica di compressione delle reti neurali tramite distillazione"},
+      {"id": "B", "text": "Un paradigma che combina un sistema di recupero di documenti rilevanti con un modello generativo per produrre risposte più accurate e aggiornate"},
+      {"id": "C", "text": "Un metodo di training che aumenta i dati tramite tecniche di augmentation"},
+      {"id": "D", "text": "Un algoritmo di ricerca su grafi per knowledge graph"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "RAG (Lewis et al., 2020) combina un retriever (es. dense retrieval con embedding) che recupera documenti pertinenti da una knowledge base con un generatore (LLM) che produce la risposta condizionata ai documenti recuperati, riducendo allucinazioni e integrando conoscenza aggiornata.",
+    "hint": "Il nome combina 'recupero' (Retrieval) con 'generazione' (Generation).",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_AI_074",
+    "question": "Qual è il vantaggio principale di RAG rispetto al semplice fine-tuning per integrare conoscenza aggiornata?",
+    "options": [
+      {"id": "A", "text": "RAG è più veloce nel training perché usa meno parametri"},
+      {"id": "B", "text": "RAG consente di aggiornare la knowledge base senza ri-addestrare il modello e fornisce citabilità delle fonti"},
+      {"id": "C", "text": "RAG produce sempre risposte più brevi e concise del fine-tuning"},
+      {"id": "D", "text": "RAG elimina completamente il rischio di allucinazioni del modello"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Con RAG, la knowledge base esterna può essere aggiornata (es. aggiungendo nuovi documenti) senza dover ri-addestrare il modello. Inoltre, le risposte possono essere tracciate ai documenti sorgente, migliorando trasparenza e verificabilità.",
+    "hint": "Pensa alla flessibilità: cosa succede se la conoscenza cambia?",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_AI_075",
+    "question": "Cosa si intende per 'Federated Learning'?",
+    "options": [
+      {"id": "A", "text": "Un paradigma di training distribuito dove i dati rimangono sui dispositivi locali e solo gli aggiornamenti dei modelli vengono condivisi con un server centrale"},
+      {"id": "B", "text": "Un sistema di federazione di database distribuiti per l'analytics"},
+      {"id": "C", "text": "Un protocollo di comunicazione sicura tra modelli IA in cloud"},
+      {"id": "D", "text": "Un framework per il training parallelo su cluster GPU"}
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Nel Federated Learning (McMahan et al., 2017) i dati rimangono sui dispositivi dei client (smartphone, ospedali). Ogni client addestra il modello localmente sui propri dati, invia solo gli aggiornamenti (gradienti o pesi) al server che li aggrega (es. FedAvg), preservando la privacy dei dati.",
+    "hint": "I dati restano 'a casa': vengono condivisi solo i 'miglioramenti' appresi.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_AI_076",
+    "question": "Qual è la principale sfida del Federated Learning legata all'eterogeneità dei dati?",
+    "options": [
+      {"id": "A", "text": "I dispositivi locali hanno diverse versioni di firmware"},
+      {"id": "B", "text": "I dati sui diversi client possono essere non i.i.d. (non indipendenti e identicamente distribuiti), causando convergenza lenta o instabile"},
+      {"id": "C", "text": "La latenza di rete rende impossibile il coordinamento"},
+      {"id": "D", "text": "I client non possono eseguire backpropagation senza GPU"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il problema non-IID è critico nel Federated Learning: se ogni client ha dati molto diversi (es. un ospedale tratta solo certi pazienti), gli aggiornamenti locali possono divergere, rendendo difficile l'aggregazione in un modello globale generalizzabile.",
+    "hint": "IID = Independent and Identically Distributed. Il contrario è problematico.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_AI_077",
+    "question": "L'AI Act dell'Unione Europea classifica i sistemi IA in base a:",
+    "options": [
+      {"id": "A", "text": "Il numero di parametri del modello e la potenza computazionale richiesta"},
+      {"id": "B", "text": "Un approccio basato sul rischio: inaccettabile, alto, limitato e minimo"},
+      {"id": "C", "text": "Il settore industriale di applicazione (sanità, finanza, trasporti)"},
+      {"id": "D", "text": "La nazionalità del fornitore del sistema IA"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'AI Act UE (Regolamento 2024/1689) adotta un approccio risk-based con quattro livelli: rischio inaccettabile (vietati, es. social scoring), alto rischio (obblighi severi, es. CV screening, biometria), rischio limitato (obblighi trasparenza), rischio minimo (nessun obbligo specifico).",
+    "hint": "Il regolamento è 'basato sul rischio' che il sistema può causare.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_AI_078",
+    "question": "Secondo l'AI Act, quali sistemi IA sono considerati 'ad alto rischio'?",
+    "options": [
+      {"id": "A", "text": "Solo i sistemi usati in contesti militari e di difesa"},
+      {"id": "B", "text": "Sistemi usati in settori critici come infrastrutture, istruzione, occupazione, servizi pubblici essenziali, forze dell'ordine e biometria"},
+      {"id": "C", "text": "Tutti i modelli con più di 1 miliardo di parametri"},
+      {"id": "D", "text": "Solo i sistemi che elaborano dati personali sensibili"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'Allegato III dell'AI Act elenca i sistemi ad alto rischio: infrastrutture critiche, istruzione e formazione professionale, occupazione (es. screening CV), accesso a servizi essenziali, law enforcement, gestione delle frontiere, amministrazione della giustizia, democrazia, e sistemi biometrici.",
+    "hint": "Sono i sistemi che possono avere impatto significativo su diritti fondamentali e sicurezza.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_AI_079",
+    "question": "Cosa prevede l'AI Act per i sistemi IA vietati (rischio inaccettabile)?",
+    "options": [
+      {"id": "A", "text": "Richiedono solo una valutazione d'impatto prima del deployment"},
+      {"id": "B", "text": "Sono completamente proibiti nell'UE, inclusi sistemi di social scoring governativi, manipolazione subliminale e identificazione biometrica in tempo reale in spazi pubblici (con eccezioni)"},
+      {"id": "C", "text": "Possono essere usati solo da enti pubblici previa autorizzazione"},
+      {"id": "D", "text": "Devono essere certificati da un organismo notificato europeo"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'Art. 5 dell'AI Act vieta: sistemi di categorizzazione biometrica basata su caratteristiche sensibili, social scoring governativo, manipolazione psicologica subliminale, sfruttamento di vulnerabilità, identificazione biometrica real-time in spazi pubblici per forze dell'ordine (salvo eccezioni strette).",
+    "hint": "Questi sistemi rappresentano una minaccia ai diritti fondamentali e sono quindi banditi.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_AI_080",
+    "question": "Cosa si intende per 'bias algoritmico' nell'IA?",
+    "options": [
+      {"id": "A", "text": "Un errore sistematico nei risultati di un modello IA che porta a trattamenti ingiusti verso certi gruppi di persone"},
+      {"id": "B", "text": "Il termine tecnico per l'iperparametro bias nelle reti neurali"},
+      {"id": "C", "text": "Una tecnica di regularizzazione per ridurre l'overfitting"},
+      {"id": "D", "text": "L'errore di misurazione causato da sensori imprecisi"}
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il bias algoritmico si manifesta quando un sistema IA produce risultati sistematicamente discriminatori verso gruppi definiti da genere, razza, età, ecc. Può originare da dati di training distorti, scelta delle feature, o proxy discriminatori nel modello.",
+    "hint": "Non è il 'bias' matematico, ma un tipo di pregiudizio o discriminazione sistematica.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_AI_081",
+    "question": "Quale definizione formale di fairness implica che il tasso di falsi positivi sia uguale tra gruppi protetti?",
+    "options": [
+      {"id": "A", "text": "Demographic parity (parità demografica)"},
+      {"id": "B", "text": "Equalized odds"},
+      {"id": "C", "text": "Individual fairness"},
+      {"id": "D", "text": "Calibration fairness"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Equalized odds (Hardt et al., 2016) richiede che sia il tasso di veri positivi (TPR) che quello di falsi positivi (FPR) siano uguali tra i gruppi protetti. Demographic parity richiede solo uguali tassi di predizioni positive, indipendentemente dall'outcome reale.",
+    "hint": "Pensa a condizioni di 'uguaglianza' sia per i positivi corretti che per i falsi allarmi.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_AI_082",
+    "question": "Il teorema di impossibilità della fairness (Chouldechova, 2017) stabilisce che:",
+    "options": [
+      {"id": "A", "text": "È impossibile costruire un classificatore senza errori su dati con noise"},
+      {"id": "B", "text": "Quando le prevalenze degli outcome differiscono tra gruppi, alcune definizioni di fairness sono matematicamente incompatibili tra loro"},
+      {"id": "C", "text": "I modelli equi richiedono sempre più dati di quelli non equi"},
+      {"id": "D", "text": "Non esiste un algoritmo polinomiale per ottimizzare la fairness"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il teorema mostra che quando i tassi base (prevalenze) differiscono tra gruppi, non è possibile soddisfare simultaneamente calibrazione, bilanciamento degli errori e uguali tassi di falsi positivi/negativi. Le definizioni di fairness sono in tensione tra loro.",
+    "hint": "Si tratta di una incompatibilità matematica tra diverse definizioni formali di equità.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_AI_083",
+    "question": "Cosa si intende con 'transfer learning'?",
+    "options": [
+      {"id": "A", "text": "Il trasferimento di dati da un database a un altro per il training"},
+      {"id": "B", "text": "Il riutilizzo di un modello pre-addestrato su un task come punto di partenza per un task diverso ma correlato"},
+      {"id": "C", "text": "La migrazione di un modello IA da un framework a un altro (es. TensorFlow a PyTorch)"},
+      {"id": "D", "text": "Un protocollo per trasferire pesi del modello tra dispositivi edge"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il transfer learning sfrutta la conoscenza acquisita su un task (es. classificazione di ImageNet) per migliorare l'apprendimento su un task diverso (es. classificazione di immagini mediche), richiedendo meno dati e tempo di training.",
+    "hint": "Le conoscenze si 'trasferiscono' da un contesto ad un altro.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_AI_084",
+    "question": "LoRA (Low-Rank Adaptation) è una tecnica di fine-tuning efficiente perché:",
+    "options": [
+      {"id": "A", "text": "Riduce il learning rate progressivamente durante il training"},
+      {"id": "B", "text": "Congela i pesi pre-addestrati e aggiunge matrici di adattamento di basso rango, riducendo drasticamente i parametri trainabili"},
+      {"id": "C", "text": "Distilla la conoscenza in un modello più piccolo tramite soft labels"},
+      {"id": "D", "text": "Usa quantizzazione a 4 bit per ridurre l'uso di memoria"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "LoRA (Hu et al., 2021) inietta matrici di adattamento ΔW = BA (con B e A di basso rango) nei layer del Transformer, mantenendo i pesi originali congelati. Riduce i parametri trainabili di ordini di grandezza, rendendo il fine-tuning di LLM praticabile con risorse limitate.",
+    "hint": "Il nome contiene 'Low-Rank': matrici di rango ridotto sono la chiave.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_AI_085",
+    "question": "Cosa sono i 'Foundation Models'?",
+    "options": [
+      {"id": "A", "text": "Modelli IA progettati specificamente per applicazioni finanziarie"},
+      {"id": "B", "text": "Modelli di grandi dimensioni pre-addestrati su enormi corpus di dati generalisti, adattabili a molti task tramite fine-tuning o prompting"},
+      {"id": "C", "text": "Modelli che costituiscono la base matematica dell'algebra lineare usata nell'IA"},
+      {"id": "D", "text": "Modelli di simulazione fisica usati in robotica"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il termine 'Foundation Models' (Bommasani et al., 2021, Stanford) indica modelli come GPT-4, BERT, CLIP, addestrati su dati massivi e adattabili a molteplici compiti downstream. La loro versatilità li rende 'fondativi' per molte applicazioni IA.",
+    "hint": "Sono la 'fondazione' su cui costruire applicazioni specifiche.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_AI_086",
+    "question": "Cosa si intende per 'allucinazione' (hallucination) in un LLM?",
+    "options": [
+      {"id": "A", "text": "Un errore visivo prodotto da modelli di Computer Vision su input degradati"},
+      {"id": "B", "text": "La generazione di testo fluente ma fattualmente errato, inventato o non supportato dal contesto"},
+      {"id": "C", "text": "Un comportamento indesiderato dovuto all'overfitting su dati di training"},
+      {"id": "D", "text": "La capacità del modello di immaginare scenari ipotetici realistici"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'allucinazione è un problema critico degli LLM: il modello genera output confidenti ma non ancorati a fatti reali, citando riferimenti inesistenti, inventando date, nomi o eventi. RAG e RLHF sono tra le tecniche usate per mitigarlo.",
+    "hint": "Il modello 'inventa' cose che sembrano vere ma non lo sono.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_AI_087",
+    "question": "Cos'è il 'prompt engineering'?",
+    "options": [
+      {"id": "A", "text": "La progettazione dell'architettura hardware dei chip per LLM"},
+      {"id": "B", "text": "La pratica di progettare input testuali (prompt) ottimali per guidare un LLM a produrre output desiderati senza modificarne i pesi"},
+      {"id": "C", "text": "Una tecnica di compressione dei pesi del modello basata su pruning"},
+      {"id": "D", "text": "Il processo di creazione del vocabolario (tokenizer) per un LLM"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il prompt engineering è la disciplina di formulare istruzioni, esempi e contesto ottimali da fornire all'LLM in input per ottenere risposte accurate, utili e appropriate. Tecniche includono chain-of-thought prompting, few-shot prompting e zero-shot prompting.",
+    "hint": "Si 'ingegnerizza' il modo in cui si parla al modello, non il modello stesso.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_AI_088",
+    "question": "Cosa si intende con 'RLHF' (Reinforcement Learning from Human Feedback)?",
+    "options": [
+      {"id": "A", "text": "Un algoritmo di RL usato per addestrare robot con feedback tattile umano"},
+      {"id": "B", "text": "Una tecnica che usa valutazioni umane per addestrare un reward model, poi usato per allineare un LLM tramite RL (es. PPO)"},
+      {"id": "C", "text": "Un metodo di raccolta dati tramite crowdsourcing per il pre-training di LLM"},
+      {"id": "D", "text": "Un protocollo di federated learning con supervisione umana sui dispositivi edge"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "RLHF (usato in InstructGPT, ChatGPT): (1) si raccolgono preferenze umane su coppie di risposte; (2) si addestra un Reward Model che predice le preferenze; (3) si usa PPO (Proximal Policy Optimization) per ottimizzare l'LLM rispetto al reward model. Migliora l'allineamento con le intenzioni umane.",
+    "hint": "Combina Reinforcement Learning con valutazioni/feedback di esseri umani.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_AI_089",
+    "question": "In Computer Vision, cosa si intende per 'data augmentation'?",
+    "options": [
+      {"id": "A", "text": "L'utilizzo di GAN per generare dataset sintetici da zero"},
+      {"id": "B", "text": "Tecniche di trasformazione delle immagini esistenti (rotazione, flip, crop, noise) per aumentare artificialmente la dimensione e varietà del dataset di training"},
+      {"id": "C", "text": "Il processo di etichettatura manuale di nuove immagini"},
+      {"id": "D", "text": "L'aggiunta di metadati EXIF alle immagini del dataset"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La data augmentation applica trasformazioni (rotazione, flip orizzontale/verticale, ritaglio, variazione di luminosità/contrasto, aggiunta di rumore) alle immagini per creare varianti che migliorano la generalizzazione del modello e riducono l'overfitting.",
+    "hint": "Si 'aumenta' il dataset applicando trasformazioni alle immagini già presenti.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_AI_090",
+    "question": "Vision Transformer (ViT) applica l'architettura Transformer alle immagini dividendole in:",
+    "options": [
+      {"id": "A", "text": "Pixel singoli, trattando ogni pixel come un token"},
+      {"id": "B", "text": "Patch fisse non sovrapposte, ciascuna linearizzata e trattata come un token"},
+      {"id": "C", "text": "Layer convoluzionali progressivi, uno per ogni strato di attention"},
+      {"id": "D", "text": "Regioni di interesse individuate da un region proposal network"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "ViT (Dosovitskiy et al., 2020) divide l'immagine in patch di dimensione fissa (es. 16×16 pixel), le appiattisce e le proietta linearmente creando token di immagine (image tokens), poi applica il Transformer standard con positional encoding.",
+    "hint": "ViT 'patchifica' l'immagine in pezzi che diventano token.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_AI_091",
+    "question": "Cosa si intende con 'knowledge distillation'?",
+    "options": [
+      {"id": "A", "text": "L'estrazione di regole interpretabili da un modello black-box"},
+      {"id": "B", "text": "Una tecnica per trasferire la conoscenza da un modello grande (teacher) a uno più piccolo (student) tramite soft labels"},
+      {"id": "C", "text": "La compressione di un knowledge graph in forma vettoriale"},
+      {"id": "D", "text": "L'aggregazione di modelli ensemble in un unico modello tramite averaging"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Nella knowledge distillation (Hinton et al., 2015) uno student network apprende non solo dalle label hard del dataset ma anche dalle distribuzioni di probabilità soft del teacher (soft labels/dark knowledge), catturando informazioni più ricche sulle relazioni tra classi.",
+    "hint": "La conoscenza si 'distilla' da un modello grande a uno piccolo.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_AI_092",
+    "question": "Nella terminologia dell'AI Act, cos'è un 'GPAI model' (General Purpose AI)?",
+    "options": [
+      {"id": "A", "text": "Un modello certificato dall'EU AI Office per uso in applicazioni critiche"},
+      {"id": "B", "text": "Un modello IA addestrato su grandi scale che può essere usato per molteplici task diversi, inclusi modelli di base come GPT-4"},
+      {"id": "C", "text": "Un modello IA sviluppato esclusivamente da enti governativi europei"},
+      {"id": "D", "text": "Un modello open source rilasciato sotto licenza pubblica europea"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'AI Act (Titolo VIII) introduce obblighi specifici per i GPAI models: trasparenza, rispetto copyright, documentazione tecnica. I modelli con potenza computazionale > 10^25 FLOP hanno obblighi aggiuntivi di valutazione dei rischi sistemici.",
+    "hint": "GPAI = General Purpose AI, ovvero modelli per uso generale come GPT-4, Gemini, Llama.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_AI_093",
+    "question": "Cosa si intende per 'adversarial attacks' nei modelli di ML?",
+    "options": [
+      {"id": "A", "text": "Attacchi informatici alla pipeline di CI/CD dei sistemi IA"},
+      {"id": "B", "text": "Input deliberatamente perturbati in modo impercettibile per ingannare un classificatore e causare predizioni errate"},
+      {"id": "C", "text": "Tecniche di hacking per accedere ai pesi di un modello addestrato"},
+      {"id": "D", "text": "Metodi per rubare il dataset di training tramite query ripetute"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Gli adversarial examples sono input modificati con piccole perturbazioni (spesso invisibili all'occhio umano) che causano errori gravi nei classificatori. Es: un'immagine di panda con noise ottimizzato viene classificata come gibbone con alta confidenza (Goodfellow et al., 2014).",
+    "hint": "Piccoli cambiamenti impercettibili possono 'ingannare' completamente la rete.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_AI_094",
+    "question": "Il principio di 'privacy by design' applicato al Federated Learning si manifesta principalmente in:",
+    "options": [
+      {"id": "A", "text": "La crittografia end-to-end degli aggiornamenti trasmessi al server"},
+      {"id": "B", "text": "Il fatto che i dati grezzi dei client non lasciano mai il dispositivo locale, ma vengono condivisi solo gli aggiornamenti del modello"},
+      {"id": "C", "text": "L'uso obbligatorio di VPN tra client e server durante il training"},
+      {"id": "D", "text": "La pseudonimizzazione automatica dei dataset prima del training"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il design fondamentale del Federated Learning incorpora privacy by design: i dati grezzi restano sui dispositivi locali. Tuttavia, persiste il rischio che gli aggiornamenti del modello possano rivelare informazioni sui dati, per cui si aggiungono tecniche come differential privacy e secure aggregation.",
+    "hint": "La privacy è 'integrata by design' nella struttura stessa del paradigma FL.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_AI_095",
+    "question": "Cosa si intende per 'attention mask' nei modelli Transformer?",
+    "options": [
+      {"id": "A", "text": "Una maschera visiva applicata alle immagini input nel ViT"},
+      {"id": "B", "text": "Una matrice che impedisce al meccanismo di attention di considerare certi token (es. padding o token futuri in decoder causale)"},
+      {"id": "C", "text": "Un meccanismo di dropout applicato agli attention weights durante il training"},
+      {"id": "D", "text": "Un layer di normalizzazione applicato dopo ogni head di attention"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'attention mask serve due scopi: (1) mascherare i token di padding affinché non influenzino le attention degli altri token, e (2) nel decoder causale, mascherare i token futuri per garantire che ogni posizione possa attendere solo ai token precedenti (autoregressive decoding).",
+    "hint": "Una 'maschera' nasconde certi elementi al meccanismo di attention.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_AI_096",
+    "question": "Cosa misura la metrica FID (Fréchet Inception Distance) nelle GAN?",
+    "options": [
+      {"id": "A", "text": "La velocità di convergenza del generatore durante il training"},
+      {"id": "B", "text": "La distanza tra le distribuzioni delle feature estratte da immagini reali e generate, usando un modello Inception pre-addestrato"},
+      {"id": "C", "text": "Il numero di parametri del discriminatore rispetto al generatore"},
+      {"id": "D", "text": "La differenza di risoluzione tra immagini reali e sintetiche"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "FID confronta le statistiche (media e covarianza) delle feature estratte da un Inception network applicate a immagini reali e generate. Un FID basso indica alta qualità e diversità delle immagini generate. È la metrica standard per valutare le GAN.",
+    "hint": "Misura quanto le immagini generate sono 'vicine' statisticamente a quelle reali.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_AI_097",
+    "question": "Qual è il ruolo del 'dropout' come tecnica di regularizzazione nelle reti neurali?",
+    "options": [
+      {"id": "A", "text": "Aumenta la learning rate per accelerare la convergenza"},
+      {"id": "B", "text": "Durante il training, disattiva casualmente una percentuale di neuroni ad ogni passo, riducendo la co-adattabilità e l'overfitting"},
+      {"id": "C", "text": "Rimuove i pesi con valore inferiore a una soglia per ridurre i parametri"},
+      {"id": "D", "text": "Normalizza i valori di attivazione per mantenerli in range stabili"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il dropout (Srivastava et al., 2014) azzera casualmente una frazione p di neuroni durante ogni passo di training (con probabilità p). Questo previene che i neuroni co-adattino eccessivamente, forzando la rete a imparare rappresentazioni più robuste. In inference il dropout è disattivato.",
+    "hint": "Alcuni neuroni 'escono' casualmente dal training ad ogni passo.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_AI_098",
+    "question": "Cos'è il 'batch normalization' nelle reti neurali profonde?",
+    "options": [
+      {"id": "A", "text": "Una tecnica che normalizza i gradienti durante la backpropagation"},
+      {"id": "B", "text": "Un layer che normalizza le attivazioni di un mini-batch, riducendo l'internal covariate shift e accelerando il training"},
+      {"id": "C", "text": "Un algoritmo di ottimizzazione che aggiusta il batch size dinamicamente"},
+      {"id": "D", "text": "Una tecnica per normalizzare i dati di input prima del training"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Batch Normalization (Ioffe & Szegedy, 2015) normalizza le attivazioni di ogni mini-batch (media 0, varianza 1) poi le ri-scala con parametri trainabili γ e β. Riduce il problema dell'internal covariate shift, permette learning rate più alti e ha un effetto di regularizzazione.",
+    "hint": "Normalizza le attivazioni tra i campioni di un batch durante il forward pass.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_AI_099",
+    "question": "Cosa si intende per 'zero-shot learning'?",
+    "options": [
+      {"id": "A", "text": "Un modello che raggiunge zero errori sul test set"},
+      {"id": "B", "text": "La capacità di un modello di classificare o risolvere task su classi/compiti mai visti durante il training, senza esempi aggiuntivi"},
+      {"id": "C", "text": "Un metodo di training che non usa dati etichettati"},
+      {"id": "D", "text": "Un sistema che azzera i gradienti prima di ogni aggiornamento dei pesi"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Nel zero-shot learning il modello deve generalizzare a classi nuove (mai viste in training) usando solo descrizioni semantiche o attributi. Gli LLM moderni mostrano notevoli capacità zero-shot: GPT-4 può svolgere task nuovi solo dalla descrizione nel prompt.",
+    "hint": "'Zero shot' significa senza alcun esempio specifico per il nuovo task.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_AI_100",
+    "question": "Nel contesto dell'AI Act, il 'CE marking' per sistemi IA ad alto rischio implica:",
+    "options": [
+      {"id": "A", "text": "Che il sistema è stato certificato come carbon-neutral dall'Agenzia Europea per l'Ambiente"},
+      {"id": "B", "text": "Che il fornitore dichiara conformità ai requisiti dell'AI Act dopo aver completato la valutazione della conformità, permettendo l'immissione sul mercato UE"},
+      {"id": "C", "text": "Che il sistema è stato sviluppato esclusivamente in paesi dell'UE"},
+      {"id": "D", "text": "Che il modello ha superato un test di prestazione da parte dell'ENISA"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il marchio CE (Conformité Européenne) per sistemi IA ad alto rischio indica che il fornitore ha completato la valutazione di conformità (self-assessment o terza parte per alcuni sistemi), soddisfatto i requisiti di qualità, trasparenza, robustezza e sicurezza dell'AI Act.",
+    "hint": "Il marchio CE è il simbolo europeo di conformità ai requisiti normativi.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_AI_101",
+    "question": "Cosa si intende per 'residual connections' (skip connections) nelle reti ResNet?",
+    "options": [
+      {"id": "A", "text": "Connessioni tra neuroni non adiacenti che permettono al gradiente di fluire attraverso percorsi alternativi saltando alcuni layer"},
+      {"id": "B", "text": "Connessioni residuali tra diversi modelli in un ensemble"},
+      {"id": "C", "text": "Layer di connessione tra la fase di encoding e decoding in U-Net"},
+      {"id": "D", "text": "Link tra il training set e il validation set per evitare data leakage"}
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Le residual connections (He et al., 2015) aggiungono l'input di un blocco direttamente all'output (F(x) + x), creando percorsi alternativi per il gradiente. Risolvono il problema del vanishing gradient nelle reti molto profonde, consentendo l'addestramento di reti con centinaia di layer.",
+    "hint": "Il gradiente 'salta' direttamente attraverso queste connessioni, bypassando i layer.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_AI_102",
+    "question": "Cosa si intende per 'differential privacy' nel contesto del machine learning?",
+    "options": [
+      {"id": "A", "text": "Una tecnica di crittografia asimmetrica per proteggere i dati di training"},
+      {"id": "B", "text": "Un framework matematico che garantisce che la rimozione di un singolo campione dal dataset non cambi significativamente l'output dell'algoritmo (aggiungendo rumore calibrato)"},
+      {"id": "C", "text": "Un metodo per calcolare le derivate dei parametri del modello in modo sicuro"},
+      {"id": "D", "text": "Un protocollo di autenticazione per l'accesso ai dataset federati"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La differential privacy (Dwork, 2006) garantisce che un algoritmo sia 'insensibile' alla presenza o assenza di singoli individui nel dataset, aggiungendo rumore calibrato (es. rumore gaussiano o laplaciano) ai risultati. Usata in FL con DP-SGD per proteggere i dati dei client.",
+    "hint": "Aggiungendo rumore matematicamente calibrato, rende impossibile inferire dati individuali.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_AI_103",
+    "question": "Qual è la funzione dell'algoritmo YOLO (You Only Look Once) nella Computer Vision?",
+    "options": [
+      {"id": "A", "text": "Segmentazione semantica in tempo reale tramite fully convolutional networks"},
+      {"id": "B", "text": "Object detection in tempo reale che divide l'immagine in griglia e predice bounding box e classi in un unico passaggio forward"},
+      {"id": "C", "text": "Ricostruzione 3D di scene da singola immagine"},
+      {"id": "D", "text": "Generazione di immagini sintetiche tramite architettura encoder-decoder"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "YOLO (Redmon et al., 2016) esegue object detection in un singolo passaggio forward (single-shot detection). Divide l'immagine in una griglia S×S, e ogni cella predice B bounding box, confidenze e probabilità di classe simultaneamente, rendendo possibile la detection in tempo reale.",
+    "hint": "Il nome stesso rivela il meccanismo: si guarda l'immagine 'una sola volta'.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_AI_104",
+    "question": "Cos'è il 'context window' (finestra di contesto) in un LLM?",
+    "options": [
+      {"id": "A", "text": "La finestra dell'interfaccia grafica che mostra i log del modello"},
+      {"id": "B", "text": "Il numero massimo di token (input + output) che il modello può elaborare in una singola inferenza"},
+      {"id": "C", "text": "Un parametro che controlla quanti layer del Transformer sono attivi"},
+      {"id": "D", "text": "La dimensione del vocabolario usato per la tokenizzazione"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il context window definisce la quantità massima di testo (in token) che il modello può 'ricordare' in una singola sessione. GPT-4 ha una context window di 128K token, Gemini 1.5 Pro raggiunge 1M token. Limita quanta storia e contesto il modello può considerare.",
+    "hint": "Pensa alla 'memoria di lavoro' del modello durante una singola sessione.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_AI_105",
+    "question": "Cosa si intende per 'embedding' nel contesto dei modelli di linguaggio?",
+    "options": [
+      {"id": "A", "text": "L'integrazione di un modello IA in un'applicazione esterna tramite API"},
+      {"id": "B", "text": "Una rappresentazione vettoriale densa di parole/token in uno spazio continuo che cattura relazioni semantiche"},
+      {"id": "C", "text": "La tecnica di compressione dei pesi del modello in formato binario"},
+      {"id": "D", "text": "Un metodo per codificare informazioni multimodali (testo + immagini)"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Gli embedding sono vettori densi in Rⁿ che rappresentano token/parole in modo che parole semanticamente simili siano vicine nello spazio vettoriale. Word2Vec, GloVe, e gli embedding del Transformer sono esempi. La famosa proprietà: Re - Uomo + Donna ≈ Regina.",
+    "hint": "Parole simili hanno vettori simili: 'gatto' e 'felino' saranno vicini.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_AI_106",
+    "question": "Quale problema cercano di risolvere le Wasserstein GAN (WGAN) rispetto alle GAN tradizionali?",
+    "options": [
+      {"id": "A", "text": "La lentezza del training causata da batch size troppo grandi"},
+      {"id": "B", "text": "L'instabilità del training e il mode collapse, usando la distanza di Wasserstein come funzione di perdita più stabile"},
+      {"id": "C", "text": "La generazione di immagini a bassa risoluzione limitata a 64×64 pixel"},
+      {"id": "D", "text": "L'impossibilità di condizionare la generazione su etichette di classe"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "WGAN (Arjovsky et al., 2017) sostituisce la divergenza Jensen-Shannon con la distanza di Wasserstein (Earth Mover's Distance), che fornisce gradienti più stabili anche quando le distribuzioni reale e generata non si sovrappongono. Usa un 'critico' invece del discriminatore, con weight clipping o gradient penalty (WGAN-GP).",
+    "hint": "Il nome stesso contiene 'Wasserstein': una metrica di distanza più stabile.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_AI_107",
+    "question": "Cosa si intende con 'overfitting' nel machine learning?",
+    "options": [
+      {"id": "A", "text": "Il modello è troppo semplice per catturare i pattern nel dataset"},
+      {"id": "B", "text": "Il modello si adatta troppo bene ai dati di training, perdendo capacità di generalizzazione su dati nuovi"},
+      {"id": "C", "text": "Il modello impiega troppo tempo per convergere durante il training"},
+      {"id": "D", "text": "Il modello usa troppa memoria GPU durante l'inferenza"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'overfitting si verifica quando il modello 'memorizza' i dati di training (incluso il rumore) invece di imparare pattern generalizzabili. Si manifesta con basso errore sul training set e alto errore sul validation/test set. Tecniche di contrasto: regularizzazione, dropout, data augmentation, early stopping.",
+    "hint": "Il modello impara troppo bene i dati di training, inclusi i 'rumore' non rilevante.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_AI_108",
+    "question": "Nell'AI Act, cosa si intende per 'sistema di IA ad uso generale' con 'rischio sistemico'?",
+    "options": [
+      {"id": "A", "text": "Qualsiasi sistema IA usato in sistemi informatici critici per lo Stato"},
+      {"id": "B", "text": "Modelli GPAI addestrati con potenza computazionale superiore a 10^25 FLOP, che potrebbero avere impatti negativi su larga scala sull'UE"},
+      {"id": "C", "text": "Sistemi IA che processano dati di tutti i cittadini UE simultaneamente"},
+      {"id": "D", "text": "Modelli con più di 100 miliardi di parametri, indipendentemente dall'uso computazionale"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'AI Act identifica i GPAI con rischio sistemico come quelli addestrati usando > 10^25 FLOP di potenza computazionale. Per questi modelli sono richieste valutazioni di rischio sistemico, test red-team, reporting degli incidenti e misure di cybersecurity avanzate.",
+    "hint": "La soglia è basata sulla potenza computazionale di addestramento (FLOP).",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_AI_109",
+    "question": "Cosa si intende per 'semantic segmentation' nella Computer Vision?",
+    "options": [
+      {"id": "A", "text": "La segmentazione del testo di accompagnamento di un'immagine in unità semantiche"},
+      {"id": "B", "text": "La classificazione di ogni pixel di un'immagine in una categoria semantica (es. cielo, strada, persona)"},
+      {"id": "C", "text": "L'identificazione delle regioni salienti di un'immagine tramite heatmap"},
+      {"id": "D", "text": "La separazione di primo piano e sfondo in un'immagine binaria"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La segmentazione semantica assegna un'etichetta di classe a ogni singolo pixel dell'immagine. Architetture tipiche: FCN (Fully Convolutional Networks), U-Net, DeepLab. È fondamentale in applicazioni come guida autonoma e analisi di immagini mediche.",
+    "hint": "Ogni pixel viene classificato: si ottiene una 'mappa di classi' dell'immagine completa.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_AI_110",
+    "question": "Cosa si intende con 'chain-of-thought prompting' per gli LLM?",
+    "options": [
+      {"id": "A", "text": "Una tecnica che collega più modelli LLM in pipeline sequenziale"},
+      {"id": "B", "text": "Un approccio di prompting che incoraggia il modello a ragionare step-by-step prima di fornire la risposta finale, migliorando l'accuratezza su task complessi"},
+      {"id": "C", "text": "Un metodo per concatenare più query in un unico prompt"},
+      {"id": "D", "text": "Una tecnica per memorizzare conversazioni precedenti in un knowledge graph"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il chain-of-thought prompting (Wei et al., 2022) fornisce esempi di ragionamento esplicito step-by-step o chiede al modello di 'pensare ad alta voce' prima di rispondere. Migliora significativamente le prestazioni su task di ragionamento aritmetico, logico e simbolico.",
+    "hint": "'Pensare passo dopo passo' prima di rispondere: è questo il principio.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_AI_111",
+    "question": "Cosa si intende per 'anchor boxes' negli algoritmi di object detection come Faster R-CNN?",
+    "options": [
+      {"id": "A", "text": "Box predefinite con diverse scale e aspect ratio usate come riferimento per predire bounding box di oggetti"},
+      {"id": "B", "text": "Le bounding box degli oggetti annotate nel dataset di training"},
+      {"id": "C", "text": "Regioni fisse dell'immagine escluse dalla detection"},
+      {"id": "D", "text": "Box che ancorano il modello a predizioni precedenti in video sequenziali"}
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Le anchor boxes sono box di riferimento pre-definite con diverse scale (small, medium, large) e aspect ratio (quadrata, landscape, portrait) centrate su ogni posizione della feature map. Il modello predice offset rispetto alle anchors invece di coordinate assolute, rendendo l'ottimizzazione più stabile.",
+    "hint": "Sono scatole di riferimento predefinite che il modello 'aggiusta' per trovare gli oggetti.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_AI_112",
+    "question": "Cos'è il 'vanishing gradient problem' nelle reti neurali profonde?",
+    "options": [
+      {"id": "A", "text": "I gradienti diventano 0 o NaN durante il training a causa di divisioni per zero"},
+      {"id": "B", "text": "I gradienti diventano esponenzialmente piccoli durante la backpropagation nei layer profondi, impedendo l'aggiornamento efficace dei pesi nei primi layer"},
+      {"id": "C", "text": "La scomparsa progressiva dei neuroni attivi a causa del dropout"},
+      {"id": "D", "text": "L'impossibilità di calcolare i gradienti in reti con connessioni skip"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il vanishing gradient si manifesta quando i gradienti si moltiplicano per valori < 1 (es. derivate delle funzioni sigmoid) ad ogni backpropagation attraverso i layer. Nei layer iniziali i gradienti diventano quasi zero, rendendo l'apprendimento inefficace. Soluzioni: ReLU, batch norm, residual connections.",
+    "hint": "I gradienti 'svaniscono' mentre si propagano all'indietro attraverso molti layer.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_AI_113",
+    "question": "Il meccanismo di 'attention' in un Transformer cross-attention (nel decoder) funziona così:",
+    "options": [
+      {"id": "A", "text": "Il decoder attende ai token precedenti dell'output tramite self-attention bidirezionale"},
+      {"id": "B", "text": "Le Query provengono dall'output parziale del decoder, mentre Key e Value provengono dall'output dell'encoder, permettendo al decoder di 'attingere' alla rappresentazione dell'input"},
+      {"id": "C", "text": "Encoder e decoder scambiano casualmente i rispettivi embedding"},
+      {"id": "D", "text": "Il decoder ignora l'encoder e usa solo i token già generati"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Nella cross-attention del decoder: Q = rappresentazione dal decoder, K e V = output dell'encoder. Questo permette al decoder di 'interrogare' (attend to) selettivamente le rappresentazioni dell'input durante la generazione dell'output, fondamentale in task seq2seq come la traduzione.",
+    "hint": "Le Query del decoder 'interrogano' i Key-Value dell'encoder.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_AI_114",
+    "question": "Cosa si intende per 'tokenizzazione' (tokenization) nel preprocessing degli LLM?",
+    "options": [
+      {"id": "A", "text": "La generazione di token di autenticazione per l'accesso all'API del modello"},
+      {"id": "B", "text": "Il processo di suddivisione del testo in unità discrete (token) che il modello può elaborare, usando algoritmi come BPE o WordPiece"},
+      {"id": "C", "text": "La conversione dei parametri del modello in formato tokenizzato per la compressione"},
+      {"id": "D", "text": "Il processo di validazione dell'input tramite token di sicurezza"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La tokenizzazione converte testo grezzo in sequenze di token (sub-word units). BPE (Byte Pair Encoding) usato in GPT e RoBERTa, WordPiece in BERT, SentencePiece in T5. Un token può essere una parola, parte di parola o carattere. 'Tokenizzazione' in italiano potrebbe essere 3-5 token.",
+    "hint": "Il testo viene 'spezzato' in piccoli pezzi (token) che il modello capisce.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_AI_115",
+    "question": "Cosa si intende per 'reward shaping' nel Reinforcement Learning?",
+    "options": [
+      {"id": "A", "text": "La modifica della funzione di reward per guidare l'agente durante l'apprendimento, fornendo segnali più frequenti o informativi"},
+      {"id": "B", "text": "La normalizzazione dei reward tra -1 e +1 per stabilizzare il training"},
+      {"id": "C", "text": "La definizione degli stati terminali in un MDP"},
+      {"id": "D", "text": "Un meccanismo per aggiornare automaticamente la policy in base ai reward passati"}
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il reward shaping modifica o aumenta la funzione di reward originale per facilitare l'apprendimento, specialmente in ambienti con reward rari (sparse rewards). Può aggiungere reward intermedi per comportamenti desiderabili. Deve essere fatto con cura per evitare reward hacking.",
+    "hint": "Si 'modella' il segnale di ricompensa per aiutare l'agente ad imparare più facilmente.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_AI_116",
+    "question": "Cos'è un 'autoencoder' variazionale (VAE)?",
+    "options": [
+      {"id": "A", "text": "Un encoder che varia la sua architettura in base alla complessità dell'input"},
+      {"id": "B", "text": "Un modello generativo che impara una distribuzione latente gaussiana, permettendo sia la compressione che la generazione di nuovi campioni"},
+      {"id": "C", "text": "Una variante di RNN usata per la compressione lossy di sequenze temporali"},
+      {"id": "D", "text": "Un autoencoder con dropout variabile per evitare l'overfitting"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "I VAE (Kingma & Welling, 2013) apprendono una distribuzione latente (media μ e varianza σ² per ogni latente) invece di un punto fisso. Usando il reparametrization trick, si possono campionare nuovi punti dallo spazio latente per generare nuovi dati. Loss = reconstruction loss + KL divergence.",
+    "hint": "Il 'variazionale' indica che lo spazio latente è distribuito probabilisticamente.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_AI_117",
+    "question": "Cosa si intende per 'few-shot learning'?",
+    "options": [
+      {"id": "A", "text": "Un paradigma in cui il modello impara a risolvere nuovi task con pochissimi esempi (da 1 a poche decine)"},
+      {"id": "B", "text": "Un metodo di training che usa solo una piccola frazione del dataset disponibile"},
+      {"id": "C", "text": "Una tecnica di pruning che rimuove la maggior parte dei neuroni"},
+      {"id": "D", "text": "Un approccio di ML che richiede meno iterazioni di training per convergere"}
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il few-shot learning permette ai modelli di generalizzare a nuovi task con pochissimi esempi di training (1-shot con 1 esempio, 5-shot con 5 esempi, ecc.). Gli LLM moderni mostrano capacità few-shot notevoli in-context: basta fornire pochi esempi nel prompt.",
+    "hint": "Si impara da 'pochi colpi' (few shots), ovvero pochissimi esempi.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_AI_118",
+    "question": "La 'demographic parity' come definizione di fairness richiede che:",
+    "options": [
+      {"id": "A", "text": "Il modello abbia uguale accuratezza per tutti i gruppi demografici"},
+      {"id": "B", "text": "La probabilità di ricevere una predizione positiva sia uguale tra i gruppi protetti, indipendentemente dall'outcome reale"},
+      {"id": "C", "text": "La distribuzione demografica del dataset di training rispecchi quella della popolazione"},
+      {"id": "D", "text": "Il tasso di falsi negativi sia uguale tra i diversi gruppi demografici"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La demographic parity (also called statistical parity) richiede: P(Ŷ=1|A=0) = P(Ŷ=1|A=1), dove A è l'attributo protetto. In pratica: la proporzione di predizioni positive deve essere uguale tra i gruppi. Non considera se le predizioni positive sono corrette (alta precision).",
+    "hint": "La proporzione di 'sì' deve essere uguale per tutti i gruppi, indipendentemente da chi 'merita' il sì.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_AI_119",
+    "question": "Nel contesto del Federated Learning, cosa fa l'algoritmo FedAvg?",
+    "options": [
+      {"id": "A", "text": "Calcola la media dei dataset locali per creare un dataset centralizzato"},
+      {"id": "B", "text": "Aggrega i modelli locali calcolando la media pesata degli aggiornamenti dei pesi dei client, proporzionalmente alla dimensione del loro dataset"},
+      {"id": "C", "text": "Esegue il training in parallelo su tutti i client simultaneamente con sincronizzazione continua"},
+      {"id": "D", "text": "Seleziona il modello migliore tra tutti i client in base alle loro prestazioni locali"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "FedAvg (McMahan et al., 2017) è l'algoritmo fondamentale del Federated Learning: il server seleziona un sottoinsieme di client, ogni client esegue SGD locale su più epoche, invia i pesi aggiornati al server che calcola una media pesata (peso = dimensione dataset locale) e distribuisce il modello aggregato.",
+    "hint": "Avg = Average: media dei modelli locali per creare il modello globale.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_AI_120",
+    "question": "Quale tecnica XAI utilizza mappe di calore (heatmaps) per visualizzare quali pixel di un'immagine hanno influenzato maggiormente la decisione di una CNN?",
+    "options": [
+      {"id": "A", "text": "LIME"},
+      {"id": "B", "text": "Grad-CAM (Gradient-weighted Class Activation Mapping)"},
+      {"id": "C", "text": "SHAP per dati tabulari"},
+      {"id": "D", "text": "ANCHOR explanations"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Grad-CAM (Selvaraju et al., 2017) usa i gradienti dell'output rispetto agli ultimi layer convoluzionali per generare una heatmap che evidenzia le regioni dell'immagine più rilevanti per la classificazione. È model-specific (solo CNN) ma non richiede modifiche al modello.",
+    "hint": "Il nome contiene 'Gradient' e 'Class Activation Mapping': gradiente + mappa di attivazione.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_AI_121",
+    "question": "Cosa si intende per 'temperature' nel sampling degli LLM?",
+    "options": [
+      {"id": "A", "text": "La temperatura operativa dei chip GPU durante l'inferenza"},
+      {"id": "B", "text": "Un parametro che controlla la casualità/creatività dell'output: valori alti aumentano la diversità, valori bassi rendono l'output più deterministico e conservativo"},
+      {"id": "C", "text": "Il numero di token generati per secondo dal modello"},
+      {"id": "D", "text": "Un iperparametro del training che controlla il learning rate decay"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La temperature T scala la distribuzione logit prima del softmax: softmax(logits/T). T→0: output quasi deterministico (token più probabile sempre scelto). T=1: distribuzione originale. T>1: output più casuale/creativo ma meno coerente. T=0 equivale a greedy decoding.",
+    "hint": "Alta 'temperatura' = più casualità e creatività; bassa temperatura = più prevedibilità.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_AI_122",
+    "question": "Cosa distingue le 'reti neurali ricorrenti' (RNN) dalle reti feedforward?",
+    "options": [
+      {"id": "A", "text": "Le RNN usano più layer di neuroni, le feedforward solo uno"},
+      {"id": "B", "text": "Le RNN hanno connessioni cicliche che permettono di mantenere uno stato interno (hidden state) e processare sequenze di lunghezza variabile"},
+      {"id": "C", "text": "Le RNN non usano backpropagation, le feedforward sì"},
+      {"id": "D", "text": "Le RNN funzionano solo su dati strutturati, le feedforward su qualsiasi tipo"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Le RNN hanno connessioni ricorrenti che passano lo hidden state h_t dal timestep precedente al successivo: h_t = f(W_x × x_t + W_h × h_{t-1}). Questo permette di catturare dipendenze temporali nelle sequenze, ma soffre di vanishing gradient su sequenze lunghe (risolto parzialmente da LSTM e GRU).",
+    "hint": "Le RNN hanno 'memoria' grazie alle connessioni che tornano indietro.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_AI_123",
+    "question": "Cos'è la 'data poisoning' come attacco ai modelli ML?",
+    "options": [
+      {"id": "A", "text": "L'inserimento deliberato di campioni malevoli nel dataset di training per manipolare il comportamento del modello"},
+      {"id": "B", "text": "La corruzione dei dati di test per misurare la robustezza del modello"},
+      {"id": "C", "text": "Un attacco che modifica i pesi del modello durante l'inferenza"},
+      {"id": "D", "text": "L'aggiunta di rumore casuale ai dati durante il training per migliorare la generalizzazione"}
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il data poisoning è un attacco all'integrità del processo di training: un attaccante inserisce campioni malevoli nel dataset per creare backdoor, degradare le prestazioni globali o far apprendere al modello comportamenti errati su certi input. È una seria minaccia nei sistemi FL dove i client possono essere malevoli.",
+    "hint": "Si 'avvelena' il dataset di training per corrompere il comportamento del modello.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_AI_124",
+    "question": "Cosa si intende per 'model interpretability' vs 'model explainability'?",
+    "options": [
+      {"id": "A", "text": "Sono sinonimi perfetti nel campo XAI"},
+      {"id": "B", "text": "L'interpretability è una proprietà intrinseca del modello (es. regressione lineare); l'explainability si riferisce a tecniche post-hoc per rendere comprensibili modelli black-box"},
+      {"id": "C", "text": "L'interpretability si applica solo a dati tabellari, l'explainability solo alle immagini"},
+      {"id": "D", "text": "L'explainability riguarda solo le spiegazioni legali richieste dalla normativa"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'interpretability è intrinseca: un modello lineare o un albero di decisione sono direttamente comprensibili dalla struttura. L'explainability è estrinseca/post-hoc: si applicano tecniche (LIME, SHAP, Grad-CAM) per spiegare modelli già addestrati che sono nativamente black-box (reti neurali profonde).",
+    "hint": "Intrinseco vs post-hoc: la differenza chiave tra i due concetti.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_AI_125",
+    "question": "Qual è il ruolo del 'discriminator' in una GAN durante il training?",
+    "options": [
+      {"id": "A", "text": "Genera immagini sintetiche sempre più realistiche"},
+      {"id": "B", "text": "Classifica se un input è reale (dal dataset) o sintetico (dal generatore), fornendo il segnale di training al generatore"},
+      {"id": "C", "text": "Comprime le immagini reali in uno spazio latente per il generatore"},
+      {"id": "D", "text": "Seleziona il subset più informativo del dataset per il training"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il discriminatore D è un classificatore binario che cerca di distinguere campioni reali (label 1) da campioni generati da G (label 0). Il suo gradiente è il segnale che guida G a migliorare. In training alternato: D si aggiorna per discriminare meglio, G si aggiorna per ingannare D.",
+    "hint": "Il discriminatore 'giudica' se ciò che vede è reale o falso.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_AI_126",
+    "question": "Nel contesto degli LLM, cosa si intende per 'in-context learning'?",
+    "options": [
+      {"id": "A", "text": "Il training continuo del modello su nuovi dati durante l'inferenza"},
+      {"id": "B", "text": "La capacità del modello di adattarsi a nuovi task usando solo esempi forniti nel prompt (senza aggiornare i pesi)"},
+      {"id": "C", "text": "L'accesso del modello a contesti esterni tramite strumenti di ricerca"},
+      {"id": "D", "text": "Un meccanismo che permette il training su dati riservati senza esporli"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'in-context learning è una capacità emergente degli LLM: il modello impara a svolgere nuovi task semplicemente leggendo esempi input-output nel prompt, senza alcun aggiornamento dei pesi (gradient-free). GPT-3 ha dimostrato capacità zero-shot e few-shot notevoli grazie a questo meccanismo.",
+    "hint": "Il 'contesto' è il prompt stesso: il modello impara da esso senza modificare i parametri.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_AI_127",
+    "question": "Cosa si intende per 'non-maximum suppression' (NMS) nell'object detection?",
+    "options": [
+      {"id": "A", "text": "Una tecnica di normalizzazione che sopprime i valori negativi nelle feature map"},
+      {"id": "B", "text": "Un algoritmo post-processing che elimina bounding box ridondanti mantenendo solo quella con confidence più alta tra quelle che si sovrappongono (alta IoU)"},
+      {"id": "C", "text": "Un metodo per sopprimere le predizioni del modello su oggetti piccoli"},
+      {"id": "D", "text": "Una tecnica di pruning che rimuove i neuroni con attivazione massima"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "NMS risolve il problema delle detection multiple sullo stesso oggetto: (1) ordina le box per confidence score; (2) seleziona la box con score più alto; (3) elimina tutte le box con IoU > soglia rispetto alla box selezionata; (4) ripete sulle rimanenti. Produce un'unica detection per oggetto.",
+    "hint": "Sopprime le predizioni 'non massime' (ridondanti) per lo stesso oggetto.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_AI_128",
+    "question": "Quale obbligo fondamentale impone l'AI Act ai fornitori di sistemi IA ad alto rischio riguardo alla documentazione?",
+    "options": [
+      {"id": "A", "text": "Devono pubblicare il codice sorgente del sistema su piattaforme open source"},
+      {"id": "B", "text": "Devono mantenere documentazione tecnica completa (tecnica e di conformità), incluse descrizione del sistema, dati di training, valutazione delle prestazioni e misure di gestione del rischio"},
+      {"id": "C", "text": "Devono tradurre tutta la documentazione nelle 24 lingue ufficiali dell'UE"},
+      {"id": "D", "text": "Devono inviare rapporti mensili all'autorità di vigilanza nazionale"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'Art. 11 e Allegato IV dell'AI Act richiedono documentazione tecnica dettagliata per sistemi ad alto rischio: descrizione generale, elementi del sistema, informazioni su dati di training, test di prestazione, misure di gestione del rischio e dichiarazione di conformità. Deve essere mantenuta aggiornata.",
+    "hint": "La trasparenza documentale è uno dei pilastri degli obblighi per sistemi ad alto rischio.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_AI_129",
+    "question": "Cosa si intende per 'optical flow' nella Computer Vision?",
+    "options": [
+      {"id": "A", "text": "La velocità di trasmissione di dati video in una pipeline di streaming"},
+      {"id": "B", "text": "Il campo vettoriale che descrive il movimento apparente di oggetti o pixel tra frame consecutivi di un video"},
+      {"id": "C", "text": "Un algoritmo per migliorare la risoluzione di immagini mediante interpolazione ottica"},
+      {"id": "D", "text": "Una tecnica per ridurre il motion blur nelle immagini da fotocamere in movimento"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'optical flow stima il campo di movimento 2D per ogni pixel tra frame consecutivi. Algoritmi classici: Lucas-Kanade, Horn-Schunck. Approcci DL: FlowNet, PWC-Net. Fondamentale in video understanding, tracking di oggetti, action recognition e veicoli autonomi.",
+    "hint": "Descrive come 'fluisce' l'immagine nel tempo: la direzione e velocità di ogni pixel.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_AI_130",
+    "question": "Cos'è il 'catastrophic forgetting' nel continual learning?",
+    "options": [
+      {"id": "A", "text": "La perdita irreversibile dei pesi del modello dovuta a guasto hardware"},
+      {"id": "B", "text": "Il fenomeno per cui un modello, dopo essere addestrato su nuovi task, dimentica le conoscenze acquisite sui task precedenti"},
+      {"id": "C", "text": "L'overfitting così severo che il modello non generalizza a nessun dato"},
+      {"id": "D", "text": "La perdita di prestazioni causata dal vanishing gradient durante il training"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il catastrophic forgetting (McCloskey & Cohen, 1989) è il principale problema del continual learning: quando una rete neurale viene fine-tuned su nuovi dati/task, i pesi vengono modificati in modi che degradano le prestazioni sui task precedenti. Soluzioni: EWC (Elastic Weight Consolidation), replay buffer, progressive neural networks.",
+    "hint": "Il modello 'dimentica' catastroficamente ciò che ha imparato prima, imparando cose nuove.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_AI_131",
+    "question": "Cosa rappresenta il parametro 'top-p' (nucleus sampling) nella generazione testuale degli LLM?",
+    "options": [
+      {"id": "A", "text": "Il numero massimo di token nel vocabolario considerati ad ogni step di generazione"},
+      {"id": "B", "text": "La soglia di probabilità cumulativa: si campiona solo dal subset minimo di token la cui probabilità cumulata supera p"},
+      {"id": "C", "text": "La percentuale del dataset di pre-training usata per addestrare il modello"},
+      {"id": "D", "text": "Il massimo numero di token che possono essere generati in una risposta"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il nucleus sampling (Holtzman et al., 2020) seleziona il set minimo di token top-p il cui probabilità cumulata ≥ p, poi campiona da esso. Con p=0.9, si considera il 90% della probabilità distribuita sui token più probabili. Bilancia diversità e qualità meglio del top-k fisso.",
+    "hint": "Si seleziona il 'nucleo' della distribuzione che copre una percentuale p di probabilità.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_AI_132",
+    "question": "Cosa si intende per 'proxy discrimination' nel contesto del bias algoritmico?",
+    "options": [
+      {"id": "A", "text": "La discriminazione diretta basata esplicitamente su caratteristiche protette come razza o genere"},
+      {"id": "B", "text": "L'uso di feature correlate con caratteristiche protette (es. codice postale correlato a etnia) che producono discriminazione indiretta"},
+      {"id": "C", "text": "Un tipo di attacco adversarial mirato a discriminatori di GAN"},
+      {"id": "D", "text": "La discriminazione causata da dataset di training con proxy labels errate"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La proxy discrimination si verifica quando un modello usa variabili che non sono caratteristiche protette ma che sono correlate con esse. Es: il codice postale può essere proxy per etnia; la frequenza di acquisti di cosmetici può essere proxy per genere. Il modello discrimina indirettamente senza mai usare esplicitamente la caratteristica protetta.",
+    "hint": "Una variabile 'proxy' sostituisce indirettamente una caratteristica sensibile.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_AI_133",
+    "question": "Nelle GAN, cosa si intende per 'latent space'?",
+    "options": [
+      {"id": "A", "text": "La memoria cache usata durante il training per memorizzare i campioni reali"},
+      {"id": "B", "text": "Lo spazio vettoriale di dimensione ridotta (vettori di rumore z) da cui il generatore produce immagini"},
+      {"id": "C", "text": "Lo spazio delle feature estratte dall'ultimo strato del discriminatore"},
+      {"id": "D", "text": "Il dataset di immagini non ancora etichettate usato nel training non supervisionato"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il latent space è lo spazio dei vettori casuali z (tipicamente campionati da N(0,I)) che il generatore G mappa in immagini: G(z) → immagine. Navigare nello spazio latente (interpolazione, aritmetica tra vettori) permette di controllare le caratteristiche generate in modo continuo.",
+    "hint": "È lo spazio 'nascosto' da cui nascono le immagini sintetiche.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_AI_134",
+    "question": "Cosa si intende per 'model card' nel contesto della documentazione dei modelli IA?",
+    "options": [
+      {"id": "A", "text": "Una scheda fisica allegata ai server che ospitano i modelli IA con specifiche hardware"},
+      {"id": "B", "text": "Un documento standardizzato che descrive lo scopo, le limitazioni, le metriche di valutazione e i potenziali bias di un modello IA"},
+      {"id": "C", "text": "Un file di configurazione JSON che specifica l'architettura del modello"},
+      {"id": "D", "text": "Un certificato di conformità rilasciato da enti di standardizzazione"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Le model card (Mitchell et al., 2019) sono documenti trasparenti che descrivono: (1) dettagli del modello; (2) uso previsto e out-of-scope use; (3) dati di training; (4) metriche di performance disaggregate per gruppi; (5) considerazioni etiche; (6) limitazioni. Promosse da Google, Microsoft, Hugging Face.",
+    "hint": "Una 'carta d'identità' completa e standardizzata per ogni modello IA.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_AI_135",
+    "question": "Cosa si intende con 'sparse attention' nei Transformer?",
+    "options": [
+      {"id": "A", "text": "Un meccanismo che applica dropout alla matrice di attention per ridurre l'overfitting"},
+      {"id": "B", "text": "Varianti dell'attention che calcolano solo un sottoinsieme delle interazioni token-token (non tutte le n² coppie) per scalare a sequenze molto lunghe"},
+      {"id": "C", "text": "Un Transformer addestrato su dataset con molte etichette mancanti"},
+      {"id": "D", "text": "Una tecnica di quantizzazione applicata alla matrice di attention per ridurre la memoria"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La self-attention standard ha complessità O(n²) nei token. Sparse attention (Longformer, BigBird, Sparse Transformer) riduce la complessità a O(n·log n) o O(n) calcolando attention solo tra token 'vicini' o selezionati (window attention + global attention), permettendo context window molto più grandi.",
+    "hint": "Non tutte le coppie di token si 'attendono': si selezionano pattern sparsi per efficienza.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_AI_136",
+    "question": "Cosa si intende per 'epistemic uncertainty' vs 'aleatoric uncertainty' nell'IA?",
+    "options": [
+      {"id": "A", "text": "L'epistemic uncertainty è riducibile (dovuta a mancanza di dati/modello), l'aleatoric è irreducibile (rumore intrinseco nei dati)"},
+      {"id": "B", "text": "L'epistemic uncertainty è causata dall'overfitting, l'aleatoric dall'underfitting"},
+      {"id": "C", "text": "Sono sinonimi per incertezza di stima, distinte solo per convenzionale linguistica"},
+      {"id": "D", "text": "L'epistemic riguarda l'input, l'aleatoric riguarda i parametri del modello"}
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'epistemic uncertainty (o model uncertainty) nasce dalla limitatezza del modello/dati e può essere ridotta con più dati o modelli migliori (quantificabile con Bayesian neural networks, MC Dropout, ensembles). L'aleatoric uncertainty è il rumore intrinseco nel processo generativo dei dati, irreducibile.",
+    "hint": "Una è riducibile con più dati, l'altra è intrinseca alla natura del processo.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_AI_137",
+    "question": "Cosa si intende con 'RAG pipeline' tipicamente composta da?",
+    "options": [
+      {"id": "A", "text": "Pre-processing → training → deployment → monitoring"},
+      {"id": "B", "text": "Indicizzazione dei documenti → retrieval (ricerca embedding) → augmentazione del prompt → generazione con LLM"},
+      {"id": "C", "text": "Data collection → fine-tuning → quantizzazione → serving"},
+      {"id": "D", "text": "Web scraping → cleaning → embedding training → inference"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Una pipeline RAG tipica: (1) Offline: documenti vengono suddivisi in chunk, convertiti in embedding (es. con sentence-transformers) e indicizzati in un vector store (es. FAISS, Pinecone); (2) Online: la query viene embeddizzata, si recuperano i chunk più simili (ANN search), si inseriscono nel prompt dell'LLM per la generazione.",
+    "hint": "Prima si 'recupera' (Retrieval) poi si 'genera' (Generation), con una fase di indicizzazione preparatoria.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_AI_138",
+    "question": "Cosa si intende per 'Intersection over Union' (IoU) nell'object detection?",
+    "options": [
+      {"id": "A", "text": "La percentuale di pixel correttamente classificati rispetto al totale"},
+      {"id": "B", "text": "Il rapporto tra l'area di intersezione e l'area di unione tra bounding box predetta e ground truth, usato per misurare la qualità della localizzazione"},
+      {"id": "C", "text": "La distanza euclidea tra i centri di due bounding box"},
+      {"id": "D", "text": "Il numero di anchor box che si sovrappongono con un oggetto reale"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "IoU = |A ∩ B| / |A ∪ B|, dove A è la bounding box predetta e B è il ground truth. IoU=1: corrispondenza perfetta; IoU=0: nessuna sovrapposizione. Soglie comuni: IoU>0.5 per PASCAL VOC, IoU>0.75 per COCO. Usata anche come loss function (IoU loss).",
+    "hint": "Misura quanto si 'sovrappongono' la predizione e il riferimento reale.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_AI_139",
+    "question": "Cosa si intende per 'emergent capabilities' negli LLM di grandi dimensioni?",
+    "options": [
+      {"id": "A", "text": "Capacità pianificate dagli sviluppatori e implementate progressivamente"},
+      {"id": "B", "text": "Abilità che compaiono improvvisamente oltre una certa soglia di scala del modello e non erano presenti nei modelli più piccoli"},
+      {"id": "C", "text": "Funzionalità aggiunte tramite fine-tuning su dataset specializzati"},
+      {"id": "D", "text": "Prestazioni che emergono dopo il deployment in produzione grazie al feedback degli utenti"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Le emergent capabilities (Wei et al., 2022) sono abilità che appaiono bruscamente nei modelli oltre certe scale (numero di parametri, dati, compute), come chain-of-thought reasoning, aritmetica multi-cifra, comprensione analogica. Sono imprevedibili e non extrapolabili dai modelli più piccoli.",
+    "hint": "Emergono improvvisamente con la scala, come 'salti' di capacità non previsti.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_AI_140",
+    "question": "Cos'è l'algoritmo PPO (Proximal Policy Optimization) nel Reinforcement Learning?",
+    "options": [
+      {"id": "A", "text": "Un algoritmo di RL model-based che usa un modello dell'ambiente per pianificare le azioni"},
+      {"id": "B", "text": "Un algoritmo policy gradient che limita l'aggiornamento della policy con un clipping ratio per garantire aggiornamenti stabili e non troppo grandi"},
+      {"id": "C", "text": "Un algoritmo Q-learning profondo che usa target networks per stabilizzare il training"},
+      {"id": "D", "text": "Un metodo di RL multi-agente per ambienti cooperativi"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "PPO (Schulman et al., 2017) è l'algoritmo policy gradient più usato: invece di TRPO che usa constraint KL-divergence, usa un objective 'clipped' che limita il ratio π_new/π_old ∈ [1-ε, 1+ε]. Garantisce aggiornamenti stabili, è computazionalmente efficiente ed è usato in RLHF per allineare gli LLM.",
+    "hint": "'Proximal' = vicino: limita quanto la nuova policy si allontana da quella vecchia.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_AI_141",
+    "question": "Cosa si intende per 'multimodal AI'?",
+    "options": [
+      {"id": "A", "text": "Un sistema IA che usa più modalità di input (es. testo, immagini, audio, video) e/o output contemporaneamente"},
+      {"id": "B", "text": "Un modello IA addestrato con più metodi di training in sequenza"},
+      {"id": "C", "text": "Un ensemble di modelli specializzati in diverse modalità di dati"},
+      {"id": "D", "text": "Un sistema che può essere deployato su più piattaforme hardware diverse"}
+    ],
+    "correctAnswerId": "A",
+    "explanation": "I modelli multimodali processano e generano contenuti in diverse modalità: testo, immagini, audio, video. Esempi: GPT-4V (testo + immagini), DALL-E (testo → immagini), Gemini 1.5 Pro (testo + immagini + video + audio), CLIP (allinea testo e immagini in spazio embedding condiviso).",
+    "hint": "Multi + modale: gestisce più 'modalità' sensoriali (vista, udito, linguaggio).",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_AI_142",
+    "question": "Cos'è il 'vector store' (database vettoriale) in un'architettura RAG?",
+    "options": [
+      {"id": "A", "text": "Un sistema di archiviazione tradizionale per i pesi del modello"},
+      {"id": "B", "text": "Un database specializzato nell'indicizzazione e ricerca efficiente di vettori ad alta dimensionalità tramite Approximate Nearest Neighbor search"},
+      {"id": "C", "text": "Una cache in-memory per i risultati delle query al modello LLM"},
+      {"id": "D", "text": "Un registro centralizzato dei modelli usati nell'architettura"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "I vector store (FAISS, Pinecone, Weaviate, Chroma, Milvus) indicizzano vettori di embedding in strutture ottimizzate (HNSW, IVF-PQ) per recuperare in modo efficiente i k vettori più simili a una query (kNN approssimato). Sono il componente di 'memoria' nelle architetture RAG e agentic AI.",
+    "hint": "È un database ottimizzato per trovare vettori 'simili' a una query.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_AI_143",
+    "question": "Cosa si intende per 'human-in-the-loop' nei sistemi IA?",
+    "options": [
+      {"id": "A", "text": "Un sistema completamente automatizzato che non richiede supervisione umana"},
+      {"id": "B", "text": "Un paradigma dove l'intervento, il feedback o la validazione umana è integrata nel processo decisionale o di training del sistema IA"},
+      {"id": "C", "text": "Un'interfaccia grafica che permette agli umani di visualizzare le decisioni dell'IA"},
+      {"id": "D", "text": "Un sistema di logging che traccia tutte le interazioni degli utenti con l'IA"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Human-in-the-loop (HITL) integra la supervisione umana in cicli critici: nell'annotazione (active learning), nella validazione delle predizioni ad alto rischio, nel training (RLHF), o nella gestione degli errori. Fondamentale per sistemi ad alto rischio secondo l'AI Act, che richiede 'human oversight'.",
+    "hint": "L'umano è parte del 'ciclo' (loop) del sistema, non solo un utente esterno.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_AI_144",
+    "question": "Cosa si intende per 'perplexity' come metrica per i modelli di linguaggio?",
+    "options": [
+      {"id": "A", "text": "Un indicatore della complessità computazionale del modello durante l'inferenza"},
+      {"id": "B", "text": "Una misura di quanto bene il modello predice un testo di test: valori bassi indicano migliore modellazione del linguaggio (alta confidenza)"},
+      {"id": "C", "text": "Il numero di token nel vocabolario che il modello non riesce a riconoscere"},
+      {"id": "D", "text": "Una metrica di fairness che misura la dispersione delle predizioni tra gruppi"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La perplexity è la media geometrica dell'inverso della probabilità assegnata dal modello ai token del test set: PPL = exp(-1/N × Σ log P(w_i)). Misura quanto il modello è 'sorpreso' dai dati. PPL bassa = modello migliore. Usata per confrontare modelli di linguaggio su benchmark come WikiText.",
+    "hint": "Alta perplexità = il modello è molto 'sorpreso' dal testo: non lo prevedeva bene.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_AI_145",
+    "question": "Cosa si intende per 'AI governance' nel contesto organizzativo e normativo?",
+    "options": [
+      {"id": "A", "text": "La gestione tecnica dei cluster GPU per il training dei modelli IA"},
+      {"id": "B", "text": "Il framework di politiche, processi, ruoli e responsabilità per garantire lo sviluppo e l'uso responsabile, etico e conforme dei sistemi IA"},
+      {"id": "C", "text": "L'architettura di sicurezza informatica per proteggere i modelli IA da attacchi"},
+      {"id": "D", "text": "Il sistema di monitoraggio delle prestazioni dei modelli IA in produzione"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'AI governance comprende: politiche e standard etici per lo sviluppo IA, strutture di oversight (es. AI ethics board), processi di risk assessment, accountability (chi è responsabile?), meccanismi di audit, conformità normativa (AI Act, GDPR) e trasparenza verso gli stakeholder.",
+    "hint": "È il sistema di 'governo' dell'IA: chi decide, chi è responsabile, quali regole.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_AI_146",
+    "question": "Cosa si intende per 'continual learning' (o lifelong learning) nell'IA?",
+    "options": [
+      {"id": "A", "text": "Un training che dura continuamente per mesi senza interruzioni"},
+      {"id": "B", "text": "La capacità di un sistema IA di apprendere da nuovi dati/task in modo incrementale nel tempo, senza dimenticare le conoscenze precedenti (catastrophic forgetting)"},
+      {"id": "C", "text": "Un sistema IA che aggiorna continuamente i suoi pesi durante l'inferenza"},
+      {"id": "D", "text": "Un framework per il training distribuito su larga scala"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il continual learning mira a costruire sistemi che imparano in modo incrementale nel tempo (come gli umani), acquisendo nuove conoscenze senza perdere quelle precedenti. Approcci: EWC (vincola i pesi critici per task precedenti), replay buffer (riusa dati passati), progressive neural networks (architetture espandibili).",
+    "hint": "Imparare 'per tutta la vita' senza dimenticare ciò che si è già imparato.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_AI_147",
+    "question": "Cosa si intende per 'model pruning' nell'ottimizzazione dei modelli IA?",
+    "options": [
+      {"id": "A", "text": "La selezione delle migliori feature per addestrare un modello più efficiente"},
+      {"id": "B", "text": "La rimozione di pesi, neuroni o strutture del modello con importanza ridotta per ottenere un modello più compatto e veloce"},
+      {"id": "C", "text": "La riduzione del dataset di training eliminando i campioni meno informativi"},
+      {"id": "D", "text": "L'ottimizzazione dell'architettura tramite Neural Architecture Search"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il model pruning identifica e rimuove pesi ridondanti o poco importanti (unstructured pruning: singoli pesi; structured pruning: neuroni, filtri, layer interi). Riduce parametri, memoria e latenza con minima perdita di accuratezza. Spesso combinato con quantizzazione e knowledge distillation per modelli edge.",
+    "hint": "Come 'potare' un albero: si rimuovono i rami (pesi) inutili per rendere il modello più snello.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_AI_148",
+    "question": "Nel contesto dell'AI Act, quale organo europeo ha il ruolo principale di supervisione e coordinamento per l'implementazione del regolamento?",
+    "options": [
+      {"id": "A", "text": "L'Agenzia Europea per la Cybersicurezza (ENISA)"},
+      {"id": "B", "text": "L'AI Office istituito all'interno della Commissione Europea, con l'European AI Board per il coordinamento tra Stati Membri"},
+      {"id": "C", "text": "Il Parlamento Europeo tramite una commissione dedicata all'IA"},
+      {"id": "D", "text": "Il Garante Europeo per la Protezione dei Dati (EDPS)"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'AI Act istituisce: (1) l'AI Office all'interno della Commissione Europea, responsabile per GPAI models e coordinamento generale; (2) l'European AI Board (AIAB), composto da rappresentanti degli Stati Membri, per coerenza; (3) Autorità nazionali competenti in ogni Stato Membro; (4) forum consultivo e gruppo scientifico.",
+    "hint": "L'AI Office è la struttura centrale, supportata dall'European AI Board per il coordinamento.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_AI_149",
+    "question": "Cosa si intende per 'feature importance' nel contesto dell'XAI per modelli tabellari?",
+    "options": [
+      {"id": "A", "text": "Il numero di valori unici per ogni feature nel dataset"},
+      {"id": "B", "text": "Una misura di quanto ogni feature contribuisce alle predizioni del modello, globalmente o per singola istanza"},
+      {"id": "C", "text": "La correlazione statistica tra le feature del dataset e la variabile target"},
+      {"id": "D", "text": "Il numero di volte che una feature viene usata nelle query al database"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La feature importance misura il contributo di ogni feature al potere predittivo del modello. Approcci globali: impurity-based importance nelle Random Forest, permutation importance. Approcci locali: SHAP values per istanza. Fondamentale per interpretare modelli e identificare feature discriminatorie.",
+    "hint": "Indica quanto 'importante' è ogni feature per le predizioni del modello.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_AI_150",
+    "question": "Cosa si intende per 'model alignment' nel contesto degli LLM?",
+    "options": [
+      {"id": "A", "text": "L'allineamento dei parametri del modello con quelli di un modello teacher durante la knowledge distillation"},
+      {"id": "B", "text": "Il processo di garantire che il comportamento degli LLM sia allineato con valori, intenzioni e norme etiche umane, evitando output dannosi o ingannevoli"},
+      {"id": "C", "text": "La sincronizzazione dei pesi tra nodi in training distribuito"},
+      {"id": "D", "text": "L'allineamento tra le versioni successive dello stesso modello per garantire compatibilità"}
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il model alignment è una delle sfide centrali dell'AI safety: garantire che i sistemi IA agiscano in accordo con le intenzioni umane, siano utili, sicuri e onesti. Tecniche: RLHF, Constitutional AI (Anthropic), DPO (Direct Preference Optimization). Il 'misalignment' può portare a comportamenti indesiderati o dannosi.",
+    "hint": "Il modello deve essere 'allineato' con i valori e le intenzioni degli esseri umani.",
+    "level": "intermedio"
+  }
+]

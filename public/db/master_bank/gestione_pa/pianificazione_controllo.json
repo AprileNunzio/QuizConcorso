@@ -1,0 +1,1302 @@
+[
+  {
+    "id": "Q_PECS_GEST_001",
+    "question": "Qual è il testo normativo fondamentale che ha introdotto in modo organico la disciplina della misurazione, valutazione e trasparenza della performance nella Pubblica Amministrazione italiana?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il Decreto Legislativo 27 ottobre 2009, n. 150 (c.d. Riforma Brunetta)"
+      },
+      {
+        "id": "B",
+        "text": "La Legge 7 agosto 1990, n. 241"
+      },
+      {
+        "id": "C",
+        "text": "Il Decreto Legislativo 18 agosto 2000, n. 267"
+      },
+      {
+        "id": "D",
+        "text": "Il Regio Decreto 18 novembre 1923, n. 2440"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il D.Lgs. n. 150/2009 (attuativo della L. 15/2009) disciplina il ciclo di gestione della performance, gli organismi indipendenti di valutazione (OIV), gli standard di rendicontazione e i sistemi di premialità del merito nelle pubbliche amministrazioni.",
+    "hint": "È il decreto legislativo del 2009 sulla produttività e trasparenza del lavoro pubblico.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_GEST_002",
+    "question": "Come si articola il 'ciclo di gestione della performance' ai sensi dell'art. 4 del D.Lgs. 150/2009?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Definizione degli obiettivi, collegamento tra obiettivi e risorse, monitoraggio in corso d'esercizio, misurazione e valutazione dei risultati, sistemi premianti e rendicontazione pubblica finale"
+      },
+      {
+        "id": "B",
+        "text": "Unico controllo contabile a fine anno senza pianificazione preventiva"
+      },
+      {
+        "id": "C",
+        "text": "Assegnazione casuale di bonus monetari a sorteggio tra i dirigenti"
+      },
+      {
+        "id": "D",
+        "text": "Verifica delle presenze tramite impronte digitali"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 4 del D.Lgs. 150/2009 definisce le fasi sequenziali del ciclo: programmazione degli obiettivi e allocazione risorse, monitoraggio infrannuale, misurazione e valutazione della performance (organizzativa e individuale), attribuzione dei premi e rendicontazione dei risultati.",
+    "hint": "Pianificazione, monitoraggio, misurazione, premialità e rendicontazione.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_GEST_003",
+    "question": "Nel controllo di gestione della Pubblica Amministrazione, cosa si intende per principio di 'efficacia'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il grado di raggiungimento degli obiettivi prefissati e la corrispondenza tra i risultati effettivamente conseguiti e i bisogni della collettività"
+      },
+      {
+        "id": "B",
+        "text": "Il minor costo monetario possibile per l'acquisto di beni di cancelleria"
+      },
+      {
+        "id": "C",
+        "text": "Il rispetto formale e letterale del testo di legge indipendentemente dal risultato"
+      },
+      {
+        "id": "D",
+        "text": "La velocità di digitazione al computer da parte del funzionario"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'efficacia misura la capacità dell'azione amministrativa di conseguire i risultati prefissati in sede di pianificazione e di produrre impatti positivi reali sul pubblico e sui destinatari delle prestazioni.",
+    "hint": "Rapporto tra risultati ottenuti e obiettivi programmati.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_GEST_004",
+    "question": "Nel controllo di gestione, cosa si intende per principio di 'efficienza'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il rapporto ottimale tra i risultati conseguiti (output) e la quantità di risorse umane, finanziarie e strumentali impiegate (input)"
+      },
+      {
+        "id": "B",
+        "text": "La quantità totale di leggi emanate dal Parlamento in un anno"
+      },
+      {
+        "id": "C",
+        "text": "Il gradimento del ministro espresso sui social network"
+      },
+      {
+        "id": "D",
+        "text": "Il numero di riunioni organizzate dalla dirigenza"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'efficienza esprime la capacità di produrre il massimo risultato con il minimo dispendio di risorse, ovvero la capacità di minimizzare gli input a parità di output garantito.",
+    "hint": "Rapporto tra output (risultati/servizi) e input (risorse impiegate).",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_GEST_005",
+    "question": "Nel contesto della gestione pubblica, in cosa consiste il principio di 'economicità'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La capacità di procurarsi le risorse necessarie al costo più conveniente a parità di qualità garantita, assicurando nel tempo l'equilibrio tra entrate e uscite"
+      },
+      {
+        "id": "B",
+        "text": "Il blocco totale di qualsiasi spesa anche per servizi essenziali"
+      },
+      {
+        "id": "C",
+        "text": "La ricerca del massimo profitto commerciale da distribuire agli azionisti"
+      },
+      {
+        "id": "D",
+        "text": "L'esenzione dalle imposte per gli enti previdenziali"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'economicità rappresenta la sintesi tra efficienza ed efficacia: acquisizione dei fattori produttivi al minor costo compatibile con la qualità richiesta e mantenimento dell'equilibrio finanziario complessivo.",
+    "hint": "Acquisizione delle risorse alle migliori condizioni senza sprecare denaro pubblico.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_GEST_006",
+    "question": "Quale documento fondamentale di programmazione è stato introdotto dall'art. 6 del Decreto-Legge 80/2021 (conv. in L. 113/2021) per superare la frammentazione dei piani nella PA?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il Piano Integrato di Attività e Organizzazione (PIAO)"
+      },
+      {
+        "id": "B",
+        "text": "Il Documento Unico di Programmazione Comunale (DUP)"
+      },
+      {
+        "id": "C",
+        "text": "Il Piano Nazionale di Ripresa e Resilienza (PNRR)"
+      },
+      {
+        "id": "D",
+        "text": "Il Conto Consuntivo dello Stato"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il D.L. 80/2021 ha introdotto il PIAO, piano unico triennale con aggiornamento annuale che accorpa in un solo documento il Piano della Performance, il Piano Triennale di Prevenzione della Corruzione e Trasparenza, il Piano dei Fabbisogni di Personale, il Piano del Lavoro Agile (POLA) e il Piano per le Pari Opportunità.",
+    "hint": "PIAO: Piano Integrato di Attività e Organizzazione.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_GEST_007",
+    "question": "Quali sono le quattro sezioni fondamentali in cui si articola la struttura standard del PIAO (D.P.R. 81/2022 e D.M. 132/2022)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Scheda anagrafica dell'amministrazione; Valore pubblico, performance e anticorruzione; Organizzazione e capitale umano; Monitoraggio"
+      },
+      {
+        "id": "B",
+        "text": "Politica estera; Bilancio di difesa; Difesa del suolo; Giustizia penale"
+      },
+      {
+        "id": "C",
+        "text": "Studi legali convenzionati; Elenco fornitori; Cassa integrazione; Parcheggi aziendali"
+      },
+      {
+        "id": "D",
+        "text": "Preventivo acquisto cancelleria; Organigramma provinciale; Elenco permessi sindacali; Ferie estive"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Lo schema tipo del PIAO comprende 4 sezioni: 1) Scheda anagrafica; 2) Valore pubblico, performance e anticorruzione; 3) Organizzazione e capitale umano (fabbisogni, formazione, lavoro agile); 4) Monitoraggio degli esiti e degli indicatori.",
+    "hint": "Anagrafica; Valore Pubblico/Performance/Anticorruzione; Organizzazione e Capitale Umano; Monitoraggio.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_GEST_008",
+    "question": "Che cosa si intende per 'Valore Pubblico' nella moderna pianificazione strategica delle pubbliche amministrazioni?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'incremento del benessere economico, sociale, ambientale e civile della comunità di riferimento e degli utenti generato dalle attività, dai servizi e dalle politiche dell'amministrazione"
+      },
+      {
+        "id": "B",
+        "text": "La quotazione in Borsa dei titoli di stato posseduti dall'ente"
+      },
+      {
+        "id": "C",
+        "text": "Il prezzo di vendita degli immobili pubblici alienabili"
+      },
+      {
+        "id": "D",
+        "text": "La somma totale dei verbali di multa incassati dai vigili urbani"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il concetto di Valore Pubblico va oltre il mero adempimento formale: misura il reale impatto positivo generato sulla qualità della vita dei cittadini, sulla competitività del sistema economico e sulla coesione sociale dalle prestazioni della PA.",
+    "hint": "Impatto positivo e benessere generato per i cittadini, le imprese e la società.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_GEST_009",
+    "question": "Quali requisiti devono possedere gli obiettivi di performance ai sensi dell'art. 5 del D.Lgs. 150/2009 (criteri SMART)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Devono essere rilevanti e pertinenti rispetto ai bisogni della collettività, specifici e misurabili, confrontabili, commisurati a valori temporali definiti e sfidanti ma raggiungibili"
+      },
+      {
+        "id": "B",
+        "text": "Devono essere formulati in termini generici e non quantificabili per evitare sanzioni"
+      },
+      {
+        "id": "C",
+        "text": "Devono coincidere unicamente con i doveri ordinari di presenza in servizio"
+      },
+      {
+        "id": "D",
+        "text": "Devono essere decisi a fine anno a consuntivo già noto"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 5 del D.Lgs. 150/2009 impone che gli obiettivi siano definiti preventivamente, siano specifici, misurabili a livello quantitativo e temporale, sfidanti ma realistici e riferibili a priorità strategiche dell'ente.",
+    "hint": "Specifici, misurabili, sfidanti, temporizzati e pertinenti (criteri SMART).",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_GEST_010",
+    "question": "Qual è la differenza fondamentale tra 'performance organizzativa' e 'performance individuale'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La performance organizzativa riguarda il rendimento complessivo dell'amministrazione o di una sua specifica articolazione (qualità dei servizi, efficienza, digitalizzazione); la performance individuale riguarda il contributo specifico del singolo dipendente o dirigente (competenze, comportamenti, raggiungimento di obiettivi specifici)"
+      },
+      {
+        "id": "B",
+        "text": "La performance organizzativa si applica solo alle ditte private, la individuale ai dipendenti pubblici"
+      },
+      {
+        "id": "C",
+        "text": "Non vi è alcuna differenza, sono due termini interscambiabili"
+      },
+      {
+        "id": "D",
+        "text": "La performance individuale è valutata ogni giorno, quella organizzativa ogni 10 anni"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il D.Lgs. 150/2009 distingue tra la performance dell'intera struttura/struttura complessa (raggiungimento dei target operativi, soddisfazione dell'utenza, efficienza dei processi) e quella del singolo individuo (obiettivi individuali e comportamenti organizzativi agiti).",
+    "hint": "Organizzativa = della struttura nel suo complesso; Individuale = del singolo lavoratore/dirigente.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_GEST_011",
+    "question": "Che cos'è l'Organismo Indipendente di Valutazione della performance (OIV) disciplinato dall'art. 14 del D.Lgs. 150/2009?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un organismo, monocratico o collegiale di tre membri, che opera in posizione di piena autonomia e indipendenza per monitorare il ciclo della performance, validare la Relazione annuale e garantire la correttezza dei processi di misurazione e valutazione"
+      },
+      {
+        "id": "B",
+        "text": "Un sindacato interno di categoria che difende i lavoratori sanzionati"
+      },
+      {
+        "id": "C",
+        "text": "Una commissione parlamentare d'inchiesta sulle pensioni"
+      },
+      {
+        "id": "D",
+        "text": "L'ufficio amministrativo preposto alla liquidazione dei rimborsi spese"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'OIV (art. 14 D.Lgs. 150/2009) è l'organismo terzo e indipendente presente in ogni amministrazione statale/ente pubblico, i cui componenti sono iscritti all'Elenco nazionale tenuto dal Dipartimento della Funzione Pubblica; verifica l'attuazione del piano, valida la Relazione della Performance e propone la valutazione dei dirigenti apicali.",
+    "hint": "Organismo terzo e indipendente che sovrintende al sistema di misurazione e valutazione della performance.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_GEST_012",
+    "question": "Cosa deve fare l'amministrazione prima di poter procedere alla distribuzione delle risorse destinate al trattamento accessorio legato alla performance (premi di produttività)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Deve adottare la Relazione annuale sulla Performance e ottenere la prescritta validazione formale da parte dell'OIV"
+      },
+      {
+        "id": "B",
+        "text": "Deve richiedere un mutuo alla Banca Centrale Europea"
+      },
+      {
+        "id": "C",
+        "text": "Deve ottenere l'autorizzazione all'unanimità di tutti i partiti politici"
+      },
+      {
+        "id": "D",
+        "text": "Deve pubblicare i voti dei dipendenti su un quotidiano a tiratura nazionale"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Ai sensi dell'art. 14, comma 6, del D.Lgs. 150/2009, la validazione della Relazione sulla Performance da parte dell'OIV è condizione inderogabile per l'accesso e l'erogazione degli incentivi e premi collegati alla performance individuale e organizzativa.",
+    "hint": "La validazione della Relazione da parte dell'OIV è condizione indispensabile per pagare i premi.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_GEST_013",
+    "question": "Quali sono le quattro tipologie di controlli interni nella Pubblica Amministrazione introdotte dal D.Lgs. 30 luglio 1999, n. 286?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Controllo di regolarità amministrativa e contabile, controllo di gestione, controllo strategico, valutazione e controllo della dirigenza"
+      },
+      {
+        "id": "B",
+        "text": "Controllo di frontiera, controllo stradale, controllo fiscale, controllo sanitario"
+      },
+      {
+        "id": "C",
+        "text": "Controllo preventivo, controllo concomitante, controllo penale, controllo etico"
+      },
+      {
+        "id": "D",
+        "text": "Controllo delle presenze, controllo degli orari, controllo delle ferie, controllo dei turni"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il D.Lgs. 286/1999 ha ridefinito l'architettura dei controlli interni nella PA: regolarità contabile/amministrativa (legittimità); controllo di gestione (efficacia/efficienza); controllo strategico (attuazione indirizzi politici); valutazione dei dirigenti.",
+    "hint": "I quattro controlli: regolarità amministrativo-contabile, gestione, strategico e dirigenza.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_GEST_014",
+    "question": "A cosa mira specificamente il 'controllo strategico' all'interno di un ente pubblico come l'INPS?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A verificare l'effettiva attuazione delle scelte di indirizzo politico-strategico, valutando la congruenza tra gli obiettivi programmati dagli organi di vertice e i risultati conseguiti nel medio-lungo termine"
+      },
+      {
+        "id": "B",
+        "text": "A verificare che le fatture dei fornitori contengano il codice IBAN corretto"
+      },
+      {
+        "id": "C",
+        "text": "A calcolare il consumo chilometrico dei veicoli dell'ente"
+      },
+      {
+        "id": "D",
+        "text": "A monitorare la presenza dei dipendenti alle assemblee sindacali"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il controllo strategico supporta gli organi di indirizzo politico (CIV e CdA per l'INPS), verificando se le linee guida e le grandi priorità istituzionali (es. contrasto alla povertà, digitalizzazione dei servizi) siano state effettivamente realizzate dall'amministrazione.",
+    "hint": "Verifica della corrispondenza tra indirizzi politici strategici e risultati concreti a medio termine.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_GEST_015",
+    "question": "Cosa si intende per 'indicatore di output' nel monitoraggio dei servizi pubblici?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La misura quantitativa diretta dei beni o servizi prodotti ed erogati dall'amministrazione (es. numero di pensioni liquidate, numero di visite mediche effettuate, numero di istanze esaminate)"
+      },
+      {
+        "id": "B",
+        "text": "Il livello di gradimento generico dei cittadini rilevato sui forum online"
+      },
+      {
+        "id": "C",
+        "text": "La quantità di denaro spesa per le forniture di carta"
+      },
+      {
+        "id": "D",
+        "text": "Il tempo di durata dell'orario di lavoro contrattuale"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'indicatore di output misura il volume fisico dei prodotti o servizi realizzati dall'ufficio (quantità prodotta). Si distingue dall'input (risorse usate) e dall'outcome (l'effetto o impatto qualitativo generato sull'ambiente e sulla collettività).",
+    "hint": "Misura quantitativa diretta delle prestazioni prodotte ed erogate.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_GEST_016",
+    "question": "Cosa si intende per 'indicatore di outcome' (o di impatto)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La misura del cambiamento, dell'effetto e del beneficio reale prodotto sulla società, sull'economia o sulla condizione degli utenti a seguito dell'erogazione del servizio"
+      },
+      {
+        "id": "B",
+        "text": "Il numero esatto di fogli stampati dalla stampante di rete"
+      },
+      {
+        "id": "C",
+        "text": "Il totale dei minuti trascorsi in pausa caffè dal personale"
+      },
+      {
+        "id": "D",
+        "text": "La spesa sostenuta per i canoni di affitto delle sedi"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'outcome misura l'impatto reale del servizio: ad esempio, non solo quante indennità ADI o NASpI sono state pagate (output), ma la riduzione del tasso di povertà e la ricollocazione effettiva dei beneficiari nel mercato del lavoro (outcome).",
+    "hint": "Misura l'effetto reale, il beneficio finale e l'impatto sulla collettività.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_GEST_017",
+    "question": "Che cos'è il 'Benchmarking' nei processi di controllo di gestione e miglioramento dei servizi della PA?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Una metodologia sistematica di confronto continuo delle proprie prestazioni, processi e costi con quelli delle migliori organizzazioni del settore (best practices) al fine di individuare margini di miglioramento"
+      },
+      {
+        "id": "B",
+        "text": "L'installazione di panchine ergonomiche nelle sale d'attesa dell'INPS"
+      },
+      {
+        "id": "C",
+        "text": "Il calcolo automatico degli interessi di mora sui mutui"
+      },
+      {
+        "id": "D",
+        "text": "La revoca dei contratti di fornitura energetica"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il benchmarking consiste nel comparare sistematicamente i propri indicatori di processo (es. tempi medi di liquidazione pensione, costi di lavorazione per pratica) con quelli delle sedi più efficienti o di altre PA europee per adottare le migliori pratiche gestionali.",
+    "hint": "Confronto con le migliori prassi (best practices) per individuare aree di miglioramento.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_GEST_018",
+    "question": "Quale principio contabile fondamentale sancito dall'art. 81 della Costituzione è stato rafforzato dalla Legge Costituzionale 1/2012?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il principio dell'equilibrio di bilancio e della sostenibilità del debito pubblico per tutte le pubbliche amministrazioni"
+      },
+      {
+        "id": "B",
+        "text": "L'obbligo di spendere tutte le riserve monetarie ogni dodici mesi"
+      },
+      {
+        "id": "C",
+        "text": "Il divieto di assumere personale a tempo indeterminato"
+      },
+      {
+        "id": "D",
+        "text": "La facoltà di ricorrere all'indebitamento per finanziare le spese correnti senza limiti"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La L.Cost. 1/2012 ha riscritto l'art. 81 Cost., sancendo il principio dell'equilibrio tra entrate e spese (pareggio di bilancio inteso come saldo strutturale) e vietando l'indebitamento se non in corrispondenza del ciclo economico o previa autorizzazione parlamentare.",
+    "hint": "Equilibrio di bilancio e sostenibilità del debito pubblico.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_GEST_019",
+    "question": "In contabilità pubblica, in cosa consiste la fase dell''accertamento' delle entrate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La fase in cui sorge per l'ente il diritto a riscuotere una somma determinata, si individua la ragione del credito, il soggetto debitore e la relativa scadenza"
+      },
+      {
+        "id": "B",
+        "text": "Il materiale versamento del denaro nelle casse della tesoreria"
+      },
+      {
+        "id": "C",
+        "text": "La stima generica delle entrate future inserita nel bilancio di previsione"
+      },
+      {
+        "id": "D",
+        "text": "Il pagamento del bonifico bancario al fornitore"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'accertamento è la prima fase di gestione dell'entrata: l'amministrazione verifica la sussistenza della ragione del credito, l'ammontare esatto del debito, l'identità del debitore e la scadenza dell'obbligazione, iscrivendo la somma a bilancio.",
+    "hint": "Identificazione della ragione del credito, dell'importo esatto e del debitore.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_GEST_020",
+    "question": "Quali sono le quattro fasi sequenziali di gestione della spesa nella contabilità degli enti pubblici?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Impegno, liquidazione, ordinazione e pagamento"
+      },
+      {
+        "id": "B",
+        "text": "Accertamento, riscossione, riversamento e quietanza"
+      },
+      {
+        "id": "C",
+        "text": "Preventivo, consuntivo, rendiconto e discarico"
+      },
+      {
+        "id": "D",
+        "text": "Delibera, appalto, collaudo e sfratto"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il procedimento di spesa pubblica segue quattro fasi rigorose: 1) Impegno (vincolo sulla risorsa); 2) Liquidazione (determinazione del credito certo ed esigibile); 3) Ordinazione (emissione del mandato di pagamento); 4) Pagamento (erogazione del tesoriere).",
+    "hint": "Impegno, liquidazione, ordinazione (mandato) e pagamento.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_GEST_021",
+    "question": "In contabilità pubblica, cosa si intende per 'impegno di spesa'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'atto con il quale viene apposto un vincolo giuridico su una specifica somma stanziata a bilancio a seguito di una giuridica obbligazione verso terzi, costituendo il presupposto per il pagamento futuro"
+      },
+      {
+        "id": "B",
+        "text": "L'erogazione fisica del denaro allo sportello bancario"
+      },
+      {
+        "id": "C",
+        "text": "La firma della convenzione sindacale sul lavoro straordinario"
+      },
+      {
+        "id": "D",
+        "text": "La delibera di approvazione della manovra finanziaria in Parlamento"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'impegno di spesa è la fase in cui, perfezionatasi un'obbligazione giuridica, si individua il creditore, la somma da pagare e la relativa scadenza, vincolando l'apposito stanziamento di bilancio per evitare sforamenti.",
+    "hint": "Vincolo giuridico che blocca le risorse a bilancio a fronte di un'obbligazione assunta.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_GEST_022",
+    "question": "Che cosa sono i 'residui attivi' nella gestione contabile di un ente pubblico?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Le somme accertate nel corso dell'esercizio finanziario ma non ancora riscosse o versate entro la chiusura dello stesso"
+      },
+      {
+        "id": "B",
+        "text": "Le spese già ordinate ma rifiutate dal fornitore"
+      },
+      {
+        "id": "C",
+        "text": "I risparmi di spesa cancellati dal consiglio di amministrazione"
+      },
+      {
+        "id": "D",
+        "text": "I crediti inesigibili per fallimento dei datori di lavoro"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "I residui attivi rappresentano crediti certi, liquidi ed esigibili maturati e accertati nell'esercizio, per i quali l'ente non ha ancora incassato materialmente le somme al 31 dicembre (entrate accertate ma non riscosse).",
+    "hint": "Somme accertate che l'ente ha diritto di riscuotere ma non ancora incassate a fine anno.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_GEST_023",
+    "question": "Che cosa sono i 'residui passivi' nel bilancio di un ente pubblico?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Le somme legalmente impegnate nel corso dell'esercizio ma non ancora pagate entro il termine dello stesso"
+      },
+      {
+        "id": "B",
+        "text": "I debiti prescritti da oltre dieci anni"
+      },
+      {
+        "id": "C",
+        "text": "Gli errori di calcolo commessi dai revisori contabili"
+      },
+      {
+        "id": "D",
+        "text": "Le somme riscosse in eccedenza rispetto al dovuto"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "I residui passivi costituiscono debiti dell'ente verso terzi: spese che sono state ritualmente impegnate a fronte di contratti o obbligazioni, ma che al termine dell'esercizio finanziario non risultano ancora liquidate o pagate.",
+    "hint": "Spese impegnate che l'ente deve ancora materialmente pagare al 31 dicembre.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_GEST_024",
+    "question": "Quale principio contabile impone che tutte le entrate e tutte le spese debbano essere iscritte in bilancio nel loro importo integrale, senza alcuna compensazione di partite?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il principio dell'integrità del bilancio"
+      },
+      {
+        "id": "B",
+        "text": "Il principio della continuità delle pensioni"
+      },
+      {
+        "id": "C",
+        "text": "Il principio della flessibilità di cassa"
+      },
+      {
+        "id": "D",
+        "text": "Il principio della prudenza commerciale"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il principio di integrità (art. 2423-ter c.c. e principi contabili della L. 196/2009) vieta la compensazione tra entrate e uscite (c.d. divieto di gestioni fuori bilancio): tutte le entrate devono essere iscritte al lordo delle spese di riscossione e tutte le spese al lordo di eventuali entrate.",
+    "hint": "Integrità: divieto assoluto di compensazioni tra entrate e uscite.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_GEST_025",
+    "question": "Che cosa sancisce il principio contabile dell''universalità' del bilancio pubblico?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tutte le entrate e tutte le spese dell'ente devono essere ricomprese nell'unico bilancio, con divieto assoluto di gestioni fuori bilancio salvo espressa autorizzazione legislativa"
+      },
+      {
+        "id": "B",
+        "text": "Il bilancio deve essere redatto nella lingua inglese per essere compreso all'estero"
+      },
+      {
+        "id": "C",
+        "text": "Tutti i cittadini del mondo hanno diritto alle stesse prestazioni previdenziali"
+      },
+      {
+        "id": "D",
+        "text": "La contabilità deve essere aggiornata ogni ora in tempo reale"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il principio di universalità impone che nessuna operazione finanziaria possa essere sottratta al bilancio dell'ente: tutte le grandezze gestionali devono confluire nei documenti previsionali e di rendiconto ufficiali.",
+    "hint": "Universalità: divieto di gestioni e fondi paralleli fuori bilancio.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_GEST_026",
+    "question": "Qual è la funzione del 'Servizio di Tesoreria' per un ente pubblico non economico come l'INPS?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La gestione materiale delle operazioni finanziarie di incasso delle entrate e di pagamento delle spese ordinate dall'ente, affidata a un istituto di credito autorizzato tramite procedura di evidenza pubblica"
+      },
+      {
+        "id": "B",
+        "text": "La redazione del piano delle assunzioni del personale"
+      },
+      {
+        "id": "C",
+        "text": "L'ispezione medica dei lavoratori malati"
+      },
+      {
+        "id": "D",
+        "text": "La custodia dei quadri d'autore di proprietà del Ministero della Cultura"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il servizio di tesoreria/cassa è affidato mediante gara ad una banca che provvede materialmente ad esigere i crediti (F24, bollettini) e ad eseguire i pagamenti ordinati dall'INPS tramite mandati informatici (reversali e mandati di pagamento).",
+    "hint": "Gestione materiale dei flussi finanziari di entrata e uscita affidata alla banca tesoriera.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_GEST_027",
+    "question": "Che cosa si intende per 'Bilancio Sociale' dell'INPS?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il documento pubblico annuale di rendicontazione sociale con cui l'Istituto comunica ai cittadini, agli stakeholder e alle istituzioni il valore sociale ed economico redistribuito, l'impatto delle prestazioni erogate, l'inclusione garantita e gli impegni etici perseguiti"
+      },
+      {
+        "id": "B",
+        "text": "Il prospetto delle spese sostenute per i rinfreschi delle feste aziendali"
+      },
+      {
+        "id": "C",
+        "text": "La rendicontazione dei post pubblicati sulle piattaforme social network"
+      },
+      {
+        "id": "D",
+        "text": "Il bilancio preventivo delle entrate derivanti dalle lotterie nazionali"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il Bilancio Sociale INPS è lo strumento di trasparenza e accountability con cui l'Istituto evidenzia la ricaduta socio-economica delle sue politiche (es. quante famiglie sostenute con l'Assegno Unico o l'ADI, povertà evitata grazie alle pensioni, sostegno al reddito durante le crisi aziendali).",
+    "hint": "Rendicontazione trasparente dell'impatto sociale ed etico dei servizi per la collettività.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_GEST_028",
+    "question": "Cos'è la 'Customer Satisfaction' e come viene utilizzata dall'INPS per il controllo di gestione?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La misurazione periodica e sistematica del grado di soddisfazione espresso dagli utenti e dalle imprese sui servizi erogati, utilizzata come indicatore qualitativo per correggere le criticità dei processi e orientare gli obiettivi di performance"
+      },
+      {
+        "id": "B",
+        "text": "La concessione di premi in denaro agli utenti che non presentano ricorsi"
+      },
+      {
+        "id": "C",
+        "text": "Un sondaggio telefonico a pagamento a carico del pensionato"
+      },
+      {
+        "id": "D",
+        "text": "La classifica dei dipendenti più simpatici della filiale"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'ascolto dell'utenza e la rilevazione della customer satisfaction (tramite sondaggi online, questionari di sportello, metriche NPS) è un obbligo di legge (art. 7 D.Lgs. 150/2009) che concorre alla valutazione della performance organizzativa degli uffici.",
+    "hint": "Rilevazione della soddisfazione dei cittadini per migliorare i servizi e misurare la qualità.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_GEST_029",
+    "question": "Nel controllo di gestione della PA, cosa si intende per 'Centri di Costo' (CdC) e 'Centri di Responsabilità' (CdR)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "I Centri di Responsabilità sono le unità organizzative al cui vertice è posto un dirigente responsabile dell'impiego delle risorse e del raggiungimento degli obiettivi; i Centri di Costo sono le entità contabili a cui vengono imputati i costi diretti e indiretti generati"
+      },
+      {
+        "id": "B",
+        "text": "I magazzini in cui vengono depositati i computer dismessi"
+      },
+      {
+        "id": "C",
+        "text": "Gli sportelli bancomat installati all'interno delle sedi"
+      },
+      {
+        "id": "D",
+        "text": "I comitati sindacali di base"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La contabilità analitica per centri di costo consente di sapere quanto costa erogare ogni singolo servizio; il centro di responsabilità associa tale costo al dirigente o funzionario che ha il potere decisionale di spesa e gestione del processo.",
+    "hint": "Centro di Responsabilità = chi decide e risponde; Centro di Costo = dove si allocano le spese.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_GEST_030",
+    "question": "Qual è la funzione del 'Monitoraggio Infrannuale' della performance all'interno dell'INPS?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rilevare a scadenze intermedie (es. trimestrali o semestrali) lo stato di avanzamento degli obiettivi, al fine di individuare tempestivamente eventuali scostamenti dai target programmati e attuare le necessarie azioni correttive"
+      },
+      {
+        "id": "B",
+        "text": "Azzerare tutti i procedimenti amministrativi pendenti"
+      },
+      {
+        "id": "C",
+        "text": "Decidere i licenziamenti collettivi dei funzionari a metà anno"
+      },
+      {
+        "id": "D",
+        "text": "Ricalcolare le retribuzioni dei dirigenti ogni mese"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il monitoraggio periodico in corso d'anno evita che ci si accorga dei ritardi solo a consuntivo: permette ai direttori e ai funzionari PECS di riallocare i carichi di lavoro e recuperare l'arretrato prima della fine dell'esercizio.",
+    "hint": "Verifica intermedia costante per correggere tempestivamente ritardi o scostamenti.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_GEST_031",
+    "question": "Cosa si intende per 'Spending Review' nella gestione delle spese delle pubbliche amministrazioni?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il processo di revisione periodica e sistematica della spesa pubblica volto a eliminare sprechi, inefficienze e duplicazioni, riallocando le risorse verso priorità ad alto rendimento sociale"
+      },
+      {
+        "id": "B",
+        "text": "L'aumento indiscriminato di tutte le tariffe pubbliche"
+      },
+      {
+        "id": "C",
+        "text": "La spesa effettuata senza fattura da parte dei dirigenti"
+      },
+      {
+        "id": "D",
+        "text": "Il controllo dei conti correnti bancari di tutti i dipendenti"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La spending review è l'analisi qualitativa della spesa pubblica per ridurre i costi intermedi, razionalizzare le strutture e accorpare servizi duplicati senza compromettere la qualità delle prestazioni erogate ai cittadini.",
+    "hint": "Revisione strategica della spesa per eliminare sprechi e inefficienze migliorando i servizi.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_GEST_032",
+    "question": "Quale strumento informatico e societario statale è obbligatorio per l'acquisto di beni e servizi sotto e sopra soglia comunitaria al fine di assicurare la razionalizzazione della spesa (L. 488/1999)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La piattaforma Consip S.p.A. e il Mercato Elettronico della Pubblica Amministrazione (MePA)"
+      },
+      {
+        "id": "B",
+        "text": "Siti commerciali di compravendita tra privati online"
+      },
+      {
+        "id": "C",
+        "text": "Gli uffici acquisti dei singoli partiti di maggioranza"
+      },
+      {
+        "id": "D",
+        "text": "Trattative private verbali senza pubblicazione di bando"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Le amministrazioni statali ed enti pubblici sono tenuti ad avvalersi delle convenzioni-quadro di Consip e del MePA (Mercato Elettronico della PA), che garantiscono trasparenza, tracciabilità e prezzi calmierati per gli acquisti di beni e servizi.",
+    "hint": "Convenzioni Consip e piattaforma MePA.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_GEST_033",
+    "question": "Cosa rappresenta la 'Mappatura dei Processi' nell'ottica dell'ottimizzazione gestionale e dell'anticorruzione nell'INPS?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'identificazione dettagliata, la scomposizione e l'analisi di tutte le fasi, delle attività, dei ruoli e dei flussi informativi che compongono ciascun procedimento di erogazione di una prestazione"
+      },
+      {
+        "id": "B",
+        "text": "Il disegno planimetrico dei corridoi delle sedi provinciali"
+      },
+      {
+        "id": "C",
+        "text": "La cartografia geologica delle aree su cui sorgono gli edifici dell'ente"
+      },
+      {
+        "id": "D",
+        "text": "L'elenco degli indirizzi di residenza dei dirigenti"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La mappatura dei processi (fondamentale sia per il controllo di gestione che per il piano anticorruzione) schematizza chi fa cosa, con quali strumenti e in quali tempi, consentendo di eliminare colli di bottiglia e prevenire rischi operativi o corruttivi.",
+    "hint": "Descrizione puntuale di tutte le fasi, attori e flussi che compongono un servizio.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_GEST_034",
+    "question": "Che cosa si intende per 'collo di bottiglia' (bottleneck) nell'analisi dei flussi operativi di liquidazione delle prestazioni INPS?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un punto o una fase del processo operativo in cui la capacità di lavorazione è inferiore al volume delle domande in ingresso, rallentando o bloccando l'intero flusso a valle"
+      },
+      {
+        "id": "B",
+        "text": "Un difetto fisico nei distributori di bevande dell'ufficio"
+      },
+      {
+        "id": "C",
+        "text": "L'interruzione temporanea della connessione internet serale"
+      },
+      {
+        "id": "D",
+        "text": "Una discussione animata tra funzionari durante la riunione di reparto"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il collo di bottiglia è il punto critico di un processo (es. una verifica medica o una certificazione contributiva complessa) che determina la velocità massima dell'intero procedimento. Identificarlo permette al funzionario PECS di potenziare quella specifica fase.",
+    "hint": "La fase con la minore capacità di smaltimento che rallenta tutto il processo.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_GEST_035",
+    "question": "Che cos'è il 'Risk Management' (gestione del rischio) applicato ai processi dell'INPS?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'insieme coordinato di attività volte a identificare, analizzare, valutare e trattare i rischi operativi, finanziari, legali, tecnologici e di frode che possono pregiudicare il conseguimento degli obiettivi istituzionali"
+      },
+      {
+        "id": "B",
+        "text": "La stipula di polizze sulla vita per i soli dirigenti di prima fascia"
+      },
+      {
+        "id": "C",
+        "text": "L'installazione di cancelli blindati agli ingressi delle sedi"
+      },
+      {
+        "id": "D",
+        "text": "L'esternalizzazione di tutti i servizi a società private di vigilanza"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il Risk Management integrato nell'INPS mira a governare le incertezze operative (es. attacchi cyber, contenzioso seriale, errori di pagamento, truffe organizzate), introducendo controlli preventivi e monitoraggi continui.",
+    "hint": "Processo di identificazione, stima e mitigazione di tutti i fattori di rischio operativo.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_GEST_036",
+    "question": "Quale ruolo ha la 'Relazione sulla Performance' redatta annualmente dai vertici dell'amministrazione?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Costituisce il documento consuntivo che evidenzia, a trasparenza dei cittadini e degli organi di controllo, i risultati organizzativi e individuali effettivamente raggiunti rispetto agli obiettivi e alle risorse assegnate nel Piano"
+      },
+      {
+        "id": "B",
+        "text": "È un opuscolo pubblicitario distribuito nelle edicole"
+      },
+      {
+        "id": "C",
+        "text": "È la lista dei dipendenti promossi per anzianità di servizio"
+      },
+      {
+        "id": "D",
+        "text": "È una perizia notarile sul valore del patrimonio storico artistico"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La Relazione sulla Performance (art. 10 D.Lgs. 150/2009) è il bilancio di fine anno dei risultati: descrive lo stato di conseguimento di ciascun obiettivo programmato, documentando eventuali scostamenti e motivandone le cause.",
+    "hint": "Documento consuntivo che rendiconta i risultati effettivamente raggiunti rispetto al piano.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_GEST_037",
+    "question": "Entro quale data le amministrazioni pubbliche devono approvare e pubblicare la Relazione annuale sulla Performance ai sensi del D.Lgs. 150/2009?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Entro il 30 giugno di ogni anno con riferimento all'esercizio precedente"
+      },
+      {
+        "id": "B",
+        "text": "Entro il 31 dicembre dello stesso anno di riferimento"
+      },
+      {
+        "id": "C",
+        "text": "Entro il 28 febbraio di ogni biennio"
+      },
+      {
+        "id": "D",
+        "text": "Non vi è alcun termine di scadenza legale"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 10, comma 1, lett. b) del D.Lgs. 150/2009 stabilisce che la Relazione annuale sulla Performance deve essere approvata entro il 30 giugno dell'anno successivo a quello oggetto di valutazione e validata dall'OIV.",
+    "hint": "Il termine di legge per la Relazione è il 30 giugno.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_GEST_038",
+    "question": "Quale sanzione scatta per l'amministrazione in caso di mancata adozione o mancata pubblicazione del PIAO o del Piano della Performance nei termini di legge (art. 10 c. 5 D.Lgs. 150/2009)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Divieto di erogazione della retribuzione di risultato ai dirigenti e divieto di procedere ad assunzioni di personale o stipulare contratti di consulenza"
+      },
+      {
+        "id": "B",
+        "text": "Lo scioglimento immediato dell'ente per decreto prefettizio"
+      },
+      {
+        "id": "C",
+        "text": "La decurtazione del 50% delle pensioni ordinarie dell'anno"
+      },
+      {
+        "id": "D",
+        "text": "Una multa personale a tutti i dipendenti dell'amministrazione"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "In caso di mancata adozione del Piano scattano sanzioni pesanti: divieto di corrispondere la retribuzione di risultato ai dirigenti che abbiano concorso all'omissione e blocco delle assunzioni di personale a qualsiasi titolo.",
+    "hint": "Blocco delle assunzioni e divieto di erogare la retribuzione di risultato ai dirigenti.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_GEST_039",
+    "question": "Nel bilancio preventivo dell'INPS, cosa rappresenta il 'Fondo Pensioni Lavoratori Dipendenti' (FPLD)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La gestione contabile e previdenziale più rilevante per volume di entrate e spesa, in cui confluiscono i contributi IVS dei lavoratori subordinati del settore privato e da cui vengono erogate le relative pensioni"
+      },
+      {
+        "id": "B",
+        "text": "Un fondo di investimento in criptovalute ad alto rendimento"
+      },
+      {
+        "id": "C",
+        "text": "La cassa mutua per le spese dentistiche dei dipendenti dell'Istituto"
+      },
+      {
+        "id": "D",
+        "text": "Il conto per il pagamento delle bollette energetiche delle sedi"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il FPLD (istituito fin dalla L. 218/1952) è la colonna vertebrale della previdenza italiana: assicura la quasi totalità dei lavoratori dipendenti privati per l'invalidità, la vecchiaia e i superstiti (IVS).",
+    "hint": "La gestione principale dei lavoratori subordinati privati per le pensioni IVS.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_GEST_040",
+    "question": "Cosa si intende per 'Rendiconto Generale dell'INPS' (Bilancio Consuntivo)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il documento contabile che riassume e dimostra i risultati definitivi della gestione economica, patrimoniale e finanziaria dell'Istituto al termine dell'esercizio (31 dicembre), composto dal conto del bilancio, dal conto economico e dallo stato patrimoniale"
+      },
+      {
+        "id": "B",
+        "text": "La lista della spesa per i buffet di inaugurazione delle nuove agenzie"
+      },
+      {
+        "id": "C",
+        "text": "Il piano triennale delle ferie dei dipendenti pubblici"
+      },
+      {
+        "id": "D",
+        "text": "Il preventivo dei costi di cancelleria per l'anno venturo"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il Rendiconto Generale (deliberato dal CdA e approvato dal CIV, previo parere dei Sindaci e della Corte dei Conti) certifica i conti consuntivi effettivi dell'INPS: entrate accertate/riscosse, uscite impegnate/pagate, avanzi o disavanzi d'esercizio e patrimonio netto.",
+    "hint": "Documento consuntivo che certifica i risultati economici, finanziari e patrimoniali al 31 dicembre.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_GEST_041",
+    "question": "Qual è il significato del termine 'accertamento con riserva' o 'controllo a campione' sulle dichiarazioni ISEE degli utenti?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il controllo a posteriori effettuato dall'INPS incrociando le banche dati dell'Agenzia delle Entrate e del sistema bancario su un campione di dichiarazioni per verificare la veridicità dei patrimoni e redditi dichiarati"
+      },
+      {
+        "id": "B",
+        "text": "La bocciatura a priori di tutte le domande presentate da disoccupati"
+      },
+      {
+        "id": "C",
+        "text": "Un'ispezione della Guardia di Finanza in casa di tutti i cittadini italiani"
+      },
+      {
+        "id": "D",
+        "text": "La sospensione dell'ISEE per tutti coloro che possiedono un'automobile"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'erogazione delle prestazioni assistenziali (es. AUU, ADI) avviene inizialmente sulla base delle Dichiarazioni Sostitutive Uniche (DSU); l'INPS effettua controlli automatici e a campione incrociando i dati con l'Anagrafe Tributaria per revocare i benefici indebiti.",
+    "hint": "Controlli a campione e incrocio automatico con banche dati tributarie e finanziarie.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_GEST_042",
+    "question": "In cosa consiste la 'Gestione delle Risorse Umane' orientata alle competenze nel modello contrattuale delle Funzioni Centrali?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La mappatura e lo sviluppo delle conoscenze teoriche, capacità pratiche (skills) e comportamenti organizzativi (soft skills) necessari per ciascun profilo professionale, collegandoli a percorsi di formazione continua e progressioni economiche e di carriera"
+      },
+      {
+        "id": "B",
+        "text": "L'imposizione del silenzio durante l'orario di lavoro"
+      },
+      {
+        "id": "C",
+        "text": "La rotazione obbligatoria giornaliera delle scrivanie tra i colleghi"
+      },
+      {
+        "id": "D",
+        "text": "La sostituzione del personale con volontari del servizio civile"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il CCNL Funzioni Centrali e le linee guida della Funzione Pubblica basano l'organizzazione sulle 'famiglie professionali' e sul dizionario delle competenze, valorizzando il merito, la formazione mirata e le progressioni per competenze certificate.",
+    "hint": "Sviluppo di conoscenze, abilità e comportamenti organizzativi legati a formazione e carriere.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_GEST_043",
+    "question": "Nel ciclo della performance, cosa rappresenta il 'Piano di Miglioramento' di una sede territoriale?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'insieme organico di azioni correttive, formative e riorganizzative definite per colmare i divari prestazionali evidenziati durante il monitoraggio rispetto agli standard di qualità dell'Istituto"
+      },
+      {
+        "id": "B",
+        "text": "La tinteggiatura periodica delle facciate degli stabili"
+      },
+      {
+        "id": "C",
+        "text": "La richiesta di aumento dello stipendio base inviata al Ministro"
+      },
+      {
+        "id": "D",
+        "text": "L'acquisto di nuovi televisori per le sale d'aspetto"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il piano di miglioramento traduce le evidenze emerse dagli scostamenti o dai reclami dell'utenza in interventi specifici per riallineare i tempi di lavorazione e innalzare la qualità dell'erogazione.",
+    "hint": "Azioni mirate per colmare i gap prestazionali e migliorare i servizi ai cittadini.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_GEST_044",
+    "question": "Che cosa si intende per 'Economie di Scala' nella gestione informatica e accentrata dei servizi INPS?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La riduzione del costo unitario di erogazione di una prestazione o servizio all'aumentare dei volumi complessivi gestiti, grazie all'uso di piattaforme software uniche e centralizzate"
+      },
+      {
+        "id": "B",
+        "text": "La vendita all'asta delle vecchie scale degli archivi cartacei"
+      },
+      {
+        "id": "C",
+        "text": "Il risparmio energetico ottenuto spegnendo le luci degli uffici alle 17:00"
+      },
+      {
+        "id": "D",
+        "text": "La suddivisione dell'INPS in 20 istituti regionali indipendenti"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Gestendo milioni di prestazioni su un'unica infrastruttura cloud nazionale, l'INPS riduce drasticamente il costo medio di elaborazione di ogni singola domanda rispetto alla frammentazione tra enti distinti.",
+    "hint": "Riduzione del costo medio unitario all'aumentare dei volumi grazie alla centralizzazione.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_GEST_045",
+    "question": "Qual è il ruolo del 'Controllo di Gestione Operativo' condotto a livello di Direzione Provinciale INPS?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Supportare il Direttore Provinciale e i responsabili di unità nell'analisi quotidiana e settimanale dei carichi di lavoro, della produttività per linea di prodotto e del rispetto dei livelli essenziali delle prestazioni (LEP)"
+      },
+      {
+        "id": "B",
+        "text": "Controllare la borsa personale dei dipendenti all'uscita dalla sede"
+      },
+      {
+        "id": "C",
+        "text": "Gestire il servizio mensa e pulizie"
+      },
+      {
+        "id": "D",
+        "text": "Riparare i guasti tecnici ai condizionatori d'aria"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "A livello provinciale, il controllo di gestione operativo analizza indicatori quali: pratiche giacenti, pratiche liquidate per addetto, rispetto dei tempi della Carta dei Servizi e saturazione dei canali di appuntamento.",
+    "hint": "Supporto ai responsabili di sede per monitorare carichi di lavoro, produttività e tempi di risposta.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_GEST_046",
+    "question": "Cos'è la 'Matrice di Rischio' (Risk Matrix) utilizzata nella pianificazione dei controlli antifrode dell'INPS?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Uno strumento analitico che incrocia la probabilità di accadimento di un evento anomalo o fraudolento con la gravità del suo impatto economico e reputazionale per assegnare priorità ai controlli ispettivi"
+      },
+      {
+        "id": "B",
+        "text": "Un software per scommesse sui mercati finanziari"
+      },
+      {
+        "id": "C",
+        "text": "Un tabellone orario degli arrivi e partenze del personale"
+      },
+      {
+        "id": "D",
+        "text": "La classificazione delle zone sismiche in cui operano le agenzie"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La matrice incrocia Probabilità x Impatto: i procedimenti con rischio 'alto' (es. aziende fittizie, erogazioni senza flussi reali) vengono sottoposti a blocco preventivo dei pagamenti e controlli immediati sul campo.",
+    "hint": "Valutazione basata su probabilità dell'evento e gravità dell'impatto potenziale.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_GEST_047",
+    "question": "Cosa si intende per 'Trasparenza Amministrativa' secondo il D.Lgs. 33/2013 nell'ottica della rendicontazione delle performance?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'accessibilità totale delle informazioni concernenti l'organizzazione, gli obiettivi, le risorse e l'uso delle risorse pubbliche, al fine di favorire forme diffuse di controllo sull'azione amministrativa e sul rispetto della legalità"
+      },
+      {
+        "id": "B",
+        "text": "L'uso esclusivo di pareti in vetro negli uffici direzionali"
+      },
+      {
+        "id": "C",
+        "text": "L'obbligo di filmare tutte le riunioni e trasmetterle in diretta televisiva"
+      },
+      {
+        "id": "D",
+        "text": "La consegna del bilancio a tutti i cittadini maggiorenni per posta prioritaria"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La trasparenza (D.Lgs. 33/2013) è condizione di garanzia democratica e buon andamento: la pubblicazione sul sito web (sezione 'Amministrazione Trasparente') di piani, relazioni, dati e bilanci permette il controllo civico diffuso.",
+    "hint": "Accessibilità totale dei dati e dell'attività della PA per consentire il controllo civico diffuso.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_GEST_048",
+    "question": "Come viene valutata la qualità dei servizi telematici offerti dall'INPS ai sensi delle Linee Guida per l'Accessibilità e Usabilità di AgID?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Attraverso indicatori di usabilità, conformità agli standard di accessibilità per disabili (W3C/WCAG), tempo di caricamento, semplicità del linguaggio e tasso di completamento autonomo delle procedure online"
+      },
+      {
+        "id": "B",
+        "text": "In base al numero di colori vivaci utilizzati nella homepage del sito"
+      },
+      {
+        "id": "C",
+        "text": "Esclusivamente dal parere soggettivo del Ministro della Funzione Pubblica"
+      },
+      {
+        "id": "D",
+        "text": "Verificando se il sito è scaricabile su floppy disk"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "I servizi digitali della PA devono rispettare i criteri di accessibilità (L. 4/2004 Stanca), usabilità e inclusione: l'utente deve poter richiedere una prestazione senza incontrare barriere tecnologiche, cognitive o di navigazione.",
+    "hint": "Accessibilità per disabili, facilità d'uso (usabilità) e tasso di successo delle transazioni online.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_GEST_049",
+    "question": "Nel bilancio degli enti pubblici, che cos'è il 'Fondo Pluriennale Vincolato' (FPV)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un saldo finanziario costituito da risorse già accertate e destinate al finanziamento di obbligazioni passive dell'ente già impegnate, ma la cui esigibilità monetaria è posticipata ad esercizi finanziari successivi"
+      },
+      {
+        "id": "B",
+        "text": "Una somma vincolata per pagare le penali delle cause perse"
+      },
+      {
+        "id": "C",
+        "text": "Un accantonamento segreto per emergenze militari"
+      },
+      {
+        "id": "D",
+        "text": "Il fondo cassa per i premi natalizi dei pensionati"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il Fondo Pluriennale Vincolato garantisce la copertura finanziaria di spese già impegnate in un anno, la cui erogazione avverrà negli anni successivi (es. contratti pluriennali, investimenti IT complessi), garantendo l'equilibrio intertemporale.",
+    "hint": "Garantisce la copertura di spese impegnate la cui esigibilità cadrà in esercizi successivi.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_PECS_GEST_050",
+    "question": "Cosa sancisce il principio della 'differenziazione dei giudizi e dei premi' nella valutazione dei dipendenti pubblici introdotto dal D.Lgs. 150/2009?",
+    "options": [
+      {
+        "id": "A",
+        "text": "I premi e gli incentivi alla performance devono essere attribuiti in modo selettivo e meritocratico sulla base dei livelli di rendimento effettivamente conseguiti, vietando la distribuzione indifferenziata o 'a pioggia'"
+      },
+      {
+        "id": "B",
+        "text": "Tutti i dipendenti devono ricevere esattamente la stessa cifra senza alcuna distinzione"
+      },
+      {
+        "id": "C",
+        "text": "Il premio spetta esclusivamente a chi non prende giorni di malattia per 5 anni"
+      },
+      {
+        "id": "D",
+        "text": "I premi possono essere assegnati solo ai dipendenti con più di 35 anni di anzianità"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il D.Lgs. 150/2009 (art. 18 e ss.) vieta categoricamente le distribuzioni indiscriminate di premi di risultato 'a pioggia', imponendo la differenziazione meritocratica delle valutazioni individuali sulla base di evidenze oggettive.",
+    "hint": "Divieto assoluto di distribuzione a pioggia e obbligo di premialità selettiva basata sul merito.",
+    "level": "base"
+  }
+]

@@ -1,0 +1,168 @@
+{
+  "concorso_id": "INPS_FUNZIONARIO_PECS_2026",
+  "titolo": "Concorso INPS - Funzionario PECS",
+  "bando": {
+    "fonte": "Bando di concorso pubblico per 1.695 unità nell'Area dei Funzionari - Famiglia Professionale Funzionario Progettazione, Erogazione e Controllo dei Servizi (PECS)",
+    "ente": "INPS",
+    "numeroPosti": 1695,
+    "postiPerSede": [
+      { "sede": "Abruzzo", "posti": 25 },
+      { "sede": "Basilicata", "posti": 15 },
+      { "sede": "Calabria", "posti": 35 },
+      { "sede": "Campania", "posti": 85 },
+      { "sede": "Emilia Romagna", "posti": 110 },
+      { "sede": "Friuli Venezia Giulia", "posti": 30 },
+      { "sede": "Lazio", "posti": 140 },
+      { "sede": "Liguria", "posti": 45 },
+      { "sede": "Lombardia", "posti": 245 },
+      { "sede": "Marche", "posti": 40 },
+      { "sede": "Molise", "posti": 10 },
+      { "sede": "Piemonte", "posti": 150 },
+      { "sede": "Puglia", "posti": 75 },
+      { "sede": "Sardegna", "posti": 30 },
+      { "sede": "Sicilia", "posti": 80 },
+      { "sede": "Toscana", "posti": 105 },
+      { "sede": "Trentino Alto Adige", "posti": 15 },
+      { "sede": "Umbria", "posti": 20 },
+      { "sede": "Valle d'Aosta", "posti": 5 },
+      { "sede": "Veneto", "posti": 135 },
+      { "sede": "DCM Milano", "posti": 80 },
+      { "sede": "DCM Napoli", "posti": 45 },
+      { "sede": "DCM Roma", "posti": 120 },
+      { "sede": "Direzione Generale", "posti": 54 }
+    ],
+    "terminePresentazione": "Candidatura telematica tramite Portale inPA (inpa.gov.it) con SPID/CIE/CNS/eIDAS e possesso di PEC intestata al candidato entro i termini perentori del bando.",
+    "requisiti": [
+      "Laurea magistrale/specialistica (LM/LS) o Diploma di laurea (DL) vecchio ordinamento in Giurisprudenza, Scienze dell'Economia, Scienze Economico-Aziendali, Scienze Politiche, Scienze della Pubblica Amministrazione, Sociologia, Ingegneria Gestionale, Informatica o titoli equipollenti ed equiparati",
+      "Cittadinanza italiana o di uno Stato membro dell'Unione Europea (oppure status equiparato ai sensi dell'art. 38 D.Lgs. 165/2001)",
+      "Età non inferiore agli anni 18 e non superiore a quella prevista per il collocamento a riposo d'ufficio",
+      "Godimento dei diritti civili e politici",
+      "Idoneità fisica allo svolgimento delle mansioni proprie del profilo professionale",
+      "Non essere stati destituiti, dispensati o licenziati dall'impiego presso una pubblica amministrazione per persistente insufficiente rendimento o motivi disciplinari",
+      "Non aver riportato condanne penali con sentenza passata in giudicato ostative all'assunzione nella PA",
+      "Posizione regolare nei confronti dell'obbligo di leva per i cittadini soggetti a tale obbligo"
+    ],
+    "prova": {
+      "tipo": "Prova scritta (Sezione A: quesiti tecnico-giuridici ed economici; Sezione B: quesiti situazionali a contenuto operativo)",
+      "durataMinuti": 120,
+      "numeroQuesiti": 60,
+      "punteggioMinimo": "21/30",
+      "modalitaSvolgimento": "Prova digitale su postazione informatica con quesiti a risposta multipla con correzione automatica centralizzata."
+    },
+    "materieEsame": [
+      "Diritto della previdenza sociale e disciplina delle prestazioni previdenziali e assistenziali INPS",
+      "Diritto del lavoro e legislazione sociale",
+      "Ordinamento, struttura istituzionale e regolamenti di organizzazione dell'INPS",
+      "Pianificazione strategica, programmazione, controllo di gestione e ciclo della performance (D.Lgs. 150/2009)",
+      "Diritto penale: delitti contro la Pubblica Amministrazione e reati di frode nelle erogazioni pubbliche",
+      "Quesiti situazionali e casi pratico-operativi sul ruolo del funzionario PECS",
+      "Diritto amministrativo generale, procedimento e accesso agli atti (Legge 241/1990)",
+      "Disciplina del pubblico impiego e codice di comportamento (D.Lgs. 165/2001 e D.P.R. 62/2013)",
+      "Principi di trasparenza, anticorruzione (L. 190/2012, D.Lgs. 33/2013) e privacy (GDPR - Reg. UE 2016/679)",
+      "Competenze digitali nella PA e Codice dell'Amministrazione Digitale (CAD - D.Lgs. 82/2005)",
+      "Ragionamento logico-deduttivo, critico e verbale",
+      "Lingua inglese"
+    ],
+    "graduatoria": {
+      "validita": "2 anni dalla data di pubblicazione della graduatoria finale",
+      "note": "Graduatorie distinte su base regionale/territoriale secondo le preferenze espresse all'atto della candidatura, con riserva per le categorie protette e militari congedati previste per legge."
+    },
+    "assunzione": {
+      "tipoContratto": "Tempo pieno e indeterminato",
+      "periodoProva": "4 mesi di effettivo servizio",
+      "inquadramento": "Area dei Funzionari - Famiglia Professionale Funzionario Progettazione, Erogazione e Controllo dei Servizi (PECS)",
+      "retribuzione": "CCNL Comparto Funzioni Centrali vigente per l'Area dei Funzionari, comprensivo di stipendio tabellare, indennità di amministrazione e salario accessorio INPS"
+    },
+    "noteAggiuntive": [
+      "La Sezione B della prova scritta contiene quesiti situazionali volti ad accertare le competenze trasversali, l'orientamento all'utenza, l'attitudine al problem solving e l'aderenza ai valori istituzionali dell'INPS.",
+      "Qualora il numero dei candidati sia superiore a 4.000, l'Istituto si riserva di svolgere una prova preselettiva su logica, inglese, informatica e cultura generale.",
+      "È richiesta una soglia minima di idoneità pari a 21/30 per il superamento della prova scritta."
+    ]
+  },
+  "moduli_esame": [
+    {
+      "modulo_id": "MOD_PECS_01",
+      "modulo_titolo": "Previdenza Sociale e Prestazioni INPS",
+      "descrizione": "Pensioni di vecchiaia, anticipata, reversibilità, Quota 103, ammortizzatori sociali, ADI, SFL, Assegno Unico ed estratto conto.",
+      "icona": "Landmark",
+      "sorgenti_dati": ["previdenza/previdenza_inps.json"]
+    },
+    {
+      "modulo_id": "MOD_PECS_02",
+      "modulo_titolo": "Diritto del Lavoro e Legislazione Sociale",
+      "descrizione": "Rapporto di lavoro subordinato, mansioni, orario, licenziamenti, tutele genitoriali e contrattazione collettiva.",
+      "icona": "Scale",
+      "sorgenti_dati": ["lavoro/diritto_lavoro.json"]
+    },
+    {
+      "modulo_id": "MOD_PECS_03",
+      "modulo_titolo": "Ordinamento e Struttura dell'INPS",
+      "descrizione": "Organi di governo (Presidente, CdA, CIV, Direttore Generale, Collegio Sindaci) e articolazione territoriale.",
+      "icona": "Landmark",
+      "sorgenti_dati": ["diritto/ordinamento_inps.json"]
+    },
+    {
+      "modulo_id": "MOD_PECS_04",
+      "modulo_titolo": "Pianificazione e Controllo di Gestione",
+      "descrizione": "Ciclo della performance (D.Lgs. 150/2009), PIAO, OIV, indicatori di efficacia ed efficienza, contabilità pubblica.",
+      "icona": "Brain",
+      "sorgenti_dati": ["gestione_pa/pianificazione_controllo.json"]
+    },
+    {
+      "modulo_id": "MOD_PECS_05",
+      "modulo_titolo": "Diritto Penale: Reati contro la PA e Frodi",
+      "descrizione": "Peculato, concussione, corruzione, abuso d'ufficio, frodi nelle erogazioni pubbliche (artt. 640-bis e 316-ter c.p.).",
+      "icona": "ShieldAlert",
+      "sorgenti_dati": ["penale/reati_pa.json"]
+    },
+    {
+      "modulo_id": "MOD_PECS_06",
+      "modulo_titolo": "Casi Situazionali e Problem Solving",
+      "descrizione": "Sezione B della prova scritta: scenari operativi, gestione dell'utenza e dei reclami, etica e lavoro in team del PECS.",
+      "icona": "Brain",
+      "sorgenti_dati": ["situazionali/casi_operativi.json"]
+    },
+    {
+      "modulo_id": "MOD_PECS_07",
+      "modulo_titolo": "Diritto Amministrativo e Procedimento",
+      "descrizione": "Legge 241/1990, provvedimento amministrativo, silenzio assenso, SCIA, responsabile del procedimento e accesso.",
+      "icona": "Scale",
+      "sorgenti_dati": ["diritto/amministrativo.json"]
+    },
+    {
+      "modulo_id": "MOD_PECS_08",
+      "modulo_titolo": "Pubblico Impiego (D.Lgs. 165/2001)",
+      "descrizione": "Rapporto di lavoro alle dipendenze della PA, doveri, codice di comportamento D.P.R. 62/2013 e responsabilità.",
+      "icona": "Scale",
+      "sorgenti_dati": ["diritto/pubblico_impiego.json"]
+    },
+    {
+      "modulo_id": "MOD_PECS_09",
+      "modulo_titolo": "Trasparenza, Anticorruzione e Privacy",
+      "descrizione": "Legge 190/2012, D.Lgs. 33/2013, accesso civico universale (FOIA) e Regolamento UE 2016/679 (GDPR).",
+      "icona": "ShieldAlert",
+      "sorgenti_dati": ["diritto/anticorruzione.json", "diritto/privacy_gdpr.json"]
+    },
+    {
+      "modulo_id": "MOD_PECS_10",
+      "modulo_titolo": "Competenze Digitali e CAD",
+      "descrizione": "Codice dell'Amministrazione Digitale (D.Lgs. 82/2005), SPID, CIE, firma digitale, PEC e fascicolo informatico.",
+      "icona": "Monitor",
+      "sorgenti_dati": ["diritto/cad.json"]
+    },
+    {
+      "modulo_id": "MOD_PECS_11",
+      "modulo_titolo": "Logica e Ragionamento Critico",
+      "descrizione": "Quesiti di logica deduttiva, serie numeriche e figurate, comprensione e analisi di testi per la preselettiva.",
+      "icona": "Brain",
+      "sorgenti_dati": ["logica/ragionamento_logico.json"]
+    },
+    {
+      "modulo_id": "MOD_PECS_12",
+      "modulo_titolo": "Lingua Inglese",
+      "descrizione": "Grammatica, comprensione di brani e lessico istituzionale e professionale in lingua inglese.",
+      "icona": "BookOpen",
+      "sorgenti_dati": ["lingue/inglese.json"]
+    }
+  ]
+}

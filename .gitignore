@@ -1,0 +1,50 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+dist-electron/
+release/
+*.tsbuildinfo
+
+# Electron / electron-builder caches
+.electron-builder-cache/
+
+# Environment & secrets — never commit these
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Test / coverage output
+coverage/
+
+# Editor & OS files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.local
+
+# AI assistance traces
+transcript_app_tsx.jsonl
+.claude/
+.gemini/
+.cursor/

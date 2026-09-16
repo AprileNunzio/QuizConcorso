@@ -1,0 +1,712 @@
+const fs = require('fs');
+const path = require('path');
+
+const dir = path.join(__dirname, '../public/db/master_bank/logica');
+fs.mkdirSync(dir, { recursive: true });
+
+const questions = [
+  {
+    id: "Q_PECS_LOG_001",
+    question: "Qual è la corretta negazione logica della proposizione: 'Tutti i funzionari dell'INPS conoscono la procedura telematica'?",
+    options: [
+      { id: "A", text: "Almeno un funzionario dell'INPS non conosce la procedura telematica" },
+      { id: "B", text: "Nessun funzionario dell'INPS conosce la procedura telematica" },
+      { id: "C", text: "Tutti i funzionari dell'INPS ignorano la procedura telematica" },
+      { id: "D", text: "Nessuna persona conosce la procedura telematica" }
+    ],
+    correctAnswerId: "A",
+    explanation: "Nel calcolo dei predicati, la negazione di un'affermazione universale affermativa ('Tutti gli X sono Y') è un'affermazione particolare negativa: basta che esista almeno un elemento che non possieda quella proprietà ('Esiste almeno un X che non è Y').",
+    hint: "Per smentire che 'tutti' facciano una cosa, basta trovare 'almeno uno' che non la faccia.",
+    level: "base"
+  },
+  {
+    id: "Q_PECS_LOG_002",
+    question: "Si consideri vera l'affermazione: 'Se una domanda è completa, allora viene liquidata entro 30 giorni'. Quale delle seguenti conclusioni è logicamente NECESSARIA?",
+    options: [
+      { id: "A", text: "Se una domanda non è stata liquidata entro 30 giorni, allora non era completa" },
+      { id: "B", text: "Se una domanda è stata liquidata entro 30 giorni, allora era sicuramente completa" },
+      { id: "C", text: "Se una domanda non è completa, non può essere liquidata entro 30 giorni" },
+      { id: "D", text: "Tutte le domande vengono sempre liquidate entro 30 giorni" }
+    ],
+    correctAnswerId: "A",
+    explanation: "Data l'implicazione 'A implica B' (Se A allora B), l'unica deduzione logicamente equivalente e necessaria è la contronominale: 'non B implica non A' (modus tollens). Se non si verifica la conseguenza (non liquidata entro 30 giorni), non si è verificata la premessa (non era completa).",
+    hint: "Regola del modus tollens (contronominale): Se A allora B equivale a Se non B allora non A.",
+    level: "base"
+  },
+  {
+    id: "Q_PECS_LOG_003",
+    question: "Completare la seguente serie numerica: 3, 7, 15, 31, 63, ...?",
+    options: [
+      { id: "A", text: "127" },
+      { id: "B", text: "126" },
+      { id: "C", text: "120" },
+      { id: "D", text: "135" }
+    ],
+    correctAnswerId: "A",
+    explanation: "La serie segue la regola: ogni numero è ottenuto moltiplicando il precedente per 2 e aggiungendo 1. Oppure le differenze raddoppiano: +4, +8, +16, +32, +64. Pertanto 63 * 2 + 1 = 127 (ovvero 63 + 64 = 127).",
+    hint: "Moltiplica per 2 e somma 1, oppure guarda le potenze del 2.",
+    level: "base"
+  },
+  {
+    id: "Q_PECS_LOG_004",
+    question: "Tutti gli esperti di previdenza sono laureati. Nessun bugiardo è esperto di previdenza. Alcuni laureati sono politici. In base a queste premesse, quale delle seguenti affermazioni è sicuramente VERA?",
+    options: [
+      { id: "A", text: "Alcuni laureati non sono bugiardi" },
+      { id: "B", text: "Tutti i politici sono laureati" },
+      { id: "C", text: "Nessun laureato è un bugiardo" },
+      { id: "D", text: "Tutti i laureati sono esperti di previdenza" }
+    ],
+    correctAnswerId: "A",
+    explanation: "Poiché tutti gli esperti di previdenza sono laureati e nessun bugiardo è esperto di previdenza, ne consegue che gli individui che appartengono alla categoria 'esperti di previdenza' sono al contempo laureati e non bugiardi; quindi esistono sicuramente dei laureati che non sono bugiardi.",
+    hint: "Gli esperti di previdenza fanno parte dei laureati e nessuno di loro è un bugiardo.",
+    level: "intermedio"
+  },
+  {
+    id: "Q_PECS_LOG_005",
+    question: "Individuare la proporzione verbale corretta: 'Direttore : INPS = Sindaco : ...?'",
+    options: [
+      { id: "A", text: "Comune" },
+      { id: "B", text: "Regione" },
+      { id: "C", text: "Parlamento" },
+      { id: "D", text: "Tribunale" }
+    ],
+    correctAnswerId: "A",
+    explanation: "La relazione è tra l'organo/vertice amministrativo e l'ente di riferimento: come il Direttore/Presidente è alla guida dell'INPS, così il Sindaco è al vertice del Comune.",
+    hint: "È il vertice di governo del relativo ente territoriale.",
+    level: "base"
+  },
+  {
+    id: "Q_PECS_LOG_006",
+    question: "Quattro funzionari (Anna, Bruno, Carlo e Dario) siedono a una riunione attorno a un tavolo quadrato, uno per ciascun lato. Si sa che: Anna siede di fronte a Carlo; Bruno siede alla destra di Anna. Chi siede di fronte a Bruno?",
+    options: [
+      { id: "A", text: "Dario" },
+      { id: "B", text: "Carlo" },
+      { id: "C", text: "Anna" },
+      { id: "D", text: "Nessuno, il tavolo è vuoto" }
+    ],
+    correctAnswerId: "A",
+    explanation: "In un tavolo quadrato di 4 persone: se Anna e Carlo sono uno di fronte all'altro, gli altri due posti contrapposti devono essere occupati necessariamente da Bruno e Dario. Quindi di fronte a Bruno siede Dario.",
+    hint: "I quattro lati sono a coppie contrapposte: la prima coppia è Anna-Carlo, l'altra è Bruno-Dario.",
+    level: "base"
+  },
+  {
+    id: "Q_PECS_LOG_007",
+    question: "Completare la serie alfanumerica: B2, D4, F6, H8, ...?",
+    options: [
+      { id: "A", text: "L10" },
+      { id: "B", text: "J10" },
+      { id: "C", text: "I9" },
+      { id: "D", text: "K12" }
+    ],
+    correctAnswerId: "B",
+    explanation: "Le lettere avanzano di 2 posizioni nell'alfabeto internazionale (B, D, F, H, J); i numeri aumentano di 2 (2, 4, 6, 8, 10). L'elemento successivo è J10.",
+    hint: "Avanzamento a passo 2 sia per l'alfabeto (H -> J) che per i numeri (8 -> 10).",
+    level: "base"
+  },
+  {
+    id: "Q_PECS_LOG_008",
+    question: "'Se piove, il colloquio allo sportello si tiene in videoconferenza'. Sapendo che oggi il colloquio si è tenuto in presenza, cosa si può dedurre con certezza?",
+    options: [
+      { id: "A", text: "Oggi non piove" },
+      { id: "B", text: "Oggi c'è il sole cocente" },
+      { id: "C", text: "La videoconferenza è guasta" },
+      { id: "D", text: "Il funzionario è arrivato in ritardo" }
+    ],
+    correctAnswerId: "A",
+    explanation: "Premessa: Se piove (A) -> videoconferenza (B). Fatto: non videoconferenza (non B). Per modus tollens: non piove (non A).",
+    hint: "Se la conseguenza non si è verificata (non videoconferenza), non si è verificata la condizione (non piove).",
+    level: "base"
+  },
+  {
+    id: "Q_PECS_LOG_009",
+    question: "Tre operai dell'ufficio protocollo impiegano 6 ore per smistare 900 fascicoli. Quante ore impiegherebbero 6 operai, con lo stesso ritmo di lavorazione, per smistare 1.800 fascicoli?",
+    options: [
+      { id: "A", text: "6 ore" },
+      { id: "B", text: "3 ore" },
+      { id: "C", text: "12 ore" },
+      { id: "D", text: "9 ore" }
+    ],
+    correctAnswerId: "A",
+    explanation: "3 operai in 6 ore fanno 900 fascicoli -> produttività totale del gruppo = 150 fascicoli all'ora (50 all'ora per operaio). Con 6 operai la produttività raddoppia a 300 fascicoli all'ora. Per smistare 1.800 fascicoli occorrono 1.800 / 300 = 6 ore.",
+    hint: "Raddoppiano gli operai ma raddoppiano anche i fascicoli: il tempo necessario resta invariato.",
+    level: "intermedio"
+  },
+  {
+    id: "Q_PECS_LOG_010",
+    question: "In una scatola ci sono 5 fascicoli rossi, 7 fascicoli blu e 8 fascicoli verdi. Qual è la probabilità di estrarre a caso un fascicolo che NON sia blu?",
+    options: [
+      { id: "A", text: "13/20 (pari al 65%)" },
+      { id: "B", text: "7/20 (pari al 35%)" },
+      { id: "C", text: "1/2 (pari al 50%)" },
+      { id: "D", text: "12/20 (pari al 60%)" }
+    ],
+    correctAnswerId: "A",
+    explanation: "Totale fascicoli = 5 + 7 + 8 = 20. I fascicoli non blu sono i rossi e i verdi: 5 + 8 = 13. La probabilità è data dal rapporto tra casi favorevoli e casi possibili: 13 / 20 = 0,65 (65%).",
+    hint: "Fascicoli non blu = rossi + verdi = 13 su un totale di 20.",
+    level: "base"
+  },
+  {
+    id: "Q_PECS_LOG_011",
+    question: "Se l'affermazione: 'Qualche richiesta di indennità non è stata accolta' è FALSA, quale delle seguenti affermazioni è sicuramente VERA?",
+    options: [
+      { id: "A", text: "Tutte le richieste di indennità sono state accolte" },
+      { id: "B", text: "Nessuna richiesta di indennità è stata accolta" },
+      { id: "C", text: "Almeno una richiesta non è stata accolta" },
+      { id: "D", text: "Tutte le richieste sono state cestinate" }
+    ],
+    correctAnswerId: "A",
+    explanation: "La proposizione 'Qualche X non è Y' è la contraddittoria di 'Tutti gli X sono Y'. Se è falso che qualche richiesta non è stata accolta, allora è necessariamente vero il suo opposto contraddittorio: tutte le richieste sono state accolte.",
+    hint: "Se è falso che esista anche una sola richiesta non accolta, significa che sono state accolte tutte.",
+    level: "intermedio"
+  },
+  {
+    id: "Q_PECS_LOG_012",
+    question: "Individuare il numero mancante nella serie: 2, 6, 12, 20, 30, 42, ...?",
+    options: [
+      { id: "A", text: "56" },
+      { id: "B", text: "54" },
+      { id: "C", text: "60" },
+      { id: "D", text: "48" }
+    ],
+    correctAnswerId: "A",
+    explanation: "Le differenze tra i termini consecutivi crescono di 2 ad ogni passo: 6 - 2 = +4; 12 - 6 = +6; 20 - 12 = +8; 30 - 20 = +10; 42 - 30 = +12. Il termine successivo avrà una differenza di +14: 42 + 14 = 56 (oppure: n*(n+1): 1*2, 2*3, 3*4, 4*5, 5*6, 6*7, 7*8=56).",
+    hint: "Le differenze aumentano di 2: +4, +6, +8, +10, +12, +14.",
+    level: "base"
+  },
+  {
+    id: "Q_PECS_LOG_013",
+    question: "'Marco è più anziano di Luca. Giovanni è più giovane di Marco ma più anziano di Luca. Andrea è più anziano di Marco'. Chi è il secondo più anziano del gruppo?",
+    options: [
+      { id: "A", text: "Marco" },
+      { id: "B", text: "Andrea" },
+      { id: "C", text: "Giovanni" },
+      { id: "D", text: "Luca" }
+    ],
+    correctAnswerId: "A",
+    explanation: "Ordiniamo dal più anziano al più giovane: Andrea > Marco (Andrea è più anziano di Marco); Marco > Giovanni > Luca. La sequenza decrescente è: Andrea, Marco, Giovanni, Luca. Il secondo più anziano è Marco.",
+    hint: "Ordine: 1° Andrea, 2° Marco, 3° Giovanni, 4° Luca.",
+    level: "base"
+  },
+  {
+    id: "Q_PECS_LOG_014",
+    question: "Quale tra i seguenti termini è l'intruso logico rispetto agli altri tre? 'Termometro, Barometro, Cronometro, Chilometro'",
+    options: [
+      { id: "A", text: "Chilometro" },
+      { id: "B", text: "Termometro" },
+      { id: "C", text: "Barometro" },
+      { id: "D", text: "Cronometro" }
+    ],
+    correctAnswerId: "A",
+    explanation: "Termometro, barometro e cronometro sono tutti 'strumenti di misurazione' (temperatura, pressione, tempo). Il chilometro invece è un''unità di misura' di lunghezza, non uno strumento.",
+    hint: "Tre sono strumenti fisici di misurazione, uno è un'unità di misura di lunghezza.",
+    level: "base"
+  },
+  {
+    id: "Q_PECS_LOG_015",
+    question: "Condizione SUFFICIENTE affinché un candidato sia assunto all'INPS è vincere il concorso. Da ciò si deduce necessariamente che:",
+    options: [
+      { id: "A", text: "Se un candidato vince il concorso, allora viene assunto" },
+      { id: "B", text: "Chiunque lavori all'INPS ha necessariamente vinto un concorso" },
+      { id: "C", text: "Se un candidato non vince il concorso, non potrà mai essere assunto in nessun caso" },
+      { id: "D", text: "Vincere il concorso non garantisce l'assunzione" }
+    ],
+    correctAnswerId: "A",
+    explanation: "La condizione sufficiente significa che il verificarsi dell'evento A (vincere il concorso) basta da solo a determinare B (essere assunto). Non esclude che possano esistere altri canali (quindi non è necessaria). Pertanto: Se vince, allora è assunto.",
+    hint: "Condizione sufficiente: se si verifica la premessa, la conseguenza è garantita al 100%.",
+    level: "intermedio"
+  },
+  {
+    id: "Q_PECS_LOG_016",
+    question: "Completare la serie di lettere: A, C, F, J, O, ...?",
+    options: [
+      { id: "A", text: "U" },
+      { id: "B", text: "T" },
+      { id: "C", text: "S" },
+      { id: "D", text: "V" }
+    ],
+    correctAnswerId: "A",
+    explanation: "Considerando la posizione nell'alfabeto internazionale: A (1), C (3, +2), F (6, +3), J (10, +4), O (15, +5). Il passo successivo è +6: 15 + 6 = 21, che corrisponde alla lettera U.",
+    hint: "I salti di lettere aumentano progressivamente: +2, +3, +4, +5, +6.",
+    level: "intermedio"
+  },
+  {
+    id: "Q_PECS_LOG_017",
+    question: "'Tutti i gatti amano il pesce. Alcuni animali che amano il pesce sanno nuotare'. Si può concludere con certezza che:",
+    options: [
+      { id: "A", text: "Non è certo che tutti i gatti sappiano nuotare" },
+      { id: "B", text: "Tutti i gatti sanno nuotare" },
+      { id: "C", text: "Nessun gatto sa nuotare" },
+      { id: "D", text: "Tutti gli animali che sanno nuotare sono gatti" }
+    ],
+    correctAnswerId: "A",
+    explanation: "L'insieme dei gatti è contenuto nell'insieme di coloro che amano il pesce; ma solo 'alcuni' di coloro che amano il pesce sanno nuotare. Non sappiamo se l'intersezione tra chi sa nuotare e chi ama il pesce comprenda i gatti. Quindi non possiamo affermare con certezza che i gatti sappiano nuotare.",
+    hint: "La premessa dice che solo 'alcuni' amanti del pesce nuotano: non c'è certezza che tra essi vi siano i gatti.",
+    level: "intermedio"
+  },
+  {
+    id: "Q_PECS_LOG_018",
+    question: "Un'agenzia INPS ha 120 dipendenti. Il 60% è donna. Il 50% delle donne lavora nel settore pensioni. Quante sono le donne dell'agenzia che lavorano nel settore pensioni?",
+    options: [
+      { id: "A", text: "36" },
+      { id: "B", text: "72" },
+      { id: "C", text: "30" },
+      { id: "D", text: "48" }
+    ],
+    correctAnswerId: "A",
+    explanation: "Totale dipendenti = 120. Donne = 60% di 120 = 0,60 * 120 = 72. Donne al settore pensioni = 50% di 72 = 36.",
+    hint: "Il 60% di 120 è 72; la metà di 72 è 36.",
+    level: "base"
+  },
+  {
+    id: "Q_PECS_LOG_019",
+    question: "Completare l'analogia verbale: 'Legge : Parlamento = Sentenza : ...?'",
+    options: [
+      { id: "A", text: "Giudice" },
+      { id: "B", text: "Polizia" },
+      { id: "C", text: "Avvocato" },
+      { id: "D", text: "Ministero" }
+    ],
+    correctAnswerId: "A",
+    explanation: "La legge è l'atto tipico emanato dal potere legislativo (Parlamento), così come la sentenza è l'atto tipico emanato dall'organo giudiziario (Giudice / Magistrato).",
+    hint: "È l'organo che emana formalmente l'atto giuridico.",
+    level: "base"
+  },
+  {
+    id: "Q_PECS_LOG_020",
+    question: "Se 'Nessun funzionario è corrotto' e 'Alcuni atleti sono funzionari', quale conclusione è valida?",
+    options: [
+      { id: "A", text: "Alcuni atleti non sono corrotti" },
+      { id: "B", text: "Nessun atleta è corrotto" },
+      { id: "C", text: "Tutti gli atleti sono funzionari" },
+      { id: "D", text: "Tutti i corrotti sono atleti" }
+    ],
+    correctAnswerId: "A",
+    explanation: "Sillogismo valido di forma Festino/Ferio: Gli atleti che sono funzionari appartengono all'insieme dei funzionari; poiché nessun funzionario è corrotto, quegli specifici atleti non possono essere corrotti. Dunque, alcuni atleti non sono corrotti.",
+    hint: "Gli atleti che fanno i funzionari non possono essere corrotti.",
+    level: "intermedio"
+  },
+  {
+    id: "Q_PECS_LOG_021",
+    question: "Un treno parte alle ore 08:15 e viaggia alla velocità costante di 120 km/h. A che ora raggiungerà la destinazione posta a 180 km di distanza?",
+    options: [
+      { id: "A", text: "Alle 09:45" },
+      { id: "B", text: "Alle 09:30" },
+      { id: "C", text: "Alle 10:00" },
+      { id: "D", text: "Alle 09:15" }
+    ],
+    correctAnswerId: "A",
+    explanation: "Tempo = Spazio / Velocità = 180 / 120 = 1,5 ore (ossia 1 ora e 30 minuti). Partendo alle 08:15, sommando 1h e 30m si ottiene: 08:15 + 1:30 = 09:45.",
+    hint: "180 km a 120 km/h richiedono un'ora e mezza. 08:15 + 1h 30m = 09:45.",
+    level: "base"
+  },
+  {
+    id: "Q_PECS_LOG_022",
+    question: "Qual è la negazione della frase: 'Oggi studio previdenza e ascolto musica'?",
+    options: [
+      { id: "A", text: "Oggi non studio previdenza oppure non ascolto musica" },
+      { id: "B", text: "Oggi non studio previdenza e non ascolto musica" },
+      { id: "C", text: "Oggi non studio mai nulla" },
+      { id: "D", text: "Domani studio diritto penale" }
+    ],
+    correctAnswerId: "A",
+    explanation: "Prima legge di De Morgan: la negazione di una congiunzione logica (A e B) è la disgiunzione delle negazioni (non A o non B). Basta che non si verifichi una delle due azioni per rendere falsa l'intera congiunzione.",
+    hint: "Legge di De Morgan: negare 'A e B' equivale a dire 'non A oppure non B'.",
+    level: "intermedio"
+  },
+  {
+    id: "Q_PECS_LOG_023",
+    question: "Completare la serie numerica: 1, 4, 9, 16, 25, 36, ...?",
+    options: [
+      { id: "A", text: "49" },
+      { id: "B", text: "48" },
+      { id: "C", text: "64" },
+      { id: "D", text: "50" }
+    ],
+    correctAnswerId: "A",
+    explanation: "Si tratta della successione dei quadrati dei numeri naturali: 1^2=1, 2^2=4, 3^2=9, 4^2=16, 5^2=25, 6^2=36, 7^2=49.",
+    hint: "Quadrato di 7 (7 per 7).",
+    level: "base"
+  },
+  {
+    id: "Q_PECS_LOG_024",
+    question: "In una stanza ci sono 10 persone. Ognuna stringe la mano a tutte le altre esattamente una volta. Quante strette di mano avvengono in totale?",
+    options: [
+      { id: "A", text: "45" },
+      { id: "B", text: "90" },
+      { id: "C", text: "100" },
+      { id: "D", text: "50" }
+    ],
+    correctAnswerId: "A",
+    explanation: "È una combinazione semplice di 10 elementi a 2 a 2: C(10, 2) = (10 * 9) / 2 = 90 / 2 = 45.",
+    hint: "Formula delle combinazioni semplici: (n * (n - 1)) / 2.",
+    level: "intermedio"
+  },
+  {
+    id: "Q_PECS_LOG_025",
+    question: "Quale sillogismo è formalmente CORRETTO?",
+    options: [
+      { id: "A", text: "Tutti i funzionari sono laureati. Alcuni funzionari sono sportivi. Dunque, alcuni sportivi sono laureati" },
+      { id: "B", text: "Tutti i cani hanno quattro zampe. Tutti i tavoli hanno quattro zampe. Dunque, tutti i cani sono tavoli" },
+      { id: "C", text: "Nessun rettile vola. Alcuni uccelli volano. Dunque, tutti i rettili sono uccelli" },
+      { id: "D", text: "Tutti gli alberi sono verdi. Questa sedia è verde. Dunque, questa sedia è un albero" }
+    ],
+    correctAnswerId: "A",
+    explanation: "L'opzione A è un sillogismo valido (Darapti/Disamis): i funzionari sportivi sono necessariamente sia funzionari che sportivi; essendo funzionari sono anche laureati, quindi sono sportivi laureati.",
+    hint: "L'intersezione tra funzionari e sportivi appartiene all'insieme dei laureati.",
+    level: "intermedio"
+  },
+  {
+    id: "Q_PECS_LOG_026",
+    question: "In un ufficio, il prezzo di acquisto di un lotto di computer sconta un ribasso del 20% e successivamente un ulteriore sconto del 10% sul prezzo già ribassato. A quanto ammonta lo sconto percentuale complessivo?",
+    options: [
+      { id: "A", text: "28%" },
+      { id: "B", text: "30%" },
+      { id: "C", text: "32%" },
+      { id: "D", text: "25%" }
+    ],
+    correctAnswerId: "A",
+    explanation: "Posto il prezzo base 100: dopo il primo sconto del 20% il prezzo diventa 80. Il secondo sconto del 10% si applica su 80: 10% di 80 = 8. Il prezzo finale è 80 - 8 = 72. Lo sconto totale rispetto a 100 è 100 - 72 = 28%.",
+    hint: "Gli sconti successivi non si sommano aritmeticamente: 0,80 * 0,90 = 0,72 (prezzo finale 72%, sconto 28%).",
+    level: "intermedio"
+  },
+  {
+    id: "Q_PECS_LOG_027",
+    question: "Qual è la parola mancante nell'analogia: 'Giorno : Notte = Bianco : ...?'",
+    options: [
+      { id: "A", text: "Nero" },
+      { id: "B", text: "Luce" },
+      { id: "C", text: "Chiaro" },
+      { id: "D", text: "Grigio" }
+    ],
+    correctAnswerId: "A",
+    explanation: "La relazione è di contrarietà per antonomasia (opposti concettuali polari): come il giorno si oppone alla notte, il bianco si oppone al nero.",
+    hint: "Relazione di contrari assoluti.",
+    level: "base"
+  },
+  {
+    id: "Q_PECS_LOG_028",
+    question: "Completare la serie numerica decrescente: 100, 95, 85, 70, 50, ...?",
+    options: [
+      { id: "A", text: "25" },
+      { id: "B", text: "30" },
+      { id: "C", text: "20" },
+      { id: "D", text: "35" }
+    ],
+    correctAnswerId: "A",
+    explanation: "I decrementi aumentano di 5 ad ogni passo: 100 - 5 = 95; 95 - 10 = 85; 85 - 15 = 70; 70 - 20 = 50. Il passo successivo è -25: 50 - 25 = 25.",
+    hint: "Le sottrazioni sono: -5, -10, -15, -20, -25.",
+    level: "base"
+  },
+  {
+    id: "Q_PECS_LOG_029",
+    question: "'Solo se un funzionario supera il periodo di prova, viene confermato in ruolo'. Sapendo che Paolo è stato confermato in ruolo, cosa ne consegue?",
+    options: [
+      { id: "A", text: "Paolo ha superato il periodo di prova" },
+      { id: "B", text: "Paolo non ha sostenuto il periodo di prova" },
+      { id: "C", text: "Paolo è il miglior funzionario della sede" },
+      { id: "D", text: "Tutti coloro che superano la prova sono confermati nello stesso giorno" }
+    ],
+    correctAnswerId: "A",
+    explanation: "L'espressione 'Solo se A allora B' significa che A è condizione necessaria per B (se B, allora A). Essendo Paolo confermato in ruolo (B), ha necessariamente soddisfatto la condizione necessaria A (ha superato il periodo di prova).",
+    hint: "'Solo se' introduce una condizione necessaria: se si è verificato l'evento, la condizione è stata soddisfatta.",
+    level: "intermedio"
+  },
+  {
+    id: "Q_PECS_LOG_030",
+    question: "Cinque colleghi (A, B, C, D, E) partecipano a un concorso. A arriva prima di B ma dopo C. D arriva prima di C. E arriva ultimo. Qual è la classifica completa dal 1° al 5° posto?",
+    options: [
+      { id: "A", text: "D, C, A, B, E" },
+      { id: "B", text: "C, D, A, B, E" },
+      { id: "C", text: "D, A, C, B, E" },
+      { id: "D", text: "A, B, C, D, E" }
+    ],
+    correctAnswerId: "A",
+    explanation: "D > C (D prima di C); C > A (A dopo C); A > B (A prima di B); E è ultimo. L'ordine decrescente è esattamente: D, C, A, B, E.",
+    hint: "Metti in fila i vincoli: D > C > A > B > E.",
+    level: "base"
+  },
+  {
+    id: "Q_PECS_LOG_031",
+    question: "La media aritmetica dei punteggi ottenuti da 4 candidati è 26. Se tre di essi hanno ottenuto 24, 28 e 22, qual è il punteggio del quarto candidato?",
+    options: [
+      { id: "A", text: "30" },
+      { id: "B", text: "26" },
+      { id: "C", text: "28" },
+      { id: "D", text: "32" }
+    ],
+    correctAnswerId: "A",
+    explanation: "Somma totale = media * numero candidati = 26 * 4 = 104. Somma dei primi tre = 24 + 28 + 22 = 74. Punteggio del quarto candidato = 104 - 74 = 30.",
+    hint: "La somma dei 4 voti deve essere 104. Sottrai i tre voti noti (74) per trovare il quarto.",
+    level: "base"
+  },
+  {
+    id: "Q_PECS_LOG_032",
+    question: "Individuare la coppia che completa la proporzione: 'Architetto : Edificio = Scrittore : ...?'",
+    options: [
+      { id: "A", text: "Romanzo" },
+      { id: "B", text: "Pennello" },
+      { id: "C", text: "Libreria" },
+      { id: "D", text: "Lettore" }
+    ],
+    correctAnswerId: "A",
+    explanation: "La relazione è tra l'autore/professionista e l'opera creata: l'architetto progetta l'edificio, lo scrittore scrive il romanzo.",
+    hint: "L'edificio è l'opera dell'architetto, il romanzo è l'opera dello scrittore.",
+    level: "base"
+  },
+  {
+    id: "Q_PECS_LOG_033",
+    question: "Se affermo: 'Nessun mammifero depone le uova', quale singolo caso è sufficiente a smentire (falsificare) la mia affermazione?",
+    options: [
+      { id: "A", text: "L'esistenza dell'ornitorinco (che è un mammifero e depone le uova)" },
+      { id: "B", text: "L'esistenza del coccodrillo che depone le uova" },
+      { id: "C", text: "L'esistenza della balena che allatta i piccoli" },
+      { id: "D", text: "L'esistenza del pipistrello che vola" }
+    ],
+    correctAnswerId: "A",
+    explanation: "Per falsificare una proposizione universale negativa ('Nessun A è B') occorre e basta esibire un solo controesempio: un elemento che appartenga all'insieme A e contemporaneamente possieda la proprietà B (l'ornitorinco è mammifero oviparo).",
+    hint: "Serve un mammifero che deponga le uova (controesempio classico: ornitorinco o echidna).",
+    level: "base"
+  },
+  {
+    id: "Q_PECS_LOG_034",
+    question: "Completare la serie: 5, 11, 23, 47, 95, ...?",
+    options: [
+      { id: "A", text: "191" },
+      { id: "B", text: "190" },
+      { id: "C", text: "185" },
+      { id: "D", text: "201" }
+    ],
+    correctAnswerId: "A",
+    explanation: "Ogni termine è il doppio del precedente più 1: 5 * 2 + 1 = 11; 11 * 2 + 1 = 23; 23 * 2 + 1 = 47; 47 * 2 + 1 = 95; 95 * 2 + 1 = 191.",
+    hint: "Moltiplica per 2 e aggiungi 1.",
+    level: "base"
+  },
+  {
+    id: "Q_PECS_LOG_035",
+    question: "Un rubinetto A riempie una vasca da solo in 4 ore; un rubinetto B la riempie in 12 ore. Aprendo entrambi i rubinetti contemporaneamente, in quante ore la vasca sarà completamente piena?",
+    options: [
+      { id: "A", text: "3 ore" },
+      { id: "B", text: "8 ore" },
+      { id: "C", text: "6 ore" },
+      { id: "D", text: "2 ore" }
+    ],
+    correctAnswerId: "A",
+    explanation: "In un'ora il rubinetto A riempie 1/4 della vasca e il rubinetto B riempie 1/12 della vasca. Insieme in un'ora riempiono: 1/4 + 1/12 = 3/12 + 1/12 = 4/12 = 1/3 della vasca. Per riempirla tutta occorrono 3 ore.",
+    hint: "1/4 + 1/12 = 1/3 della vasca all'ora -> 3 ore complessive.",
+    level: "intermedio"
+  },
+  {
+    id: "Q_PECS_LOG_036",
+    question: "Quale delle seguenti deduzioni è un esempio di 'fallacia della negazione dell'antecedente'?",
+    options: [
+      { id: "A", text: "Se piove la strada è bagnata. Non piove, quindi la strada non è bagnata" },
+      { id: "B", text: "Se piove la strada è bagnata. La strada non è bagnata, quindi non piove" },
+      { id: "C", text: "Se piove la strada è bagnata. Piove, quindi la strada è bagnata" },
+      { id: "D", text: "Tutti gli uomini sono mortali. Socrate è uomo, quindi è mortale" }
+    ],
+    correctAnswerId: "A",
+    explanation: "La negazione dell'antecedente è un errore logico formale: dedurre che 'non B' sia vero solo perché 'non A' è vero. La strada potrebbe essere bagnata per altri motivi (es. lavaggio delle strade con idrante o rottura di una tubatura).",
+    hint: "Dalla negazione della premessa (non piove) non si può dedurre la negazione della conseguenza.",
+    level: "avanzato"
+  },
+  {
+    id: "Q_PECS_LOG_037",
+    question: "Trovare la lettera che completa la sequenza: Z, V, R, N, ...?",
+    options: [
+      { id: "A", text: "J" },
+      { id: "B", text: "L" },
+      { id: "C", text: "H" },
+      { id: "D", text: "K" }
+    ],
+    correctAnswerId: "A",
+    explanation: "Nell'alfabeto internazionale a 26 lettere, si retrocede di 4 posizioni a ogni passaggio: Z (26) - 4 = V (22); V (22) - 4 = R (18); R (18) - 4 = N (14); N (14) - 4 = J (10).",
+    hint: "Si retrocede di 4 lettere nell'alfabeto internazionale.",
+    level: "intermedio"
+  },
+  {
+    id: "Q_PECS_LOG_038",
+    question: "Se 4 gatti catturano 4 topi in 4 minuti, quanti gatti servono per catturare 100 topi in 100 minuti?",
+    options: [
+      { id: "A", text: "4 gatti" },
+      { id: "B", text: "100 gatti" },
+      { id: "C", text: "25 gatti" },
+      { id: "D", text: "40 gatti" }
+    ],
+    correctAnswerId: "A",
+    explanation: "Se 4 gatti prendono 4 topi in 4 minuti, significa che in media 1 gatto cattura 1 topo ogni 4 minuti. In 100 minuti, un singolo gatto cattura 100 / 4 = 25 topi. Per catturare 100 topi servono 100 / 25 = 4 gatti.",
+    hint: "Ciascun gatto cattura un topo ogni 4 minuti: in 100 minuti ogni gatto cattura 25 topi.",
+    level: "intermedio"
+  },
+  {
+    id: "Q_PECS_LOG_039",
+    question: "'Tutti i residenti pagano la tassa comunale. Alcuni residenti sono pensionati. Nessun pensionato ama la burocrazia'. Quale affermazione è sicuramente FALSA?",
+    options: [
+      { id: "A", text: "Tutti i pensionati residenti amano la burocrazia" },
+      { id: "B", text: "Alcuni residenti non amano la burocrazia" },
+      { id: "C", text: "Alcune persone che pagano la tassa sono pensionati" },
+      { id: "D", text: "Nessun pensionato che risiede ama la burocrazia" }
+    ],
+    correctAnswerId: "A",
+    explanation: "Dato che per premessa 'Nessun pensionato ama la burocrazia', è palesemente e sicuramente FALSA l'affermazione contraria secondo cui 'Tutti i pensionati residenti amano la burocrazia'.",
+    hint: "Se nessun pensionato ama la burocrazia, è impossibile che tutti i pensionati residenti la amino.",
+    level: "base"
+  },
+  {
+    id: "Q_PECS_LOG_040",
+    question: "Completare la serie: 1, 2, 4, 7, 11, 16, ...?",
+    options: [
+      { id: "A", text: "22" },
+      { id: "B", text: "21" },
+      { id: "C", text: "20" },
+      { id: "D", text: "23" }
+    ],
+    correctAnswerId: "A",
+    explanation: "I numeri aumentano di quantità crescenti di 1 ad ogni passo: +1, +2, +3, +4, +5. Il passo successivo è +6: 16 + 6 = 22.",
+    hint: "I valori aggiunti sono: +1, +2, +3, +4, +5, +6.",
+    level: "base"
+  },
+  {
+    id: "Q_PECS_LOG_041",
+    question: "Chi è il fratello del figlio dell'unica sorella di mio padre?",
+    options: [
+      { id: "A", text: "Mio cugino" },
+      { id: "B", text: "Mio fratello" },
+      { id: "C", text: "Mio zio" },
+      { id: "D", text: "Mio nipote" }
+    ],
+    correctAnswerId: "A",
+    explanation: "L'unica sorella di mio padre è mia zia. Il figlio di mia zia è mio cugino. Il fratello di mio cugino è anch'egli mio cugino.",
+    hint: "La sorella del padre è la zia; i suoi figli sono cugini.",
+    level: "base"
+  },
+  {
+    id: "Q_PECS_LOG_042",
+    question: "In una votazione tra 500 elettori, il candidato vincitore ha superato lo sconfitto di 60 voti. Quanti voti ha ottenuto il vincitore (sapendo che non ci sono state schede bianche o nulle)?",
+    options: [
+      { id: "A", text: "280" },
+      { id: "B", text: "260" },
+      { id: "C", text: "300" },
+      { id: "D", text: "320" }
+    ],
+    correctAnswerId: "A",
+    explanation: "Posto V + S = 500 e V - S = 60. Sommando le due equazioni: 2V = 560 -> V = 280 (lo sconfitto ha ottenuto 220 voti, 280 - 220 = 60).",
+    hint: "Somma più differenza diviso due: (500 + 60) / 2 = 280.",
+    level: "base"
+  },
+  {
+    id: "Q_PECS_LOG_043",
+    question: "Quale dei seguenti enunciati è un'asserzione tautologica (sempre vera a prescindere dal valore di verità dei singoli elementi)?",
+    options: [
+      { id: "A", text: "Domani pioverà oppure non pioverà" },
+      { id: "B", text: "Domani pioverà e farà freddo" },
+      { id: "C", text: "Se piove allora nevica sempre" },
+      { id: "D", text: "Nessun uomo dice la verità" }
+    ],
+    correctAnswerId: "A",
+    explanation: "La proposizione 'A oppure non A' (principio del terzo escluso) è una tautologia formale: è sempre vera in qualunque circostanza possibile nel mondo reale.",
+    hint: "Principio del terzo escluso: un enunciato o il suo contrario è sempre vero.",
+    level: "intermedio"
+  },
+  {
+    id: "Q_PECS_LOG_044",
+    question: "Individuare il termine che completa l'analogia: 'Fiume : Argine = Mare : ...?'",
+    options: [
+      { id: "A", text: "Costa" },
+      { id: "B", text: "Onda" },
+      { id: "C", text: "Nave" },
+      { id: "D", text: "Pesce" }
+    ],
+    correctAnswerId: "A",
+    explanation: "L'argine è il confine naturale o artificiale che delimita la terra dal fiume; la costa/riva è il confine che delimita la terra dal mare.",
+    hint: "È il confine geografico di delimitazione tra l'acqua e la terraferma.",
+    level: "base"
+  },
+  {
+    id: "Q_PECS_LOG_045",
+    question: "Completare la serie: 720, 120, 24, 6, 2, ...?",
+    options: [
+      { id: "A", text: "1" },
+      { id: "B", text: "0" },
+      { id: "C", text: "2" },
+      { id: "D", text: "0.5" }
+    ],
+    correctAnswerId: "A",
+    explanation: "Si divide progressivamente per numeri decrescenti: 720 / 6 = 120; 120 / 5 = 24; 24 / 4 = 6; 6 / 3 = 2; 2 / 2 = 1. (È la serie dei fattoriali da 6! a 1!).",
+    hint: "Divisioni progressive: /6, /5, /4, /3, /2.",
+    level: "intermedio"
+  },
+  {
+    id: "Q_PECS_LOG_046",
+    question: "Se in un codice segreto la parola 'INPS' viene scritta 'JOQT', come verrà scritta la parola 'SEDE'?",
+    options: [
+      { id: "A", text: "TFEF" },
+      { id: "B", text: "TGFF" },
+      { id: "C", text: "SFDF" },
+      { id: "D", text: "RDCD" }
+    ],
+    correctAnswerId: "A",
+    explanation: "Ogni lettera è traslata in avanti di una posizione nell'alfabeto (cifrario di Cesare a passo 1): I -> J, N -> O, P -> Q, S -> T. Quindi SEDE diventa: S -> T, E -> F, D -> E, E -> F (TFEF).",
+    hint: "Ogni lettera viene sostituita con la lettera immediatamente successiva nell'alfabeto.",
+    level: "base"
+  },
+  {
+    id: "Q_PECS_LOG_047",
+    question: "In una classe di 30 candidati, 18 studiano previdenza, 15 studiano diritto penale e 7 studiano entrambe le materie. Quanti candidati non studiano nessuna delle due materie?",
+    options: [
+      { id: "A", text: "4" },
+      { id: "B", text: "7" },
+      { id: "C", text: "2" },
+      { id: "D", text: "5" }
+    ],
+    correctAnswerId: "A",
+    explanation: "Principio di inclusione-esclusione insiemistico: Quanti studiano almeno una materia = Previdenza + Penale - Entrambe = 18 + 15 - 7 = 26. Candidati che non studiano nessuna delle due = Totale - 26 = 30 - 26 = 4.",
+    hint: "18 + 15 - 7 = 26 studiano almeno una materia; 30 - 26 = 4.",
+    level: "intermedio"
+  },
+  {
+    id: "Q_PECS_LOG_048",
+    question: "'Tutti i cerchi sono tondi. Nessun triangolo è tondo. Tutte le monete sono cerchi'. Quale conclusione è necessariamente vera?",
+    options: [
+      { id: "A", text: "Nessuna moneta è un triangolo" },
+      { id: "B", text: "Tutte le monete sono triangoli" },
+      { id: "C", text: "Alcuni triangoli sono cerchi" },
+      { id: "D", text: "Tutti i tondi sono monete" }
+    ],
+    correctAnswerId: "A",
+    explanation: "Monete appartengono a cerchi; cerchi sono tutti tondi (quindi le monete sono tutte tonde). Nessun triangolo è tondo. Pertanto, l'insieme delle monete e l'insieme dei triangoli sono completamente disgiunti: nessuna moneta è un triangolo.",
+    hint: "Le monete sono tonde e i triangoli non sono tondi: insiemi completamente disgiunti.",
+    level: "base"
+  },
+  {
+    id: "Q_PECS_LOG_049",
+    question: "Un orologio analogico segna esattamente le ore 03:00. Qual è l'angolo formato tra la lancetta delle ore e quella dei minuti?",
+    options: [
+      { id: "A", text: "90 gradi" },
+      { id: "B", text: "60 gradi" },
+      { id: "C", text: "120 gradi" },
+      { id: "D", text: "45 gradi" }
+    ],
+    correctAnswerId: "A",
+    explanation: "Il quadrante dell'orologio è un cerchio di 360 gradi diviso in 12 ore (30 gradi per ogni ora). Alle 03:00 la lancetta dei minuti è sul 12 e quella delle ore sul 3: l'angolo è di 3 * 30 = 90 gradi (angolo retto).",
+    hint: "Angolo retto perfetto (un quarto di giro del cerchio).",
+    level: "base"
+  },
+  {
+    id: "Q_PECS_LOG_050",
+    question: "Cosa si intende in logica per 'ragionamento deduttivo' rispetto al 'ragionamento induttivo'?",
+    options: [
+      { id: "A", text: "Il ragionamento deduttivo procede dal generale al particolare e, se le premesse sono vere, la conclusione è necessariamente vera; il ragionamento induttivo procede dal particolare al generale e produce conclusioni probabili ma non certe" },
+      { id: "B", text: "La deduzione si usa solo per le cause penali, l'induzione per quelle civili" },
+      { id: "C", text: "Il ragionamento deduttivo è sempre fallace e falso" },
+      { id: "D", text: "Non vi è alcuna distinzione nella logica moderna" }
+    ],
+    correctAnswerId: "A",
+    explanation: "La deduzione deriva conseguenze necessarie da premesse universali (es. sillogismo classico); l'induzione generalizza a partire da osservazioni particolari, generando ipotesi o teorie probabilistiche.",
+    hint: "Deduzione: dal generale al particolare con certezza; Induzione: dal particolare al generale con probabilità.",
+    level: "base"
+  }
+];
+
+const dest = path.join(dir, 'ragionamento_logico.json');
+fs.writeFileSync(dest, JSON.stringify(questions, null, 2), 'utf8');
+console.log(`Generated ${questions.length} questions in ${dest}`);

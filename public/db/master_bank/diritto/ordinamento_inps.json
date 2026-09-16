@@ -1,0 +1,1302 @@
+[
+  {
+    "id": "Q_PECS_INPS_001",
+    "question": "Qual è la natura giuridica dell'Istituto Nazionale della Previdenza Sociale (INPS)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ente pubblico non economico a rilevanza nazionale, con personalità giuridica di diritto pubblico e gestione autonoma"
+      },
+      {
+        "id": "B",
+        "text": "Società per azioni a totale partecipazione del Ministero dell'Economia e delle Finanze"
+      },
+      {
+        "id": "C",
+        "text": "Ente pubblico economico disciplinato dal Libro V del Codice Civile"
+      },
+      {
+        "id": "D",
+        "text": "Organo ministeriale privo di personalità giuridica autonoma"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'INPS è il principale ente previdenziale italiano, configurato come ente pubblico non economico dotato di personalità giuridica di diritto pubblico, autonomia finanziaria, organizzativa, patrimoniale e contabile, sottoposto alla vigilanza dei ministeri competenti.",
+    "hint": "È un ente pubblico non economico dotato di personalità giuridica e autonomia.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_INPS_002",
+    "question": "Quali Ministeri esercitano la vigilanza istituzionale, finanziaria e contabile sull'INPS?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il Ministero del Lavoro e delle Politiche Sociali e il Ministero dell'Economia e delle Finanze"
+      },
+      {
+        "id": "B",
+        "text": "Il Ministero dell'Interno e il Ministero della Giustizia"
+      },
+      {
+        "id": "C",
+        "text": "Esclusivamente la Presidenza del Consiglio dei Ministri"
+      },
+      {
+        "id": "D",
+        "text": "Il Ministero delle Imprese e del Made in Italy"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'INPS è sottoposto alla vigilanza del Ministero del Lavoro e delle Politiche Sociali (per le materie di competenza previdenziale e giuslavoristica) e del Ministero dell'Economia e delle Finanze (per gli aspetti finanziari, di bilancio e di sostenibilità dei conti pubblici).",
+    "hint": "Ministero del Lavoro e Ministero dell'Economia e delle Finanze.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_INPS_003",
+    "question": "Quali sono gli organi di governo e di controllo dell'INPS individuati dall'art. 3 del D.Lgs. 479/1994 e dalle successive modifiche normative?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il Presidente, il Consiglio di Amministrazione, il Consiglio di Indirizzo e Vigilanza (CIV), il Direttore Generale e il Collegio dei Sindaci"
+      },
+      {
+        "id": "B",
+        "text": "Il Governatore, la Consulta Generale e l'Assemblea degli Iscritti"
+      },
+      {
+        "id": "C",
+        "text": "L'Amministratore Unico e il Revisore dei Conti"
+      },
+      {
+        "id": "D",
+        "text": "Il Segretario Generale, il Comitato di Garanzia e il Garante della Previdenza"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Gli organi istituzionali dell'Istituto (D.Lgs. 479/1994, D.P.R. 366/1994 e D.L. 4/2019) sono: il Presidente, il Consiglio di Amministrazione (CdA), il Consiglio di Indirizzo e Vigilanza (CIV), il Direttore Generale e il Collegio dei Sindaci.",
+    "hint": "Presidente, CdA, CIV, Direttore Generale e Collegio dei Sindaci.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_INPS_004",
+    "question": "Come viene nominato il Presidente dell'INPS?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Con Decreto del Presidente della Repubblica (D.P.R.), su proposta del Presidente del Consiglio dei Ministri, previa delibera del Consiglio dei Ministri, promossa dal Ministro del Lavoro di concerto con il MEF"
+      },
+      {
+        "id": "B",
+        "text": "Eletto direttamente a suffragio universale da tutti i pensionati italiani"
+      },
+      {
+        "id": "C",
+        "text": "Nominato con decreto monocratico del Presidente del Senato"
+      },
+      {
+        "id": "D",
+        "text": "Designato a maggioranza assoluta dal Consiglio Regionale del Lazio"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La nomina del Presidente dell'INPS è disposta con D.P.R. su proposta del Presidente del Consiglio, previa deliberazione del Consiglio dei Ministri, su iniziativa del Ministro del Lavoro e delle Politiche Sociali di concerto con il Ministro dell'Economia e delle Finanze.",
+    "hint": "Nomina con D.P.R. previa delibera del Consiglio dei Ministri.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_INPS_005",
+    "question": "Quali sono le principali funzioni e attribuzioni del Presidente dell'INPS?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ha la rappresentanza legale dell'Istituto, convoca e presiede il Consiglio di Amministrazione, sovrintende all'andamento dell'ente e può adottare provvedimenti d'urgenza da sottoporre a ratifica del CdA"
+      },
+      {
+        "id": "B",
+        "text": "Gestisce direttamente l'assunzione di ogni singolo funzionario dell'ente"
+      },
+      {
+        "id": "C",
+        "text": "Esercita la giurisdizione contabile sui ricorsi dei dipendenti"
+      },
+      {
+        "id": "D",
+        "text": "Sostituisce il Ministro del Lavoro in caso di assenza o impedimento"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il Presidente rappresenta legalmente l'INPS in ogni giudizio e rapporto istituzionale, presiede il CdA stabilendone l'ordine del giorno, cura i rapporti con gli organi vigilanti e può assumere atti indifferibili e urgenti soggetti a ratifica.",
+    "hint": "Rappresentanza legale, presidenza del CdA e poteri di urgenza con ratifica.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_INPS_006",
+    "question": "Quale ruolo istituzionale e quali funzioni fondamentali svolge il Consiglio di Indirizzo e Vigilanza (CIV) dell'INPS?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rappresenta le parti sociali (organizzazioni sindacali e datoriali), definisce le linee guida, i programmi e gli indirizzi strategici dell'Istituto, approva i bilanci preventivi e consuntivi predisposti dal CdA e verifica l'attuazione degli indirizzi"
+      },
+      {
+        "id": "B",
+        "text": "Gestisce la cassa giornaliera delle filiali provinciali"
+      },
+      {
+        "id": "C",
+        "text": "Svolge la funzione di pubblica accusa nei procedimenti penali per truffa"
+      },
+      {
+        "id": "D",
+        "text": "Rappresenta in via esclusiva l'INPS nelle trattative internazionali dell'ILO"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il CIV è l'organo paritetico in cui siedono le rappresentanze dei lavoratori e dei datori di lavoro. Fissa i criteri programmatici e gli obiettivi dell'ente, approva le direttive generali e i bilanci deliberati dal CdA, verificando periodicamente il raggiungimento dei risultati prefissati.",
+    "hint": "Organo delle parti sociali che definisce gli indirizzi strategici e approva i bilanci deliberati dal CdA.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_INPS_007",
+    "question": "Qual è il principio cardine che regola il riparto di competenze tra gli organi di vertice politico-strategico (Presidente, CdA, CIV) e la dirigenza amministrativa (Direttore Generale)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il principio di separazione tra funzioni di indirizzo politico-amministrativo e funzioni di gestione amministrativa, finanziaria e tecnica"
+      },
+      {
+        "id": "B",
+        "text": "Il principio della sovrapposizione gerarchica totale"
+      },
+      {
+        "id": "C",
+        "text": "La concentrazione di ogni potere gestionale in capo al Presidente dell'Istituto"
+      },
+      {
+        "id": "D",
+        "text": "La subordinazione del Direttore Generale alle singole associazioni di categoria"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "In ossequio al principio generale del D.Lgs. 165/2001 (art. 4), agli organi di governo spettano le funzioni di definizione degli obiettivi, priorità, piani e programmi; al Direttore Generale e ai dirigenti spetta in via esclusiva la gestione amministrativa e l'adozione degli atti che impegnano l'amministrazione verso l'esterno.",
+    "hint": "Separazione tra indirizzo politico-strategico e gestione amministrativa.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_INPS_008",
+    "question": "Quali sono le principali competenze del Direttore Generale dell'INPS?",
+    "options": [
+      {
+        "id": "A",
+        "text": "È a capo dell'amministrazione e dell'organizzazione del personale, è responsabile del conseguimento degli obiettivi e della gestione finanziaria, tecnica e amministrativa, partecipa con voto consultivo alle sedute del CdA e propone gli atti di organizzazione"
+      },
+      {
+        "id": "B",
+        "text": "Modifica autonomamente la legge elettorale nazionale"
+      },
+      {
+        "id": "C",
+        "text": "Emana sentenze di condanna per reati previdenziali"
+      },
+      {
+        "id": "D",
+        "text": "Presiede il Consiglio dei Ministri in materia previdenziale"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il Direttore Generale dell'INPS è il massimo vertice burocratico e gestionale: dirige i servizi, coordina i dirigenti generali, sovrintende alla gestione del personale, predispone lo schema di bilancio da sottoporre al CdA e assicura l'efficienza dei processi operativi.",
+    "hint": "Massimo vertice gestionale, capo dell'amministrazione e del personale.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_INPS_009",
+    "question": "Quali compiti sono affidati al Collegio dei Sindaci dell'INPS?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Esercita il controllo di regolarità contabile e amministrativa, vigila sull'osservanza delle leggi e dei regolamenti, esamina i bilanci e partecipa alle sedute del CdA e del CIV"
+      },
+      {
+        "id": "B",
+        "text": "Definisce le tariffe dei biglietti ferroviari per i pensionati"
+      },
+      {
+        "id": "C",
+        "text": "Gestisce le assunzioni del personale tramite concorso pubblico"
+      },
+      {
+        "id": "D",
+        "text": "Rappresenta l'Italia presso il Fondo Monetario Internazionale"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il Collegio dei Sindaci è l'organo di controllo contabile e di legalità interno all'ente, composto da dirigenti e funzionari designati dal Ministero del Lavoro e dal MEF; vigila sulla gestione economica e redige la relazione di accompagnamento ai bilanci.",
+    "hint": "Organo di controllo contabile e amministrativo interno.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_INPS_010",
+    "question": "Come viene esercitato il controllo della Corte dei Conti sull'INPS ai sensi della Legge 21 marzo 1958, n. 259?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mediante un Magistrato della Corte dei Conti delegato al controllo, che assiste alle sedute degli organi collegiali dell'Istituto e riferisce annualmente al Parlamento sulla gestione finanziaria dell'ente"
+      },
+      {
+        "id": "B",
+        "text": "Con un'ispezione militare mensile presso la sede centrale"
+      },
+      {
+        "id": "C",
+        "text": "Attraverso l'approvazione preventiva di ogni singola erogazione di pensione"
+      },
+      {
+        "id": "D",
+        "text": "Con la nomina del Direttore Generale dell'ente"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Ai sensi della L. 259/1958 sul controllo della Corte dei Conti sugli enti che godono di contribuzione statale, un magistrato della Corte delegato al controllo assiste alle riunioni del CdA e del CIV e redige la relazione annuale al Parlamento sulla gestione finanziaria dell'INPS.",
+    "hint": "Un magistrato delegato della Corte dei Conti partecipa alle sedute e riferisce al Parlamento.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_INPS_011",
+    "question": "Come si articola territorialmente la struttura dell'INPS?",
+    "options": [
+      {
+        "id": "A",
+        "text": "In Direzioni Regionali, Direzioni di Coordinamento Metropolitano, Direzioni Provinciali, Filiali Metropolitane, Agenzie Complesse, Agenzie Territoriali e Punti INPS"
+      },
+      {
+        "id": "B",
+        "text": "In comitati rionali senza sedi periferiche stabili"
+      },
+      {
+        "id": "C",
+        "text": "Esclusivamente in un'unica sede a Roma e sportelli postali convenzionati"
+      },
+      {
+        "id": "D",
+        "text": "In circoscrizioni giudiziarie corrispondenti alle Corti d'Appello"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'articolazione territoriale dell'INPS è organizzata a rete: livello regionale (Direzioni Regionali e Coordinamenti Metropolitani a Milano, Roma e Napoli) con funzioni di indirizzo, controllo e pianificazione; livello provinciale e sub-provinciale (Direzioni Provinciali, Agenzie complesse, Agenzie territoriali e Punti INPS) dedicato all'erogazione dei servizi e al presidio del territorio.",
+    "hint": "Rete capillare: Direzioni Regionali/Metropolitane, Provinciali, Agenzie e Punti INPS.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_INPS_012",
+    "question": "Quali funzioni primarie competono alle Direzioni Regionali dell'INPS?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Funzioni di pianificazione regionale, coordinamento, monitoraggio dei risultati delle strutture territoriali della regione, controllo di gestione e gestione del contenzioso giudiziario di secondo grado"
+      },
+      {
+        "id": "B",
+        "text": "Ricezione quotidiana del pubblico per l'erogazione di certificati di disoccupazione"
+      },
+      {
+        "id": "C",
+        "text": "Gestione diretta dell'anagrafe tributaria statale"
+      },
+      {
+        "id": "D",
+        "text": "Stampa cartacea dei libretti di pensione per gli uffici postali"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Le Direzioni Regionali assicurano il governo complessivo delle attività sul territorio di competenza, monitorando la conformità e l'efficacia operativa delle Direzioni Provinciali e Agenzie, e presidiando le relazioni istituzionali regionali.",
+    "hint": "Coordinamento, pianificazione strategica regionale, monitoraggio e contenzioso.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_INPS_013",
+    "question": "Per quali grandi aree urbane l'ordinamento INPS ha previsto le 'Direzioni di Coordinamento Metropolitano' (DCM) equiparate alle Direzioni Regionali?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Roma, Milano e Napoli"
+      },
+      {
+        "id": "B",
+        "text": "Torino, Genova e Firenze"
+      },
+      {
+        "id": "C",
+        "text": "Bari, Palermo e Bologna"
+      },
+      {
+        "id": "D",
+        "text": "Venezia, Verona e Padova"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Per gestire l'enorme bacino di utenza e la complessità socio-economica delle principali metropoli, l'INPS ha istituito tre Direzioni di Coordinamento Metropolitano (DCM): Roma, Milano e Napoli, con rango equiparato a quello delle Direzioni Regionali.",
+    "hint": "Le tre maggiori metropoli italiane: Roma, Milano e Napoli.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_INPS_014",
+    "question": "Qual è la missione fondamentale del profilo professionale di 'Funzionario per la progettazione, erogazione e controllo dei servizi' (PECS) nei ruoli dell'INPS?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Progettare, gestire ed erogare i servizi e le prestazioni previdenziali e assistenziali dell'Istituto, presidiando la qualità, i tempi di lavorazione, il controllo di conformità normativa e la soddisfazione dell'utente finale"
+      },
+      {
+        "id": "B",
+        "text": "Effettuare esclusivamente la vigilanza armata degli uffici dell'Istituto"
+      },
+      {
+        "id": "C",
+        "text": "Eseguire la manutenzione edile degli immobili di proprietà dell'ente"
+      },
+      {
+        "id": "D",
+        "text": "Curare la rassegna stampa quotidiana per conto del Presidente"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La famiglia professionale PECS costituisce il nucleo operativo e specialistico dell'Area dei Funzionari INPS: si occupa dell'intero ciclo di vita delle prestazioni (dall'istruttoria alla liquidazione e controllo), della relazione con i cittadini e patronati e del miglioramento continuo dei processi di servizio.",
+    "hint": "Progettazione, erogazione, controllo e qualità di tutte le prestazioni e servizi per i cittadini.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_INPS_015",
+    "question": "Nel modello organizzativo dei servizi INPS, qual è la distinzione operativa tra 'front-office' e 'back-office'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il front-office è dedicato alla relazione diretta con l'utente, all'accoglienza, all'informazione e alla consulenza di primo livello; il back-office si occupa dell'istruttoria specialistica, dell'elaborazione procedimentale, della liquidazione delle prestazioni e dei controlli"
+      },
+      {
+        "id": "B",
+        "text": "Il front-office è gestito dai dirigenti, il back-office dai tirocinanti"
+      },
+      {
+        "id": "C",
+        "text": "Il front-office opera di notte, il back-office di giorno"
+      },
+      {
+        "id": "D",
+        "text": "Il front-office si occupa solo dei fornitori esterni, il back-office dei pensionati"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il front-office presidia il punto di contatto (fisico, telematico o telefonico) con cittadini e intermediari, risolvendo le richieste a basso impatto o canalizzando le domande; il back-office svolge l'istruttoria complessa, l'accertamento dei requisiti e la liquidazione amministrativa.",
+    "hint": "Front-office: relazione e consulenza con l'utenza; Back-office: istruttoria specialistica e liquidazione.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_INPS_016",
+    "question": "Quale ruolo svolgono gli Istituti di Patronato (disciplinati dalla Legge 30 marzo 2001, n. 152) nei rapporti con l'INPS?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Svolgono attività di informazione, assistenza e tutela gratuita dei lavoratori e dei cittadini per il conseguimento delle prestazioni previdenziali e assistenziali, operando come intermediari abilitati mediante apposite convenzioni telematiche con l'Istituto"
+      },
+      {
+        "id": "B",
+        "text": "Emettono sentenze vincolanti per l'amministrazione previdenziale"
+      },
+      {
+        "id": "C",
+        "text": "Incassano direttamente i contributi previdenziali per conto dello Stato"
+      },
+      {
+        "id": "D",
+        "text": "Sostituiscono l'INPS nell'accertamento medico-legale dell'invalidità"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "I Patronati (L. 152/2001) sono persone giuridiche di diritto privato senza scopo di lucro costituite dalle confederazioni dei lavoratori; prestano assistenza gratuita ai cittadini per domande di pensione, invalidità, disoccupazione, ecc., collegandosi direttamente ai database INPS.",
+    "hint": "Istituti promossi dalle parti sociali per l'assistenza e tutela previdenziale gratuita dei cittadini.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_INPS_017",
+    "question": "In che modo l'INPS riconosce il rimborso e il compenso agli Istituti di Patronato per le pratiche assistenziali e previdenziali trasmesse?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Attraverso il sistema del 'punteggio delle pratiche' a carico del Fondo Patronati finanziato da una quota dell'aliquota contributiva di legge, previa verifica dell'esito positivo o dell'attività svolta"
+      },
+      {
+        "id": "B",
+        "text": "Facendo pagare una parcella fissa direttamente al cittadino richiedente la pensione"
+      },
+      {
+        "id": "C",
+        "text": "Mediante una percentuale fissa trattenuta su ogni assegno pensionistico per sempre"
+      },
+      {
+        "id": "D",
+        "text": "Con donazioni volontarie dei funzionari dell'Istituto"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il finanziamento dei patronati (L. 152/2001) avviene tramite un fondo accantonato sulla contribuzione generale e ripartito annualmente dal Ministero del Lavoro in base ai 'punti' attribuiti alle pratiche andate a buon fine e regolarmente istruite.",
+    "hint": "Finanziamento pubblico a punti tramite apposito fondo sui contributi senza oneri per il cittadino.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_INPS_018",
+    "question": "Cosa stabilisce la 'Carta dei Servizi' dell'INPS?",
+    "options": [
+      {
+        "id": "A",
+        "text": "È il documento con cui l'Istituto assume impegni precisi con i cittadini in merito agli standard di qualità, ai tempi massimi di conclusione dei procedimenti, all'accessibilità dei canali di contatto e alle modalità di tutela e reclamo"
+      },
+      {
+        "id": "B",
+        "text": "È la tessera magnetica personale che consente l'ingresso gratuito nei musei statali"
+      },
+      {
+        "id": "C",
+        "text": "È il contratto collettivo stipulato tra l'INPS e le banche per il pagamento delle pensioni"
+      },
+      {
+        "id": "D",
+        "text": "È l'elenco nominativo di tutti i dipendenti dell'Istituto aggiornato mensilmente"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La Carta dei Servizi è uno strumento fondamentale di trasparenza e orientamento al cittadino, con cui l'INPS dichiara la propria missione, i livelli qualitativi e quantitativi delle prestazioni garantite e i tempi medi/massimi di risposta alle istanze.",
+    "hint": "Patto di qualità e tempi di risposta tra l'INPS e i cittadini.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_INPS_019",
+    "question": "Quali canali di contatto multicanale mette a disposizione l'INPS per la gestione delle relazioni con l'utenza?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Portale web istituzionale (MyINPS), Contact Center Multicanale, App 'INPS Mobile', sportelli fisici di sede con accesso programmato e Cassetto Previdenziale"
+      },
+      {
+        "id": "B",
+        "text": "Esclusivamente lo sportello fisico aperto senza prenotazione 2 ore a settimana"
+      },
+      {
+        "id": "C",
+        "text": "Solo posta ordinaria con cartolina di ritorno"
+      },
+      {
+        "id": "D",
+        "text": "Canali di televendita sulle reti televisive nazionali"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il modello di servizio INPS è fondato sulla multicanalità integrata: accesso digitale autonomo (MyINPS, App), assistenza telefonica qualificata (Contact Center), strumenti per aziende (Cassetto Previdenziale) e sportello di sede su prenotazione per la consulenza personalizzata.",
+    "hint": "Multicanalità: web MyINPS, Contact Center, App, sportello fisico su prenotazione e Cassetto.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_INPS_020",
+    "question": "Cosa si intende per 'Cassetto Previdenziale' nell'ambito dei servizi digitali dell'INPS?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un ambiente online dedicato ad aziende, datori di lavoro, lavoratori autonomi e loro intermediari delegati per visualizzare la propria posizione contributiva, verificare debiti/crediti e comunicare bidirezionalmente con l'Istituto"
+      },
+      {
+        "id": "B",
+        "text": "Una cassaforte blindata situata presso ciascuna direzione provinciale"
+      },
+      {
+        "id": "C",
+        "text": "Il conto corrente postale su cui confluiscono i versamenti F24"
+      },
+      {
+        "id": "D",
+        "text": "Il software per la timbratura del cartellino dei dipendenti INPS"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il Cassetto Previdenziale (per aziende, artigiani, commercianti, parasubordinati, agricoltura) è la piattaforma telematica che accentra le informazioni debitorie/creditorie, le comunicazioni bidirezionali e gli esiti dei controlli tra azienda/consulente e l'INPS.",
+    "hint": "Piattaforma digitale per datori e professionisti per monitorare posizioni e dialogare con l'ente.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_INPS_021",
+    "question": "Qual è la funzione del Contact Center Multicanale dell'INPS?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fornire informazioni generali, acquisire domande telefoniche, comunicare lo stato di avanzamento delle pratiche e assistere gli utenti nell'uso dei servizi online"
+      },
+      {
+        "id": "B",
+        "text": "Svolgere compiti di polizia tributaria telefonica"
+      },
+      {
+        "id": "C",
+        "text": "Effettuare visite mediche di controllo a domicilio per via telefonica"
+      },
+      {
+        "id": "D",
+        "text": "Emettere sentenze arbitrali su controversie di lavoro"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il Contact Center (numero verde gratuito da fisso 803.164 e numero a tariffazione da mobile 06.164.164) fornisce assistenza di 1° livello per informazioni generali e di 2° livello per problematiche complesse, operando in più lingue.",
+    "hint": "Servizio di accoglienza telefonica informativa, operativa e di supporto all'uso del portale.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_INPS_022",
+    "question": "Nel contesto dell'INPS, cosa rappresenta la 'consulenza personalizzata' allo sportello di secondo livello?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un appuntamento mirato, in presenza o da remoto (web meeting o telefonico), in cui un funzionario esperto analizza casi complessi non risolvibili tramite i canali standard di primo contatto"
+      },
+      {
+        "id": "B",
+        "text": "Una consulenza a pagamento su investimenti finanziari privati"
+      },
+      {
+        "id": "C",
+        "text": "Un colloquio per verificare le preferenze politiche dell'utente"
+      },
+      {
+        "id": "D",
+        "text": "Una visita guidata agli archivi storici dell'Istituto"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il servizio di secondo livello INPS consente al cittadino o all'intermediario di confrontarsi direttamente su prenotazione con il funzionario istruttore specializzato per esaminare questioni bloccate o interpretazioni contributive complesse.",
+    "hint": "Interlocuzione qualificata su appuntamento con funzionari specializzati per pratiche complesse.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_INPS_023",
+    "question": "Quale funzione assolve l'Ufficio Relazioni con il Pubblico (URP) all'interno dell'INPS (art. 11 D.Lgs. 165/2001)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Garantire l'esercizio dei diritti di informazione, accesso agli atti e partecipazione civica, accogliere suggerimenti e reclami, e monitorare il livello di soddisfazione degli utenti (customer satisfaction)"
+      },
+      {
+        "id": "B",
+        "text": "Organizzare manifestazioni sportive tra i dipendenti dell'Istituto"
+      },
+      {
+        "id": "C",
+        "text": "Redigere i verbali delle riunioni del Consiglio di Sicurezza dell'ONU"
+      },
+      {
+        "id": "D",
+        "text": "Sorvegliare gli accessi fisici dei fornitori ai parcheggi aziendali"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'URP dell'INPS è la struttura preposta a facilitare la comunicazione tra cittadino e pubblica amministrazione, gestire le istanze di accesso ai documenti, raccogliere i reclami per disservizi e rilevare i bisogni dell'utenza.",
+    "hint": "Accesso agli atti, ascolto dei cittadini, gestione reclami e customer satisfaction.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_INPS_024",
+    "question": "In caso di errore materiale o illegittimità manifesta commessa dall'INPS nella liquidazione di una prestazione, quale potere può esercitare l'Istituto prima del contenzioso giudiziario?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il potere di autotutela amministrativa (annullamento d'ufficio o revoca/rettifica del provvedimento ai sensi degli artt. 21-nonies e 21-quinquies L. 241/1990)"
+      },
+      {
+        "id": "B",
+        "text": "L'espropriazione per pubblica utilità del patrimonio del cittadino"
+      },
+      {
+        "id": "C",
+        "text": "L'arresto cautelare del funzionario che ha commesso la svista"
+      },
+      {
+        "id": "D",
+        "text": "Nessun potere, l'errore può essere corretto solo con una sentenza della Corte di Cassazione"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'INPS, in virtù del potere generale di autotutela sancito dalla L. 241/1990, può revocare, modificare o annullare d'ufficio provvedimenti viziati da illegittimità o errore, procedendo a rettifica sia in senso favorevole sia in rettifica di indebiti.",
+    "hint": "Potere di autotutela per correggere, annullare o rettificare i propri provvedimenti viziati.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_INPS_025",
+    "question": "Entro quale termine ordinario l'INPS deve pronunciarsi sui ricorsi amministrativi presentati contro i provvedimenti dell'Istituto (art. 46 L. 88/1989)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Novanta giorni dalla data di presentazione del ricorso, trascorsi i quali il ricorso si intende respinto a tutti gli effetti (silenzio-rigetto)"
+      },
+      {
+        "id": "B",
+        "text": "Trenta giorni con la regola del silenzio-assenso automatico"
+      },
+      {
+        "id": "C",
+        "text": "Un anno solare"
+      },
+      {
+        "id": "D",
+        "text": "Quindici giorni con obbligo di audizione personale del ricorrente"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 46 della L. 88/1989 stabilisce che i ricorsi ai comitati INPS devono essere decisi entro 90 giorni dalla presentazione. Decorso inutilmente tale termine, il ricorso si intende respinto e si perfeziona la condizione per adire l'autorità giudiziaria.",
+    "hint": "90 giorni con formazione del silenzio-rigetto.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_INPS_026",
+    "question": "Quale piattaforma telematica proprietaria utilizza l'INPS per la ricezione, l'istruttoria e la gestione centralizzata dei ricorsi amministrativi?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La procedura Ri.Am. (Ricorsi Amministrativi online)"
+      },
+      {
+        "id": "B",
+        "text": "Il sistema PagoPA per la riscossione"
+      },
+      {
+        "id": "C",
+        "text": "La piattaforma Consip per gli appalti"
+      },
+      {
+        "id": "D",
+        "text": "Il circuito telematico bancario SWIFT"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La procedura telematica Ri.Am. (Ricorsi Amministrativi) consente a cittadini, patronati e avvocati di inoltrare ricorsi online contro provvedimenti INPS, monitorandone l'istruttoria e l'esito della decisione del competente comitato.",
+    "hint": "La procedura telematica dell'INPS per i ricorsi è Ri.Am.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_INPS_027",
+    "question": "Che cos'è il 'DURC' (Documento Unico di Regolarità Contributiva) rilasciato congiuntamente da INPS, INAIL e Casse Edili?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'attestazione telematica dell'avvenuto adempimento da parte di un'impresa degli obblighi contributivi, assicurativi e previdenziali verso gli enti preposti, indispensabile per appalti pubblici e benefici normativi"
+      },
+      {
+        "id": "B",
+        "text": "Il documento che autorizza l'apertura di un esercizio commerciale"
+      },
+      {
+        "id": "C",
+        "text": "La ricevuta di avvenuta dichiarazione delle tasse sui rifiuti"
+      },
+      {
+        "id": "D",
+        "text": "Il certificato medico per l'esonero dal lavoro notturno"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il DURC online (D.M. 30 gennaio 2015) attesta la regolarità contributiva di un'impresa nei confronti di INPS, INAIL ed eventuali Casse Edili. Ha una validità di 120 giorni ed è obbligatorio per partecipare a gare pubbliche, contratti d'appalto e fruire di agevolazioni contributive.",
+    "hint": "Attesta che l'azienda è in regola con i versamenti previdenziali e assicurativi.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_INPS_028",
+    "question": "Quale validità temporale ha il DURC online dalla data dell'emissione?",
+    "options": [
+      {
+        "id": "A",
+        "text": "120 giorni dalla data di rilascio del documento"
+      },
+      {
+        "id": "B",
+        "text": "30 giorni"
+      },
+      {
+        "id": "C",
+        "text": "365 giorni"
+      },
+      {
+        "id": "D",
+        "text": "60 giorni"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Ai sensi dell'art. 7 del D.M. 30 gennaio 2015, il Documento Unico di Regolarità Contributiva (DURC online) ha una validità legale di 120 giorni dalla data dell'interrogazione andata a buon fine.",
+    "hint": "La validità del DURC online è di quattro mesi (120 giorni).",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_INPS_029",
+    "question": "In caso di irregolarità contributiva riscontrata durante l'interrogazione per il DURC, cosa prevede la procedura prima dell'emissione dell'esito negativo?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'invio dell'invito a regolarizzare entro 15 giorni con PEC o posta, indicando analiticamente le somme dovute e consentendo al contribuente di sanare l'omissione"
+      },
+      {
+        "id": "B",
+        "text": "L'immediata revoca della licenza commerciale da parte dei Carabinieri"
+      },
+      {
+        "id": "C",
+        "text": "La segnalazione immediata alla Procura della Repubblica"
+      },
+      {
+        "id": "D",
+        "text": "L'iscrizione ipotecaria sui beni dell'amministratore senza preavviso"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La legge prevede l'istituto del 'preavviso di DURC negativo' (invito a regolarizzare): gli enti concedono 15 giorni di tempo all'impresa per regolarizzare il versamento o chiarire l'inadempienza prima di rilasciare un DURC non regolare.",
+    "hint": "Invito a regolarizzare le anomalie entro 15 giorni.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_INPS_030",
+    "question": "Quale ente pubblico è confluito nell'INPS a decorrere dal 1° gennaio 2012 ai sensi del Decreto-Legge 201/2011 (Riforma Fornero), unificando la previdenza pubblica?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'INPDAP (Istituto Nazionale di Previdenza per i Dipendenti dell'Amministrazione Pubblica) e l'ENPALS (Ente Nazionale di Previdenza e Assistenza per i Lavoratori dello Spettacolo)"
+      },
+      {
+        "id": "B",
+        "text": "L'INAIL (Istituto Nazionale Assicurazione Infortuni sul Lavoro)"
+      },
+      {
+        "id": "C",
+        "text": "L'Agenzia delle Entrate"
+      },
+      {
+        "id": "D",
+        "text": "La Cassa Depositi e Prestiti"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 21 del D.L. 201/2011 ha soppresso INPDAP ed ENPALS, trasferendone integralmente le funzioni, il patrimonio e il personale all'INPS, dando vita al c.d. 'Super-INPS' come ente previdenziale unico dei lavoratori privati e pubblici.",
+    "hint": "La soppressione di INPDAP ed ENPALS ha unificato la previdenza pubblica e dello spettacolo nell'INPS.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_INPS_031",
+    "question": "Quale cassa previdenziale dei giornalisti professionisti è stata trasferita all'INPS a decorrere dal 1° luglio 2022 (Legge di Bilancio 2022)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La gestione sostitutiva dell'AGO dell'INPGI (INPGI 1)"
+      },
+      {
+        "id": "B",
+        "text": "La Cassa Forense degli avvocati"
+      },
+      {
+        "id": "C",
+        "text": "L'ENPAM dei medici e odontoiatri"
+      },
+      {
+        "id": "D",
+        "text": "L'Inarcassa di ingegneri e architetti"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La Legge n. 234/2021 (commi 103-118) ha disposto il passaggio all'INPS, dal 1° luglio 2022, della gestione principale dell'INPGI (INPGI 1) per i giornalisti dipendenti, mentre la gestione separata per i liberi professionisti (INPGI 2) è rimasta autonoma.",
+    "hint": "La gestione principale dell'INPGI (giornalisti dipendenti).",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_INPS_032",
+    "question": "Qual è la funzione del 'Comitato Provinciale' dell'INPS istituito presso ciascuna Direzione Provinciale (art. 34 del D.P.R. 639/1970)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "È un organo collegiale paritetico che decide i ricorsi amministrativi dei lavoratori dipendenti in materia di prestazioni e analizza l'andamento del lavoro e della previdenza nella provincia"
+      },
+      {
+        "id": "B",
+        "text": "È il collegio arbitrale che stabilisce le tariffe dei taxi provinciali"
+      },
+      {
+        "id": "C",
+        "text": "Ha il compito di approvare il piano regolatore comunale"
+      },
+      {
+        "id": "D",
+        "text": "Gestisce le carceri mandamentali della provincia"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il Comitato Provinciale dell'INPS comprende i rappresentanti delle organizzazioni sindacali dei lavoratori, dei datori di lavoro e i dirigenti provinciali dell'ITL e del MEF; decide in via definitiva i ricorsi amministrativi su prestazioni pensionistiche ordinarie del FPLD.",
+    "hint": "Organo collegiale provinciale che esamina e decide i ricorsi amministrativi su prestazioni dipendenti.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_INPS_033",
+    "question": "In cosa consiste l'istituto dell''indebito previdenziale' e qual è la regola generale di ripetibilità disciplinata dall'art. 52 della Legge 88/1989 e dalla giurisprudenza?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'erogazione di somme pensionistiche non dovute; la ripetibilità delle somme erogate per errore imputabile all'Istituto è esclusa in assenza di dolo dell'assicurato, a salvaguardia dell'affidamento incolpevole del pensionato"
+      },
+      {
+        "id": "B",
+        "text": "L'obbligo di restituire sempre e comunque il doppio delle somme ricevute"
+      },
+      {
+        "id": "C",
+        "text": "La cancellazione automatica della pensione per 5 anni"
+      },
+      {
+        "id": "D",
+        "text": "La confisca dei beni mobili registrati del pensionato"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'indebito previdenziale pensionistico (art. 52 L. 88/1989 e L. 412/1991) tutela l'affidamento incolpevole: se l'INPS ha sbagliato il calcolo della pensione senza dolo del cittadino, le somme già corrisposte non sono di norma recuperabili retroattivamente ma si rettifica solo per il futuro.",
+    "hint": "Irripetibilità dell'indebito pensionistico erogato per errore dell'ente salvo dolo dell'assicurato.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_INPS_034",
+    "question": "Come viene disciplinata invece la ripetibilità dell''indebito assistenziale' (es. Assegno Sociale o Invalidità Civile) erogato dall'INPS in assenza dei requisiti?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Le prestazioni economiche assistenziali indebite sono ripetibili solo a partire dal momento in cui è accertata la mancanza dei requisiti o dal provvedimento di revoca, salvo che il beneficiario abbia occultato dolosamente i propri redditi o condizioni"
+      },
+      {
+        "id": "B",
+        "text": "Sono sempre recuperate retroattivamente fino a 30 anni prima con gli interessi usurai"
+      },
+      {
+        "id": "C",
+        "text": "Non possono mai essere revocate anche se ottenute con documenti falsi"
+      },
+      {
+        "id": "D",
+        "text": "Vengono convertite automaticamente in buoni del tesoro statali"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La Corte di Cassazione e la Corte Costituzionale hanno chiarito che per l'indebito assistenziale vige il principio dell'irripetibilità delle rate percepite in buona fede fino alla data di accertamento della perdita dei requisiti, salvo frode o dolo conclamato del percettore.",
+    "hint": "Non ripetibili le somme percepite in buona fede prima dell'accertamento, salvo dolo o frode.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_PECS_INPS_035",
+    "question": "Quale importante funzione svolge il 'Coordinamento Generale Medico Legale' dell'INPS?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Definisce le linee guida, assicura l'omogeneità di giudizio su tutto il territorio nazionale in materia di invalidità previdenziale (L. 222/1984), invalidità civile, handicap (L. 104/1992) e coordina i medici dell'Istituto"
+      },
+      {
+        "id": "B",
+        "text": "Effettua interventi chirurgici di pronto soccorso nelle sedi dell'ente"
+      },
+      {
+        "id": "C",
+        "text": "Gestisce l'acquisto dei farmaci salvavita per gli ospedali statali"
+      },
+      {
+        "id": "D",
+        "text": "Svolge compiti di polizia mortuaria nei comuni capoluogo"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il Coordinamento Generale Medico Legale sovrintende all'attività sanitaria dell'INPS: accertamenti per AOI, inabilità, invalidità civile, cecità, sordità, handicap L. 104, visite fiscali d'ufficio e per conto dei datori di lavoro.",
+    "hint": "Omogeneità e coordinamento tecnico delle commissioni e dei medici per le valutazioni medico-legali.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_INPS_036",
+    "question": "Che cos'è il 'Polo Unico per le visite fiscali' affidato in via esclusiva all'INPS dal D.Lgs. 75/2017 (Riforma Madia)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'attribuzione esclusiva all'INPS della competenza per l'effettuazione delle visite mediche di controllo sullo stato di malattia sia per i lavoratori dipendenti del settore privato sia per quelli della Pubblica Amministrazione"
+      },
+      {
+        "id": "B",
+        "text": "L'obbligo per tutti i cittadini di sottoporsi a visita medica annuale per pagare le tasse"
+      },
+      {
+        "id": "C",
+        "text": "Un ospedale speciale riservato ai dipendenti del Ministero dell'Economia"
+      },
+      {
+        "id": "D",
+        "text": "Un centro di riabilitazione termale convenzionato con l'INPS"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Dal 1° settembre 2017 l'INPS gestisce il Polo Unico per le visite mediche di controllo (d'ufficio o su richiesta datoriale) sia per il comparto privato che per i dipendenti pubblici di tutte le amministrazioni statali ed enti locali.",
+    "hint": "Competenza esclusiva INPS sui controlli di malattia sia per dipendenti privati che pubblici.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_INPS_037",
+    "question": "Quali sono le fasce orarie di reperibilità per le visite fiscali di controllo dello stato di malattia dei dipendenti della Pubblica Amministrazione a seguito della sentenza TAR Lazio e circolare INPS n. 10/2024?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dalle ore 10:00 alle 12:00 e dalle ore 17:00 alle 19:00 (armonizzate con le fasce del settore privato)"
+      },
+      {
+        "id": "B",
+        "text": "Dalle 06:00 alle 22:00 continuativamente"
+      },
+      {
+        "id": "C",
+        "text": "Dalle 09:00 alle 13:00 e dalle 15:00 alle 18:00"
+      },
+      {
+        "id": "D",
+        "text": "Solo dalle 08:00 alle 09:00 del mattino"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "A seguito della sentenza del TAR Lazio n. 16305/2023 che ha annullato la disparità di trattamento, l'INPS con circolare n. 10/2024 ha uniformato le fasce di reperibilità del settore pubblico a quelle del settore privato: 10:00-12:00 e 17:00-19:00 per tutti i giorni, compresi domeniche e festivi.",
+    "hint": "Fasce armonizzate pubblico/privato: 10-12 e 17-19.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_INPS_038",
+    "question": "Nel bilancio dell'INPS, qual è la fondamentale distinzione contabile tra 'GIAS' e 'GPT' introdotta dalla Legge 88/1989?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La GIAS (Gestione degli Interventi Assistenziali e di Sostegno) è finanziata dalla fiscalità generale dello Stato; la GPT (Gestioni Previdenziali dei Trattamenti pensionistici) è finanziata dai contributi dei lavoratori e datori di lavoro"
+      },
+      {
+        "id": "B",
+        "text": "La GIAS riguarda solo gli alloggi di servizio, la GPT le auto aziendali"
+      },
+      {
+        "id": "C",
+        "text": "La GIAS raccoglie le multe del codice della strada, la GPT i dazi doganali"
+      },
+      {
+        "id": "D",
+        "text": "Non vi è alcuna distinzione, tutti i fondi sono un unico calderone indistinto"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La L. 88/1989 (art. 35 e ss.) ha separato la previdenza (finanziata con i contributi IVS dei datori/lavoratori e con equilibrio finanziario autonomo) dall'assistenza (GIAS: invalidità civili, assegno sociale, sgravi, coperta direttamente dai trasferimenti a carico del bilancio dello Stato).",
+    "hint": "Separazione tra previdenza (contributi) e assistenza sociale (fiscalità generale dello Stato).",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_INPS_039",
+    "question": "Quale documento di programmazione strategica triennale definisce gli obiettivi di performance, anticorruzione, trasparenza e digitalizzazione nell'INPS conformemente al D.L. 80/2021?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il PIAO (Piano Integrato di Attività e Organizzazione)"
+      },
+      {
+        "id": "B",
+        "text": "Il Documento di Economia e Finanza (DEF)"
+      },
+      {
+        "id": "C",
+        "text": "Il Piano Triennale dell'Offerta Formativa (PTOF)"
+      },
+      {
+        "id": "D",
+        "text": "Il bilancio consuntivo delle ferie non godute"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il PIAO (art. 6 D.L. 80/2021) unifica in un unico piano triennale la performance organizzativa e individuale, il piano triennale anticorruzione e trasparenza (PTPCT), i fabbisogni di personale, lo smart working e lo sviluppo organizzativo.",
+    "hint": "È il Piano Integrato di Attività e Organizzazione (PIAO).",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_INPS_040",
+    "question": "Cosa prescrive il Codice di Comportamento dei dipendenti dell'INPS per il funzionario che si trovi in una situazione di potenziale o attuale conflitto di interessi nell'istruttoria di una pratica?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ha il dovere di astenersi immediatamente dalla trattazione della pratica e comunicare tempestivamente per iscritto la situazione al proprio dirigente"
+      },
+      {
+        "id": "B",
+        "text": "Può proseguire l'istruttoria purché lo faccia al di fuori dell'orario di lavoro"
+      },
+      {
+        "id": "C",
+        "text": "Deve chiedere un parere vincolante alla Procura della Repubblica entro 24 ore"
+      },
+      {
+        "id": "D",
+        "text": "Può liquidare la pratica applicando uno sconto del 50% sulle sanzioni"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "In applicazione dell'art. 6 bis della L. 241/1990 e dell'art. 7 del D.P.R. 62/2013 (nonché del codice interno INPS), il funzionario deve astenersi da decisioni o attività che coinvolgano interessi propri, di parenti, affini o conviventi, segnalandolo per iscritto al superiore gerarchico.",
+    "hint": "Obbligo immediato di astensione e segnalazione scritta al dirigente.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_INPS_041",
+    "question": "Qual è il ruolo del Responsabile della Prevenzione della Corruzione e della Trasparenza (RPCT) all'interno dell'INPS?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Elaborare la sezione anticorruzione del PIAO, monitorare il rispetto delle regole di trasparenza e integrità, verificare la rotazione del personale nei settori a rischio e gestire le segnalazioni di whistleblowing"
+      },
+      {
+        "id": "B",
+        "text": "Coordinare gli interventi delle forze speciali di polizia all'interno degli stabili INPS"
+      },
+      {
+        "id": "C",
+        "text": "Decidere autonomamente l'esito dei concorsi pubblici"
+      },
+      {
+        "id": "D",
+        "text": "Stabilire l'ammontare degli interessi sui mutui edilizi ai dipendenti"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'RPCT dell'INPS (nominato dal CdA tra i dirigenti di prima fascia) coordina la mappatura dei processi a rischio corruttivo, propone le misure di mitigazione, verifica gli obblighi di pubblicazione online e garantisce la tutela del whistleblower.",
+    "hint": "Presidio della trasparenza, del piano anticorruzione e tutela delle segnalazioni (whistleblowing).",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_INPS_042",
+    "question": "Come viene garantita la tutela del dipendente pubblico dell'INPS che segnala illeciti o violazioni di cui sia venuto a conoscenza nell'ambito del proprio rapporto di lavoro (c.d. whistleblowing - D.Lgs. 24/2023)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tramite canali di segnalazione sicuri e criptati, la protezione assoluta della riservatezza dell'identità del segnalante e il divieto di qualsiasi misura ritorsiva o discriminatoria (licenziamento, demansionamento, trasferimento)"
+      },
+      {
+        "id": "B",
+        "text": "Pubblicando il nome del segnalante sulla bacheca aziendale per riconoscerne il merito"
+      },
+      {
+        "id": "C",
+        "text": "Assegnando una ricompensa in denaro pari al 10% del danno erariale evitato"
+      },
+      {
+        "id": "D",
+        "text": "Obbligando il segnalante a confermare le accuse in un confronto pubblico con il dirigente"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il D.Lgs. 24/2023 tutela il whistleblower: la sua identità non può essere rivelata senza consenso espresso; sono vietate e nulle di diritto tutte le ritorsioni dirette o indirette; le segnalazioni possono essere trasmesse tramite piattaforma informatica protetta.",
+    "hint": "Riservatezza dell'identità del segnalante, canali criptati e divieto assoluto di ritorsioni.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_INPS_043",
+    "question": "Nel sistema di monitoraggio dell'INPS, qual è il significato del tempo medio di liquidazione delle prestazioni (tempo di attraversamento)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'indicatore chiave di efficienza che misura l'intervallo temporale che intercorre tra la presentazione telematica della domanda da parte dell'utente e l'emissione del provvedimento di accoglimento o rigetto con liquidazione economica"
+      },
+      {
+        "id": "B",
+        "text": "Il tempo impiegato dal postino per recapitare la lettera a casa"
+      },
+      {
+        "id": "C",
+        "text": "La durata del periodo di prova del funzionario istruttore"
+      },
+      {
+        "id": "D",
+        "text": "Il tempo di conservazione dei faldoni cartacei nell'archivio storico"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il tempo di attraversamento (tempo medio di lavorazione/liquidazione) misura la capacità dell'INPS di erogare tempestivamente le prestazioni (es. pensione entro 30 o 60 giorni, NASpI entro 15-20 giorni), costituendo uno dei principali obiettivi di performance territoriale.",
+    "hint": "Tempo che trascorre dall'inoltro della domanda fino al pagamento effettivo o provvedimento finale.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_INPS_044",
+    "question": "Che cosa si intende per 'giacenza delle pratiche' nell'ambito del controllo di flusso di una sede provinciale INPS?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il numero di istanze o procedimenti amministrativi pendenti e non ancora definiti alla fine del periodo di rilevazione, distinte per fascia di anzianità (entro i termini o fuori termine di legge)"
+      },
+      {
+        "id": "B",
+        "text": "Il totale dei moduli cartacei stampati e ancora non utilizzati in cancelleria"
+      },
+      {
+        "id": "C",
+        "text": "Le somme di denaro depositate nella cassa contanti per le minute spese"
+      },
+      {
+        "id": "D",
+        "text": "I beni immobili dell'INPS lasciati vuoti per ristrutturazione"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La giacenza misura lo stock di domande pendenti in lavorazione presso l'ufficio. Il costante monitoraggio della giacenza e dell'abbattimento dell'arretrato ultra-trentennale o fuori standard è uno dei compiti del funzionario di controllo PECS.",
+    "hint": "Numero complessivo di pratiche pervenute e non ancora lavorate/concluse.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_INPS_045",
+    "question": "Quale strumento di intelligenza artificiale o automazione dei processi adotta l'INPS per velocizzare l'istruttoria delle prestazioni ripetitive?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sistemi di Robotic Process Automation (RPA) e algoritmi di Machine Learning per la pre-istruttoria automatica, il controllo formale dei requisiti anagrafici e contributivi e la classificazione dei flussi"
+      },
+      {
+        "id": "B",
+        "text": "Robot umanoidi che accolgono fisicamente il pubblico all'ingresso"
+      },
+      {
+        "id": "C",
+        "text": "Droni telematici per il controllo dei cantieri edili"
+      },
+      {
+        "id": "D",
+        "text": "Sostituzione totale dei medici con intelligenza artificiale per i giudizi di inabilità"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'INPS è all'avanguardia nell'uso dell'RPA (Robotic Process Automation) e dell'AI per automatizzare le fasi istruttorie standardizzate (es. controllo immediato dei flussi Uniemens, verifiche anagrafiche ANPR, pre-liquidazione NASpI), lasciando al funzionario umano la verifica dei casi complessi.",
+    "hint": "RPA (automazione robotica dei processi) e machine learning per la pre-istruttoria delle istanze.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_INPS_046",
+    "question": "In caso di contenzioso giudiziario promosso contro l'INPS in materia previdenziale, quale struttura interna dell'Istituto assume la difesa legale dell'ente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il Coordinamento Generale Legale e gli Avvocati dell'INPS incardinati nell'Ufficio Legale regionale o distrettuale dell'Istituto"
+      },
+      {
+        "id": "B",
+        "text": "Esclusivamente l'Avvocatura Generale dello Stato"
+      },
+      {
+        "id": "C",
+        "text": "Studi legali privati esterni scelti mediante sorteggio annuale"
+      },
+      {
+        "id": "D",
+        "text": "Il Direttore Provinciale personalmente senza assistenza legale"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'INPS dispone di una propria Avvocatura interna (Coordinamento Generale Legale e rami territoriali), i cui professionisti (avvocati dipendenti iscritti all'elenco speciale) rappresentano e difendono l'Istituto in tutte le controversie dinanzi ai giudici del lavoro e alle giurisdizioni superiori.",
+    "hint": "L'INPS ha un proprio corpo di Avvocati interni facenti capo all'Avvocatura dell'Istituto.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_INPS_047",
+    "question": "Quale principio stabilito dall'art. 97 della Costituzione italiana deve guidare costantemente l'attività del funzionario INPS?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il principio di buon andamento e imparzialità dell'amministrazione"
+      },
+      {
+        "id": "B",
+        "text": "Il principio dell'obbedienza politica al governo in carica"
+      },
+      {
+        "id": "C",
+        "text": "Il primato del profitto economico su ogni altra valutazione sociale"
+      },
+      {
+        "id": "D",
+        "text": "Il principio della discrezionalità assoluta e insindacabile del dipendente"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 97, secondo comma, della Costituzione sancisce che 'I pubblici uffici sono organizzati secondo disposizioni di legge, in modo che siano assicurati il buon andamento e l'imparzialità dell'amministrazione', canoni cardine dell'agire del funzionario pubblico.",
+    "hint": "Buon andamento ed imparzialità della pubblica amministrazione.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_INPS_048",
+    "question": "Cosa si intende per 'flusso Uniemens' inviato mensilmente dai datori di lavoro all'INPS?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il flusso telematico mensile obbligatorio contenente i dati retributivi, anagrafici e contributivi di ciascun lavoratore dipendente e collaboratore, utilizzato dall'INPS per alimentare l'estratto conto e calcolare i contributi dovuti"
+      },
+      {
+        "id": "B",
+        "text": "La lista delle fatture commerciali non pagate dai fornitori"
+      },
+      {
+        "id": "C",
+        "text": "Il pagamento delle imposte comunali sugli immobili aziendali"
+      },
+      {
+        "id": "D",
+        "text": "Il prospetto delle assenze per sciopero politico"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'Uniemens è il flusso informatico unificato con cui le aziende trasmettono all'INPS (entro l'ultimo giorno del mese successivo a quello di competenza) i dati retributivi e contributivi individuali dei propri dipendenti e collaboratori, base fondamentale per l'accredito contributivo.",
+    "hint": "Flusso telematico mensile che trasmette all'INPS retribuzioni e contributi di ogni lavoratore.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_INPS_049",
+    "question": "Quale regime di responsabilità grava sul funzionario INPS ai sensi dell'art. 28 della Costituzione e del T.U. 3/1957 in caso di adozione di provvedimenti dannosi?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Responsabilità civile, penale e amministrativo-contabile per gli atti compiuti in violazione di diritti con dolo o colpa grave"
+      },
+      {
+        "id": "B",
+        "text": "Totale immunità civile e penale per tutti gli atti di servizio"
+      },
+      {
+        "id": "C",
+        "text": "Responsabilità oggettiva anche in assenza totale di colpa"
+      },
+      {
+        "id": "D",
+        "text": "Solo una sanzione simbolica decisa dall'assemblea di condominio"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Ai sensi dell'art. 28 Cost., i funzionari e dipendenti dello Stato e degli enti pubblici sono direttamente responsabili, secondo le leggi penali, civili e amministrative, degli atti compiuti in violazione di diritti; la responsabilità amministrativo-contabile dinanzi alla Corte dei Conti scatta per dolo o colpa grave.",
+    "hint": "Responsabilità penale, civile e amministrativo-contabile (per dolo o colpa grave).",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_INPS_050",
+    "question": "Che cosa si intende per 'audit interno' all'interno dell'organizzazione dell'INPS?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'attività indipendente e obiettiva di controllo, assicurazione e consulenza finalizzata a valutare e migliorare l'efficacia dei processi di gestione dei rischi, di controllo interno e di governance dell'Istituto"
+      },
+      {
+        "id": "B",
+        "text": "L'esame della vista e dell'udito effettuato a tutti i dipendenti"
+      },
+      {
+        "id": "C",
+        "text": "La revisione delle tariffe del gasolio da riscaldamento per le sedi"
+      },
+      {
+        "id": "D",
+        "text": "La raccolta fondi per beneficenza tra i funzionari dell'ente"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La Direzione Centrale Audit dell'INPS risponde direttamente al CdA e al Direttore Generale e ha il compito di verificare la correttezza, la regolarità e l'efficacia dei sistemi di controllo interno e di gestione dei rischi operativi e antifrode nelle sedi dell'ente.",
+    "hint": "Attività di controllo interno per verificare la regolarità, l'efficacia dei processi e la gestione dei rischi.",
+    "level": "intermedio"
+  }
+]

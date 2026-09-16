@@ -1,0 +1,702 @@
+[
+  {
+    "id": "Q_DIR_CAD_001",
+    "question": "Qual è la fonte normativa che ha istituito il Codice dell'Amministrazione Digitale (CAD) in Italia?",
+    "options": [
+      { "id": "A", "text": "Il Regolamento Europeo eIDAS n. 910/2014" },
+      { "id": "B", "text": "Il Decreto Legislativo 7 marzo 2005, n. 82" },
+      { "id": "C", "text": "La Legge 7 agosto 1990, n. 241" },
+      { "id": "D", "text": "Il D.P.R. 28 dicembre 2000, n. 445" }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il Codice dell'Amministrazione Digitale (CAD) è stato istituito con il Decreto Legislativo 7 marzo 2005, n. 82. È il testo unico che raccoglie e organizza le norme sulla digitalizzazione della Pubblica Amministrazione.",
+    "hint": "È un decreto legislativo emanato nel 2005.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_CAD_002",
+    "question": "Ai sensi dell'art. 2 del CAD, a quali soggetti NON si applicano in via generale le disposizioni del codice?",
+    "options": [
+      { "id": "A", "text": "Alle pubbliche amministrazioni regionali e locali" },
+      { "id": "B", "text": "Ai gestori di servizi pubblici" },
+      { "id": "C", "text": "Ai corpi armati dello Stato e alle forze di polizia, limitatamente alle attività di ordine e sicurezza pubblica" },
+      { "id": "D", "text": "Alle società a controllo pubblico" }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Ai sensi dell'art. 2, comma 6 del CAD, le disposizioni del codice si applicano al personale militare e alle forze di polizia solo per quanto non diversamente disciplinato dalle rispettive norme. Per le attività di ordine e sicurezza pubblica si applicano particolari deroghe per ragioni di sicurezza nazionale.",
+    "hint": "Ci sono specifiche deroghe per la sicurezza nazionale e l'ordine pubblico.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_CAD_003",
+    "question": "Qual è la definizione corretta di \"documento informatico\" fornita dall'art. 1 del CAD?",
+    "options": [
+      { "id": "A", "text": "La rappresentazione informatica di atti, fatti o dati giuridicamente rilevanti" },
+      { "id": "B", "text": "Qualsiasi file di testo salvato in formato PDF o Word" },
+      { "id": "C", "text": "Un messaggio inviato tramite posta elettronica certificata (PEC)" },
+      { "id": "D", "text": "Un documento analogico digitalizzato tramite scanner e firmato digitalmente" }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 1, comma 1, lett. p) del CAD definisce il documento informatico come 'la rappresentazione informatica di atti, fatti o dati giuridicamente rilevanti'.",
+    "hint": "È la definizione più generale e astratta, non legata a uno specifico formato o mezzo di trasmissione.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_CAD_004",
+    "question": "Qual es la principale caratteristica che differenzia la Posta Elettronica Certificata (PEC) dalla posta elettronica ordinaria?",
+    "options": [
+      { "id": "A", "text": "La PEC memorizza tutti i messaggi su un server sicuro del Ministero dell'Interno" },
+      { "id": "B", "text": "La PEC richiede obbligatoriamente l'uso della firma digitale per ogni messaggio inviato" },
+      { "id": "C", "text": "La PEC fornisce al mittente la ricevuta di invio e di avvenuta consegna, aventi valore legale opponibile a terzi" },
+      { "id": "D", "text": "La PEC consente di inviare messaggi solo a soggetti della Pubblica Amministrazione" }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "La PEC fornisce la certezza legale dell'invio e della consegna del messaggio (con data e ora certe), equiparando la trasmissione all'invio di una raccomandata con ricevuta di ritorno.",
+    "hint": "Pensa al valore legale di invio e consegna garantito dai gestori di posta certificata.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_CAD_005",
+    "question": "Che cosa si intende per \"domicilio digitale\" ai sensi del CAD?",
+    "options": [
+      { "id": "A", "text": "L'indirizzo di residenza fisica del cittadino registrato sul portale del proprio Comune" },
+      { "id": "B", "text": "L'indirizzo IP del computer da cui l'utente effettua la connessione ai servizi della PA" },
+      { "id": "C", "text": "La casella postale fisica abilitata alla ricezione di raccomandate elettroniche" },
+      { "id": "D", "text": "L'indirizzo elettronico inserito in un elenco pubblico, presso cui ricevere comunicazioni ufficiali aventi valore legale" }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Il domicilio digitale è un indirizzo elettronico eletto presso un servizio di posta elettronica certificata (PEC) o un servizio di recapito certificato qualificato, valido per ricevere comunicazioni legali della PA.",
+    "hint": "È l'equivalente digitale della cassetta delle lettere per le comunicazioni con valore di notifica.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_CAD_006",
+    "question": "Quale delle seguenti definizioni descrive lo SPID (Sistema Pubblico di Identità Digitale)?",
+    "options": [
+      { "id": "A", "text": "La tessera magnetica rilasciata dall'Agenzia delle Entrate per accedere ai servizi fiscali" },
+      { "id": "B", "text": "Un sistema che permette a cittadini e imprese di accedere ai servizi online della PA e dei privati aderenti con un'unica identità digitale" },
+      { "id": "C", "text": "Il software di firma digitale distribuito gratuitamente dall'AgID" },
+      { "id": "D", "text": "Il sistema di posta elettronica certificata riservato ai dipendenti pubblici" }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Lo SPID è il sistema pubblico di identità digitale che consente a cittadini e imprese di accedere, tramite credenziali uniche, ai servizi online della Pubblica Amministrazione e dei soggetti privati aderenti.",
+    "hint": "Serve per l'autenticazione univoca con credenziali uniche.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_CAD_007",
+    "question": "Quale organo istituzionale coordina e attua le politiche per la digitalizzazione e l'innovazione tecnologica in Italia, dettando le Linee Guida del CAD?",
+    "options": [
+      { "id": "A", "text": "L'Agenzia per l'Italia Digitale (AgID)" },
+      { "id": "B", "text": "L'Autorità Garante per la Protezione dei Dati Personali" },
+      { "id": "C", "text": "Il Ministero dell'Economia e delle Finanze" },
+      { "id": "D", "text": "L'Autorità Garante della Concorrenza e del Mercato" }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'AgID (Agenzia per l'Italia Digitale) è l'agenzia tecnica della Presidenza del Consiglio dei Ministri preposta a dettare le regole tecniche e le Linee Guida per l'attuazione del CAD.",
+    "hint": "È l'agenzia il cui acronimo inizia con 'Ag' e finisce con 'ID'.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_CAD_008",
+    "question": "Che cos'è l'INAD ai sensi delle modifiche introdotte al CAD?",
+    "options": [
+      { "id": "A", "text": "L'Indice Nazionale delle Amministrazioni Digitali" },
+      { "id": "B", "text": "L'Istituto Nazionale per l'Agenda Digitale" },
+      { "id": "C", "text": "L'Indice Nazionale dei Domicili Digitali delle persone fisiche, dei professionisti e degli enti di diritto privato" },
+      { "id": "D", "text": "L'Indice Nazionale degli Adempimenti Digitali delle imprese" }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'INAD è l'Indice Nazionale dei Domicili Digitali istituito dall'art. 6-quater del CAD, in cui i cittadini possono registrare la propria PEC per ricevere le comunicazioni con valore legale della PA.",
+    "hint": "È l'indice pubblico rivolto principalmente alle persone fisiche e ai soggetti privati non iscritti a registri professionali.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_CAD_009",
+    "question": "Quanti livelli di sicurezza sono previsti per l'autenticazione tramite SPID?",
+    "options": [
+      { "id": "A", "text": "Due livelli (semplice e avanzato)" },
+      { "id": "B", "text": "Quattro livelli (da 1 a 4)" },
+      { "id": "C", "text": "Cinque livelli, a seconda della complessità del servizio pubblico" },
+      { "id": "D", "text": "Tre livelli (basso, medio, alto)" }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Lo SPID prevede 3 livelli di sicurezza (Livello 1: nome utente + password; Livello 2: password + OTP; Livello 3: autenticazione basata su certificati e supporti fisici crittografici).",
+    "hint": "Il livello più alto richiede un supporto hardware crittografico.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_CAD_010",
+    "question": "Qual è l'età minima per poter richiedere le credenziali SPID in Italia?",
+    "options": [
+      { "id": "A", "text": "18 anni compiuti" },
+      { "id": "B", "text": "5 anni (SPID per minori, con la supervisione dei genitori)" },
+      { "id": "C", "text": "14 anni compiuti" },
+      { "id": "D", "text": "16 anni compiuti" }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Dal 2022 è possibile richiedere lo SPID anche per i minori a partire dai 5 anni di età, su richiesta dei genitori o di chi esercita la responsabilità genitoriale.",
+    "hint": "Anche i bambini in età scolare possono averlo per i servizi scolastici, sotto la supervisione genitoriale.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_CAD_011",
+    "question": "Quale documento elettronico consente di attestare l'identità del cittadino sia dal punto di vista fisico che digitale, ed è dotato di un microchip contenente le impronte digitali?",
+    "options": [
+      { "id": "A", "text": "La Carta d'Identità Elettronica (CIE)" },
+      { "id": "B", "text": "La Carta Nazionale dei Servizi (CNS)" },
+      { "id": "C", "text": "La tessera sanitaria elettronica" },
+      { "id": "D", "text": "Il passaporto telematico" }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La CIE (Carta d'Identità Elettronica) è il documento d'identità personale rilasciato dal Ministero dell'Interno che abbina l'identificazione fisica (dati biometrici e impronte digitali) a quella informatica tramite chip NFC.",
+    "hint": "Sostituisce la carta d'identità cartacea ed ha valore di documento di viaggio in UE.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_CAD_012",
+    "question": "Quale tipologia di firma elettronica è considerata equivalente alla firma autografa sulla base dell'art. 2702 del Codice Civile senza riserve?",
+    "options": [
+      { "id": "A", "text": "La Firma Elettronica Semplice (FES)" },
+      { "id": "B", "text": "La Firma Elettronica Avanzata (FEA)" },
+      { "id": "C", "text": "La firma scannerizzata apposta come immagine sul documento" },
+      { "id": "D", "text": "La Firma Elettronica Qualificata (FEQ) o Firma Digitale" }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "La Firma Elettronica Qualificata (FEQ) e la Firma Digitale sono le tipologie più forti che garantiscono l'efficacia della scrittura privata ex art. 2702 c.c., e il firmatario deve dimostrare il furto d'identità se contesta la firma.",
+    "hint": "È l'unica firma basata su un certificato qualificato rilasciato da un certificatore accreditato.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_CAD_013",
+    "question": "Cos'è la conservazione sostitutiva (o conservazione a norma) secondo il CAD?",
+    "options": [
+      { "id": "A", "text": "Un semplice backup dei file su un hard disk esterno o in cloud" },
+      { "id": "B", "text": "La digitalizzazione dei documenti cartacei e la loro successiva distruzione senza regole specifiche" },
+      { "id": "C", "text": "Un processo normato che garantisce l'autenticità, l'integrità, la leggibilità e la reperibilità dei documenti informatici nel tempo" },
+      { "id": "D", "text": "L'archiviazione cartacea dei documenti informatici stampati su carta speciale" }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "La conservazione a norma assicura che i documenti informatici mantengano il loro valore legale e fiscale nel tempo attraverso procedure definite da AgID.",
+    "hint": "Assicura la validità dei documenti digitali nel tempo e la loro conformità alla legge.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_CAD_014",
+    "question": "Chi gestisce l'Indice Nazionale degli Indirizzi PEC delle imprese e dei professionisti (INI-PEC)?",
+    "options": [
+      { "id": "A", "text": "L'Agenzia per l'Italia Digitale (AgID)" },
+      { "id": "B", "text": "Il Ministero delle Imprese e del Made in Italy (MIMIT)" },
+      { "id": "C", "text": "L'INPS" },
+      { "id": "D", "text": "L'Autorità Garante della Privacy" }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'INI-PEC è istituito presso il Ministero delle Imprese e del Made in Italy (ex Ministero dello Sviluppo Economico) e raccoglie gli indirizzi PEC delle imprese e dei professionisti.",
+    "hint": "È il Ministero competente per lo sviluppo economico e le imprese.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_CAD_015",
+    "question": "Quale dei seguenti è il portale web unico attraverso il quale è possibile consultare i domicili digitali delle pubbliche amministrazioni italiane?",
+    "options": [
+      { "id": "A", "text": "Il portale INAD" },
+      { "id": "B", "text": "Il sito internet dell'Agenzia delle Entrate" },
+      { "id": "C", "text": "Il portale INI-PEC" },
+      { "id": "D", "text": "L'Indice dei domicili digitali delle pubbliche amministrazioni e dei gestori di pubblici servizi (IPA)" }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'IPA (Indice della Pubblica Amministrazione) è l'elenco ufficiale contenente tutti i domicili digitali (PEC) e le informazioni di riferimento di tutte le pubbliche amministrazioni e gestori di pubblici servizi.",
+    "hint": "L'acronimo indica l'Indice della Pubblica Amministrazione.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_CAD_016",
+    "question": "Ai sensi dell'art. 3 del CAD, chi ha diritto all'uso delle tecnologie digitali nei rapporti con la PA?",
+    "options": [
+      { "id": "A", "text": "Esclusivamente i cittadini italiani maggiorenni" },
+      { "id": "B", "text": "Chiunque, compresi i cittadini stranieri e le imprese, per l'accesso e l'invio di documenti" },
+      { "id": "C", "text": "Solo le imprese e i professionisti iscritti alla Camera di Commercio" },
+      { "id": "D", "text": "Solo i dipendenti pubblici per motivi di servizio" }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 3 del CAD riconosce a 'chiunque' (cittadini, residenti, imprese, stranieri) il diritto di usare le tecnologie dell'informazione e della comunicazione nei rapporti con le pubbliche amministrazioni.",
+    "hint": "È un diritto soggettivo generale e inclusivo.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_CAD_017",
+    "question": "Cosa significa l'acronimo CNS nell'ambito dell'identità digitale e del CAD?",
+    "options": [
+      { "id": "A", "text": "Codice Nazionale di Sicurezza" },
+      { "id": "B", "text": "Centro Nazionale di Supporto" },
+      { "id": "C", "text": "Carta Nazionale dei Servizi" },
+      { "id": "D", "text": "Certificato di Nascita Semplificato" }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "La CNS (Carta Nazionale dei Servizi) è un dispositivo (smart card o chiavetta USB) contenente un certificato digitale di autenticazione personale che permette l'accesso ai servizi della PA.",
+    "hint": "Spesso è integrata nella tessera sanitaria regionale (TS-CNS).",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_CAD_018",
+    "question": "Che valore ha la trasmissione di un documento informatico tramite PEC ai sensi dell'art. 48 del CAD?",
+    "options": [
+      { "id": "A", "text": "Equivale alla notificazione per mezzo della posta nei casi consentiti dalla legge, con valore di raccomandata con ricevuta di ritorno" },
+      { "id": "B", "text": "Sostituisce l'obbligo di apporre la firma digitale al documento allegato" },
+      { "id": "C", "text": "Ha un semplice valore informativo e necessita di successiva conferma cartacea" },
+      { "id": "D", "text": "Vale solo come proposta contrattuale non vincolante" }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La trasmissione del documento informatico per via telematica tramite PEC equivale, salvo che la legge disponga diversamente, alla notificazione per mezzo della posta nei casi consentiti dalla legge ed ha il valore di una raccomandata A.R.",
+    "hint": "Ha la stessa valenza probatoria e legale della raccomandata cartacea con ricevuta di ritorno.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_CAD_019",
+    "question": "Ai sensi del CAD, qual è la differenza fondamentale tra la firma digitale e una firma elettronica avanzata (FEA)?",
+    "options": [
+      { "id": "A", "text": "La firma digitale si basa su un sistema di chiavi asimmetriche (pubblica e privata), mentre la FEA può utilizzare tecnologie differenti (come quella grafometrica) pur rispettando i requisiti di sicurezza previsti" },
+      { "id": "B", "text": "La FEA ha un valore legale superiore alla firma digitale in ambito giudiziario" },
+      { "id": "C", "text": "La firma digitale può essere rilasciata solo da enti pubblici, mentre la FEA solo da privati" },
+      { "id": "D", "text": "La FEA non richiede l'identificazione del firmatario al momento del rilascio" }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La firma digitale è un tipo particolare di firma qualificata basata su crittografia asimmetrica. La FEA è una categoria più ampia che garantisce l'univocità, il controllo esclusivo del firmatario e l'integrità del documento, ma può basarsi anche su dati biometrici (firma grafometrica).",
+    "hint": "La firma digitale è una sottospecie della firma elettronica qualificata, che a sua volta fa parte della famiglia delle firme avanzate.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_CAD_020",
+    "question": "In quale caso l'efficacia probatoria del documento informatico sottoscritto con Firma Elettronica Semplice (FES) soddisfa il requisito della forma scritta?",
+    "options": [
+      { "id": "A", "text": "In nessun caso, la FES è considerata nulla" },
+      { "id": "B", "text": "Sempre, è equiparata automaticamente alla scrittura privata" },
+      { "id": "C", "text": "È liberamente valutabile in giudizio, tenuto conto delle sue caratteristiche di oggettività, integrità, leggibilità e immodificabilità" },
+      { "id": "D", "text": "Solo se il documento è memorizzato su un server pubblico registrato presso AgID" }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Ai sensi dell'art. 20, comma 1-bis del CAD, l'idoneità del documento informatico a soddisfare il requisito della forma scritta e il suo valore probatorio sono liberamente valutabili in giudizio, tenuto conto delle caratteristiche tecniche del documento.",
+    "hint": "Spetta al giudice decidere sul valore probatorio in base alle evidenze tecniche.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_CAD_021",
+    "question": "Chi è incaricato di verificare la conformità dei sistemi di conservazione delle PA alle Linee Guida AgID?",
+    "options": [
+      { "id": "A", "text": "L'Autorità Garante per la Privacy" },
+      { "id": "B", "text": "Il Responsabile della Conservazione all'interno dell'ente, in conformità con i requisiti di AgID ed eventualmente avvalendosi di soggetti iscritti al marketplace cloud di ACN/AgID" },
+      { "id": "C", "text": "Esclusivamente la Corte dei Conti durante le verifiche annuali di bilancio" },
+      { "id": "D", "text": "L'Istituto Centrale per gli Archivi (ICAR) per ogni singolo documento" }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il Responsabile della Conservazione è la figura interna dell'ente che risponde della conformità del sistema di conservazione e dell'adozione del relativo Manuale, pur potendo affidare la conservazione a conservatori esterni qualificati.",
+    "hint": "È un ruolo interno alla PA che risponde legalmente del processo di conservazione.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_CAD_022",
+    "question": "Chi nomina il Responsabile per la Transizione Digitale (RTD) all'interno di una Pubblica Amministrazione?",
+    "options": [
+      { "id": "A", "text": "L'Agenzia per l'Italia Digitale (AgID) con decreto direttoriale" },
+      { "id": "B", "text": "Il Responsabile per la prevenzione della corruzione e della trasparenza (RPCT)" },
+      { "id": "C", "text": "Il Ministro per la Pubblica Amministrazione e la Semplificazione" },
+      { "id": "D", "text": "L'organo di vertice dell'amministrazione" }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Ai sensi dell'art. 17 del CAD, ciascuna amministrazione affida a un unico ufficio dirigenziale generale la transizione al digitale. Il Responsabile (RTD) risponde direttamente all'organo di vertice dell'amministrazione (che provvede alla nomina).",
+    "hint": "La nomina spetta all'organo di vertice politico dell'ente (es. Sindaco nel Comune, Ministro nel Ministero).",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_CAD_023",
+    "question": "Cosa accade ai sensi dell'art. 18-bis del CAD in caso di violazione delle Linee Guida emanate dall'AgID da parte di una PA?",
+    "options": [
+      { "id": "A", "text": "L'AgID può applicare sanzioni amministrative pecuniarie e la violazione rileva ai fini della valutazione delle performance e della responsabilità dirigenziale" },
+      { "id": "B", "text": "L'amministrazione viene commissariata d'ufficio dal Prefetto" },
+      { "id": "C", "text": "Tutti i contratti firmati digitalmente dall'amministrazione inadempiente diventano immediatamente nulli" },
+      { "id": "D", "text": "L'AgID sospende l'erogazione di fondi europei all'ente" }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 18-bis del CAD attribuisce ad AgID poteri di vigilanza sul rispetto del codice e sanzionatori nei confronti delle PA inadempienti. Inoltre, le violazioni sono rilevanti ai fini della responsabilità dirigenziale e disciplinare.",
+    "hint": "La violazione incide sulla valutazione delle performance dirigenziali e comporta possibili sanzioni pecuniarie.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_CAD_024",
+    "question": "Quale dei seguenti elementi è un requisito essenziale per la validità della Firma Elettronica Avanzata (FEA) ai sensi delle regole tecniche italiane?",
+    "options": [
+      { "id": "A", "text": "L'uso di un lettore di smart card collegato al computer" },
+      { "id": "B", "text": "La dichiarazione di accettazione da parte del destinatario del documento firmato" },
+      { "id": "C", "text": "L'identificazione del firmatario e la connessione univoca della firma al firmatario, con controllo esclusivo del mezzo di firma" },
+      { "id": "D", "text": "La certificazione preventiva da parte di un notaio pubblico" }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "I requisiti della FEA (art. 56 D.P.C.M. 22 febbraio 2013) prevedono l'identificazione del firmatario, la connessione univoca della firma, il controllo esclusivo del firmatario sui mezzi di firma e la rilevabilità di modifiche successive al documento.",
+    "hint": "I requisiti riguardano l'identificazione certa, il controllo esclusivo dei dati di firma e l'integrità del file sottoscritto.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_CAD_025",
+    "question": "In materia di pagamenti verso le Pubbliche Amministrazioni, quale obbligo introduce l'art. 5 del CAD?",
+    "options": [
+      { "id": "A", "text": "Le PA devono accettare esclusivamente pagamenti in contanti presso gli sportelli tesoreria" },
+      { "id": "B", "text": "Le PA devono consentire l'uso dei sistemi di pagamento elettronici, integrandosi con la piattaforma pagoPA" },
+      { "id": "C", "text": "Le PA possono accettare pagamenti elettronici solo per importi superiori a 100 euro" },
+      { "id": "D", "text": "I pagamenti devono avvenire solo tramite bonifico bancario o postale tradizionale" }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 5 del CAD impone l'obbligo alle amministrazioni pubbliche di accettare i pagamenti elettronici a qualsiasi titolo dovuti attraverso la piattaforma pagoPA.",
+    "hint": "È la piattaforma nazionale di pagamento elettronico per la PA.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_CAD_026",
+    "question": "Che valore ha l'apposizione di una marca temporale (validazione temporale) a un documento informatico firmato digitalmente?",
+    "options": [
+      { "id": "A", "text": "Rende il documento leggibile solo per un determinato periodo di tempo" },
+      { "id": "B", "text": "Rinnova automaticamente il certificato di firma digitale del firmatario per altri tre anni" },
+      { "id": "C", "text": "Sostituisce l'obbligo di inserire il codice fiscale nel documento" },
+      { "id": "D", "text": "Consente di associare una data e un'ora certe opponibili a terzi, mantenendo la validità legale della firma anche dopo la scadenza o revoca del certificato" }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "La marca temporale attesta l'esistenza del documento a una data e un'ora certe e rende la firma digitale valida e opponibile anche qualora il certificato di firma scada o venga revocato successivamente.",
+    "hint": "Serve a cristallizzare il momento temporale in cui è stata apposta la firma, proteggendo il documento dalla successiva scadenza del certificato.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_CAD_027",
+    "question": "Ai sensi dell'art. 65 del CAD, quando le istanze e le dichiarazioni inviate per via telematica alle PA sono considerate valide?",
+    "options": [
+      { "id": "A", "text": "Solo se trasmesse dopo le ore 20:00 per consentire l'elaborazione notturna dei sistemi" },
+      { "id": "B", "text": "Se sottoscritte con firma digitale/qualificata/avanzata, oppure se l'autore è identificato tramite SPID/CIE/CNS o se inviate tramite PEC nei casi consentiti" },
+      { "id": "C", "text": "Solo se accompagnate da copia fotostatica firmata a mano del documento d'identità in formato JPEG" },
+      { "id": "D", "text": "Esclusivamente se inviate tramite un ufficio postale autorizzato" }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 65 stabilisce che le istanze e le dichiarazioni presentate alle PA sono valide se firmate con firma digitale, avanzata o qualificata, o se l'autore è identificato tramite SPID, CIE, CNS, oppure se trasmesse tramite PEC (con specifiche condizioni).",
+    "hint": "L'identificazione forte (SPID/CIE) o la firma elettronica qualificata qualificano validamente l'istanza.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_CAD_028",
+    "question": "Cos'è il \"Punto di Accesso Telematico\" per i dispositivi mobili introdotto dall'art. 64-bis del CAD?",
+    "options": [
+      { "id": "A", "text": "L'applicazione per dispositivi mobili (App IO) che consente a cittadini e imprese di fruire in modo integrato di tutti i servizi in rete delle PA" },
+      { "id": "B", "text": "Una piattaforma di messaggistica interna per i dipendenti pubblici" },
+      { "id": "C", "text": "Un hotspot Wi-Fi gratuito installato presso gli uffici del Comune" },
+      { "id": "D", "text": "Un'applicazione per tracciare le presenze dei dipendenti statali in smart working" }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il punto di accesso telematico per dispositivi mobili (App IO), previsto dall'art. 64-bis del CAD, consente ai cittadini di interagire in modo integrato con i servizi pubblici, ricevere notifiche e pagare tributi.",
+    "hint": "È l'applicazione per smartphone tramite cui si ricevono i messaggi dei Comuni, del bollo auto e si fanno pagamenti pagoPA.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_CAD_029",
+    "question": "Quale tipologia di firma elettronica garantisce l'integrità del documento ma non si basa necessariamente su crittografia asimmetrica e può essere implementata anche attraverso codici OTP (One Time Password)?",
+    "options": [
+      { "id": "A", "text": "La Firma Elettronica Qualificata (FEQ)" },
+      { "id": "B", "text": "La firma autografa analogica" },
+      { "id": "C", "text": "La Firma Elettronica Avanzata (FEA)" },
+      { "id": "D", "text": "La Firma Elettronica Semplice con certificato qualificato" }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "La Firma Elettronica Avanzata (FEA) può essere realizzata anche tramite autenticazione forte e codici OTP (ad esempio nei servizi bancari o assicurativi), purché garantisca l'univocità, il controllo esclusivo del firmatario e l'integrità del documento.",
+    "hint": "Non richiede un certificato di firma qualificata né chiavi asimmetriche proprietarie, ma garantisce comunque l'integrità e il legame univoco.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_CAD_030",
+    "question": "Qual è la corretta procedura per disconoscere la firma apposta su un documento con firma digitale o firma qualificata?",
+    "options": [
+      { "id": "A", "text": "È sufficiente una semplice dichiarazione contraria in giudizio da parte di chi nega la paternità della firma" },
+      { "id": "B", "text": "Bisogna procedere obbligatoriamente con la querela di falso in via penale come unico rimedio iniziale" },
+      { "id": "C", "text": "Il documento con firma digitale non è mai contestabile in nessun modo ed ha valore assoluto e definitivo" },
+      { "id": "D", "text": "Colui che afferma di non aver apposto la firma deve fornire la prova che il dispositivo di firma è stato utilizzato da terzi a sua insaputa e senza sua colpa (inversione dell'onere della prova)" }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Ai sensi dell'art. 20, comma 1-ter del CAD, l'utilizzo del dispositivo di firma si presume riconducibile al titolare, salvo che questi dia prova contraria (deve cioè dimostrare che terzi l'hanno usato senza il suo consenso e che ha custodito diligentemente il dispositivo).",
+    "hint": "Vige una presunzione di paternità che inverte l'onere della prova in capo al titolare del certificato.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_CAD_031",
+    "question": "Quale formato di firma elettronica (regolato a livello europeo ed italiano) si applica esclusivamente ai documenti in formato PDF, inserendo la firma direttamente nei metadati del file senza alterarne l'estensione originale?",
+    "options": [
+      { "id": "A", "text": "CAdES" },
+      { "id": "B", "text": "PAdES" },
+      { "id": "C", "text": "XAdES" },
+      { "id": "D", "text": "XML-DSig" }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il formato PAdES (PDF Advanced Electronic Signatures) è specifico per i file PDF. La firma è incorporata nel documento stesso e il file conserva l'estensione '.pdf'.",
+    "hint": "La 'P' all'inizio dell'acronimo indica che si applica specificamente ai documenti PDF.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_CAD_032",
+    "question": "Cosa stabilisce l'art. 22 del CAD in relazione alle copie informatiche di documenti analogici (es. scansione cartacea)?",
+    "options": [
+      { "id": "A", "text": "Non hanno alcun valore legale e sono utilizzabili solo a fini statistici o interni" },
+      { "id": "B", "text": "Hanno valore legale solo se il documento originale cartaceo viene distrutto davanti a testimoni" },
+      { "id": "C", "text": "Hanno la stessa efficacia probatoria dell'originale da cui sono tratte se la loro conformità all'originale è attestata da un pubblico ufficiale o se la conformità non è espressamente disconosciuta" },
+      { "id": "D", "text": "Hanno la stessa efficacia dell'originale solo se depositate presso un notaio entro 24 ore dalla scansione" }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Le copie informatiche di documenti analogici hanno la stessa efficacia probatoria dell'originale si la conformità non è espressamente disconosciuta o se è attestata da un pubblico ufficiale autorizzato, secondo le Linee Guida AgID.",
+    "hint": "Il disconoscimento deve essere espresso e motivato, altrimenti la copia ha lo stesso valore dell'originale.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_CAD_033",
+    "question": "Quale principio è sancito dall'art. 50 del CAD in merito al riutilizzo dei dati pubblici?",
+    "options": [
+      { "id": "A", "text": "I dati delle PA sono di norma rilasciati in formato aperto (open data) e sono resi accessibili e fruibili gratuitamente per le altre PA e privati, salvo eccezioni di legge" },
+      { "id": "B", "text": "I dati delle PA sono protetti da segreto industriale e non possono essere ceduti a privati" },
+      { "id": "C", "text": "Qualsiasi dato della PA è liberamente consultabile a pagamento tramite una tariffa fissa stabilita dal Ministero dell'Economia" },
+      { "id": "D", "text": "I dati possono essere condivisi solo tra amministrazioni centrali dello Stato con esclusione degli enti locali" }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 50 del CAD (Disponibilità dei dati delle pubbliche amministrazioni) stabilisce che i dati pubblici devono essere accessibili e fruibili gratuitamente e rilasciati in formato aperto, salvi i casi di protezione dei dati personali o segreto.",
+    "hint": "Riguarda l'open data di default per valorizzare il patrimonio informativo pubblico.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_CAD_034",
+    "question": "Cos'è il \"Manuale di Gestione Documentale\" che ciascuna PA è tenuta a redigere ai sensi delle Linee Guida AgID?",
+    "options": [
+      { "id": "A", "text": "Un manuale d'uso dei computer forniti ai dipendenti pubblici" },
+      { "id": "B", "text": "Il documento che descrive il sistema di gestione informatica dei documenti, i flussi documentali, la classificazione e l'archiviazione corrente e di deposito dell'ente" },
+      { "id": "C", "text": "Il catalogo dei software acquistati dall'amministrazione durante l'anno finanziario" },
+      { "id": "D", "text": "Un registro contenente i dati personali sensibili di tutti gli utenti registrati ai servizi online" }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il Manuale di Gestione Documentale descrive le modalità operative per la formazione, protocollazione, classificazione, fascicolazione e conservazione dei documenti informatici all'interno dell'amministrazione.",
+    "hint": "Descrive l'intero ciclo di vita del documento all'interno dell'ente, dal protocollo all'archivio.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_CAD_035",
+    "question": "Qual è la durata legale della conservazione dei documenti informatici fiscali e tributari (es. fatture elettroniche) secondo la normativa vigente?",
+    "options": [
+      { "id": "A", "text": "5 anni dalla data di emissione" },
+      { "id": "B", "text": "3 anni, termine di prescrizione degli accertamenti fiscali ordinari" },
+      { "id": "C", "text": "10 anni, in conformità con quanto previsto dall'art. 2220 del Codice Civile" },
+      { "id": "D", "text": "Per sempre, non è mai consentito distruggere documenti fiscali digitali" }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "I documenti contabili e fiscali (comprese le fatture elettroniche) devono essere conservati per 10 anni ai sensi dell'art. 2220 c.c. e delle disposizioni tributarie applicabili.",
+    "hint": "Si allinea alla durata di conservazione delle scritture contabili civilistiche obbligatorie.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_CAD_036",
+    "question": "Ai sensi dell'art. 1, comma 1, lett. i-bis) del CAD, cosa si intende specificamente per \"duplicato informatico\"?",
+    "options": [
+      { "id": "A", "text": "Una copia cartacea stampata da un file digitale originale" },
+      { "id": "B", "text": "Una scansione PDF firmata digitalmente dal destinatario del documento" },
+      { "id": "C", "text": "Un file convertito in un formato diverso ma con lo stesso testo (es. da Word a PDF)" },
+      { "id": "D", "text": "Il documento informatico ottenuto mediante la memorizzazione, sullo stesso supporto o su supporti diversi, della medesima sequenza di bit del documento originale" }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Il duplicato informatico è un clone esatto dell'originale che possiede la medesima sequenza di bit (hash identico). Per questo motivo, ha il medesimo valore giuridico dell'originale senza alcuna attestazione di conformità.",
+    "hint": "È una copia byte-per-byte, indistinguibile matematicamente dal file originale.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_DIR_CAD_037",
+    "question": "Qual è la principale differenza legale, ai sensi dell'art. 23-bis del CAD, tra un \"duplicato informatico\" e una \"copia informatica\" di un documento informatico?",
+    "options": [
+      { "id": "A", "text": "Il duplicato ha lo stesso valore giuridico del documento originale senza necessità di attestazione di conformità; la copia informatica ha la stessa efficacia dell'originale solo se la conformità è attestata o non disconosciuta" },
+      { "id": "B", "text": "Il duplicato informatico ha valore legale solo se asseverato da un perito del tribunale" },
+      { "id": "C", "text": "La copia informatica ha valore legale superiore al duplicato informatico" },
+      { "id": "D", "text": "Il duplicato informatico si applica solo ai documenti privati, mentre la copia solo a quelli pubblici" }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Ai sensi dell'art. 23-bis del CAD, i duplicati informatici hanno lo stesso valore legale del documento originale senza bisogno di attestazioni. Le copie informatiche di documenti informatici, invece, possono richiedere un'attestazione di conformità per avere la stessa efficacia probatoria dell'originale, qualora la conformità sia disconosciuta.",
+    "hint": "Il duplicato ha un'integrità intrinseca (medesima sequenza di bit), la copia può differire nei metadati o nel formato rendendo necessaria l'attestazione in caso di contestazione.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_DIR_CAD_038",
+    "question": "Nel processo di conservazione a norma dei documenti informatici, quale delle seguenti figure delinea le politiche di conservazione, redige il Manuale di Conservazione e verifica l'integrità del sistema, e in quale misura tale ruolo può essere delegato all'esterno della PA?",
+    "options": [
+      { "id": "A", "text": "Il Responsabile per la Transizione Digitale (RTD), che può delegare l'intero ruolo all'esterno senza limiti" },
+      { "id": "B", "text": "Il Responsabile della Conservazione, che deve essere un soggetto interno alla PA e il cui ruolo è indelegabile all'esterno, sebbene l'esecuzione delle attività tecnologiche possa essere affidata a conservatori accreditati/qualificati" },
+      { "id": "C", "text": "Il Responsabile della Protezione Dati (DPO), delegabile solo a soggetti pubblici accreditati" },
+      { "id": "D", "text": "Il Conservatore esterno accreditato, che assume automaticamente la responsabilità legale e di ruolo per conto della PA" }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il Responsabile della Conservazione è un ruolo interno all'amministrazione che non può essere delegato a soggetti esterni (Linee Guida AgID), in quanto deve vigilare sulle politiche dell'ente. È ammesso l'affidamento delle sole attività tecnologiche di conservazione (outsourcing) a terzi qualificati.",
+    "hint": "La titolarità e la responsabilità del ruolo devono rimanere all'interno dell'amministrazione pubblica, mentre il servizio tecnologico può essere esternalizzato.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_DIR_CAD_039",
+    "question": "Nel modello di conservazione dei documenti informatici basato sullo standard internazionale OAIS (recepito da AgID), in quale fase del processo viene generato il \"Pacchetto di Distribuzione\" (DIP)?",
+    "options": [
+      { "id": "A", "text": "Al momento del versamento dei documenti da parte del produttore al sistema di conservazione" },
+      { "id": "B", "text": "Durante l'archiviazione a lungo termine nei server crittografici" },
+      { "id": "C", "text": "Quando un utente abilitato richiede l'accesso o la consultazione dei documenti conservati e il sistema estrae i file e i relativi metadati" },
+      { "id": "D", "text": "Solo in caso di distruzione programmata e scarto dei documenti archiviati" }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Lo standard OAIS definisce tre pacchetti informativi: Pacchetto di Versamento (SIP - inviato dal produttore), Pacchetto di Archiviazione (AIP - conservato nel sistema) e Pacchetto di Distribuzione (DIP - fornito all'utente che ne fa richiesta).",
+    "hint": "È il pacchetto che viene distribuito/inviato all'utente finale a seguito di una richiesta di consultazione.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_DIR_CAD_040",
+    "question": "Ai sensi dell'art. 21, comma 2-bis del CAD, per quali atti è richiesta obbligatoriamente, a pena di nullità, la firma elettronica qualificata (FEQ) o la firma digitale, non essendo sufficiente una Firma Elettronica Avanzata (FEA)?",
+    "options": [
+      { "id": "A", "text": "Per i contratti di locazione di beni immobili per una durata non superiore a nove anni" },
+      { "id": "B", "text": "Per le transazioni commerciali tra imprese private relative a beni mobili registrati" },
+      { "id": "C", "text": "Per le delibere del consiglio d'amministrazione delle società a responsabilità limitata" },
+      { "id": "D", "text": "Per i contratti che trasferiscono la proprietà di beni immobili o che costituiscono, modificano o trasferiscono diritti reali di godimento su beni immobili (art. 1350, commi da 1 a 12 del Codice Civile)" }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'art. 21, comma 2-bis del CAD prevede che per le scritture private di cui all'art. 1350 c.c., numeri da 1 a 12 (atti relativi a diritti reali su beni immobili), è richiesta, a pena di nullità, la firma elettronica qualificata o la firma digitale.",
+    "hint": "Riguarda gli atti solenni relativi al trasferimento della proprietà o alla costituzione di diritti reali su beni immobili.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_DIR_CAD_041",
+    "question": "Quali sono le specifiche differenze di autenticazione e sicurezza tecnica tra l'uso della CIE (Carta d'Identità Elettronica) e dello SPID di livello 3?",
+    "options": [
+      { "id": "A", "text": "Lo SPID livello 3 richiede sempre una smart card con lettore a contatto, mentre la CIE può funzionare solo tramite connessione Bluetooth" },
+      { "id": "B", "text": "La CIE richiede la lettura fisica del chip NFC (tramite smartphone o lettore), mentre lo SPID livello 3 si basa su chiavi crittografiche che possono risiedere anche su token USB o smart card certificate rilasciate dall'Identity Provider" },
+      { "id": "C", "text": "Lo SPID livello 3 non ha valore legale per i servizi ad alta sicurezza del Ministero dell'Interno, che accettano solo la CIE" },
+      { "id": "D", "text": "La CIE offre un livello di sicurezza inferiore rispetto allo SPID di livello 3" }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Sia la CIE sia lo SPID livello 3 offrono il massimo livello di sicurezza basato su hardware crittografico. La CIE richiede la lettura fisica del chip NFC (tramite smartphone o lettore collegato), mentre lo SPID 3 può basarsi su chiavi memorizzate su supporti crittografici dedicati (smart card/token) forniti dal gestore dell'identità.",
+    "hint": "Pensa al chip fisico integrato nella CIE che necessita della tecnologia NFC per l'autenticazione.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_DIR_CAD_042",
+    "question": "Qual è la validità giuridica di una firma digitale apposta su un documento informatico a cui è associato un certificato elettronico revocato, se la firma è stata apposta PRIMA della revoca del certificato e ciò può essere dimostrato tramite una marca temporale?",
+    "options": [
+      { "id": "A", "text": "La firma digitale rimane valida e opponibile a terzi, in quanto la marca temporale dimostra che la firma è stata apposta prima della revoca del certificato" },
+      { "id": "B", "text": "La firma è comunque nulla a causa dell'avvenuta revoca del certificato" },
+      { "id": "C", "text": "Il documento ha solo valore di firma elettronica semplice (FES) ed è liberamente valutabile dal giudice" },
+      { "id": "D", "text": "Il documento deve essere firmato nuovamente da un pubblico ufficiale per sanare la nullità" }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Ai sensi dell'art. 30, comma 3 del CAD, la revoca o la sospensione hanno effetto dal momento della pubblicazione. Se una marca temporale (o altro mezzo di validazione temporale opponibile) dimostra che la firma è stata apposta prima della revoca/sospensione, la firma digitale rimane pienamente valida e legale.",
+    "hint": "La marca temporale serve proprio a proteggere l'opponibilità delle firme apposte prima che il certificato scada o venga revocato.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_DIR_CAD_043",
+    "question": "Nel contesto della conservazione sostitutiva a norma dei documenti informatici, cosa definiscono i metadati del \"Pacchetto di Versamento\" (SIP)?",
+    "options": [
+      { "id": "A", "text": "I dati personali del programmatore che ha sviluppato l'applicazione di firma" },
+      { "id": "B", "text": "L'elenco degli indirizzi IP dei server di backup dell'amministrazione" },
+      { "id": "C", "text": "Le informazioni necessarie all'identificazione, descrizione e reperibilità del documento, tra cui il produttore, l'impronta informatica (hash), i formati dei file e il riferimento temporale" },
+      { "id": "D", "text": "Le credenziali di accesso amministratore per accedere al database SQL" }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "I metadati del pacchetto di versamento (SIP) contengono i dati strutturati essenziali per descrivere il documento (es. autore, oggetto, hash del file, formato, data di creazione) e assicurarne la corretta indicizzazione e reperibilità futura.",
+    "hint": "Sono le informazioni descrittive e di contesto associate al file per garantirne la ricercabilità e l'autenticità nel tempo.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_DIR_CAD_044",
+    "question": "Ai sensi dell'art. 62 del CAD, quali tipologie di dati anagrafici e registri sono unificati all'interno dell'Anagrafe Nazionale della Popolazione Residente (ANPR)?",
+    "options": [
+      { "id": "A", "text": "Esclusivamente i dati relativi al codice fiscale e alla situazione patrimoniale dei cittadini" },
+      { "id": "B", "text": "I dati relativi al casellario giudiziale e ai carichi pendenti dei residenti in Italia" },
+      { "id": "C", "text": "Le anagrafi dei Comuni e l'indice dei domicili digitali delle persone fisiche" },
+      { "id": "D", "text": "Le anagrafi della popolazione residente dei Comuni italiani e l'Anagrafe degli Italiani Residenti all'Estero (AIRE)" }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'ANPR subentra alle anagrafi dei Comuni e all'Anagrafe degli Italiani Residenti all'Estero (AIRE), costituendo l'unica banca dati nazionale per i dati anagrafici dei cittadini.",
+    "hint": "Unifica l'anagrafe comunale tradizionale e l'anagrafe degli italiani all'estero.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_DIR_CAD_045",
+    "question": "Come è disciplinata dall'art. 23 del CAD la validità delle copie analogiche di documenti informatici (es. stampa cartacea di un atto nativo digitale firmato elettronicamente)?",
+    "options": [
+      { "id": "A", "text": "Non hanno mai alcun valore legale o probatorio fuori dai server dell'amministrazione" },
+      { "id": "B", "text": "Hanno la stessa efficacia dell'originale se la loro conformità all'originale è attestata da un pubblico ufficiale, o se contengono un contrassegno a stampa (es. QR code) tramite cui sia possibile risalire al documento originale sul sito della PA" },
+      { "id": "C", "text": "Hanno sempre valore di copia conforme per legge senza necessità di alcun contrassegno o attestazione" },
+      { "id": "D", "text": "Hanno valore legale solo se autenticate da testimoni oculari al momento della stampa" }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 23 del CAD prevede che le copie analogiche di documenti informatici abbiano la stessa efficacia probatoria dell'originale se la conformità è attestata da un pubblico ufficiale o se è apposto un contrassegno a stampa (timbro digitale o QR code) che consente l'accesso al documento informatico originale conservato dalla PA.",
+    "hint": "Pensa al timbro digitale o al codice a barre bidimensionale (QR code) stampato sui documenti ufficiali come i certificati anagrafici.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_DIR_CAD_046",
+    "question": "Nel formato di firma digitale CAdES, quale file viene generato al termine del processo di sottoscrizione e quale software è necessario per leggerlo?",
+    "options": [
+      { "id": "A", "text": "Viene generato un file con estensione `.p7m` che racchiude il file originale e la firma, richiedendo software specifici per estrarre e leggere l'originale" },
+      { "id": "B", "text": "Viene generato un file con estensione `.pdf` leggibile da qualsiasi browser web comune" },
+      { "id": "C", "text": "Viene generato un archivio `.zip` compresso protetto da password crittografica" },
+      { "id": "D", "text": "Viene generato un file XML con estensione `.xades` leggibile esclusivamente con un database server" }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La firma CAdES produce una busta crittografica con estensione `.p7m` (standard PKCS#7). Essa racchiude il file originale e le informazioni di firma, e richiede un software specifico (es. Dike, GoSign) per estrarre e leggere l'originale.",
+    "hint": "Produce un file con estensione `.p7m`.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_DIR_CAD_047",
+    "question": "Ai sensi delle Linee Guida AgID vigenti, qual è il ruolo del \"Conservatore\" nel sistema di conservazione e quali requisiti deve possedere se è un soggetto privato?",
+    "options": [
+      { "id": "A", "text": "È un programmatore freelance accreditato presso la Camera di Commercio locale" },
+      { "id": "B", "text": "È l'impiegato dell'ufficio protocollo che effettua l'archiviazione fisica della carta" },
+      { "id": "C", "text": "È l'autorità giudiziaria che convalida i sequestri dei server informatici" },
+      { "id": "D", "text": "È il soggetto che gestisce il sistema di conservazione e, se privato, deve essere qualificato e registrato nel marketplace ACN per i servizi cloud per la PA e conforme ai requisiti definiti da AgID" }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Il Conservatore gestisce materialmente il sistema di conservazione. I soggetti privati che intendono svolgere questo ruolo per le PA devono superare una procedura di qualificazione presso l'Agenzia per la Cybersicurezza Nazionale (ACN) ed AgID, dimostrando requisiti organizzativi, di sicurezza e affidabilità.",
+    "hint": "Deve essere un soggetto qualificato iscritto negli elenchi/marketplace delle autorità di vigilanza (AgID/ACN).",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_DIR_CAD_048",
+    "question": "Nel contesto della sicurezza del domicilio digitale, come viene garantita l'integrità e il non ripudio dei messaggi inviati tramite PEC?",
+    "options": [
+      { "id": "A", "text": "Tramite l'obbligo per il destinatario di inviare un SMS di conferma" },
+      { "id": "B", "text": "Attraverso l'uso di firme digitali apposte automaticamente dai gestori PEC sulle ricevute di accettazione e di consegna, che contengono l'impronta (hash) del messaggio originale e l'attestazione temporale" },
+      { "id": "C", "text": "Tramite l'utilizzo di una rete VPN cifrata dedicata esclusivamente ai possessori di PEC" },
+      { "id": "D", "text": "Attraverso la registrazione fisica dei messaggi presso l'ufficio del registro delle imprese" }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "I gestori PEC firmano digitalmente le ricevute di accettazione e consegna inviate al mittente. Queste ricevute racchiudono l'intero messaggio originale (o la sua impronta crittografica) e la validazione temporale, garantendo l'integrità del testo inviato e il non ripudio.",
+    "hint": "Sono le ricevute firmate digitalmente dal gestore PEC a blindare legalmente il contenuto e la data di invio e consegna.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_DIR_CAD_049",
+    "question": "Ai sensi dell'art. 24 del CAD, quale firma elettronica si basa su un sistema di chiavi asimmetriche a coppia, una pubblica e una privata, consentendo al destinatario tramite la chiave pubblica di verificare la provenienza e l'integrità del documento?",
+    "options": [
+      { "id": "A", "text": "Firma elettronica avanzata grafometrica" },
+      { "id": "B", "text": "Firma elettronica semplice con OTP telefonico" },
+      { "id": "C", "text": "Firma digitale" },
+      { "id": "D", "text": "Firma elettronica remota senza certificato" }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'art. 24 del CAD descrive specificamente la firma digitale, definendola come basata su un sistema di chiavi asimmetriche, che consente di verificare la provenienza e l'integrità del documento informatico.",
+    "hint": "Utilizza espressamente la crittografia asimmetrica a doppia chiave.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_DIR_CAD_050",
+    "question": "Che cosa definisce lo standard internazionale ISO 27001 nel contesto della conservazione digitale dei documenti informatici della PA?",
+    "options": [
+      { "id": "A", "text": "Le dimensioni massime in megabyte di un allegato PEC" },
+      { "id": "B", "text": "I requisiti per un Sistema di Gestione della Sicurezza delle Informazioni (SGSI), essenziale per garantire la riservatezza, integrità e disponibilità dei sistemi di conservazione qualificati" },
+      { "id": "C", "text": "Il formato standard del codice sorgente di SPID" },
+      { "id": "D", "text": "Le regole per la redazione del bilancio d'esercizio delle imprese di sviluppo software" }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La certificazione ISO/IEC 27001 è un requisito fondamentale per i conservatori qualificati AgID/ACN, poiché definisce gli standard internazionali per la gestione della sicurezza delle informazioni fisiche e logiche dei sistemi.",
+    "hint": "È la norma internazionale sulla sicurezza delle informazioni.",
+    "level": "avanzato"
+  }
+]

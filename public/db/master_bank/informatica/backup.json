@@ -1,0 +1,1302 @@
+[
+  {
+    "id": "Q_INF_BK_001",
+    "question": "Che cosa si intende con l'acronimo RPO (Recovery Point Objective) in un piano di disaster recovery?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il tempo massimo necessario per ripristinare i sistemi informatici dopo un guasto."
+      },
+      {
+        "id": "B",
+        "text": "La massima quantità di dati, misurata in termini temporali, che l'azienda può permettersi di perdere a causa di un disastro."
+      },
+      {
+        "id": "C",
+        "text": "La percentuale minima di dati che deve essere integra al termine del processo di ripristino."
+      },
+      {
+        "id": "D",
+        "text": "Il costo massimo stimato per il recupero operativo dell'infrastruttura IT."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'RPO (Recovery Point Objective) definisce la massima perdita di dati tollerabile misurata a ritroso nel tempo dal momento del disastro. Determina la frequenza minima necessaria per l'esecuzione dei backup (es. RPO di 4 ore richiede backup almeno ogni 4 ore).",
+    "hint": "Pensa alla perdita di dati espressa come punto nel tempo a cui si deve poter tornare.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_BK_002",
+    "question": "Che cosa rappresenta il parametro RTO (Recovery Time Objective) nei sistemi di backup e recovery?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il tempo trascorso tra l'ultimo backup e il momento del disastro."
+      },
+      {
+        "id": "B",
+        "text": "La finestra temporale giornaliera dedicata all'esecuzione dei backup di sistema."
+      },
+      {
+        "id": "C",
+        "text": "Il tempo massimo pianificato per il ripristino del sistema e dei servizi IT a seguito di un incidente prima che si verifichino conseguenze inaccettabili."
+      },
+      {
+        "id": "D",
+        "text": "La durata massima garantita di integrità dei supporti fisici di memorizzazione (es. nastri)."
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'RTO (Recovery Time Objective) è il tempo massimo tollerabile per ripristinare le normali attività operative o l'infrastruttura IT dopo un'interruzione di servizio. È orientato al tempo di indisponibilità del sistema.",
+    "hint": "Si focalizza sulla velocità di ripristino del servizio e del sistema.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_BK_003",
+    "question": "Quale livello RAID offre esclusivamente prestazioni (striping) senza alcuna ridondanza o tolleranza ai guasti?",
+    "options": [
+      {
+        "id": "A",
+        "text": "RAID 0"
+      },
+      {
+        "id": "B",
+        "text": "RAID 1"
+      },
+      {
+        "id": "C",
+        "text": "RAID 5"
+      },
+      {
+        "id": "D",
+        "text": "RAID 10"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il RAID 0 distribuisce i dati tra due o più dischi (striping) per aumentare le prestazioni di lettura e scrittura. Tuttavia, non offre alcuna ridondanza: se un singolo disco si guasta, tutti i dati dell'array vanno persi.",
+    "hint": "Ha zero ridondanza.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_BK_004",
+    "question": "In una configurazione RAID 1 (Mirroring), come vengono scritti i dati sui dischi?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Suddivisi in blocchi e distribuiti con parità alternata su almeno tre dischi."
+      },
+      {
+        "id": "B",
+        "text": "Duplicati in modo identico su due o più dischi specchiati."
+      },
+      {
+        "id": "C",
+        "text": "Distribuiti in blocchi sequenziali su più dischi per massimizzare la velocità, senza parità."
+      },
+      {
+        "id": "D",
+        "text": "Memorizzati in modo compresso solo su unità a stato solido."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il RAID 1 scrive gli stessi dati contemporaneamente su due o più dischi (mirroring). Questo fornisce una ridondanza del 100%, permettendo al sistema di continuare a funzionare finché almeno un disco del set specchiato è attivo.",
+    "hint": "Pensa all'azione di specchiare.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_BK_005",
+    "question": "Quale tipologia di backup esegue la copia di tutti i dati selezionati, indipendentemente da eventuali modifiche recenti o dal bit di archivio?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Backup differenziale"
+      },
+      {
+        "id": "B",
+        "text": "Backup incrementale"
+      },
+      {
+        "id": "C",
+        "text": "Backup completo (Full)"
+      },
+      {
+        "id": "D",
+        "text": "Backup sintetico"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Il backup completo (o Full backup) copia tutti i file e le cartelle selezionati, azzerando solitamente il bit di archivio. Rappresenta la base di partenza per qualsiasi altra strategia di backup (incrementale o differenziale).",
+    "hint": "Salva tutto, da zero.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_BK_006",
+    "question": "Qual è la differenza fondamentale tra Business Continuity (Continuità Operativa) e Disaster Recovery?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La Business Continuity si applica solo all'hardware, mentre il Disaster Recovery si applica solo al software."
+      },
+      {
+        "id": "B",
+        "text": "Il Disaster Recovery si occupa di mantenere l'azienda sempre attiva durante un evento critico, mentre la Business Continuity interviene solo dopo il ripristino."
+      },
+      {
+        "id": "C",
+        "text": "La Business Continuity è l'insieme di strategie per garantire che i processi aziendali critici continuino a funzionare durante un disastro; il Disaster Recovery è la parte del piano focalizzata sul ripristino dell'infrastruttura IT post-evento."
+      },
+      {
+        "id": "D",
+        "text": "Non vi è alcuna differenza, sono due termini sinonimi usati indifferentemente."
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "La Business Continuity (BC) ha una visione più ampia e organizzativa, mirata a mantenere in funzione le attività aziendali chiave anche durante un'emergenza. Il Disaster Recovery (DR) è un sottoinsieme della BC, focalizzato specificamente sugli aspetti tecnologici e informatici per ripristinare i sistemi all'operatività.",
+    "hint": "Uno riguarda l'intera operatività aziendale, l'altro il recupero dell'IT.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_BK_007",
+    "question": "Qual è il numero minimo di dischi rigidi richiesto per configurare un array RAID 5?",
+    "options": [
+      {
+        "id": "A",
+        "text": "2 dischi"
+      },
+      {
+        "id": "B",
+        "text": "3 dischi"
+      },
+      {
+        "id": "C",
+        "text": "4 dischi"
+      },
+      {
+        "id": "D",
+        "text": "5 dischi"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il RAID 5 distribuisce i dati e le informazioni di parità su tutti i dischi dell'array. Richiede un minimo di 3 dischi per poter calcolare e distribuire correttamente la parità matematica.",
+    "hint": "Uno serve per la parità distribuita, gli altri due per i dati.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_BK_008",
+    "question": "Cosa memorizza un backup di tipo incrementale?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tutti i dati creati o modificati a partire dall'ultimo backup completo."
+      },
+      {
+        "id": "B",
+        "text": "Solo i dati creati o modificati a partire dall'ultimo backup di qualsiasi tipo (sia esso completo o incrementale)."
+      },
+      {
+        "id": "C",
+        "text": "Solo i metadati e la struttura delle cartelle, escludendo i file reali."
+      },
+      {
+        "id": "D",
+        "text": "La copia speculare dell'intero disco fisso comprese le partizioni nascoste."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il backup incrementale copia solo gli elementi che sono cambiati dall'ultimo backup eseguito, che sia esso completo o incrementale. Questo riduce notevolmente lo spazio e il tempo necessari all'esecuzione.",
+    "hint": "Incrementa rispetto all'ultimo backup effettuato in assoluto.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_BK_009",
+    "question": "Cosa memorizza un backup di tipo differenziale?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tutti i dati creati o modificati a partire dall'ultimo backup completo, ignorando eventuali backup intermedi."
+      },
+      {
+        "id": "B",
+        "text": "I dati modificati dall'ultimo backup incrementale."
+      },
+      {
+        "id": "C",
+        "text": "Esclusivamente le differenze di blocco a livello logico del database."
+      },
+      {
+        "id": "D",
+        "text": "I dati eliminati dall'utente per consentirne il recupero."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il backup differenziale copia tutti i file che sono stati modificati o creati a partire dall'ultimo backup completo. A differenza dell'incrementale, non fa riferimento ad altri backup intermedi, rendendo la sua dimensione cumulativa fino al successivo backup completo.",
+    "hint": "Fa sempre riferimento all'ultimo backup completo (Full).",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_BK_010",
+    "question": "Quanti dischi possono guastarsi contemporaneamente in un array RAID 6 senza che si verifichi alcuna perdita di dati?",
+    "options": [
+      {
+        "id": "A",
+        "text": "1 disco"
+      },
+      {
+        "id": "B",
+        "text": "2 dischi"
+      },
+      {
+        "id": "C",
+        "text": "3 dischi"
+      },
+      {
+        "id": "D",
+        "text": "Nessuno, il RAID 6 non tollera guasti."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il RAID 6 utilizza uno schema di doppia parità distribuita (spesso chiamata parità P e Q) su tutti i dischi. Grazie a ciò, l'array è in grado di tollerare il guasto simultaneo di massimo 2 dischi senza subire perdite di dati.",
+    "hint": "Ha una doppia parità distribuita.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_BK_011",
+    "question": "Quale struttura logica descrive correttamente una configurazione RAID 10?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un array in cui i dischi sono prima configurati in striping (RAID 0) e poi specchiati (RAID 1)."
+      },
+      {
+        "id": "B",
+        "text": "Un array in cui i dischi sono prima specchiati a coppie (RAID 1) e i gruppi risultanti sono messi in striping (RAID 0)."
+      },
+      {
+        "id": "C",
+        "text": "Una combinazione di parità distribuita e doppia cifratura hardware dei dischi."
+      },
+      {
+        "id": "D",
+        "text": "Un array di 10 dischi in cui uno solo è dedicato alla parità globale."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il RAID 10 (chiamato anche RAID 1+0) è un array nidificato che unisce i vantaggi del mirroring (RAID 1) e dello striping (RAID 0). Consiste nello creare set di dischi specchiati (RAID 1) e poi distribuire i dati su questi set tramite striping (RAID 0). Richiede un minimo di 4 dischi.",
+    "hint": "È uno stripe di mirror.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_BK_012",
+    "question": "Se un servizio IT non può tollerare un'interruzione superiore a un'ora, quale parametro deve essere impostato a un valore inferiore o uguale a 60 minuti?",
+    "options": [
+      {
+        "id": "A",
+        "text": "RPO"
+      },
+      {
+        "id": "B",
+        "text": "RTO"
+      },
+      {
+        "id": "C",
+        "text": "RAID write overhead"
+      },
+      {
+        "id": "D",
+        "text": "MTBF"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'RTO (Recovery Time Objective) stabilisce il tempo massimo concesso per rimettere in funzione un sistema dopo un'interruzione. Se la tolleranza al disservizio è di un'ora, l'RTO deve essere al massimo di 60 minuti.",
+    "hint": "Riguarda il tempo necessario al ripristino.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_BK_013",
+    "question": "Nel contesto del Disaster Recovery, che cos'è un \"Cold Site\"?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Una sala macchine dotata di condizionamento d'aria potenziato per prevenire il surriscaldamento."
+      },
+      {
+        "id": "B",
+        "text": "Uno spazio fisico alternativo predisposto con alimentazione e connettività, ma privo di hardware attivo e dati precaricati, che richiede tempi lunghi per l'attivazione."
+      },
+      {
+        "id": "C",
+        "text": "Un sito secondario con server accesi e dati sincronizzati in tempo reale tramite replica sincrona."
+      },
+      {
+        "id": "D",
+        "text": "Un archivio protetto situato in una zona geografica a clima artico per la conservazione fisica dei nastri."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Un Cold Site è l'opzione di Disaster Recovery site meno costosa ma con tempi di ripristino più lunghi. Offre solo lo spazio fisico e i servizi di base (elettricità, rete). L'hardware deve essere ordinato e configurato, e i dati ripristinati dai backup al momento del bisogno.",
+    "hint": "È un sito 'freddo', ovvero non pronto all'uso immediato.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_BK_014",
+    "question": "Cosa stabilisce la classica regola empirica del \"3-2-1\" applicata alla gestione dei backup?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Eseguire 3 backup al giorno, usare 2 differenti marche di hard disk, mantenere 1 operatore di turno."
+      },
+      {
+        "id": "B",
+        "text": "Mantenere almeno 3 copie dei dati, memorizzarli su 2 diversi tipi di supporto fisico, conservare 1 copia fuori sede (offsite)."
+      },
+      {
+        "id": "C",
+        "text": "Conservare i dati per 3 anni, usare 2 livelli di crittografia, fare 1 verifica annuale."
+      },
+      {
+        "id": "D",
+        "text": "Utilizzare RAID 3, RAID 2 e RAID 1 in cascata logica."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La regola del 3-2-1 prevede: 3 copie totali dei dati (1 primaria e 2 backup), memorizzate su almeno 2 supporti differenti (es. hard disk interno e NAS/nastro), con almeno 1 di queste copie conservata fuori sede (es. cloud o un altro ufficio) per proteggersi da incendi o furti nel sito principale.",
+    "hint": "Copie, supporti diversi, copia geograficamente distante.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_BK_015",
+    "question": "A cosa serve l'attributo \"archive bit\" (bit di archivio) nei file system Windows?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A cifrare i file multimediali durante l'invio via rete."
+      },
+      {
+        "id": "B",
+        "text": "A contrassegnare i file come modificati, permettendo ai software di backup di identificare quali file includere nei backup incrementali o differenziali."
+      },
+      {
+        "id": "C",
+        "text": "A spostare automaticamente i file inutilizzati in una partizione compressa."
+      },
+      {
+        "id": "D",
+        "text": "A bloccare la modifica dei file per evitare attacchi ransomware."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'archive bit è un flag del file system. Quando un file viene modificato o creato, il sistema operativo imposta questo flag a 1. I software di backup leggono questo bit per decidere se salvare il file. Nel backup completo e incrementale il bit viene resettato a 0; nel backup differenziale il bit viene lasciato a 1.",
+    "hint": "È una bandierina che si alza quando il file viene modificato.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_BK_016",
+    "question": "In quale delle seguenti configurazioni RAID la perdita di un singolo disco non compromette i dati, grazie alla presenza di informazioni di parità distribuite su tutti i dischi membri?",
+    "options": [
+      {
+        "id": "A",
+        "text": "RAID 0"
+      },
+      {
+        "id": "B",
+        "text": "RAID 1"
+      },
+      {
+        "id": "C",
+        "text": "RAID 5"
+      },
+      {
+        "id": "D",
+        "text": "RAID 01"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Il RAID 5 distribuisce sia i dati che le informazioni di parità su tutti i dischi dell'array. Se un disco si rompe, i dati possono essere ricostruiti in tempo reale effettuando l'operazione logica XOR sui dati e sulla parità rimanenti negli altri dischi.",
+    "hint": "Usa la parità distribuita, non il mirroring semplice.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_BK_017",
+    "question": "Che cosa si intende per \"Hot Swap\" in un sistema di archiviazione ridondante?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La sostituzione di un componente hardware difettoso (come un disco RAID) mentre il sistema è acceso e operativo, senza necessità di riavvio."
+      },
+      {
+        "id": "B",
+        "text": "Il trasferimento automatico delle sessioni utente su un server secondario."
+      },
+      {
+        "id": "C",
+        "text": "Lo spegnimento programmato del server per raffreddare i dischi rigidi."
+      },
+      {
+        "id": "D",
+        "text": "Il cambio rapido del protocollo di rete utilizzato dal NAS."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'Hot Swap (sostituzione a caldo) consente di estrarre un disco danneggiato e inserirne uno nuovo senza dover spegnere il server o interrompere i servizi. È fondamentale nei sistemi ad alta affidabilità.",
+    "hint": "Scambio a caldo.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_BK_018",
+    "question": "Nel Disaster Recovery, quale caratteristica contraddistingue un \"Hot Site\" rispetto a un \"Warm Site\" o un \"Cold Site\"?",
+    "options": [
+      {
+        "id": "A",
+        "text": "È un sito privo di aria condizionata per ridurre i consumi energetici aziendali."
+      },
+      {
+        "id": "B",
+        "text": "È un ufficio temporaneo privo di computer, destinato solo al personale amministrativo."
+      },
+      {
+        "id": "C",
+        "text": "È un'infrastruttura secondaria completamente configurata, con hardware identico al primario e dati costantemente sincronizzati, pronta ad assumere il carico di lavoro quasi istantaneamente."
+      },
+      {
+        "id": "D",
+        "text": "È una cassaforte ignifuga usata per stoccare i dischi rigidi."
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Un Hot Site è una replica speculare del centro dati principale. I server sono attivi e i dati sono costantemente aggiornati (spesso in tempo reale). Offre i tempi di ripristino (RTO) più bassi, ma è la soluzione più costosa.",
+    "hint": "È 'caldo' perché è già acceso e pronto all'uso immediato.",
+    "level": "base"
+  },
+  {
+    "id": "Q_INF_BK_019",
+    "question": "Un amministratore pianifica un backup completo la domenica sera e backup incrementali ogni sera da lunedì a venerdì. Se giovedì mattina si verifica la rottura irreparabile del server, quali file di backup sono necessari per ripristinare interamente i dati a mercoledì sera?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Solo il backup completo della domenica e il backup incrementale di mercoledì."
+      },
+      {
+        "id": "B",
+        "text": "Solo il backup incrementale di mercoledì."
+      },
+      {
+        "id": "C",
+        "text": "Il backup completo della domenica e tutti i backup incrementali di lunedì, martedì e mercoledì."
+      },
+      {
+        "id": "D",
+        "text": "Tutti i backup della settimana, inclusi quelli di giovedì e venerdì."
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Poiché il backup incrementale salva solo i dati modificati rispetto all'ultimo backup (di qualunque tipo), per ripristinare lo stato a mercoledì sera è necessario partire dal backup completo di domenica, applicare le modifiche di lunedì, poi quelle di martedì e infine quelle di mercoledì.",
+    "hint": "Con l'incrementale devi ricostruire l'intera catena dall'ultimo completo.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_BK_020",
+    "question": "Un amministratore pianifica un backup completo la domenica sera e backup differenziali ogni sera da lunedì a venerdì. Se giovedì mattina si verifica un disastro, quali file di backup sono necessari per ripristinare il sistema allo stato di mercoledì sera?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il backup completo di domenica e il solo backup differenziale di mercoledì."
+      },
+      {
+        "id": "B",
+        "text": "Il backup completo di domenica e tutti i backup differenziali di lunedì, martedì e mercoledì."
+      },
+      {
+        "id": "C",
+        "text": "Esclusivamente il backup differenziale di mercoledì."
+      },
+      {
+        "id": "D",
+        "text": "Il backup completo di domenica e il backup incrementale di mercoledì."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il backup differenziale contiene tutte le modifiche apportate dall'ultimo backup completo. Di conseguenza, per ripristinare il sistema a mercoledì sera, basta ripristinare il completo di domenica e l'ultimo differenziale utile (quello di mercoledì sera), velocizzando la procedura rispetto all'incrementale.",
+    "hint": "Il differenziale accumula tutto dal completo; non servono i differenziali intermedi.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_BK_021",
+    "question": "Un array RAID 5 è composto da 5 dischi rigidi da 2 TB ciascuno. Qual è lo spazio di archiviazione netto utilizzabile per i dati?",
+    "options": [
+      {
+        "id": "A",
+        "text": "10 TB"
+      },
+      {
+        "id": "B",
+        "text": "8 TB"
+      },
+      {
+        "id": "C",
+        "text": "6 TB"
+      },
+      {
+        "id": "D",
+        "text": "5 TB"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "In un array RAID 5 con N dischi di capacità C, la capacità totale utilizzabile per i dati è pari a (N - 1) * C, poiché lo spazio equivalente a un intero disco viene impiegato per memorizzare le informazioni di parità distribuite. Nel caso specifico: (5 - 1) * 2 TB = 8 TB.",
+    "hint": "Sottrai la capacità di un disco dalla capacità totale dei 5 dischi.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_BK_022",
+    "question": "Quale delle seguenti affermazioni descrive correttamente il confronto tra le fasi di ripristino (restore) di strategie basate su backup incrementali rispetto a quelle differenziali?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il ripristino di una strategia incrementale è solitamente più veloce perché i singoli file incrementali sono più piccoli."
+      },
+      {
+        "id": "B",
+        "text": "Il ripristino di una strategia differenziale è solitamente più veloce perché richiede il caricamento di due soli set di dati (l'ultimo completo e l'ultimo differenziale)."
+      },
+      {
+        "id": "C",
+        "text": "Entrambe le strategie richiedono lo stesso identico tempo e lo stesso numero di nastri/supporti per il ripristino."
+      },
+      {
+        "id": "D",
+        "text": "La strategia incrementale non richiede il ripristino del backup completo iniziale."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Nel ripristino con backup differenziale si caricano solo due backup: il completo e l'ultimo differenziale. Con la strategia incrementale, occorre ripristinare il completo e poi applicare sequenzialmente ogni singolo incrementale intermedio, aumentando il tempo di restore e il rischio che un supporto danneggiato interrompa la catena.",
+    "hint": "Pensa al numero di file o supporti fisici da leggere sequenzialmente.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_BK_023",
+    "question": "Si configura un array RAID 10 utilizzando 6 dischi da 1 TB ciascuno. Qual è la capacità netta disponibile per il sistema operativo?",
+    "options": [
+      {
+        "id": "A",
+        "text": "6 TB"
+      },
+      {
+        "id": "B",
+        "text": "5 TB"
+      },
+      {
+        "id": "C",
+        "text": "3 TB"
+      },
+      {
+        "id": "D",
+        "text": "2 TB"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Il RAID 10 è una combinazione di mirroring (RAID 1) e striping (RAID 0). Poiché ogni disco ha un mirror speculare, l'efficienza dello spazio è sempre del 50%. Con 6 dischi da 1 TB (capacità totale 6 TB), lo spazio utilizzabile sarà esattamente la metà, cioè 3 TB.",
+    "hint": "L'efficienza di memorizzazione del RAID 10 è pari al 50% dello spazio totale.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_BK_024",
+    "question": "Qual es lo svantaggio principale del backup differenziale rispetto al backup incrementale durante la fase di esecuzione (scrittura)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Richiede l'accesso esclusivo al database in modalità offline."
+      },
+      {
+        "id": "B",
+        "text": "Richiede più tempo e spazio di archiviazione man mano che ci si allontana temporaneamente dall'ultimo backup completo, poiché copia ripetutamente i dati già salvati nei giorni precedenti."
+      },
+      {
+        "id": "C",
+        "text": "Non consente il ripristino granulare dei singoli file."
+      },
+      {
+        "id": "D",
+        "text": "È incompatibile con i supporti a nastro magnetico."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Poiché il backup differenziale salva tutto ciò che è cambiato dall'ultimo completo, la dimensione del backup cresce giorno dopo giorno. Se non si esegue un nuovo completo, ogni differenziale successivo richiederà più spazio e tempo di esecuzione rispetto a un incrementale quotidiano.",
+    "hint": "Cosa succede ai file modificati lunedì quando fai il differenziale di martedì?",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_BK_025",
+    "question": "Nel Disaster Recovery, come si differenziano la replica sincrona e la replica asincrona dei dati verso il sito secondario?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La replica sincrona avviene solo di notte, mentre la replica asincrona è continua."
+      },
+      {
+        "id": "B",
+        "text": "La replica sincrona conferma la scrittura sull'host principale solo dopo che i dati sono stati scritti anche sul sito secondario (RPO=0 con impatto sulla latenza I/O); la replica asincrona conferma subito la scrittura sull'host principale e replica i dati successivamente (RPO>0 senza latenza)."
+      },
+      {
+        "id": "C",
+        "text": "La replica asincrona garantisce l'assenza totale di perdita di dati (RPO=0) a scapito di una minore banda di rete richiesta."
+      },
+      {
+        "id": "D",
+        "text": "La replica sincrona richiede obbligatoriamente collegamenti in fibra ottica superiori a 1000 km."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Nella replica sincrona, la scrittura viene completata su entrambi i siti prima di dare il feedback positivo all'applicazione. Questo elimina la perdita di dati (RPO = 0) ma risente della latenza di rete. Nella replica asincrona, la scrittura sul primario è immediata e l'allineamento sul secondario avviene in background, evitando rallentamenti applicativi ma lasciando una finestra di dati non replicati (RPO > 0).",
+    "hint": "Pensa al momento in cui l'applicazione riceve la conferma di avvenuta scrittura.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_BK_026",
+    "question": "Qual è la differenza strutturale e di tolleranza ai guasti tra RAID 0+1 (RAID 01) e RAID 1+0 (RAID 10)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il RAID 0+1 non offre alcuna tolleranza ai guasti, mentre il RAID 1+0 tollera il guasto di tre dischi."
+      },
+      {
+        "id": "B",
+        "text": "Il RAID 0+1 esegue il mirror di due set in striping; se un disco si guasta, l'intero stripe coinvolto diventa inutilizzabile. Il RAID 1+0 esegue lo stripe di più set specchiati; se un disco si guasta, solo la sua copia speculare è interessata, mantenendo gli altri mirror protetti."
+      },
+      {
+        "id": "C",
+        "text": "Il RAID 1+0 richiede un numero dispari di dischi, mentre il RAID 0+1 richiede un numero pari."
+      },
+      {
+        "id": "D",
+        "text": "Sono identici in tutto, cambia solo la denominazione commerciale."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il RAID 10 (1+0) crea prima dei mirror (RAID 1) e poi applica lo striping (RAID 0). Se si guasta un disco, solo il suo partner speculare è critico. Nel RAID 01 (0+1) si creano due array in striping e poi si fa il mirror tra di essi; il guasto di un singolo disco mette fuori uso un intero ramo dello stripe, riducendo l'array a un semplice RAID 0 non protetto.",
+    "hint": "Pensa a quale livello viene applicato per primo alla base dell'albero dei dischi.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_BK_027",
+    "question": "Quale tipologia di sito di Disaster Recovery (DR Site) rappresenta una via di mezzo, offrendo hardware pre-installato e connessioni attive, ma richiedendo il ripristino manuale o il caricamento degli ultimi dati di backup prima di poter avviare i servizi aziendali?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cold Site"
+      },
+      {
+        "id": "B",
+        "text": "Warm Site"
+      },
+      {
+        "id": "C",
+        "text": "Hot Site"
+      },
+      {
+        "id": "D",
+        "text": "Mirror Site"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il Warm Site è una soluzione intermedia. Dispone dell'infrastruttura hardware e di rete già installata e pronta, ma i dati non sono sincronizzati in tempo reale (come nell'Hot Site). Richiede il ripristino dell'ultimo backup sui server prima di poter dichiarare il sito pienamente operativo.",
+    "hint": "È 'tiepido': i server ci sono, ma i dati aggiornati vanno caricati.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_BK_028",
+    "question": "Nei sistemi di archiviazione RAID, a cosa fa riferimento il concetto di \"Write Penalty\"?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A una sanzione contrattuale applicata dai cloud provider in caso di superamento dei limiti di scrittura."
+      },
+      {
+        "id": "B",
+        "text": "Al rallentamento dovuto alla crittografia software dei blocchi di memoria."
+      },
+      {
+        "id": "C",
+        "text": "Al numero di operazioni I/O fisiche sui dischi necessarie per completare una singola operazione di scrittura logica richiesta dal sistema operativo."
+      },
+      {
+        "id": "D",
+        "text": "Al tempo richiesto per formattare i dischi rigidi in modalità protetta."
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "La Write Penalty (penalità di scrittura) si verifica nei RAID con parità (come RAID 5 o 6). Per scrivere un singolo blocco logico, il sistema deve prima leggere i vecchi dati e la vecchia parità, calcolare la nuova parità e infine scrivere i nuovi dati e la nuova parità. Ciò comporta molteplici I/O fisici per ogni singola scrittura.",
+    "hint": "Riguarda il sovraccarico di operazioni di I/O per gestire la parità.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_BK_029",
+    "question": "Qual è il \"Write Penalty\" teorico associato a una singola operazione di scrittura casuale in un array RAID 5?",
+    "options": [
+      {
+        "id": "A",
+        "text": "2"
+      },
+      {
+        "id": "B",
+        "text": "4"
+      },
+      {
+        "id": "C",
+        "text": "6"
+      },
+      {
+        "id": "D",
+        "text": "8"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "In un RAID 5, una scrittura casuale richiede: 1) Lettura del vecchio dato, 2) Lettura della vecchia parità, 3) Scrittura del nuovo dato, 4) Scrittura della nuova parità. Questo comporta un totale di 4 operazioni di I/O fisiche sui dischi (Write Penalty = 4).",
+    "hint": "Devi fare due letture e due scritture.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_BK_030",
+    "question": "Cosa si intende per \"Bare Metal Recovery\" (BMR)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La pulizia fisica dei contatti in rame dei server prima del ripristino."
+      },
+      {
+        "id": "B",
+        "text": "Il ripristino di un intero sistema (sistema operativo, applicazioni, configurazioni e dati) direttamente su un hardware fisico nuovo o vuoto, senza bisogno di preinstallare l'OS."
+      },
+      {
+        "id": "C",
+        "text": "La reinstallazione manuale dei soli driver di basso livello della scheda madre."
+      },
+      {
+        "id": "D",
+        "text": "Un backup eseguito esclusivamente a livello di firmware UEFI del server."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il Bare Metal Recovery consente di ripristinare una macchina (spesso tramite un'immagine ISO di boot o rete) direttamente su un computer privo di qualsiasi sistema operativo preesistente (hardware 'nudo' o bare metal), ricostruendo partizioni, OS e dati in un unico passaggio.",
+    "hint": "Ripristino su una macchina con disco vuoto (metallo nudo).",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_BK_031",
+    "question": "Durante la pianificazione del Disaster Recovery, che cos'è un \"Tabletop Exercise\"?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un test prestazionale per verificare la velocità massima dei dischi rigidi da tavolo."
+      },
+      {
+        "id": "B",
+        "text": "Una simulazione teorica e discussione di gruppo in cui i responsabili IT ripercorrono le procedure del piano di DR di fronte a uno scenario di emergenza fittizio, senza impattare i sistemi reali."
+      },
+      {
+        "id": "C",
+        "text": "Una prova di sgombero fisico del data center."
+      },
+      {
+        "id": "D",
+        "text": "Il montaggio a rack dei server di backup effettuato su tavoli di prova."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il Tabletop Exercise (o simulazione cartacea) è un test non distruttivo e a basso costo. Riunisce i membri chiave del team DR attorno a un tavolo per esaminare verbalmente il piano in risposta a un incidente simulato, identificando lacune o ruoli non chiari prima di effettuare test tecnologici reali.",
+    "hint": "È un esercizio teorico 'da tavolo'.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_BK_032",
+    "question": "Nei supporti di backup a nastro con tecnologia LTO, cosa garantisce la caratteristica denominata \"WORM\"?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Una velocità di scrittura raddoppiata grazie alla compressione hardware."
+      },
+      {
+        "id": "B",
+        "text": "L'immutabilità dei dati, impedendo che i file scritti sul nastro possano essere sovrascritti, modificati o cancellati accidentalmente o intenzionalmente."
+      },
+      {
+        "id": "C",
+        "text": "La scansione automatica anti-malware dei dati archiviati sul nastro."
+      },
+      {
+        "id": "D",
+        "text": "La crittografia automatica dei dati durante il trasferimento via cavo SAS."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "WORM significa 'Write Once, Read Many' (Scrivi una volta, leggi molte). I supporti LTO WORM impediscono la manipolazione o la cancellazione dei dati una volta scritti, caratteristica essenziale per la conformità normativa e la protezione da attacchi ransomware.",
+    "hint": "Consente una sola scrittura ma letture illimitate.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_BK_033",
+    "question": "Qual è il beneficio principale derivante dall'adozione della deduplicazione dei dati lato sorgente (source-side deduplication) in un'infrastruttura di backup?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Elimina la necessità di calcolare la parità RAID sul server di backup."
+      },
+      {
+        "id": "B",
+        "text": "Riduce il consumo di banda di rete, poiché i blocchi di dati duplicati vengono individuati e scartati sul client prima del loro invio attraverso la rete."
+      },
+      {
+        "id": "C",
+        "text": "Consente di crittografare i file in modo più robusto."
+      },
+      {
+        "id": "D",
+        "text": "Migliora la velocità di rotazione fisica dei dischi del server di destinazione."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Con la deduplicazione lato sorgente, il client analizza i dati e calcola gli hash dei blocchi da salvare. Se il server di backup possiede già quei blocchi, il client invia solo i puntatori. Questo riduce drasticamente il traffico sulla rete aziendale.",
+    "hint": "I dati vengono ridotti alla fonte prima del transito.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_BK_034",
+    "question": "Qual è lo scopo primario di una BIA (Business Impact Analysis) all'interno di un programma aziendale di Business Continuity?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fornire una stima del budget per l'acquisto di nuovi server e storage."
+      },
+      {
+        "id": "B",
+        "text": "Identificare le attività e i processi aziendali critici, quantificare l'impatto economico e operativo di una loro interruzione e stabilire i relativi requisiti di RTO e RPO."
+      },
+      {
+        "id": "C",
+        "text": "Verificare la conformità legale dell'azienda in materia di sicurezza sul lavoro."
+      },
+      {
+        "id": "D",
+        "text": "Misurare l'efficienza energetica del data center aziendale."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La Business Impact Analysis (BIA) serve a mappare tutti i processi dell'organizzazione per determinare quali siano vitali. Calcolando l'impatto di un blocco operativo nel tempo, la BIA permette di stabilire in modo logico e giustificato i valori di RTO e RPO per ciascun servizio.",
+    "hint": "Analisi dell'impatto sul business.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_BK_035",
+    "question": "Se l'analisi BIA indica che un database transazionale ha un RPO massimo tollerabile di 4 ore, quale delle seguenti strategie di backup è appropriata?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Eseguire un backup completo ogni 24 ore."
+      },
+      {
+        "id": "B",
+        "text": "Eseguire un backup incrementale ogni sera alle 20:00."
+      },
+      {
+        "id": "C",
+        "text": "Eseguire un backup dei log delle transazioni o una replica dei dati almeno ogni 4 ore."
+      },
+      {
+        "id": "D",
+        "text": "Configurare un array RAID 5 composto da 4 dischi."
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Un RPO di 4 ore significa che in caso di disastro l'azienda tollera la perdita di massimo 4 ore di transazioni. Per garantire questo livello di protezione, i dati devono essere salvati o replicati con una frequenza non inferior a 4 ore (es. ogni 2 o 3 ore).",
+    "hint": "La frequenza dei backup deve essere inferiore o uguale all'RPO.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_INF_BK_036",
+    "question": "Qual è il \"Write Penalty\" associato a una singola operazione di scrittura casuale in un array RAID 6 e come si spiega?",
+    "options": [
+      {
+        "id": "A",
+        "text": "4, come nel RAID 5, perché la seconda parità viene calcolata in background dall'hardware."
+      },
+      {
+        "id": "B",
+        "text": "6, perché richiede la lettura del vecchio dato, la lettura delle due parità P e Q, il ricalcolo e infine la scrittura del nuovo dato e delle due parità (3 letture e 3 scritture)."
+      },
+      {
+        "id": "C",
+        "text": "8, perché raddoppia la penalità di scrittura del mirroring."
+      },
+      {
+        "id": "D",
+        "text": "2, in quanto lo striping distribuisce il carico di lavoro in modo asincrono."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Nel RAID 6 viene calcolata una doppia parità (P e Q). Quando si scrive un singolo blocco di dati a caso, l'array deve leggere il blocco dati originale e i due blocchi di parità corrispondenti (3 letture), calcolare la nuova doppia parità e infine scrivere il nuovo blocco dati e i due nuovi blocchi di parità (3 scritture). Totale = 6 operazioni I/O.",
+    "hint": "Richiede la gestione di due blocchi di parità distinti.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_BK_037",
+    "question": "Si consideri una configurazione RAID 50 (RAID 5+0) composta da due sotto-gruppi RAID 5, ciascuno formato da 3 dischi. Qual è il numero massimo di dischi che si possono guastare contemporaneamente senza subire perdite di dati?",
+    "options": [
+      {
+        "id": "A",
+        "text": "1 disco in totale."
+      },
+      {
+        "id": "B",
+        "text": "2 dischi in totale, purché appartengano a sotto-gruppi RAID 5 diversi."
+      },
+      {
+        "id": "C",
+        "text": "2 dischi nello stesso sotto-gruppo RAID 5."
+      },
+      {
+        "id": "D",
+        "text": "3 dischi distribuiti casualmente."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il RAID 50 esegue lo striping (RAID 0) su più sotto-gruppi RAID 5. Ciascun sotto-gruppo RAID 5 può tollerare la rottura di un solo disco. Pertanto, l'array complessivo può tollerare il guasto simultaneo di massimo 2 dischi, a patto che non si trovino nello stesso sotto-gruppo RAID 5.",
+    "hint": "Pensa alla tolleranza al guasto di ciascun sotto-array RAID 5 indipendente.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_BK_038",
+    "question": "In cosa consiste la tecnologia di \"Synthetic Full Backup\" e qual è il suo vantaggio principale?",
+    "options": [
+      {
+        "id": "A",
+        "text": "È un backup completo simulato da un algoritmo di intelligenza artificiale che non copia dati reali."
+      },
+      {
+        "id": "B",
+        "text": "È un processo in cui il server di backup assembla un nuovo backup completo unendo l'ultimo backup completo esistente e i successivi backup incrementali direttamente nello storage di destinazione, senza caricare la rete e il server client."
+      },
+      {
+        "id": "C",
+        "text": "Un backup completo cifrato con chiavi sintetiche generate dal chip TPM del client."
+      },
+      {
+        "id": "D",
+        "text": "Una tecnica di compressione che converte i file in formati proprietari a bassa fedeltà."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il Synthetic Full Backup evita di dover trasferire periodicamente gigabyte o terabyte di dati dal client al server per fare un backup completo. Il client invia solo piccoli backup incrementali; il server di backup si occupa poi di fondere tali incrementali con l'ultimo completo a sua disposizione per generare un nuovo file completo pronto all'uso.",
+    "hint": "Il backup completo viene costruito 'sinteticamente' sul server di destinazione.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_BK_039",
+    "question": "Nei moderni hypervisor per macchine virtuali, a cosa serve la funzionalità CBT (Changed Block Tracking) durante il backup?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A monitorare l'uso della CPU da parte delle macchine virtuali per sospendere i backup in caso di sovraccarico."
+      },
+      {
+        "id": "B",
+        "text": "A tracciare i blocchi logici del disco virtuale modificati dall'ultimo backup, permettendo al software di backup di copiare solo i blocchi modificati invece di analizzare l'intero file system della VM."
+      },
+      {
+        "id": "C",
+        "text": "A rilevare ed eliminare le chiavi di registro di Windows non utilizzate prima di salvare i dati."
+      },
+      {
+        "id": "D",
+        "text": "A replicare le macchine virtuali in modalità sincrona verso il cloud."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La funzionalità Changed Block Tracking (CBT) tiene traccia dei blocchi che cambiano a livello di storage virtuale (es. file .vmdk). Quando viene avviato un backup incrementale, il software interroga l'hypervisor per ottenere la lista esatta dei soli blocchi modificati, riducendo drasticamente il tempo di scansione ed esecuzione.",
+    "hint": "Tracciamento dei soli blocchi fisici modificati.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_BK_040",
+    "question": "Durante lo stato degradato (degraded mode) di un array RAID 5 dovuto al guasto di un disco, come variano le prestazioni in lettura del sistema?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rimangono inalterate grazie alle alte prestazioni dello striping residuo."
+      },
+      {
+        "id": "B",
+        "text": "Migliorano temporaneamente perché la parità smette di essere letta dal controller."
+      },
+      {
+        "id": "C",
+        "text": "Peggiorano in modo significativo per le letture destinate al disco guasto, poiché il controller deve leggere tutti i blocchi corrispondenti sugli altri dischi superstiti ed eseguire un calcolo XOR per ricostruire il dato mancante."
+      },
+      {
+        "id": "D",
+        "text": "Le letture si bloccano del tutto fino all'inserimento di un nuovo disco."
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Nello stato degradato di un RAID 5, per ricostruire ogni singolo blocco di dati originariamente presente sul disco rotto, il controller RAID deve inviare richieste di lettura a tutti i dischi rimasti nell'array per recuperare i blocchi dati e di parità corrispondenti ed effettuare l'operazione XOR in tempo reale. Questo satura i canali di I/O.",
+    "hint": "Pensa al lavoro di calcolo matematico necessario per ricostruire il dato mancante.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_BK_041",
+    "question": "Quale tipologia di deduplicazione dei dati, tra \"Inline\" e \"Post-process\", richiede uno spazio temporaneo di memorizzazione (staging area) locale di dimensioni maggiori sul server di backup?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La deduplicazione Inline, perché deve contenere i dati in transito."
+      },
+      {
+        "id": "B",
+        "text": "La deduplicazione Post-process, in quanto i dati di backup grezzi vengono prima interamente scritti su disco in formato nativo e solo successivamente analizzati, deduplicati e compressi."
+      },
+      {
+        "id": "C",
+        "text": "Entrambe richiedono lo stesso identico spazio di staging sul disco primario."
+      },
+      {
+        "id": "D",
+        "text": "Nessuna delle due richiede spazio su disco, poiché il calcolo avviene interamente in memoria RAM."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Nella deduplicazione Post-process, il server riceve ed immagazzina i dati grezzi nella loro interezza su un volume di staging temporaneo. Solo in un secondo momento, spesso durante le ore notturne, avvia il processo batch per deduplicarli. Pertanto, la staging area deve essere sufficientemente grande da ospitare il backup completo non deduplicato.",
+    "hint": "Pensa a dove vengono scritti i dati prima che avvenga l'effettiva deduplicazione.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_BK_042",
+    "question": "Un'applicazione finanziaria critica richiede un Recovery Time Objective (RTO) inferiore a 15 minuti e un Recovery Point Objective (RPO) pari a zero. Quale delle seguenti architetture IT garantisce questi requisiti?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Backup completo giornaliero con spedizione fisica dei nastri offsite ogni sera."
+      },
+      {
+        "id": "B",
+        "text": "Replica asincrona dei dati ogni 10 minuti con failover manuale gestito da script."
+      },
+      {
+        "id": "C",
+        "text": "Replica sincrona multi-sito (geoclustering) con meccanismo di failover automatico (Active-Active o Active-Passive con heartbeat)."
+      },
+      {
+        "id": "D",
+        "text": "Configurazione RAID 6 locale accoppiata a backup orari su NAS."
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Un RPO pari a zero esclude qualsiasi perdita di dati, il che rende obbligatoria la replica sincrona (in cui ogni transazione è scritta su due siti diversi contemporaneamente). Un RTO inferiore a 15 minuti esclude il ripristino da backup tradizionali o l'intervento umano prolungato, richiedendo un failover automatico di cluster geografico.",
+    "hint": "RPO = 0 significa nessuna perdita consentita. RTO < 15 min significa automatizzazione del ripristino.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_BK_043",
+    "question": "In una configurazione RAID 10 (1+0) formata da 4 dischi totali (due mirror set messi in stripe), quale combinazione di guasto a doppio disco comporta la perdita totale e irreversibile dei dati?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il guasto simultaneo di due dischi qualsiasi appartenenti a mirror set differenti."
+      },
+      {
+        "id": "B",
+        "text": "Il guasto simultaneo di entrambi i dischi che compongono lo stesso mirror set (coppia specchiata)."
+      },
+      {
+        "id": "C",
+        "text": "Il RAID 10 tollera sempre e comunque la rottura di qualsiasi coppia di dischi senza perdita di dati."
+      },
+      {
+        "id": "D",
+        "text": "Il guasto simultaneo del primo e dell'ultimo disco fisico dell'array."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Nel RAID 10, i dati sono suddivisi in striping su coppie specchiate. Se si guasta un disco di una coppia specchiata, il sistema continua a funzionare grazie all'altro disco della coppia. Tuttavia, se si rompono contemporaneamente entrambi i dischi che costituiscono la medesima coppia specchiata, quel segmento dello stripe va perduto, causando la distruzione dell'intero array.",
+    "hint": "Cosa succede se entrambi i dischi che contengono la stessa copia dei dati smettono di funzionare?",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_BK_044",
+    "question": "Quali elementi aggiuntivi introduce la moderna evoluzione della regola di backup nota come \"3-2-1-1-0\" rispetto alla tradizionale regola \"3-2-1\"?",
+    "options": [
+      {
+        "id": "A",
+        "text": "1 copia memorizzata su cloud pubblico e 0 costi di manutenzione hardware."
+      },
+      {
+        "id": "B",
+        "text": "1 copia offline/immutabile (air-gapped/immutable) e 0 errori nei test di ripristino regolari."
+      },
+      {
+        "id": "C",
+        "text": "1 ora di RTO massimo e 0 minuti di RPO."
+      },
+      {
+        "id": "D",
+        "text": "1 singolo amministratore di sistema abilitato e 0 password scritte."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La regola 3-2-1-1-0 prevede: 3 copie dei dati, su 2 supporti diversi, di cui 1 offsite, a cui si aggiungono: 1 copia offline (air-gapped) o immutabile (non modificabile da ransomware) e 0 errori di ripristino, garantiti eseguendo test periodici di restore automatizzato.",
+    "hint": "Si concentra sulla difesa dai ransomware (immutabilità/offline) e sull'affidabilità verificata.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_BK_045",
+    "question": "Nel contesto della continuità operativa (ISO 22301), qual è la relazione corretta tra MTPD (Maximum Tolerable Period of Disruption) e RTO (Recovery Time Objective)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'RTO deve essere obbligatoriamente superiore all'MTPD per garantire il margine di sicurezza IT."
+      },
+      {
+        "id": "B",
+        "text": "L'MTPD definisce la perdita dati tollerabile, mentre l'RTO definisce i costi di ripristino."
+      },
+      {
+        "id": "C",
+        "text": "L'RTO deve essere inferiore o al massimo uguale all'MTPD, in quanto l'MTPD rappresenta il limite temporale estremo oltre il quale l'interruzione del processo aziendale causa danni irreversibili."
+      },
+      {
+        "id": "D",
+        "text": "Sono concetti del tutto slegati: l'MTPD si applica solo all'infrastruttura di rete e l'RTO solo alle applicazioni."
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'MTPD rappresenta la soglia di sopravvivenza dell'azienda: oltre questo tempo, l'interruzione di un servizio chiave porta al collasso o a danni gravissimi. L'RTO è il target operativo stabilito per il ripristino dei sistemi IT e deve essere necessariamente inferiore all'MTPD per garantire che il recupero avvenga prima del punto di rottura.",
+    "hint": "L'MTPD è il limite massimo assoluto tollerabile dal business; l'RTO è l'obiettivo tecnico di ripristino.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_BK_046",
+    "question": "Nel sistema Volume Shadow Copy Service (VSS) di Microsoft Windows, qual è il ruolo specifico svolto dal componente \"VSS Writer\"?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Scrivere fisicamente i blocchi di dati sul nastro magnetico."
+      },
+      {
+        "id": "B",
+        "text": "Consentire all'applicazione (es. SQL Server, Exchange) di preparare i propri file sul disco, svuotando la cache in memoria e congelando temporaneamente le scritture per garantire la consistenza applicativa dello snapshot."
+      },
+      {
+        "id": "C",
+        "text": "Crittografare la shadow copy prima di inviarla al cloud storage."
+      },
+      {
+        "id": "D",
+        "text": "Rilevare i settori danneggiati del disco rigido e segnalarli al sistema operativo."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il VSS Writer è un componente integrato nelle applicazioni (es. database o mail server). Quando viene richiesto uno snapshot, il VSS Writer riceve la notifica dal coordinatore, svuota le transazioni in memoria sul disco e blocca momentaneamente l'I/O. In questo modo il backup cattura uno stato coerente e non corrotto dei dati dell'applicazione.",
+    "hint": "Dialoga direttamente con l'applicazione (es. database) per metterla in sicurezza prima del backup.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_BK_047",
+    "question": "Nell'ambito delle prove di Disaster Recovery, cosa caratterizza un test di tipo \"Full Interruption\" (o Cutover test) rispetto ad altre modalità di test?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Si limita a verificare l'integrità dei file di backup senza avviare alcuna macchina virtuale."
+      },
+      {
+        "id": "B",
+        "text": "Spegne completamente o isola il sito di produzione primario e sposta tutte le operazioni sul sito di Disaster Recovery, facendogli gestire il carico di lavoro reale per un determinato periodo."
+      },
+      {
+        "id": "C",
+        "text": "È un test teorico condotto unicamente per via telematica."
+      },
+      {
+        "id": "D",
+        "text": "Prevede solo il riavvio controllato dei singoli switch di rete del sito principale."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il Full Interruption Test è il test di DR più realistico e rischioso. Comporta l'effettivo spegnimento o isolamento del data center principale per verificare se il sito di DR sia in grado di subentrare a tutti gli effetti nella gestione del traffico aziendale reale. A causa dell'alto rischio di disservizio temporaneo, viene pianificato con estrema cautela.",
+    "hint": "Simula in modo reale ed estremo il disastro, spegnendo la sorgente primaria.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_BK_048",
+    "question": "In una rete SAN (Storage Area Network), quale vantaggio offre l'implementazione del protocollo NDMP (Network Data Management Protocol) per le operazioni di backup?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Raddoppia lo spazio utile dei dischi grazie a un algoritmo di compressione dinamica."
+      },
+      {
+        "id": "B",
+        "text": "Consente il trasferimento diretto dei dati di backup da un dispositivo NAS a un'unità di memorizzazione della SAN (es. tape library) senza far transitare i dati sulla rete LAN aziendale o sul server di backup (LAN-free backup)."
+      },
+      {
+        "id": "C",
+        "text": "Permette di utilizzare il Wi-Fi aziendale per eseguire il backup dei server."
+      },
+      {
+        "id": "D",
+        "text": "Cripta i backup utilizzando chiavi simmetriche a livello di firmware."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il protocollo NDMP permette ai server NAS di comunicare direttamente con i dispositivi di backup della SAN. In questo modo, i flussi di dati ad alto volume vengono convogliati direttamente attraverso la rete di storage veloce (SAN) sollevando la rete dati (LAN) aziendale e la CPU del backup server da questo carico.",
+    "hint": "Rende il backup 'LAN-free' convogliando i dati direttamente all'unità di storage.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_BK_049",
+    "question": "Che cosa si intende per \"Silent Data Corruption\" (o bit rot) in un sistema di archiviazione e in che modo file system avanzati come ZFS o Btrfs affrontano il problema rispetto a un controller RAID tradizionale?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La corruzione del firmware del controller RAID risolvibile solo tramite riavvio hardware."
+      },
+      {
+        "id": "B",
+        "text": "Il progressivo logoramento del nastro magnetico dovuto alla polvere."
+      },
+      {
+        "id": "C",
+        "text": "La corruzione invisibile di singoli bit sul disco dovuta a difetti magnetici o disturbi elettromagnetici; i file system avanzati usano checksum crittografici dei dati e dei metadati per verificare l'integrità ad ogni lettura, localizzando e correggendo l'errore in modo autonomo grazie alla ridondanza interna."
+      },
+      {
+        "id": "D",
+        "text": "La perdita di dati causata dallo spegnimento improvviso del server durante una scrittura."
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "La Silent Data Corruption avviene senza che il controller RAID tradizionale se ne accorga, poiché il disco risponde correttamente dal punto di vista dell'I/O ma restituisce dati corrotti. ZFS e Btrfs mantengono checksum di ogni blocco dati. Quando leggono un blocco, ne calcolano l'hash e lo confrontano con quello salvato: in caso di discrepanza, leggono la copia speculare o calcolano la parità corretta per riparare autonomamente il blocco corrotto.",
+    "hint": "È una corruzione di cui il sistema operativo non si accorge senza controlli di coerenza crittografica (checksum).",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_INF_BK_050",
+    "question": "Qual è la differenza fondamentale tra un backup in stato \"Crash Consistent\" e uno in stato \"Application Consistent\"?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il backup crash-consistent è più lento da eseguire ma garantisce il perfetto allineamento del database."
+      },
+      {
+        "id": "B",
+        "text": "Il backup crash-consistent cattura i dati su disco nello stato in cui si troverebbero se venisse tolta improvvisamente l'alimentazione al server; il backup application-consistent assicura che tutte le transazioni in memoria e le scritture pendenti siano completate sul disco prima dello snapshot, garantendo un ripristino immediato e senza incongruenze applicative."
+      },
+      {
+        "id": "C",
+        "text": "Il backup application-consistent salva solo le impostazioni del sistema operativo, ignorando i dati."
+      },
+      {
+        "id": "D",
+        "text": "Il backup crash-consistent richiede l'arresto forzato del server, mentre quello application-consistent funziona solo a server spento."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Un backup crash-consistent copia i file sul disco senza preoccuparsi dello stato delle applicazioni in memoria RAM. Al ripristino, è come riavviare un PC dopo un blackout (il DB potrebbe richiedere un rollback delle transazioni incomplete). Un backup application-consistent interagisce con le applicazioni (es. tramite VSS o script pre-freeze/post-thaw) per congelare le scritture e svuotare le transazioni pendenti, garantendo la consistenza applicativa immediata al restore.",
+    "hint": "Pensa allo stato dei dati in memoria RAM e a cosa succede in caso di spegnimento improvviso.",
+    "level": "avanzato"
+  }
+]
