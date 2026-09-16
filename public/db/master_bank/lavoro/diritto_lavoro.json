@@ -31,11 +31,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Si applica la disciplina del rapporto di lavoro subordinato se le modalità di esecuzione della prestazione sono organizzate mediante piattaforma anche digitale dal committente per tempi e luoghi di lavoro"
+        "text": "Sono vietate a pena di reclusione per il committente"
       },
       {
         "id": "B",
-        "text": "Sono vietate a pena di reclusione per il committente"
+        "text": "Si applica la disciplina del rapporto di lavoro subordinato se le modalità di esecuzione della prestazione sono organizzate mediante piattaforma anche digitale dal committente per tempi e luoghi di lavoro"
       },
       {
         "id": "C",
@@ -46,7 +46,7 @@
         "text": "Possono essere svolte solo da soggetti di età inferiore a 25 anni"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "B",
     "explanation": "L'art. 2, comma 1, del D.Lgs. 81/2015 stabilisce che si applica la disciplina del lavoro subordinato anche ai rapporti di collaborazione con prestazioni prevalentemente personali, continuative e le cui modalità di esecuzione siano organizzate dal committente (incluse le prestazioni rese tramite piattaforme digitali).",
     "hint": "Se il committente organizza tempi e luoghi della prestazione scatta la tutela della subordinazione.",
     "level": "intermedio"
@@ -57,22 +57,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Il lavoratore può essere adibito a mansioni riconducibili allo stesso livello e categoria legale di inquadramento delle ultime effettivamente svolte"
-      },
-      {
-        "id": "B",
         "text": "Il lavoratore può essere sempre retrocesso di livello senza alcuna motivazione o limite"
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Le mansioni possono variare solo in presenza di un accordo notarile annuale"
+      },
+      {
+        "id": "C",
+        "text": "Il lavoratore può essere adibito a mansioni riconducibili allo stesso livello e categoria legale di inquadramento delle ultime effettivamente svolte"
       },
       {
         "id": "D",
         "text": "È fatto divieto assoluto di modificare le mansioni stabilite nella lettera di assunzione"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "C",
     "explanation": "Il nuovo testo dell'art. 2103 c.c. ha superato il criterio dell'equivalenza professionale soggettiva, consentendo l'adibizione a ogni mansione riconducibile allo stesso livello e categoria legale di inquadramento contrattuale.",
     "hint": "La mobilità orizzontale è ammessa nell'ambito dello stesso livello contrattuale e categoria.",
     "level": "intermedio"
@@ -83,22 +83,22 @@
     "options": [
       {
         "id": "A",
-        "text": "In caso di modifica degli assetti organizzativi aziendali che incide sulla posizione del lavoratore, oppure nelle ipotesi previste dai contratti collettivi, mantenendo il trattamento retributivo originario"
-      },
-      {
-        "id": "B",
         "text": "A discrezione insindacabile del datore di lavoro con decurtazione immediata della retribuzione"
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Soltanto quando il lavoratore abbia accumulato più di tre sanzioni disciplinari nello stesso mese"
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "In nessun caso, il demansionamento è nullo in modo assoluto e inderogabile"
+      },
+      {
+        "id": "D",
+        "text": "In caso di modifica degli assetti organizzativi aziendali che incide sulla posizione del lavoratore, oppure nelle ipotesi previste dai contratti collettivi, mantenendo il trattamento retributivo originario"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "D",
     "explanation": "L'art. 2103 c.c. ammette il mutamento in peius di un solo livello (nell'ambito della medesima categoria) in caso di modifica degli assetti organizzativi o nelle ipotesi dei CCNL, conservando il livello retributivo previgente (salvi gli elementi legati alla specifica modalità di resa della prestazione).",
     "hint": "Ammesso per ristrutturazione organizzativa conservando la retribuzione base.",
     "level": "avanzato"
@@ -135,11 +135,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Forma scritta ad substantia, previsione di un corrispettivo economico a favore del lavoratore e delimitazione dell'oggetto, del tempo e del luogo della restrizione"
+        "text": "È sufficiente una promessa verbale purché confermata da due colleghi"
       },
       {
         "id": "B",
-        "text": "È sufficiente una promessa verbale purché confermata da due colleghi"
+        "text": "Forma scritta ad substantia, previsione di un corrispettivo economico a favore del lavoratore e delimitazione dell'oggetto, del tempo e del luogo della restrizione"
       },
       {
         "id": "C",
@@ -150,7 +150,7 @@
         "text": "La convalida espressa dell'Ispettorato Territoriale del Lavoro prima della cessazione"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "B",
     "explanation": "Ai sensi dell'art. 2125 c.c., il patto di non concorrenza post-contrattuale è nullo se non risulta da atto scritto, se non è pattuito un corrispettivo economico congruo e se il vincolo non è contenuto entro determinati limiti di oggetto, tempo (max 5 anni dirigenti, 3 anni altri) e luogo.",
     "hint": "Forma scritta, corrispettivo economico e limiti di tempo, luogo e oggetto.",
     "level": "intermedio"
@@ -161,22 +161,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Preventiva contestazione scritta e specifica dell'addebito, con concessione di almeno 5 giorni al lavoratore per presentare le proprie giustificazioni"
-      },
-      {
-        "id": "B",
         "text": "Comunicazione verbale immediata e trattenuta immediata sullo stipendio del mese in corso"
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Autorizzazione preventiva del Prefetto della provincia in cui ha sede l'azienda"
+      },
+      {
+        "id": "C",
+        "text": "Preventiva contestazione scritta e specifica dell'addebito, con concessione di almeno 5 giorni al lavoratore per presentare le proprie giustificazioni"
       },
       {
         "id": "D",
         "text": "Notifica dell'atto di contestazione a mezzo ufficiale giudiziario entro 60 giorni"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "C",
     "explanation": "L'art. 7 L. 300/1970 impone la contestazione preventiva, specifica e tempestiva dell'addebito per iscritto; il datore non può adottare il provvedimento disciplinare prima che siano trascorsi 5 giorni dalla contestazione per consentire la difesa del lavoratore.",
     "hint": "Contestazione scritta dell'addebito e termine di almeno 5 giorni a difesa.",
     "level": "base"
@@ -187,22 +187,22 @@
     "options": [
       {
         "id": "A",
-        "text": "La multa non può superare 4 ore della retribuzione base e la sospensione dal lavoro e dalla retribuzione non può superare 10 giorni"
-      },
-      {
-        "id": "B",
         "text": "La multa può raggiungere l'intero stipendio mensile e la sospensione fino a 6 mesi"
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "La sospensione non può superare 48 ore consecutive"
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "Non vi sono limiti legali, decide liberamente il datore di lavoro nel regolamento interno"
+      },
+      {
+        "id": "D",
+        "text": "La multa non può superare 4 ore della retribuzione base e la sospensione dal lavoro e dalla retribuzione non può superare 10 giorni"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "D",
     "explanation": "L'art. 7 della L. 300/1970 fissa un tetto massimo invalicabile per le sanzioni conservative: la multa non può superare l'importo di 4 ore della retribuzione base e la sospensione dal servizio e dal trattamento economico non può essere disposta per più di 10 giorni.",
     "hint": "Multa max 4 ore, sospensione max 10 giorni.",
     "level": "intermedio"
@@ -239,11 +239,11 @@
     "options": [
       {
         "id": "A",
-        "text": "11 ore consecutive di riposo ogni 24 ore"
+        "text": "8 ore consecutive di riposo ogni 24 ore"
       },
       {
         "id": "B",
-        "text": "8 ore consecutive di riposo ogni 24 ore"
+        "text": "11 ore consecutive di riposo ogni 24 ore"
       },
       {
         "id": "C",
@@ -254,7 +254,7 @@
         "text": "6 ore consecutive di riposo notturno"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "B",
     "explanation": "L'art. 7 del D.Lgs. 66/2003 sancisce che il lavoratore ha diritto a 11 ore di riposo consecutivo ogni 24 ore, fatto salvo il regime delle attività a turni o deroghe contrattuali collettive previste dalla legge.",
     "hint": "Il riposo giornaliero minimo legale è di 11 ore consecutive.",
     "level": "base"
@@ -265,22 +265,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Hanno una durata minima inderogabile di 4 settimane e non possono essere sostituite da indennità per ferie non godute, salvo il caso di risoluzione del rapporto di lavoro"
-      },
-      {
-        "id": "B",
         "text": "Possono essere sempre monetizzate su accordo scritto tra azienda e dipendente"
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Sono stabilite in 15 giorni all'anno e si prescrivono dopo 6 mesi"
+      },
+      {
+        "id": "C",
+        "text": "Hanno una durata minima inderogabile di 4 settimane e non possono essere sostituite da indennità per ferie non godute, salvo il caso di risoluzione del rapporto di lavoro"
       },
       {
         "id": "D",
         "text": "Spettano soltanto dopo aver completato 3 anni di anzianità di servizio"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "C",
     "explanation": "Il diritto alle ferie è irrinunciabile (art. 36 Cost.). Il D.Lgs. 66/2003 fissa in 4 settimane il periodo minimo annuale e vieta espressamente la monetizzazione delle stesse in corso di rapporto, consentendo l'indennità sostitutiva solo alla cessazione definitiva del contratto.",
     "hint": "Minimo 4 settimane e divieto assoluto di monetizzazione durante il rapporto.",
     "level": "base"
@@ -291,22 +291,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Fino a 12 mesi"
-      },
-      {
-        "id": "B",
         "text": "Fino a 24 mesi"
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Fino a 6 mesi"
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "Fino a 36 mesi"
+      },
+      {
+        "id": "D",
+        "text": "Fino a 12 mesi"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "D",
     "explanation": "Il D.L. 48/2023 (Decreto Lavoro) ha confermato che il contratto a tempo determinato è acausale per i primi 12 mesi. Oltre i 12 mesi e fino a 24 mesi occorrono le causali individuate dai CCNL, accordi aziendali o, in subordine, per esigenze tecniche, organizzative o sostitutive.",
     "hint": "I primi 12 mesi sono liberi da causale.",
     "level": "base"
@@ -343,11 +343,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Per la sostituzione di lavoratori che esercitano il diritto di sciopero e presso unità produttive che non abbiano effettuato la valutazione dei rischi (DVR)"
+        "text": "Durante i mesi estivi o nelle giornate festive"
       },
       {
         "id": "B",
-        "text": "Durante i mesi estivi o nelle giornate festive"
+        "text": "Per la sostituzione di lavoratori che esercitano il diritto di sciopero e presso unità produttive che non abbiano effettuato la valutazione dei rischi (DVR)"
       },
       {
         "id": "C",
@@ -358,7 +358,7 @@
         "text": "Nelle imprese con un fatturato annuo superiore a 10 milioni di euro"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "B",
     "explanation": "L'art. 20 del D.Lgs. 81/2015 pone divieti tassativi alla stipula di contratti a termine e somministrazione: sostituzione di scioperanti, unità con licenziamenti collettivi o CIG nei 6 mesi antecedenti per mansioni identiche, e datori che non hanno redatto il DVR sulla sicurezza sul lavoro.",
     "hint": "Vietato per sostituire lavoratori in sciopero o se manca il DVR sulla sicurezza.",
     "level": "intermedio"
@@ -369,22 +369,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Una modalità di esecuzione del rapporto di lavoro subordinato stabilita mediante accordo tra le parti, anche con forme di organizzazione per fasi, cicli e obiettivi e senza precisi vincoli di orario o di luogo di lavoro, con possibile utilizzo di strumenti tecnologici"
-      },
-      {
-        "id": "B",
         "text": "Un contratto di lavoro autonomo occasionale senza vincoli previdenziali"
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Una forma di telelavoro obbligatorio con postazione fissa al domicilio verificata dalla ASL"
+      },
+      {
+        "id": "C",
+        "text": "Una modalità di esecuzione del rapporto di lavoro subordinato stabilita mediante accordo tra le parti, anche con forme di organizzazione per fasi, cicli e obiettivi e senza precisi vincoli di orario o di luogo di lavoro, con possibile utilizzo di strumenti tecnologici"
       },
       {
         "id": "D",
         "text": "Un tirocinio formativo non retribuito svolto presso il domicilio dello studente"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "C",
     "explanation": "L'art. 18 della L. 81/2017 definisce lo smart working non come un nuovo tipo contrattuale, ma come una modalità flessibile di esecuzione del lavoro subordinato, basata su accordo individuale, svolta in parte all'interno e in parte all'esterno dei locali aziendali.",
     "hint": "È una modalità di svolgimento del lavoro subordinato per fasi e obiettivi senza vincoli rigidi di luogo.",
     "level": "base"
@@ -395,22 +395,22 @@
     "options": [
       {
         "id": "A",
-        "text": "La parità di trattamento: il lavoratore agile ha diritto a un trattamento economico e normativo non inferiore a quello applicato ai lavoratori che svolgono le medesime mansioni esclusivamente all'interno dell'azienda"
-      },
-      {
-        "id": "B",
         "text": "Una decurtazione del 20% della retribuzione a titolo di rimborso spese elettriche"
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "La perdita dei diritti sindacali e del diritto di sciopero"
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "L'esclusione dall'obbligo di iscrizione all'INPS"
+      },
+      {
+        "id": "D",
+        "text": "La parità di trattamento: il lavoratore agile ha diritto a un trattamento economico e normativo non inferiore a quello applicato ai lavoratori che svolgono le medesime mansioni esclusivamente all'interno dell'azienda"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "D",
     "explanation": "L'art. 20 della Legge 81/2017 stabilisce il principio di non discriminazione: il lavoratore agile gode del medesimo trattamento complessivo, economico e normativo, spettante ai colleghi che operano interamente in presenza.",
     "hint": "Principio di parità di trattamento e non discriminazione.",
     "level": "base"
@@ -447,11 +447,11 @@
     "options": [
       {
         "id": "A",
-        "text": "L'organizzazione dei mezzi necessari da parte dell'appaltatore e l'assunzione del rischio d'impresa con effettivo esercizio del potere direttivo sui propri dipendenti"
+        "text": "L'importo del contratto superiore a 100.000 euro"
       },
       {
         "id": "B",
-        "text": "L'importo del contratto superiore a 100.000 euro"
+        "text": "L'organizzazione dei mezzi necessari da parte dell'appaltatore e l'assunzione del rischio d'impresa con effettivo esercizio del potere direttivo sui propri dipendenti"
       },
       {
         "id": "C",
@@ -462,7 +462,7 @@
         "text": "Il fatto che i lavoratori utilizzino esclusivamente i computer del committente"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "B",
     "explanation": "L'art. 29 D.Lgs. 276/2003 stabilisce che l'appalto si distingue dalla somministrazione per l'organizzazione dei mezzi da parte dell'appaltatore (che può consistere anche nell'organizzazione e direzione del personale) e per l'assunzione del reale rischio d'impresa.",
     "hint": "Organizzazione dei mezzi, gestione dei lavoratori e rischio d'impresa in capo all'appaltatore.",
     "level": "intermedio"
@@ -473,22 +473,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Entro il limite di due anni dalla cessazione dell'appalto"
-      },
-      {
-        "id": "B",
         "text": "Entro sei mesi dall'inizio dell'appalto"
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Entro dieci anni dalla stipulazione del contratto d'appalto"
+      },
+      {
+        "id": "C",
+        "text": "Entro il limite di due anni dalla cessazione dell'appalto"
       },
       {
         "id": "D",
         "text": "Senza alcun limite temporale"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "C",
     "explanation": "Il committente imprenditore è obbligato in solido con l'appaltatore (e con gli eventuali subappaltatori) a corrispondere ai lavoratori i trattamenti retributivi e i contributi previdenziali e assicurativi dovuti entro il limite di due anni dalla cessazione dell'appalto.",
     "hint": "Il termine di decadenza per la solidarietà del committente è di due anni.",
     "level": "intermedio"
@@ -499,22 +499,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Il rapporto di lavoro continua con il cessionario e il lavoratore conserva tutti i diritti che ne derivano; il cedente e il cessionario sono obbligati in solido per tutti i crediti maturati fino al momento del trasferimento"
-      },
-      {
-        "id": "B",
         "text": "Tutti i contratti di lavoro si risolvono automaticamente e devono essere riscritti con periodo di prova"
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Il cessionario può licenziare liberamente tutti i dipendenti con indennità di una mensilità"
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "I lavoratori perdono l'anzianità di servizio pregressa"
+      },
+      {
+        "id": "D",
+        "text": "Il rapporto di lavoro continua con il cessionario e il lavoratore conserva tutti i diritti che ne derivano; il cedente e il cessionario sono obbligati in solido per tutti i crediti maturati fino al momento del trasferimento"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "D",
     "explanation": "L'art. 2112 c.c. garantisce la continuità automatica del rapporto di lavoro con l'acquirente (cessionario), la conservazione dei trattamenti contrattuali ed economici acquisiti e la responsabilità solidale tra cedente e cessionario per i crediti pendenti del dipendente.",
     "hint": "Continuità del rapporto, mantenimento dei diritti e responsabilità solidale per i crediti pregressi.",
     "level": "base"
@@ -551,11 +551,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Una causa gravissima che non consente la prosecuzione, anche provvisoria, del rapporto di lavoro, permettendo il recesso immediato senza preavviso"
+        "text": "Un grave inadempimento che consente comunque il rispetto del periodo di preavviso"
       },
       {
         "id": "B",
-        "text": "Un grave inadempimento che consente comunque il rispetto del periodo di preavviso"
+        "text": "Una causa gravissima che non consente la prosecuzione, anche provvisoria, del rapporto di lavoro, permettendo il recesso immediato senza preavviso"
       },
       {
         "id": "C",
@@ -566,7 +566,7 @@
         "text": "Il raggiungimento dell'età di 60 anni da parte del lavoratore"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "B",
     "explanation": "L'art. 2119 c.c. disciplina la giusta causa: un fatto talmente lesivo del vincolo fiduciario da non consentire la prosecuzione neppure provvisoria del rapporto; per questo motivo il licenziamento ha effetto immediato (in tronco) senza preavviso.",
     "hint": "Gravità tale da non permettere neppure un solo giorno di prosecuzione (senza preavviso).",
     "level": "base"
@@ -577,22 +577,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Il motivo soggettivo consiste in un notevole inadempimento degli obblighi contrattuali del lavoratore; il motivo oggettivo risiede in ragioni inerenti all'attività produttiva, all'organizzazione del lavoro e al suo regolare funzionamento"
-      },
-      {
-        "id": "B",
         "text": "Il motivo soggettivo non richiede il preavviso, mentre l'oggettivo richiede 6 mesi di preavviso"
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Il motivo soggettivo riguarda solo i dirigenti, l'oggettivo tutti gli altri dipendenti"
+      },
+      {
+        "id": "C",
+        "text": "Il motivo soggettivo consiste in un notevole inadempimento degli obblighi contrattuali del lavoratore; il motivo oggettivo risiede in ragioni inerenti all'attività produttiva, all'organizzazione del lavoro e al suo regolare funzionamento"
       },
       {
         "id": "D",
         "text": "Non vi è alcuna differenza giurisprudenziale"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "C",
     "explanation": "L'art. 3 della L. 604/1966 definisce il giustificato motivo soggettivo (colpa del lavoratore: notevole inadempimento con preavviso) e il giustificato motivo oggettivo (ragioni economico-organizzative aziendali e soppressione del posto).",
     "hint": "Soggettivo = colpa del dipendente; Oggettivo = riorganizzazione aziendale e soppressione del posto.",
     "level": "intermedio"
@@ -603,22 +603,22 @@
     "options": [
       {
         "id": "A",
-        "text": "L'onere di verificare l'impossibilità di ricollocare utilmente il lavoratore all'interno dell'azienda in altre mansioni disponibili dello stesso livello o anche di livello inferiore"
-      },
-      {
-        "id": "B",
         "text": "L'obbligo di pagare un anno di stipendio a fondo perduto"
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "L'obbligo di assumere un familiare del dipendente licenziato"
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "L'onere di sottoporre il dipendente a un esame di idoneità psico-attitudinale"
+      },
+      {
+        "id": "D",
+        "text": "L'onere di verificare l'impossibilità di ricollocare utilmente il lavoratore all'interno dell'azienda in altre mansioni disponibili dello stesso livello o anche di livello inferiore"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "D",
     "explanation": "L'obbligo di repêchage (ricollocamento) impone al datore di provare di non poter adibire il lavoratore ad altre mansioni compatibili con il suo inquadramento (o anche inferiori, previo consenso) presenti nella struttura aziendale.",
     "hint": "Dovere di verificare l'impossibilità di ricollocare il lavoratore in altre posizioni vacanti.",
     "level": "intermedio"
@@ -655,11 +655,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Ha dichiarato illegittimo il criterio di calcolo rigido e automatico ancorato alla sola anzianità di servizio, attribuendo al giudice il potere di determinare l'indennità congrua tra il minimo e il massimo legale considerando molteplici fattori"
+        "text": "Ha ripristinato l'art. 18 dello Statuto dei Lavoratori per tutti i lavoratori italiani"
       },
       {
         "id": "B",
-        "text": "Ha ripristinato l'art. 18 dello Statuto dei Lavoratori per tutti i lavoratori italiani"
+        "text": "Ha dichiarato illegittimo il criterio di calcolo rigido e automatico ancorato alla sola anzianità di servizio, attribuendo al giudice il potere di determinare l'indennità congrua tra il minimo e il massimo legale considerando molteplici fattori"
       },
       {
         "id": "C",
@@ -670,7 +670,7 @@
         "text": "Ha imposto l'approvazione del Ministero del Lavoro per qualsiasi licenziamento individuale"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "B",
     "explanation": "La Consulta con sentenza n. 194/2018 ha censurato il meccanismo automatico delle tutele crescenti (2 mensilità per ogni anno di servizio), restituendo al giudice il potere discrezionale di quantificare il ristoro economico tenendo conto di anzianità, carichi di famiglia, dimensioni aziendali e comportamento delle parti.",
     "hint": "Eliminato l'automatismo fisso basato solo sugli anni di anzianità.",
     "level": "avanzato"
@@ -681,22 +681,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Quando un'impresa con più di 15 dipendenti, in conseguenza di riduzione o trasformazione di attività, intenda effettuare almeno 5 licenziamenti nell'arco di 120 giorni in una o più unità produttive della stessa provincia"
-      },
-      {
-        "id": "B",
         "text": "Quando vengono licenziati almeno 2 lavoratori in un anno solare"
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Quando fallisce una cooperativa sociale di servizi"
+      },
+      {
+        "id": "C",
+        "text": "Quando un'impresa con più di 15 dipendenti, in conseguenza di riduzione o trasformazione di attività, intenda effettuare almeno 5 licenziamenti nell'arco di 120 giorni in una o più unità produttive della stessa provincia"
       },
       {
         "id": "D",
         "text": "Quando un'azienda licenzia l'intero consiglio di amministrazione"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "C",
     "explanation": "La procedura di licenziamento collettivo (art. 4 e 24 L. 223/1991) scatta per i datori di lavoro che occupano più di 15 dipendenti e che intendano effettuare almeno 5 licenziamenti nell'arco di 120 giorni nella stessa provincia per riduzione, trasformazione o cessazione di attività.",
     "hint": "Più di 15 dipendenti e almeno 5 licenziamenti in 120 giorni.",
     "level": "intermedio"
@@ -707,22 +707,22 @@
     "options": [
       {
         "id": "A",
-        "text": "I carichi di famiglia, l'anzianità di servizio e le esigenze tecnico-produttive e organizzative, applicati in concorso tra loro"
-      },
-      {
-        "id": "B",
         "text": "L'età anagrafica crescente (si licenziano prima i più anziani)"
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Il livello di retribuzione percepito (si licenziano i più pagati)"
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "Il sorteggio pubblico alla presenza del prefetto"
+      },
+      {
+        "id": "D",
+        "text": "I carichi di famiglia, l'anzianità di servizio e le esigenze tecnico-produttive e organizzative, applicati in concorso tra loro"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "D",
     "explanation": "L'art. 5, comma 1, L. 223/1991 prevede che, in assenza di accordo sindacale, i lavoratori vengano individuati combinando tra loro: carichi di famiglia, anzianità di servizio ed esigenze tecnico-produttive/organizzative.",
     "hint": "I criteri di legge sono: carichi di famiglia, anzianità ed esigenze aziendali.",
     "level": "intermedio"
@@ -759,11 +759,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Riorganizzazione aziendale, crisi aziendale e contratti di solidarietà"
+        "text": "Sciopero generale, festività infrasettimanali e assemblee sindacali"
       },
       {
         "id": "B",
-        "text": "Sciopero generale, festività infrasettimanali e assemblee sindacali"
+        "text": "Riorganizzazione aziendale, crisi aziendale e contratti di solidarietà"
       },
       {
         "id": "C",
@@ -774,7 +774,7 @@
         "text": "Ristrutturazione dei debiti bancari senza piano industriale"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "B",
     "explanation": "L'art. 21 del D.Lgs. 148/2015 individua tassativamente le causali CIGS in: a) riorganizzazione aziendale; b) crisi aziendale; c) contratti di solidarietà difensivi.",
     "hint": "Le tre causali storiche: riorganizzazione, crisi aziendale e contratti di solidarietà.",
     "level": "intermedio"
@@ -785,22 +785,22 @@
     "options": [
       {
         "id": "A",
-        "text": "All'80% della retribuzione globale di fatto che sarebbe spettata per le ore di lavoro non prestate, entro un limite massimale mensile stabilito per legge"
-      },
-      {
-        "id": "B",
         "text": "Al 100% della retribuzione lorda contrattuale senza alcun tetto"
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Al 50% dell'Assegno Sociale"
+      },
+      {
+        "id": "C",
+        "text": "All'80% della retribuzione globale di fatto che sarebbe spettata per le ore di lavoro non prestate, entro un limite massimale mensile stabilito per legge"
       },
       {
         "id": "D",
         "text": "A una cifra fissa di 700 euro al mese uguale per tutti"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "C",
     "explanation": "L'integrazione salariale ammonta all'80% del trattamento retributivo globale che sarebbe spettato per le ore non lavorate, tra le zero ore e il limite dell'orario contrattuale, assoggettata al massimale unico mensile rivalutato annualmente dall'INPS.",
     "hint": "È pari all'80% dello stipendio perso entro il massimale di legge.",
     "level": "base"
@@ -811,22 +811,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Accordi collettivi aziendali che stabiliscono una riduzione concordata dell'orario di lavoro per evitare, in tutto o in parte, la riduzione o la dichiarazione di esubero del personale, con intervento della CIGS a compensazione parziale della perdita retributiva"
-      },
-      {
-        "id": "B",
         "text": "Contratti con cui i lavoratori donano parte dello stipendio ad associazioni benefiche"
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Accordi per assumere giovani tirocinanti a spese dei lavoratori anziani"
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "Patti di solidarietà familiare tra colleghi dello stesso ufficio"
+      },
+      {
+        "id": "D",
+        "text": "Accordi collettivi aziendali che stabiliscono una riduzione concordata dell'orario di lavoro per evitare, in tutto o in parte, la riduzione o la dichiarazione di esubero del personale, con intervento della CIGS a compensazione parziale della perdita retributiva"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "D",
     "explanation": "I contratti di solidarietà difensivi mirano a difendere l'occupazione ('lavorare meno per lavorare tutti'): l'orario di lavoro viene ridotto concordemente e l'INPS eroga l'integrazione CIGS all'80% sulle ore tagliate.",
     "hint": "Accordi di riduzione dell'orario per evitare licenziamenti con intervento della CIGS.",
     "level": "intermedio"
@@ -863,11 +863,11 @@
     "options": [
       {
         "id": "A",
-        "text": "I lavoratori dipendenti del settore privato, gli apprendisti, i soci lavoratori di cooperative con rapporto subordinato e il personale a tempo determinato della Pubblica Amministrazione che abbiano perso involontariamente l'occupazione"
+        "text": "Tutti i dipendenti pubblici a tempo indeterminato licenziati per motivi disciplinari"
       },
       {
         "id": "B",
-        "text": "Tutti i dipendenti pubblici a tempo indeterminato licenziati per motivi disciplinari"
+        "text": "I lavoratori dipendenti del settore privato, gli apprendisti, i soci lavoratori di cooperative con rapporto subordinato e il personale a tempo determinato della Pubblica Amministrazione che abbiano perso involontariamente l'occupazione"
       },
       {
         "id": "C",
@@ -878,7 +878,7 @@
         "text": "I liberi professionisti iscritti agli albi professionali"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "B",
     "explanation": "La NASpI tutela i lavoratori con rapporto di lavoro subordinato (inclusi apprendisti, soci di cooperative e dipendenti pubblici a termine) che abbiano perso involontariamente il lavoro. Sono esclusi i dipendenti a tempo indeterminato della PA.",
     "hint": "Lavoratori dipendenti subordinati privati e dipendenti pubblici a tempo determinato.",
     "level": "base"
@@ -889,22 +889,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Almeno 13 settimane di contribuzione nei quattro anni precedenti l'inizio del periodo di disoccupazione"
-      },
-      {
-        "id": "B",
         "text": "Almeno 52 settimane di contribuzione nell'ultimo anno"
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Almeno 5 anni di contribuzione continuativa"
+      },
+      {
+        "id": "C",
+        "text": "Almeno 13 settimane di contribuzione nei quattro anni precedenti l'inizio del periodo di disoccupazione"
       },
       {
         "id": "D",
         "text": "Non è richiesto alcun requisito contributivo, basta lo stato di disoccupazione"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "C",
     "explanation": "Ai sensi dell'art. 3 del D.Lgs. 22/2015, il requisito contributivo per la NASpI consiste nell'avere almeno tredici settimane di contribuzione accreditata nei quattro anni che precedono l'evento di disoccupazione.",
     "hint": "Servono almeno 13 settimane di contributi negli ultimi 4 anni.",
     "level": "base"
@@ -915,22 +915,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Le dimissioni per giusta causa (es. mancato pagamento retribuzioni) e la risoluzione consensuale intervenuta nell'ambito della conciliazione obbligatoria presso l'ITL"
-      },
-      {
-        "id": "B",
         "text": "Le dimissioni volontarie ordinarie senza motivazione"
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "La risoluzione consensuale decisa verbalmente tra lavoratore e datore"
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "L'abbandono ingiustificato del posto di lavoro per più di tre giorni"
+      },
+      {
+        "id": "D",
+        "text": "Le dimissioni per giusta causa (es. mancato pagamento retribuzioni) e la risoluzione consensuale intervenuta nell'ambito della conciliazione obbligatoria presso l'ITL"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "D",
     "explanation": "L'accesso alla NASpI è garantito anche in caso di dimissioni per giusta causa (riconosciute come evento non imputabile al lavoratore per grave colpa datoriale) e in caso di risoluzione consensuale avvenuta con la procedura conciliativa ex art. 7 L. 604/1966 o per trasferimento oltre 50 km.",
     "hint": "Dimissioni per giusta causa e risoluzione consensuale protetta presso l'ITL.",
     "level": "intermedio"
@@ -967,11 +967,11 @@
     "options": [
       {
         "id": "A",
-        "text": "L'indennità si riduce del 3% ogni mese a decorrere dal primo giorno del sesto mese di fruizione (o dall'ottavo mese per i beneficiari che abbiano compiuto 55 anni di età)"
+        "text": "L'indennità si riduce del 10% ogni mese a partire dal secondo mese"
       },
       {
         "id": "B",
-        "text": "L'indennità si riduce del 10% ogni mese a partire dal secondo mese"
+        "text": "L'indennità si riduce del 3% ogni mese a decorrere dal primo giorno del sesto mese di fruizione (o dall'ottavo mese per i beneficiari che abbiano compiuto 55 anni di età)"
       },
       {
         "id": "C",
@@ -982,7 +982,7 @@
         "text": "Non vi è alcuna riduzione, l'importo resta costante per l'intera durata"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "B",
     "explanation": "La Legge di Bilancio 2022 ha modificato il décalage: la NASpI si riduce del 3% al mese a partire dal 6° mese (151° giorno di fruizione); per i soggetti di età pari o superiore a 55 anni alla data di presentazione della domanda, il taglio scatta dall'8° mese (211° giorno).",
     "hint": "Taglio del 3% al mese dal sesto mese (dall'ottavo mese per gli over 55).",
     "level": "intermedio"
@@ -993,22 +993,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Il lavoratore avente diritto alla NASpI può richiederne la liquidazione anticipata in unica soluzione come incentivo all'avvio di un'attività di lavoro autonomo, di impresa individuale o per la sottoscrizione di capitale sociale di una cooperativa"
-      },
-      {
-        "id": "B",
         "text": "L'anticipo è consentito per l'acquisto della prima casa di abitazione"
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "L'anticipo è concesso solo se il lavoratore si trasferisce all'estero"
+      },
+      {
+        "id": "C",
+        "text": "Il lavoratore avente diritto alla NASpI può richiederne la liquidazione anticipata in unica soluzione come incentivo all'avvio di un'attività di lavoro autonomo, di impresa individuale o per la sottoscrizione di capitale sociale di una cooperativa"
       },
       {
         "id": "D",
         "text": "È vietata qualsiasi liquidazione anticipata delle prestazioni di disoccupazione"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "C",
     "explanation": "L'incentivo all'autoimprenditorialità consente al disoccupato di percepire l'intero importo residuo della NASpI in un'unica tranche per avviare una propria attività autonoma, un'impresa o entrare in cooperativa, con obbligo di restituzione se viene assunto subordinato prima della scadenza teorica.",
     "hint": "Anticipazione in unica soluzione per chi avvia un'attività autonoma o una cooperativa.",
     "level": "intermedio"
@@ -1019,22 +1019,22 @@
     "options": [
       {
         "id": "A",
-        "text": "La DIS-COLL (indennità di disoccupazione per i collaboratori coordinati e continuativi)"
-      },
-      {
-        "id": "B",
         "text": "La Cassa Integrazione Guadagni Straordinaria"
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "L'Assegno Sociale anticipato"
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "L'indennità ordinaria di mobilità"
+      },
+      {
+        "id": "D",
+        "text": "La DIS-COLL (indennità di disoccupazione per i collaboratori coordinati e continuativi)"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "D",
     "explanation": "La DIS-COLL (art. 15 D.Lgs. 22/2015 resa strutturale) è l'indennità di disoccupazione specifica per i lavoratori parasubordinati (collaboratori continuativi, assegnisti di ricerca, dottorandi di ricerca con borsa) iscritti in via esclusiva alla Gestione Separata INPS.",
     "hint": "La prestazione per i collaboratori è la DIS-COLL.",
     "level": "base"
@@ -1071,11 +1071,11 @@
     "options": [
       {
         "id": "A",
-        "text": "All'80% della retribuzione media globale giornaliera, anticipata dal datore di lavoro e posta a conguaglio con i contributi dovuti all'INPS"
+        "text": "Al 50% dello stipendio minimo tabellare"
       },
       {
         "id": "B",
-        "text": "Al 50% dello stipendio minimo tabellare"
+        "text": "All'80% della retribuzione media globale giornaliera, anticipata dal datore di lavoro e posta a conguaglio con i contributi dovuti all'INPS"
       },
       {
         "id": "C",
@@ -1086,7 +1086,7 @@
         "text": "A una cifra fissa forfettaria pari a 300 euro al mese"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "B",
     "explanation": "Ai sensi dell'art. 22 D.Lgs. 151/2001, l'indennità di maternità a carico dell'INPS è pari all'80% della retribuzione globale giornaliera (spesso integrata al 100% dai CCNL di categoria a carico del datore di lavoro).",
     "hint": "Indennità INPS all'80% della retribuzione.",
     "level": "base"
@@ -1097,22 +1097,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Un congedo di 10 giorni lavorativi (20 in caso di parto plurimo), retribuito al 100%, che il padre lavoratore deve fruire tra i due mesi precedenti e i cinque mesi successivi al parto, anche durante il congedo di maternità della madre"
-      },
-      {
-        "id": "B",
         "text": "Una giornata libera da concordare con i colleghi di reparto"
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Un congedo di 6 mesi non retribuito subordinato all'assenso datoriale"
+      },
+      {
+        "id": "C",
+        "text": "Un congedo di 10 giorni lavorativi (20 in caso di parto plurimo), retribuito al 100%, che il padre lavoratore deve fruire tra i due mesi precedenti e i cinque mesi successivi al parto, anche durante il congedo di maternità della madre"
       },
       {
         "id": "D",
         "text": "Un'opzione fruibile solo in caso di decesso o grave infermità della madre"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "C",
     "explanation": "Il congedo di paternità obbligatorio (art. 27-bis D.Lgs. 151/2001 modificato dal D.Lgs. 105/2022) garantisce al padre 10 giorni di astensione piena retribuita al 100% dall'INPS, autonomo e concorrente rispetto al congedo della madre.",
     "hint": "10 giorni lavorativi retribuiti al 100% entro 5 mesi dalla nascita.",
     "level": "intermedio"
@@ -1123,22 +1123,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Tre giorni di permesso mensile retribuito (coperto da contribuzione figurativa e a carico INPS) per assistere un familiare con disabilità grave o fruibili dal lavoratore disabile per se stesso"
-      },
-      {
-        "id": "B",
         "text": "Un giorno ogni sei mesi senza copertura figurativa"
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Due ore di permesso al mese non cumulabili"
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "Trenta giorni di ferie supplementari non indennizzate"
+      },
+      {
+        "id": "D",
+        "text": "Tre giorni di permesso mensile retribuito (coperto da contribuzione figurativa e a carico INPS) per assistere un familiare con disabilità grave o fruibili dal lavoratore disabile per se stesso"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "D",
     "explanation": "L'art. 33 commi 3 e 6 della L. 104/1992 prevede 3 giorni di permesso mensile retribuito (frazionabili anche in ore in base ai contratti collettivi) per l'assistenza a coniuge, convivente di fatto, unito civilmente o parente entro il 2° grado (o 3° in casi particolari) con handicap in situazione di gravità.",
     "hint": "Tre giorni al mese retribuiti per l'assistenza al familiare con disabilità grave.",
     "level": "base"
@@ -1175,11 +1175,11 @@
     "options": [
       {
         "id": "A",
-        "text": "La valutazione di tutti i rischi con la conseguente elaborazione del Documento di Valutazione dei Rischi (DVR) e la designazione del Responsabile del Servizio di Prevenzione e Protezione (RSPP)"
+        "text": "La nomina del medico competente"
       },
       {
         "id": "B",
-        "text": "La nomina del medico competente"
+        "text": "La valutazione di tutti i rischi con la conseguente elaborazione del Documento di Valutazione dei Rischi (DVR) e la designazione del Responsabile del Servizio di Prevenzione e Protezione (RSPP)"
       },
       {
         "id": "C",
@@ -1190,7 +1190,7 @@
         "text": "La convocazione della riunione periodica di sicurezza"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "B",
     "explanation": "L'art. 17 D.Lgs. 81/2008 individua due obblighi non delegabili del datore di lavoro: 1) la valutazione di tutti i rischi e la redazione del DVR; 2) la designazione del responsabile del servizio di prevenzione e protezione dai rischi (RSPP).",
     "hint": "Valutazione dei rischi (DVR) e nomina dell'RSPP non sono mai delegabili.",
     "level": "intermedio"
@@ -1201,22 +1201,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Devono essere trasmesse esclusivamente con modalità telematiche su appositi moduli disponibili sul portale del Ministero del Lavoro (o tramite patronati/consulenti), a pena di inefficacia"
-      },
-      {
-        "id": "B",
         "text": "È sufficiente una lettera informale consegnata a mano al datore di lavoro"
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Devono essere comunicate tramite telegramma postale entro 48 ore"
+      },
+      {
+        "id": "C",
+        "text": "Devono essere trasmesse esclusivamente con modalità telematiche su appositi moduli disponibili sul portale del Ministero del Lavoro (o tramite patronati/consulenti), a pena di inefficacia"
       },
       {
         "id": "D",
         "text": "Richiedono una sentenza del Tribunale del Lavoro"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "C",
     "explanation": "Per contrastare il fenomeno illegale delle 'dimissioni in bianco', l'art. 26 D.Lgs. 151/2015 ha reso obbligatoria la procedura telematica online con marcatura temporale: le dimissioni presentate su carta o via email semplice sono giuridicamente inefficaci.",
     "hint": "Procedura telematica online obbligatoria a pena di inefficacia per impedire le dimissioni in bianco.",
     "level": "base"
@@ -1227,22 +1227,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Entro 7 giorni dalla trasmissione del modulo telematico con le medesime modalità"
-      },
-      {
-        "id": "B",
         "text": "Entro 24 ore dall'invio"
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Entro 30 giorni previo accordo con il datore di lavoro"
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "Le dimissioni telematiche sono irrevocabili fin dal primo istante"
+      },
+      {
+        "id": "D",
+        "text": "Entro 7 giorni dalla trasmissione del modulo telematico con le medesime modalità"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "D",
     "explanation": "La legge riconosce al lavoratore il diritto di ripensamento: entro 7 giorni dalla data di trasmissione del modulo telematico di dimissioni o risoluzione consensuale, il lavoratore ha la facoltà di revocare il recesso con le medesime modalità telematiche.",
     "hint": "Facoltà di revoca entro una settimana (7 giorni).",
     "level": "base"
@@ -1279,11 +1279,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Cinque anni"
+        "text": "Dieci anni"
       },
       {
         "id": "B",
-        "text": "Dieci anni"
+        "text": "Cinque anni"
       },
       {
         "id": "C",
@@ -1294,9 +1294,1309 @@
         "text": "Tre anni"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "B",
     "explanation": "Ai sensi dell'art. 2948, n. 4, del Codice Civile, i crediti per tutto ciò che deve pagarsi periodicamente ad anno o in termini più brevi (compresi stipendi, indennità e retribuzioni) sono soggetti alla prescrizione breve di cinque anni.",
     "hint": "I crediti retributivi periodici si prescrivono in 5 anni.",
     "level": "base"
+  },
+  {
+    "id": "Q_PECS_LAV_051",
+    "question": "A seguito delle modifiche introdotte dal D.L. 4 maggio 2023, n. 48 (Decreto Lavoro), entro quale limite di durata il contratto di lavoro a tempo determinato può essere stipulato liberamente senza necessità di apporre alcuna causale giustificativa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "6 mesi"
+      },
+      {
+        "id": "B",
+        "text": "18 mesi"
+      },
+      {
+        "id": "C",
+        "text": "12 mesi"
+      },
+      {
+        "id": "D",
+        "text": "24 mesi"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Il D.L. 48/2023 ha confermato che il contratto a tempo determinato è acausale per i primi 12 mesi; il superamento di tale limite e fino a un massimo complessivo di 24 mesi è consentito solo in presenza di causali previste dalla contrattazione collettiva o, in subordine, per esigenze tecniche, organizzative o sostitutive.",
+    "hint": "Il periodo acausale standard è di 12 mesi.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_LAV_052",
+    "question": "Quali causali legittimano la stipula o la proroga di un contratto a termine per una durata superiore a 12 mesi e fino a 24 mesi ai sensi dell'art. 19 del D.Lgs. 81/2015 come modificato dal D.L. 48/2023?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Esclusivamente per l'avvio di nuove attività industriali comunicate al Ministero del Lavoro"
+      },
+      {
+        "id": "B",
+        "text": "In qualsiasi caso purché il lavoratore acconsenta per iscritto dinanzi alla Prefettura"
+      },
+      {
+        "id": "C",
+        "text": "Solo per lavoratori che abbiano compiuto 50 anni di età"
+      },
+      {
+        "id": "D",
+        "text": "Nei casi previsti dai contratti collettivi nazionali, territoriali o aziendali stipulati dalle associazioni sindacali comparativamente più rappresentative, oppure, in assenza, per esigenze di natura tecnica, organizzativa o produttiva individuate dalle parti o per sostituzione"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'art. 19, comma 1, D.Lgs. 81/2015 (novellato dal D.L. 48/2023) demanda prioritariamente ai contratti collettivi (CCNL, territoriali o aziendali) l'individuazione delle causali; in via sussidiaria le parti possono concordare causali tecniche/organizzative/produttive oppure ricorrere alla sostituzione di altri lavoratori.",
+    "hint": "Priorità alla contrattazione collettiva con clausola sussidiaria tra le parti o sostituzione.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_LAV_053",
+    "question": "Qual è il limite quantitativo ordinario legale per l'assunzione di lavoratori a tempo determinato rispetto al numero dei lavoratori a tempo indeterminato in forza al 1° gennaio dell'anno di assunzione (art. 23 D.Lgs. 81/2015)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "20%"
+      },
+      {
+        "id": "B",
+        "text": "10%"
+      },
+      {
+        "id": "C",
+        "text": "30%"
+      },
+      {
+        "id": "D",
+        "text": "50%"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Salvo diversa disposizione dei contratti collettivi, non possono essere assunti lavoratori a tempo determinato in misura superiore al 20% del numero dei lavoratori a tempo indeterminato in forza al 1° gennaio dell'anno di assunzione.",
+    "hint": "La percentuale legale di contingentamento è il 20%.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_LAV_054",
+    "question": "Cosa stabilisce la regola del c.d. 'stop and go' in caso di riassunzione a termine dello stesso lavoratore?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il datore di lavoro non può riassumere lo stesso lavoratore per almeno un anno solare"
+      },
+      {
+        "id": "B",
+        "text": "Deve intercorrere un intervallo di almeno 10 giorni dalla scadenza di un contratto fino a 6 mesi, o di 20 giorni se il contratto precedente superava i 6 mesi"
+      },
+      {
+        "id": "C",
+        "text": "Occorre sempre un periodo di pausa obbligatoria di 60 giorni lavorativi"
+      },
+      {
+        "id": "D",
+        "text": "Nessun intervallo è richiesto in caso di accordo verbale"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Ai sensi dell'art. 21, comma 2, del D.Lgs. 81/2015, qualora il lavoratore sia riassunto a tempo determinato entro 10 giorni dalla scadenza di un contratto di durata fino a 6 mesi, ovvero entro 20 giorni per contratti superiori a 6 mesi, il secondo contratto si trasforma a tempo indeterminato.",
+    "hint": "Intervallo minimo di 10 o 20 giorni a seconda della durata del contratto precedente.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_LAV_055",
+    "question": "In caso di violazione dell'intervallo temporale minimo dello 'stop and go', quale conseguenza giuridica prevede la legge?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'applicazione di una sanzione amministrativa pecuniaria di 500 euro"
+      },
+      {
+        "id": "B",
+        "text": "La sospensione dell'attività d'impresa per 30 giorni"
+      },
+      {
+        "id": "C",
+        "text": "La conversione del secondo contratto a tempo indeterminato fin dalla data di stipulazione"
+      },
+      {
+        "id": "D",
+        "text": "L'annullamento della contribuzione previdenziale versata"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "La violazione dei termini di intervallo tra contratti a termine successivi comporta per legge la conversione del nuovo contratto in rapporto di lavoro a tempo indeterminato.",
+    "hint": "Scatta la conversione a tempo indeterminato.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_LAV_056",
+    "question": "Cos'è la somministrazione di lavoro a tempo indeterminato (c.d. staff leasing) disciplinata dall'art. 30 e ss. del D.Lgs. 81/2015?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Una forma illecita di intermediazione vietata penalmente"
+      },
+      {
+        "id": "B",
+        "text": "Un appalto di servizi privo di personale dipendente"
+      },
+      {
+        "id": "C",
+        "text": "Il distacco ministeriale dei funzionari pubblici presso società private"
+      },
+      {
+        "id": "D",
+        "text": "Una tipologia negoziale in cui l'agenzia di somministrazione assume il lavoratore a tempo indeterminato e lo invia in missione presso un utilizzatore"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Lo staff leasing è il contratto commerciale di somministrazione a tempo indeterminato tra somministratore e utilizzatore, a fronte del quale l'agenzia stipula con il lavoratore un contratto di lavoro subordinato a tempo indeterminato, garantendo un'indennità di disponibilità per i periodi tra una missione e l'altra.",
+    "hint": "Assunzione a tempo indeterminato da parte dell'agenzia per missioni presso utilizzatori.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_LAV_057",
+    "question": "Quale principio fondamentale governa il trattamento economico e normativo del lavoratore somministrato rispetto ai dipendenti dell'impresa utilizzatrice (art. 35 D.Lgs. 81/2015)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il principio di parità di trattamento: per tutta la durata della missione ha diritto a condizioni economiche e normative complessivamente non inferiori a quelle dei dipendenti di pari livello dell'utilizzatore"
+      },
+      {
+        "id": "B",
+        "text": "Il principio della retribuzione ridotta del 15% per compensare il margine dell'agenzia"
+      },
+      {
+        "id": "C",
+        "text": "L'applicazione esclusiva del salario minimo federale stabilito dall'OIL"
+      },
+      {
+        "id": "D",
+        "text": "Il divieto di erogazione di qualsiasi premio di risultato o straordinario"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Ai sensi dell'art. 35 D.Lgs. 81/2015, il lavoratore somministrato ha diritto, a parità di mansioni svolte, a un trattamento economico e normativo complessivamente non inferiore a quello dei lavoratori dipendenti dall'utilizzatore inquadrati allo stesso livello.",
+    "hint": "Principio inderogabile di parità di trattamento economico e normativo.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_LAV_058",
+    "question": "In caso di somministrazione di lavoro, chi risponde in solido con l'agenzia per i crediti retributivi e i contributi previdenziali dovuti al lavoratore?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Solo il fondo di garanzia istituito presso l'INPS"
+      },
+      {
+        "id": "B",
+        "text": "L'utilizzatore risponde in solido con il somministratore per i crediti retributivi e per i versamenti dei contributi previdenziali maturati durante la missione"
+      },
+      {
+        "id": "C",
+        "text": "L'utilizzatore è totalmente esente da qualsiasi forma di responsabilità"
+      },
+      {
+        "id": "D",
+        "text": "La Camera di Commercio della provincia in cui ha sede l'agenzia"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 35, comma 2, D.Lgs. 81/2015 prevede la responsabilità solidale tra utilizzatore e somministratore per la corresponsione dei trattamenti retributivi e per il versamento dei contributi previdenziali in favore dei lavoratori somministrati.",
+    "hint": "Responsabilità solidale diretta tra utilizzatore e somministratore.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_LAV_059",
+    "question": "In base all'art. 2103 del Codice Civile (come riscritto dall'art. 3 del D.Lgs. 81/2015), a quali mansioni può essere adibito il lavoratore dal datore di lavoro nell'esercizio dello ius variandi?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A qualsiasi mansione anche manuale purché all'interno della stessa sede provinciale"
+      },
+      {
+        "id": "B",
+        "text": "Esclusivamente alle mansioni identiche e tassative indicate nel contratto individuale senza alcuna variazione possibile"
+      },
+      {
+        "id": "C",
+        "text": "A quelle per le quali è stato assunto o a quelle corrispondenti all'inquadramento superiore successivamente acquisito ovvero a mansioni riconducibili allo stesso livello e categoria legale di inquadramento delle ultime effettivamente svolte"
+      },
+      {
+        "id": "D",
+        "text": "A mansioni inferiori a totale discrezione insindacabile del datore"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "La riforma dell'art. 2103 c.c. ha superato il previgente concetto di 'equivalenza professionale' formale, ancorando la mobilità orizzontale all'appartenenza allo 'stesso livello e categoria legale di inquadramento' previsti dal contratto collettivo applicato.",
+    "hint": "Mansioni riconducibili allo stesso livello e categoria legale di inquadramento.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_LAV_060",
+    "question": "In quali casi l'art. 2103 c.c. consente legittimamente l'assegnazione del lavoratore a mansioni appartenenti al livello di inquadramento inferiore (demansionamento unilaterale)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ogni volta che l'azienda registri una perdita di fatturato annuale superiore al 5%"
+      },
+      {
+        "id": "B",
+        "text": "Come sanzione disciplinare conservativa per assenze ingiustificate"
+      },
+      {
+        "id": "C",
+        "text": "Non è mai ammesso in nessun caso dall'ordinamento"
+      },
+      {
+        "id": "D",
+        "text": "In caso di modifica degli assetti organizzativi aziendali che incide sulla posizione del lavoratore, limitatamente a mansioni del livello immediatamente inferiore purché rientranti nella medesima categoria legale"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'art. 2103, comma 2, c.c. ammette il mutamento a mansioni inferiori (di un solo livello e nella medesima categoria legale) solo in caso di modifica degli assetti organizzativi aziendali che incidano sulla posizione del lavoratore, conservando comunque il livello di inquadramento e la retribuzione di base.",
+    "hint": "Ammesso solo per modifica degli assetti organizzativi, al livello immediatamente inferiore e a parità di retribuzione.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_PECS_LAV_061",
+    "question": "Dove possono essere stipulati validi 'patti di demansionamento' nell'interesse del lavoratore alla conservazione dell'occupazione o all'acquisizione di una diversa professionalità (art. 2103, comma 6, c.c.)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nelle sedi c.d. protette (Commissione di conciliazione presso l'ITL, sede sindacale, commissioni di certificazione) con facoltà di farsi assistere da un rappresentante sindacale o avvocato"
+      },
+      {
+        "id": "B",
+        "text": "Con semplice scambio di email o corrispondenza ordinaria tra le parti"
+      },
+      {
+        "id": "C",
+        "text": "Unicamente mediante atto pubblico rogato da notaio alla presenza di due testimoni"
+      },
+      {
+        "id": "D",
+        "text": "Presso il comune di residenza del lavoratore"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "I patti individuali di dequalificazione/demansionamento (anche con riduzione della retribuzione) sono validi solo se stipulati nelle sedi protette ex art. 2113, quarto comma, c.c. o avanti alle commissioni di certificazione, nell'interesse del lavoratore alla salvaguardia del posto di lavoro o al miglioramento delle condizioni di vita.",
+    "hint": "Stipula obbligatoria in sede protetta (ITL, sindacato, certificazione).",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_LAV_062",
+    "question": "Dopo quanto tempo di adibizione continuativa a mansioni superiori il lavoratore subordinato privato acquisisce in via definitiva il diritto all'inquadramento superiore (salvo sostituzione di lavoratore assente con diritto alla conservazione del posto)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dopo 15 giorni di svolgimento effettivo"
+      },
+      {
+        "id": "B",
+        "text": "Dopo il periodo fissato dai contratti collettivi o, in mancanza, dopo sei mesi continuativi (o tre mesi per mansioni dirigenziali)"
+      },
+      {
+        "id": "C",
+        "text": "Dopo due anni continuativi"
+      },
+      {
+        "id": "D",
+        "text": "Il diritto non si consolida mai automaticamente nel settore privato"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Ai sensi dell'art. 2103, comma 7, c.c., l'assegnazione a mansioni superiori diviene definitiva dopo il periodo fissato dai contratti collettivi o, in mancanza, dopo sei mesi continuativi (ovvero tre mesi per le qualifiche con mansioni direttive/dirigenziali).",
+    "hint": "Sei mesi continuativi in assenza di diversa previsione contrattuale.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_LAV_063",
+    "question": "Qual è la durata normale dell'orario settimanale di lavoro stabilita dal D.Lgs. 8 aprile 2003, n. 66?",
+    "options": [
+      {
+        "id": "A",
+        "text": "36 ore"
+      },
+      {
+        "id": "B",
+        "text": "44 ore"
+      },
+      {
+        "id": "C",
+        "text": "40 ore"
+      },
+      {
+        "id": "D",
+        "text": "48 ore"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'art. 3, comma 1, del D.Lgs. 66/2003 fissa l'orario normale di lavoro in 40 ore settimanali, facendo salva la facoltà dei contratti collettivi di stabilire una durata minore o riferire l'orario normale alla durata media delle prestazioni in un periodo non superiore all'anno.",
+    "hint": "L'orario normale standard è di 40 ore settimanali.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_LAV_064",
+    "question": "Qual è la durata massima dell'orario di lavoro settimanale comprensiva del lavoro straordinario (art. 4 D.Lgs. 66/2003)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "60 ore settimanali fisse senza possibilità di recupero"
+      },
+      {
+        "id": "B",
+        "text": "Non può mai superare le 42 ore settimanali"
+      },
+      {
+        "id": "C",
+        "text": "55 ore medie mensili"
+      },
+      {
+        "id": "D",
+        "text": "Non può superare, per ogni periodo di sette giorni, la media di 48 ore, calcolata con riferimento a un periodo non superiore a quattro mesi"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Ai sensi dell'art. 4, comma 2, D.Lgs. 66/2003, la durata media dell'orario di lavoro non può in ogni caso superare, per ogni periodo di sette giorni, le 48 ore, comprese le ore di lavoro straordinario, calcolate su un periodo di riferimento non superiore a 4 mesi (estendibile dai CCNL fino a 6 o 12 mesi per ragioni obiettive).",
+    "hint": "Limite medio massimo di 48 ore settimanali su arco quadrimestrale.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_LAV_065",
+    "question": "A quante ore di riposo giornaliero consecutivo ha diritto il lavoratore ogni ventiquattro ore ai sensi dell'art. 7 del D.Lgs. 66/2003?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Almeno 11 ore consecutive"
+      },
+      {
+        "id": "B",
+        "text": "Almeno 8 ore"
+      },
+      {
+        "id": "C",
+        "text": "Almeno 14 ore"
+      },
+      {
+        "id": "D",
+        "text": "Non vi è un limite fisso di riposo continuativo"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 7 del D.Lgs. 66/2003 sancisce il diritto inderogabile del lavoratore a fruire di almeno 11 ore di riposo consecutivo ogni 24 ore.",
+    "hint": "11 ore consecutive di riposo ogni ventiquattro ore.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_LAV_066",
+    "question": "Qual è la disciplina legale inderogabile delle ferie annuali stabilita dall'art. 10 del D.Lgs. 66/2003?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Le ferie ammontano a due settimane e possono essere sempre monetizzate con il consenso del lavoratore"
+      },
+      {
+        "id": "B",
+        "text": "Il lavoratore ha diritto a un periodo annuale di ferie retribuite non inferiore a quattro settimane; tale periodo minimo non può essere sostituito dalla relativa indennità per ferie non godute, salvo il caso di risoluzione del rapporto di lavoro"
+      },
+      {
+        "id": "C",
+        "text": "Il periodo di ferie è a discrezione del datore di lavoro e non può superare 10 giorni lavorativi"
+      },
+      {
+        "id": "D",
+        "text": "Le ferie possono essere sostituite da buoni spesa o welfare aziendale a richiesta dell'impresa"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 10 D.Lgs. 66/2003 (in attuazione dell'art. 36 Cost.) stabilisce che il periodo minimo di ferie è di 4 settimane all'anno (di cui almeno due consecutive su richiesta) e vige il divieto assoluto di monetizzazione durante il rapporto, salvo alla cessazione dello stesso.",
+    "hint": "Almeno 4 settimane, con divieto assoluto di monetizzazione durante il rapporto.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_LAV_067",
+    "question": "Qual è la durata del congedo di paternità obbligatorio introdotto dal D.Lgs. 105/2022 a carico dell'INPS?",
+    "options": [
+      {
+        "id": "A",
+        "text": "3 giorni lavorativi"
+      },
+      {
+        "id": "B",
+        "text": "30 giorni di calendario"
+      },
+      {
+        "id": "C",
+        "text": "10 giorni lavorativi retribuiti al 100% dell'indennità"
+      },
+      {
+        "id": "D",
+        "text": "5 giorni fruibili solo congiuntamente alla madre"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'art. 27-bis del D.Lgs. 151/2001 (introdotto dal D.Lgs. 105/2022) prevede che il padre lavoratore dipendente fruisca di un congedo di paternità obbligatorio di 10 giorni lavorativi (20 in caso di parto plurimo), indennizzati al 100% dall'INPS, fruibili dai 2 mesi precedenti fino ai 5 mesi successivi al parto.",
+    "hint": "10 giorni lavorativi indennizzati al 100%.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_LAV_068",
+    "question": "A quale percentuale della retribuzione è indennizzato il congedo parentale per i primi mesi secondo le novità introdotte dalle recenti Leggi di Bilancio?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sempre al 30% per tutti i mesi di fruizione"
+      },
+      {
+        "id": "B",
+        "text": "Al 100% per l'intero primo anno di vita"
+      },
+      {
+        "id": "C",
+        "text": "Al 50% forfettario senza distinzione di anzianità"
+      },
+      {
+        "id": "D",
+        "text": "All'80% della retribuzione per i primi due mesi fruiti entro i 6 anni di vita del bambino (in alternativa tra i genitori) e al 30% per i mesi successivi"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Le Leggi di Bilancio per il 2023 e 2024 hanno elevato l'indennità per il congedo parentale all'80% della retribuzione per i primi due mesi di congedo fruiti entro il sesto anno di vita del figlio (in alternativa tra i genitori lavoratori dipendenti), mentre i restanti periodi restano indennizzati al 30%.",
+    "hint": "Elevato all'80% per i primi due mesi entro i 6 anni di vita del minore.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_LAV_069",
+    "question": "Cos'è il 'diritto alla disconnessione' previsto dalla Legge 81/2017 in materia di lavoro agile (smart working)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il diritto del lavoratore a spegnere i dispositivi tecnologici e non rispondere alle comunicazioni aziendali durante le fasce di riposo individuate nell'accordo individuale"
+      },
+      {
+        "id": "B",
+        "text": "Il potere del datore di lavoro di bloccare l'accesso a internet dei dipendenti durante l'orario d'ufficio"
+      },
+      {
+        "id": "C",
+        "text": "La disattivazione automatica della casella email durante i weekend ordinata dall'AGCOM"
+      },
+      {
+        "id": "D",
+        "text": "Un bonus economico erogato a chi non possiede connessione Wi-Fi"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 19 della Legge 81/2017 sancisce che l'accordo sul lavoro agile deve individuare le misure tecniche e organizzative necessarie per assicurare la disconnessione del lavoratore dalle strumentazioni tecnologiche di lavoro, a salvaguardia del suo riposo e della sua salute.",
+    "hint": "Tutela il riposo escludendo l'obbligo di connessione e risposta fuori dall'orario.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_LAV_070",
+    "question": "Quale regime si applica agli infortuni sul lavoro occorsi durante la prestazione resa in modalità di lavoro agile (art. 23 L. 81/2017)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nessuna tutela assicurativa, essendo il lavoratore responsabile esclusivo del proprio ambiente domestico"
+      },
+      {
+        "id": "B",
+        "text": "Il lavoratore agile ha diritto alla tutela contro gli infortuni sul lavoro e le malattie professionali dipendenti da rischi connessi alla prestazione lavorativa resa all'esterno dei locali aziendali secondo la disciplina ordinaria INAIL"
+      },
+      {
+        "id": "C",
+        "text": "Gli infortuni domestici sono coperti solo da assicurazioni private stipulate dal dipendente"
+      },
+      {
+        "id": "D",
+        "text": "Si applica una franchigia economica obbligatoria di 5.000 euro a carico del datore"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Ai sensi dell'art. 23 L. 81/2017, il lavoratore agile è pienamente tutelato dall'INAIL sia per gli infortuni occorsi nell'abitazione o nel luogo prescelto per la prestazione connessi al lavoro, sia per l'infortunio in itinere qualora la scelta del luogo sia giustificata da esigenze collegate alla prestazione o alla conciliazione vita-lavoro.",
+    "hint": "Piena copertura assicurativa ordinaria INAIL.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_LAV_071",
+    "question": "Cosa definisce la 'giusta causa' di licenziamento ai sensi dell'art. 2119 del Codice Civile?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un notevole inadempimento degli obblighi contrattuali che consente il preavviso"
+      },
+      {
+        "id": "B",
+        "text": "La soppressione del posto di lavoro per riorganizzazione tecnologica"
+      },
+      {
+        "id": "C",
+        "text": "Una causa che non consente la prosecuzione, anche provvisoria, del rapporto di lavoro"
+      },
+      {
+        "id": "D",
+        "text": "Il raggiungimento dell'età pensionabile di vecchiaia"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'art. 2119 c.c. definisce la giusta causa come quella causa gravissima che non consente la prosecuzione, anche provvisoria, del rapporto; in tal caso il recesso avviene con effetto immediato (in tronco), senza obbligo di concedere il preavviso né di pagare la relativa indennità sostitutiva.",
+    "hint": "Impedisce la prosecuzione anche provvisoria e determina il licenziamento in tronco.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_LAV_072",
+    "question": "In cosa differisce il licenziamento per 'giustificato motivo soggettivo' dal licenziamento per 'giusta causa'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il giustificato motivo soggettivo riguarda solo motivi economici aziendali"
+      },
+      {
+        "id": "B",
+        "text": "La giusta causa richiede sempre l'autorizzazione preventiva dell'Ispettorato del Lavoro"
+      },
+      {
+        "id": "C",
+        "text": "Non vi è alcuna differenza sostanziale né di procedura"
+      },
+      {
+        "id": "D",
+        "text": "Il giustificato motivo soggettivo è integrato da un notevole inadempimento degli obblighi contrattuali del lavoratore ma, essendo meno grave della giusta causa, comporta l'obbligo di concedere il periodo di preavviso o la relativa indennità sostitutiva"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Ai sensi dell'art. 3 della L. 604/1966, il giustificato motivo soggettivo consiste in un 'notevole inadempimento' degli obblighi contrattuali. A differenza della giusta causa (che non tollera neppure la prosecuzione provvisoria ed è senza preavviso), il GMS obbliga il datore al rispetto del preavviso.",
+    "hint": "Notevole inadempimento con diritto al preavviso.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_LAV_073",
+    "question": "Cosa si intende per licenziamento per 'giustificato motivo oggettivo' (GMO) ex art. 3 Legge 604/1966?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un licenziamento determinato da ragioni inerenti all'attività produttiva, all'organizzazione del lavoro e al regolare funzionamento di essa"
+      },
+      {
+        "id": "B",
+        "text": "Un recesso fondato esclusivamente sulla violazione del codice disciplinare"
+      },
+      {
+        "id": "C",
+        "text": "La cessazione del rapporto per compimento del periodo di comporto per malattia"
+      },
+      {
+        "id": "D",
+        "text": "Il licenziamento intimato per ragioni di discriminazione sindacale o politica"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 3 L. 604/1966 definisce il GMO come quel licenziamento determinato da ragioni economiche, tecniche, organizzative o produttive dell'impresa (es. soppressione del reparto, introduzione di nuove macchine, riassetto aziendale).",
+    "hint": "Ragioni connesse all'organizzazione del lavoro e alla produzione (motivi economici).",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_LAV_074",
+    "question": "Quale onere incombe sul datore di lavoro per dimostrare la legittimità del licenziamento per giustificato motivo oggettivo (c.d. obbligo di repechage)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'onere di acquistare un'altra azienda per riassorbire il personale"
+      },
+      {
+        "id": "B",
+        "text": "L'onere di provare l'impossibilità di adibire il lavoratore ad altre mansioni equivalenti o anche inferiori presenti nell'organizzazione aziendale"
+      },
+      {
+        "id": "C",
+        "text": "L'obbligo di pagare uno stipendio supplementare a tutti i colleghi del licenziato"
+      },
+      {
+        "id": "D",
+        "text": "Nessun onere ulteriore oltre alla semplice comunicazione scritta"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La giurisprudenza costante impone al datore di lavoro l'onere di provare il c.d. repechage, ossia che non vi siano posizioni lavorative alternative all'interno dell'intera struttura aziendale cui ricollocare proficuamente il lavoratore, anche con mansioni inferiori.",
+    "hint": "Prova dell'impossibilità di ricollocare il lavoratore in altre mansioni aziendali.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_LAV_075",
+    "question": "A seguito delle storiche sentenze della Corte Costituzionale (n. 194/2018 e n. 150/2020) sul D.Lgs. 23/2015 (Contratto a tutele crescenti), come viene determinato il risarcimento per licenziamento illegittimo privo di giusta causa o GMO?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Con una cifra fissa di 100.000 euro per qualsiasi dipendente"
+      },
+      {
+        "id": "B",
+        "text": "Esclusivamente applicando due mensilità per ogni anno di servizio senza valutazione giudiziale"
+      },
+      {
+        "id": "C",
+        "text": "Non più in base a un mero automatismo matematico legato all'anzianità di servizio, ma dal giudice entro i limiti minimo e massimo di legge, tenendo conto dell'anzianità, del numero dei dipendenti, delle dimensioni dell'impresa e del comportamento delle parti"
+      },
+      {
+        "id": "D",
+        "text": "Attraverso un sorteggio pubblico tra le tabelle dell'Ispettorato del Lavoro"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "La Corte Costituzionale (sent. 194/2018) ha dichiarato incostituzionale il criterio rigido e automatico delle due mensilità per anno di servizio, restituendo al giudice del lavoro la discrezionalità di quantificare l'indennità risarcitoria tra il minimo e il massimo edittale (attualmente da 6 a 36 mensilità) valutando molteplici parametri.",
+    "hint": "Discrezionalità del giudice tra minimo e massimo, superando il rigido automatismo matematico.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_PECS_LAV_076",
+    "question": "In quali casi eccezionali nel regime del D.Lgs. 23/2015 (tutele crescenti) residua la reintegrazione nel posto di lavoro per licenziamento economico (GMO)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sempre, in ogni ipotesi di mancato repechage"
+      },
+      {
+        "id": "B",
+        "text": "Solo se l'azienda occupa più di 500 dipendenti"
+      },
+      {
+        "id": "C",
+        "text": "Se il dipendente è laureato con lode"
+      },
+      {
+        "id": "D",
+        "text": "In nessun caso per il licenziamento economico, essendo prevista solo la tutela indennitaria monetaria (salvo che il fatto sia nullo per discriminazione o motivo illecito)"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "A differenza dell'art. 18 Statuto (come modificato dalla L. 92/2012), nel regime delle tutele crescenti (D.Lgs. 23/2015) l'insussistenza del giustificato motivo oggettivo non dà mai diritto alla reintegra ma solo all'indennità economica; la reintegra opera solo per licenziamenti nulli (discriminatori, intimati in concomitanza di matrimonio o maternità) o per insussistenza del fatto materiale nel GMS/giusta causa.",
+    "hint": "Per il GMO nelle tutele crescenti la tutela è unicamente risarcitoria economica.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_PECS_LAV_077",
+    "question": "Quali requisiti integrano la fattispecie di 'licenziamento collettivo' ai sensi della Legge 23 luglio 1991, n. 223?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Impresa con più di 15 dipendenti che intende effettuare almeno 5 licenziamenti nell'arco di 120 giorni in ciascuna unità produttiva o in più unità nell'ambito della stessa provincia, per riduzione o trasformazione di attività"
+      },
+      {
+        "id": "B",
+        "text": "Qualsiasi impresa che licenzi 2 lavoratori contemporaneamente"
+      },
+      {
+        "id": "C",
+        "text": "Imprese artigiane che riducano l'orario di lavoro a metà dei dipendenti"
+      },
+      {
+        "id": "D",
+        "text": "Licenziamento di almeno 50 lavoratori nell'arco di un biennio solare"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La Legge 223/1991 (artt. 4 e 24) definisce il licenziamento collettivo per le imprese che occupano più di 15 dipendenti e che intendano effettuare almeno 5 licenziamenti nell'arco di 120 giorni nella stessa provincia in conseguenza di riduzione o trasformazione di attività o lavoro.",
+    "hint": "Più di 15 dipendenti, almeno 5 licenziamenti nell'arco di 120 giorni.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_LAV_078",
+    "question": "In caso di licenziamento collettivo ex L. 223/1991, quali criteri di scelta dei lavoratori da licenziare si applicano in mancanza di diversi criteri concordati nei contratti collettivi?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Esclusivamente l'ordine alfabetico dei dipendenti"
+      },
+      {
+        "id": "B",
+        "text": "I criteri legali concorrenti: carichi di famiglia, anzianità di servizio ed esigenze tecnico-produttive e organizzative dell'impresa"
+      },
+      {
+        "id": "C",
+        "text": "Il livello retributivo più alto"
+      },
+      {
+        "id": "D",
+        "text": "La residenza anagrafica più distante dalla sede di lavoro"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 5, comma 1, L. 223/1991 stabilisce che, in assenza di diversi criteri stabiliti dagli accordi sindacali, l'individuazione dei lavoratori deve avvenire nel rispetto congiunto di tre criteri legali: carichi di famiglia, anzianità e motivi tecnico-produttivi.",
+    "hint": "Carichi di famiglia, anzianità ed esigenze tecnico-produttive.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_LAV_079",
+    "question": "Entro quale termine decadenziale il lavoratore deve impugnare stragiudizialmente il licenziamento a pena di inefficacia (art. 6 Legge 604/1966)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Entro 30 giorni"
+      },
+      {
+        "id": "B",
+        "text": "Entro 120 giorni"
+      },
+      {
+        "id": "C",
+        "text": "Entro 60 giorni dalla ricezione della comunicazione scritta del licenziamento"
+      },
+      {
+        "id": "D",
+        "text": "Entro 5 anni"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Ai sensi dell'art. 6 L. 604/1966, il licenziamento deve essere impugnato a pena di decadenza entro 60 giorni dalla ricezione della sua comunicazione scritta, con qualsiasi atto scritto, anche extragiudiziale, idoneo a rendere nota la volontà del lavoratore.",
+    "hint": "Termine decadenziale di 60 giorni per l'impugnazione stragiudiziale.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_LAV_080",
+    "question": "A seguito dell'impugnazione stragiudiziale del licenziamento entro 60 giorni, entro quale termine successivo deve essere depositato il ricorso giudiziale dinanzi al Tribunale del Lavoro?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Entro 30 giorni"
+      },
+      {
+        "id": "B",
+        "text": "Entro un anno solare"
+      },
+      {
+        "id": "C",
+        "text": "Entro 60 giorni esatti"
+      },
+      {
+        "id": "D",
+        "text": "Entro 180 giorni a pena di inefficacia dell'impugnazione"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'impugnazione è inefficace se non è seguita, entro il successivo termine perentorio di 180 giorni, dal deposito del ricorso nella cancelleria del tribunale in funzione di giudice del lavoro ovvero dalla comunicazione alla controparte della richiesta di tentativo di conciliazione o arbitrato.",
+    "hint": "Successivo termine perentorio di 180 giorni per il deposito del ricorso in tribunale.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_LAV_081",
+    "question": "Quale importante modifica ha apportato la 'Riforma Cartabia' (D.Lgs. 149/2022) al contenzioso sui licenziamenti?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ha abrogato il c.d. 'Rito Fornero' (L. 92/2012), riconducendo le controversie sui licenziamenti nell'alveo del rito ordinario del lavoro (art. 409 e ss. c.p.c.) con corsia di trattazione prioritaria"
+      },
+      {
+        "id": "B",
+        "text": "Ha reso obbligatorio l'arbitrato privato vietando il ricorso al TAR"
+      },
+      {
+        "id": "C",
+        "text": "Ha abolito la figura del giudice del lavoro monocratico sostituendola con un collegio di cinque giudici"
+      },
+      {
+        "id": "D",
+        "text": "Ha introdotto l'obbligo di conciliazione notarile preventiva"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La Riforma Cartabia ha abrogato il rito sommario speciale introdotto dalla Legge Fornero (commi 47-69 art. 1 L. 92/2012), unificando il rito per i licenziamenti sotto il modello generale dell'art. 409 c.p.c., prevedendo specifiche norme per garantire la trattazione celere.",
+    "hint": "Abrogazione del Rito Fornero e ritorno al rito del lavoro con priorità.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_PECS_LAV_082",
+    "question": "Cos'è il Trattamento di Fine Rapporto (TFR) disciplinato dall'art. 2120 del Codice Civile?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Una penale risarcitoria pagata dall'INPS in caso di fallimento"
+      },
+      {
+        "id": "B",
+        "text": "Una forma di retribuzione differita corrisposta al lavoratore all'atto della cessazione del rapporto di lavoro, accantonata annualmente dividendo la retribuzione utile per 13,5"
+      },
+      {
+        "id": "C",
+        "text": "Un'indennità forfettaria pari a una mensilità per ogni dieci anni di lavoro"
+      },
+      {
+        "id": "D",
+        "text": "Un fondo azionario a rischio gestito direttamente dalle rappresentanze sindacali"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il TFR è una quota di retribuzione accantonata annualmente dal datore di lavoro per ciascun dipendente, calcolata dividendo la retribuzione annua per 13,5, rivalutata al 31 dicembre di ogni anno con un tasso fisso dell'1,5% aumentato del 75% dell'indice dei prezzi al consumo ISTAT.",
+    "hint": "Retribuzione differita calcolata dividendo la retribuzione per 13,5 con rivalutazione legale.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_LAV_083",
+    "question": "Nelle aziende con almeno 50 dipendenti, quale destinazione hanno le quote di TFR maturate dai lavoratori che scelgono di mantenere il TFR in azienda (D.Lgs. 252/2005)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Restano nella disponibilità liquida dell'imprenditore senza alcun vincolo"
+      },
+      {
+        "id": "B",
+        "text": "Vengono conferite obbligatoriamente a fondi pensione aperti"
+      },
+      {
+        "id": "C",
+        "text": "Vengono versate obbligatoriamente dal datore di lavoro al Fondo di Tesoreria gestito dall'INPS per conto dello Stato"
+      },
+      {
+        "id": "D",
+        "text": "Vengono convertite in titoli di Stato a rendimento fisso"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "I datori di lavoro del settore privato con almeno 50 dipendenti sono tenuti a versare le quote di TFR dei dipendenti che non hanno optato per la previdenza complementare al 'Fondo per l'erogazione ai lavoratori dipendenti del settore privato dei trattamenti di fine rapporto' (Fondo Tesoreria INPS).",
+    "hint": "Versamento al Fondo di Tesoreria INPS.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_LAV_084",
+    "question": "In presenza di quali condizioni il lavoratore con almeno 8 anni di servizio presso lo stesso datore può richiedere un'anticipazione del TFR (art. 2120 c.c.)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fino al 100% per qualsiasi spesa personale senza giustificazione"
+      },
+      {
+        "id": "B",
+        "text": "Solo per finanziare viaggi all'estero"
+      },
+      {
+        "id": "C",
+        "text": "Solo in caso di decesso del coniuge"
+      },
+      {
+        "id": "D",
+        "text": "Fino al 70% del trattamento maturato, per spese sanitarie straordinarie o per l'acquisto della prima casa per sé o per i figli"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'art. 2120, comma 6 e ss., c.c. consente l'anticipazione del TFR fino al 70% a chi abbia almeno 8 anni di anzianità, per spese sanitarie straordinarie per terapie e interventi necessari, o per l'acquisto della prima casa di abitazione per sé o per i figli, entro il limite annuale del 10% degli aventi titolo e del 4% del personale.",
+    "hint": "Almeno 8 anni di servizio, anticipazione fino al 70% per salute o prima casa.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_LAV_085",
+    "question": "Cos'è il Fondo di Garanzia per il TFR e i crediti di lavoro istituito presso l'INPS (Legge 297/1982 e D.Lgs. 80/1992)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un fondo pubblico che si sostituisce al datore di lavoro insolvente o fallito nel pagamento del TFR e delle ultime tre mensilità di retribuzione ai lavoratori"
+      },
+      {
+        "id": "B",
+        "text": "Un fondo che eroga prestiti personali a tassi agevolati ai dirigenti d'azienda"
+      },
+      {
+        "id": "C",
+        "text": "Un consorzio di banche private per la gestione delle liquidazioni aziendali"
+      },
+      {
+        "id": "D",
+        "text": "Un'assicurazione privata obbligatoria contro gli infortuni sportivi"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il Fondo di Garanzia INPS interviene a tutela dei lavoratori dipendenti in caso di insolvenza del datore di lavoro (liquidazione giudiziale/fallimento, concordato, esecuzione forzata infruttuosa), garantendo la liquidazione del TFR e delle ultime 3 mensilità retributive maturate negli ultimi 12 mesi di rapporto.",
+    "hint": "Interviene in caso di insolvenza/fallimento per pagare TFR e ultime 3 mensilità.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_LAV_086",
+    "question": "Quale elemento distingue l'appalto genuino di servizi (art. 29 D.Lgs. 276/2003) dalla somministrazione o dall'illecita interposizione di manodopera?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La presenza di un capitale sociale dell'appaltatore superiore a un milione di euro"
+      },
+      {
+        "id": "B",
+        "text": "L'organizzazione dei mezzi necessari da parte dell'appaltatore (con effettivo esercizio del potere direttivo sui lavoratori) e l'assunzione del rischio d'impresa"
+      },
+      {
+        "id": "C",
+        "text": "Il fatto che i lavoratori indossino divise fornite dal committente"
+      },
+      {
+        "id": "D",
+        "text": "La durata dell'appalto inferiore a 30 giorni"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Ai sensi dell'art. 29 D.Lgs. 276/2003, il contratto di appalto si distingue dalla somministrazione di lavoro per l'organizzazione dei mezzi necessari da parte dell'appaltatore (che può anche consistere nell'esercizio del potere direttivo e organizzativo sui propri dipendenti) e per l'assunzione del rischio d'impresa.",
+    "hint": "Organizzazione dei mezzi, gestione direttiva autonoma e assunzione del rischio d'impresa.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_LAV_087",
+    "question": "Cosa prevede il regime di responsabilità solidale negli appalti di opere o servizi tra committente, appaltatore ed eventuali subappaltatori (art. 29, comma 2, D.Lgs. 276/2003)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La responsabilità del committente cessa immediatamente all'atto della firma del contratto d'appalto"
+      },
+      {
+        "id": "B",
+        "text": "Il committente risponde solo ed esclusivamente delle sanzioni penali e non dei debiti retributivi"
+      },
+      {
+        "id": "C",
+        "text": "Il committente risponde in solido con l'appaltatore e i subappaltatori, entro il limite di due anni dalla cessazione dell'appalto, per i trattamenti retributivi, le quote di TFR e i contributi previdenziali e assicurativi dovuti ai dipendenti impiegati nell'appalto"
+      },
+      {
+        "id": "D",
+        "text": "La solidarietà opera solo se l'appaltatore ha sede all'estero"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'art. 29, comma 2, D.Lgs. 276/2003 stabilisce che il committente imprenditore o datore di lavoro è obbligato in solido con l'appaltatore e con ciascuno degli eventuali subappaltatori entro il limite di due anni dalla cessazione dell'appalto a corrispondere ai lavoratori i trattamenti retributivi, il TFR e i contributi previdenziali.",
+    "hint": "Responsabilità solidale biennale per retribuzioni, TFR e contributi INPS/INAIL.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_LAV_088",
+    "question": "Quali sono gli obblighi non delegabili del datore di lavoro in materia di salute e sicurezza sul lavoro ai sensi dell'art. 17 del D.Lgs. 81/2008?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'acquisto dei dispositivi di protezione individuale e la pulizia giornaliera dei locali"
+      },
+      {
+        "id": "B",
+        "text": "La nomina del medico competente e la tenuta del registro infortuni"
+      },
+      {
+        "id": "C",
+        "text": "L'erogazione della retribuzione mensile e la concessione dei permessi sindacali"
+      },
+      {
+        "id": "D",
+        "text": "La valutazione di tutti i rischi con la conseguente redazione del DVR (Documento di Valutazione dei Rischi) e la designazione del Responsabile del Servizio di Prevenzione e Protezione (RSPP)"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'art. 17 D.Lgs. 81/2008 individua due soli compiti che il datore di lavoro non può in alcun caso delegare: 1) la valutazione di tutti i rischi con la redazione del Documento di Valutazione dei Rischi (DVR); 2) la designazione del Responsabile del Servizio di Prevenzione e Protezione (RSPP).",
+    "hint": "DVR e nomina dell'RSPP sono obblighi personali e non delegabili.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_LAV_089",
+    "question": "Chi è il Rappresentante dei Lavoratori per la Sicurezza (RLS) ai sensi del D.Lgs. 81/2008?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La persona eletta o designata dai lavoratori per rappresentarli in tutti gli aspetti della salute e della sicurezza sul lavoro, obbligatoriamente presente in tutte le aziende o unità produttive"
+      },
+      {
+        "id": "B",
+        "text": "Un funzionario ispettivo inviato dall'INAIL con poteri sanzionatori"
+      },
+      {
+        "id": "C",
+        "text": "Il medico del lavoro incaricato delle visite periodiche"
+      },
+      {
+        "id": "D",
+        "text": "Il titolare dell'impresa nei periodi di prova"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 47 D.Lgs. 81/2008 sancisce che in ogni azienda o unità produttiva è istituito il Rappresentante dei Lavoratori per la Sicurezza (RLS), eletto dai lavoratori (nelle aziende fino a 15 dipendenti) o designato nell'ambito delle rappresentanze sindacali aziendali (sopra i 15 dipendenti).",
+    "hint": "Figura eletta dai lavoratori a tutela della salute e sicurezza in azienda.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_LAV_090",
+    "question": "In caso di trasferimento d'azienda ex art. 2112 c.c., cosa accade ai rapporti di lavoro in essere al momento della cessione?",
+    "options": [
+      {
+        "id": "A",
+        "text": "I rapporti di lavoro si estinguono automaticamente salvo stipula di un nuovo contratto con periodo di prova"
+      },
+      {
+        "id": "B",
+        "text": "Il rapporto di lavoro continua con il cessionario e il lavoratore conserva tutti i diritti che ne derivano; il cedente e il cessionario sono obbligati in solido per tutti i crediti maturati dal lavoratore fino al trasferimento"
+      },
+      {
+        "id": "C",
+        "text": "I lavoratori passano all'INPS in cassa integrazione a zero ore a tempo indeterminato"
+      },
+      {
+        "id": "D",
+        "text": "Il cessionario può licenziare liberamente tutti i dipendenti senza alcuna giustificazione"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 2112 c.c. garantisce la continuità del rapporto di lavoro con il subentrante (senza novazione né periodo di prova), la conservazione dell'anzianità e dei trattamenti acquisiti e la responsabilità solidale tra cedente e cessionario per i crediti maturati.",
+    "hint": "Continuità automatica del rapporto di lavoro e responsabilità solidale cedente-cessionario.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_LAV_091",
+    "question": "Il trasferimento d'azienda costituisce di per sé motivo legittimo di licenziamento dei lavoratori coinvolti?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sì, il cedente può licenziare il 50% dei lavoratori per facilitare la vendita"
+      },
+      {
+        "id": "B",
+        "text": "Sì, ma solo per i lavoratori con meno di tre anni di anzianità"
+      },
+      {
+        "id": "C",
+        "text": "No, l'art. 2112, comma 4, c.c. stabilisce espressamente che il trasferimento d'azienda non costituisce di per sé motivo di licenziamento"
+      },
+      {
+        "id": "D",
+        "text": "Solo previa autorizzazione del Ministero dello Sviluppo Economico"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Ai sensi dell'art. 2112, comma 4, c.c., il trasferimento d'azienda non può mai costituire di per sé motivo legittimo di licenziamento. Resta salva la facoltà di licenziare per giusta causa o per giustificato motivo autonomo e indipendente dall'operazione di cessione.",
+    "hint": "Il trasferimento d'azienda non può mai costituire motivo di licenziamento.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_LAV_092",
+    "question": "Cos'è il contratto di lavoro a tempo parziale (part-time) disciplinato dal D.Lgs. 81/2015?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un rapporto di lavoro non tutelato dalle norme previdenziali"
+      },
+      {
+        "id": "B",
+        "text": "Un contratto stipulabile unicamente a tempo determinato per un massimo di tre mesi"
+      },
+      {
+        "id": "C",
+        "text": "Un'attività svolta a favore di due datori contemporaneamente nelle stesse ore"
+      },
+      {
+        "id": "D",
+        "text": "Un contratto di lavoro subordinato in cui l'orario di lavoro concordato è inferiore all'orario normale di 40 ore settimanali o al minor orario previsto dal CCNL, stipulato necessariamente in forma scritta ad probationem"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Il part-time (artt. 4-12 D.Lgs. 81/2015) richiede la forma scritta per la prova e la puntuale indicazione della durata e della collocazione temporale della prestazione (orizzontale, verticale o ciclico), garantendo il principio di non discriminazione e il proporzionamento del trattamento economico.",
+    "hint": "Orario inferiore al tempo pieno, forma scritta per la prova e proporzionamento del salario.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_LAV_093",
+    "question": "Cosa sono le 'clausole elastiche' nel contratto a tempo parziale?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pattuizioni scritte con cui il datore di lavoro e il lavoratore concordano la facoltà per il datore di variare la collocazione temporale della prestazione lavorativa o di aumentarne la durata rispetto a quella inizialmente concordata"
+      },
+      {
+        "id": "B",
+        "text": "Clausole che consentono di ridurre lo stipendio in base alla produttività"
+      },
+      {
+        "id": "C",
+        "text": "Accordi verbali per lavorare durante le festività senza maggiorazione"
+      },
+      {
+        "id": "D",
+        "text": "Condizioni che consentono al datore di licenziare senza preavviso"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Le clausole elastiche (art. 6 D.Lgs. 81/2015) consentono la modifica della collocazione temporale dell'orario o la variazione in aumento della durata della prestazione; richiedono forma scritta a pena di nullità, un preavviso minimo di 2 giorni lavorativi e specifiche maggiorazioni retributive.",
+    "hint": "Patti scritti per variare la collocazione temporale o incrementare l'orario part-time.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_LAV_094",
+    "question": "Il rifiuto del lavoratore di trasformare il proprio rapporto di lavoro a tempo pieno in tempo parziale, o viceversa, costituisce motivo legittimo di licenziamento?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sì, integra una grave insubordinazione punita con il licenziamento in tronco"
+      },
+      {
+        "id": "B",
+        "text": "No, il rifiuto del lavoratore non costituisce in nessun caso motivo di licenziamento per giustificato motivo"
+      },
+      {
+        "id": "C",
+        "text": "Sì, ma solo nelle aziende con oltre 100 dipendenti"
+      },
+      {
+        "id": "D",
+        "text": "Comporta la perdita della retribuzione per un periodo di sei mesi"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 8, comma 1, D.Lgs. 81/2015 stabilisce categoricamente che il rifiuto del lavoratore di trasformare il proprio rapporto di lavoro a tempo pieno in rapporto a tempo parziale, o viceversa, non costituisce giustificato motivo di licenziamento.",
+    "hint": "Il rifiuto della variazione d'orario non può mai giustificare il licenziamento.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_LAV_095",
+    "question": "Cos'è il patto di prova nel contratto di lavoro subordinato (art. 2096 c.c.)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un accordo verbale che dura finché il datore lo ritiene opportuno"
+      },
+      {
+        "id": "B",
+        "text": "Un periodo di tirocinio non retribuito e non coperto da contribuzione"
+      },
+      {
+        "id": "C",
+        "text": "Una clausola che deve risultare da atto scritto a pena di nullità, anteriore o contestuale all'assunzione, durante la quale ciascuna delle parti può recedere liberamente senza obbligo di preavviso né indennità"
+      },
+      {
+        "id": "D",
+        "text": "Un contratto speciale riservato agli apprendisti minorenni"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Il patto di prova (art. 2096 c.c.) richiede la forma scritta ad substantiam prima dell'inizio dell'attività e la specifica indicazione delle mansioni. Durante la prova il recesso è libero (ad nutum), fatto salvo il caso di motivo illecito o di mancata messa in condizione di svolgere la prova.",
+    "hint": "Forma scritta a pena di nullità anteriore o contestuale, recesso libero senza preavviso.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_LAV_096",
+    "question": "Quale limite massimo di durata per il patto di prova è previsto dalla legge e dal D.Lgs. 104/2022 (Decreto Trasparenza)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un anno solare continuativo"
+      },
+      {
+        "id": "B",
+        "text": "30 giorni inderogabili per tutti i livelli"
+      },
+      {
+        "id": "C",
+        "text": "Non vi è alcun limite di durata stabilito dall'ordinamento"
+      },
+      {
+        "id": "D",
+        "text": "Non può superare i sei mesi (ed è proporzionato alla durata del contratto e alle mansioni nei contratti a termine)"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'art. 10 della Legge 604/1966 e l'art. 7 D.Lgs. 104/2022 fissano la durata massima del periodo di prova in sei mesi. Nel contratto a termine il periodo di prova deve essere proporzionato alla durata del contratto e alla natura delle mansioni.",
+    "hint": "Limite massimo generale di 6 mesi, con proporzionamento per i contratti a termine.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_LAV_097",
+    "question": "Cosa stabilisce l'art. 2105 del Codice Civile in merito all'obbligo di fedeltà del prestatore di lavoro?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il prestatore di lavoro non deve trattare affari, per conto proprio o di terzi, in concorrenza con l'imprenditore, né divulgare notizie attinenti all'organizzazione e ai metodi di produzione dell'impresa, o farne uso in modo da poter recare ad essa pregiudizio"
+      },
+      {
+        "id": "B",
+        "text": "Il lavoratore deve iscriversi obbligatoriamente allo stesso partito politico del datore"
+      },
+      {
+        "id": "C",
+        "text": "Il lavoratore non può svolgere alcun'altra attività retribuita per tutta la vita"
+      },
+      {
+        "id": "D",
+        "text": "L'obbligo di prestare straordinari non retribuiti in caso di crisi aziendale"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 2105 c.c. pone a carico del lavoratore due doveri specifici discendenti dal dovere di fedeltà: il divieto di concorrenza durante il rapporto di lavoro e l'obbligo di riservatezza (divieto di divulgazione o utilizzo pregiudizievole di segreti aziendali e organizzativi).",
+    "hint": "Divieto di concorrenza e obbligo di segretezza/riservatezza aziendale.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_LAV_098",
+    "question": "Quali requisiti di validità sono prescritti dall'art. 2125 c.c. per il 'patto di non concorrenza' successivo alla cessazione del rapporto di lavoro?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Semplice consenso orale confermato da due colleghi"
+      },
+      {
+        "id": "B",
+        "text": "Forma scritta a pena di nullità, pattuizione di un corrispettivo congruo a favore del lavoratore, e vincoli determinati di oggetto, di tempo (massimo 5 anni per i dirigenti e 3 anni per gli altri lavoratori) e di luogo"
+      },
+      {
+        "id": "C",
+        "text": "Divieto illimitato nel tempo su tutto il territorio mondiale senza compenso"
+      },
+      {
+        "id": "D",
+        "text": "Solo una trattenuta mensile del 5% sull'ultimo stipendio"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 2125 c.c. sanziona con la nullità il patto di non concorrenza post-contrattuale privo di forma scritta, privo di corrispettivo adeguato, o che non contenga limiti precisi di oggetto, luogo e tempo (massimo 3 anni per impiegati/operai, 5 per dirigenti).",
+    "hint": "Forma scritta, corrispettivo economico congruo, limiti di tempo (max 3 o 5 anni), luogo e oggetto.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_LAV_099",
+    "question": "Cosa prevede la procedura disciplinare stabilita dall'art. 7 della Legge 300/1970 (Statuto dei Lavoratori) prima dell'irrogazione di qualsiasi sanzione disciplinare più grave del rimprovero verbale?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'immediata sospensione dello stipendio per almeno 30 giorni"
+      },
+      {
+        "id": "B",
+        "text": "L'interrogatorio obbligatorio del lavoratore dinanzi ai Carabinieri"
+      },
+      {
+        "id": "C",
+        "text": "La previa contestazione scritta dell'addebito al lavoratore e la concessione di un termine di almeno 5 giorni per presentare le proprie difese (anche con l'assistenza sindacale)"
+      },
+      {
+        "id": "D",
+        "text": "La revoca immediata delle ferie già maturate"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'art. 7 Statuto Lavoratori impone l'affissione del codice disciplinare, la contestazione per iscritto specifica, tempestiva e immutabile dei fatti addebitati e l'obbligo di attendere almeno 5 giorni prima di adottare il provvedimento per consentire al lavoratore di difendersi.",
+    "hint": "Contestazione scritta specifica e termine a difesa di almeno 5 giorni.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_LAV_100",
+    "question": "Qual è il limite massimo legale per la sanzione disciplinare conservativa della 'multa' e della 'sospensione dal servizio e dalla retribuzione' nel settore privato ex art. 7 L. 300/1970?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La multa può arrivare a una mensilità e la sospensione a sei mesi"
+      },
+      {
+        "id": "B",
+        "text": "La multa è sempre pari al 50% dello stipendio"
+      },
+      {
+        "id": "C",
+        "text": "Non vi sono limiti quantitativi salvo quanto stabilito dal giudice"
+      },
+      {
+        "id": "D",
+        "text": "La multa non può superare l'importo di 4 ore di retribuzione base e la sospensione dal servizio non può superare 10 giorni"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'art. 7, comma 4, della Legge 300/1970 stabilisce che le sanzioni disciplinari non possono comportare mutamenti definitivi del rapporto; la multa non può superare l'importo di quattro ore della retribuzione base e la sospensione dal servizio e dalla retribuzione non può superare dieci giorni.",
+    "hint": "Multa max 4 ore, sospensione max 10 giorni.",
+    "level": "intermedio"
   }
 ]

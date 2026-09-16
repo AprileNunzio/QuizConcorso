@@ -31,11 +31,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Se una domanda non è stata liquidata entro 30 giorni, allora non era completa"
+        "text": "Se una domanda è stata liquidata entro 30 giorni, allora era sicuramente completa"
       },
       {
         "id": "B",
-        "text": "Se una domanda è stata liquidata entro 30 giorni, allora era sicuramente completa"
+        "text": "Se una domanda non è stata liquidata entro 30 giorni, allora non era completa"
       },
       {
         "id": "C",
@@ -46,7 +46,7 @@
         "text": "Tutte le domande vengono sempre liquidate entro 30 giorni"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "B",
     "explanation": "Data l'implicazione 'A implica B' (Se A allora B), l'unica deduzione logicamente equivalente e necessaria è la contronominale: 'non B implica non A' (modus tollens). Se non si verifica la conseguenza (non liquidata entro 30 giorni), non si è verificata la premessa (non era completa).",
     "hint": "Regola del modus tollens (contronominale): Se A allora B equivale a Se non B allora non A.",
     "level": "base"
@@ -57,22 +57,22 @@
     "options": [
       {
         "id": "A",
-        "text": "127"
-      },
-      {
-        "id": "B",
         "text": "126"
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "120"
+      },
+      {
+        "id": "C",
+        "text": "127"
       },
       {
         "id": "D",
         "text": "135"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "C",
     "explanation": "La serie segue la regola: ogni numero è ottenuto moltiplicando il precedente per 2 e aggiungendo 1. Oppure le differenze raddoppiano: +4, +8, +16, +32, +64. Pertanto 63 * 2 + 1 = 127 (ovvero 63 + 64 = 127).",
     "hint": "Moltiplica per 2 e somma 1, oppure guarda le potenze del 2.",
     "level": "base"
@@ -83,22 +83,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Alcuni laureati non sono bugiardi"
-      },
-      {
-        "id": "B",
         "text": "Tutti i politici sono laureati"
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Nessun laureato è un bugiardo"
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "Tutti i laureati sono esperti di previdenza"
+      },
+      {
+        "id": "D",
+        "text": "Alcuni laureati non sono bugiardi"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "D",
     "explanation": "Poiché tutti gli esperti di previdenza sono laureati e nessun bugiardo è esperto di previdenza, ne consegue che gli individui che appartengono alla categoria 'esperti di previdenza' sono al contempo laureati e non bugiardi; quindi esistono sicuramente dei laureati che non sono bugiardi.",
     "hint": "Gli esperti di previdenza fanno parte dei laureati e nessuno di loro è un bugiardo.",
     "level": "intermedio"
@@ -135,11 +135,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Dario"
+        "text": "Carlo"
       },
       {
         "id": "B",
-        "text": "Carlo"
+        "text": "Dario"
       },
       {
         "id": "C",
@@ -150,7 +150,7 @@
         "text": "Nessuno, il tavolo è vuoto"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "B",
     "explanation": "In un tavolo quadrato di 4 persone: se Anna e Carlo sono uno di fronte all'altro, gli altri due posti contrapposti devono essere occupati necessariamente da Bruno e Dario. Quindi di fronte a Bruno siede Dario.",
     "hint": "I quattro lati sono a coppie contrapposte: la prima coppia è Anna-Carlo, l'altra è Bruno-Dario.",
     "level": "base"
@@ -165,18 +165,18 @@
       },
       {
         "id": "B",
-        "text": "J10"
+        "text": "I9"
       },
       {
         "id": "C",
-        "text": "I9"
+        "text": "J10"
       },
       {
         "id": "D",
         "text": "K12"
       }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "C",
     "explanation": "Le lettere avanzano di 2 posizioni nell'alfabeto internazionale (B, D, F, H, J); i numeri aumentano di 2 (2, 4, 6, 8, 10). L'elemento successivo è J10.",
     "hint": "Avanzamento a passo 2 sia per l'alfabeto (H -> J) che per i numeri (8 -> 10).",
     "level": "base"
@@ -187,22 +187,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Oggi non piove"
-      },
-      {
-        "id": "B",
         "text": "Oggi c'è il sole cocente"
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "La videoconferenza è guasta"
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "Il funzionario è arrivato in ritardo"
+      },
+      {
+        "id": "D",
+        "text": "Oggi non piove"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "D",
     "explanation": "Premessa: Se piove (A) -> videoconferenza (B). Fatto: non videoconferenza (non B). Per modus tollens: non piove (non A).",
     "hint": "Se la conseguenza non si è verificata (non videoconferenza), non si è verificata la condizione (non piove).",
     "level": "base"
@@ -239,11 +239,11 @@
     "options": [
       {
         "id": "A",
-        "text": "13/20 (pari al 65%)"
+        "text": "7/20 (pari al 35%)"
       },
       {
         "id": "B",
-        "text": "7/20 (pari al 35%)"
+        "text": "13/20 (pari al 65%)"
       },
       {
         "id": "C",
@@ -254,7 +254,7 @@
         "text": "12/20 (pari al 60%)"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "B",
     "explanation": "Totale fascicoli = 5 + 7 + 8 = 20. I fascicoli non blu sono i rossi e i verdi: 5 + 8 = 13. La probabilità è data dal rapporto tra casi favorevoli e casi possibili: 13 / 20 = 0,65 (65%).",
     "hint": "Fascicoli non blu = rossi + verdi = 13 su un totale di 20.",
     "level": "base"
@@ -265,22 +265,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Tutte le richieste di indennità sono state accolte"
-      },
-      {
-        "id": "B",
         "text": "Nessuna richiesta di indennità è stata accolta"
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Almeno una richiesta non è stata accolta"
+      },
+      {
+        "id": "C",
+        "text": "Tutte le richieste di indennità sono state accolte"
       },
       {
         "id": "D",
         "text": "Tutte le richieste sono state cestinate"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "C",
     "explanation": "La proposizione 'Qualche X non è Y' è la contraddittoria di 'Tutti gli X sono Y'. Se è falso che qualche richiesta non è stata accolta, allora è necessariamente vero il suo opposto contraddittorio: tutte le richieste sono state accolte.",
     "hint": "Se è falso che esista anche una sola richiesta non accolta, significa che sono state accolte tutte.",
     "level": "intermedio"
@@ -291,22 +291,22 @@
     "options": [
       {
         "id": "A",
-        "text": "56"
-      },
-      {
-        "id": "B",
         "text": "54"
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "60"
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "48"
+      },
+      {
+        "id": "D",
+        "text": "56"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "D",
     "explanation": "Le differenze tra i termini consecutivi crescono di 2 ad ogni passo: 6 - 2 = +4; 12 - 6 = +6; 20 - 12 = +8; 30 - 20 = +10; 42 - 30 = +12. Il termine successivo avrà una differenza di +14: 42 + 14 = 56 (oppure: n*(n+1): 1*2, 2*3, 3*4, 4*5, 5*6, 6*7, 7*8=56).",
     "hint": "Le differenze aumentano di 2: +4, +6, +8, +10, +12, +14.",
     "level": "base"
@@ -343,11 +343,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Chilometro"
+        "text": "Termometro"
       },
       {
         "id": "B",
-        "text": "Termometro"
+        "text": "Chilometro"
       },
       {
         "id": "C",
@@ -358,7 +358,7 @@
         "text": "Cronometro"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "B",
     "explanation": "Termometro, barometro e cronometro sono tutti 'strumenti di misurazione' (temperatura, pressione, tempo). Il chilometro invece è un''unità di misura' di lunghezza, non uno strumento.",
     "hint": "Tre sono strumenti fisici di misurazione, uno è un'unità di misura di lunghezza.",
     "level": "base"
@@ -369,22 +369,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Se un candidato vince il concorso, allora viene assunto"
-      },
-      {
-        "id": "B",
         "text": "Chiunque lavori all'INPS ha necessariamente vinto un concorso"
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Se un candidato non vince il concorso, non potrà mai essere assunto in nessun caso"
+      },
+      {
+        "id": "C",
+        "text": "Se un candidato vince il concorso, allora viene assunto"
       },
       {
         "id": "D",
         "text": "Vincere il concorso non garantisce l'assunzione"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "C",
     "explanation": "La condizione sufficiente significa che il verificarsi dell'evento A (vincere il concorso) basta da solo a determinare B (essere assunto). Non esclude che possano esistere altri canali (quindi non è necessaria). Pertanto: Se vince, allora è assunto.",
     "hint": "Condizione sufficiente: se si verifica la premessa, la conseguenza è garantita al 100%.",
     "level": "intermedio"
@@ -395,22 +395,22 @@
     "options": [
       {
         "id": "A",
-        "text": "U"
-      },
-      {
-        "id": "B",
         "text": "T"
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "S"
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "V"
+      },
+      {
+        "id": "D",
+        "text": "U"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "D",
     "explanation": "Considerando la posizione nell'alfabeto internazionale: A (1), C (3, +2), F (6, +3), J (10, +4), O (15, +5). Il passo successivo è +6: 15 + 6 = 21, che corrisponde alla lettera U.",
     "hint": "I salti di lettere aumentano progressivamente: +2, +3, +4, +5, +6.",
     "level": "intermedio"
@@ -447,11 +447,11 @@
     "options": [
       {
         "id": "A",
-        "text": "36"
+        "text": "72"
       },
       {
         "id": "B",
-        "text": "72"
+        "text": "36"
       },
       {
         "id": "C",
@@ -462,7 +462,7 @@
         "text": "48"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "B",
     "explanation": "Totale dipendenti = 120. Donne = 60% di 120 = 0,60 * 120 = 72. Donne al settore pensioni = 50% di 72 = 36.",
     "hint": "Il 60% di 120 è 72; la metà di 72 è 36.",
     "level": "base"
@@ -473,22 +473,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Giudice"
-      },
-      {
-        "id": "B",
         "text": "Polizia"
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Avvocato"
+      },
+      {
+        "id": "C",
+        "text": "Giudice"
       },
       {
         "id": "D",
         "text": "Ministero"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "C",
     "explanation": "La legge è l'atto tipico emanato dal potere legislativo (Parlamento), così come la sentenza è l'atto tipico emanato dall'organo giudiziario (Giudice / Magistrato).",
     "hint": "È l'organo che emana formalmente l'atto giuridico.",
     "level": "base"
@@ -499,22 +499,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Alcuni atleti non sono corrotti"
-      },
-      {
-        "id": "B",
         "text": "Nessun atleta è corrotto"
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Tutti gli atleti sono funzionari"
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "Tutti i corrotti sono atleti"
+      },
+      {
+        "id": "D",
+        "text": "Alcuni atleti non sono corrotti"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "D",
     "explanation": "Sillogismo valido di forma Festino/Ferio: Gli atleti che sono funzionari appartengono all'insieme dei funzionari; poiché nessun funzionario è corrotto, quegli specifici atleti non possono essere corrotti. Dunque, alcuni atleti non sono corrotti.",
     "hint": "Gli atleti che fanno i funzionari non possono essere corrotti.",
     "level": "intermedio"
@@ -551,11 +551,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Oggi non studio previdenza oppure non ascolto musica"
+        "text": "Oggi non studio previdenza e non ascolto musica"
       },
       {
         "id": "B",
-        "text": "Oggi non studio previdenza e non ascolto musica"
+        "text": "Oggi non studio previdenza oppure non ascolto musica"
       },
       {
         "id": "C",
@@ -566,7 +566,7 @@
         "text": "Domani studio diritto penale"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "B",
     "explanation": "Prima legge di De Morgan: la negazione di una congiunzione logica (A e B) è la disgiunzione delle negazioni (non A o non B). Basta che non si verifichi una delle due azioni per rendere falsa l'intera congiunzione.",
     "hint": "Legge di De Morgan: negare 'A e B' equivale a dire 'non A oppure non B'.",
     "level": "intermedio"
@@ -577,22 +577,22 @@
     "options": [
       {
         "id": "A",
-        "text": "49"
-      },
-      {
-        "id": "B",
         "text": "48"
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "64"
+      },
+      {
+        "id": "C",
+        "text": "49"
       },
       {
         "id": "D",
         "text": "50"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "C",
     "explanation": "Si tratta della successione dei quadrati dei numeri naturali: 1^2=1, 2^2=4, 3^2=9, 4^2=16, 5^2=25, 6^2=36, 7^2=49.",
     "hint": "Quadrato di 7 (7 per 7).",
     "level": "base"
@@ -603,22 +603,22 @@
     "options": [
       {
         "id": "A",
-        "text": "45"
-      },
-      {
-        "id": "B",
         "text": "90"
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "100"
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "50"
+      },
+      {
+        "id": "D",
+        "text": "45"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "D",
     "explanation": "È una combinazione semplice di 10 elementi a 2 a 2: C(10, 2) = (10 * 9) / 2 = 90 / 2 = 45.",
     "hint": "Formula delle combinazioni semplici: (n * (n - 1)) / 2.",
     "level": "intermedio"
@@ -655,11 +655,11 @@
     "options": [
       {
         "id": "A",
-        "text": "28%"
+        "text": "30%"
       },
       {
         "id": "B",
-        "text": "30%"
+        "text": "28%"
       },
       {
         "id": "C",
@@ -670,7 +670,7 @@
         "text": "25%"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "B",
     "explanation": "Posto il prezzo base 100: dopo il primo sconto del 20% il prezzo diventa 80. Il secondo sconto del 10% si applica su 80: 10% di 80 = 8. Il prezzo finale è 80 - 8 = 72. Lo sconto totale rispetto a 100 è 100 - 72 = 28%.",
     "hint": "Gli sconti successivi non si sommano aritmeticamente: 0,80 * 0,90 = 0,72 (prezzo finale 72%, sconto 28%).",
     "level": "intermedio"
@@ -681,22 +681,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Nero"
-      },
-      {
-        "id": "B",
         "text": "Luce"
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Chiaro"
+      },
+      {
+        "id": "C",
+        "text": "Nero"
       },
       {
         "id": "D",
         "text": "Grigio"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "C",
     "explanation": "La relazione è di contrarietà per antonomasia (opposti concettuali polari): come il giorno si oppone alla notte, il bianco si oppone al nero.",
     "hint": "Relazione di contrari assoluti.",
     "level": "base"
@@ -707,22 +707,22 @@
     "options": [
       {
         "id": "A",
-        "text": "25"
-      },
-      {
-        "id": "B",
         "text": "30"
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "20"
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "35"
+      },
+      {
+        "id": "D",
+        "text": "25"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "D",
     "explanation": "I decrementi aumentano di 5 ad ogni passo: 100 - 5 = 95; 95 - 10 = 85; 85 - 15 = 70; 70 - 20 = 50. Il passo successivo è -25: 50 - 25 = 25.",
     "hint": "Le sottrazioni sono: -5, -10, -15, -20, -25.",
     "level": "base"
@@ -759,11 +759,11 @@
     "options": [
       {
         "id": "A",
-        "text": "D, C, A, B, E"
+        "text": "C, D, A, B, E"
       },
       {
         "id": "B",
-        "text": "C, D, A, B, E"
+        "text": "D, C, A, B, E"
       },
       {
         "id": "C",
@@ -774,7 +774,7 @@
         "text": "A, B, C, D, E"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "B",
     "explanation": "D > C (D prima di C); C > A (A dopo C); A > B (A prima di B); E è ultimo. L'ordine decrescente è esattamente: D, C, A, B, E.",
     "hint": "Metti in fila i vincoli: D > C > A > B > E.",
     "level": "base"
@@ -785,22 +785,22 @@
     "options": [
       {
         "id": "A",
-        "text": "30"
-      },
-      {
-        "id": "B",
         "text": "26"
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "28"
+      },
+      {
+        "id": "C",
+        "text": "30"
       },
       {
         "id": "D",
         "text": "32"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "C",
     "explanation": "Somma totale = media * numero candidati = 26 * 4 = 104. Somma dei primi tre = 24 + 28 + 22 = 74. Punteggio del quarto candidato = 104 - 74 = 30.",
     "hint": "La somma dei 4 voti deve essere 104. Sottrai i tre voti noti (74) per trovare il quarto.",
     "level": "base"
@@ -811,22 +811,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Romanzo"
-      },
-      {
-        "id": "B",
         "text": "Pennello"
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Libreria"
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "Lettore"
+      },
+      {
+        "id": "D",
+        "text": "Romanzo"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "D",
     "explanation": "La relazione è tra l'autore/professionista e l'opera creata: l'architetto progetta l'edificio, lo scrittore scrive il romanzo.",
     "hint": "L'edificio è l'opera dell'architetto, il romanzo è l'opera dello scrittore.",
     "level": "base"
@@ -863,11 +863,11 @@
     "options": [
       {
         "id": "A",
-        "text": "191"
+        "text": "190"
       },
       {
         "id": "B",
-        "text": "190"
+        "text": "191"
       },
       {
         "id": "C",
@@ -878,7 +878,7 @@
         "text": "201"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "B",
     "explanation": "Ogni termine è il doppio del precedente più 1: 5 * 2 + 1 = 11; 11 * 2 + 1 = 23; 23 * 2 + 1 = 47; 47 * 2 + 1 = 95; 95 * 2 + 1 = 191.",
     "hint": "Moltiplica per 2 e aggiungi 1.",
     "level": "base"
@@ -889,22 +889,22 @@
     "options": [
       {
         "id": "A",
-        "text": "3 ore"
-      },
-      {
-        "id": "B",
         "text": "8 ore"
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "6 ore"
+      },
+      {
+        "id": "C",
+        "text": "3 ore"
       },
       {
         "id": "D",
         "text": "2 ore"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "C",
     "explanation": "In un'ora il rubinetto A riempie 1/4 della vasca e il rubinetto B riempie 1/12 della vasca. Insieme in un'ora riempiono: 1/4 + 1/12 = 3/12 + 1/12 = 4/12 = 1/3 della vasca. Per riempirla tutta occorrono 3 ore.",
     "hint": "1/4 + 1/12 = 1/3 della vasca all'ora -> 3 ore complessive.",
     "level": "intermedio"
@@ -915,22 +915,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Se piove la strada è bagnata. Non piove, quindi la strada non è bagnata"
-      },
-      {
-        "id": "B",
         "text": "Se piove la strada è bagnata. La strada non è bagnata, quindi non piove"
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Se piove la strada è bagnata. Piove, quindi la strada è bagnata"
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "Tutti gli uomini sono mortali. Socrate è uomo, quindi è mortale"
+      },
+      {
+        "id": "D",
+        "text": "Se piove la strada è bagnata. Non piove, quindi la strada non è bagnata"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "D",
     "explanation": "La negazione dell'antecedente è un errore logico formale: dedurre che 'non B' sia vero solo perché 'non A' è vero. La strada potrebbe essere bagnata per altri motivi (es. lavaggio delle strade con idrante o rottura di una tubatura).",
     "hint": "Dalla negazione della premessa (non piove) non si può dedurre la negazione della conseguenza.",
     "level": "avanzato"
@@ -967,11 +967,11 @@
     "options": [
       {
         "id": "A",
-        "text": "4 gatti"
+        "text": "100 gatti"
       },
       {
         "id": "B",
-        "text": "100 gatti"
+        "text": "4 gatti"
       },
       {
         "id": "C",
@@ -982,7 +982,7 @@
         "text": "40 gatti"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "B",
     "explanation": "Se 4 gatti prendono 4 topi in 4 minuti, significa che in media 1 gatto cattura 1 topo ogni 4 minuti. In 100 minuti, un singolo gatto cattura 100 / 4 = 25 topi. Per catturare 100 topi servono 100 / 25 = 4 gatti.",
     "hint": "Ciascun gatto cattura un topo ogni 4 minuti: in 100 minuti ogni gatto cattura 25 topi.",
     "level": "intermedio"
@@ -993,22 +993,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Tutti i pensionati residenti amano la burocrazia"
-      },
-      {
-        "id": "B",
         "text": "Alcuni residenti non amano la burocrazia"
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Alcune persone che pagano la tassa sono pensionati"
+      },
+      {
+        "id": "C",
+        "text": "Tutti i pensionati residenti amano la burocrazia"
       },
       {
         "id": "D",
         "text": "Nessun pensionato che risiede ama la burocrazia"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "C",
     "explanation": "Dato che per premessa 'Nessun pensionato ama la burocrazia', è palesemente e sicuramente FALSA l'affermazione contraria secondo cui 'Tutti i pensionati residenti amano la burocrazia'.",
     "hint": "Se nessun pensionato ama la burocrazia, è impossibile che tutti i pensionati residenti la amino.",
     "level": "base"
@@ -1019,22 +1019,22 @@
     "options": [
       {
         "id": "A",
-        "text": "22"
-      },
-      {
-        "id": "B",
         "text": "21"
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "20"
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "23"
+      },
+      {
+        "id": "D",
+        "text": "22"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "D",
     "explanation": "I numeri aumentano di quantità crescenti di 1 ad ogni passo: +1, +2, +3, +4, +5. Il passo successivo è +6: 16 + 6 = 22.",
     "hint": "I valori aggiunti sono: +1, +2, +3, +4, +5, +6.",
     "level": "base"
@@ -1071,11 +1071,11 @@
     "options": [
       {
         "id": "A",
-        "text": "280"
+        "text": "260"
       },
       {
         "id": "B",
-        "text": "260"
+        "text": "280"
       },
       {
         "id": "C",
@@ -1086,7 +1086,7 @@
         "text": "320"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "B",
     "explanation": "Posto V + S = 500 e V - S = 60. Sommando le due equazioni: 2V = 560 -> V = 280 (lo sconfitto ha ottenuto 220 voti, 280 - 220 = 60).",
     "hint": "Somma più differenza diviso due: (500 + 60) / 2 = 280.",
     "level": "base"
@@ -1097,22 +1097,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Domani pioverà oppure non pioverà"
-      },
-      {
-        "id": "B",
         "text": "Domani pioverà e farà freddo"
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Se piove allora nevica sempre"
+      },
+      {
+        "id": "C",
+        "text": "Domani pioverà oppure non pioverà"
       },
       {
         "id": "D",
         "text": "Nessun uomo dice la verità"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "C",
     "explanation": "La proposizione 'A oppure non A' (principio del terzo escluso) è una tautologia formale: è sempre vera in qualunque circostanza possibile nel mondo reale.",
     "hint": "Principio del terzo escluso: un enunciato o il suo contrario è sempre vero.",
     "level": "intermedio"
@@ -1123,22 +1123,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Costa"
-      },
-      {
-        "id": "B",
         "text": "Onda"
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Nave"
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "Pesce"
+      },
+      {
+        "id": "D",
+        "text": "Costa"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "D",
     "explanation": "L'argine è il confine naturale o artificiale che delimita la terra dal fiume; la costa/riva è il confine che delimita la terra dal mare.",
     "hint": "È il confine geografico di delimitazione tra l'acqua e la terraferma.",
     "level": "base"
@@ -1175,11 +1175,11 @@
     "options": [
       {
         "id": "A",
-        "text": "TFEF"
+        "text": "TGFF"
       },
       {
         "id": "B",
-        "text": "TGFF"
+        "text": "TFEF"
       },
       {
         "id": "C",
@@ -1190,7 +1190,7 @@
         "text": "RDCD"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "B",
     "explanation": "Ogni lettera è traslata in avanti di una posizione nell'alfabeto (cifrario di Cesare a passo 1): I -> J, N -> O, P -> Q, S -> T. Quindi SEDE diventa: S -> T, E -> F, D -> E, E -> F (TFEF).",
     "hint": "Ogni lettera viene sostituita con la lettera immediatamente successiva nell'alfabeto.",
     "level": "base"
@@ -1201,22 +1201,22 @@
     "options": [
       {
         "id": "A",
-        "text": "4"
-      },
-      {
-        "id": "B",
         "text": "7"
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "2"
+      },
+      {
+        "id": "C",
+        "text": "4"
       },
       {
         "id": "D",
         "text": "5"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "C",
     "explanation": "Principio di inclusione-esclusione insiemistico: Quanti studiano almeno una materia = Previdenza + Penale - Entrambe = 18 + 15 - 7 = 26. Candidati che non studiano nessuna delle due = Totale - 26 = 30 - 26 = 4.",
     "hint": "18 + 15 - 7 = 26 studiano almeno una materia; 30 - 26 = 4.",
     "level": "intermedio"
@@ -1227,22 +1227,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Nessuna moneta è un triangolo"
-      },
-      {
-        "id": "B",
         "text": "Tutte le monete sono triangoli"
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Alcuni triangoli sono cerchi"
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "Tutti i tondi sono monete"
+      },
+      {
+        "id": "D",
+        "text": "Nessuna moneta è un triangolo"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "D",
     "explanation": "Monete appartengono a cerchi; cerchi sono tutti tondi (quindi le monete sono tutte tonde). Nessun triangolo è tondo. Pertanto, l'insieme delle monete e l'insieme dei triangoli sono completamente disgiunti: nessuna moneta è un triangolo.",
     "hint": "Le monete sono tonde e i triangoli non sono tondi: insiemi completamente disgiunti.",
     "level": "base"
@@ -1279,11 +1279,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Il ragionamento deduttivo procede dal generale al particolare e, se le premesse sono vere, la conclusione è necessariamente vera; il ragionamento induttivo procede dal particolare al generale e produce conclusioni probabili ma non certe"
+        "text": "La deduzione si usa solo per le cause penali, l'induzione per quelle civili"
       },
       {
         "id": "B",
-        "text": "La deduzione si usa solo per le cause penali, l'induzione per quelle civili"
+        "text": "Il ragionamento deduttivo procede dal generale al particolare e, se le premesse sono vere, la conclusione è necessariamente vera; il ragionamento induttivo procede dal particolare al generale e produce conclusioni probabili ma non certe"
       },
       {
         "id": "C",
@@ -1294,9 +1294,1309 @@
         "text": "Non vi è alcuna distinzione nella logica moderna"
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "B",
     "explanation": "La deduzione deriva conseguenze necessarie da premesse universali (es. sillogismo classico); l'induzione generalizza a partire da osservazioni particolari, generando ipotesi o teorie probabilistiche.",
     "hint": "Deduzione: dal generale al particolare con certezza; Induzione: dal particolare al generale con probabilità.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_LOG_051",
+    "question": "Si considerino le premesse: 'Tutti i funzionari INPS superano il periodo di prova' e 'Marco non ha superato il periodo di prova'. Quale conclusione si può dedurre con assoluta certezza logica?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Marco diventerà funzionario INPS con riserva."
+      },
+      {
+        "id": "B",
+        "text": "Tutti coloro che non superano la prova si chiamano Marco."
+      },
+      {
+        "id": "C",
+        "text": "Marco non è un funzionario INPS."
+      },
+      {
+        "id": "D",
+        "text": "Marco ha superato il concorso ma non la visita medica."
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Si applica il Modus Tollens: Se P (essere funzionario INPS), allora Q (superare il periodo di prova). Non Q (Marco non ha superato la prova), ergo Non P (Marco non è un funzionario INPS).",
+    "hint": "Modus Tollens: se A implica B, e non-B è vero, allora necessariamente non-A.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_LOG_052",
+    "question": "Qual è la corretta negazione logica della proposizione: 'Nessun ricorso amministrativo è stato respinto'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tutti i ricorsi amministrativi sono stati accolti."
+      },
+      {
+        "id": "B",
+        "text": "Nessun ricorso è stato mai presentato agli uffici."
+      },
+      {
+        "id": "C",
+        "text": "Tutti i ricorsi amministrativi sono stati respinti."
+      },
+      {
+        "id": "D",
+        "text": "Almeno un ricorso amministrativo è stato respinto."
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Nel quadrato delle opposizioni logiche, la negazione di una proposizione universale negativa (Nessun S è P) è la corrispondente particolare affermativa (Esiste almeno un S che è P / Qualche S è P).",
+    "hint": "Per smentire che 'nessuno lo è', basta che 'almeno uno lo sia'.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_LOG_053",
+    "question": "Individuare il numero che completa logicamente la serie numerica: 3, 7, 15, 31, 63, ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "127"
+      },
+      {
+        "id": "B",
+        "text": "126"
+      },
+      {
+        "id": "C",
+        "text": "95"
+      },
+      {
+        "id": "D",
+        "text": "128"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La regola della serie è moltiplicare per 2 e aggiungere 1 (oppure raddoppiare l'incremento: +4, +8, +16, +32, +64). Quindi: 63 * 2 + 1 = 126 + 1 = 127 (oppure 63 + 64 = 127).",
+    "hint": "Ogni termine è il doppio del precedente più uno (oppure la differenza raddoppia ad ogni passo).",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_LOG_054",
+    "question": "Completare la sequenza alfanumerica: B2, D4, G7, K11, ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "O15"
+      },
+      {
+        "id": "B",
+        "text": "P16"
+      },
+      {
+        "id": "C",
+        "text": "Q17"
+      },
+      {
+        "id": "D",
+        "text": "N14"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Le lettere avanzano secondo la loro posizione nell'alfabeto internazionale: B (2), D (4) [+2], G (7) [+3], K (11) [+4]. Il passo successivo deve incrementare di +5: 11 + 5 = 16, corrispondente alla lettera P e al numero 16 (P16).",
+    "hint": "La progressione degli incrementi è +2, +3, +4, +5 sia per la lettera che per il numero.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_LOG_055",
+    "question": "Si consideri l'affermazione: 'Se un operatore è abilitato, allora possiede il PIN di sicurezza'. Sapendo che l'affermazione è vera, quale delle seguenti è sicuramente vera?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Se un operatore possiede il PIN di sicurezza, allora è sicuramente abilitato."
+      },
+      {
+        "id": "B",
+        "text": "Tutti gli operatori non abilitati non possiedono mai alcun PIN."
+      },
+      {
+        "id": "C",
+        "text": "Se un operatore non possiede il PIN di sicurezza, allora non è abilitato."
+      },
+      {
+        "id": "D",
+        "text": "Solo gli operatori non abilitati possono richiedere il duplicato del PIN."
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'implicazione A -> B è logicamente equivalente alla sua contronominale non-B -> non-A (se non ha il PIN, allora non è abilitato). L'opzione B commette la fallacia dell'affermazione del conseguente.",
+    "hint": "Regola della contronominale: 'Se A allora B' equivale a 'Se non B allora non A'.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_LOG_056",
+    "question": "Individuare il termine che completa la proporzione verbale: Sentenza : Giudice = Determina : ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Testimone"
+      },
+      {
+        "id": "B",
+        "text": "Cancelleria"
+      },
+      {
+        "id": "C",
+        "text": "Ricorrente"
+      },
+      {
+        "id": "D",
+        "text": "Dirigente"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "La sentenza è l'atto tipico adottato dall'organo giudicante (il Giudice), così come la determina (o determinazione dirigenziale) è l'atto tipico di gestione adottato dal Dirigente pubblico.",
+    "hint": "Relazione di corrispondenza tra atto tipico e organo istituzionale che lo adotta.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_LOG_057",
+    "question": "In una sede INPS ci sono 5 sportelli. Se ciascuno sportello lavora in media 12 pratiche ogni ora, quante pratiche complessive verranno lavorate dall'ufficio in una giornata lavorativa di 6 ore?",
+    "options": [
+      {
+        "id": "A",
+        "text": "360"
+      },
+      {
+        "id": "B",
+        "text": "300"
+      },
+      {
+        "id": "C",
+        "text": "420"
+      },
+      {
+        "id": "D",
+        "text": "280"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "5 sportelli lavorano ciascuno 12 pratiche all'ora, quindi 5 * 12 = 60 pratiche all'ora in totale. In 6 ore di servizio: 60 * 6 = 360 pratiche complessive.",
+    "hint": "Calcolo: 5 * 12 * 6 = 360.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_LOG_058",
+    "question": "Individuare il numero mancante nella sequenza: 2, 6, 12, 20, 30, 42, ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "54"
+      },
+      {
+        "id": "B",
+        "text": "56"
+      },
+      {
+        "id": "C",
+        "text": "48"
+      },
+      {
+        "id": "D",
+        "text": "60"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Si osservano le differenze tra termini successivi: 6 - 2 = 4; 12 - 6 = 6; 20 - 12 = 8; 30 - 20 = 10; 42 - 30 = 12. La differenza successiva deve essere 14: 42 + 14 = 56. (Alternativamente: n*(n+1): 1*2=2, 2*3=6, 3*4=12, 4*5=20, 5*6=30, 6*7=42, 7*8=56).",
+    "hint": "Le differenze tra i termini aumentano di 2: +4, +6, +8, +10, +12, +14.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_LOG_059",
+    "question": "Se l'affermazione 'Tutti i dossier urgenti sono stati protocollati' è FALSA, quale delle seguenti affermazioni è NECESSARIAMENTE VERA?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nessun dossier urgente è stato protocollato."
+      },
+      {
+        "id": "B",
+        "text": "Tutti i dossier non urgenti sono stati protocollati."
+      },
+      {
+        "id": "C",
+        "text": "Almeno un dossier urgente non è stato protocollato."
+      },
+      {
+        "id": "D",
+        "text": "La maggior parte dei dossier è stata smarrita."
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Se l'universale affermativa (Tutti gli A sono B) è falsa, la sua contraddittoria particolare negativa (Almeno un A non è B) è necessariamente vera.",
+    "hint": "La contraddittoria di 'tutti lo sono' è 'almeno uno non lo è'.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_LOG_060",
+    "question": "Un fondo previdenziale rende il 10% il primo anno e subisce una perdita del 10% il secondo anno. Rispetto al capitale iniziale, al termine del biennio il fondo:",
+    "options": [
+      {
+        "id": "A",
+        "text": "È rimasto invariato (0%)."
+      },
+      {
+        "id": "B",
+        "text": "È aumentato dell'1%."
+      },
+      {
+        "id": "C",
+        "text": "È diminuito del 2%."
+      },
+      {
+        "id": "D",
+        "text": "È diminuito dell'1%."
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Partendo da 100: dopo il primo anno sale del 10% -> 100 * 1,10 = 110. Il secondo anno perde il 10% sul nuovo valore: 110 * 0,90 = 99. Da 100 a 99 la perdita netta è di 1 (pari all'1%).",
+    "hint": "1,10 * 0,90 = 0,99, ovvero -1% rispetto al capitale originario.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_LOG_061",
+    "question": "Cinque colleghi (A, B, C, D, E) lavorano in uffici contigui numerati da 1 a 5. A lavora nella stanza 1; C lavora accanto ad A; D lavora tra C ed E. In quale stanza lavora B?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nella stanza 5."
+      },
+      {
+        "id": "B",
+        "text": "Nella stanza 2."
+      },
+      {
+        "id": "C",
+        "text": "Nella stanza 3."
+      },
+      {
+        "id": "D",
+        "text": "Nella stanza 4."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "A = 1. C è accanto ad A, quindi C = 2. D lavora tra C ed E: l'unica sequenza possibile è C(2) - D(3) - E(4). L'unica stanza rimasta libera per B è la stanza 5.",
+    "hint": "Disporre le stanze in sequenza: 1:A, 2:C, 3:D, 4:E, 5:B.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_LOG_062",
+    "question": "Qual è il numero che completa la serie: 1, 8, 27, 64, 125, ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "196"
+      },
+      {
+        "id": "B",
+        "text": "216"
+      },
+      {
+        "id": "C",
+        "text": "256"
+      },
+      {
+        "id": "D",
+        "text": "225"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La sequenza è data dai cubi dei numeri interi naturali: 1^3 = 1; 2^3 = 8; 3^3 = 27; 4^3 = 64; 5^3 = 125; 6^3 = 216.",
+    "hint": "Serie dei cubi: 1³, 2³, 3³, 4³, 5³, 6³ = 216.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_LOG_063",
+    "question": "Tutti i matematici sono precisi. Nessun distratto è preciso. Alcuni funzionari sono distratti. Quale conclusione è corretta?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nessun funzionario è matematico."
+      },
+      {
+        "id": "B",
+        "text": "Tutti i matematici sono funzionari."
+      },
+      {
+        "id": "C",
+        "text": "Alcuni funzionari non sono matematici."
+      },
+      {
+        "id": "D",
+        "text": "Tutti i funzionari sono distratti."
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Se nessun distratto è preciso e tutti i matematici sono precisi, allora nessun distratto è matematico. Poiché alcuni funzionari sono distratti, quei funzionari distratti non possono essere matematici. Pertanto: alcuni funzionari non sono matematici.",
+    "hint": "Chi è distratto non è preciso, quindi non può essere un matematico.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_PECS_LOG_064",
+    "question": "Completare la sequenza: 4, 9, 19, 39, 79, ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "149"
+      },
+      {
+        "id": "B",
+        "text": "169"
+      },
+      {
+        "id": "C",
+        "text": "158"
+      },
+      {
+        "id": "D",
+        "text": "159"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "La regola è: ogni termine si ottiene moltiplicando il precedente per 2 e aggiungendo 1. 4*2+1=9; 9*2+1=19; 19*2+1=39; 39*2+1=79; 79*2+1 = 158 + 1 = 159.",
+    "hint": "Operazione fissa: (termine * 2) + 1.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_LOG_065",
+    "question": "In una commissione di 4 membri bisogna scegliere un Presidente e un Segretario. In quanti modi diversi possono essere assegnati questi due ruoli distinti?",
+    "options": [
+      {
+        "id": "A",
+        "text": "12"
+      },
+      {
+        "id": "B",
+        "text": "6"
+      },
+      {
+        "id": "C",
+        "text": "16"
+      },
+      {
+        "id": "D",
+        "text": "24"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Trattandosi di ruoli distinti (l'ordine conta), si calcolano le disposizioni semplici di 4 elementi presi a 2 a 2: D(4,2) = 4 * 3 = 12 modi possibili.",
+    "hint": "4 possibilità per il Presidente * 3 possibilità residue per il Segretario = 12.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_LOG_066",
+    "question": "Individuare la parola da scartare perché non affine alle altre: Determina, Decreto, Delibera, Sinallagma.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Determina"
+      },
+      {
+        "id": "B",
+        "text": "Sinallagma"
+      },
+      {
+        "id": "C",
+        "text": "Decreto"
+      },
+      {
+        "id": "D",
+        "text": "Delibera"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Determina, decreto e delibera sono tipologie di provvedimenti e atti della Pubblica Amministrazione. Il sinallagma è invece un concetto civilistico che esprime il nesso di reciprocità delle prestazioni contrattuali.",
+    "hint": "I primi tre sono atti amministrativi, il quarto è un concetto civilistico contrattuale.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_LOG_067",
+    "question": "La somma dell'età di un dirigente e del suo assistente è 70 anni. Il dirigente ha 24 anni più del suo assistente. Quanti anni ha l'assistente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "25"
+      },
+      {
+        "id": "B",
+        "text": "21"
+      },
+      {
+        "id": "C",
+        "text": "23"
+      },
+      {
+        "id": "D",
+        "text": "24"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Sia x l'età dell'assistente. Il dirigente ha x + 24 anni. x + (x + 24) = 70 -> 2x + 24 = 70 -> 2x = 46 -> x = 23 anni. (Il dirigente ha 23 + 24 = 47 anni; 47 + 23 = 70).",
+    "hint": "Impostare l'equazione: 2x + 24 = 70, da cui x = (70 - 24) / 2 = 23.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_LOG_068",
+    "question": "Se 'Tutti gli auditors sono meticolosi' e 'Chi è meticoloso non commette omissioni colpose', quale affermazione è ERRATA?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nessun auditor commette omissioni colpose."
+      },
+      {
+        "id": "B",
+        "text": "Chi commette omissioni colpose non è un auditor."
+      },
+      {
+        "id": "C",
+        "text": "Chi commette omissioni colpose non è meticoloso."
+      },
+      {
+        "id": "D",
+        "text": "Alcuni auditors possono commettere omissioni colpose."
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Dalle premesse discende necessariamente che tutti gli auditors, essendo meticolosi, non commettono omissioni colpose (Nessun auditor commette omissioni colpose). Pertanto, sostenere che 'alcuni auditors possono commettere omissioni colpose' è logicamente falso ed errato.",
+    "hint": "La proprietà transitiva esclude categoricamente che un auditor possa commettere omissioni colpose.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_LOG_069",
+    "question": "Completare la serie numerica: 100, 96, 88, 72, 40, ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "-24"
+      },
+      {
+        "id": "B",
+        "text": "0"
+      },
+      {
+        "id": "C",
+        "text": "8"
+      },
+      {
+        "id": "D",
+        "text": "-16"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "I decrementi raddoppiano ad ogni passaggio: 100 - 4 = 96; 96 - 8 = 88; 88 - 16 = 72; 72 - 32 = 40. Il passo successivo prevede di sottrarre 64 (32 * 2): 40 - 64 = -24.",
+    "hint": "Le sottrazioni raddoppiano progressivamente: -4, -8, -16, -32, -64.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_LOG_070",
+    "question": "In un ufficio, 3 stampanti impiegano 6 minuti per stampare 90 relazioni. Quanti minuti impiegheranno 6 stampanti con la medesima velocità per stampare 180 relazioni?",
+    "options": [
+      {
+        "id": "A",
+        "text": "12 minuti"
+      },
+      {
+        "id": "B",
+        "text": "6 minuti"
+      },
+      {
+        "id": "C",
+        "text": "3 minuti"
+      },
+      {
+        "id": "D",
+        "text": "9 minuti"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Se il numero di macchine raddoppia (da 3 a 6) e contemporaneamente raddoppia anche il lavoro da eseguire (da 90 a 180 relazioni), la capacità produttiva oraria raddoppia esattamente di pari passo con la mole di lavoro, lasciando invariato il tempo complessivo di 6 minuti.",
+    "hint": "Raddoppiando sia i fattori produttivi sia il prodotto richiesto, il tempo necessario rimane identico.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_LOG_071",
+    "question": "Trovare l'intruso tra le seguenti coppie: (2, 8), (3, 27), (4, 64), (5, 100).",
+    "options": [
+      {
+        "id": "A",
+        "text": "(2, 8)"
+      },
+      {
+        "id": "B",
+        "text": "(3, 27)"
+      },
+      {
+        "id": "C",
+        "text": "(5, 100)"
+      },
+      {
+        "id": "D",
+        "text": "(4, 64)"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Nelle prime tre coppie il secondo elemento è il cubo del primo (2^3 = 8; 3^3 = 27; 4^3 = 64). Per 5 il cubo è 125, mentre 100 è 5 * 20 o 10^2, rendendo la coppia (5, 100) l'unica non coerente con la regola.",
+    "hint": "Relazione del cubo: 2³=8, 3³=27, 4³=64, mentre 5³=125 (non 100).",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_LOG_072",
+    "question": "Se 'Solo chi possiede la PEC può accedere al fascicolo telematico', quale deduzione è corretta?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Chiunque possiede la PEC accede automaticamente al fascicolo telematico."
+      },
+      {
+        "id": "B",
+        "text": "L'accesso al fascicolo telematico comporta l'obbligo di acquistare una PEC."
+      },
+      {
+        "id": "C",
+        "text": "La PEC è rilasciata solo a chi ha un fascicolo telematico attivo."
+      },
+      {
+        "id": "D",
+        "text": "Chi non possiede la PEC non può accedere al fascicolo telematico."
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "'Solo se P allora Q' significa che P è condizione necessaria per Q. Quindi, in assenza di P (non avere la PEC), non può verificarsi Q (non si può accedere al fascicolo).",
+    "hint": "La clausola 'Solo chi...' indica una condizione necessaria inderogabile.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_LOG_073",
+    "question": "Individuare il numero mancante nella matrice: \n[ 3  |  5  | 15 ]\n[ 4  |  6  | 24 ]\n[ 7  |  8  |  ? ]",
+    "options": [
+      {
+        "id": "A",
+        "text": "56"
+      },
+      {
+        "id": "B",
+        "text": "49"
+      },
+      {
+        "id": "C",
+        "text": "64"
+      },
+      {
+        "id": "D",
+        "text": "15"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La terza colonna è il prodotto delle prime due colonne per ciascuna riga: 3 * 5 = 15; 4 * 6 = 24; 7 * 8 = 56.",
+    "hint": "Moltiplicare il primo elemento per il secondo lungo ogni riga: 7 * 8 = 56.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_LOG_074",
+    "question": "Qual è il significato più aderente dell'aggettivo 'Perentorio' riferito a un termine amministrativo o processuale?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un termine puramente indicativo e prorogabile all'infinito senza conseguenze."
+      },
+      {
+        "id": "B",
+        "text": "Un termine la cui inosservanza comporta la decadenza insanabile dal potere di compiere l'atto."
+      },
+      {
+        "id": "C",
+        "text": "Un termine che si applica esclusivamente nei mesi con 31 giorni."
+      },
+      {
+        "id": "D",
+        "text": "Un termine subordinato alla previa autorizzazione dell'organo di revisione contabile."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il termine perentorio è fissato a pena di decadenza: decorso inutilmente, il soggetto perde irrimediabilmente la facoltà di compiere l'atto o l'impugnazione, a differenza del termine ordinatorio.",
+    "hint": "Perentorio = decadenza insanabile al decorso del tempo.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_LOG_075",
+    "question": "In un sacchetto ci sono 12 gettoni numerati da 1 a 12. Qual è la probabilità di estrarre un numero multiplo di 3?",
+    "options": [
+      {
+        "id": "A",
+        "text": "1/4"
+      },
+      {
+        "id": "B",
+        "text": "1/2"
+      },
+      {
+        "id": "C",
+        "text": "1/3"
+      },
+      {
+        "id": "D",
+        "text": "5/12"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "I multipli di 3 compresi tra 1 e 12 sono: 3, 6, 9, 12 (in totale 4 casi favorevoli). I casi possibili sono 12. La probabilità è 4/12 = 1/3.",
+    "hint": "Casi favorevoli (3, 6, 9, 12) = 4 su 12 = 1/3.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_LOG_076",
+    "question": "Completare la serie: 5, 11, 23, 47, 95, ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "189"
+      },
+      {
+        "id": "B",
+        "text": "190"
+      },
+      {
+        "id": "C",
+        "text": "195"
+      },
+      {
+        "id": "D",
+        "text": "191"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "La progressione segue la formula: (x * 2) + 1. Infatti: 5*2+1=11; 11*2+1=23; 23*2+1=47; 47*2+1=95; 95*2+1 = 190 + 1 = 191.",
+    "hint": "Raddoppiare e aggiungere 1: 95 * 2 + 1 = 191.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_LOG_077",
+    "question": "Si consideri l'enunciato: 'Condizione necessaria ma non sufficiente per vincere il concorso è superare la prova scritta'. Cosa significa formalmente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Se non si supera la prova scritta non si può vincere il concorso, ma superare la prova scritta non garantisce di per sé la vittoria finale."
+      },
+      {
+        "id": "B",
+        "text": "Chi supera la prova scritta è automaticamente vincitore del concorso."
+      },
+      {
+        "id": "C",
+        "text": "Si può vincere il concorso anche venendo bocciati alla prova scritta."
+      },
+      {
+        "id": "D",
+        "text": "La prova scritta è facoltativa per i candidati con lode."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La condizione necessaria è indispensabile (se manca, l'evento non si realizza: no scritto = no vittoria); ma non essendo sufficiente, da sola non basta (occorre ad esempio superare anche la prova orale e rientrare nei posti disponibili).",
+    "hint": "Necessaria = senza di essa non si vince; non sufficiente = da sola non garantisce la vittoria.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_LOG_078",
+    "question": "Individuare il numero mancante nella serie: 720, 120, 24, 6, 2, ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "0"
+      },
+      {
+        "id": "B",
+        "text": "1"
+      },
+      {
+        "id": "C",
+        "text": "0.5"
+      },
+      {
+        "id": "D",
+        "text": "1.5"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La serie procede a ritroso attraverso le divisioni per numeri decrescenti: 720 / 6 = 120; 120 / 5 = 24; 24 / 4 = 6; 6 / 3 = 2; 2 / 2 = 1. (È la serie inversa dei fattoriali da 6! a 1!).",
+    "hint": "Divisioni progressive: /6, /5, /4, /3, /2. Quindi 2 / 2 = 1.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_LOG_079",
+    "question": "La proposizione 'Se e solo se l'utente ha SPID di livello 2, la procedura web si avvia' esprime una relazione di:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Disgiunzione inclusiva non esclusiva."
+      },
+      {
+        "id": "B",
+        "text": "Implicazione unilaterale semplice."
+      },
+      {
+        "id": "C",
+        "text": "Coimplicazione o equivalenza logica (condizione sia necessaria sia sufficiente)."
+      },
+      {
+        "id": "D",
+        "text": "Incompatibilità radicale tra i due eventi."
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "'Se e solo se' (doppia freccia <->) è la bi-condizionale / coimplicazione, il che significa che il possesso di SPID 2 è condizione al contempo necessaria E sufficiente per l'avvio della procedura web.",
+    "hint": "'Se e solo se' stabilisce una condizione necessaria E sufficiente (coimplicazione).",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_LOG_080",
+    "question": "In un ufficio di 60 dipendenti, 35 parlano inglese, 25 parlano francese e 10 parlano entrambe le lingue. Quanti dipendenti non parlano nessuna delle due lingue?",
+    "options": [
+      {
+        "id": "A",
+        "text": "15"
+      },
+      {
+        "id": "B",
+        "text": "5"
+      },
+      {
+        "id": "C",
+        "text": "20"
+      },
+      {
+        "id": "D",
+        "text": "10"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Si applica il principio di inclusione-esclusione insiemistico: |Inglese U Francese| = |Inglese| + |Francese| - |Intersezione| = 35 + 25 - 10 = 50 dipendenti parlano almeno una lingua. Poiché i dipendenti totali sono 60, quelli che non parlano nessuna delle due lingue sono 60 - 50 = 10.",
+    "hint": "Formula degli insiemi: 35 + 25 - 10 = 50 che parlano almeno una lingua. 60 - 50 = 10.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_LOG_081",
+    "question": "Completare la proporzione: Lettera : Alfabeto = Giorno : ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mese"
+      },
+      {
+        "id": "B",
+        "text": "Notte"
+      },
+      {
+        "id": "C",
+        "text": "Tramonto"
+      },
+      {
+        "id": "D",
+        "text": "Ora"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La lettera è l'unità costituente ordinata dell'alfabeto, così come il giorno è l'unità costituente ordinata del mese (o dell'anno). L'ora sarebbe invece una parte interna del giorno.",
+    "hint": "Relazione di appartenenza/costituzione di un insieme temporale più ampio.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_LOG_082",
+    "question": "Un funzionario esamina 15 pratiche in 3 ore. Un secondo funzionario ne esamina 15 in 6 ore. Lavorando insieme, in quante ore esamineranno complessivamente 15 pratiche?",
+    "options": [
+      {
+        "id": "A",
+        "text": "4,5 ore"
+      },
+      {
+        "id": "B",
+        "text": "2 ore"
+      },
+      {
+        "id": "C",
+        "text": "1,5 ore"
+      },
+      {
+        "id": "D",
+        "text": "2,5 ore"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La velocità del primo è 15/3 = 5 pratiche/ora. La velocità del secondo è 15/6 = 2,5 pratiche/ora. Velocità congiunta = 5 + 2,5 = 7,5 pratiche/ora. Per fare 15 pratiche: 15 / 7,5 = 2 ore esatte.",
+    "hint": "Velocità congiunta = 5 + 2,5 = 7,5 pratiche all'ora. 15 / 7,5 = 2 ore.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_LOG_083",
+    "question": "Trovare il numero che completa la serie a due livelli: 1, 3, 7, 13, 21, 31, ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "41"
+      },
+      {
+        "id": "B",
+        "text": "45"
+      },
+      {
+        "id": "C",
+        "text": "43"
+      },
+      {
+        "id": "D",
+        "text": "39"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Calcolando le differenze prime: 3-1=2; 7-3=4; 13-7=6; 21-13=8; 31-21=10. Le differenze aumentano di 2 a ogni passo. La differenza successiva deve essere 12: 31 + 12 = 43.",
+    "hint": "Gli incrementi sono numeri pari crescenti: +2, +4, +6, +8, +10, +12.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_LOG_084",
+    "question": "Quale tra le seguenti è una tautologia (proposizione sempre vera, indipendentemente dal valore di verità delle sue componenti)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "P e non-P contemporaneamente."
+      },
+      {
+        "id": "B",
+        "text": "Se P è vero, allora anche Q è sempre falso."
+      },
+      {
+        "id": "C",
+        "text": "P implica necessariamente la negazione di P."
+      },
+      {
+        "id": "D",
+        "text": "P oppure non-P (Principio del terzo escluso)."
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "'P oppure non-P' (tertium non datur) è la classica tautologia fondamentale della logica proposizionale: assume sempre il valore Vero (V) per qualunque valore di verità attribuito a P.",
+    "hint": "Una cosa o è vera o non è vera: 'P o non-P' è sempre vera per definizione.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_LOG_085",
+    "question": "Se 'Nessun mammifero è oviparo' e 'L'ornitorinco è oviparo', cosa ne consegue inconfutabilmente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "In base a tali premesse, l'ornitorinco non è un mammifero."
+      },
+      {
+        "id": "B",
+        "text": "Tutti gli ovipari sono ornitorinchi."
+      },
+      {
+        "id": "C",
+        "text": "I mammiferi depongono le uova."
+      },
+      {
+        "id": "D",
+        "text": "L'ornitorinco non appartiene al regno animale."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Nei sillogismi formali si deve dedurre unicamente dalle premesse fornite: se nessun M è O, e X è O, per necessità logica X non può essere M. (Anche se la biologia reale classifica l'ornitorinco come mammifero monotremo, la logica formale deduce rigorosamente dalle premesse enunciate).",
+    "hint": "Rigorosa coerenza logica interna tra premesse e conclusione, a prescindere dalle conoscenze empiriche esterne.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_PECS_LOG_086",
+    "question": "Individuare la serie decrescente regolare: 81, 27, 9, 3, ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "0"
+      },
+      {
+        "id": "B",
+        "text": "1"
+      },
+      {
+        "id": "C",
+        "text": "1/3"
+      },
+      {
+        "id": "D",
+        "text": "2"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Ogni termine è ottenuto dividendo per 3 il precedente (potenze decrescenti di 3: 3^4=81, 3^3=27, 3^2=9, 3^1=3, 3^0=1).",
+    "hint": "Progressione geometrica con ragione 1/3: 3 diviso 3 fa 1.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_LOG_087",
+    "question": "Cosa si intende in logica per 'Fallacia della negazione dell'antecedente'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'applicazione corretta del Modus Ponens."
+      },
+      {
+        "id": "B",
+        "text": "La conclusione valida che scaturisce da due premesse particolari."
+      },
+      {
+        "id": "C",
+        "text": "L'errore logico che consiste nel dedurre 'non Q' dalla premessa 'Se P allora Q' unitamente a 'non P'."
+      },
+      {
+        "id": "D",
+        "text": "L'inversione lecita dei termini di una proposizione universale negativa."
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "La fallacia della negazione dell'antecedente afferma: 'Se piove (P) allora la strada è bagnata (Q). Non piove (non P), dunque la strada non è bagnata (non Q)'. Questo è fallace perché la strada potrebbe essere bagnata per altri motivi (es. lavaggio strade).",
+    "hint": "Negare l'antecedente non permette di inferire la negazione del conseguente.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_PECS_LOG_088",
+    "question": "Se 4 funzionari redigono 4 verbali in 4 ore, quanti verbali redigono 8 funzionari con la stessa produttività in 8 ore?",
+    "options": [
+      {
+        "id": "A",
+        "text": "8 verbali"
+      },
+      {
+        "id": "B",
+        "text": "32 verbali"
+      },
+      {
+        "id": "C",
+        "text": "12 verbali"
+      },
+      {
+        "id": "D",
+        "text": "16 verbali"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "4 funzionari in 4 ore fanno 4 verbali, il che significa che 1 funzionario fa 1 verbale in 4 ore (produttività = 0,25 verbali/ora a testa). 8 funzionari in 8 ore: 8 funzionari * 8 ore = 64 ore-uomo complessive. 64 * 0,25 = 16 verbali.",
+    "hint": "Un funzionario produce 1 verbale ogni 4 ore. In 8 ore 1 funzionario produce 2 verbali. 8 funzionari * 2 = 16.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_LOG_089",
+    "question": "Completare la sequenza di lettere: C, F, I, L, O, ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "R"
+      },
+      {
+        "id": "B",
+        "text": "Q"
+      },
+      {
+        "id": "C",
+        "text": "S"
+      },
+      {
+        "id": "D",
+        "text": "P"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Le lettere avanzano di 3 posizioni nell'alfabeto internazionale: C(3), F(6), I(9), L(12), O(15). La successiva è 15 + 3 = 18, che corrisponde alla lettera R.",
+    "hint": "Avanzamento a salti di 3 lettere: C, F, I, L, O, R.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_LOG_090",
+    "question": "Quale tra le seguenti affermazioni equivale logicamente a: 'Non tutti i cittadini sono informati'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tutti i cittadini sono disinformati."
+      },
+      {
+        "id": "B",
+        "text": "Almeno un cittadino non è informato."
+      },
+      {
+        "id": "C",
+        "text": "Nessun cittadino è informato."
+      },
+      {
+        "id": "D",
+        "text": "Tutti i cittadini sanno di essere disinformati."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "'Non tutti sono X' equivale per definizione a dire che 'esiste almeno uno che non è X'.",
+    "hint": "'Non tutti' = 'Almeno uno non lo è'.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_LOG_091",
+    "question": "Un questionario è composto da 3 domande, ciascuna con risposta Vero o Falso. In quanti modi diversi è possibile compilare complessivamente la sequenza delle risposte?",
+    "options": [
+      {
+        "id": "A",
+        "text": "6"
+      },
+      {
+        "id": "B",
+        "text": "9"
+      },
+      {
+        "id": "C",
+        "text": "8"
+      },
+      {
+        "id": "D",
+        "text": "12"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Per ciascuna delle 3 domande ci sono 2 possibili esiti indipendenti. Il numero totale di combinazioni è 2^3 = 2 * 2 * 2 = 8 modi diversi.",
+    "hint": "Disposizioni con ripetizione: 2³ = 8.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_LOG_092",
+    "question": "Se 'Chiunque ami la giustizia rispetta la legge' e 'Chi rispetta la legge tutela i deboli', cosa si deduce necessariamente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Chi tutela i deboli ama necessariamente la giustizia."
+      },
+      {
+        "id": "B",
+        "text": "Tutti coloro che non amano la giustizia violano la legge."
+      },
+      {
+        "id": "C",
+        "text": "Solo i deboli amano la giustizia."
+      },
+      {
+        "id": "D",
+        "text": "Chiunque ami la giustizia tutela i deboli."
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Sillogismo ipotetico (proprietà transitiva dell'implicazione): A -> B e B -> C implica A -> C (Chi ama la giustizia -> tutela i deboli). L'inverso non è deducibile.",
+    "hint": "Proprietà transitiva: se A implica B e B implica C, allora A implica C.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_LOG_093",
+    "question": "Individuare il numero mancante nella serie: 2, 3, 5, 8, 13, 21, ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "34"
+      },
+      {
+        "id": "B",
+        "text": "33"
+      },
+      {
+        "id": "C",
+        "text": "35"
+      },
+      {
+        "id": "D",
+        "text": "29"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "È la celebre successione di Fibonacci: ogni termine è la somma dei due che lo precedono immediatamente. 2+3=5; 3+5=8; 5+8=13; 8+13=21; 13+21 = 34.",
+    "hint": "Serie di Fibonacci: 13 + 21 = 34.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_LOG_094",
+    "question": "Cosa si intende per 'sillogismo disgiuntivo' in logica classica?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un sillogismo privo di conclusione verificabile."
+      },
+      {
+        "id": "B",
+        "text": "La forma valida di ragionamento che, data una disgiunzione (P oppure Q) e la negazione di uno dei disgiunti (non P), conclude affermando l'altro (dunque Q)."
+      },
+      {
+        "id": "C",
+        "text": "Una discussione dialettica in cui entrambi gli interlocutori hanno torto."
+      },
+      {
+        "id": "D",
+        "text": "L'affermazione congiunta di due contrari assoluti."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il sillogismo disgiuntivo (Modus Tollendo Ponens) ha la struttura: P v Q; non P; ergo Q. Se una delle due opzioni deve verificarsi e la prima è esclusa, la seconda è necessariamente vera.",
+    "hint": "O questo o quello. Non questo, dunque per forza quello.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_LOG_095",
+    "question": "In una scatola vi sono 4 palline bianche e 6 palline nere. Estraendo una pallina a caso, qual è la probabilità che essa sia bianca?",
+    "options": [
+      {
+        "id": "A",
+        "text": "50% (o 1/2)"
+      },
+      {
+        "id": "B",
+        "text": "60% (o 3/5)"
+      },
+      {
+        "id": "C",
+        "text": "40% (o 2/5)"
+      },
+      {
+        "id": "D",
+        "text": "30% (o 3/10)"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Le palline totali sono 4 + 6 = 10. I casi favorevoli (palline bianche) sono 4. La probabilità è 4/10 = 2/5 = 40%.",
+    "hint": "4 bianche su 10 totali = 40%.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_LOG_096",
+    "question": "Individuare l'intruso tra i seguenti termini: Oculato, Accorto, Avveduto, Dissennato.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Oculato"
+      },
+      {
+        "id": "B",
+        "text": "Accorto"
+      },
+      {
+        "id": "C",
+        "text": "Avveduto"
+      },
+      {
+        "id": "D",
+        "text": "Dissennato"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Oculato, accorto e avveduto sono sinonimi che denotano prudenza, saggezza e lungimiranza. Dissennato è il termine opposto (antònimo), significando privo di senno, sconsiderato o stolto.",
+    "hint": "Tre aggettivi indicano prudenza e giudizio, uno solo indica sconsideratezza.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_LOG_097",
+    "question": "Completare la serie: 1, 4, 16, 64, 256, ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "1024"
+      },
+      {
+        "id": "B",
+        "text": "512"
+      },
+      {
+        "id": "C",
+        "text": "768"
+      },
+      {
+        "id": "D",
+        "text": "2048"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Progressione geometrica di ragione 4 (potenze di 4: 4^0=1, 4^1=4, 4^2=16, 4^3=64, 4^4=256). Il termine successivo è 256 * 4 = 1024 (4^5).",
+    "hint": "Moltiplicare per 4 ogni termine: 256 * 4 = 1024.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_LOG_098",
+    "question": "Se 'Paolo è più anziano di Giorgio' e 'Giorgio è più anziano di Silvia', ma 'Anna è più anziana di Paolo', chi è la persona più giovane del gruppo?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Giorgio"
+      },
+      {
+        "id": "B",
+        "text": "Silvia"
+      },
+      {
+        "id": "C",
+        "text": "Paolo"
+      },
+      {
+        "id": "D",
+        "text": "Anna"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Ordinando in base all'età decrescente: Anna > Paolo > Giorgio > Silvia. La persona più giovane in assoluto è Silvia.",
+    "hint": "La catena di età è: Anna > Paolo > Giorgio > Silvia.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PECS_LOG_099",
+    "question": "Cosa stabilisce il principio di non contraddizione formulato da Aristotele?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ogni cosa è sempre uguale al suo contrario."
+      },
+      {
+        "id": "B",
+        "text": "La verità di un'affermazione dipende unicamente dall'autorità di chi la pronuncia."
+      },
+      {
+        "id": "C",
+        "text": "È impossibile che il medesimo attributo appartenga e non appartenga allo stesso tempo e sotto il medesimo rispetto a una stessa cosa."
+      },
+      {
+        "id": "D",
+        "text": "Due premesse negative danno sempre origine a una conclusione positiva certa."
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Il principio aristotelico di non contraddizione afferma l'impossibilità logica che una proposizione sia contemporaneamente vera e falsa sotto il medesimo aspetto e nello stesso momento: non si può affermare e negare lo stesso predicato del medesimo soggetto a un tempo.",
+    "hint": "Non si può essere e non essere contemporaneamente la stessa cosa sotto il medesimo aspetto.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PECS_LOG_100",
+    "question": "Un articolo dal costo originario di 80 euro viene scontato del 25%. Qual è il prezzo finale dell'articolo dopo l'applicazione dello sconto?",
+    "options": [
+      {
+        "id": "A",
+        "text": "65 euro"
+      },
+      {
+        "id": "B",
+        "text": "55 euro"
+      },
+      {
+        "id": "C",
+        "text": "70 euro"
+      },
+      {
+        "id": "D",
+        "text": "60 euro"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Lo sconto del 25% corrisponde a un quarto del prezzo originario: 80 * 0,25 = 20 euro di sconto. Il prezzo finale è: 80 - 20 = 60 euro.",
+    "hint": "Il 25% di 80 è 20. 80 - 20 = 60 euro.",
     "level": "base"
   }
 ]

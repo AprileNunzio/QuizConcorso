@@ -3,12 +3,24 @@
     "id": "Q_LNG_ENG_001",
     "question": "Nel contesto informatico, qual è la traduzione corretta del termine inglese 'desktop' riferito alla tipologia di computer?",
     "options": [
-      { "id": "A", "text": "Computer portatile" },
-      { "id": "B", "text": "Computer da tavolo o fisso" },
-      { "id": "C", "text": "Tastiera wireless" },
-      { "id": "D", "text": "Monitor LCD" }
+      {
+        "id": "A",
+        "text": "Computer da tavolo o fisso"
+      },
+      {
+        "id": "B",
+        "text": "Computer portatile"
+      },
+      {
+        "id": "C",
+        "text": "Tastiera wireless"
+      },
+      {
+        "id": "D",
+        "text": "Monitor LCD"
+      }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "A",
     "explanation": "Il termine 'desktop' (letteralmente 'sopra la scrivania') indica il classico computer fisso da tavolo, in contrapposizione al 'laptop' o 'notebook' che identifica il computer portatile.",
     "hint": "Si riferisce a un computer progettato per rimanere in una posizione fissa su una scrivania.",
     "level": "base"
@@ -17,12 +29,24 @@
     "id": "Q_LNG_ENG_002",
     "question": "Nelle reti di telecomunicazione, cosa indica il termine inglese 'bandwidth'?",
     "options": [
-      { "id": "A", "text": "La larghezza di banda, ovvero la capacità di trasmissione dati di una connessione" },
-      { "id": "B", "text": "La lunghezza fisica del cavo di rete Ethernet" },
-      { "id": "C", "text": "La password di accesso amministrativo del router" },
-      { "id": "D", "text": "Il numero massimo di dispositivi collegabili a un hub" }
+      {
+        "id": "A",
+        "text": "La lunghezza fisica del cavo di rete Ethernet"
+      },
+      {
+        "id": "B",
+        "text": "La larghezza di banda, ovvero la capacità di trasmissione dati di una connessione"
+      },
+      {
+        "id": "C",
+        "text": "La password di accesso amministrativo del router"
+      },
+      {
+        "id": "D",
+        "text": "Il numero massimo di dispositivi collegabili a un hub"
+      }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "B",
     "explanation": "Il termine 'bandwidth' indica la larghezza di banda, ossia la quantità massima di dati che possono essere trasferiti su una connessione di rete in un dato intervallo di tempo (solitamente espressa in bit al secondo, bps).",
     "hint": "Misura la capacità potenziale di trasmissione della rete.",
     "level": "base"
@@ -31,10 +55,22 @@
     "id": "Q_LNG_ENG_003",
     "question": "Nel gergo della programmazione software, con quale termine inglese viene comunemente indicato un errore di logica o sintassi nel codice?",
     "options": [
-      { "id": "A", "text": "Feature" },
-      { "id": "B", "text": "Patch" },
-      { "id": "C", "text": "Bug" },
-      { "id": "D", "text": "Commit" }
+      {
+        "id": "A",
+        "text": "Feature"
+      },
+      {
+        "id": "B",
+        "text": "Patch"
+      },
+      {
+        "id": "C",
+        "text": "Bug"
+      },
+      {
+        "id": "D",
+        "text": "Commit"
+      }
     ],
     "correctAnswerId": "C",
     "explanation": "Un 'bug' è un errore, difetto o guasto nel software che causa un comportamento inatteso o errato. L'operazione di individuazione e rimozione dei bug è chiamata 'debugging'.",
@@ -45,10 +81,22 @@
     "id": "Q_LNG_ENG_004",
     "question": "Cosa si intende in inglese con il termine 'query' nell'ambito dei database relazionali?",
     "options": [
-      { "id": "A", "text": "Un backup completo dei dati strutturati" },
-      { "id": "B", "text": "La chiave primaria utilizzata per indicizzare una tabella" },
-      { "id": "C", "text": "La cancellazione definitiva di un record o di una riga" },
-      { "id": "D", "text": "Un'interrogazione o richiesta rivolta al database per estrarre o modificare dati" }
+      {
+        "id": "A",
+        "text": "Un backup completo dei dati strutturati"
+      },
+      {
+        "id": "B",
+        "text": "La chiave primaria utilizzata per indicizzare una tabella"
+      },
+      {
+        "id": "C",
+        "text": "La cancellazione definitiva di un record o di una riga"
+      },
+      {
+        "id": "D",
+        "text": "Un'interrogazione o richiesta rivolta al database per estrarre o modificare dati"
+      }
     ],
     "correctAnswerId": "D",
     "explanation": "Il sostantivo 'query' significa 'interrogazione' o 'domanda'. Nei database relazionali, si riferisce a un'istruzione (solitamente scritta in SQL) inviata al DBMS per recuperare o manipolare dati.",
@@ -59,12 +107,24 @@
     "id": "Q_LNG_ENG_005",
     "question": "Nel contesto della Pubblica Amministrazione europea, come viene tradotto il termine 'public procurement'?",
     "options": [
-      { "id": "A", "text": "Assunzione di dipendenti pubblici" },
-      { "id": "B", "text": "Appalti pubblici / procedure di acquisto della PA" },
-      { "id": "C", "text": "Erogazione di finanziamenti a fondo perduto" },
-      { "id": "D", "text": "Principio di trasparenza amministrativa" }
+      {
+        "id": "A",
+        "text": "Appalti pubblici / procedure di acquisto della PA"
+      },
+      {
+        "id": "B",
+        "text": "Assunzione di dipendenti pubblici"
+      },
+      {
+        "id": "C",
+        "text": "Erogazione di finanziamenti a fondo perduto"
+      },
+      {
+        "id": "D",
+        "text": "Principio di trasparenza amministrativa"
+      }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "A",
     "explanation": "'Public procurement' si traduce con 'appalti pubblici' o 'procedure di acquisto della pubblica amministrazione'. Indica l'approvvigionamento di beni, servizi o lavori da parte di enti pubblici.",
     "hint": "Si riferisce alle procedure di gara e acquisto da parte di enti governativi.",
     "level": "base"
@@ -73,12 +133,24 @@
     "id": "Q_LNG_ENG_006",
     "question": "Complete the following sentence: 'An operating system is the software that ________ the computer's hardware and software resources.'",
     "options": [
-      { "id": "A", "text": "manages" },
-      { "id": "B", "text": "compiles" },
-      { "id": "C", "text": "deletes" },
-      { "id": "D", "text": "downloads" }
+      {
+        "id": "A",
+        "text": "compiles"
+      },
+      {
+        "id": "B",
+        "text": "manages"
+      },
+      {
+        "id": "C",
+        "text": "deletes"
+      },
+      {
+        "id": "D",
+        "text": "downloads"
+      }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "B",
     "explanation": "Il verbo corretto è 'manages' (gestisce). La frase completa significa: 'Un sistema operativo è il software che gestisce le risorse hardware e software del computer'.",
     "hint": "Pensa alla funzione principale di controllo e coordinamento svolta dal sistema operativo.",
     "level": "base"
@@ -87,10 +159,22 @@
     "id": "Q_LNG_ENG_007",
     "question": "Nel campo della sicurezza informatica e delle reti, a cosa corrisponde letteralmente il termine 'firewall'?",
     "options": [
-      { "id": "A", "text": "Porta girevole automatica" },
-      { "id": "B", "text": "Cavo schermato ad alta temperatura" },
-      { "id": "C", "text": "Muro tagliafuoco / Parete antincendio" },
-      { "id": "D", "text": "Sistema di raffreddamento a liquido" }
+      {
+        "id": "A",
+        "text": "Porta girevole automatica"
+      },
+      {
+        "id": "B",
+        "text": "Cavo schermato ad alta temperatura"
+      },
+      {
+        "id": "C",
+        "text": "Muro tagliafuoco / Parete antincendio"
+      },
+      {
+        "id": "D",
+        "text": "Sistema di raffreddamento a liquido"
+      }
     ],
     "correctAnswerId": "C",
     "explanation": "Il termine 'firewall' significa letteralmente 'muro tagliafuoco'. In informatica indica un dispositivo (hardware o software) di difesa perimetrale che filtra il traffico di rete in base a regole predefinite.",
@@ -101,10 +185,22 @@
     "id": "Q_LNG_ENG_008",
     "question": "In programmazione, cosa indica il termine inglese 'loop'?",
     "options": [
-      { "id": "A", "text": "Un commento esplicativo inserito dallo sviluppatore" },
-      { "id": "B", "text": "Una variabile non inizializzata che provoca un crash" },
-      { "id": "C", "text": "Un tipo di dato utilizzato per rappresentare numeri decimali" },
-      { "id": "D", "text": "Un ciclo, ovvero una struttura di controllo che ripete un blocco di codice" }
+      {
+        "id": "A",
+        "text": "Un commento esplicativo inserito dallo sviluppatore"
+      },
+      {
+        "id": "B",
+        "text": "Una variabile non inizializzata che provoca un crash"
+      },
+      {
+        "id": "C",
+        "text": "Un tipo di dato utilizzato per rappresentare numeri decimali"
+      },
+      {
+        "id": "D",
+        "text": "Un ciclo, ovvero una struttura di controllo che ripete un blocco di codice"
+      }
     ],
     "correctAnswerId": "D",
     "explanation": "Un 'loop' (ciclo) è una struttura iterativa che ripete l'esecuzione di un blocco di istruzioni finché una determinata condizione rimane soddisfatta.",
@@ -115,12 +211,24 @@
     "id": "Q_LNG_ENG_009",
     "question": "Qual è il significato del termine informatico 'backup'?",
     "options": [
-      { "id": "A", "text": "Ripristino del sistema operativo alle impostazioni di fabbrica" },
-      { "id": "B", "text": "Copia di sicurezza dei dati per prevenirne la perdita accidentale" },
-      { "id": "C", "text": "Configurazione iniziale di un router o access point" },
-      { "id": "D", "text": "Scansione alla ricerca di virus e malware attivi" }
+      {
+        "id": "A",
+        "text": "Copia di sicurezza dei dati per prevenirne la perdita accidentale"
+      },
+      {
+        "id": "B",
+        "text": "Ripristino del sistema operativo alle impostazioni di fabbrica"
+      },
+      {
+        "id": "C",
+        "text": "Configurazione iniziale di un router o access point"
+      },
+      {
+        "id": "D",
+        "text": "Scansione alla ricerca di virus e malware attivi"
+      }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "A",
     "explanation": "Il termine 'backup' indica una copia di sicurezza di file, database o sistemi interi, realizzata per permetterne il ripristino in caso di guasti, perdite o attacchi informatici.",
     "hint": "Consente l'operazione di 'restore' dei dati in caso di emergenza.",
     "level": "base"
@@ -129,12 +237,24 @@
     "id": "Q_LNG_ENG_010",
     "question": "Nel contesto dei contratti pubblici europei, cosa si intende con il termine 'framework agreement'?",
     "options": [
-      { "id": "A", "text": "Un accordo quadro per stabilire le condizioni di futuri appalti" },
-      { "id": "B", "text": "Una clausola di risoluzione immediata del contratto" },
-      { "id": "C", "text": "Un bando di concorso per l'assunzione di personale" },
-      { "id": "D", "text": "Una penale per il ritardo nella consegna dei lavori" }
+      {
+        "id": "A",
+        "text": "Una clausola di risoluzione immediata del contratto"
+      },
+      {
+        "id": "B",
+        "text": "Un accordo quadro per stabilire le condizioni di futuri appalti"
+      },
+      {
+        "id": "C",
+        "text": "Un bando di concorso per l'assunzione di personale"
+      },
+      {
+        "id": "D",
+        "text": "Una penale per il ritardo nella consegna dei lavori"
+      }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "B",
     "explanation": "'Framework agreement' si traduce come 'accordo quadro'. Si tratta di un accordo tra una o più amministrazioni aggiudicatrici e uno o più operatori economici, volto a stabilire le clausole relative ai singoli appalti da aggiudicare durante un dato periodo.",
     "hint": "Definisce la 'cornice' (framework) regolamentare e tariffaria per commesse future.",
     "level": "base"
@@ -143,10 +263,22 @@
     "id": "Q_LNG_ENG_011",
     "question": "Cosa indica l'aggettivo 'open-source' riferito a un software?",
     "options": [
-      { "id": "A", "text": "Che il software funziona solo se connesso a Internet" },
-      { "id": "B", "text": "Che l'applicazione può essere eseguita solo su sistemi operativi Linux" },
-      { "id": "C", "text": "Che il codice sorgente è reso liberamente accessibile, modificabile e distribuibile" },
-      { "id": "D", "text": "Che il software non richiede installazione e si avvia da browser" }
+      {
+        "id": "A",
+        "text": "Che il software funziona solo se connesso a Internet"
+      },
+      {
+        "id": "B",
+        "text": "Che l'applicazione può essere eseguita solo su sistemi operativi Linux"
+      },
+      {
+        "id": "C",
+        "text": "Che il codice sorgente è reso liberamente accessibile, modificabile e distribuibile"
+      },
+      {
+        "id": "D",
+        "text": "Che il software non richiede installazione e si avvia da browser"
+      }
     ],
     "correctAnswerId": "C",
     "explanation": "'Open-source' (sorgente aperto) indica un software i cui autori rendono pubblico il codice sorgente originale, permettendo a chiunque di studiarlo, modificarlo e migliorarlo.",
@@ -157,10 +289,22 @@
     "id": "Q_LNG_ENG_012",
     "question": "Cosa significa la parola 'Local' nell'acronimo di rete 'LAN'?",
     "options": [
-      { "id": "A", "text": "Link" },
-      { "id": "B", "text": "Logical" },
-      { "id": "C", "text": "Linear" },
-      { "id": "D", "text": "Local" }
+      {
+        "id": "A",
+        "text": "Link"
+      },
+      {
+        "id": "B",
+        "text": "Logical"
+      },
+      {
+        "id": "C",
+        "text": "Linear"
+      },
+      {
+        "id": "D",
+        "text": "Local"
+      }
     ],
     "correctAnswerId": "D",
     "explanation": "LAN sta per 'Local Area Network' (Rete ad area locale). Si tratta di una rete di computer limitata a un'area geografica circoscritta, come un ufficio o un edificio.",
@@ -171,10 +315,22 @@
     "id": "Q_LNG_ENG_013",
     "question": "In programmazione, qual è il compito principale di un software denominato 'compiler' (compilatore)?",
     "options": [
-      { "id": "A", "text": "Tradurre il codice sorgente scritto in linguaggio ad alto livello in linguaggio macchina" },
-      { "id": "B", "text": "Organizzare i file di codice sorgente in cartelle e directory sul server" },
-      { "id": "C", "text": "Correggere automaticamente gli errori di logica commessi dal programmatore" },
-      { "id": "D", "text": "Eseguire i test automatici dell'interfaccia grafica" }
+      {
+        "id": "A",
+        "text": "Tradurre il codice sorgente scritto in linguaggio ad alto livello in linguaggio macchina"
+      },
+      {
+        "id": "B",
+        "text": "Organizzare i file di codice sorgente in cartelle e directory sul server"
+      },
+      {
+        "id": "C",
+        "text": "Correggere automaticamente gli errori di logica commessi dal programmatore"
+      },
+      {
+        "id": "D",
+        "text": "Eseguire i test automatici dell'interfaccia grafica"
+      }
     ],
     "correctAnswerId": "A",
     "explanation": "Un 'compiler' (compilatore) traduce l'intero programma scritto in un linguaggio ad alto livello (como C o C++) nel linguaggio macchina nativo della CPU prima dell'esecuzione.",
@@ -185,10 +341,22 @@
     "id": "Q_LNG_ENG_014",
     "question": "Nei database relazionali, come viene tradotto il termine 'foreign key'?",
     "options": [
-      { "id": "A", "text": "Chiave primaria" },
-      { "id": "B", "text": "Chiave esterna" },
-      { "id": "C", "text": "Indice univoco" },
-      { "id": "D", "text": "Tabella di transizione" }
+      {
+        "id": "A",
+        "text": "Chiave primaria"
+      },
+      {
+        "id": "B",
+        "text": "Chiave esterna"
+      },
+      {
+        "id": "C",
+        "text": "Indice univoco"
+      },
+      {
+        "id": "D",
+        "text": "Tabella di transizione"
+      }
     ],
     "correctAnswerId": "B",
     "explanation": "'Foreign key' si traduce come 'chiave esterna'. È un campo (o insieme di campi) in una tabella che fa riferimento alla chiave primaria di un'altra tabella, stabilendo un vincolo di integrità referenziale.",
@@ -199,10 +367,22 @@
     "id": "Q_LNG_ENG_015",
     "question": "Che cosa si intende con il termine inglese 'e-government'?",
     "options": [
-      { "id": "A", "text": "La votazione elettronica per le elezioni politiche nazionali" },
-      { "id": "B", "text": "La sicurezza informatica applicata esclusivamente alle reti militari" },
-      { "id": "C", "text": "L'uso delle tecnologie informatiche per migliorare i servizi e l'efficienza della PA" },
-      { "id": "D", "text": "Un sistema operativo sviluppato dall'Unione Europea per gli uffici comunali" }
+      {
+        "id": "A",
+        "text": "La votazione elettronica per le elezioni politiche nazionali"
+      },
+      {
+        "id": "B",
+        "text": "La sicurezza informatica applicata esclusivamente alle reti militari"
+      },
+      {
+        "id": "C",
+        "text": "L'uso delle tecnologie informatiche per migliorare i servizi e l'efficienza della PA"
+      },
+      {
+        "id": "D",
+        "text": "Un sistema operativo sviluppato dall'Unione Europea per gli uffici comunali"
+      }
     ],
     "correctAnswerId": "C",
     "explanation": "L'e-government (electronic government, o amministrazione digitale) indica l'utilizzo delle tecnologie dell'informazione e della comunicazione (ICT) da parte delle pubbliche amministrazioni per migliorare i servizi offerti a cittadini e imprese.",
@@ -213,10 +393,22 @@
     "id": "Q_LNG_ENG_016",
     "question": "Complete the following sentence with the correct verb: 'Cloud storage allows users to __________ their files on remote servers, making them accessible from any device connected to the Internet.'",
     "options": [
-      { "id": "A", "text": "delete" },
-      { "id": "B", "text": "compile" },
-      { "id": "C", "text": "execute" },
-      { "id": "D", "text": "store" }
+      {
+        "id": "A",
+        "text": "delete"
+      },
+      {
+        "id": "B",
+        "text": "compile"
+      },
+      {
+        "id": "C",
+        "text": "execute"
+      },
+      {
+        "id": "D",
+        "text": "store"
+      }
     ],
     "correctAnswerId": "D",
     "explanation": "Il verbo 'to store' significa memorizzare, archiviare o salvare. La frase tradotta è: 'Lo storage cloud consente agli utenti di archiviare i propri file su server remoti...'.",
@@ -227,10 +419,22 @@
     "id": "Q_LNG_ENG_017",
     "question": "Nelle attività quotidiane su Internet, qual è il significato del verbo inglese 'to download'?",
     "options": [
-      { "id": "A", "text": "Scaricare dati da un sistema remoto a un dispositivo locale" },
-      { "id": "B", "text": "Inviare dati da un sistema locale a un server remoto" },
-      { "id": "C", "text": "Interrompere improvvisamente la connessione di rete in uso" },
-      { "id": "D", "text": "Spegnere in sicurezza il computer o il dispositivo mobile" }
+      {
+        "id": "A",
+        "text": "Scaricare dati da un sistema remoto a un dispositivo locale"
+      },
+      {
+        "id": "B",
+        "text": "Inviare dati da un sistema locale a un server remoto"
+      },
+      {
+        "id": "C",
+        "text": "Interrompere improvvisamente la connessione di rete in uso"
+      },
+      {
+        "id": "D",
+        "text": "Spegnere in sicurezza il computer o il dispositivo mobile"
+      }
     ],
     "correctAnswerId": "A",
     "explanation": "'To download' significa scaricare dati, ossia trasferire file o informazioni da un server remoto al proprio computer o dispositivo locale. Il processo inverso si definisce 'to upload'.",
@@ -241,10 +445,22 @@
     "id": "Q_LNG_ENG_018",
     "question": "In informatica e programmazione, che cos'è un 'array'?",
     "options": [
-      { "id": "A", "text": "Un protocollo di routing per reti locali wireless ad alta velocità" },
-      { "id": "B", "text": "Un vettore o matrice, ovvero una struttura dati che memorizza elementi dello stesso tipo" },
-      { "id": "C", "text": "Una scheda grafica di ultima generazione per elaborazioni 3D" },
-      { "id": "D", "text": "Un tipo di attacco informatico basato sull'invio di email di phishing" }
+      {
+        "id": "A",
+        "text": "Un protocollo di routing per reti locali wireless ad alta velocità"
+      },
+      {
+        "id": "B",
+        "text": "Un vettore o matrice, ovvero una struttura dati che memorizza elementi dello stesso tipo"
+      },
+      {
+        "id": "C",
+        "text": "Una scheda grafica di ultima generazione per elaborazioni 3D"
+      },
+      {
+        "id": "D",
+        "text": "Un tipo di attacco informatico basato sull'invio di email di phishing"
+      }
     ],
     "correctAnswerId": "B",
     "explanation": "Un 'array' (in italiano spesso denominato vettore o matrice) è una struttura dati omogenea che contiene una collezione di elementi dello stesso tipo, memorizzati in posizioni di memoria contigue.",
@@ -255,10 +471,22 @@
     "id": "Q_LNG_ENG_019",
     "question": "Nel contesto IT e dello sviluppo software, cosa si intende con il termine 'scalability' (scalabilità)?",
     "options": [
-      { "id": "A", "text": "La velocità massima di calcolo di un processore multi-core" },
-      { "id": "B", "text": "La facilità con cui un utente impara ad utilizzare una nuova interfaccia" },
-      { "id": "C", "text": "La capacità di un sistema di gestire carichi di lavoro crescenti aumentando le risorse" },
-      { "id": "D", "text": "Il processo di eliminazione dei file duplicati all'interno di un server" }
+      {
+        "id": "A",
+        "text": "La velocità massima di calcolo di un processore multi-core"
+      },
+      {
+        "id": "B",
+        "text": "La facilità con cui un utente impara ad utilizzare una nuova interfaccia"
+      },
+      {
+        "id": "C",
+        "text": "La capacità di un sistema di gestire carichi di lavoro crescenti aumentando le risorse"
+      },
+      {
+        "id": "D",
+        "text": "Il processo di eliminazione dei file duplicati all'interno di un server"
+      }
     ],
     "correctAnswerId": "C",
     "explanation": "'Scalability' (scalabilità) descrive la capacità di un sistema informatico, rete o processo di adattarsi ed espandersi per gestire un incremento del carico (ad esempio, più utenti o transazioni) senza subire cali prestazionali significativi.",
@@ -269,12 +497,24 @@
     "id": "Q_LNG_ENG_020",
     "question": "Nelle reti informatiche, qual è la distinzione fondamentale tra i concetti di 'bandwidth' e 'throughput'?",
     "options": [
-      { "id": "A", "text": "Bandwidth è la capacità teorica massima del canale, mentre throughput è la quantità reale di dati trasmessa" },
-      { "id": "B", "text": "Bandwidth si misura in metri di cavo, mentre throughput si misura in millisecondi di latenza" },
-      { "id": "C", "text": "Throughput indica il livello di sicurezza del canale, mentre bandwidth indica la frequenza delle onde radio" },
-      { "id": "D", "text": "Non vi è alcuna differenza tecnica, sono sinonimi intercambiabili in qualsiasi contesto" }
+      {
+        "id": "A",
+        "text": "Bandwidth si misura in metri di cavo, mentre throughput si misura in millisecondi di latenza"
+      },
+      {
+        "id": "B",
+        "text": "Throughput indica il livello di sicurezza del canale, mentre bandwidth indica la frequenza delle onde radio"
+      },
+      {
+        "id": "C",
+        "text": "Non vi è alcuna differenza tecnica, sono sinonimi intercambiabili in qualsiasi contesto"
+      },
+      {
+        "id": "D",
+        "text": "Bandwidth è la capacità teorica massima del canale, mentre throughput è la quantità reale di dati trasmessa"
+      }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "D",
     "explanation": "Mentre 'bandwidth' rappresenta la larghezza di banda teorica massima di un canale di comunicazione, il 'throughput' indica l'effettiva velocità di trasmissione misurata sul campo, che risente di overhead, latenze e collisioni.",
     "hint": "Teoria (banda massima disponibile) vs Pratica (dati effettivamente consegnati con successo).",
     "level": "intermedio"
@@ -283,12 +523,24 @@
     "id": "Q_LNG_ENG_021",
     "question": "Nell'ingegneria del software, cosa si intende con il termine 'refactoring'?",
     "options": [
-      { "id": "A", "text": "La compilazione del codice in un linguaggio a basso livello per CPU differenti" },
-      { "id": "B", "text": "La ristrutturazione del codice sorgente per migliorarne la struttura interna senza cambiarne l'output esterno" },
-      { "id": "C", "text": "La rivendita di licenze software dismesse a terzi" },
-      { "id": "D", "text": "Il ripristino di un database a seguito di un blocco hardware imprevisto" }
+      {
+        "id": "A",
+        "text": "La ristrutturazione del codice sorgente per migliorarne la struttura interna senza cambiarne l'output esterno"
+      },
+      {
+        "id": "B",
+        "text": "La compilazione del codice in un linguaggio a basso livello per CPU differenti"
+      },
+      {
+        "id": "C",
+        "text": "La rivendita di licenze software dismesse a terzi"
+      },
+      {
+        "id": "D",
+        "text": "Il ripristino di un database a seguito di un blocco hardware imprevisto"
+      }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "A",
     "explanation": "Il 'code refactoring' consiste nel modificare la struttura interna del codice (es. migliorando la leggibilità e riducendo la complessità) lasciando completamente inalterato il comportamento esterno (input/output) visto dall'utente.",
     "hint": "Migliorare la qualità e la manutenibilità del codice senza cambiare la funzionalità.",
     "level": "intermedio"
@@ -297,12 +549,24 @@
     "id": "Q_LNG_ENG_022",
     "question": "In database theory, what does 'data redundancy' refer to?",
     "options": [
-      { "id": "A", "text": "The process of encrypting database tables using symmetric key algorithms" },
-      { "id": "B", "text": "The total execution time of a SELECT query under high user load conditions" },
-      { "id": "C", "text": "The automatic rollback of a database transaction when an error occurs" },
-      { "id": "D", "text": "The storage of the same data in multiple separate places within the database" }
+      {
+        "id": "A",
+        "text": "The process of encrypting database tables using symmetric key algorithms"
+      },
+      {
+        "id": "B",
+        "text": "The storage of the same data in multiple separate places within the database"
+      },
+      {
+        "id": "C",
+        "text": "The total execution time of a SELECT query under high user load conditions"
+      },
+      {
+        "id": "D",
+        "text": "The automatic rollback of a database transaction when an error occurs"
+      }
     ],
-    "correctAnswerId": "D",
+    "correctAnswerId": "B",
     "explanation": "La ridondanza dei dati ('data redundancy') si riferisce alla memorizzazione ripetuta delle stesse informazioni in tabelle o database diversi. Se non controllata tramite normalizzazione, può causare incoerenze e spreco di spazio.",
     "hint": "Indica la duplicazione o ripetizione non necessaria delle informazioni.",
     "level": "intermedio"
@@ -311,12 +575,24 @@
     "id": "Q_LNG_ENG_023",
     "question": "Nel contesto del GDPR e dei regolamenti europei, qual è il significato del termine inglese 'compliance'?",
     "options": [
-      { "id": "A", "text": "La conformità o aderenza a norme, leggi e standard definiti" },
-      { "id": "B", "text": "La sanzione amministrativa irrogata per la violazione di dati" },
-      { "id": "C", "text": "Il consenso esplicito espresso dall'interessato per il trattamento" },
-      { "id": "D", "text": "La crittografia dei dati sensibili durante il transito su Internet" }
+      {
+        "id": "A",
+        "text": "La sanzione amministrativa irrogata per la violazione di dati"
+      },
+      {
+        "id": "B",
+        "text": "Il consenso esplicito espresso dall'interessato per il trattamento"
+      },
+      {
+        "id": "C",
+        "text": "La conformità o aderenza a norme, leggi e standard definiti"
+      },
+      {
+        "id": "D",
+        "text": "La crittografia dei dati sensibili durante il transito su Internet"
+      }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "C",
     "explanation": "Il termine 'compliance' indica la conformità normativa, ovvero il processo di allineamento e rispetto di leggi, direttive (es. GDPR), regolamenti o standard di settore da parte di un'organizzazione.",
     "hint": "Deriva dal verbo 'to comply', che significa conformarsi, rispettare.",
     "level": "intermedio"
@@ -325,12 +601,24 @@
     "id": "Q_LNG_ENG_024",
     "question": "Complete the sentence with the correct adverb: 'Virtualization allows multiple operating systems to run __________ on a single physical machine, sharing its underlying hardware resources.'",
     "options": [
-      { "id": "A", "text": "rarely" },
-      { "id": "B", "text": "manually" },
-      { "id": "C", "text": "simultaneously" },
-      { "id": "D", "text": "sequentially" }
+      {
+        "id": "A",
+        "text": "rarely"
+      },
+      {
+        "id": "B",
+        "text": "manually"
+      },
+      {
+        "id": "C",
+        "text": "sequentially"
+      },
+      {
+        "id": "D",
+        "text": "simultaneously"
+      }
     ],
-    "correctAnswerId": "C",
+    "correctAnswerId": "D",
     "explanation": "L'avverbio corretto è 'simultaneously' (simultaneamente). La virtualizzazione consente a più macchine virtuali e sistemi operativi di essere eseguiti contemporaneamente sul medesimo hardware fisico.",
     "hint": "Significa 'allo stesso tempo' (at the same time).",
     "level": "intermedio"
@@ -339,12 +627,24 @@
     "id": "Q_LNG_ENG_025",
     "question": "Nel protocollo TCP, con quale termine inglese viene indicata la procedura a tre vie utilizzata per stabilire una connessione tra client e server?",
     "options": [
-      { "id": "A", "text": "Three-step forwarding" },
-      { "id": "B", "text": "Three-way handshake" },
-      { "id": "C", "text": "Triple-layer pinging" },
-      { "id": "D", "text": "Three-way tunneling" }
+      {
+        "id": "A",
+        "text": "Three-way handshake"
+      },
+      {
+        "id": "B",
+        "text": "Three-step forwarding"
+      },
+      {
+        "id": "C",
+        "text": "Triple-layer pinging"
+      },
+      {
+        "id": "D",
+        "text": "Three-way tunneling"
+      }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "A",
     "explanation": "Il processo di instaurazione della connessione TCP si chiama 'three-way handshake' (stretta di mano a tre vie) e prevede l'invio sequenziale dei pacchetti SYN, SYN-ACK e ACK tra mittente e destinatario.",
     "hint": "È una metafora tratta dal cerimoniale sociale di stringersi la mano prima di iniziare a parlare.",
     "level": "intermedio"
@@ -353,12 +653,24 @@
     "id": "Q_LNG_ENG_026",
     "question": "Nella programmazione orientata agli oggetti (OOP), cosa indica il concetto di 'inheritance'?",
     "options": [
-      { "id": "A", "text": "Il rilascio della memoria allocata dinamicamente al termine dell'esecuzione" },
-      { "id": "B", "text": "L'occultamento dei dettagli interni di implementazione di un oggetto" },
-      { "id": "C", "text": "La possibilità di definire più funzioni con lo stesso nome ma parametri diversi" },
-      { "id": "D", "text": "L'ereditarietà, ovvero la capacità di una classe di derivare attributi e metodi da un'altra" }
+      {
+        "id": "A",
+        "text": "Il rilascio della memoria allocata dinamicamente al termine dell'esecuzione"
+      },
+      {
+        "id": "B",
+        "text": "L'ereditarietà, ovvero la capacità di una classe di derivare attributi e metodi da un'altra"
+      },
+      {
+        "id": "C",
+        "text": "L'occultamento dei dettagli interni di implementazione di un oggetto"
+      },
+      {
+        "id": "D",
+        "text": "La possibilità di definire più funzioni con lo stesso nome ma parametri diversi"
+      }
     ],
-    "correctAnswerId": "D",
+    "correctAnswerId": "B",
     "explanation": "'Inheritance' significa ereditarietà. Permette di definire una nuova classe (sottoclasse) a partire da una esistente (superclasse), ereditandone i comportamenti ed estendendoli, favorendo il riuso del codice.",
     "hint": "Si riferisce al passaggio di caratteristiche da una classe madre a una figlia.",
     "level": "intermedio"
@@ -367,12 +679,24 @@
     "id": "Q_LNG_ENG_027",
     "question": "In un database, che cos'è l'operazione nota come 'indexing' (indicizzazione) e qual è il suo scopo principale?",
     "options": [
-      { "id": "A", "text": "La creazione di strutture dati ausiliarie per velocizzare il recupero dei record durante le query" },
-      { "id": "B", "text": "La rimozione fisica dei record contrassegnati come eliminati per liberare spazio su disco" },
-      { "id": "C", "text": "La suddivisione di una singola tabella logica in più tabelle fisiche separate" },
-      { "id": "D", "text": "L'esportazione periodica dei log delle transazioni su un server di backup freddo" }
+      {
+        "id": "A",
+        "text": "La rimozione fisica dei record contrassegnati come eliminati per liberare spazio su disco"
+      },
+      {
+        "id": "B",
+        "text": "La suddivisione di una singola tabella logica in più tabelle fisiche separate"
+      },
+      {
+        "id": "C",
+        "text": "La creazione di strutture dati ausiliarie per velocizzare il recupero dei record durante le query"
+      },
+      {
+        "id": "D",
+        "text": "L'esportazione periodica dei log delle transazioni su un server di backup freddo"
+      }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "C",
     "explanation": "L'indicizzazione ('indexing') consiste nel creare strutture dati ausiliarie (indici, ad esempio basati su alberi B-Tree) per trovare velocemente i record desiderati senza scorrere l'intera tabella.",
     "hint": "Ha lo stesso scopo dell'indice analitico posto alla fine di un libro.",
     "level": "intermedio"
@@ -381,12 +705,24 @@
     "id": "Q_LNG_ENG_028",
     "question": "Nel quadro europeo dell'interoperabilità (EIF) per le pubbliche amministrazioni, cosa significa il termine 'interoperability'?",
     "options": [
-      { "id": "A", "text": "La velocità massima di calcolo condivisa tra i supercomputer degli Stati membri" },
-      { "id": "B", "text": "La manutenzione periodica obbligatoria dei server ministeriali" },
-      { "id": "C", "text": "La capacità di organizzazioni diverse di interagire e scambiare dati in modo efficiente e coerente" },
-      { "id": "D", "text": "L'obbligo di utilizzare esclusivamente software proprietario con licenze statali" }
+      {
+        "id": "A",
+        "text": "La velocità massima di calcolo condivisa tra i supercomputer degli Stati membri"
+      },
+      {
+        "id": "B",
+        "text": "La manutenzione periodica obbligatoria dei server ministeriali"
+      },
+      {
+        "id": "C",
+        "text": "L'obbligo di utilizzare esclusivamente software proprietario con licenze statali"
+      },
+      {
+        "id": "D",
+        "text": "La capacità di organizzazioni diverse di interagire e scambiare dati in modo efficiente e coerente"
+      }
     ],
-    "correctAnswerId": "C",
+    "correctAnswerId": "D",
     "explanation": "'Interoperability' (interoperabilità) è la capacità di sistemi informativi e processi amministrativi di cooperare e scambiare dati tra diverse pubbliche amministrazioni, garantendo l'erogazione di servizi pubblici integrati.",
     "hint": "Significa far comunicare e lavorare insieme sistemi informatici eterogenei.",
     "level": "intermedio"
@@ -395,12 +731,24 @@
     "id": "Q_LNG_ENG_029",
     "question": "Nel settore IT, cosa si intende con l'espressione 'legacy system'?",
     "options": [
-      { "id": "A", "text": "Un server configurato per ricevere ed elaborare l'eredità digitale dei cittadini" },
-      { "id": "B", "text": "Un sistema informatico o applicazione obsoleti, ma ancora in uso perché essenziali per le attività operative" },
-      { "id": "C", "text": "Un sistema operativo moderno distribuito sotto licenza di pubblico dominio" },
-      { "id": "D", "text": "Un tipo speciale di database NoSQL progettato per gestire dati non strutturati" }
+      {
+        "id": "A",
+        "text": "Un sistema informatico o applicazione obsoleti, ma ancora in uso perché essenziali per le attività operative"
+      },
+      {
+        "id": "B",
+        "text": "Un server configurato per ricevere ed elaborare l'eredità digitale dei cittadini"
+      },
+      {
+        "id": "C",
+        "text": "Un sistema operativo moderno distribuito sotto licenza di pubblico dominio"
+      },
+      {
+        "id": "D",
+        "text": "Un tipo speciale di database NoSQL progettato per gestire dati non strutturati"
+      }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "A",
     "explanation": "Un 'legacy system' (sistema ereditato) è un sistema informativo basato su tecnologie obsolete che continua ad essere utilizzato perché le funzioni svolte sono critiche e i costi di sostituzione o migrazione sarebbero troppo elevati.",
     "hint": "Indica una tecnologia ereditata dal passato ma ancora operativa in produzione.",
     "level": "intermedio"
@@ -409,12 +757,24 @@
     "id": "Q_LNG_ENG_030",
     "question": "Nelle telecomunicazioni e reti mobili, come viene definita la 'latency' (latenza)?",
     "options": [
-      { "id": "A", "text": "La perdita percentuale di pacchetti durante una trasmissione wireless" },
-      { "id": "B", "text": "L'intervallo temporale minimo tra due backup consecutivi del sistema" },
-      { "id": "C", "text": "L'ampiezza massima del canale radio utilizzato dal router WiFi" },
-      { "id": "D", "text": "Il tempo impiegato da un pacchetto dati per viaggiare dalla sorgente alla destinazione" }
+      {
+        "id": "A",
+        "text": "La perdita percentuale di pacchetti durante una trasmissione wireless"
+      },
+      {
+        "id": "B",
+        "text": "Il tempo impiegato da un pacchetto dati per viaggiare dalla sorgente alla destinazione"
+      },
+      {
+        "id": "C",
+        "text": "L'intervallo temporale minimo tra due backup consecutivi del sistema"
+      },
+      {
+        "id": "D",
+        "text": "L'ampiezza massima del canale radio utilizzato dal router WiFi"
+      }
     ],
-    "correctAnswerId": "D",
+    "correctAnswerId": "B",
     "explanation": "La latenza ('latency') indica il ritardo temporale che intercorre tra l'invio di un segnale di input e la ricezione dell'output a destinazione, solitamente misurato in millisecondi (ms).",
     "hint": "Misura il ritardo temporale di rete (es. il valore di 'ping').",
     "level": "intermedio"
@@ -423,12 +783,24 @@
     "id": "Q_LNG_ENG_031",
     "question": "Nello sviluppo software, se una funzione o una libreria viene dichiarata 'deprecated' (deprecata), cosa significa?",
     "options": [
-      { "id": "A", "text": "Che è ancora provvisoriamente supportata ma se ne sconsiglia l'uso perché obsoleta e destinata alla rimozione" },
-      { "id": "B", "text": "Che contiene un bug di sicurezza critico ed è stata bloccata a livello di kernel" },
-      { "id": "C", "text": "Che è stata ottimizzata per consumare meno memoria RAM ed essere eseguita più velocemente" },
-      { "id": "D", "text": "Che richiede il pagamento obbligatorio di una licenza d'uso commerciale per essere integrata" }
+      {
+        "id": "A",
+        "text": "Che contiene un bug di sicurezza critico ed è stata bloccata a livello di kernel"
+      },
+      {
+        "id": "B",
+        "text": "Che è stata ottimizzata per consumare meno memoria RAM ed essere eseguita più velocemente"
+      },
+      {
+        "id": "C",
+        "text": "Che è ancora provvisoriamente supportata ma se ne sconsiglia l'uso perché obsoleta e destinata alla rimozione"
+      },
+      {
+        "id": "D",
+        "text": "Che richiede il pagamento obbligatorio di una licenza d'uso commerciale per essere integrata"
+      }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "C",
     "explanation": "Il termine 'deprecated' (deprecato) indica una funzionalità che, pur essendo ancora presente nel software per garantire compatibilità retroattiva, è considerata obsoleta e non dovrebbe essere usata in nuovi progetti perché destinata alla rimozione futura.",
     "hint": "Significa sconsigliata e obsoleta.",
     "level": "intermedio"
@@ -437,12 +809,24 @@
     "id": "Q_LNG_ENG_032",
     "question": "Which of the following database properties is represented by the letter 'I' in the acronym 'ACID'?",
     "options": [
-      { "id": "A", "text": "Integrity" },
-      { "id": "B", "text": "Indexability" },
-      { "id": "C", "text": "Isolation" },
-      { "id": "D", "text": "Iteration" }
+      {
+        "id": "A",
+        "text": "Integrity"
+      },
+      {
+        "id": "B",
+        "text": "Indexability"
+      },
+      {
+        "id": "C",
+        "text": "Iteration"
+      },
+      {
+        "id": "D",
+        "text": "Isolation"
+      }
     ],
-    "correctAnswerId": "C",
+    "correctAnswerId": "D",
     "explanation": "L'acronimo ACID indica le quattro proprietà fondamentali delle transazioni in un database: Atomicity, Consistency, Isolation, Durability. La 'I' corrisponde a 'Isolation' (Isolamento), che impedisce a transazioni concorrenti di interferire tra loro.",
     "hint": "Garantisce che ciascuna transazione venga eseguita come se fosse l'unica attiva nel sistema.",
     "level": "intermedio"
@@ -451,12 +835,24 @@
     "id": "Q_LNG_ENG_033",
     "question": "In European public administrations and compliance policies, who is a 'whistleblower'?",
     "options": [
-      { "id": "A", "text": "A senior IT administrator responsible for system security audits" },
-      { "id": "B", "text": "An employee who reports misconduct, corruption, or illegal activities occurring within the organization" },
-      { "id": "C", "text": "An external contractor who fails to deliver the contracted services on time" },
-      { "id": "D", "text": "A government official representing the public interest in international summits" }
+      {
+        "id": "A",
+        "text": "An employee who reports misconduct, corruption, or illegal activities occurring within the organization"
+      },
+      {
+        "id": "B",
+        "text": "A senior IT administrator responsible for system security audits"
+      },
+      {
+        "id": "C",
+        "text": "An external contractor who fails to deliver the contracted services on time"
+      },
+      {
+        "id": "D",
+        "text": "A government official representing the public interest in international summits"
+      }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "A",
     "explanation": "Un 'whistleblower' (segnalatore di illeciti, letteralmente 'chi soffia nel fischietto') è un soggetto (spesso dipendente pubblico) che denuncia o segnala condotte illecite o corruttive di cui è venuto a conoscenza nell'ambiente di lavoro.",
     "hint": "Indica il segnalatore interno di violazioni o atti illegali.",
     "level": "intermedio"
@@ -465,12 +861,24 @@
     "id": "Q_LNG_ENG_034",
     "question": "Complete the following sentence: 'A __________ vulnerability is a software security flaw that is known to the software vendor but has not yet been patched, making it highly attractive to attackers.'",
     "options": [
-      { "id": "A", "text": "open-source" },
-      { "id": "B", "text": "legacy" },
-      { "id": "C", "text": "deprecated" },
-      { "id": "D", "text": "zero-day" }
+      {
+        "id": "A",
+        "text": "open-source"
+      },
+      {
+        "id": "B",
+        "text": "zero-day"
+      },
+      {
+        "id": "C",
+        "text": "legacy"
+      },
+      {
+        "id": "D",
+        "text": "deprecated"
+      }
     ],
-    "correctAnswerId": "D",
+    "correctAnswerId": "B",
     "explanation": "Una vulnerabilità 'zero-day' (giorno zero) è una falla di sicurezza software non ancora nota al produttore o per la quale non esiste ancora una patch correttiva.",
     "hint": "Il nome deriva dai giorni che mancano allo sviluppatore per correggere la falla dopo che è stata scoperta dagli hacker.",
     "level": "intermedio"
@@ -479,12 +887,24 @@
     "id": "Q_LNG_ENG_035",
     "question": "Nei sistemi di controllo versione (come Git), cosa indica l'operazione denominata 'merge'?",
     "options": [
-      { "id": "A", "text": "L'unione delle modifiche provenienti da diversi rami (branches) di codice" },
-      { "id": "B", "text": "La cancellazione definitiva del repository locale e remoto" },
-      { "id": "C", "text": "La cifratura dei file prima dell'invio al server centralizzato" },
-      { "id": "D", "text": "La scomposizione di un modulo software monolitico in più microservizi" }
+      {
+        "id": "A",
+        "text": "La cancellazione definitiva del repository locale e remoto"
+      },
+      {
+        "id": "B",
+        "text": "La cifratura dei file prima dell'invio al server centralizzato"
+      },
+      {
+        "id": "C",
+        "text": "L'unione delle modifiche provenienti da diversi rami (branches) di codice"
+      },
+      {
+        "id": "D",
+        "text": "La scomposizione di un modulo software monolitico in più microservizi"
+      }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "C",
     "explanation": "Nei sistemi di controllo versione, 'merge' (fondere) indica l'operazione che unisce le modifiche apportate su un ramo (branch) di sviluppo secondario all'interno del ramo principale.",
     "hint": "Consiste nella fusione di due flussi di sviluppo separati.",
     "level": "intermedio"
@@ -493,12 +913,24 @@
     "id": "Q_LNG_ENG_036",
     "question": "Nel contesto dell'architettura software a microservizi e della containerizzazione, cosa significa che un container è 'stateless'?",
     "options": [
-      { "id": "A", "text": "Che non possiede un indirizzo IP statico all'interno della rete" },
-      { "id": "B", "text": "Che non memorizza dati persistenti o sessioni localmente, delegandoli a servizi esterni" },
-      { "id": "C", "text": "Che l'applicazione al suo interno è priva di interfaccia utente grafica" },
-      { "id": "D", "text": "Che il container è momentaneamente inattivo e non consuma risorse di CPU" }
+      {
+        "id": "A",
+        "text": "Che non possiede un indirizzo IP statico all'interno della rete"
+      },
+      {
+        "id": "B",
+        "text": "Che l'applicazione al suo interno è priva di interfaccia utente grafica"
+      },
+      {
+        "id": "C",
+        "text": "Che il container è momentaneamente inattivo e non consuma risorse di CPU"
+      },
+      {
+        "id": "D",
+        "text": "Che non memorizza dati persistenti o sessioni localmente, delegandoli a servizi esterni"
+      }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "D",
     "explanation": "Un container 'stateless' (senza stato) non mantiene informazioni persistenti sul proprio file system locale. Se il container viene riavviato o eliminato, non conserva memoria delle interazioni precedenti, garantendo un'elevata scalabilità orizzontale.",
     "hint": "Significa che non conserva lo stato (state) al proprio interno.",
     "level": "avanzato"
@@ -507,12 +939,24 @@
     "id": "Q_LNG_ENG_037",
     "question": "In network security, what is the meaning of a 'Man-in-the-Middle' (MitM) attack?",
     "options": [
-      { "id": "A", "text": "A denial of service attack that floods a server with millions of packets" },
-      { "id": "B", "text": "An automated script that brute-forces passwords using dictionary attacks" },
-      { "id": "C", "text": "An attacker intercepts and potentially alters the communication between two parties without their knowledge" },
-      { "id": "D", "text": "An administrative tool used to monitor employee web history" }
+      {
+        "id": "A",
+        "text": "An attacker intercepts and potentially alters the communication between two parties without their knowledge"
+      },
+      {
+        "id": "B",
+        "text": "A denial of service attack that floods a server with millions of packets"
+      },
+      {
+        "id": "C",
+        "text": "An automated script that brute-forces passwords using dictionary attacks"
+      },
+      {
+        "id": "D",
+        "text": "An administrative tool used to monitor employee web history"
+      }
     ],
-    "correctAnswerId": "C",
+    "correctAnswerId": "A",
     "explanation": "Un attacco 'Man-in-the-Middle' (MitM) si verifica quando un utente malintenzionato intercetta, inserendosi segretamente nel canale, le comunicazioni tra due entità legittime, potendole anche alterare o decifrare.",
     "hint": "Descrive un intermediario malevolo inserito 'nel mezzo' del canale di comunicazione.",
     "level": "avanzato"
@@ -521,12 +965,24 @@
     "id": "Q_LNG_ENG_038",
     "question": "In concurrent programming, what is a 'race condition'?",
     "options": [
-      { "id": "A", "text": "A compiler optimization technique that increases the processing speed of loops" },
-      { "id": "B", "text": "A database query that consumes excessive bandwidth due to a missing JOIN condition" },
-      { "id": "C", "text": "A security attack targeting high-performance web servers using buffer overflows" },
-      { "id": "D", "text": "A situation where the output of a program depends on the non-deterministic order of execution of concurrent threads" }
+      {
+        "id": "A",
+        "text": "A compiler optimization technique that increases the processing speed of loops"
+      },
+      {
+        "id": "B",
+        "text": "A situation where the output of a program depends on the non-deterministic order of execution of concurrent threads"
+      },
+      {
+        "id": "C",
+        "text": "A database query that consumes excessive bandwidth due to a missing JOIN condition"
+      },
+      {
+        "id": "D",
+        "text": "A security attack targeting high-performance web servers using buffer overflows"
+      }
     ],
-    "correctAnswerId": "D",
+    "correctAnswerId": "B",
     "explanation": "Una 'race condition' (condizione di corsa) si verifica quando il risultato di un programma concorrente dipende dall'ordine o dalla sincronizzazione temporale con cui i singoli thread accedono a una risorsa condivisa.",
     "hint": "Si verifica quando più processi 'corrono' per modificare lo stesso dato senza una sincronizzazione (mutex o lock).",
     "level": "avanzato"
@@ -535,12 +991,24 @@
     "id": "Q_LNG_ENG_039",
     "question": "Nel contesto dei database distribuiti e del partizionamento dei dati, che cosa indica la tecnica dello 'sharding'?",
     "options": [
-      { "id": "A", "text": "La frammentazione orizzontale di un database su più server fisici separati per distribuire il carico" },
-      { "id": "B", "text": "La cifratura dei dati a riposo (data at rest) residenti su supporti di memoria" },
-      { "id": "C", "text": "La traduzione automatica delle query SQL in formati NoSQL compatibili" },
-      { "id": "D", "text": "L'eliminazione dei record basata sulla scadenza temporale specificata dal TTL" }
+      {
+        "id": "A",
+        "text": "La cifratura dei dati a riposo (data at rest) residenti su supporti di memoria"
+      },
+      {
+        "id": "B",
+        "text": "La traduzione automatica delle query SQL in formati NoSQL compatibili"
+      },
+      {
+        "id": "C",
+        "text": "La frammentazione orizzontale di un database su più server fisici separati per distribuire il carico"
+      },
+      {
+        "id": "D",
+        "text": "L'eliminazione dei record basata sulla scadenza temporale specificata dal TTL"
+      }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "C",
     "explanation": "Lo 'sharding' consiste nel suddividere le righe di un database (partizionamento orizzontale) su più nodi fisici distinti chiamati 'shards', migliorando le prestazioni di scrittura e la scalabilità del sistema.",
     "hint": "Consiste nella frammentazione orizzontale delle tabelle su macchine diverse.",
     "level": "avanzato"
@@ -549,12 +1017,24 @@
     "id": "Q_LNG_ENG_040",
     "question": "Nel contesto dei servizi digitali della Pubblica Amministrazione europea, in cosa consiste il 'Once-Only Principle' (Principio dell'Una Tantum)?",
     "options": [
-      { "id": "A", "text": "Ogni pubblica amministrazione può acquistare una licenza software una sola volta l'anno" },
-      { "id": "B", "text": "Cittadini e imprese forniscono i dati alle PA una sola volta, e queste collaborano per scambiarseli" },
-      { "id": "C", "text": "I dipendenti pubblici possono modificare la propria password di rete una sola volta al mese" },
-      { "id": "D", "text": "I bandi di gara europei devono essere pubblicati esclusivamente su un unico portale ministeriale" }
+      {
+        "id": "A",
+        "text": "Ogni pubblica amministrazione può acquistare una licenza software una sola volta l'anno"
+      },
+      {
+        "id": "B",
+        "text": "I dipendenti pubblici possono modificare la propria password di rete una sola volta al mese"
+      },
+      {
+        "id": "C",
+        "text": "I bandi di gara europei devono essere pubblicati esclusivamente su un unico portale ministeriale"
+      },
+      {
+        "id": "D",
+        "text": "Cittadini e imprese forniscono i dati alle PA una sola volta, e queste collaborano per scambiarseli"
+      }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "D",
     "explanation": "Il 'Once-Only Principle' (OOP) stabilisce che i cittadini e le imprese debbano presentare determinati dati standard solo una volta alle autorità pubbliche. Le PA hanno poi l'obbligo di condividere internamente tali dati nel rispetto delle norme.",
     "hint": "Evita di richiedere a un cittadino documenti che un altro ufficio pubblico possiede già.",
     "level": "avanzato"
@@ -563,12 +1043,24 @@
     "id": "Q_LNG_ENG_041",
     "question": "Complete the sentence with the correct verb: 'In asymmetric cryptography, a message encrypted with the recipient's public key can only be __________ using their corresponding private key.'",
     "options": [
-      { "id": "A", "text": "serialized" },
-      { "id": "B", "text": "compiled" },
-      { "id": "C", "text": "decrypted" },
-      { "id": "D", "text": "deprecated" }
+      {
+        "id": "A",
+        "text": "decrypted"
+      },
+      {
+        "id": "B",
+        "text": "serialized"
+      },
+      {
+        "id": "C",
+        "text": "compiled"
+      },
+      {
+        "id": "D",
+        "text": "deprecated"
+      }
     ],
-    "correctAnswerId": "C",
+    "correctAnswerId": "A",
     "explanation": "Il verbo corretto è 'decrypted' (decifrato). In crittografia asimmetrica, solo la chiave privata posseduta dal destinatario può decifrare un messaggio che sia stato cifrato ('encrypted') con la sua corrispondente chiave pubblica.",
     "hint": "Rappresenta l'operazione inversa di 'to encrypt' (cifrare).",
     "level": "avanzato"
@@ -577,12 +1069,24 @@
     "id": "Q_LNG_ENG_042",
     "question": "In computer networking, what does the term 'packet encapsulation' refer to?",
     "options": [
-      { "id": "A", "text": "The compression of data packets to reduce bandwidth consumption over links" },
-      { "id": "B", "text": "The verification of data integrity using cryptographic hashing functions" },
-      { "id": "C", "text": "The storage of routing tables in non-volatile flash memory" },
-      { "id": "D", "text": "The process of wrapping data from a higher-level protocol inside a lower-level protocol header" }
+      {
+        "id": "A",
+        "text": "The compression of data packets to reduce bandwidth consumption over links"
+      },
+      {
+        "id": "B",
+        "text": "The process of wrapping data from a higher-level protocol inside a lower-level protocol header"
+      },
+      {
+        "id": "C",
+        "text": "The verification of data integrity using cryptographic hashing functions"
+      },
+      {
+        "id": "D",
+        "text": "The storage of routing tables in non-volatile flash memory"
+      }
     ],
-    "correctAnswerId": "D",
+    "correctAnswerId": "B",
     "explanation": "L'incapsulamento ('encapsulation') è il meccanismo mediante il quale un livello dello stack protocollare (es. TCP/IP) racchiude le informazioni provenienti dal livello superiore all'interno del proprio pacchetto, aggiungendovi un header (intestazione) e talvolta un trailer (coda).",
     "hint": "Pensa alla struttura 'a matrioska' dei protocolli di rete (es. HTTP dentro TCP, dentro IP).",
     "level": "avanzato"
@@ -591,12 +1095,24 @@
     "id": "Q_LNG_ENG_043",
     "question": "Nei linguaggi di programmazione moderni (come Java, C# o Go), che cos'è il 'Garbage Collector'?",
     "options": [
-      { "id": "A", "text": "Un sottosistema automatico per rilevare e liberare la memoria heap non più referenziata" },
-      { "id": "B", "text": "Un tool di sicurezza per identificare codice ridondante o non raggiungibile" },
-      { "id": "C", "text": "Un archivio cloud remoto in cui vengono depositati i file sorgente eliminati" },
-      { "id": "D", "text": "Un processo di sistema per la pulizia delle cache del browser" }
+      {
+        "id": "A",
+        "text": "Un tool di sicurezza per identificare codice ridondante o non raggiungibile"
+      },
+      {
+        "id": "B",
+        "text": "Un archivio cloud remoto in cui vengono depositati i file sorgente eliminati"
+      },
+      {
+        "id": "C",
+        "text": "Un sottosistema automatico per rilevare e liberare la memoria heap non più referenziata"
+      },
+      {
+        "id": "D",
+        "text": "Un processo di sistema per la pulizia delle cache del browser"
+      }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "C",
     "explanation": "Il 'Garbage Collector' (spazzino) è un meccanismo automatico di gestione della memoria che individua e rilascia lo spazio occupato in memoria dinamica (heap) da oggetti che non vengono più utilizzati dall'applicazione.",
     "hint": "Solleva il programmatore dal compito di liberare manualmente la memoria heap (es. evitando memory leak).",
     "level": "avanzato"
@@ -605,12 +1121,24 @@
     "id": "Q_LNG_ENG_044",
     "question": "In relational database transactions, what is the highest level of 'transaction isolation' defined by the SQL standard?",
     "options": [
-      { "id": "A", "text": "Read Committed" },
-      { "id": "B", "text": "Serializable" },
-      { "id": "C", "text": "Repeatable Read" },
-      { "id": "D", "text": "Read Uncommitted" }
+      {
+        "id": "A",
+        "text": "Read Committed"
+      },
+      {
+        "id": "B",
+        "text": "Repeatable Read"
+      },
+      {
+        "id": "C",
+        "text": "Read Uncommitted"
+      },
+      {
+        "id": "D",
+        "text": "Serializable"
+      }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "D",
     "explanation": "Il livello 'Serializable' (serializzabile) offre l'isolamento massimo. Le transazioni concorrenti vengono eseguite in modo tale da garantire lo stesso risultato che si otterrebbe eseguendole l'una dopo l'altra (in serie), prevenendo tutte le anomalie di lettura.",
     "hint": "Offre la massima coerenza dei dati a scapito del livello di concorrenza delle transazioni.",
     "level": "avanzato"
@@ -619,12 +1147,24 @@
     "id": "Q_LNG_ENG_045",
     "question": "Nel contesto del procurement europeo (appalti pubblici), quale documento corrisponde all'inglese 'call for tenders'?",
     "options": [
-      { "id": "A", "text": "Il capitolato d'oneri" },
-      { "id": "B", "text": "L'offerta economica presentata" },
-      { "id": "C", "text": "Il bando di gara" },
-      { "id": "D", "text": "Il verbale di aggiudicazione provvisoria" }
+      {
+        "id": "A",
+        "text": "Il bando di gara"
+      },
+      {
+        "id": "B",
+        "text": "Il capitolato d'oneri"
+      },
+      {
+        "id": "C",
+        "text": "L'offerta economica presentata"
+      },
+      {
+        "id": "D",
+        "text": "Il verbale di aggiudicazione provvisoria"
+      }
     ],
-    "correctAnswerId": "C",
+    "correctAnswerId": "A",
     "explanation": "'Call for tenders' (o anche 'invitation to tender') si traduce in italiano con 'bando di gara'. È l'invito formale pubblicato da un ente pubblico per richiedere agli operatori di presentare offerte commerciali.",
     "hint": "È la pubblicazione ufficiale con cui l'amministrazione indice la gara pubblica.",
     "level": "avanzato"
@@ -633,12 +1173,24 @@
     "id": "Q_LNG_ENG_046",
     "question": "In cloud architecture, what is 'failover'?",
     "options": [
-      { "id": "A", "text": "The unexpected termination of a transaction due to database deadlocks" },
-      { "id": "B", "text": "The process of migrating an on-premises monolithic application to microservices" },
-      { "id": "C", "text": "The billing system failure caused by exceeding resource consumption limits" },
-      { "id": "D", "text": "The automatic switching to a redundant or standby server upon the failure of the primary one" }
+      {
+        "id": "A",
+        "text": "The unexpected termination of a transaction due to database deadlocks"
+      },
+      {
+        "id": "B",
+        "text": "The automatic switching to a redundant or standby server upon the failure of the primary one"
+      },
+      {
+        "id": "C",
+        "text": "The process of migrating an on-premises monolithic application to microservices"
+      },
+      {
+        "id": "D",
+        "text": "The billing system failure caused by exceeding resource consumption limits"
+      }
     ],
-    "correctAnswerId": "D",
+    "correctAnswerId": "B",
     "explanation": "Il 'failover' è la capacità di un'infrastruttura di commutare automaticamente le richieste da un server principale che si è guastato a un sistema secondario ridondato o di standby, garantendo continuità del servizio.",
     "hint": "Indica il meccanismo automatico di ripristino o commutazione a seguito di un guasto.",
     "level": "avanzato"
@@ -647,12 +1199,24 @@
     "id": "Q_LNG_ENG_047",
     "question": "Nelle reti a pacchetto e nelle comunicazioni multimediali in tempo reale (come VoIP o videoconferenze), cosa indica il termine 'jitter'?",
     "options": [
-      { "id": "A", "text": "La variazione nel ritardo di ricezione dei pacchetti di dati (variabilità della latenza)" },
-      { "id": "B", "text": "Il tasso di compressione degli algoritmi audio a banda larga" },
-      { "id": "C", "text": "La crittografia asimmetrica applicata ai flussi RTP" },
-      { "id": "D", "text": "Il numero massimo di salti (hops) che un pacchetto può compiere" }
+      {
+        "id": "A",
+        "text": "Il tasso di compressione degli algoritmi audio a banda larga"
+      },
+      {
+        "id": "B",
+        "text": "La crittografia asimmetrica applicata ai flussi RTP"
+      },
+      {
+        "id": "C",
+        "text": "La variazione nel ritardo di ricezione dei pacchetti di dati (variabilità della latenza)"
+      },
+      {
+        "id": "D",
+        "text": "Il numero massimo di salti (hops) che un pacchetto può compiere"
+      }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "C",
     "explanation": "Il 'jitter' indica la fluttuazione temporale (variabilità) della latenza di ricezione dei pacchetti. Se i pacchetti arrivano con intervalli non uniformi, si possono verificare interruzioni e degrado nella qualità audio/video.",
     "hint": "Rappresenta l'instabilità o la variazione nel ritardo di arrivo dei pacchetti.",
     "level": "avanzato"
@@ -661,12 +1225,24 @@
     "id": "Q_LNG_ENG_048",
     "question": "In software development, what does the metaphor 'Technical Debt' refer to?",
     "options": [
-      { "id": "A", "text": "The unpaid licensing fees owed to database and operating system vendors" },
-      { "id": "B", "text": "The implied cost of additional rework caused by choosing an easy but suboptimal solution now" },
-      { "id": "C", "text": "The money spent by a public administration to replace obsolete physical server hardware" },
-      { "id": "D", "text": "The time developers waste troubleshooting local development environment configuration issues" }
+      {
+        "id": "A",
+        "text": "The unpaid licensing fees owed to database and operating system vendors"
+      },
+      {
+        "id": "B",
+        "text": "The money spent by a public administration to replace obsolete physical server hardware"
+      },
+      {
+        "id": "C",
+        "text": "The time developers waste troubleshooting local development environment configuration issues"
+      },
+      {
+        "id": "D",
+        "text": "The implied cost of additional rework caused by choosing an easy but suboptimal solution now"
+      }
     ],
-    "correctAnswerId": "B",
+    "correctAnswerId": "D",
     "explanation": "Il 'Technical Debt' (debito tecnico) rappresenta il costo futuro derivante dalla scelta di implementare scorciatoie di programmazione o soluzioni di bassa qualità nel presente, le quali richiederanno refactoring futuri per consentire l'evoluzione del software.",
     "hint": "Una scorciatoia odierna che si traduce in un 'interesse' da pagare sotto forma di fatica di programmazione futura.",
     "level": "avanzato"
@@ -675,12 +1251,24 @@
     "id": "Q_LNG_ENG_049",
     "question": "Nelle architetture database ad alta affidabilità, qual è il limite principale del meccanismo noto come 'asynchronous replication' (replica asincrona)?",
     "options": [
-      { "id": "A", "text": "Richiede l'interruzione completa dei servizi di lettura su tutti i nodi durante la sincronizzazione" },
-      { "id": "B", "text": "Provoca un blocco temporaneo di tutte le transazioni di scrittura sul server primario (write lock)" },
-      { "id": "C", "text": "Esiste il rischio di perdita di dati (data loss) se il server primario si guasta prima che le repliche ricevano le modifiche" },
-      { "id": "D", "text": "Rende impossibile l'utilizzo di chiavi primarie di tipo auto-incrementale nelle tabelle" }
+      {
+        "id": "A",
+        "text": "Esiste il rischio di perdita di dati (data loss) se il server primario si guasta prima che le repliche ricevano le modifiche"
+      },
+      {
+        "id": "B",
+        "text": "Richiede l'interruzione completa dei servizi di lettura su tutti i nodi durante la sincronizzazione"
+      },
+      {
+        "id": "C",
+        "text": "Provoca un blocco temporaneo di tutte le transazioni di scrittura sul server primario (write lock)"
+      },
+      {
+        "id": "D",
+        "text": "Rende impossibile l'utilizzo di chiavi primarie di tipo auto-incrementale nelle tabelle"
+      }
     ],
-    "correctAnswerId": "C",
+    "correctAnswerId": "A",
     "explanation": "Nella replica asincrona, il server primario conferma la scrittura al client senza attendere l'effettiva memorizzazione sui nodi secondari. Se il primario si guasta prima della propagazione, gli ultimi dati scritti andranno persi.",
     "hint": "Dipende dal fatto che il nodo primario non attende il feedback del nodo secondario.",
     "level": "avanzato"
@@ -689,14 +1277,1326 @@
     "id": "Q_LNG_ENG_050",
     "question": "Nel contesto dei contratti di servizi IT della Pubblica Amministrazione dell'Unione Europea, cosa indica l'espressione 'Service Level Agreement' (SLA)?",
     "options": [
-      { "id": "A", "text": "Un protocollo di crittografia per la trasmissione dei dati tra ministeri" },
-      { "id": "B", "text": "La graduatoria provvisoria per l'assegnazione di fondi europei" },
-      { "id": "C", "text": "La licenza d'uso del software rilasciata per fini di ricerca scientifica" },
-      { "id": "D", "text": "Un accordo sul livello del servizio, che definisce metriche e standard minimi di qualità garantiti" }
+      {
+        "id": "A",
+        "text": "Un protocollo di crittografia per la trasmissione dei dati tra ministeri"
+      },
+      {
+        "id": "B",
+        "text": "Un accordo sul livello del servizio, che definisce metriche e standard minimi di qualità garantiti"
+      },
+      {
+        "id": "C",
+        "text": "La graduatoria provvisoria per l'assegnazione di fondi europei"
+      },
+      {
+        "id": "D",
+        "text": "La licenza d'uso del software rilasciata per fini di ricerca scientifica"
+      }
     ],
-    "correctAnswerId": "D",
+    "correctAnswerId": "B",
     "explanation": "Un 'Service Level Agreement' (SLA, accordo sul livello del servizio) definisce contrattualmente le prestazioni minime attese del servizio IT (es. percentuale di uptime, tempi massimi di risposta all'assistenza) e le penali applicabili in caso di disservizio.",
     "hint": "È lo strumento contrattuale per garantire e monitorare i livelli qualitativi di un servizio esternalizzato.",
     "level": "avanzato"
+  },
+  {
+    "id": "Q_LNG_ENG_051",
+    "question": "Complete the sentence with the correct form: 'If the applicant ______ the missing documentation on time, the pension claim would not have been rejected.'",
+    "options": [
+      {
+        "id": "A",
+        "text": "submitted"
+      },
+      {
+        "id": "B",
+        "text": "would submit"
+      },
+      {
+        "id": "C",
+        "text": "had submitted"
+      },
+      {
+        "id": "D",
+        "text": "has submitted"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "This is a Third Conditional sentence expressing an impossible/hypothetical past condition and its past result: If + past perfect ('had submitted'), would + have + past participle ('would not have been rejected').",
+    "hint": "Third conditional formula: If + Past Perfect, would have + past participle.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_LNG_ENG_052",
+    "question": "In European administrative and legal terminology, what is the best English translation for 'sicurezza sociale / previdenza sociale'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Social vigilance"
+      },
+      {
+        "id": "B",
+        "text": "Public certainty"
+      },
+      {
+        "id": "C",
+        "text": "Welfare police"
+      },
+      {
+        "id": "D",
+        "text": "Social security"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "'Social security' is the universally accepted institutional and legal term for public social insurance and social welfare systems protecting citizens against risks like old age, disability, and unemployment.",
+    "hint": "The standard international term for state welfare and pensions is 'social security'.",
+    "level": "base"
+  },
+  {
+    "id": "Q_LNG_ENG_053",
+    "question": "Choose the correct preposition: 'Public officials must comply ______ the Code of Conduct at all times.'",
+    "options": [
+      {
+        "id": "A",
+        "text": "with"
+      },
+      {
+        "id": "B",
+        "text": "to"
+      },
+      {
+        "id": "C",
+        "text": "at"
+      },
+      {
+        "id": "D",
+        "text": "by"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "The verb 'comply' strictly collocates with the preposition 'with' (to comply with rules, regulations, laws, or guidelines).",
+    "hint": "The fixed verb phrase is 'to comply with'.",
+    "level": "base"
+  },
+  {
+    "id": "Q_LNG_ENG_054",
+    "question": "Which phrasal verb means 'to perform or conduct' an audit or investigation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Give up"
+      },
+      {
+        "id": "B",
+        "text": "Carry out"
+      },
+      {
+        "id": "C",
+        "text": "Put off"
+      },
+      {
+        "id": "D",
+        "text": "Break into"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "'Carry out' means to execute, perform, or conduct (e.g., 'The internal auditor will carry out an inspection of the regional branch').",
+    "hint": "'Carry out' is commonly used with audits, research, inquiries, and instructions.",
+    "level": "base"
+  },
+  {
+    "id": "Q_LNG_ENG_055",
+    "question": "Complete the formal sentence with the correct negative inversion: 'Seldom ______ such a high volume of digital pension requests in a single week.'",
+    "options": [
+      {
+        "id": "A",
+        "text": "we have received"
+      },
+      {
+        "id": "B",
+        "text": "we received"
+      },
+      {
+        "id": "C",
+        "text": "have we received"
+      },
+      {
+        "id": "D",
+        "text": "are we receiving"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "When a sentence starts with a restrictive or negative adverbial like 'Seldom', 'Rarely', or 'Never', formal English requires subject-auxiliary inversion (Seldom + have [auxiliary] + we [subject] + received [main verb]).",
+    "hint": "Negative adverbs at the beginning of a sentence trigger inversion (auxiliary before subject).",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_LNG_ENG_056",
+    "question": "What is the Italian equivalent of the institutional English term 'statutory deadline'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Proroga facoltativa straordinaria"
+      },
+      {
+        "id": "B",
+        "text": "Statuto societario transitorio"
+      },
+      {
+        "id": "C",
+        "text": "Accordo informale tra colleghi"
+      },
+      {
+        "id": "D",
+        "text": "Termine perentorio o previsto dalla legge"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "'Statutory' means enacted or required by statute (law). A 'statutory deadline' is a time limit established by law, often of a mandatory or peremptory nature.",
+    "hint": "'Statutory' derives from 'statute' (norma di legge).",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_LNG_ENG_057",
+    "question": "Choose the correct modal verb to express past deduction based on strong evidence: 'The department head wasn't in her office all morning; she ______ been attending the board meeting.'",
+    "options": [
+      {
+        "id": "A",
+        "text": "must have"
+      },
+      {
+        "id": "B",
+        "text": "should have"
+      },
+      {
+        "id": "C",
+        "text": "might not"
+      },
+      {
+        "id": "D",
+        "text": "would rather"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "'Must have + past participle' expresses a logical deduction or certainty about a past event based on strong evidence ('must have been attending'). 'Should have' expresses an unfulfilled expectation or criticism.",
+    "hint": "'Must have + past participle' expresses logical certainty about the past.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_LNG_ENG_058",
+    "question": "Complete the sentence: 'We look forward to ______ your feedback regarding the updated service delivery charter.'",
+    "options": [
+      {
+        "id": "A",
+        "text": "receive"
+      },
+      {
+        "id": "B",
+        "text": "receiving"
+      },
+      {
+        "id": "C",
+        "text": "received"
+      },
+      {
+        "id": "D",
+        "text": "be receiving"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "In the expression 'look forward to', 'to' is a preposition, not an infinitive marker. Therefore, it must be followed by a noun or a gerund (-ing form: 'receiving').",
+    "hint": "After 'look forward to', always use the gerund (-ing).",
+    "level": "base"
+  },
+  {
+    "id": "Q_LNG_ENG_059",
+    "question": "What does the formal legal idiom 'without prejudice to' mean in contracts and public notices?",
+    "options": [
+      {
+        "id": "A",
+        "text": "In contrasto insanabile con"
+      },
+      {
+        "id": "B",
+        "text": "In violazione intenzionale di"
+      },
+      {
+        "id": "C",
+        "text": "Fatto salvo quanto previsto da / senza pregiudizio per"
+      },
+      {
+        "id": "D",
+        "text": "Con l'annullamento retroattivo di"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "'Without prejudice to' is standard legal drafting language meaning 'without affecting, damaging, or impairing' (fatto salvo / fermo restando).",
+    "hint": "It protects existing rights from being impaired by a new clause.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_LNG_ENG_060",
+    "question": "Complete the sentence with the correct passive construction: 'All personal data ______ in compliance with EU Regulation 2016/679 before being transferred.'",
+    "options": [
+      {
+        "id": "A",
+        "text": "must have process"
+      },
+      {
+        "id": "B",
+        "text": "must process"
+      },
+      {
+        "id": "C",
+        "text": "has to processing"
+      },
+      {
+        "id": "D",
+        "text": "must be processed"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Passive with a modal verb of obligation: modal ('must') + 'be' + past participle ('processed'). 'All personal data must be processed'.",
+    "hint": "Passive form: modal + be + past participle.",
+    "level": "base"
+  },
+  {
+    "id": "Q_LNG_ENG_061",
+    "question": "What does the noun 'whistleblower' refer to in administrative anti-corruption law?",
+    "options": [
+      {
+        "id": "A",
+        "text": "An employee who reports misconduct, illegal acts, or corrupt practices occurring within an organization."
+      },
+      {
+        "id": "B",
+        "text": "An external vendor supplying siren alarms and emergency equipment to public offices."
+      },
+      {
+        "id": "C",
+        "text": "A sports referee invited to supervise staff recreational competitions."
+      },
+      {
+        "id": "D",
+        "text": "A network administrator responsible for sound and acoustic calibrations."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "A 'whistleblower' is an insider (e.g., employee) who reports corruption, illegality, fraud, or danger to the public interest occurring within a public body or enterprise.",
+    "hint": "A person who exposes wrongdoing inside an organization.",
+    "level": "base"
+  },
+  {
+    "id": "Q_LNG_ENG_062",
+    "question": "Choose the correct phrase to complete the administrative statement: 'The new guidelines were adopted ______ improving service delivery for vulnerable citizens.'",
+    "options": [
+      {
+        "id": "A",
+        "text": "in spite to"
+      },
+      {
+        "id": "B",
+        "text": "with a view to"
+      },
+      {
+        "id": "C",
+        "text": "owing on"
+      },
+      {
+        "id": "D",
+        "text": "as far by"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "'With a view to + -ing' is a formal expression meaning 'with the aim or intention of' (al fine di / con l'obiettivo di).",
+    "hint": "'With a view to' expresses institutional purpose followed by a gerund.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_LNG_ENG_063",
+    "question": "In economics and social security, what is 'severance pay'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La trattenuta sindacale mensile sulla busta paga del lavoratore."
+      },
+      {
+        "id": "B",
+        "text": "Una penale pecuniaria applicata per ritardo ingiustificato sul posto di lavoro."
+      },
+      {
+        "id": "C",
+        "text": "Trattamento di Fine Rapporto (TFR) o indennità di fine servizio corrisposta alla cessazione del rapporto di lavoro."
+      },
+      {
+        "id": "D",
+        "text": "Il rimborso delle spese vive sostenute durante una missione estera."
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "'Severance pay' is the compensation paid by an employer to an employee upon termination of their employment contract (comparable to Italian TFR or indennità di licenziamento/fine rapporto).",
+    "hint": "Pay upon severing (terminating) the employment relationship.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_LNG_ENG_064",
+    "question": "Complete the sentence: 'The director insisted that all audit reports ______ submitted before Friday noon.'",
+    "options": [
+      {
+        "id": "A",
+        "text": "are"
+      },
+      {
+        "id": "B",
+        "text": "were"
+      },
+      {
+        "id": "C",
+        "text": "would"
+      },
+      {
+        "id": "D",
+        "text": "be"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "In formal English, verbs expressing demand, recommendation, or necessity (such as 'insist', 'demand', 'require', 'recommend') take the subjunctive mood, which uses the base form of the verb without inflections ('be submitted').",
+    "hint": "Formal subjunctive after verbs of demanding/insisting: use the base form 'be'.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_LNG_ENG_065",
+    "question": "What is the meaning of the formal term 'stakeholder' in public management?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Any individual, group, or organization that has an interest in or is affected by the outcomes of a public body's policies and services."
+      },
+      {
+        "id": "B",
+        "text": "The majority shareholder who owns financial equity in a private limited company."
+      },
+      {
+        "id": "C",
+        "text": "A physical fence installed to secure the server room against unauthorised access."
+      },
+      {
+        "id": "D",
+        "text": "A legal officer authorized to seize bank accounts during bankruptcy proceedings."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "In governance, a 'stakeholder' (portatore di interesse) is any entity, user, citizen, employee, trade union, or public authority that affects or is affected by the decisions of the organization.",
+    "hint": "Portatore di interesse in public policy and service management.",
+    "level": "base"
+  },
+  {
+    "id": "Q_LNG_ENG_066",
+    "question": "Select the correct connector: 'The administration met its performance targets ______ facing severe budget constraints.'",
+    "options": [
+      {
+        "id": "A",
+        "text": "although"
+      },
+      {
+        "id": "B",
+        "text": "despite"
+      },
+      {
+        "id": "C",
+        "text": "even"
+      },
+      {
+        "id": "D",
+        "text": "whereas"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "'Despite' is a preposition followed by a noun phrase or a gerund ('facing severe budget constraints'). 'Although' would require a full clause with subject and finite verb ('although it faced...').",
+    "hint": "'Despite' is followed directly by a gerund or noun phrase without 'of'.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_LNG_ENG_067",
+    "question": "What does the phrase 'due diligence' mean in institutional contracting and procurement?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The delay incurred by suppliers due to extreme weather conditions."
+      },
+      {
+        "id": "B",
+        "text": "An emergency loan granted by the central bank at a subsidized interest rate."
+      },
+      {
+        "id": "C",
+        "text": "The comprehensive appraisal and investigation of a business or legal situation before entering into an agreement or contract."
+      },
+      {
+        "id": "D",
+        "text": "A ceremonial inspection performed during official national holidays."
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "'Due diligence' (dovuta diligenza / verifica preliminare di conformità) is the thorough operational, legal, and financial investigation undertaken prior to signing contracts or tenders.",
+    "hint": "Careful audit and background assessment before making commitments.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_LNG_ENG_068",
+    "question": "Which phrasal verb means 'to prepare or write' a legal draft or official contract?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Back out"
+      },
+      {
+        "id": "B",
+        "text": "Take over"
+      },
+      {
+        "id": "C",
+        "text": "Look into"
+      },
+      {
+        "id": "D",
+        "text": "Draw up"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "'Draw up' is the standard phrasal verb meaning to formulate, draft, or compose a written document, contract, plan, or agreement (e.g., 'to draw up a decree').",
+    "hint": "'Draw up' means redigere o stilare un documento.",
+    "level": "base"
+  },
+  {
+    "id": "Q_LNG_ENG_069",
+    "question": "Complete the sentence: 'Under Italian administrative law, public bodies are ______ by the principle of transparency.'",
+    "options": [
+      {
+        "id": "A",
+        "text": "bound"
+      },
+      {
+        "id": "B",
+        "text": "bind"
+      },
+      {
+        "id": "C",
+        "text": "bonding"
+      },
+      {
+        "id": "D",
+        "text": "bounded"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "'Bound' is the past participle of 'bind'. 'To be bound by' means to be legally obliged or constrained to comply with a law or principle (essere vincolati da).",
+    "hint": "'To be bound by' means essere obbligati/vincolati per legge.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_LNG_ENG_070",
+    "question": "What is the meaning of 'redress' in citizen-administration relations?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A formal dress code mandatory for public hearings."
+      },
+      {
+        "id": "B",
+        "text": "Remedy or compensation for a wrong, grievance, or administrative malfunction."
+      },
+      {
+        "id": "C",
+        "text": "The physical relocation of staff to newly painted offices."
+      },
+      {
+        "id": "D",
+        "text": "A second warning issued prior to disciplinary dismissal."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "'Redress' (ricorso, indennizzo, riparazione) means setting right a wrong or obtaining remedy/compensation for unfair treatment or maladministration (e.g., 'right to seek redress').",
+    "hint": "Rimborso, risarcimento o rimedio a un'ingiustizia o errore.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_LNG_ENG_071",
+    "question": "Choose the correct sentence in reported speech: Direct: 'We will publish the test results tomorrow,' the commissioner said.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The commissioner said that we will publish the test results tomorrow."
+      },
+      {
+        "id": "B",
+        "text": "The commissioner told that they published the test results tomorrow."
+      },
+      {
+        "id": "C",
+        "text": "The commissioner said that they would publish the test results the following day."
+      },
+      {
+        "id": "D",
+        "text": "The commissioner said they would published the test results next day."
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "In reported speech, backshifting transforms 'will publish' into 'would publish', 'we' becomes 'they', and time adverbials like 'tomorrow' become 'the following day' or 'the next day'.",
+    "hint": "Will -> would, tomorrow -> the following day.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_LNG_ENG_072",
+    "question": "In a formal email, which closing formula is most appropriate when addressing an unknown recipient starting with 'Dear Sir or Madam'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Yours sincerely,"
+      },
+      {
+        "id": "B",
+        "text": "Best regards always,"
+      },
+      {
+        "id": "C",
+        "text": "Cheers,"
+      },
+      {
+        "id": "D",
+        "text": "Yours faithfully,"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Standard British/International formal correspondence rule: 'Dear Sir/Madam' pairs with 'Yours faithfully,'. When you address a person by name ('Dear Mr Smith'), you close with 'Yours sincerely,'.",
+    "hint": "Dear Sir/Madam -> Yours faithfully. Dear Name -> Yours sincerely.",
+    "level": "base"
+  },
+  {
+    "id": "Q_LNG_ENG_073",
+    "question": "What is the meaning of 'discretionary power' in public administrative law?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Potere discrezionale (la facoltà della PA di scegliere la soluzione più opportuna per il pubblico interesse entro i limiti della legge)."
+      },
+      {
+        "id": "B",
+        "text": "Potere vincolato senza alcun margine di apprezzamento dell'interesse pubblico."
+      },
+      {
+        "id": "C",
+        "text": "La facoltà di mantenere segrete le spese dei partiti politici."
+      },
+      {
+        "id": "D",
+        "text": "Un'autorizzazione temporanea a violare le norme contabili per motivi di cassa."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "'Discretionary power' translates directly to 'potere discrezionale', meaning the lawful authority of a public body to exercise judgment and evaluate different choices in pursuing the public interest.",
+    "hint": "Discrezionalità amministrativa in inglese si traduce 'administrative discretion' o 'discretionary power'.",
+    "level": "base"
+  },
+  {
+    "id": "Q_LNG_ENG_074",
+    "question": "Choose the correct prepositional phrase: 'The resolution was adopted ______ the Board of Directors.'",
+    "options": [
+      {
+        "id": "A",
+        "text": "in front with"
+      },
+      {
+        "id": "B",
+        "text": "on behalf of"
+      },
+      {
+        "id": "C",
+        "text": "on account to"
+      },
+      {
+        "id": "D",
+        "text": "in spite for"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "'On behalf of' means 'as a representative of' or 'in the name of' (a nome di / per conto di).",
+    "hint": "Per conto di / a nome di = 'on behalf of'.",
+    "level": "base"
+  },
+  {
+    "id": "Q_LNG_ENG_075",
+    "question": "Complete the sentence: 'Public spending must be strictly monitored to prevent ______ of funds.'",
+    "options": [
+      {
+        "id": "A",
+        "text": "appropriationable"
+      },
+      {
+        "id": "B",
+        "text": "misappropriatingly"
+      },
+      {
+        "id": "C",
+        "text": "misappropriation"
+      },
+      {
+        "id": "D",
+        "text": "properness"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "'Misappropriation of funds' (appropriazione indebita / distrazione di fondi pubblici / peculato) is the noun that accurately fits after the verb 'prevent'.",
+    "hint": "The legal term for wrongful taking or misapplication of money is 'misappropriation'.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_LNG_ENG_076",
+    "question": "What is the role of an 'ombudsman' in public governance?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A certified IT technician tasked with building biometric firewalls."
+      },
+      {
+        "id": "B",
+        "text": "A bailiff in charge of collecting real estate debts for commercial banks."
+      },
+      {
+        "id": "C",
+        "text": "A legal scholar who translates international treaties into national dialects."
+      },
+      {
+        "id": "D",
+        "text": "An independent official appointed to investigate citizens' complaints against maladministration by public authorities."
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "The 'ombudsman' (difensore civico) is an independent public officer who receives and investigates complaints from individuals against public sector administrative bodies.",
+    "hint": "'Ombudsman' is the universal international term for difensore civico.",
+    "level": "base"
+  },
+  {
+    "id": "Q_LNG_ENG_077",
+    "question": "Choose the correct verbal expression: 'The committee decided to ______ the meeting until the financial audit was concluded.'",
+    "options": [
+      {
+        "id": "A",
+        "text": "adjourn"
+      },
+      {
+        "id": "B",
+        "text": "expire"
+      },
+      {
+        "id": "C",
+        "text": "terminate into"
+      },
+      {
+        "id": "D",
+        "text": "relinquish"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "'To adjourn a meeting' is the formal term meaning to suspend proceedings with the intention of resuming at a later time (aggiornare / rinviare la seduta).",
+    "hint": "Formal term for postponing or suspending an official session is 'to adjourn'.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_LNG_ENG_078",
+    "question": "What does 'conflict of interest' signify in the public sector context?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A dispute between two rival political parties during an electoral campaign."
+      },
+      {
+        "id": "B",
+        "text": "A situation where a public servant's private interests could improperly influence the performance of their official duties."
+      },
+      {
+        "id": "C",
+        "text": "A disagreement between union leaders over the date of a national strike."
+      },
+      {
+        "id": "D",
+        "text": "A computer glitch that causes two databases to crash simultaneously."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "A 'conflict of interest' (conflitto di interessi) arises when an official's personal, financial, or family interests clash with their public duty of impartiality and integrity.",
+    "hint": "Personal interest vs public duty of impartiality.",
+    "level": "base"
+  },
+  {
+    "id": "Q_LNG_ENG_079",
+    "question": "Complete the sentence with the correct relative pronoun: 'The newly appointed inspector, ______ credentials were confirmed by the ministry, will begin work on Monday.'",
+    "options": [
+      {
+        "id": "A",
+        "text": "whom"
+      },
+      {
+        "id": "B",
+        "text": "which"
+      },
+      {
+        "id": "C",
+        "text": "whose"
+      },
+      {
+        "id": "D",
+        "text": "who"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "'Whose' indicates possession ('whose credentials' = the credentials of the inspector). It is used for both persons and organizations in formal English relative clauses.",
+    "hint": "'Whose' denotes possession (i cui titoli / le cui credenziali).",
+    "level": "base"
+  },
+  {
+    "id": "Q_LNG_ENG_080",
+    "question": "What is the meaning of 'non-binding opinion' in European administrative decision-making?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un atto giurisdizionale definitivo contro cui non è ammesso ricorso."
+      },
+      {
+        "id": "B",
+        "text": "Una clausola penale inserita obbligatoriamente nei contratti di locazione."
+      },
+      {
+        "id": "C",
+        "text": "Un documento informatico privo di marcatura temporale certificata."
+      },
+      {
+        "id": "D",
+        "text": "Parere non vincolante (un parere consultivo che l'organo decidente non è obbligato a seguire)."
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "'Non-binding' means advisory or consultative without coercive legal obligation. An authority must request or consider it, but is not legally obliged to conform its final decision to it.",
+    "hint": "'Binding' = vincolante; 'Non-binding' = non vincolante / facoltativo.",
+    "level": "base"
+  },
+  {
+    "id": "Q_LNG_ENG_081",
+    "question": "Select the correct adjective: 'The candidate presented ______ evidence proving five years of continuous service.'",
+    "options": [
+      {
+        "id": "A",
+        "text": "compelling"
+      },
+      {
+        "id": "B",
+        "text": "compellingly"
+      },
+      {
+        "id": "C",
+        "text": "compulsion"
+      },
+      {
+        "id": "D",
+        "text": "compulsoriness"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "'Compelling' is an adjective meaning persuasive, convincing, and cogent (e.g., 'compelling evidence' = prove inconfutabili / convincenti).",
+    "hint": "'Compelling' is an adjective modifying the noun 'evidence'.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_LNG_ENG_082",
+    "question": "Which of the following expressions means 'in vigore' when speaking of laws and regulations?",
+    "options": [
+      {
+        "id": "A",
+        "text": "On strain"
+      },
+      {
+        "id": "B",
+        "text": "In force / in effect"
+      },
+      {
+        "id": "C",
+        "text": "By vigor"
+      },
+      {
+        "id": "D",
+        "text": "At strength"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "In legal and institutional English, when a statute, regulation, or treaty is active and legally binding, it is said to be 'in force' (to come into force / to enter into force) or 'in effect'.",
+    "hint": "'Enter into force' = entrare in vigore.",
+    "level": "base"
+  },
+  {
+    "id": "Q_LNG_ENG_083",
+    "question": "Complete the sentence with the correct conditional structure: 'Had the regional director known about the discrepancy, he ______ immediate corrective measures.'",
+    "options": [
+      {
+        "id": "A",
+        "text": "will take"
+      },
+      {
+        "id": "B",
+        "text": "takes"
+      },
+      {
+        "id": "C",
+        "text": "would have taken"
+      },
+      {
+        "id": "D",
+        "text": "had taken"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "This is an inverted Third Conditional (without 'if'): 'Had the director known' = 'If the director had known'. The main clause requires 'would have + past participle' ('would have taken').",
+    "hint": "Inversion of third conditional: Had + subject + past participle -> would have + past participle.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_LNG_ENG_084",
+    "question": "What does the administrative abbreviation 'KPI' stand for in public performance management?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Known Protocol Index"
+      },
+      {
+        "id": "B",
+        "text": "Knowledge Procurement Item"
+      },
+      {
+        "id": "C",
+        "text": "Key Public Initiative"
+      },
+      {
+        "id": "D",
+        "text": "Key Performance Indicator"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "'KPI' stands for Key Performance Indicator (indicatore chiave di prestazione), used in PA management to measure efficiency, efficacy, and target fulfillment.",
+    "hint": "Standard acronym for measuring organizational achievement and results.",
+    "level": "base"
+  },
+  {
+    "id": "Q_LNG_ENG_085",
+    "question": "Choose the correct term: 'Failure to perform contractual duties constitutes a ______ of contract.'",
+    "options": [
+      {
+        "id": "A",
+        "text": "breach"
+      },
+      {
+        "id": "B",
+        "text": "brake"
+      },
+      {
+        "id": "C",
+        "text": "branch"
+      },
+      {
+        "id": "D",
+        "text": "brooch"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "'Breach of contract' (inadempimento / violazione contrattuale) is the established legal term for breaking or failing to fulfill terms of an agreement.",
+    "hint": "'Breach' means infrazione o violazione.",
+    "level": "base"
+  },
+  {
+    "id": "Q_LNG_ENG_086",
+    "question": "What is the meaning of the English phrase 'burden of proof' in administrative and court proceedings?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il costo materiale della stampa delle perizie d'ufficio."
+      },
+      {
+        "id": "B",
+        "text": "Onere della prova (l'obbligo a carico di una parte processuale di dimostrare i fatti costitutivi della propria pretesa)."
+      },
+      {
+        "id": "C",
+        "text": "La responsabilità penale per falsa testimonianza."
+      },
+      {
+        "id": "D",
+        "text": "La durata massima della custodia cautelare dell'indagato."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "'Burden of proof' (onus probandi) translates to 'onere della prova': the duty of a party to provide sufficient evidence to support their claim or defense.",
+    "hint": "'Burden' = onere, carico. 'Proof' = prova.",
+    "level": "base"
+  },
+  {
+    "id": "Q_LNG_ENG_087",
+    "question": "Complete the sentence: 'The guidelines emphasize that services must be accessible ______ all citizens, regardless of disability.'",
+    "options": [
+      {
+        "id": "A",
+        "text": "with"
+      },
+      {
+        "id": "B",
+        "text": "at"
+      },
+      {
+        "id": "C",
+        "text": "to"
+      },
+      {
+        "id": "D",
+        "text": "towards"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "The adjective 'accessible' takes the preposition 'to' when indicating the persons or groups who are able to use or reach something ('accessible to all citizens').",
+    "hint": "Collocation: 'accessible to someone'.",
+    "level": "base"
+  },
+  {
+    "id": "Q_LNG_ENG_088",
+    "question": "What is meant by 'maladministration' in the European Union public administration framework?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The ordinary management of financial accounts during bank holidays."
+      },
+      {
+        "id": "B",
+        "text": "The voluntary retirement of senior managers at age 65."
+      },
+      {
+        "id": "C",
+        "text": "The introduction of automated ticketing software in hospitals."
+      },
+      {
+        "id": "D",
+        "text": "Poor, improper, or unlawful administrative action, including administrative irregularities, unfairness, discrimination, or unreasonable delay."
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "'Maladministration' (cattiva amministrazione) covers all instances of improper or unlawful administrative conduct, neglect, abuse of power, refusal of information, or unjust delays identified by European and national Ombudsmen.",
+    "hint": "Cattiva amministrazione, negligenza o scorrettezza burocratica.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_LNG_ENG_089",
+    "question": "Choose the correct verb form: 'By the time the new digital platform goes live next month, the technicians ______ testing it for six months.'",
+    "options": [
+      {
+        "id": "A",
+        "text": "will have been"
+      },
+      {
+        "id": "B",
+        "text": "will be"
+      },
+      {
+        "id": "C",
+        "text": "have been"
+      },
+      {
+        "id": "D",
+        "text": "are"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Future Perfect Continuous: 'By the time [future point], subject + will have been + -ing'. It stresses the duration of an ongoing activity up to a specific point in the future.",
+    "hint": "'By the time...' in the future calls for the Future Perfect (will have been).",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_LNG_ENG_090",
+    "question": "What does the idiom 'to phase in' mean regarding the implementation of new legislation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "To abruptly abolish a regulation without prior notification."
+      },
+      {
+        "id": "B",
+        "text": "To introduce or implement gradually in stages over a period of time."
+      },
+      {
+        "id": "C",
+        "text": "To veto a bill passed by parliament."
+      },
+      {
+        "id": "D",
+        "text": "To increase the retirement age by ten years overnight."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "'To phase in' means to introduce something gradually in successive stages (introdurre gradualmente / a scaglioni), as opposed to 'phase out' which means to eliminate gradually.",
+    "hint": "Introdurre per gradi. L'opposto è 'phase out' (eliminare per gradi).",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_LNG_ENG_091",
+    "question": "What is the English legal term for 'rinuncia a un diritto'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Warranty"
+      },
+      {
+        "id": "B",
+        "text": "Warrant"
+      },
+      {
+        "id": "C",
+        "text": "Waiver"
+      },
+      {
+        "id": "D",
+        "text": "Wharf"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "A 'waiver' is an intentional relinquishment, surrender, or abandonment of a known right, claim, or privilege (rinuncia formale / deroga).",
+    "hint": "To waive a right -> noun: waiver.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_LNG_ENG_092",
+    "question": "Complete the sentence: 'The board approved the budget ______ condition that staffing expenses remain unchanged.'",
+    "options": [
+      {
+        "id": "A",
+        "text": "at"
+      },
+      {
+        "id": "B",
+        "text": "under"
+      },
+      {
+        "id": "C",
+        "text": "by"
+      },
+      {
+        "id": "D",
+        "text": "on"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "The established idiomatic conjunction is 'on condition that' (a condizione che / a patto che).",
+    "hint": "Fixed expression: 'on condition that'.",
+    "level": "base"
+  },
+  {
+    "id": "Q_LNG_ENG_093",
+    "question": "What is the translation of 'organo collegiale' in English institutional contexts?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Collegial body / collective organ"
+      },
+      {
+        "id": "B",
+        "text": "School council unit"
+      },
+      {
+        "id": "C",
+        "text": "Solitary officer"
+      },
+      {
+        "id": "D",
+        "text": "University club"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "'Collegial body' or 'collective body' is the standard translation for a board, committee, or assembly of members acting jointly (organo collegiale).",
+    "hint": "'Collegial body' denotes a committee or multi-member organ.",
+    "level": "base"
+  },
+  {
+    "id": "Q_LNG_ENG_094",
+    "question": "Which term denotes the state of being answerable and legally responsible for one's official decisions and expenditures?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Accounting"
+      },
+      {
+        "id": "B",
+        "text": "Accountability"
+      },
+      {
+        "id": "C",
+        "text": "Accuracy"
+      },
+      {
+        "id": "D",
+        "text": "Acquittal"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "'Accountability' is the obligation of public organizations and civil servants to account for their activities, accept responsibility for them, and disclose the results in a transparent manner.",
+    "hint": "Responsabilizzazione, trasparenza e dovere di rendiconto.",
+    "level": "base"
+  },
+  {
+    "id": "Q_LNG_ENG_095",
+    "question": "Select the sentence with the correct subjunctive expression after 'lest':",
+    "options": [
+      {
+        "id": "A",
+        "text": "The records were encrypted lest sensitive data would have leak."
+      },
+      {
+        "id": "B",
+        "text": "The records were encrypted lest sensitive data leaks."
+      },
+      {
+        "id": "C",
+        "text": "The records were encrypted lest sensitive data be leaked."
+      },
+      {
+        "id": "D",
+        "text": "The records were encrypted lest sensitive data is leaking."
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "In formal literary and legal English, 'lest' (per timore che / affinché non) takes the present subjunctive (base form of the verb: 'be leaked' or 'should be leaked').",
+    "hint": "'Lest' is followed by the subjunctive base form (be, take, do).",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_LNG_ENG_096",
+    "question": "What does 'procurement' mean in public sector operations?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The medical procurement of organs for surgical transplantation."
+      },
+      {
+        "id": "B",
+        "text": "The delegation of judicial authority from a magistrate to a clerk."
+      },
+      {
+        "id": "C",
+        "text": "The voluntary surrender of corporate bonds before maturity."
+      },
+      {
+        "id": "D",
+        "text": "The process of purchasing, sourcing, or acquiring goods, services, or public works through tenders and competitive procedures."
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "'Public procurement' (appalti pubblici / approvvigionamento di beni e servizi) is the overall procedure by which governmental agencies purchase works, goods, and services from economic operators.",
+    "hint": "Appalti e acquisti pubblici di beni, servizi e lavori.",
+    "level": "base"
+  },
+  {
+    "id": "Q_LNG_ENG_097",
+    "question": "Complete the sentence with the correct preposition: 'The citizen lodged a formal appeal ______ the administrative rejection.'",
+    "options": [
+      {
+        "id": "A",
+        "text": "against"
+      },
+      {
+        "id": "B",
+        "text": "to"
+      },
+      {
+        "id": "C",
+        "text": "on"
+      },
+      {
+        "id": "D",
+        "text": "upon"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "In legal and administrative English, one 'lodges or files an appeal against' an adverse decision, judgment, or decree ('appeal against').",
+    "hint": "Un ricorso si presenta 'contro' (against) un provvedimento sfavorevole.",
+    "level": "base"
+  },
+  {
+    "id": "Q_LNG_ENG_098",
+    "question": "What is the meaning of 'null and void' in contract law?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Temporaneamente sospeso in attesa di visto di congruità."
+      },
+      {
+        "id": "B",
+        "text": "Nullo e privo di qualsiasi effetto giuridico ab origine."
+      },
+      {
+        "id": "C",
+        "text": "Valido ma sottoposto a condizione risolutiva decennale."
+      },
+      {
+        "id": "D",
+        "text": "Applicabile solo ai cittadini residenti all'estero."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "'Null and void' is a legal doublet meaning completely without legal force, invalid, and ineffective from the outset (nullo di pieno diritto).",
+    "hint": "Legal doublet for completely invalid: nullo e privo di effetti.",
+    "level": "base"
+  },
+  {
+    "id": "Q_LNG_ENG_099",
+    "question": "Choose the correct phrasing: 'The new decree will take ______ from the first day of next month.'",
+    "options": [
+      {
+        "id": "A",
+        "text": "affect"
+      },
+      {
+        "id": "B",
+        "text": "effort"
+      },
+      {
+        "id": "C",
+        "text": "effect"
+      },
+      {
+        "id": "D",
+        "text": "effective"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "'To take effect' is the established legal idiom meaning to become operative or binding (produrre effetti / avere efficacia). 'Affect' is usually a verb, whereas 'effect' is the noun.",
+    "hint": "Take effect = avere efficacia / decorrenza.",
+    "level": "base"
+  },
+  {
+    "id": "Q_LNG_ENG_100",
+    "question": "What is the translation of 'imparzialità e buon andamento' (art. 97 Cost.) in European public law literature?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Indifference and swift progression"
+      },
+      {
+        "id": "B",
+        "text": "Partial neutrality and budgetary thrift"
+      },
+      {
+        "id": "C",
+        "text": "Discretion and speedy judicial review"
+      },
+      {
+        "id": "D",
+        "text": "Impartiality and good administration (or sound administration / proper functioning)"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Article 97 of the Italian Constitution's core principles 'imparzialità e buon andamento' are universally translated in EU legal literature and comparative administrative law as 'impartiality and good (or sound) administration'.",
+    "hint": "Good administration / sound administration + impartiality.",
+    "level": "intermedio"
   }
 ]

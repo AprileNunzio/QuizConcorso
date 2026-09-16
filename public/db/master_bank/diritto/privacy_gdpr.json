@@ -31,11 +31,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Il trattamento di dati personali effettuato da una persona fisica per l'esercizio di attività a carattere esclusivamente personale o domestico."
+        "text": "Il trattamento effettuato da una società commerciale per finalità di marketing diretto tramite posta elettronica."
       },
       {
         "id": "B",
-        "text": "Il trattamento effettuato da una società commerciale per finalità di marketing diretto tramite posta elettronica."
+        "text": "Il trattamento di dati personali effettuato da una persona fisica per l'esercizio di attività a carattere esclusivamente personale o domestico."
       },
       {
         "id": "C",
@@ -46,7 +46,7 @@
         "text": "Il trattamento effettuato da un ente pubblico per finalità statistiche o di ricerca scientifica."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "B",
     "explanation": "L'art. 2, par. 2, lett. c) del GDPR esclude dall'applicazione del regolamento i trattamenti effettuati da persone fisiche per attività a carattere esclusivamente personale o domestico (la cosiddetta 'esenzione domestica'). I trattamenti cartacei sono esclusi solo se non facenti parte di un archivio strutturato o non destinati a figurarvi (art. 2, par. 1), ma l'esclusione di cui alla risposta A rappresenta una deroga fondamentale e testuale.",
     "hint": "Pensa alle attività strettamente private e quotidiane che una persona compie senza finalità commerciali o sistematiche (es. una rubrica telefonica personale).",
     "level": "base"
@@ -57,22 +57,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Qualsiasi informazione riguardante una persona fisica identificata o identificabile."
-      },
-      {
-        "id": "B",
         "text": "Qualsiasi informazione concernente esclusivamente persone fisiche già identificate, escludendo quelle identificabili indirettamente."
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Qualsiasi informazione relativa a persone fisiche, persone giuridiche, enti o associazioni senza scopo di lucro."
+      },
+      {
+        "id": "C",
+        "text": "Qualsiasi informazione riguardante una persona fisica identificata o identificabile."
       },
       {
         "id": "D",
         "text": "Solo le informazioni protette da segreto professionale o industriale individuate dalla legge dello Stato."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "C",
     "explanation": "L'art. 4, n. 1, del GDPR definisce 'dato personale' qualsiasi informazione riguardante una persona fisica identificata o identificabile ('interessato'). Si considera identificabile la persona fisica che può essere identificata, direttamente o indirettamente, con particolare riferimento a un identificativo come il nome, un numero di identificazione, dati relativi all'ubicazione, un identificativo online o elementi della sua identità fisica, fisiologica, genetica, psichica, economica, culturale o sociale.",
     "hint": "Il GDPR tutela esclusivamente le persone fisiche e copre sia l'identificazione diretta che quella indiretta attraverso elementi correlabili.",
     "level": "base"
@@ -135,11 +135,11 @@
     "options": [
       {
         "id": "A",
-        "text": "I dati personali relativi alle condanne penali e ai reati o a connesse misure di sicurezza."
+        "text": "I dati biometrici intesi a identificare in modo univoco una persona fisica."
       },
       {
         "id": "B",
-        "text": "I dati biometrici intesi a identificare in modo univoco una persona fisica."
+        "text": "I dati personali relativi alle condanne penali e ai reati o a connesse misure di sicurezza."
       },
       {
         "id": "C",
@@ -150,7 +150,7 @@
         "text": "I dati genetici relativi alle caratteristiche ereditarie di una persona fisica."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "B",
     "explanation": "I dati relativi a condanne penali e reati o a connesse misure di sicurezza sono disciplinati specificamente dall'art. 10 del GDPR e non rientrano nell'elenco tassativo dei dati particolari dell'art. 9, pur essendo soggetti a un regime di tutela altrettanto rigoroso.",
     "hint": "Distingui l'art. 9 (dati particolari: salute, biometria, opinioni politiche, orientamento sessuale, origine razziale, fede) dall'art. 10 (dati giudiziari).",
     "level": "base"
@@ -161,22 +161,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Sotto il controllo dell'autorità pubblica."
-      },
-      {
-        "id": "B",
         "text": "Sotto la diretta sorveglianza di un DPO certificato a livello ministeriale."
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Solo sotto la supervisione del Garante della Privacy previa notifica preventiva obbligatoria."
+      },
+      {
+        "id": "C",
+        "text": "Sotto il controllo dell'autorità pubblica."
       },
       {
         "id": "D",
         "text": "Sotto la vigilanza e la responsabilità civile solidale di un notaio."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "C",
     "explanation": "L'articolo 10 del GDPR stabilisce che il trattamento dei dati personali relativi a condanne penali e reati o a connesse misure di sicurezza deve avvenire soltanto sotto il controllo dell'autorità pubblica o se il trattamento è autorizzato dal diritto dell'Unione o degli Stati membri che preveda garanzie adeguate per i diritti e le libertà degli interessati.",
     "hint": "Il trattamento dei dati penali è limitato e necessita della supervisione di un'autorità pubblica o di una specifica norma di legge abilitante.",
     "level": "base"
@@ -187,22 +187,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Adeguati, pertinenti e limitati a quanto necessario rispetto alle finalità per le quali sono trattati."
-      },
-      {
-        "id": "B",
         "text": "Trattati in modo lecito, corretto e trasparente nei confronti dell'interessato."
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Conservati in una forma che consenta l'identificazione degli interessati per un periodo non superiore a quello necessario."
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "Esatti e, se necessario, aggiornati tempestivamente ad ogni richiesta del titolare."
+      },
+      {
+        "id": "D",
+        "text": "Adeguati, pertinenti e limitati a quanto necessario rispetto alle finalità per le quali sono trattati."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "D",
     "explanation": "Il principio di minimizzazione dei dati richiede che i dati personali siano adeguati, pertinenti e limitati a quanto necessario rispetto alle finalità per cui sono trattati. Questo principio mira a impedire la raccolta eccedente o non necessaria di informazioni personali.",
     "hint": "Minimizzare significa ridurre al minimo indispensabile l'estensione dei dati trattati per raggiungere lo scopo prefissato.",
     "level": "base"
@@ -239,11 +239,11 @@
     "options": [
       {
         "id": "A",
-        "text": "La revoca del consenso deve essere facile almeno quanto lo è stato prestarlo."
+        "text": "La revoca ha efficacia retroattiva e rende illecito ogni trattamento svolto prima della stessa."
       },
       {
         "id": "B",
-        "text": "La revoca ha efficacia retroattiva e rende illecito ogni trattamento svolto prima della stessa."
+        "text": "La revoca del consenso deve essere facile almeno quanto lo è stato prestarlo."
       },
       {
         "id": "C",
@@ -254,7 +254,7 @@
         "text": "Il titolare del trattamento può imporre un preavviso minimo di 90 giorni prima di rendere efficace la revoca."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "B",
     "explanation": "L'art. 7, par. 3, del GDPR stabilisce che l'interessato ha il diritto di revocare il proprio consenso in qualsiasi momento. La norma dispone espressamente che 'la revoca del consenso deve essere facile come prestarlo' e che non pregiudica la liceità del trattamento basata sul consenso prima della revoca.",
     "hint": "Ci deve essere un'equivalenza di canali e semplicità tra l'azione di dare il consenso e quella di toglierlo.",
     "level": "base"
@@ -265,22 +265,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Gli Stati membri possono stabilire per legge un'età inferiore, purché non inferiore a 13 anni."
-      },
-      {
-        "id": "B",
         "text": "Gli Stati membri possono innalzare tale limite fino a 18 anni, ma non possono in nessun caso abbassarlo."
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Gli Stati membri possono derogare liberamente all'obbligo del consenso genitoriale per i minori di qualsiasi età."
+      },
+      {
+        "id": "C",
+        "text": "Gli Stati membri possono stabilire per legge un'età inferiore, purché non inferiore a 13 anni."
       },
       {
         "id": "D",
         "text": "Gli Stati membri non hanno alcuna flessibilità, essendo l'età di 16 anni un limite uniforme e inderogabile."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "C",
     "explanation": "L'articolo 8 del GDPR stabilisce che per i servizi della società dell'informazione offerti direttamente ai minori, il trattamento è lecito se il minore ha almeno 16 anni. Tuttavia, consente agli Stati membri di prevedere un'età inferiore, purché non sia inferiore a 13 anni (in Italia, il D.Lgs. 101/2018 ha stabilito tale limite a 14 anni).",
     "hint": "Cerca la soglia minima invalicabile stabilita a livello europeo per le legislazioni nazionali.",
     "level": "base"
@@ -291,22 +291,22 @@
     "options": [
       {
         "id": "A",
-        "text": "No, non può applicarsi al trattamento effettuato dalle autorità pubbliche nell'esecuzione dei loro compiti."
-      },
-      {
-        "id": "B",
         "text": "Sì, le autorità pubbliche possono avvalersene liberamente per ogni tipologia di trattamento istituzionale."
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Sì, ma solo previa autorizzazione vincolante del Garante per la protezione dei dati personali."
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "Sì, è la base giuridica ordinaria e predefinita per l'erogazione di servizi pubblici essenziali."
+      },
+      {
+        "id": "D",
+        "text": "No, non può applicarsi al trattamento effettuato dalle autorità pubbliche nell'esecuzione dei loro compiti."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "D",
     "explanation": "L'articolo 6, par. 1, ultimo comma del GDPR stabilisce espressamente che la lettera f) (legittimo interesse) non si applica ai trattamenti effettuati dalle autorità pubbliche nell'esecuzione dei loro compiti. Le pubbliche autorità devono basare i propri trattamenti sull'adempimento di obblighi legali (lett. c) o sull'esecuzione di compiti di interesse pubblico (lett. e).",
     "hint": "Le pubbliche amministrazioni operano per il soddisfacimento del pubblico interesse o per legge, non per interessi privati/imprenditoriali.",
     "level": "base"
@@ -343,11 +343,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Al titolare del trattamento."
+        "text": "All'interessato che lamenta la violazione."
       },
       {
         "id": "B",
-        "text": "All'interessato che lamenta la violazione."
+        "text": "Al titolare del trattamento."
       },
       {
         "id": "C",
@@ -358,7 +358,7 @@
         "text": "Esclusivamente all'autorità giudiziaria in sede dibattimentale."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "B",
     "explanation": "L'art. 7, par. 1 del GDPR stabilisce che 'qualora il trattamento si basi sul consenso, il titolare del trattamento deve essere in grado di dimostrare che l'interessato ha prestato il consenso al trattamento dei propri dati personali'. Si tratta di un'applicazione fondamentale del principio di accountability.",
     "hint": "L'onere della prova grava sempre sul soggetto che raccoglie e utilizza i dati (il titolare).",
     "level": "base"
@@ -369,22 +369,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Ottenere dal titolare la conferma che sia o meno in corso un trattamento di dati che lo riguardano e, in tal caso, accedere ai dati e a specifiche informazioni."
-      },
-      {
-        "id": "B",
         "text": "Accedere liberamente alle infrastrutture fisiche e ai database del titolare per modificare autonomamente le proprie informazioni."
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Esigere il pagamento di una tariffa d'uso per ogni giorno in cui il titolare del trattamento detiene le sue informazioni personali."
+      },
+      {
+        "id": "C",
+        "text": "Ottenere dal titolare la conferma che sia o meno in corso un trattamento di dati che lo riguardano e, in tal caso, accedere ai dati e a specifiche informazioni."
       },
       {
         "id": "D",
         "text": "Ottenere la modifica retroattiva dell'identità anagrafica dell'interessato nei registri dello Stato."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "C",
     "explanation": "Il diritto di accesso garantisce all'interessato la facoltà di ottenere dal titolare la conferma dell'esistenza di un trattamento di dati che lo riguardano, di accedere a tali dati e di ricevere dettagli quali finalità, destinatari, tempi di conservazione e l'esistenza di processi decisionali automatizzati.",
     "hint": "È il diritto fondamentale di conoscere 'se', 'quali' e 'come' i propri dati sono usati da un determinato soggetto.",
     "level": "base"
@@ -395,22 +395,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Quando il trattamento è necessario per l'esercizio del diritto alla libertà di espressione e di informazione."
-      },
-      {
-        "id": "B",
         "text": "Quando i dati personali non sono più necessari rispetto alle finalità per le quali sono stati raccolti."
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Quando l'interessato si oppone al trattamento e non sussiste alcun motivo legittimo prevalente."
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "Quando i dati personali sono stati trattati in modo illecito fin dal principio."
+      },
+      {
+        "id": "D",
+        "text": "Quando il trattamento è necessario per l'esercizio del diritto alla libertà di espressione e di informazione."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "D",
     "explanation": "L'articolo 17, paragrafo 3, lett. a) del GDPR prevede una deroga espressa all'obbligo di cancellazione qualora il trattamento sia necessario per l'esercizio del diritto alla libertà di espressione e di informazione. Altre esenzioni includono l'adempimento di un obbligo legale, motivi di sanità pubblica o la tutela di diritti in sede giudiziaria.",
     "hint": "Considera il bilanciamento costituzionale tra la privacy individuale e il diritto di cronaca o libertà di stampa.",
     "level": "base"
@@ -447,11 +447,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Nel caso di trattamenti automatizzati basati sul consenso dell'interessato o sull'esecuzione di un contratto."
+        "text": "In relazione ad archivi cartacei non digitalizzati custoditi in locali fisici."
       },
       {
         "id": "B",
-        "text": "In relazione ad archivi cartacei non digitalizzati custoditi in locali fisici."
+        "text": "Nel caso di trattamenti automatizzati basati sul consenso dell'interessato o sull'esecuzione di un contratto."
       },
       {
         "id": "C",
@@ -462,7 +462,7 @@
         "text": "Per qualsiasi tipo di trattamento, indipendentemente dalle modalità tecniche e dalla base giuridica."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "B",
     "explanation": "Il diritto alla portabilità dei dati (art. 20) si applica esclusivamente se il trattamento si basa sul consenso o su un contratto, ed è effettuato con mezzi automatizzati. Non si applica ai trattamenti cartacei e a quelli necessari per l'esecuzione di un compito di interesse pubblico.",
     "hint": "La portabilità richiede la trasmissione elettronica dei dati, richiedendo quindi archivi digitalizzati ed una base giuridica consensuale o contrattuale.",
     "level": "base"
@@ -473,22 +473,22 @@
     "options": [
       {
         "id": "A",
-        "text": "I dati personali non possono più essere oggetto di trattamento per tali finalità, senza alcuna eccezione o bilanciamento."
-      },
-      {
-        "id": "B",
         "text": "Il titolare del trattamento può continuare l'attività dimostrando motivi legittimi cogenti prevalenti."
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Il titolare del trattamento può prolungare il trattamento previo pagamento di una royalty all'interessato."
+      },
+      {
+        "id": "C",
+        "text": "I dati personali non possono più essere oggetto di trattamento per tali finalità, senza alcuna eccezione o bilanciamento."
       },
       {
         "id": "D",
         "text": "Il trattamento viene sospeso temporaneamente per 120 giorni, in attesa di un arbitrato del Garante."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "C",
     "explanation": "Ai sensi dell'art. 21, par. 3, del GDPR, qualora l'interessato si opponga al trattamento per finalità di marketing diretto, i dati personali non possono più essere oggetto di trattamento per tali finalità. In questo caso l'opposizione è assoluta e vincolante.",
     "hint": "L'opposizione alle finalità di marketing non ammette repliche da parte del titolare né test di bilanciamento degli interessi.",
     "level": "intermedio"
@@ -499,22 +499,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Qualora la decisione sia necessaria per la conclusione o l'esecuzione di un contratto tra l'interessato e un titolare del trattamento."
-      },
-      {
-        "id": "B",
         "text": "Qualora la decisione sia basata sul legittimo interesse economico prevalente del titolare del trattamento."
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Qualora il sistema informatico esegua controlli a campione con un tasso di errore stimato inferiore all'1%."
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "Qualora il trattamento riguardi profili anonimi temporaneamente ricollegabili ad indirizzi IP."
+      },
+      {
+        "id": "D",
+        "text": "Qualora la decisione sia necessaria per la conclusione o l'esecuzione di un contratto tra l'interessato e un titolare del trattamento."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "D",
     "explanation": "L'articolo 22, paragrafo 2, del GDPR prevede tre deroghe al divieto di decisioni interamente automatizzate: a) se la decisione è necessaria per la conclusione o l'esecuzione di un contratto; b) se è autorizzata dal diritto dell'Unione o dello Stato membro; c) se si basa sul consenso esplicito dell'interessato.",
     "hint": "Si applica ad esempio alla valutazione automatica del merito creditizio richiesta da una banca per concedere online un finanziamento.",
     "level": "intermedio"
@@ -551,11 +551,11 @@
     "options": [
       {
         "id": "A",
-        "text": "L'art. 13 si applica ai dati raccolti direttamente presso l'interessato; l'art. 14 si applica ai dati personali ottenuti da terzi o fonti esterne."
+        "text": "L'art. 13 disciplina il trattamento svolto da soggetti pubblici; l'art. 14 disciplina esclusivamente i soggetti privati."
       },
       {
         "id": "B",
-        "text": "L'art. 13 disciplina il trattamento svolto da soggetti pubblici; l'art. 14 disciplina esclusivamente i soggetti privati."
+        "text": "L'art. 13 si applica ai dati raccolti direttamente presso l'interessato; l'art. 14 si applica ai dati personali ottenuti da terzi o fonti esterne."
       },
       {
         "id": "C",
@@ -566,7 +566,7 @@
         "text": "L'art. 13 si applica unicamente ai minorenni; l'art. 14 si applica esclusivamente ai soggetti maggiorenni."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "B",
     "explanation": "L'articolo 13 del GDPR definisce le informazioni da fornire all'interessato allorché i dati personali sono raccolti presso l'interessato stesso (raccolta diretta). L'articolo 14 definisce invece le informazioni da fornire qualora i dati personali non siano stati ottenuti presso l'interessato (raccolta indiretta o presso terzi).",
     "hint": "La differenza si basa sulla fonte di provenienza dei dati personali: acquisizione diretta vs acquisizione indiretta.",
     "level": "intermedio"
@@ -577,22 +577,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Senza ingiustificato ritardo e comunque al più tardi entro un mese dal ricevimento della richiesta."
-      },
-      {
-        "id": "B",
         "text": "Entro 15 giorni lavorativi decorrenti dalla data di protocollazione della richiesta."
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Entro 72 ore lavorative dalla ricezione della domanda da parte del titolare."
+      },
+      {
+        "id": "C",
+        "text": "Senza ingiustificato ritardo e comunque al più tardi entro un mese dal ricevimento della richiesta."
       },
       {
         "id": "D",
         "text": "Entro un termine fisso e non prorogabile di 90 giorni di calendario."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "C",
     "explanation": "L'articolo 12, paragrafo 3, del GDPR stabilisce che il titolare deve fornire all'interessato le informazioni relative all'azione intrapresa senza ingiustificato ritardo e, comunque, al più tardi entro un mese dal ricevimento della richiesta. Tale termine può essere prorogato di due mesi se necessario, tenuto conto della complessità e del numero delle richieste.",
     "hint": "Il termine standard è di un mese, estendibile fino a tre mesi totali in casi complessi dandone comunicazione motivata all'interessato.",
     "level": "intermedio"
@@ -603,22 +603,22 @@
     "options": [
       {
         "id": "A",
-        "text": "La persona fisica o giuridica, l'autorità pubblica, il servizio o altro organismo che, singolarmente o insieme ad altri, determina le finalità e i mezzi del trattamento."
-      },
-      {
-        "id": "B",
         "text": "Il dipendente incaricato di gestire materialmente l'aggiornamento del software antivirus dei server aziendali."
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Il rappresentante legale della società incaricata di effettuare la manutenzione straordinaria dei database."
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "La persona fisica designata dal Garante per vigilare sull'applicazione delle sanzioni pecuniarie all'interno dell'organizzazione."
+      },
+      {
+        "id": "D",
+        "text": "La persona fisica o giuridica, l'autorità pubblica, il servizio o altro organismo che, singolarmente o insieme ad altri, determina le finalità e i mezzi del trattamento."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "D",
     "explanation": "Il Titolare del trattamento è il soggetto decisionale che stabilisce le finalità (il 'perché') e i mezzi (il 'come') del trattamento di dati personali. Può essere una società, un ente pubblico, un professionista o anche una persona fisica.",
     "hint": "Associa il Titolare alle scelte strategiche del trattamento: finalità e mezzi.",
     "level": "intermedio"
@@ -655,11 +655,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Mediante un accordo interno trasparente che determini specificamente le rispettive responsabilità in merito all'osservanza degli obblighi del GDPR."
+        "text": "Mediante l'affidamento di tutta la responsabilità legale ad una terza società assicurativa internazionale."
       },
       {
         "id": "B",
-        "text": "Mediante l'affidamento di tutta la responsabilità legale ad una terza società assicurativa internazionale."
+        "text": "Mediante un accordo interno trasparente che determini specificamente le rispettive responsabilità in merito all'osservanza degli obblighi del GDPR."
       },
       {
         "id": "C",
@@ -670,7 +670,7 @@
         "text": "Non occorre alcuna formalizzazione scritta, operando una presunzione legale di responsabilità solidale al 50%."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "B",
     "explanation": "I contitolari (art. 26) determinano congiuntamente finalità e mezzi del trattamento. Essi devono regolare il rapporto mediante un accordo interno trasparente che stabilisca le rispettive responsabilità, in particolare con riferimento all'esercizio dei diritti dell'interessato e all'obbligo di fornire l'informativa.",
     "hint": "Si richiede un accordo formale interno, le cui linee guida essenziali devono essere messe a disposizione dell'interessato.",
     "level": "intermedio"
@@ -681,22 +681,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Designare per iscritto un proprio rappresentante stabilito nell'Unione Europea, salvo rare eccezioni per trattamenti occasionali e non a rischio."
-      },
-      {
-        "id": "B",
         "text": "Costituire una società controllata con sede legale in ciascuno Stato membro dell'Unione Europea in cui risiedano gli interessati."
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Richiedere un visto di conformità trimestrale rilasciato dal Comitato europeo per la protezione dei dati (EDPB)."
+      },
+      {
+        "id": "C",
+        "text": "Designare per iscritto un proprio rappresentante stabilito nell'Unione Europea, salvo rare eccezioni per trattamenti occasionali e non a rischio."
       },
       {
         "id": "D",
         "text": "Depositare una cauzione finanziaria vincolata pari al 2% del fatturato stimato presso la Banca Centrale Europea."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "C",
     "explanation": "L'art. 27 del GDPR stabilisce che il titolare (o responsabile) stabilito fuori dall'Unione, i cui trattamenti rientrano nell'art. 3, par. 2, deve designare per iscritto un rappresentante stabilito nell'UE. L'obbligo decade se il trattamento è occasionale, non include trattamenti su larga scala di categorie particolari o giudiziarie di dati e sia improbabile che presenti un rischio.",
     "hint": "Il rappresentante funge da interlocutore fisico sul territorio dell'UE per le autorità di controllo e gli interessati.",
     "level": "intermedio"
@@ -707,22 +707,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Non può ingaggiare un altro responsabile senza previa autorizzazione scritta, specifica o generale, del titolare del trattamento."
-      },
-      {
-        "id": "B",
         "text": "Può ricorrervi liberamente e senza darne comunicazione al titolare, purché il sub-responsabile sia certificato ISO 27001."
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Può farlo solo previa autorizzazione del DPO interno e notifica formale al Garante della Privacy."
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "La sub-delega del trattamento è vietata in modo assoluto e inderogabile dal GDPR."
+      },
+      {
+        "id": "D",
+        "text": "Non può ingaggiare un altro responsabile senza previa autorizzazione scritta, specifica o generale, del titolare del trattamento."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "D",
     "explanation": "L'art. 28, par. 2 stabilisce che il responsabile non ingaggia un altro responsabile (sub-responsabile) senza previa autorizzazione scritta, specifica o generale, del titolare del trattamento. Nel caso di autorizzazione generale, il responsabile deve informare il titolare di eventuali modifiche consentendogli di opporsi.",
     "hint": "Il titolare deve sempre mantenere il controllo e l'approvazione sulla catena dei soggetti che trattano i suoi dati.",
     "level": "intermedio"
@@ -759,11 +759,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Mettere in atto misure tecniche e organizzative adeguate per garantire, ed essere in grado di dimostrare, che il trattamento è conforme al regolamento."
+        "text": "Pubblicare periodicamente il bilancio d'esercizio aziendale sul portale internet dell'Autorità Garante."
       },
       {
         "id": "B",
-        "text": "Pubblicare periodicamente il bilancio d'esercizio aziendale sul portale internet dell'Autorità Garante."
+        "text": "Mettere in atto misure tecniche e organizzative adeguate per garantire, ed essere in grado di dimostrare, che il trattamento è conforme al regolamento."
       },
       {
         "id": "C",
@@ -774,7 +774,7 @@
         "text": "Delegare ogni decisione in materia di protezione dei dati all'interessato all'atto della stipulazione del contratto."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "B",
     "explanation": "L'accountability impone al titolare del trattamento un approccio proattivo. Non basta applicare passivamente le norme, ma occorre adottare misure organizzative e tecnologiche idonee al rischio e poterne dimostrare l'effettiva conformità ed efficacia in sede di controllo.",
     "hint": "È il principio che sposta il fulcro della privacy dall'adempimento formale alla concreta responsabilizzazione del titolare.",
     "level": "intermedio"
@@ -785,22 +785,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Quando il trattamento è effettuato da un'autorità pubblica o da un organismo pubblico, eccettuate le autorità giurisdizionali nell'esercizio delle loro funzioni."
-      },
-      {
-        "id": "B",
         "text": "Per tutte le imprese operanti nel settore commerciale, a prescindere dal fatturato e dal numero di addetti."
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Solo se il trattamento è effettuato da una multinazionale con sedi operative in più di cose Stati membri dell'Unione Europea."
+      },
+      {
+        "id": "C",
+        "text": "Quando il trattamento è effettuato da un'autorità pubblica o da un organismo pubblico, eccettuate le autorità giurisdizionali nell'esercizio delle loro funzioni."
       },
       {
         "id": "D",
         "text": "Qualora il titolare tratti esclusivamente dati di contatto aziendali (B2B) finalizzati alla fatturazione ordinaria."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "C",
     "explanation": "La designazione del DPO è obbligatoria in tre casi: 1) trattamenti effettuati da autorità o organismi pubblici (escluse le autorità giurisdizionali nell'esercizio delle funzioni giudiziarie); 2) attività principali che richiedono il monitoraggio regolare e sistematico degli interessati su larga scala; 3) attività principali che includono il trattamento su larga scala di dati particolari o giudiziari.",
     "hint": "Tutte le pubbliche amministrazioni (comuni, scuole, aziende sanitarie, ecc.) hanno l'obbligo assoluto di nominare un DPO.",
     "level": "intermedio"
@@ -811,22 +811,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Non deve ricevere alcuna istruzione per quanto riguarda l'esecuzione dei suoi compiti e non può essere rimosso o penalizzato dal titolare per l'adempimento delle proprie funzioni."
-      },
-      {
-        "id": "B",
         "text": "L'immunità legale e patrimoniale assoluta per i danni derivanti da violazioni dei dati subite dall'ente."
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Il diritto di veto vincolante sulle nomine del personale dirigente operato dal consiglio di amministrazione."
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "L'obbligo di operare in regime di totale segretezza, escludendo contatti diretti con i dipendenti dell'ente."
+      },
+      {
+        "id": "D",
+        "text": "Non deve ricevere alcuna istruzione per quanto riguarda l'esecuzione dei suoi compiti e non può essere rimosso o penalizzato dal titolare per l'adempimento delle proprie funzioni."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "D",
     "explanation": "Per preservare l'autonomia e l'indipendenza del DPO, l'art. 38, par. 3, vieta al titolare e al responsabile del trattamento di impartirgli istruzioni sull'esecuzione dei suoi compiti o di rimuoverlo/penalizzarlo a causa dell'adempimento delle sue funzioni. Il DPO risponde direttamente ai vertici aziendali.",
     "hint": "Il DPO deve agire come un controllore indipendente ed essere libero da pressioni gerarchiche interne.",
     "level": "intermedio"
@@ -863,11 +863,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Sì, a condizione che il DPO sia facilmente raggiungibile da ciascuno stabilimento del gruppo."
+        "text": "No, ogni singola società controllata deve necessariamente nominare un proprio DPO interno."
       },
       {
         "id": "B",
-        "text": "No, ogni singola società controllata deve necessariamente nominare un proprio DPO interno."
+        "text": "Sì, a condizione che il DPO sia facilmente raggiungibile da ciascuno stabilimento del gruppo."
       },
       {
         "id": "C",
@@ -878,7 +878,7 @@
         "text": "Sì, ma solo previa autorizzazione rilasciata congiuntamente da tutti i Garanti europei interessati."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "B",
     "explanation": "L'articolo 37, par. 2, consente a un gruppo di imprese di nominare un unico DPO. L'unico requisito essenziale è la raggiungibilità del DPO da parte di ciascuno stabilimento (accessibilità per gli interessati e per i dipendenti del gruppo).",
     "hint": "Pensa alla raggiungibilità e fruibilità del servizio (lingua parlata, fusi orari, disponibilità) per tutti i soggetti del gruppo.",
     "level": "intermedio"
@@ -889,22 +889,22 @@
     "options": [
       {
         "id": "A",
-        "text": "I dati di contatto del DPO (es. indirizzo email, telefono o casella postale dedicata)."
-      },
-      {
-        "id": "B",
         "text": "Il certificato penale generale e il codice fiscale privato del DPO."
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "La copia del contratto di collaborazione con il dettaglio della retribuzione annuale."
+      },
+      {
+        "id": "C",
+        "text": "I dati di contatto del DPO (es. indirizzo email, telefono o casella postale dedicata)."
       },
       {
         "id": "D",
         "text": "I dati di contatto personali dei familiari conviventi del DPO per ragioni di sicurezza sussidiaria."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "C",
     "explanation": "L'art. 37, par. 7 richiede che vengano comunicati all'autorità di controllo e pubblicati all'esterno i dati di contatto del DPO. Questo serve a consentire agli interessati e all'autorità stessa di contattare direttamente e agevolmente il DPO per questioni relative alla protezione dei dati.",
     "hint": "I dati di contatto devono permettere una comunicazione diretta e agevole (ad esempio, dpo@azienda.it).",
     "level": "intermedio"
@@ -915,22 +915,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Le tariffe assicurative standard applicabili alla responsabilità civile d'impresa."
-      },
-      {
-        "id": "B",
         "text": "Lo stato dell'arte e i costi di attuazione delle tecnologie disponibili."
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "La natura, l'oggetto, il contesto e le finalità del trattamento."
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "La probabilità e la gravità del rischio per i diritti e le libertà delle persone fisiche."
+      },
+      {
+        "id": "D",
+        "text": "Le tariffe assicurative standard applicabili alla responsabilità civile d'impresa."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "D",
     "explanation": "L'articolo 32 stabilisce i criteri per l'adozione delle misure di sicurezza (approccio basato sul rischio): stato dell'arte, costi di attuazione, natura, oggetto, contesto e finalità del trattamento, nonché rischi di varia probabilità e gravità per i diritti delle persone. Le tariffe assicurative non sono un parametro normativo per determinare la sicurezza.",
     "hint": "Le misure di sicurezza devono rispondere a requisiti tecnici, economici e di rischio effettivo per gli individui, non a fattori puramente commerciali.",
     "level": "avanzato"
@@ -967,11 +967,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Al titolare del trattamento, sentito il parere del Responsabile della Protezione dei Dati (DPO)."
+        "text": "Esclusivamente al DPO dell'organizzazione, tramite delibera interna indipendente."
       },
       {
         "id": "B",
-        "text": "Esclusivamente al DPO dell'organizzazione, tramite delibera interna indipendente."
+        "text": "Al titolare del trattamento, sentito il parere del Responsabile della Protezione dei Dati (DPO)."
       },
       {
         "id": "C",
@@ -982,7 +982,7 @@
         "text": "Alla maggioranza qualificata dei dipendenti addetti al trattamento informatico dei dati."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "B",
     "explanation": "La DPIA è un adempimento sotto la diretta responsabilità del titolare del trattamento. L'art. 35, par. 2, stabilisce che il titolare, all'atto dell'effettuazione della valutazione d'impatto, deve sentire il parere del DPO. La decisione e la responsabilità finale restano del titolare.",
     "hint": "Il DPO offre consulenza e sorveglianza sulla DPIA, ma non assume la responsabilità aziendale di redigerla o firmarla.",
     "level": "avanzato"
@@ -993,22 +993,22 @@
     "options": [
       {
         "id": "A",
-        "text": "In caso di trattamento su larga scala di categorie particolari di dati (art. 9) o di dati relativi a condanne penali (art. 10)."
-      },
-      {
-        "id": "B",
         "text": "Ogni volta che una ditta individuale con meno di tre dipendenti tratta dati di fatturazione ordinaria."
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Quando il trattamento avviene tramite personal computer sprovvisti di connessione di rete internet."
+      },
+      {
+        "id": "C",
+        "text": "In caso di trattamento su larga scala di categorie particolari di dati (art. 9) o di dati relativi a condanne penali (art. 10)."
       },
       {
         "id": "D",
         "text": "Qualora si utilizzino esclusivamente database gestiti in cloud all'interno dell'Unione Europea."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "C",
     "explanation": "L'art. 35, par. 3, individua tre macro-casi di obbligatorietà della DPIA: a) valutazioni sistematiche e globali basate su trattamenti automatizzati (profilazione); b) trattamenti su larga scala di dati particolari (art. 9) o giudiziari (art. 10); c) sorveglianza sistematica su larga scala di zone accessibili al pubblico.",
     "hint": "Cerca la combinazione tra la natura sensibile dei dati (particolari/giudiziari) e l'ampia dimensione del trattamento (larga scala).",
     "level": "avanzato"
@@ -1019,22 +1019,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Qualora la DPIA indichi che il trattamento presenterebbe un rischio elevato in assenza di misure adottate dal titolare per attenuarlo."
-      },
-      {
-        "id": "B",
         "text": "In ogni caso di trasferimento di dati personali verso un altro Stato membro dell'Unione Europea."
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Qualora si decida di licenziare o sostituire il DPO per giustificato motivo oggettivo."
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "In ogni circostanza in cui si decida di raccogliere dati biometrici dei dipendenti previo loro consenso."
+      },
+      {
+        "id": "D",
+        "text": "Qualora la DPIA indichi che il trattamento presenterebbe un rischio elevato in assenza di misure adottate dal titolare per attenuarlo."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "D",
     "explanation": "La consultazione preventiva (art. 36) scatta quando la DPIA evidenzia che il trattamento genererebbe un rischio elevato per i diritti degli interessati e il titolare non riesce a trovare o implementare misure adeguate per attenuare o ricondurre a un livello accettabile tale rischio.",
     "hint": "Se il rischio residuo stimato nella valutazione d'impatto rimane elevato nonostante le contromisure, occorre il parere preventivo del Garante.",
     "level": "avanzato"
@@ -1071,11 +1071,11 @@
     "options": [
       {
         "id": "A",
-        "text": "La violazione di sicurezza che comporta accidentalmente o in modo illecito la distruzione, la perdita, la modifica, la rivelazione non autorizzata o l'accesso ai dati personali."
+        "text": "L'interruzione temporanea della fornitura elettrica che rende inaccessibili i server per meno di 10 minuti."
       },
       {
         "id": "B",
-        "text": "L'interruzione temporanea della fornitura elettrica che rende inaccessibili i server per meno di 10 minuti."
+        "text": "La violazione di sicurezza che comporta accidentalmente o in modo illecito la distruzione, la perdita, la modifica, la rivelazione non autorizzata o l'accesso ai dati personali."
       },
       {
         "id": "C",
@@ -1086,7 +1086,7 @@
         "text": "La modifica unilaterale delle clausole contrattuali operata dal titolare senza consenso dell'interessato."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "B",
     "explanation": "La violazione dei dati personali è una violazione di sicurezza che incide sulle proprietà di riservatezza, integrità o disponibilità dei dati trattati. Può essere causata da attacchi informatici esterni, errori interni (es. smarrimento di un PC) o incidenti fisici (incendi, allagamenti).",
     "hint": "Il data breach non comprende solo le intrusioni di hacker, ma anche perdite accidentali o distruzioni fisiche di archivi personali.",
     "level": "avanzato"
@@ -1097,22 +1097,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Senza ingiustificato ritardo e, ove possibile, entro 72 ore dal momento in cui ne è venuto a conoscenza, salvo che sia improbabile che presenti un rischio."
-      },
-      {
-        "id": "B",
         "text": "Entro un termine inderogabile di 24 ore dall'evento generatore della violazione."
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Entro 48 ore dalla scoperta, ma unicamente se la violazione coinvolge dati bancari o finanziari."
+      },
+      {
+        "id": "C",
+        "text": "Senza ingiustificato ritardo e, ove possibile, entro 72 ore dal momento in cui ne è venuto a conoscenza, salvo che sia improbabile che presenti un rischio."
       },
       {
         "id": "D",
         "text": "Entro 30 giorni di calendario dalla redazione del rapporto tecnico del responsabile della sicurezza."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "C",
     "explanation": "Ai sensi dell'art. 33 del GDPR, in caso di data breach il titolare deve notificare la violazione al Garante senza ingiustificato ritardo e, ove possibile, entro 72 ore dal momento in cui ne è venuto a conoscenza, a meno che sia improbabile che la violazione presenti un rischio per i diritti e le libertà delle persone fisiche.",
     "hint": "Le 72 ore decorrono dal momento della 'consapevolezza' della violazione da parte del titolare.",
     "level": "avanzato"
@@ -1123,22 +1123,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Deve documentare qualsiasi violazione dei dati personali nei dettagli (fatti, effetti e misure correttive), indipendentemente dal livello di rischio e dall'obbligo di notifica."
-      },
-      {
-        "id": "B",
         "text": "Deve documentare esclusivamente le violazioni effettivamente notificate al Garante della Privacy."
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "È esonerato da adempimenti interni se ha nominato un DPO esterno che tiene un registro verbale."
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "Deve pubblicare il report dettagliato della violazione sul proprio sito internet aziendale entro 30 giorni."
+      },
+      {
+        "id": "D",
+        "text": "Deve documentare qualsiasi violazione dei dati personali nei dettagli (fatti, effetti e misure correttive), indipendentemente dal livello di rischio e dall'obbligo di notifica."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "D",
     "explanation": "L'articolo 33, par. 5, impone al titolare l'obbligo di documentare qualsiasi violazione (il cosiddetto registro dei data breach), inclusi i fatti, gli effetti e le misure adottate. Questa documentazione deve permettere all'autorità di controllo di verificare la conformità alla norma, quindi include anche le violazioni non notificate al Garante perché ritenute non rischiose.",
     "hint": "Ogni incidente di sicurezza sui dati personali deve essere registrato internamente, anche se non ha raggiunto la gravità necessaria per la notifica esterna.",
     "level": "avanzato"
@@ -1175,11 +1175,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Il trasferimento è ammesso solo se il livello di protezione delle persone fisiche garantito dal GDPR non viene pregiudicato."
+        "text": "Tutti i trasferimenti fuori dall'Unione Europea sono vietati in modo assoluto e senza eccezioni."
       },
       {
         "id": "B",
-        "text": "Tutti i trasferimenti fuori dall'Unione Europea sono vietati in modo assoluto e senza eccezioni."
+        "text": "Il trasferimento è ammesso solo se il livello di protezione delle persone fisiche garantito dal GDPR non viene pregiudicato."
       },
       {
         "id": "C",
@@ -1190,7 +1190,7 @@
         "text": "I dati possono essere trasferiti solo se l'importatore estero appartiene all'area OCSE."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "B",
     "explanation": "L'art. 44 stabilisce che qualsiasi trasferimento di dati personali verso un paese terzo o un'organizzazione internazionale è ammesso solo se il titolare e il responsabile rispettano le condizioni del Capo V del GDPR, al fine di assicurare che il livello di protezione delle persone fisiche garantito dal regolamento non sia compromesso.",
     "hint": "La protezione accordata dalle norme europee deve 'seguire' il dato anche al di fuori dei confini dell'Unione Europea.",
     "level": "avanzato"
@@ -1201,22 +1201,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Un trasferimento verso un paese terzo per il quale la Commissione Europea ha stabilito che garantisce un livello di protezione adeguato, senza necessità di autorizzazioni specifiche."
-      },
-      {
-        "id": "B",
         "text": "Una decisione congiunta del DPO e del consiglio di amministrazione dell'ente esportatore."
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Un provvedimento speciale del Tribunale amministrativo regionale che autorizza l'esportazione dei dati."
+      },
+      {
+        "id": "C",
+        "text": "Un trasferimento verso un paese terzo per il quale la Commissione Europea ha stabilito che garantisce un livello di protezione adeguato, senza necessità di autorizzazioni specifiche."
       },
       {
         "id": "D",
         "text": "Un trattato internazionale di cooperazione militare approvato dalle Nazioni Unite."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "C",
     "explanation": "La decisione di adeguatezza (art. 45) è un atto adottato dalla Commissione Europea con cui si riconosce ufficialmente che un paese terzo (o un suo territorio o settore specifico) garantisce un livello di protezione dei dati personali sostanzialmente equivalente a quello dell'Unione Europea. Di conseguenza, i dati possono essere trasferiti senza ulteriori garanzie o autorizzazioni.",
     "hint": "È lo strumento più semplice per trasferire dati all'estero, basato su una valutazione politica e tecnica della Commissione UE.",
     "level": "avanzato"
@@ -1227,22 +1227,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Le clausole contrattuali standard (SCCs) approvate dalla Commissione Europea."
-      },
-      {
-        "id": "B",
         "text": "Una dichiarazione giurata di conformità rilasciata dall'amministratore delegato dell'azienda importatrice."
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Un'assicurazione privata contro i rischi informatici sottoscritta dal titolare."
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "Il possesso di una certificazione aziendale generica di qualità ISO 9001."
+      },
+      {
+        "id": "D",
+        "text": "Le clausole contrattuali standard (SCCs) approvate dalla Commissione Europea."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "D",
     "explanation": "In mancanza di adeguatezza, il trasferimento può avvenire se il titolare offre garanzie adeguate e a condizione che gli interessati dispongano di diritti azionabili e mezzi di ricorso efficaci. Tra queste figurano le clausole contrattuali tipo (Standard Contractual Clauses - SCCs) adottate dalla Commissione Europea.",
     "hint": "Si tratta di modelli di contratto pre-approvati a livello UE che vincolano legalmente le parti al rispetto dei principi privacy.",
     "level": "avanzato"
@@ -1279,11 +1279,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Fino a 20 milioni di euro o, per le imprese, fino al 4% del fatturato mondiale annuo dell'esercizio precedente, se superiore."
+        "text": "Fino a 10 milioni di euro o, per le imprese, fino al 2% del fatturato mondiale annuo dell'esercizio precedente, se superiore."
       },
       {
         "id": "B",
-        "text": "Fino a 10 milioni di euro o, per le imprese, fino al 2% del fatturato mondiale annuo dell'esercizio precedente, se superiore."
+        "text": "Fino a 20 milioni di euro o, per le imprese, fino al 4% del fatturato mondiale annuo dell'esercizio precedente, se superiore."
       },
       {
         "id": "C",
@@ -1294,9 +1294,1309 @@
         "text": "Fino a 50 milioni di euro, stabiliti in misura fissa indipendentemente dalla natura del soggetto."
       }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "B",
     "explanation": "Il GDPR prevede due fasce sanzionatorie. Per le violazioni più gravi (art. 83, par. 5 - principi, diritti degli interessati, trasferimenti esteri, inosservanza di provvedimenti del Garante), il limite massimo è di 20.000.000 EUR o del 4% del fatturato mondiale annuo se superiore. Per infrazioni organizzative minori (par. 4 - DPIA, registro, DPO), il limite è di 10.000.000 EUR o del 2% del fatturato.",
     "hint": "Cerca la percentuale più elevata (4%) e il valore monetario corrispondente alla fascia massima delle sanzioni GDPR.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_DIR_PRIV_051",
+    "question": "Ai sensi dell'art. 6 del GDPR e dell'art. 2-ter del D.Lgs. 196/2003 (Codice Privacy novellato), quale tra le seguenti costituisce la base giuridica ordinaria per il trattamento di dati personali effettuato da una pubblica amministrazione come l'INPS?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il preventivo ed espresso consenso informato e per iscritto manifestato dal cittadino/utente interessato."
+      },
+      {
+        "id": "B",
+        "text": "Il perseguimento del legittimo interesse del titolare del trattamento o di terzi, previa valutazione comparativa."
+      },
+      {
+        "id": "C",
+        "text": "L'adempimento di un obbligo legale o l'esecuzione di un compito di interesse pubblico o connesso all'esercizio di pubblici poteri."
+      },
+      {
+        "id": "D",
+        "text": "La stipulazione di una transazione privatistica o accordo procedimentale tra l'amministrazione e l'interessato."
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Ai sensi dell'art. 6, par. 1, lett. c) ed e) del GDPR e dell'art. 2-ter del Codice Privacy, il trattamento di dati personali da parte di una PA è lecito solo se necessario per adempiere un obbligo legale o per l'esecuzione di un compito di interesse pubblico. Il consenso non è generalmente base idonea per la PA a causa dello squilibrio di potere tra cittadino e autorità.",
+    "hint": "La PA agisce in base alla legge per scopi istituzionali, non fonda i propri trattamenti ordinari sul consenso.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_PRIV_052",
+    "question": "Ai sensi dell'art. 9 del GDPR, il trattamento di categorie particolari di dati personali (quali dati sanitari o sindacali) da parte dell'INPS per finalità previdenziali è consentito:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Esclusivamente dietro autorizzazione singola e preventiva rilasciata volta per volta dal Garante per la Privacy."
+      },
+      {
+        "id": "B",
+        "text": "Solo se l'interessato presta consenso esplicito e revocabile in ogni momento senza conseguenze sulle prestazioni erogabili."
+      },
+      {
+        "id": "C",
+        "text": "Unicamente qualora i dati siano stati precedentemente e irreversibilmente anonimizzati prima di qualsiasi utilizzo."
+      },
+      {
+        "id": "D",
+        "text": "Quando è necessario per assolvere gli obblighi ed esercitare i diritti specifici in materia di diritto del lavoro, sicurezza sociale e protezione sociale, o per motivi di interesse pubblico rilevante."
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'art. 9, par. 2, lett. b) e g) del GDPR ammette il trattamento di dati particolari (es. sanitari per invalidità civile) se necessario in materia di sicurezza e protezione sociale, oppure per motivi di interesse pubblico rilevante sulla base del diritto dell'Unione o degli Stati membri (art. 2-sexies Codice Privacy).",
+    "hint": "La sicurezza sociale e la protezione sociale costituiscono eccezioni esplicite al divieto generale di trattamento dei dati particolari.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_DIR_PRIV_053",
+    "question": "Cosa prevede il principio di \"Accountability\" (Responsabilizzazione) sancito dall'art. 5, paragrafo 2, del GDPR?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il titolare del trattamento è competente per il rispetto dei principi di protezione dei dati e deve essere in grado di comprovarlo documentalmente."
+      },
+      {
+        "id": "B",
+        "text": "Il responsabile della protezione dei dati (DPO) assume la responsabilità civile e penale personale per qualsiasi violazione dei dati."
+      },
+      {
+        "id": "C",
+        "text": "Ogni dipendente pubblico risponde direttamente e patrimonialmente in solido con il Garante per i trattamenti non conformi."
+      },
+      {
+        "id": "D",
+        "text": "La pubblica amministrazione è esentata dalla rendicontazione delle misure di sicurezza se adotta software certificati AgID."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il principio di accountability impone che il titolare (es. l'Ente previdenziale) non solo rispetti i principi di liceità, correttezza, trasparenza, minimizzazione, esattezza, limitazione della conservazione e integrità/riservatezza, ma sia in grado di dimostrare l'adozione di misure tecniche e organizzative adeguate.",
+    "hint": "Responsabilizzazione significa conformità sostanziale e capacità di comprovarla.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_PRIV_054",
+    "question": "Ai sensi dell'art. 25 del GDPR, in cosa consiste il principio di protezione dei dati \"fin dalla progettazione\" (Data Protection by Design)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nell'obbligo di sottoporre ogni software della PA alla previa validazione e firma digitale del Presidente dell'Autorità Garante."
+      },
+      {
+        "id": "B",
+        "text": "Nell'integrazione di misure tecniche e organizzative adeguate (es. pseudonimizzazione, minimizzazione) fin dal momento della determinazione dei mezzi di trattamento e prima dell'inizio del trattamento stesso."
+      },
+      {
+        "id": "C",
+        "text": "Nel divieto assoluto di modificare la struttura delle banche dati pubbliche dopo il loro rilascio in esercizio."
+      },
+      {
+        "id": "D",
+        "text": "Nell'adozione esclusiva di formati di dati aperti e non proprietari nei sistemi informatici gestionali."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 25, par. 1, GDPR prevede che il titolare, sia al momento di determinare i mezzi del trattamento sia all'atto del trattamento stesso, metta in atto misure tecniche e organizzative adeguate volte ad attuare efficacemente i principi di protezione dei dati (privacy by design).",
+    "hint": "La tutela della riservatezza deve essere concepita prima dell'inizio del trattamento, non aggiunta successivamente.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_PRIV_055",
+    "question": "Ai sensi dell'art. 25, paragrafo 2, del GDPR, il principio di protezione dei dati \"per impostazione predefinita\" (Data Protection by Default) impone che:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tutti i dati personali raccolti debbano essere automaticamente cancellati dopo 30 giorni dalla conclusione dell'istruttoria."
+      },
+      {
+        "id": "B",
+        "text": "I dati debbano essere accessibili di default a qualsiasi dipendente dell'amministrazione dotato di SPID di livello 3."
+      },
+      {
+        "id": "C",
+        "text": "Siano trattati, per impostazione predefinita, solo i dati personali necessari per ciascuna specifica finalità del trattamento, limitandone quantità, periodo di conservazione e accessibilità."
+      },
+      {
+        "id": "D",
+        "text": "Ogni impostazione di privacy debba poter essere modificata esclusivamente tramite istanza formale al Garante."
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "La privacy by default garantisce che, senza l'intervento attivo dell'interessato, i sistemi siano configurati per raccogliere e trattare unicamente i dati strettamente necessari per volume, periodo di conservazione e sfera di accessibilità.",
+    "hint": "Minimizzazione automatica: raccogliere e rendere visibile solo lo stretto necessario senza azioni manuali dell'utente.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_PRIV_056",
+    "question": "La designazione del Responsabile della Protezione dei Dati (DPO / RPD), ai sensi dell'art. 37 del GDPR, è:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Facoltativa per le pubbliche amministrazioni, divenendo obbligatoria solo se occupano oltre 500 dipendenti."
+      },
+      {
+        "id": "B",
+        "text": "Obbligatoria solo per le imprese private quotate in borsa o appartenenti al settore bancario e assicurativo."
+      },
+      {
+        "id": "C",
+        "text": "Rimessa alla discrezionalità insindacabile dell'organo di indirizzo politico dell'ente pubblico."
+      },
+      {
+        "id": "D",
+        "text": "Sempre obbligatoria quando il trattamento è effettuato da un'autorità pubblica o da un organismo pubblico, come l'INPS."
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'art. 37, par. 1, lett. a) del GDPR dispone che la nomina del DPO/RPD è sempre obbligatoria se il trattamento è eseguito da un'autorità pubblica o da un organismo pubblico (eccettuate le autorità giurisdizionali nell'esercizio delle loro funzioni).",
+    "hint": "Per tutte le pubbliche amministrazioni il DPO è una figura obbligatoria per legge.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_PRIV_057",
+    "question": "Ai sensi dell'art. 38 del GDPR, quale posizione ricopre il Responsabile della Protezione dei Dati (DPO) all'interno dell'organizzazione del titolare del trattamento?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Agisce in piena indipendenza, non riceve alcuna istruzione sull'esecuzione dei suoi compiti e riferisce direttamente al vertice gerarchico del titolare."
+      },
+      {
+        "id": "B",
+        "text": "È gerarchicamente subordinato al Responsabile dei Sistemi Informativi (CIO) e deve seguirne le direttive operative."
+      },
+      {
+        "id": "C",
+        "text": "È un consulente privo di qualsiasi potere di interlocuzione diretta con l'Autorità Garante per la Privacy."
+      },
+      {
+        "id": "D",
+        "text": "Risponde disciplinarmente delle sanzioni pecuniarie comminate dal Garante all'ente di appartenenza."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 38, par. 3, del GDPR stabilisce che il RPD non deve ricevere istruzioni per quanto riguarda l'esecuzione dei compiti assegnati, non può essere rimosso o penalizzato per l'adempimento delle sue funzioni e riferisce direttamente al vertice del titolare.",
+    "hint": "Il DPO gode di autonomia, indipendenza e contatto diretto con il vertice.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_PRIV_058",
+    "question": "Quale delle seguenti funzioni è tipicamente incompatibile con il ruolo di Responsabile della Protezione dei Dati (DPO) per conflitto di interessi?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Docente universitario o esperto giuridico esterno incaricato di sola formazione specialistica in materia di privacy."
+      },
+      {
+        "id": "B",
+        "text": "Responsabile della Direzione Sistemi Informativi e Tecnologici (CIO) o Responsabile delle Risorse Umane (HR)."
+      },
+      {
+        "id": "C",
+        "text": "Funzionario dell'ufficio relazioni con il pubblico con compiti meramente esecutivi di protocollazione."
+      },
+      {
+        "id": "D",
+        "text": "Membro aggregato privo di diritto di voto nella commissione per la digitalizzazione degli atti."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il DPO non può determinare le finalità e i mezzi del trattamento dei dati. Figure apicali quali il responsabile IT, HR o marketing determinano finalità e mezzi dei trattamenti, trovandosi in palese conflitto di interessi (Linee Guida WP243 del Comitato Europeo).",
+    "hint": "Chi decide 'come e perché' trattare i dati (IT, HR) non può controllare se stesso.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_DIR_PRIV_059",
+    "question": "Ai sensi dell'art. 28 del GDPR, quali requisiti formali deve possedere il rapporto tra il titolare del trattamento (es. INPS) e un fornitore esterno che tratta dati per suo conto (Responsabile del trattamento)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "È sufficiente uno scambio di comunicazioni via PEC con tacita accettazione delle condizioni generali di fornitura."
+      },
+      {
+        "id": "B",
+        "text": "Non è richiesto alcun atto formale se il fornitore è una società a totale partecipazione pubblica (in-house)."
+      },
+      {
+        "id": "C",
+        "text": "Deve essere disciplinato da un contratto o altro atto giuridico vincolante per iscritto, che stabilisca analiticamente materia, durata, natura, finalità, tipo di dati e obblighi di sicurezza."
+      },
+      {
+        "id": "D",
+        "text": "Richiede esclusivamente l'iscrizione del fornitore nell'albo dei fornitori certificati dell'Agenzia per l'Italia Digitale."
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'art. 28, par. 3, GDPR impone che il trattamento da parte di un responsabile sia regolato da un contratto o altro atto giuridico vincolante per iscritto a norma di legge che vincoli il responsabile al titolare e ne fissi analiticamente istruzioni e obblighi.",
+    "hint": "Occorre un contratto formale scritto conforme a tutte le prescrizioni dell'art. 28.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_PRIV_060",
+    "question": "Qual è il termine perentorio stabilito dall'art. 33 del GDPR affinché il titolare del trattamento notifichi una violazione dei dati personali (Data Breach) al Garante, qualora vi sia un rischio per i diritti e le libertà?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Entro 30 giorni lavorativi dall'avvenuta completa rimozione della falla di sicurezza informatica."
+      },
+      {
+        "id": "B",
+        "text": "Entro 24 ore lavorative dal momento in cui il Responsabile IT redige la relazione peritale giurata."
+      },
+      {
+        "id": "C",
+        "text": "Entro 15 giorni solari dalla notifica ricevuta dal fornitore dell'infrastruttura cloud."
+      },
+      {
+        "id": "D",
+        "text": "Entro 72 ore dal momento in cui ne è venuto a conoscenza, senza ingiustificato ritardo."
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'art. 33, par. 1, GDPR stabilisce che, in caso di data breach, il titolare notifica la violazione all'autorità di controllo competente senza ingiustificato ritardo e, ove fattibile, entro 72 ore dal momento in cui ne è venuto a conoscenza.",
+    "hint": "La regola aurea di notifica al Garante è 72 ore.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_PRIV_061",
+    "question": "Ai sensi dell'art. 34 del GDPR, quando il titolare del trattamento è tenuto a comunicare la violazione dei dati personali anche ai singoli interessati (es. assicurati/pensionati coinvolti)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Quando la violazione dei dati personali è suscettibile di presentare un rischio elevato per i diritti e le libertà delle persone fisiche."
+      },
+      {
+        "id": "B",
+        "text": "Sempre, per qualsiasi tipologia di violazione informatica, anche in caso di cifratura integra dei dati violati."
+      },
+      {
+        "id": "C",
+        "text": "Solamente quando vi sia stata una specifica richiesta formale pervenuta da almeno cento interessati."
+      },
+      {
+        "id": "D",
+        "text": "Esclusivamente quando la violazione comporta una perdita economica diretta e quantificabile superiore a 10.000 euro."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 34, par. 1, GDPR prescrive che, quando la violazione presenta un 'rischio elevato' per i diritti e le libertà, il titolare la comunica all'interessato senza ingiustificato ritardo, a meno che non ricorrano le condizioni di esenzione (es. dati cifrati inaccessibili).",
+    "hint": "La notifica al Garante richiede 'rischio', la comunicazione all'interessato richiede 'rischio elevato'.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_PRIV_062",
+    "question": "In quale dei seguenti casi il titolare è esonerato dalla comunicazione del data breach all'interessato ex art. 34, par. 3, del GDPR?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Se l'interessato ha un'età superiore a 67 anni o è titolare di una pensione minima di vecchiaia."
+      },
+      {
+        "id": "B",
+        "text": "Se ha applicato ai dati oggetto della violazione misure tecniche di protezione adeguate (come la cifratura) che li rendono inintelligibili a chiunque non sia autorizzato ad accedervi."
+      },
+      {
+        "id": "C",
+        "text": "Se la violazione è stata causata da un fornitore con sede legale all'interno di un Paese membro dell'OCSE."
+      },
+      {
+        "id": "D",
+        "text": "Se la pubblica amministrazione dichiara che la notizia provocherebbe allarme sociale e danno reputazionale."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 34, par. 3, lett. a) GDPR esenta dalla comunicazione all'interessato se il titolare ha applicato misure tecniche e organizzative adeguate (segnatamente la cifratura) che rendono i dati inintelligibili ai soggetti non autorizzati.",
+    "hint": "La cifratura preventiva ad alto standard protegge il dato e neutralizza il rischio per l'interessato.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_PRIV_063",
+    "question": "Ai sensi dell'art. 30 del GDPR, la tenuta del Registro delle attività di trattamento è obbligatoria per un ente pubblico come l'INPS?",
+    "options": [
+      {
+        "id": "A",
+        "text": "No, le amministrazioni pubbliche godono di esenzione generale in virtù del principio di continuità amministrativa."
+      },
+      {
+        "id": "B",
+        "text": "Sì, ma solo per i trattamenti che comportano transazioni finanziarie verso l'estero."
+      },
+      {
+        "id": "C",
+        "text": "Sì, è obbligatoria per tutte le pubbliche amministrazioni e organismi pubblici, indipendentemente dal numero di dipendenti."
+      },
+      {
+        "id": "D",
+        "text": "È obbligatoria solo su ordine specifico notificato dal Garante per la Privacy a seguito di ispezione."
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'art. 30 del GDPR obbliga le autorità pubbliche e gli organismi pubblici alla tenuta del Registro dei trattamenti (sia in qualità di titolare sia di responsabile). La deroga per le PMI sotto i 250 dipendenti non si applica comunque alle PA né a chi tratta dati particolari.",
+    "hint": "Tutte le PA hanno l'obbligo perentorio di tenere e aggiornare il Registro dei trattamenti.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_PRIV_064",
+    "question": "Cosa deve contenere, tra l'altro, il Registro delle attività di trattamento del titolare ai sensi dell'art. 30, par. 1, del GDPR?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il codice fiscale di tutti gli utenti registrati sul portale istituzionale dell'amministrazione."
+      },
+      {
+        "id": "B",
+        "text": "L'elenco nominativo delle sanzioni disciplinari comminate ai dipendenti per infrazioni relative al regolamento d'ufficio."
+      },
+      {
+        "id": "C",
+        "text": "Il bilancio preventivo e consuntivo delle spese sostenute per l'adeguamento dell'infrastruttura di rete aziendale."
+      },
+      {
+        "id": "D",
+        "text": "Finalità del trattamento, categorie di interessati e di dati, destinatari, eventuali trasferimenti verso paesi terzi, termini di cancellazione e descrizione generale delle misure di sicurezza."
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'art. 30 GDPR specifica i contenuti obbligatori del Registro del titolare: dati di contatto, finalità, categorie di interessati e dati, categorie di destinatari, trasferimenti verso paesi terzi con adeguate garanzie, termini ultimi per la cancellazione e sintesi delle misure di sicurezza ex art. 32.",
+    "hint": "È la mappa d'insieme di chi, cosa, perché, dove e per quanto tempo si trattano i dati personali.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_PRIV_065",
+    "question": "Ai sensi dell'art. 35 del GDPR, quando è obbligatorio procedere a una Valutazione d'Impatto sulla Protezione dei Dati (DPIA)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Quando un tipo di trattamento, specie se prevede l'uso di nuove tecnologie, può presentare un rischio elevato per i diritti e le libertà delle persone fisiche."
+      },
+      {
+        "id": "B",
+        "text": "Per qualsiasi operazione di trattamento, inclusa la gestione ordinaria dell'archivio cartaceo delle ferie del personale."
+      },
+      {
+        "id": "C",
+        "text": "Soltanto ed esclusivamente in caso di procedimenti penali a carico di dirigenti dell'ente."
+      },
+      {
+        "id": "D",
+        "text": "Unicamente qualora i dati personali siano acquistati da banche dati private a titolo oneroso."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 35, par. 1, GDPR prevede l'obbligo di DPIA quando un trattamento, allorché prevede l'uso di nuove tecnologie, considerati la natura, l'oggetto, il contesto e le finalità, può presentare un rischio elevato per i diritti e le libertà.",
+    "hint": "La DPIA è richiesta per trattamenti innovativi o ad alto rischio (es. algoritmi, profilazione su larga scala, dati sanitari).",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_PRIV_066",
+    "question": "In quale dei seguenti casi l'art. 35, par. 3, del GDPR stabilisce esplicitamente l'obbligo di effettuare una DPIA?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Trattamento dei dati anagrafici dei soli dipendenti per l'elaborazione del cedolino dello stipendio."
+      },
+      {
+        "id": "B",
+        "text": "Trattamento su larga scala di categorie particolari di dati (art. 9) o di dati relativi a condanne penali e reati (art. 10)."
+      },
+      {
+        "id": "C",
+        "text": "Pubblicazione di una delibera dell'ente sull'albo pretorio in formato PDF aperto."
+      },
+      {
+        "id": "D",
+        "text": "Invio di newsletter istituzionali a utenti che abbiano liberamente registrato la propria email."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 35, par. 3, individua casi obbligatori: a) valutazione sistematica e globale basata su trattamento automatizzato/profilazione con effetti giuridici; b) trattamento su larga scala di dati particolari o giudiziari; c) sorveglianza sistematica su larga scala di zona accessibile al pubblico.",
+    "hint": "Larga scala + dati particolari/giudiziari = DPIA sempre obbligatoria.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_PRIV_067",
+    "question": "Ai sensi dell'art. 36 del GDPR, qualora dalla valutazione di impatto (DPIA) emerga che il trattamento presenterebbe un rischio elevato che il titolare non può mitigare con misure ragionevoli, il titolare deve:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Procedere comunque al trattamento notificando la circostanza agli utenti entro 180 giorni solari."
+      },
+      {
+        "id": "B",
+        "text": "Sospendere a tempo indeterminato qualsiasi attività dell'ufficio e commissariare la direzione centrale."
+      },
+      {
+        "id": "C",
+        "text": "Consultare l'autorità di controllo (Garante per la protezione dei dati personali) prima di procedere al trattamento."
+      },
+      {
+        "id": "D",
+        "text": "Richiedere un parere vincolante alla Corte dei Conti in ordine alla sostenibilità economica dei rischi."
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'art. 36 GDPR disciplina la 'consultazione preventiva': prima di iniziare il trattamento, il titolare consulta l'autorità di controllo qualora la DPIA indichi che il trattamento presenterebbe un rischio elevato in assenza di misure adottate dal titolare per attenuare il rischio.",
+    "hint": "Se il rischio residuo rimane elevato, la legge impone la consultazione preventiva del Garante.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_DIR_PRIV_068",
+    "question": "Ai sensi dell'art. 17 del GDPR, il \"diritto alla cancellazione\" (diritto all'oblio) può essere esercitato dall'assicurato nei confronti dell'INPS per ottenere la cancellazione della propria posizione contributiva?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sì, il diritto all'oblio è un diritto soggettivo assoluto e incondizionato che prevale su ogni legge statale."
+      },
+      {
+        "id": "B",
+        "text": "Sì, ma solo subordinatamente al pagamento di un contributo per i diritti di cancellazione d'archivio."
+      },
+      {
+        "id": "C",
+        "text": "Sì, purché l'interessato rinunci formalmente al diritto a percepire qualsiasi futura prestazione pensionistica."
+      },
+      {
+        "id": "D",
+        "text": "No, poiché il diritto alla cancellazione è escluso quando il trattamento è necessario per l'adempimento di un obbligo legale o per l'esecuzione di un compito svolto nel pubblico interesse o nell'esercizio di pubblici poteri."
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'art. 17, par. 3, lett. b) del GDPR esclude espressamente il diritto alla cancellazione quando il trattamento è necessario per l'adempimento di un obbligo legale previsto dal diritto dell'UE o dello Stato membro cui è soggetto il titolare, o per l'esecuzione di un compito di pubblico interesse o nell'esercizio di pubblici poteri.",
+    "hint": "La previdenza obbligatoria risponde a un obbligo di legge inderogabile: i contributi non si cancellano a richiesta.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_PRIV_069",
+    "question": "Ai sensi dell'art. 20 del GDPR, il diritto alla \"portabilità dei dati\" si applica ai trattamenti effettuati dall'INPS per lo svolgimento delle sue funzioni istituzionali?",
+    "options": [
+      {
+        "id": "A",
+        "text": "No, l'art. 20, par. 3, stabilisce espressamente che il diritto alla portabilità non si applica al trattamento necessario per l'esecuzione di un compito di interesse pubblico o connesso all'esercizio di pubblici poteri."
+      },
+      {
+        "id": "B",
+        "text": "Sì, ogni cittadino ha il diritto di trasferire i propri dati previdenziali su una piattaforma privata di cloud a sua scelta."
+      },
+      {
+        "id": "C",
+        "text": "Sì, purché i dati siano trasferiti esclusivamente verso un altro ente di previdenza con sede nell'Unione Europea."
+      },
+      {
+        "id": "D",
+        "text": "Sì, ma solo con il rilascio di un token crittografico validato dall'Agenzia per la Cybersicurezza Nazionale (ACN)."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Ai sensi dell'art. 20, par. 3, del GDPR, il diritto alla portabilità dei dati si applica solo quando la base giuridica è il consenso o il contratto, e non si applica al trattamento necessario per l'esecuzione di un compito di interesse pubblico o connesso a pubblici poteri.",
+    "hint": "La portabilità non si applica ai compiti di interesse pubblico della PA.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_DIR_PRIV_070",
+    "question": "Ai sensi dell'art. 22 del GDPR e dei consolidati orientamenti della giurisprudenza amministrativa (Consiglio di Stato), qual è la regola per le decisioni amministrative basate su algoritmi e processi decisionali automatizzati nella PA?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'uso di algoritmi nei procedimenti amministrativi della PA è tassativamente vietato dall'ordinamento giuridico italiano ed europeo."
+      },
+      {
+        "id": "B",
+        "text": "L'algoritmo può essere utilizzato ma devono essere garantiti i principi di trasparenza/conoscibilità della logica algoritmica, non discriminazione e riserva di intervento umano (la decisione finale non può essere totalmente de-umanizzata se produce effetti sfavorevoli)."
+      },
+      {
+        "id": "C",
+        "text": "L'algoritmo ha valore di atto amministrativo fidefacente e insindacabile, non assoggettabile a impugnazione innanzi al TAR."
+      },
+      {
+        "id": "D",
+        "text": "Il codice sorgente dell'algoritmo costituisce segreto di Stato e non può in alcun caso essere divulgato o spiegato agli interessati."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il Consiglio di Stato (es. sentt. 2270/2019 e 8472/2019) ha affermato che l'uso dell'algoritmo nella PA è ammissibile a condizione che siano rispettati: piena conoscibilità e trasparenza della formula, non discriminazione algoritmica e principio di non esclusività della decisione algoritmica (supervisione umana significativa ex art. 22 GDPR).",
+    "hint": "Trasparenza algoritmica e intervento umano sono capisaldi dello stato di diritto e del GDPR.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_DIR_PRIV_071",
+    "question": "Ai sensi dell'art. 12 del GDPR, entro quale termine il titolare del trattamento deve fornire all'interessato le informazioni relative all'azione intrapresa riguardo a una richiesta di esercizio dei diritti (es. accesso, rettifica)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Entro e non oltre 24 ore dalla protocollazione dell'istanza da parte dell'ufficio competente."
+      },
+      {
+        "id": "B",
+        "text": "Entro il termine perentorio di 120 giorni stabilito dalla legge generale sul procedimento amministrativo (L. 241/90)."
+      },
+      {
+        "id": "C",
+        "text": "Al più tardi entro un mese dal ricevimento della richiesta, prorogabile di due mesi se necessario per la complessità."
+      },
+      {
+        "id": "D",
+        "text": "Entro un anno solare, previa comunicazione interlocutoria da trasmettere entro il primo semestre."
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'art. 12, par. 3, GDPR prevede che il titolare fornisca le informazioni senza ingiustificato ritardo e comunque al più tardi entro un mese dal ricevimento. Tale termine può essere prorogato di due mesi se necessario, tenuto conto della complessità e del numero delle richieste.",
+    "hint": "Regola generale del GDPR per le risposte alle istanze: 1 mese (prorogabile di altri 2 mesi).",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_PRIV_072",
+    "question": "Qualora il titolare del trattamento decida di non ottemperare alla richiesta dell'interessato (es. negando la cancellazione di dati), cosa deve fare ai sensi dell'art. 12, par. 4, del GDPR?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Applicare la regola del silenzio-assenso decorsi 30 giorni dalla mancata risposta formale."
+      },
+      {
+        "id": "B",
+        "text": "Trasmettere gli atti alla Procura della Repubblica competente per territorio."
+      },
+      {
+        "id": "C",
+        "text": "Richiedere un indennizzo forfettario per spese amministrative di rigetto istanza."
+      },
+      {
+        "id": "D",
+        "text": "Informare l'interessato senza ritardo, e al più tardi entro un mese, dei motivi dell'inottemperanza e della possibilità di proporre reclamo al Garante o ricorso giurisdizionale."
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'art. 12, par. 4, del GDPR impone al titolare che non ottemperi di informare l'interessato entro un mese dei motivi del diniego e dell'avviso che può proporre reclamo a un'autorità di controllo e proporre ricorso giurisdizionale.",
+    "hint": "Obbligo di motivazione entro 1 mese e avviso dei mezzi di tutela (reclamo al Garante o ricorso al giudice).",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_PRIV_073",
+    "question": "Qual è la composizione dell'Autorità Garante per la protezione dei dati personali ai sensi dell'art. 153 del Codice Privacy (D.Lgs. 196/2003)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "È un organo collegiale composto da quattro membri, eletti due dalla Camera dei deputati e due dal Senato della Repubblica."
+      },
+      {
+        "id": "B",
+        "text": "È un organo monocratico nominato con decreto del Presidente della Repubblica su proposta del Ministro della Giustizia."
+      },
+      {
+        "id": "C",
+        "text": "È composto da sette magistrati designati a rotazione dal Consiglio Superiore della Magistratura."
+      },
+      {
+        "id": "D",
+        "text": "È un comitato direttivo composto dai Direttori Generali di INPS, INAIL, Agenzia delle Entrate e AgID."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 153 del Codice Privacy stabilisce che il Collegio del Garante è composto da quattro membri, eletti per metà dalla Camera dei deputati e per metà dal Senato della Repubblica tra personalità che assicurano indipendenza e comprovata competenza.",
+    "hint": "4 membri parlamentari (2 Camera, 2 Senato).",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_PRIV_074",
+    "question": "Quanto dura il mandato dei componenti dell'Autorità Garante per la protezione dei dati personali e quale regime di rieleggibilità si applica?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dura cinque anni ed è rinnovabile una sola volta consecutiva."
+      },
+      {
+        "id": "B",
+        "text": "Dura sette anni e non possono essere rinnovati."
+      },
+      {
+        "id": "C",
+        "text": "Dura tre anni rinnovabile per un massimo di tre mandati."
+      },
+      {
+        "id": "D",
+        "text": "Dura a vita, salvo decadenza per incompatibilità o revoca motivata del Parlamento."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "I membri del Garante durano in carica sette anni e non possono essere confermati (mandato settennale non rinnovabile), a garanzia della loro assoluta indipendenza e autonomia.",
+    "hint": "7 anni, mandato non rinnovabile (come i giudici della Corte Costituzionale ne durano 9, il Garante ne dura 7).",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_PRIV_075",
+    "question": "Ai sensi dell'art. 77 del GDPR, chiunque ritenga che il trattamento dei dati personali che lo riguarda sia stato effettuato in violazione del regolamento ha il diritto di proporre:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Esclusivamente ricorso straordinario al Presidente della Repubblica previo versamento del contributo unificato."
+      },
+      {
+        "id": "B",
+        "text": "Denuncia querela inderogabilmente entro 48 ore dalla scoperta del fatto presso il comando Carabinieri competente."
+      },
+      {
+        "id": "C",
+        "text": "Reclamo a un'autorità di controllo, segnatamente nello Stato membro in cui risiede abitualmente, lavora oppure del luogo ove si è verificata la presunta violazione."
+      },
+      {
+        "id": "D",
+        "text": "Interpello vincolante alla Corte di Giustizia dell'Unione Europea in via incidentale diretta."
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'art. 77 GDPR riconosce a ogni interessato il diritto di proporre reclamo all'autorità di controllo (in Italia, il Garante Privacy). Tale diritto non pregiudica altri ricorsi amministrativi o giurisdizionali (art. 78 e 79 GDPR).",
+    "hint": "Il rimedio amministrativo tipico e diretto è il reclamo all'autorità di controllo (Garante).",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_PRIV_076",
+    "question": "Ai sensi dell'art. 79 del GDPR e dell'art. 152 del Codice Privacy, il ricorso giurisdizionale contro i provvedimenti del Garante Privacy si propone innanzi:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Esclusivamente al TAR del Lazio in sede giurisdizionale esclusiva a pena di nullità."
+      },
+      {
+        "id": "B",
+        "text": "Alla Corte d'Appello - Sezione Lavoro e Previdenza Sociale in unico grado."
+      },
+      {
+        "id": "C",
+        "text": "Al Consiglio di Stato in adunanza plenaria previo parere della Corte dei Conti."
+      },
+      {
+        "id": "D",
+        "text": "Al Tribunale ordinario del luogo in cui ha la residenza o la sede il titolare del trattamento, con rito ordinario/semplificato di cognizione."
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'art. 152 del D.Lgs. 196/2003 (e art. 10 D.Lgs. 150/2011) devolve le controversie contro i provvedimenti del Garante (o per violazione delle norme privacy) alla giurisdizione del giudice ordinario (Tribunale ordinario civile).",
+    "hint": "Le opposizioni ai provvedimenti del Garante Privacy vanno al giudice ordinario civile (Tribunale), non al TAR.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_DIR_PRIV_077",
+    "question": "Ai sensi dell'art. 2-quaterdecies del D.Lgs. 196/2003, come sono qualificati i dipendenti o collaboratori interni che trattano dati sotto l'autorità diretta del titolare (INPS)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Soggetti designati ed espressamente autorizzati al trattamento dei dati personali, che operano sotto l'autorità diretta del titolare conformemente alle istruzioni ricevute."
+      },
+      {
+        "id": "B",
+        "text": "Contitolari del trattamento dotati di autonoma soggettività giuridica e responsabilità civile illimitata."
+      },
+      {
+        "id": "C",
+        "text": "Responsabili esterni del trattamento obbligati alla stipula di apposito contratto d'appalto di servizi."
+      },
+      {
+        "id": "D",
+        "text": "Ufficiali ausiliari di polizia giudiziaria con compiti di indagine cibernetica preventiva."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 2-quaterdecies del Codice Privacy disciplina le 'persone autorizzate al trattamento': il titolare o il responsabile può prevedere che specifici compiti e funzioni siano attribuiti a persone fisiche espressamente designate, che operano sotto la loro autorità diretta.",
+    "hint": "Sono le persone fisiche dipendenti/autorizzate dal titolare che operano secondo istruzioni impartite.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_PRIV_078",
+    "question": "Ai sensi dell'art. 4, punto 5), del GDPR, cosa si intende per \"pseudonimizzazione\"?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'eliminazione totale e irreversibile di qualsiasi legame con il soggetto, rendendo il dato non più qualificabile come dato personale."
+      },
+      {
+        "id": "B",
+        "text": "Il trattamento dei dati personali in modo tale che non possano più essere attribuiti a un interessato specifico senza l'utilizzo di informazioni aggiuntive, a condizione che queste siano conservate separatamente."
+      },
+      {
+        "id": "C",
+        "text": "La crittografia asimmetrica applicata esclusivamente alle comunicazioni tra dirigenti generali della pubblica amministrazione."
+      },
+      {
+        "id": "D",
+        "text": "L'omissione dell'indirizzo di residenza anagrafica negli atti pubblicati sull'Albo Pretorio on-line."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La pseudonimizzazione separa i dati identificativi dalle informazioni sostanziali tramite chiavi/codici conservati a parte con misure tecniche. A differenza dell'anonimizzazione irreversibile, i dati pseudonimizzati restano dati personali tutelati dal GDPR.",
+    "hint": "Dati disaccoppiati ma ricollegabili con una chiave separata; restano comunque dati personali.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_PRIV_079",
+    "question": "I dati resi anonimi (anonimizzazione irreversibile) ricadono nell'ambito di applicazione materiale del GDPR?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sì, a qualsiasi dato numerico o statistico si applica l'intera disciplina del GDPR senza eccezione."
+      },
+      {
+        "id": "B",
+        "text": "Sì, ma solo se l'insieme anonimo comprende un numero di record superiore a 10.000 unità."
+      },
+      {
+        "id": "C",
+        "text": "No, i principi di protezione dei dati non si applicano a informazioni anonime, vale a dire informazioni che non si riferiscono a una persona fisica identificata o identificabile."
+      },
+      {
+        "id": "D",
+        "text": "No, ad eccezione del caso in cui i dati siano conservati all'interno di datacenter pubblici dell'Unione."
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Il Considerando 26 del GDPR chiarisce che i principi di protezione dei dati non si applicano alle informazioni anonime, ossia dati che non si riferiscono a una persona fisica identificata o identificabile o a dati resi sufficientemente anonimi da non consentire l'identificazione.",
+    "hint": "Il dato veramente anonimo esce dal campo di applicazione del GDPR.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_PRIV_080",
+    "question": "Ai sensi dell'art. 83 del GDPR e dell'art. 166 del Codice Privacy, quale disciplina si applica per le sanzioni amministrative pecuniarie comminate a una pubblica amministrazione come l'INPS?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Le pubbliche amministrazioni sono per legge totalmente immuni da qualsiasi tipologia di sanzione pecuniaria comminata dal Garante."
+      },
+      {
+        "id": "B",
+        "text": "Il Garante può infliggere alle PA esclusivamente sanzioni disciplinari a carico del vertice politico."
+      },
+      {
+        "id": "C",
+        "text": "Le sanzioni sono automaticamente decurtate dal gettito fiscale regionale dell'anno successivo."
+      },
+      {
+        "id": "D",
+        "text": "Le sanzioni pecuniarie possono essere applicate anche alle PA, ma i proventi sono versati a un apposito capitolo dell'entrata del bilancio dello Stato e i limiti massimi previsti dal GDPR si applicano con specifici criteri di graduazione."
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'Italia non ha introdotto un'esenzione per le PA (come consentito in via opzionale dall'art. 83, par. 7 GDPR). L'art. 166 del Codice Privacy prevede che le sanzioni pecuniarie siano applicabili anche alle PA e ne disciplina l'applicazione e la destinazione dei proventi.",
+    "hint": "In Italia le PA sono soggette a sanzioni pecuniarie del Garante Privacy.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_DIR_PRIV_081",
+    "question": "Qual è il limite massimo edittale per le sanzioni amministrative pecuniarie previste dall'art. 83, paragrafo 5, del GDPR per le violazioni più gravi (es. principi di base, diritti dell'interessato, trasferimenti internazionali)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fino a 20.000.000 di euro o, per le imprese, fino al 4% del fatturato mondiale totale annuo dell'esercizio precedente, se superiore."
+      },
+      {
+        "id": "B",
+        "text": "Fino a 10.000.000 di euro o, per le imprese, fino al 2% del fatturato mondiale totale annuo."
+      },
+      {
+        "id": "C",
+        "text": "Fino a 50.000.000 di euro per qualsiasi soggetto pubblico o privato senza distinzione."
+      },
+      {
+        "id": "D",
+        "text": "Fino a un massimo simbolico di 500.000 euro per tutte le istituzioni comunitarie e nazionali."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 83, par. 5, del GDPR fissa per le violazioni più gravi (violazione dei principi base ex artt. 5, 6, 7, 9; diritti degli interessati artt. 12-22; trasferimenti esteri artt. 44-49) sanzioni fino a 20 milioni di euro o al 4% del fatturato mondiale.",
+    "hint": "Livello massimo: 20 milioni o 4% di fatturato. (Il livello minore è 10 milioni o 2%).",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_PRIV_082",
+    "question": "Ai sensi dell'art. 167 del D.Lgs. 196/2003 (Codice Privacy novellato), il reato di \"Trattamento illecito di dati\" si perfeziona:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Per la semplice negligenza o colpa lieve nell'archiviazione di una pratica di pensione."
+      },
+      {
+        "id": "B",
+        "text": "Quando il fatto è commesso al fine di trarre per sé o per altri profitto ovvero di arrecare un danno, e dal fatto deriva effettivo nocumento all'interessato."
+      },
+      {
+        "id": "C",
+        "text": "Solo se la condotta è commessa da pubblici ufficiali in servizio presso le cancellerie giudiziarie."
+      },
+      {
+        "id": "D",
+        "text": "Indipendentemente da qualsiasi dolo specifico o nocumento, per la mera violazione formale del registro."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 167 Codice Privacy punisce chiunque, al fine di trarre per sé o per altri profitto ovvero di arrecare danno ad altri, procede al trattamento illecito, se dal fatto deriva nocumento (dolo specifico + elemento costitutivo del nocumento).",
+    "hint": "Dolo specifico (fine di profitto o di recare danno) + effettivo nocumento.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_DIR_PRIV_083",
+    "question": "Cosa punisce l'art. 167-bis del Codice Privacy introdotto dal D.Lgs. 101/2018?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La mancata nomina del DPO all'interno di un comune con popolazione superiore a 5.000 abitanti."
+      },
+      {
+        "id": "B",
+        "text": "L'omesso aggiornamento semestrale della password di accesso al sistema operativo Windows."
+      },
+      {
+        "id": "C",
+        "text": "La comunicazione e diffusione illecita di dati personali riferibili a un numero elevato di persone, commessa a fini di profitto o per arrecare danno, da cui derivi nocumento."
+      },
+      {
+        "id": "D",
+        "text": "La cancellazione colposa di una copia di backup conservata su nastro magnetico."
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'art. 167-bis sanziona penalmente la comunicazione e diffusione su larga scala (riferibili a un numero elevato di persone) di archivi o banche dati personali in violazione delle disposizioni richiamate, con fine di profitto o danno e derivato nocumento.",
+    "hint": "Art. 167-bis riguarda archivi massivi o dati riferibili a un numero elevato di persone.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_DIR_PRIV_084",
+    "question": "Ai sensi dell'art. 44 del GDPR, il trasferimento di dati personali verso un Paese terzo o un'organizzazione internazionale può avvenire:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Liberamente, senza alcuna restrizione o controllo da parte delle istituzioni comunitarie."
+      },
+      {
+        "id": "B",
+        "text": "Esclusivamente dietro stipula di un trattato bilaterale di pace ratificato dal Parlamento nazionale."
+      },
+      {
+        "id": "C",
+        "text": "Solo se i dati sono stati stampati su supporto cartaceo e spediti a mezzo valigia diplomatica."
+      },
+      {
+        "id": "D",
+        "text": "Solo se il Paese terzo garantisce un livello di protezione adeguato (decisione di adeguatezza della Commissione UE) o in presenza di garanzie adeguate (clausole tipo, norme vincolanti d'impresa)."
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Il capo V del GDPR (artt. 44-50) regola i trasferimenti internazionali: la base preferenziale è la decisione di adeguatezza della Commissione UE (art. 45), seguita da garanzie adeguate (art. 46, es. Clausole Contrattuali Tipo - SCC) o deroghe specifiche (art. 49).",
+    "hint": "Decisione di adeguatezza o garanzie adeguate (come le Clausole Tipo) per trasferire dati extra-UE.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_PRIV_085",
+    "question": "Qual è l'attuale quadro giuridico che disciplina i trasferimenti commerciali di dati personali dall'UE verso gli Stati Uniti, a seguito della decisione di adeguatezza della Commissione europea del luglio 2023?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'EU-US Data Privacy Framework (DPF)."
+      },
+      {
+        "id": "B",
+        "text": "Il Safe Harbor Agreement."
+      },
+      {
+        "id": "C",
+        "text": "Il Privacy Shield 1.0 (sentenza Schrems II)."
+      },
+      {
+        "id": "D",
+        "text": "L'Accordo Transatlantico di Bretton Woods per la Privacy Digitale."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Dopo l'annullamento del Safe Harbor (Schrems I) e del Privacy Shield (Schrems II), la Commissione UE ha adottato il 10 luglio 2023 la decisione di adeguatezza per l'EU-US Data Privacy Framework (DPF).",
+    "hint": "Il nuovo accordo UE-USA approvato a luglio 2023 si chiama EU-US Data Privacy Framework.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_DIR_PRIV_086",
+    "question": "Ai sensi dell'art. 13 e 14 del GDPR, quali informazioni devono essere fornite all'interessato nell'informativa privacy da parte dell'amministrazione?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Solo l'indirizzo della sede legale dell'amministrazione e l'orario di apertura degli sportelli al pubblico."
+      },
+      {
+        "id": "B",
+        "text": "Identità e dati di contatto del titolare e del DPO, finalità e base giuridica del trattamento, destinatari, periodo di conservazione e diritti dell'interessato."
+      },
+      {
+        "id": "C",
+        "text": "L'elenco nominativo con matricola di tutti i programmatori che hanno compilato il codice sorgente dell'applicativo."
+      },
+      {
+        "id": "D",
+        "text": "Le specifiche hardware dei server e le chiavi crittografiche private utilizzate per la firma dei documenti."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Gli artt. 13 (raccolta presso l'interessato) e 14 (raccolta non presso l'interessato) fissano gli elementi essenziali dell'informativa: titolare, DPO, finalità, basi giuridiche, destinatari, trasferimenti extra-UE, tempo di conservazione, diritti, reclamo al Garante, eventuale profilazione.",
+    "hint": "L'informativa deve spiegare con chiarezza e trasparenza chi tratta i dati, perché, per quanto tempo e quali diritti spettano all'utente.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_PRIV_087",
+    "question": "Ai sensi dell'art. 15 del GDPR, il diritto di accesso dell'interessato conferisce il diritto di:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Modificare unilateralmente a proprio piacimento l'ammontare dei contributi figurativi versati."
+      },
+      {
+        "id": "B",
+        "text": "Accedere liberamente a tutte le caselle di posta elettronica istituzionali dei dirigenti dell'ente."
+      },
+      {
+        "id": "C",
+        "text": "Ottenere dal titolare la conferma che sia o meno in corso un trattamento di dati personali che lo riguardano e, in tal caso, di ottenere l'accesso ai dati e a tutte le relative informazioni sul trattamento."
+      },
+      {
+        "id": "D",
+        "text": "Pretendere la consegna materiale degli hard disk su cui sono memorizzati i dati dell'archivio storico."
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'art. 15 garantisce il diritto di accesso: sapere se vi è un trattamento in corso, ottenere copia dei dati trattati e informazioni su finalità, categorie, destinatari, conservazione e diritti.",
+    "hint": "Accesso = conferma del trattamento + copia dei propri dati + informazioni su modalità e finalità.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_PRIV_088",
+    "question": "Ai sensi dell'art. 16 del GDPR, il diritto di rettifica consente all'interessato di ottenere:",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'annullamento retroattivo di sanzioni amministrative o contributive legittimamente irrogate."
+      },
+      {
+        "id": "B",
+        "text": "La sostituzione del proprio codice fiscale con un identificativo numerico anonimo di fantasia."
+      },
+      {
+        "id": "C",
+        "text": "L'attribuzione d'ufficio di una qualifica superiore nei ruoli organici della funzione pubblica."
+      },
+      {
+        "id": "D",
+        "text": "La rettifica dei dati personali inesatti che lo riguardano senza ingiustificato ritardo e l'integrazione dei dati incompleti."
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'art. 16 GDPR sancisce che l'interessato ha il diritto di ottenere dal titolare del trattamento la rettifica dei dati personali inesatti che lo riguardano senza ingiustificato ritardo, nonché l'integrazione dei dati personali incompleti.",
+    "hint": "Rettifica = correzione dei dati inesatti e integrazione di quelli incompleti.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_PRIV_089",
+    "question": "Ai sensi dell'art. 18 del GDPR, in quali circostanze l'interessato ha il diritto di ottenere dal titolare la \"limitazione del trattamento\"?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Quando contesta l'esattezza dei dati (per il periodo necessario alla verifica), se il trattamento è illecito ma si oppone alla cancellazione, o se i dati gli servono per l'accertamento di un diritto in sede giudiziaria."
+      },
+      {
+        "id": "B",
+        "text": "In qualsiasi momento senza alcuna motivazione o circostanza oggettiva verificabile."
+      },
+      {
+        "id": "C",
+        "text": "Solo qualora l'interessato abbia formalmente depositato ricorso per fallimento personale."
+      },
+      {
+        "id": "D",
+        "text": "Esclusivamente durante il periodo di ferie estive dei dipendenti dell'amministrazione erogatrice."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 18 GDPR elenca i casi tassativi di limitazione: contestazione dell'esattezza dei dati; trattamento illecito con preferenza per la limitazione anziché la cancellazione; utilità per l'interessato in giudizio benché non più utili al titolare; pendenza di opposizione ex art. 21.",
+    "hint": "Limitazione = congelamento temporaneo dell'uso dei dati in pendenza di accertamenti o verifiche.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_PRIV_090",
+    "question": "Qual è l'effetto pratico della limitazione del trattamento disposta ai sensi dell'art. 18, paragrafo 2, del GDPR?",
+    "options": [
+      {
+        "id": "A",
+        "text": "I dati vengono distrutti fisicamente mediante sovrascrittura a basso livello dei supporti di memorizzazione."
+      },
+      {
+        "id": "B",
+        "text": "Tali dati personali possono essere trattati, salvo che per la semplice conservazione, solo con il consenso dell'interessato o per l'accertamento di diritti in sede giudiziaria o per motivi di interesse pubblico rilevante."
+      },
+      {
+        "id": "C",
+        "text": "I dati vengono trasferiti d'ufficio alla banca dati centrale dell'Interpol."
+      },
+      {
+        "id": "D",
+        "text": "I dati possono continuare a essere utilizzati liberamente per elaborazioni statistiche e profilazione."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Se il trattamento è limitato, i dati possono essere solo conservati, e trattati in altro modo solo con il consenso dell'interessato o per tutelare diritti in sede giudiziaria o per tutelare i diritti di altra persona fisica/giuridica o per motivi di interesse pubblico rilevante.",
+    "hint": "I dati restano conservati ('congelati') ma non possono essere utilizzati altrimenti senza consenso o eccezioni di legge.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_PRIV_091",
+    "question": "Ai sensi dell'art. 21 del GDPR, in merito al diritto di opposizione, cosa accade se l'interessato si oppone al trattamento svolto dalla PA per l'esecuzione di un compito di interesse pubblico?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il trattamento cessa immediatamente e categoricamente senza alcuna possibilità per l'ente di motivare la prosecuzione."
+      },
+      {
+        "id": "B",
+        "text": "L'opposizione decade automaticamente trascorsi 10 giorni dalla sua presentazione senza bisogno di riscontro."
+      },
+      {
+        "id": "C",
+        "text": "Il titolare si astiene dal trattare ulteriormente i dati salvo che dimostri l'esistenza di motivi legittimi cogenti per procedere al trattamento che prevalgono sugli interessi dell'interessato, oppure per l'accertamento di un diritto in sede giudiziaria."
+      },
+      {
+        "id": "D",
+        "text": "La pubblica amministrazione è autorizzata a sospendere l'erogazione dello stipendio o della pensione all'interessato."
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Art. 21, par. 1: l'interessato ha il diritto di opporsi in qualsiasi momento per motivi connessi alla sua situazione particolare. Il titolare si astiene dal trattare ulteriormente i dati salvo che dimostri motivi legittimi cogenti prevalenti.",
+    "hint": "La PA può superare l'opposizione solo dimostrando motivi legittimi cogenti e prevalenti.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_DIR_PRIV_092",
+    "question": "In tema di videosorveglianza sui luoghi di lavoro presso le sedi territoriali dell'INPS, quale rapporto sussiste tra il GDPR e l'art. 4 della Legge 300/1970 (Statuto dei Lavoratori)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il GDPR ha implicitamente abrogato l'art. 4 dello Statuto dei Lavoratori, consentendo la videosorveglianza libera in virtù dell'accountability."
+      },
+      {
+        "id": "B",
+        "text": "La videosorveglianza è sempre vietata all'interno di qualsiasi ufficio pubblico, anche se adibito a caveau o sportello bancario."
+      },
+      {
+        "id": "C",
+        "text": "È sufficiente il consenso scritto della maggioranza assoluta dei dipendenti dell'ufficio interessato."
+      },
+      {
+        "id": "D",
+        "text": "Gli impianti di videosorveglianza dai quali derivi la possibilità di controllo a distanza dei lavoratori possono essere installati esclusivamente previo accordo con le RSA/RSU o autorizzazione dell'Ispettorato del Lavoro, nel rispetto dei principi di proporzionalità e minimizzazione del GDPR."
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'art. 114 del Codice Privacy e l'art. 88 del GDPR richiamano e mantengono fermo l'art. 4 dello Statuto dei Lavoratori (novellato dal Jobs Act): telecamere ammesse solo per esigenze organizzative, produttive, sicurezza o tutela patrimonio, previo accordo sindacale o autorizzazione ITL, rispettando sempre i principi privacy.",
+    "hint": "Doppio binario: rispetto dell'art. 4 Statuto Lavoratori (accordo sindacale o autorizzazione ITL) + principi GDPR.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_PRIV_093",
+    "question": "Ai sensi dell'art. 2-sexies del Codice Privacy (D.Lgs. 196/2003 novellato dal D.Lgs. 101/2018), il trattamento delle categorie particolari di dati personali da parte di soggetti pubblici per motivi di interesse pubblico rilevante è consentito:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Solo se previsto dal diritto dell'Unione Europea ovvero da una disposizione di legge o di regolamento che specifichi i tipi di dati trattabili, le operazioni eseguibili e il motivo di interesse pubblico."
+      },
+      {
+        "id": "B",
+        "text": "In qualunque ipotesi ritenuta opportuna dal dirigente dell'ufficio territoriale competente mediante ordine di servizio."
+      },
+      {
+        "id": "C",
+        "text": "Esclusivamente qualora i dati personali siano consultabili liberamente su internet da qualsiasi cittadino."
+      },
+      {
+        "id": "D",
+        "text": "Solo qualora intervenga un'ordinanza contingibile e urgente del Prefetto della Provincia."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 2-sexies stabilisce che i trattamenti di dati particolari per motivi di interesse pubblico rilevante (art. 9, par. 2, lett. g) GDPR) sono ammessi solo se previsti da norme di legge o regolamento che specifichino finalità, tipi di dati e misure appropriate di tutela.",
+    "hint": "Principio di legalità: occorre una specifica fonte normativa primaria o secondaria regolamentare.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_DIR_PRIV_094",
+    "question": "Cosa dispone l'art. 2-octies del Codice Privacy in merito al trattamento dei dati giudiziari (relativi a condanne penali e reati) di cui all'art. 10 del GDPR?",
+    "options": [
+      {
+        "id": "A",
+        "text": "È rimesso al libero accordo contrattuale stipulato con i sindacati maggiormente rappresentativi."
+      },
+      {
+        "id": "B",
+        "text": "È consentito solo se autorizzato da espressa disposizione di legge o di regolamento che preveda garanzie appropriate per i diritti e le libertà degli interessati."
+      },
+      {
+        "id": "C",
+        "text": "È vietato in modo assoluto e inderogabile a qualsiasi pubblica amministrazione civile non giudiziaria."
+      },
+      {
+        "id": "D",
+        "text": "È permesso solo a condizione che l'interessato rinunci espressamente all'assistenza di un difensore legale."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 10 GDPR e l'art. 2-octies Codice Privacy ammettono il trattamento di dati giudiziari sotto il controllo dell'autorità pubblica o se autorizzato da disposizioni di legge o di regolamento che prevedano garanzie adeguate.",
+    "hint": "Dati giudiziari ammessi solo se disciplinati espressamente da legge o regolamento con adeguate tutele.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_PRIV_095",
+    "question": "Ai sensi dell'art. 26 del GDPR, quando due o più titolari del trattamento determinano congiuntamente le finalità e i mezzi del trattamento (es. INPS e Ministero del Lavoro su banche dati condivise), essi sono definiti:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Responsabile primario e sub-responsabile esecutivo privi di vincoli reciproci."
+      },
+      {
+        "id": "B",
+        "text": "Titolare delegante e fiduciario esecutore testamentario dei diritti."
+      },
+      {
+        "id": "C",
+        "text": "Contitolari del trattamento, e determinano le rispettive responsabilità mediante un accordo interno trasparente."
+      },
+      {
+        "id": "D",
+        "text": "Coppia funzionale asimmetrica sottoposta a tutela prefettizia obbligatoria."
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'art. 26 GDPR disciplina la contitolarità: due o più titolari determinano congiuntamente finalità e mezzi, definendo le rispettive responsabilità nell'osservanza del regolamento tramite un accordo interno, il cui contenuto essenziale è messo a disposizione dell'interessato.",
+    "hint": "Contitolarità = determinazione congiunta di finalità e mezzi + accordo interno trasparente.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_PRIV_096",
+    "question": "Nel caso di contitolarità del trattamento ex art. 26 del GDPR, l'interessato nei confronti di chi può esercitare i propri diritti?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Solo ed esclusivamente nei confronti del contitolare avente sede legale in Roma."
+      },
+      {
+        "id": "B",
+        "text": "Soltanto nei confronti del contitolare designato nell'accordo come unico punto di contatto, senza poter agire contro l'altro."
+      },
+      {
+        "id": "C",
+        "text": "Esclusivamente convenendo entrambi i contitolari contemporaneamente davanti alla Corte Suprema di Cassazione."
+      },
+      {
+        "id": "D",
+        "text": "Può esercitare i propri diritti nei confronti di e contro ciascun contitolare del trattamento, a prescindere dalle clausole dell'accordo interno tra essi stipulato."
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'art. 26, par. 3, del GDPR stabilisce a massima tutela del cittadino che, a prescindere dalle disposizioni dell'accordo interno, l'interessato può esercitare i propri diritti nei confronti di e contro ciascun contitolare del trattamento.",
+    "hint": "Massima tutela dell'interessato: può rivolgersi indifferentemente a ciascuno dei contitolari.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_PRIV_097",
+    "question": "Ai sensi dell'art. 32 del GDPR sulla sicurezza del trattamento, il titolare e il responsabile mettono in atto misure tecniche e organizzative adeguate per garantire un livello di sicurezza adeguato al rischio, tenendo conto:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dello stato dell'arte e dei costi di attuazione, nonché della natura, dell'oggetto, del contesto e delle finalità del trattamento, come anche del rischio di varia probabilità e gravità per i diritti e le libertà."
+      },
+      {
+        "id": "B",
+        "text": "Esclusivamente del prezzo di acquisto di licenze software commerciali fornite da vendor internazionali convenzionati."
+      },
+      {
+        "id": "C",
+        "text": "Solamente delle indicazioni generiche fornite verbalmente nel corso delle riunioni sindacali periodiche."
+      },
+      {
+        "id": "D",
+        "text": "Unicamente della presenza o assenza di virus informatici rilevati nel corso dell'ultimo anno solare."
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 32 GDPR adotta un approccio basato sul rischio: le misure (cifratura, resilienza, ripristino tempestivo, test periodici) devono essere adeguate tenuto conto di stato dell'arte, costi di attuazione, natura, contesto e probabilità/gravità dei rischi.",
+    "hint": "Approccio basato sul rischio (Risk-based approach): stato dell'arte, costi, contesto e gravità del rischio.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_PRIV_098",
+    "question": "Cosa prevede l'art. 32, par. 1, lett. d) del GDPR come misura di sicurezza obbligatoria?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'obbligo di disconnettere tutti i terminali dalla rete internet al termine di ogni turno lavorativo."
+      },
+      {
+        "id": "B",
+        "text": "Una procedura per testare, verificare e valutare regolarmente l'efficacia delle misure tecniche e organizzative al fine di garantire la sicurezza del trattamento."
+      },
+      {
+        "id": "C",
+        "text": "La distruzione fisica di tutti i server dell'amministrazione ogni cinque anni solari."
+      },
+      {
+        "id": "D",
+        "text": "L'installazione obbligatoria di almeno tre differenti programmi antivirus sul medesimo computer."
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 32, par. 1, lett. d) richiede una procedura per testare, verificare e valutare periodicamente l'efficacia delle misure tecniche e organizzative adottate (vulnerability assessment, penetration test, controlli di conformità).",
+    "hint": "Test e verifiche periodiche sull'efficacia delle difese e delle misure tecniche.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_PRIV_099",
+    "question": "Ai sensi dell'art. 168 del Codice Privacy, quale condotta integra il reato di \"Falsità nelle dichiarazioni al Garante o interruzione dell'esecuzione dei compiti o dell'esercizio dei poteri del Garante\"?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'omessa risposta a una semplice email informativa inviata dal servizio newsletter dell'ente."
+      },
+      {
+        "id": "B",
+        "text": "Il mero ritardo incolpevole nella consegna di una memoria dovuto a sciopero dei servizi postali."
+      },
+      {
+        "id": "C",
+        "text": "Chiunque, in un procedimento o nel corso di accertamenti dinanzi al Garante, dichiara o attesta falsamente notizie o circostanze o produce atti o documenti falsi, ovvero cagiona un'interruzione dei compiti del Garante."
+      },
+      {
+        "id": "D",
+        "text": "L'impugnazione di una delibera del Garante innanzi al Tribunale ordinario nei termini di legge."
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'art. 168 del D.Lgs. 196/2003 sanziona con la reclusione chiunque dichiari il falso o esibisca atti contraffatti dinanzi al Garante Privacy o ne ostacoli/interrompa l'attività ispettiva e i poteri istituzionali.",
+    "hint": "Dichiarare il falso al Garante o bloccare le sue ispezioni costituisce reato penale punito con la reclusione.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_DIR_PRIV_100",
+    "question": "In merito all'accesso civico generalizzato (FOIA, art. 5, comma 2, D.Lgs. 33/2013) e alla tutela dei dati personali, quale limite esclude o differisce l'ostensione dei documenti da parte dell'amministrazione?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La presenza di qualsiasi dato personale nei documenti comporta sempre l'obbligo inderogabile di secretare l'intero fascicolo."
+      },
+      {
+        "id": "B",
+        "text": "L'accesso civico prevale in ogni caso sulla privacy, per cui tutti i dati anagrafici e patrimoniali devono essere ostesi senza oscuramento."
+      },
+      {
+        "id": "C",
+        "text": "Il rifiuto può essere opposto solo se il richiedente non dimostra un interesse diretto, concreto e attuale alla consultazione."
+      },
+      {
+        "id": "D",
+        "text": "L'accesso è rifiutato se il diniego è necessario per evitare un pregiudizio concreto alla tutela della protezione dei dati personali, in conformità con la disciplina legislativa in materia (art. 5-bis, comma 2, lett. a)."
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'art. 5-bis, comma 2, lett. a) del D.Lgs. 33/2013 stabilisce che l'accesso civico generalizzato è rifiutato se ciò è necessario per evitare un pregiudizio concreto alla protezione dei dati personali (Linee guida ANAC n. 1309/2016 e Garante Privacy: obbligo di sentire i controinteressati ed eventuale mascheramento/omissis).",
+    "hint": "Il bilanciamento FOIA-Privacy tutela il dato personale se la divulgazione reca pregiudizio concreto.",
     "level": "avanzato"
   }
 ]
