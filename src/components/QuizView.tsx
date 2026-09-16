@@ -44,8 +44,25 @@ export function QuizView({
   const isCorrect = currentQuestion && selected ? selected === currentQuestion.correctAnswerId : false;
   const score = activeEngine.getScore();
   const answeredCount = activeEngine.getAnsweredCount();
-  const concorsoTitle = activeEngine.getConfig().concorsoTitle;
-  const subjectName = activeEngine.getConfig().subjectName;
+  const config = activeEngine.getConfig();
+  const concorsoTitle = config.concorsoTitle;
+  const subjectName = config.subjectName;
+  const difficultyProfile = config.difficultyProfile;
+  const levelSetting = config.level;
+
+  const profileLabel = difficultyProfile === 'official'
+    ? 'Mix Ufficiale (Bando)'
+    : difficultyProfile === 'base'
+    ? 'Base / Principiante'
+    : difficultyProfile === 'intermedio'
+    ? 'Intermedio'
+    : difficultyProfile === 'avanzato'
+    ? 'Avanzato / Selettivo'
+    : difficultyProfile === 'all'
+    ? 'Tutti i Livelli'
+    : levelSetting && levelSetting !== 'all'
+    ? `Livello ${levelSetting.charAt(0).toUpperCase() + levelSetting.slice(1)}`
+    : null;
 
   const [flaggedIndices, setFlaggedIndices] = useState<Set<number>>(() => new Set());
   const [matrixFilter, setMatrixFilter] = useState<'all' | 'unanswered' | 'flagged'>('all');
@@ -108,8 +125,14 @@ export function QuizView({
             <span style={{ display: 'block', fontSize: '0.92rem', fontWeight: 800 }}>
               {concorsoTitle || 'Simulazione Prova d\'Esame'}
             </span>
-            <span style={{ fontSize: '0.75rem', color: 'var(--text-dim)' }}>
-              {subjectName ? `Materia: ${subjectName}` : 'Sessione Completa Interdisciplinare'}
+            <span style={{ fontSize: '0.75rem', color: 'var(--text-dim)', display: 'flex', alignItems: 'center', gap: '0.4rem', flexWrap: 'wrap' }}>
+              <span>{subjectName ? `Materia: ${subjectName}` : 'Sessione Completa Interdisciplinare'}</span>
+              {profileLabel && (
+                <>
+                  <span>•</span>
+                  <span style={{ color: 'var(--primary)', fontWeight: 600 }}>Modalità: {profileLabel}</span>
+                </>
+              )}
             </span>
           </div>
         </div>
@@ -211,13 +234,33 @@ export function QuizView({
           style={{ '--cbt-stem-size': stemFontSize, '--cbt-option-size': optionFontSize } as any}
         >
           <div className="cbt-question-header">
-            <div style={{ display: 'flex', alignItems: 'center', gap: '0.45rem' }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '0.45rem', flexWrap: 'wrap' }}>
               <span className="meta-badge" style={{ background: 'var(--primary-gradient)', color: '#fff', border: 'none' }}>
                 Quesito {index} di {total}
               </span>
               {currentQuestion.level && (
-                <span className="meta-badge">
-                  Livello: {currentQuestion.level.toUpperCase()}
+                <span
+                  className="meta-badge"
+                  style={{
+                    display: 'inline-flex',
+                    alignItems: 'center',
+                    gap: '0.35rem',
+                    color: currentQuestion.level === 'base' ? 'var(--correct)' : currentQuestion.level === 'avanzato' ? 'var(--incorrect)' : 'var(--warning)',
+                    background: currentQuestion.level === 'base' ? 'rgba(16, 185, 129, 0.08)' : currentQuestion.level === 'avanzato' ? 'rgba(239, 68, 68, 0.08)' : 'rgba(245, 158, 11, 0.08)',
+                    borderColor: currentQuestion.level === 'base' ? 'rgba(16, 185, 129, 0.3)' : currentQuestion.level === 'avanzato' ? 'rgba(239, 68, 68, 0.3)' : 'rgba(245, 158, 11, 0.3)',
+                    fontWeight: 600,
+                  }}
+                  title="Difficoltà specifica di questa singola domanda all'interno della prova"
+                >
+                  <span
+                    style={{
+                      width: '6px',
+                      height: '6px',
+                      borderRadius: '50%',
+                      background: currentQuestion.level === 'base' ? 'var(--correct)' : currentQuestion.level === 'avanzato' ? 'var(--incorrect)' : 'var(--warning)',
+                    }}
+                  />
+                  Difficoltà quesito: {currentQuestion.level.toUpperCase()}
                 </span>
               )}
             </div>
