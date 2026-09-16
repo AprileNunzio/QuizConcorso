@@ -1,5 +1,5 @@
 import { useMemo, useRef, useState, useEffect } from 'react';
-import { Settings, Trash2, ShieldAlert, Info, Database, CheckCircle2, Download, Upload, X, RefreshCw } from 'lucide-react';
+import { Settings, Trash2, ShieldAlert, Info, Database, CheckCircle2, Download, Upload, X, RefreshCw, HardDrive, ShieldCheck, Sparkles } from 'lucide-react';
 import type { UserStatistics } from '../services/StatisticsManager';
 import { StatisticsManager } from '../services/StatisticsManager';
 import { WeaknessTracker } from '../services/WeaknessTracker';
@@ -138,57 +138,60 @@ export function Impostazioni({ userStats, onBack, onDataChanged }: ImpostazioniP
     <div className="dashboard">
       <PageNav onBack={onBack} backLabel="Torna all'Hub" onDashboard={onBack} crumb="Dashboard / Impostazioni" />
 
-      <header className="modern-header" style={{ marginBottom: '1.1rem' }}>
-        <Settings size={32} className="icon-logo" />
-        <h1>Impostazioni</h1>
-        <p style={{ color: 'var(--text-muted)', margin: '0.4rem 0 0' }}>Gestisci i dati salvati su questo dispositivo.</p>
+      <header className="modern-header" style={{ marginBottom: '1.25rem' }}>
+        <Settings size={36} className="icon-logo" />
+        <h1>Pannello Impostazioni</h1>
+        <p style={{ color: 'var(--text-muted)', margin: '0.4rem 0 0' }}>
+          Gestione dati locali, backup e sincronizzazione remota della piattaforma.
+        </p>
       </header>
 
       {justReset && (
-        <div className="modern-card" style={{ marginBottom: '1.5rem', borderColor: 'var(--correct)', display: 'flex', alignItems: 'center', gap: '0.6rem' }}>
-          <CheckCircle2 size={20} style={{ color: 'var(--correct)', flexShrink: 0 }} />
-          <span style={{ color: 'var(--text-muted)', fontSize: '0.9rem' }}>Tutti i dati sono stati cancellati. L'app riparte da zero.</span>
+        <div className="modern-card" style={{ marginBottom: '1.5rem', borderColor: 'var(--correct)', background: 'var(--correct-bg)', display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
+          <CheckCircle2 size={22} style={{ color: 'var(--correct)', flexShrink: 0 }} />
+          <span style={{ color: 'var(--text-main)', fontSize: '0.92rem', fontWeight: 600 }}>Tutti i dati sono stati cancellati. L'app riparte da zero.</span>
         </div>
       )}
 
       {importSuccess && (
-        <div className="modern-card" style={{ marginBottom: '1.5rem', borderColor: 'var(--correct)', display: 'flex', alignItems: 'center', gap: '0.6rem' }}>
-          <CheckCircle2 size={20} style={{ color: 'var(--correct)', flexShrink: 0 }} />
-          <span style={{ color: 'var(--text-muted)', fontSize: '0.9rem' }}>Backup ripristinato con successo.</span>
+        <div className="modern-card" style={{ marginBottom: '1.5rem', borderColor: 'var(--correct)', background: 'var(--correct-bg)', display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
+          <CheckCircle2 size={22} style={{ color: 'var(--correct)', flexShrink: 0 }} />
+          <span style={{ color: 'var(--text-main)', fontSize: '0.92rem', fontWeight: 600 }}>Backup ripristinato con successo.</span>
         </div>
       )}
 
       <div className="section-heading" style={{ margin: '0 0 0.75rem' }}>
         <div>
           <span className="eyebrow">Dati e Privacy</span>
-          <h3>Il tuo Database Locale</h3>
+          <h3>Storage Locale &amp; Statistiche</h3>
         </div>
       </div>
 
       <div className="modern-card" style={{ marginBottom: '1.5rem' }}>
-        <p style={{ color: 'var(--text-muted)', fontSize: '0.9rem', marginTop: 0 }}>
-          Statistiche, cronologia dei quiz e progressi di ripasso sono salvati solo su questo dispositivo:
-          non vengono mai inviati a nessun server.
+        <div className="card-accent-bar" />
+        <p style={{ color: 'var(--text-muted)', fontSize: '0.9rem', marginTop: 0, lineHeight: 1.5 }}>
+          Statistiche, cronologia dei quiz e progressi di ripasso sono salvati unicamente su questo computer:
+          nessun dato personale viene mai trasmesso all'esterno.
         </p>
 
         <div className="kpi-row" style={{ gridTemplateColumns: 'repeat(3, 1fr)', marginBottom: '1.25rem' }}>
           <div className="modern-card kpi-card">
-            <span className="kpi-label"><Database size={13} /> Quiz Salvati</span>
-            <span className="kpi-value">{userStats.totalQuizzesTaken}</span>
+            <span className="kpi-label"><HardDrive size={13} /> Quiz Svolti</span>
+            <span className="kpi-value" style={{ color: 'var(--primary)' }}>{userStats.totalQuizzesTaken}</span>
           </div>
           <div className="modern-card kpi-card">
-            <span className="kpi-label"><Database size={13} /> Domande Risposte</span>
-            <span className="kpi-value">{userStats.totalQuestionsAnswered}</span>
+            <span className="kpi-label"><CheckCircle2 size={13} /> Domande Risposte</span>
+            <span className="kpi-value" style={{ color: 'var(--correct)' }}>{userStats.totalQuestionsAnswered}</span>
           </div>
           <div className="modern-card kpi-card">
-            <span className="kpi-label"><Database size={13} /> In Ripasso</span>
-            <span className="kpi-value">{totalTracked}</span>
+            <span className="kpi-label"><Database size={13} /> In Ripasso (SM-2)</span>
+            <span className="kpi-value" style={{ color: 'var(--warning)' }}>{totalTracked}</span>
           </div>
         </div>
 
         {!confirmOpen ? (
           <button className="btn-danger" style={{ width: 'auto' }} onClick={() => { setConfirmOpen(true); setJustReset(false); }}>
-            <Trash2 size={18} /> Cancella Tutti i Dati
+            <Trash2 size={16} /> Cancella Tutti i Dati Locali
           </button>
         ) : (
           <div className="danger-zone">
@@ -196,9 +199,8 @@ export function Impostazioni({ userStats, onBack, onDataChanged }: ImpostazioniP
               <ShieldAlert size={20} />
               <strong>Questa azione è irreversibile</strong>
             </div>
-            <p style={{ margin: '0 0 0.85rem', fontSize: '0.88rem', color: 'var(--text-muted)' }}>
-              Verranno cancellati per sempre: QI, storico delle sessioni, statistiche per materia e per
-              concorso, e tutti i progressi di ripasso (SM-2). Per confermare scrivi <strong>{CONFIRM_WORD}</strong> qui sotto.
+            <p style={{ margin: '0 0 0.85rem', fontSize: '0.88rem', color: 'var(--text-muted)', lineHeight: 1.4 }}>
+              Verranno cancellati per sempre: QI, storico delle sessioni, statistiche per materia e tutti i progressi di ripasso SM-2. Per confermare scrivi <strong>{CONFIRM_WORD}</strong> qui sotto.
             </p>
             <input
               className="danger-zone-input"
@@ -207,12 +209,12 @@ export function Impostazioni({ userStats, onBack, onDataChanged }: ImpostazioniP
               placeholder={CONFIRM_WORD}
               autoFocus
             />
-            <div style={{ display: 'flex', gap: '0.6rem', marginTop: '0.85rem' }}>
+            <div style={{ display: 'flex', gap: '0.65rem', marginTop: '0.85rem' }}>
               <button className="btn-secondary" style={{ width: 'auto' }} onClick={() => { setConfirmOpen(false); setConfirmText(''); }}>
                 Annulla
               </button>
               <button className="btn-danger" style={{ width: 'auto' }} disabled={!canConfirm} onClick={handleConfirmReset}>
-                <Trash2 size={18} /> Conferma Cancellazione
+                <Trash2 size={16} /> Conferma Cancellazione
               </button>
             </div>
           </div>
@@ -224,11 +226,12 @@ export function Impostazioni({ userStats, onBack, onDataChanged }: ImpostazioniP
           <div className="section-heading" style={{ margin: '0 0 0.75rem' }}>
             <div>
               <span className="eyebrow">Reset mirato</span>
-              <h3>Dati per Concorso</h3>
+              <h3>Dati per Singolo Concorso</h3>
             </div>
           </div>
 
           <div className="modern-card" style={{ marginBottom: '1.5rem' }}>
+            <div className="card-accent-bar card-accent-amber" />
             <p style={{ color: 'var(--text-muted)', fontSize: '0.88rem', marginTop: 0 }}>
               Vuoi ripartire da zero solo su un concorso specifico, senza toccare il resto? Il progresso di
               ripasso per domanda resta invariato: è condiviso tra tutti i concorsi.
@@ -240,7 +243,7 @@ export function Impostazioni({ userStats, onBack, onDataChanged }: ImpostazioniP
                     <strong>{c.concorsoTitle}</strong>
                     <span className="concorso-reset-count">{c.attempts} {c.attempts === 1 ? 'tentativo' : 'tentativi'} registrati</span>
                   </div>
-                  <button className="session-review-btn" style={{ color: 'var(--incorrect)' }} onClick={() => handleResetConcorso(c.concorsoId, c.concorsoTitle)}>
+                  <button className="btn-secondary" style={{ color: 'var(--incorrect)', borderColor: 'rgba(244, 63, 94, 0.3)', width: 'auto', padding: '0.35rem 0.75rem' }} onClick={() => handleResetConcorso(c.concorsoId, c.concorsoTitle)}>
                     <X size={14} /> Cancella
                   </button>
                 </div>
@@ -252,25 +255,25 @@ export function Impostazioni({ userStats, onBack, onDataChanged }: ImpostazioniP
 
       <div className="section-heading" style={{ margin: '0 0 0.75rem' }}>
         <div>
-          <span className="eyebrow">Backup</span>
-          <h3>Esporta e Ripristina</h3>
+          <span className="eyebrow">Backup &amp; Ripristino</span>
+          <h3>Esporta e Salva su File</h3>
         </div>
       </div>
 
       <div className="modern-card" style={{ marginBottom: '1.5rem' }}>
-        <p style={{ color: 'var(--text-muted)', fontSize: '0.9rem', marginTop: 0 }}>
-          Salva un file con tutti i tuoi dati per non perderli se reinstalli l'app o cambi computer, e
-          ripristinali quando vuoi.
+        <div className="card-accent-bar card-accent-cyan" />
+        <p style={{ color: 'var(--text-muted)', fontSize: '0.9rem', marginTop: 0, lineHeight: 1.5 }}>
+          Salva un file JSON di backup con tutti i tuoi progressi per trasferirli su un altro dispositivo o conservarli in sicurezza.
         </p>
         {importError && (
           <p style={{ color: 'var(--incorrect)', fontSize: '0.85rem', marginTop: 0 }}>{importError}</p>
         )}
-        <div style={{ display: 'flex', gap: '0.6rem', flexWrap: 'wrap' }}>
+        <div style={{ display: 'flex', gap: '0.75rem', flexWrap: 'wrap' }}>
           <button className="btn-secondary" style={{ width: 'auto' }} onClick={handleExport}>
-            <Download size={18} /> Esporta Backup
+            <Download size={16} /> Esporta Backup
           </button>
           <button className="btn-secondary" style={{ width: 'auto' }} onClick={handleImportClick}>
-            <Upload size={18} /> Importa Backup
+            <Upload size={16} /> Importa Backup
           </button>
           <input ref={fileInputRef} type="file" accept="application/json,.json" style={{ display: 'none' }} onChange={handleFileChange} />
         </div>
@@ -284,13 +287,14 @@ export function Impostazioni({ userStats, onBack, onDataChanged }: ImpostazioniP
       </div>
 
       <div className="modern-card" style={{ marginBottom: '1.5rem' }}>
-        <p style={{ color: 'var(--text-muted)', fontSize: '0.9rem', marginTop: 0 }}>
-          I concorsi e le banche dati delle domande vengono sincronizzati direttamente dal repository online di GitHub:
-          puoi aggiornare le domande in qualsiasi momento senza dover scaricare un nuovo file di installazione del programma.
+        <div className="card-accent-bar card-accent-purple" />
+        <p style={{ color: 'var(--text-muted)', fontSize: '0.9rem', marginTop: 0, lineHeight: 1.5 }}>
+          I concorsi e le banche dati delle domande vengono sincronizzati direttamente dal repository online:
+          puoi aggiornare le domande in qualsiasi momento senza dover riscaricare il software.
         </p>
 
         {syncMeta && (
-          <div style={{ display: 'flex', gap: '1.5rem', marginBottom: '1rem', fontSize: '0.88rem', color: 'var(--text-muted)' }}>
+          <div style={{ display: 'flex', gap: '1.5rem', marginBottom: '1.25rem', fontSize: '0.88rem', color: 'var(--text-muted)' }}>
             <div>
               <span style={{ color: 'var(--text-dim)' }}>Ultima sincronizzazione: </span>
               <strong>{new Date(syncMeta.lastSyncTimestamp).toLocaleString('it-IT')}</strong>
@@ -305,37 +309,35 @@ export function Impostazioni({ userStats, onBack, onDataChanged }: ImpostazioniP
         )}
 
         {syncProgress && (
-          <div style={{ padding: '0.65rem 0.85rem', background: 'rgba(59, 130, 246, 0.1)', borderRadius: '8px', color: 'var(--primary)', fontSize: '0.85rem', marginBottom: '1rem' }}>
+          <div style={{ padding: '0.65rem 0.85rem', background: 'rgba(99, 102, 241, 0.1)', borderRadius: '8px', color: 'var(--primary)', fontSize: '0.85rem', marginBottom: '1rem', border: '1px solid var(--border-glass)' }}>
             {syncProgress}
           </div>
         )}
 
-        <div style={{ display: 'flex', gap: '0.75rem', flexWrap: 'wrap' }}>
-          <button
-            className="btn-primary"
-            style={{ width: 'auto' }}
-            disabled={syncing}
-            onClick={handleManualSync}
-          >
-            <RefreshCw size={18} className={syncing ? 'spin-slow' : ''} />
-            {syncing ? 'Sincronizzazione in corso...' : 'Sincronizza Banche Dati Online'}
-          </button>
-        </div>
+        <button
+          className="btn-primary"
+          style={{ width: 'auto' }}
+          disabled={syncing}
+          onClick={handleManualSync}
+        >
+          <RefreshCw size={16} className={syncing ? 'spin-slow' : ''} />
+          {syncing ? 'Sincronizzazione in corso...' : 'Sincronizza Banche Dati Online'}
+        </button>
       </div>
 
       <div className="section-heading" style={{ margin: '0 0 0.75rem' }}>
         <div>
-          <span className="eyebrow">App</span>
-          <h3>Informazioni &amp; Software</h3>
+          <span className="eyebrow">Software</span>
+          <h3>Informazioni Applicazione</h3>
         </div>
       </div>
 
       <div className="modern-card">
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '1rem' }}>
           <div>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', marginBottom: '0.4rem' }}>
-              <Info size={18} style={{ color: 'var(--text-dim)' }} />
-              <strong>Quiz &amp; Concorsi Hub</strong>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', marginBottom: '0.35rem' }}>
+              <Info size={20} style={{ color: 'var(--primary)' }} />
+              <strong style={{ fontSize: '1.05rem' }}>Quiz &amp; Concorsi Platform</strong>
             </div>
             <p style={{ margin: 0, color: 'var(--text-muted)', fontSize: '0.88rem' }}>
               Versione {__APP_VERSION__} &middot; by Aprile Nunzio (NunzioTech)
@@ -348,7 +350,7 @@ export function Impostazioni({ userStats, onBack, onDataChanged }: ImpostazioniP
             disabled={checkingAppUpdate}
             onClick={handleCheckAppUpdate}
           >
-            <Download size={18} className={checkingAppUpdate ? 'spin-slow' : ''} />
+            <Download size={16} className={checkingAppUpdate ? 'spin-slow' : ''} />
             {checkingAppUpdate ? 'Verifica in corso...' : 'Verifica Aggiornamenti Software'}
           </button>
         </div>

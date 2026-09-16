@@ -214,100 +214,82 @@ export function ConcorsoSyllabus({
           <Gauge size={18} style={{ color: 'var(--primary)' }} />
           <strong style={{ fontSize: '0.95rem' }}>Grado di Preparazione e Difficoltà</strong>
         </div>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))', gap: '0.65rem' }}>
+        <div className="difficulty-card-grid">
           <button
-            className={`btn-secondary ${difficultyProfile === 'base' ? 'active-difficulty' : ''}`}
-            style={{
-              padding: '0.65rem 0.85rem',
-              textAlign: 'left',
-              display: 'flex',
-              flexDirection: 'column',
-              gap: 2,
-              borderColor: difficultyProfile === 'base' ? 'var(--correct)' : undefined,
-              background: difficultyProfile === 'base' ? 'rgba(34, 197, 94, 0.1)' : undefined,
-            }}
+            className={`difficulty-selector-card ${difficultyProfile === 'base' ? 'active-base' : ''}`}
             onClick={() => setDifficultyProfile('base')}
           >
-            <strong style={{ color: 'var(--correct)', fontSize: '0.88rem' }}>🟢 Base / Principiante</strong>
-            <span style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>100% nozioni fondamentali</span>
+            <strong style={{ color: 'var(--correct)', fontSize: '0.92rem' }}>🟢 Base / Principiante</strong>
+            <span style={{ fontSize: '0.78rem', color: 'var(--text-muted)' }}>100% nozioni fondamentali</span>
           </button>
 
           <button
-            className={`btn-secondary ${difficultyProfile === 'official' ? 'active-difficulty' : ''}`}
-            style={{
-              padding: '0.65rem 0.85rem',
-              textAlign: 'left',
-              display: 'flex',
-              flexDirection: 'column',
-              gap: 2,
-              borderColor: difficultyProfile === 'official' ? 'var(--primary)' : undefined,
-              background: difficultyProfile === 'official' ? 'rgba(59, 130, 246, 0.1)' : undefined,
-            }}
+            className={`difficulty-selector-card ${difficultyProfile === 'official' ? 'active-official' : ''}`}
             onClick={() => setDifficultyProfile('official')}
           >
-            <strong style={{ color: 'var(--primary)', fontSize: '0.88rem' }}>🔵 Ufficiale (Bando)</strong>
-            <span style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>Ponderata standard reale</span>
+            <strong style={{ color: 'var(--primary)', fontSize: '0.92rem' }}>🔵 Ufficiale (Bando)</strong>
+            <span style={{ fontSize: '0.78rem', color: 'var(--text-muted)' }}>Ponderata standard reale</span>
           </button>
 
           <button
-            className={`btn-secondary ${difficultyProfile === 'avanzato' ? 'active-difficulty' : ''}`}
-            style={{
-              padding: '0.65rem 0.85rem',
-              textAlign: 'left',
-              display: 'flex',
-              flexDirection: 'column',
-              gap: 2,
-              borderColor: difficultyProfile === 'avanzato' ? 'var(--incorrect)' : undefined,
-              background: difficultyProfile === 'avanzato' ? 'rgba(239, 68, 68, 0.1)' : undefined,
-            }}
+            className={`difficulty-selector-card ${difficultyProfile === 'avanzato' ? 'active-avanzato' : ''}`}
             onClick={() => setDifficultyProfile('avanzato')}
           >
-            <strong style={{ color: 'var(--incorrect)', fontSize: '0.88rem' }}>🟠 Avanzato / Selettivo</strong>
-            <span style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>Casi operativi e norme fini</span>
+            <strong style={{ color: 'var(--incorrect)', fontSize: '0.92rem' }}>🟠 Avanzato / Selettivo</strong>
+            <span style={{ fontSize: '0.78rem', color: 'var(--text-muted)' }}>Casi operativi e norme fini</span>
           </button>
 
           <button
-            className={`btn-secondary ${difficultyProfile === 'all' ? 'active-difficulty' : ''}`}
-            style={{
-              padding: '0.65rem 0.85rem',
-              textAlign: 'left',
-              display: 'flex',
-              flexDirection: 'column',
-              gap: 2,
-              borderColor: difficultyProfile === 'all' ? 'var(--warning)' : undefined,
-              background: difficultyProfile === 'all' ? 'rgba(234, 179, 8, 0.1)' : undefined,
-            }}
+            className={`difficulty-selector-card ${difficultyProfile === 'all' ? 'active-all' : ''}`}
             onClick={() => setDifficultyProfile('all')}
           >
-            <strong style={{ color: 'var(--warning)', fontSize: '0.88rem' }}>🟣 Tutti i Livelli</strong>
-            <span style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>Campionamento casuale</span>
+            <strong style={{ color: 'var(--warning)', fontSize: '0.92rem' }}>🟣 Tutti i Livelli</strong>
+            <span style={{ fontSize: '0.78rem', color: 'var(--text-muted)' }}>Campionamento casuale</span>
           </button>
         </div>
       </div>
 
-      <div className="segmented">
-        <button className={simMode === 'automatica' ? 'active' : ''} onClick={() => setSimMode('automatica')}>
-          <Sparkles size={16} /> Automatica
+      <div className="segmented-control" style={{ marginBottom: '1.5rem' }}>
+        <button
+          className={`segmented-pill ${simMode === 'automatica' ? 'active' : ''}`}
+          onClick={() => setSimMode('automatica')}
+        >
+          <Sparkles size={18} /> Automatica
         </button>
-        <button className={simMode === 'personalizzata' ? 'active' : ''} onClick={() => setSimMode('personalizzata')}>
-          <Sliders size={16} /> Personalizzata
+        <button
+          className={`segmented-pill ${simMode === 'personalizzata' ? 'active' : ''}`}
+          onClick={() => setSimMode('personalizzata')}
+        >
+          <Sliders size={18} /> Personalizzata
         </button>
       </div>
 
       {simMode === 'automatica' ? (
-        <div className="modern-card" style={{ textAlign: 'center', padding: '1.75rem', marginBottom: '1.5rem', background: 'radial-gradient(circle at 50% 0%, rgba(109,91,255,0.08), transparent 70%), var(--bg-panel)' }}>
-          <Brain size={40} style={{ color: 'var(--primary-2)', marginBottom: '0.6rem', filter: 'drop-shadow(0 0 14px var(--primary-glow))' }} />
-          <h2 style={{ fontSize: '1.5rem', marginBottom: '0.6rem' }}>Simulazione Automatica</h2>
-          <p style={{ fontSize: '0.95rem', marginBottom: '1.25rem', color: 'var(--text-muted)', maxWidth: '560px', marginLeft: 'auto', marginRight: 'auto' }}>
+        <div
+          className="modern-card"
+          style={{
+            textAlign: 'center',
+            padding: '2.25rem 1.5rem',
+            marginBottom: '1.5rem',
+            background: 'radial-gradient(circle at 50% 0%, rgba(99, 102, 241, 0.12), transparent 70%), var(--bg-panel)',
+            border: '1.5px solid var(--border-glass-strong)',
+            boxShadow: 'var(--shadow-md)',
+          }}
+        >
+          <Brain size={48} style={{ color: 'var(--primary)', marginBottom: '0.75rem', filter: 'drop-shadow(0 4px 14px var(--primary-glow))' }} />
+          <h2 style={{ fontSize: '1.65rem', marginBottom: '0.5rem', fontWeight: 800, letterSpacing: '-0.02em' }}>
+            Simulazione Automatica
+          </h2>
+          <p style={{ fontSize: '0.95rem', marginBottom: '1.5rem', color: 'var(--text-muted)', maxWidth: '560px', marginLeft: 'auto', marginRight: 'auto', lineHeight: 1.5 }}>
             Un mix ponderato di {numeroQuesiti} domande estratte da tutti i moduli previsti dal bando con profilo selezionato.
             Tempo limite: {durata} minuti.
           </p>
           <button
-            className="btn-warning"
-            style={{ fontSize: '0.95rem', padding: '0.8rem 2rem', width: 'auto' }}
+            className="btn-primary"
+            style={{ fontSize: '1.05rem', padding: '0.85rem 2.5rem', width: 'auto', borderRadius: 'var(--radius-full)', margin: '0 auto' }}
             onClick={() => onStartQuiz(allSources, 'quiz_timed', durata, numeroQuesiti, 'Simulazione Completa', undefined, difficultyProfile)}
           >
-            <Play size={19} /> Avvia Prova ({numeroQuesiti} Domande)
+            <Play size={20} /> Avvia Prova ({numeroQuesiti} Domande)
           </button>
         </div>
       ) : (
