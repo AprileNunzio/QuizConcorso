@@ -323,25 +323,7 @@ function App() {
   }
 
   const renderContent = () => {
-    if (activeEngine) {
-      if (!quizFinished) {
-        return (
-          <QuizView
-            activeEngine={activeEngine}
-            showHint={showHint}
-            timeLeft={timeLeft}
-            onAnswer={handleAnswer}
-            onNext={handleNextQuestion}
-            onPrev={handlePrevQuestion}
-            onSkip={handleSkipQuestion}
-            onJump={handleJumpQuestion}
-            onFinish={handleFinishQuiz}
-            onToggleHint={() => setShowHint(!showHint)}
-            onExit={handleExitQuiz}
-            formatTime={formatTime}
-          />
-        );
-      }
+    if (activeEngine && quizFinished) {
       return (
         <ResultsView
           activeEngine={activeEngine}
@@ -443,15 +425,34 @@ function App() {
 
   return (
     <>
-      <Shell
-        currentView={currentView}
-        onNavigate={handleNavigate}
-        globalIQ={userStats?.globalIQ ?? 100}
-        dueCount={dueCount}
-        onOpenDbSync={() => setIsDbSyncOpen(true)}
-      >
-        {renderContent()}
-      </Shell>
+      {activeEngine && !quizFinished ? (
+        <div className="quiz-cbt-fullscreen-wrapper">
+          <QuizView
+            activeEngine={activeEngine}
+            showHint={showHint}
+            timeLeft={timeLeft}
+            onAnswer={handleAnswer}
+            onNext={handleNextQuestion}
+            onPrev={handlePrevQuestion}
+            onSkip={handleSkipQuestion}
+            onJump={handleJumpQuestion}
+            onFinish={handleFinishQuiz}
+            onToggleHint={() => setShowHint(!showHint)}
+            onExit={handleExitQuiz}
+            formatTime={formatTime}
+          />
+        </div>
+      ) : (
+        <Shell
+          currentView={currentView}
+          onNavigate={handleNavigate}
+          globalIQ={userStats?.globalIQ ?? 100}
+          dueCount={dueCount}
+          onOpenDbSync={() => setIsDbSyncOpen(true)}
+        >
+          {renderContent()}
+        </Shell>
+      )}
       {syncToast && (
         <div className="update-toast" style={{ zIndex: 99998 }}>
           <div className="update-toast-content">

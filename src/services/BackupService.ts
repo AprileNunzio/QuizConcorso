@@ -14,11 +14,6 @@ export interface AppBackup {
   };
 }
 
-/**
- * Raggruppa tutto ciò che l'app tiene in localStorage (statistiche +
- * progresso SM-2 di ripasso) in un unico file JSON esportabile, così i dati
- * sopravvivono a una reinstallazione o al passaggio a un altro PC.
- */
 export const BackupService = {
   createBackup(): AppBackup {
     return {
@@ -33,7 +28,6 @@ export const BackupService = {
     };
   },
 
-  /** Valida la struttura minima attesa; lancia un errore con un messaggio mostrabile all'utente se non è un backup valido. */
   parseBackup(raw: string): AppBackup {
     let parsed: unknown;
     try {

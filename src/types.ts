@@ -12,7 +12,6 @@ export interface Question {
   hint?: string;
   imageUrl?: string;
   level: 'base' | 'intermedio' | 'avanzato';
-  /** Derived from the source module's folder (see utils/categorize.ts), attached at fetch time. */
   category?: string;
 }
 
@@ -36,7 +35,6 @@ export interface ProvaEsame {
   modalitaSvolgimento?: string;
 }
 
-/** Dati strutturati estratti dal bando ufficiale di concorso (PDF), per la pagina di dettaglio. */
 export interface BandoDettagli {
   fonte?: string;
   ente: string;

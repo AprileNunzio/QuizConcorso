@@ -49,7 +49,6 @@ export function SimulazioneBuilder({ moduli, subjectStats, durataUfficiale, nume
     const initial: Record<string, Selection> = {};
     for (const m of moduli) {
       const mastery = masteryFor(subjectStats, m.modulo_titolo);
-      // Auto-suggerisci di escludere (0 domande) le materie già padroneggiate (>=85%)
       const count = mastery !== null && mastery >= 85 ? 0 : defaultPerModule;
       initial[m.modulo_titolo] = { count, level: 'all' };
     }

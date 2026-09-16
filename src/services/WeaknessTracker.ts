@@ -5,11 +5,10 @@ export interface QuestionRecord {
   wrong: number;
   lastSeen: number;
   lastCorrect: boolean;
-  /** SM-2 spaced repetition fields */
   easeFactor: number;
-  interval: number; // days
-  repetitions: number; // consecutive successful reviews
-  dueDate: number; // timestamp (ms) — when this question should resurface
+  interval: number;
+  repetitions: number;
+  dueDate: number;
 }
 
 export type WeaknessStore = Record<string, QuestionRecord>;
@@ -42,12 +41,6 @@ function defaultRecord(): QuestionRecord {
   return { correct: 0, wrong: 0, lastSeen: 0, lastCorrect: true, easeFactor: 2.5, interval: 0, repetitions: 0, dueDate: 0 };
 }
 
-/**
- * Maps an answer into a 0-5 SM-2 "quality" score. We don't ask the user to
- * self-rate recall, so we infer it from correctness + response time:
- * fast-correct reads as confident recall, slow-correct as recall with
- * effort, and impulsive-wrong (answered in under 4s) as a near-blackout.
- */
 function computeQuality(isCorrect: boolean, timeSpentSec: number): number {
   if (isCorrect) {
     if (timeSpentSec < 6) return 5;
@@ -57,7 +50,6 @@ function computeQuality(isCorrect: boolean, timeSpentSec: number): number {
   return timeSpentSec < 4 ? 1 : 2;
 }
 
-/** Classic SM-2 scheduling: mutates the record's ease/interval/repetitions/dueDate. */
 function applySM2(rec: QuestionRecord, quality: number, now: number) {
   if (quality < 3) {
     rec.repetitions = 0;
@@ -81,13 +73,7 @@ function masteryOf(rec: QuestionRecord | undefined): MasteryLevel {
   return 'mastered';
 }
 
-/**
- * Tracks per-question review history using a real SM-2 spaced-repetition
- * schedule, so "Ripasso Intelligente" can resurface questions right before
- * they're forgotten instead of just re-serving whatever was wrong last time.
- */
 export const WeaknessTracker = {
-  /** Records one answer and reschedules the question via SM-2. */
   recordReview(questionId: string, isCorrect: boolean, timeSpentSec: number) {
     const store = load();
     const rec = store[questionId] || defaultRecord();
@@ -103,7 +89,6 @@ export const WeaknessTracker = {
     save(store);
   },
 
-  /** Weakness score: higher = weaker. Used to rank non-due questions when building a review pool. */
   scoreFor(questionId: string): number {
     const rec = load()[questionId];
     if (!rec) return 0;
@@ -135,10 +120,6 @@ export const WeaknessTracker = {
     return Object.keys(load()).length;
   },
 
-  /**
-   * Mastery breakdown across the whole bank. `totalInBank` lets us count
-   * questions never attempted yet as "new" (they have no localStorage record).
-   */
   getMasteryDistribution(totalInBank: number): Record<MasteryLevel, number> {
     const store = load();
     const dist: Record<MasteryLevel, number> = { new: 0, learning: 0, young: 0, mature: 0, mastered: 0 };
@@ -149,14 +130,12 @@ export const WeaknessTracker = {
     return dist;
   },
 
-  /** Average SM-2 ease factor across tracked questions (2.5 = default/neutral, higher = easier for the user). */
   getAverageEase(): number {
     const records = Object.values(load()).filter((r) => r.correct + r.wrong > 0);
     if (records.length === 0) return 2.5;
     return Math.round((records.reduce((s, r) => s + r.easeFactor, 0) / records.length) * 100) / 100;
   },
 
-  /** Number of questions becoming due for each of the next `days` days (day 0 = today). */
   getForecast(days: number): { label: string; dueCount: number }[] {
     const store = load();
     const counts = new Array(days).fill(0);
@@ -167,7 +146,7 @@ export const WeaknessTracker = {
       const dueDay = startOfDay(rec.dueDate);
       const diff = Math.round((dueDay - today) / DAY_MS);
       if (diff >= 0 && diff < days) counts[diff]++;
-      else if (diff < 0 && diff > -days) counts[0]++; // overdue items are lumped into "today"
+      else if (diff < 0 && diff > -days) counts[0]++;
     }
 
     return counts.map((c, i) => {
@@ -186,11 +165,6 @@ export const WeaknessTracker = {
     localStorage.setItem(NEW_PER_DAY_KEY, String(Math.max(0, Math.round(n))));
   },
 
-  /**
-   * Builds a review session: due questions first (most overdue first), then
-   * the weakest not-yet-due questions, then — if requested — a capped batch
-   * of never-seen questions to keep introducing new material.
-   */
   buildReviewPool<T extends { id: string }>(questions: T[], opts: { limit: number; includeNew: boolean }): T[] {
     const store = load();
     const now = Date.now();
@@ -221,12 +195,10 @@ export const WeaknessTracker = {
     localStorage.removeItem(NEW_PER_DAY_KEY);
   },
 
-  /** Stato grezzo per il backup: l'intero archivio SM-2 per domanda. */
   exportStore(): WeaknessStore {
     return load();
   },
 
-  /** Sovrascrive l'intero archivio SM-2 (usato per ripristinare un backup). */
   importStore(store: WeaknessStore) {
     save(store);
   },

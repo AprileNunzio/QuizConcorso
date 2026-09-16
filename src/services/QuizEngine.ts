@@ -183,10 +183,10 @@ export class QuizEngine {
   }
 
   public getQuestionStatus(position: number): QuestionStatus {
-    if (position === this.pointer) return 'current';
     const ans = this.selectedAnswers[position];
     const q = this.questions[position];
     if (ans != null) return ans === q.correctAnswerId ? 'correct' : 'incorrect';
+    if (position === this.pointer) return 'current';
     if (this.questionStartTimes[position] != null) return 'skipped';
     return 'unvisited';
   }

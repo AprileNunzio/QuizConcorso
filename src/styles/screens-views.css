@@ -60,28 +60,6 @@
   color: var(--text-dim);
 }
 
-.btn-ghost {
-  background: transparent;
-  color: var(--text-muted);
-  border: 1.5px dashed var(--border-hairline);
-  width: 100%;
-}
-
-.btn-ghost:hover {
-  color: var(--text-main);
-  border-color: var(--border-glass-strong);
-}
-
-.btn-danger-outline {
-  background: rgba(244, 63, 94, 0.08);
-  color: var(--incorrect);
-  border: 1px solid rgba(244, 63, 94, 0.35);
-  width: auto;
-}
-
-.btn-danger-outline:hover {
-  background: rgba(244, 63, 94, 0.18);
-}
 
 .segmented {
   display: inline-flex;
@@ -346,13 +324,29 @@
 }
 
 .builder-count button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   width: 32px;
   height: 32px;
   padding: 0;
   border-radius: var(--radius-sm);
-  background: var(--bg-inset);
+  background: var(--bg-panel);
   border: 1px solid var(--border-hairline);
-  font-size: 1rem;
+  color: var(--text-main);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.builder-count button:hover:not(:disabled) {
+  background: var(--primary);
+  color: #ffffff;
+  border-color: var(--primary);
+}
+
+.builder-count button:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
 }
 
 .builder-count span {

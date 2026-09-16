@@ -39,11 +39,10 @@ export function Allenamento({ globalModules, subjectStats, onBack, onStartQuiz }
     setLevelByModule((prev) => ({ ...prev, [title]: level }));
   };
 
-  // ---- Step 1: category picker -------------------------------------------------
   if (!selectedCategory) {
     return (
       <div className="dashboard">
-        <PageNav onDashboard={onBack} crumb="Dashboard / Master Bank" />
+        <PageNav onBack={onBack} backLabel="Torna all'Hub" onDashboard={onBack} crumb="Dashboard / Master Bank" />
 
         <header className="modern-header" style={{ marginBottom: '1.1rem' }}>
           <Layers size={32} className="icon-logo" style={{ color: 'var(--correct)' }} />
@@ -85,7 +84,6 @@ export function Allenamento({ globalModules, subjectStats, onBack, onStartQuiz }
     );
   }
 
-  // ---- Step 2: subcategory + level picker --------------------------------------
   const modules = grouped[selectedCategory] || [];
 
   return (

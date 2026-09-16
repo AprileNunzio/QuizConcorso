@@ -28,7 +28,7 @@ export function Shell({ currentView, onNavigate, globalIQ, dueCount = 0, onOpenD
           </div>
           <div className="brand-text">
             <strong>Quiz &amp; Concorsi</strong>
-            <span>Platform v2.0</span>
+            <span>Platform v{__APP_VERSION__}</span>
           </div>
         </div>
 

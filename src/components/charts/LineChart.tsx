@@ -7,7 +7,6 @@ interface LineChartProps {
   min?: number;
   max?: number;
   showDots?: boolean;
-  /** Minimal sparkline mode: no gridlines, thinner line, only the last point marked. */
   compact?: boolean;
 }
 

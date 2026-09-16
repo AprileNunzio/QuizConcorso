@@ -40,7 +40,7 @@ export function Ripasso({ allQuestions, userStats, onBack, onStartReview }: Ripa
 
   return (
     <div className="dashboard">
-      <PageNav onDashboard={onBack} crumb="Dashboard / Ripasso Intelligente" />
+      <PageNav onBack={onBack} backLabel="Torna all'Hub" onDashboard={onBack} crumb="Dashboard / Ripasso Intelligente" />
 
       <header className="modern-header" style={{ marginBottom: '1.1rem' }}>
         <Zap size={34} className="icon-logo" style={{ color: 'var(--incorrect)' }} />
@@ -103,12 +103,12 @@ export function Ripasso({ allQuestions, userStats, onBack, onStartReview }: Ripa
         </div>
 
         <div className="review-settings-row">
-          <label className="review-setting">
+          <label className="modern-checkbox">
             <input type="checkbox" checked={includeNew} onChange={(e) => setIncludeNew(e.target.checked)} />
-            Includi domande nuove
+            <span style={{ fontSize: '0.88rem', fontWeight: 600 }}>Includi domande nuove non ancora viste</span>
           </label>
-          <label className="review-setting">
-            Nuove al giorno:
+          <label className="review-setting" style={{ marginLeft: 'auto' }}>
+            <span style={{ fontSize: '0.85rem', fontWeight: 600 }}>Nuove per sessione:</span>
             <input
               type="number"
               min={0}

@@ -134,8 +134,8 @@ export function QuizView({
               const status = activeEngine.getQuestionStatus(i);
               const flagged = flaggedIndices.has(i);
               const isCurr = i === index - 1;
-              let cls = `cbt-q-pill qnum-${status}`;
-              if (isCurr) cls += ' current';
+              let cls = `cbt-q-pill ${status} qnum-${status}`;
+              if (isCurr) cls += ' active-pointer';
               if (flagged) cls += ' flagged';
               return (
                 <button
@@ -152,10 +152,13 @@ export function QuizView({
 
           <div style={{ marginTop: '0.75rem', display: 'flex', flexDirection: 'column', gap: '0.25rem', fontSize: '0.7rem', color: 'var(--text-dim)' }}>
             <span style={{ display: 'flex', alignItems: 'center', gap: '0.35rem' }}>
-              <span className="qnum-dot qnum-dot-correct" /> Risposta data
+              <span className="qnum-dot qnum-dot-correct" /> Corretta
             </span>
             <span style={{ display: 'flex', alignItems: 'center', gap: '0.35rem' }}>
-              <span className="qnum-dot" style={{ background: 'var(--flagged)' }} /> Contrassegnata (Flag)
+              <span className="qnum-dot" style={{ background: 'var(--incorrect)' }} /> Errata
+            </span>
+            <span style={{ display: 'flex', alignItems: 'center', gap: '0.35rem' }}>
+              <span className="qnum-dot" style={{ background: 'var(--flagged)' }} /> Flag
             </span>
             <span style={{ display: 'flex', alignItems: 'center', gap: '0.35rem' }}>
               <span className="qnum-dot qnum-dot-unvisited" /> Da svolgere
