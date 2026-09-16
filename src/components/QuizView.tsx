@@ -1,9 +1,10 @@
 import { useState, useEffect } from 'react';
 import {
-  Clock, CheckCircle2, XCircle, Lightbulb, ChevronLeft, ChevronRight,
-  Flame, SkipForward, Flag, Tag, ArrowLeft, Bookmark
+  Clock, CheckCircle2, XCircle, Lightbulb, ChevronRight, ChevronLeft,
+  Flame, SkipForward, Flag, Tag, ArrowLeft, Bookmark, Zap, Activity,
+  Sliders, Award
 } from 'lucide-react';
-import type { QuizEngine, QuestionStatus } from '../services/QuizEngine';
+import type { QuizEngine } from '../services/QuizEngine';
 
 interface QuizViewProps {
   activeEngine: QuizEngine;
@@ -21,32 +22,43 @@ interface QuizViewProps {
 }
 
 export function QuizView({
-  activeEngine, showHint, timeLeft,
-  onAnswer, onNext, onPrev, onSkip, onJump, onFinish, onToggleHint, onExit, formatTime,
+  activeEngine,
+  showHint,
+  timeLeft,
+  onAnswer,
+  onNext,
+  onPrev,
+  onSkip,
+  onJump,
+  onFinish,
+  onToggleHint,
+  onExit,
+  formatTime,
 }: QuizViewProps) {
-  const [flaggedIndices, setFlaggedIndices] = useState<Set<number>>(new Set());
-
   const currentQuestion = activeEngine.getCurrentQuestion();
-  if (!currentQuestion) return null;
-
-  const total = activeEngine.getTotalQuestions();
   const index = activeEngine.getCurrentIndex();
+  const total = activeEngine.getTotalQuestions();
   const streak = activeEngine.getCurrentStreak();
-  const subjectName = activeEngine.getConfig().subjectName;
-  const concorsoTitle = activeEngine.getConfig().concorsoTitle;
-  const selected = activeEngine.getSelectedAnswer();
-  const answered = selected !== null;
-  const isCorrect = answered && selected === currentQuestion.correctAnswerId;
-  const answeredCount = activeEngine.getAnsweredCount();
+  const answered = currentQuestion ? activeEngine.getSelectedAnswer() !== null : false;
+  const selected = currentQuestion ? activeEngine.getSelectedAnswer() : null;
+  const isCorrect = currentQuestion && selected ? selected === currentQuestion.correctAnswerId : false;
   const score = activeEngine.getScore();
+  const answeredCount = activeEngine.getAnsweredCount();
+  const concorsoTitle = activeEngine.getConfig().concorsoTitle;
+  const subjectName = activeEngine.getConfig().subjectName;
+
+  const [flaggedIndices, setFlaggedIndices] = useState<Set<number>>(() => new Set());
+  const [matrixFilter, setMatrixFilter] = useState<'all' | 'unanswered' | 'flagged'>('all');
+  const [fontScale, setFontScale] = useState<'standard' | 'large' | 'xlarge'>('standard');
+
   const isFlagged = flaggedIndices.has(index - 1);
 
   const toggleFlag = () => {
     setFlaggedIndices((prev) => {
       const next = new Set(prev);
-      const pos = index - 1;
-      if (next.has(pos)) next.delete(pos);
-      else next.add(pos);
+      const curr = index - 1;
+      if (next.has(curr)) next.delete(curr);
+      else next.add(curr);
       return next;
     });
   };
@@ -55,28 +67,16 @@ export function QuizView({
     const handleKeyDown = (e: KeyboardEvent) => {
       if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) return;
 
-      const key = e.key.toUpperCase();
-      if (!answered) {
-        if (key === 'A' || key === '1') {
-          const opt = currentQuestion.options[0];
-          if (opt) onAnswer(opt.id);
-        } else if (key === 'B' || key === '2') {
-          const opt = currentQuestion.options[1];
-          if (opt) onAnswer(opt.id);
-        } else if (key === 'C' || key === '3') {
-          const opt = currentQuestion.options[2];
-          if (opt) onAnswer(opt.id);
-        } else if (key === 'D' || key === '4') {
-          const opt = currentQuestion.options[3];
-          if (opt) onAnswer(opt.id);
+      if (['a', 'b', 'c', 'd'].includes(e.key.toLowerCase()) && !answered && currentQuestion) {
+        const optIdx = e.key.toLowerCase().charCodeAt(0) - 97;
+        if (currentQuestion.options[optIdx]) {
+          onAnswer(currentQuestion.options[optIdx].id);
         }
-      }
-
-      if (e.key === 'ArrowRight' && (answered || activeEngine.getConfig().mode === 'quiz_timed' || activeEngine.getConfig().mode === 'quiz_free')) {
-        if (!activeEngine.isLast()) onNext();
+      } else if (e.key === 'ArrowRight' && !activeEngine.isLast()) {
+        onNext();
       } else if (e.key === 'ArrowLeft' && !activeEngine.isFirst()) {
         onPrev();
-      } else if (key === 'F') {
+      } else if (e.key.toLowerCase() === 'f') {
         toggleFlag();
       }
     };
@@ -84,6 +84,18 @@ export function QuizView({
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, [currentQuestion, answered, activeEngine, onAnswer, onNext, onPrev]);
+
+  if (!currentQuestion) return null;
+
+  const data = activeEngine.getStatisticsData();
+  const positiveTimes = data.timeSpentPerQuestion.filter((t) => t > 0);
+  const avgPaceSec = positiveTimes.length > 0 ? Math.round(positiveTimes.reduce((a, b) => a + b, 0) / positiveTimes.length) : 0;
+  const remainingQuestions = Math.max(0, total - answeredCount);
+  const targetPaceSec = timeLeft !== null && remainingQuestions > 0 ? Math.round(timeLeft / remainingQuestions) : null;
+  const wrongCount = answeredCount - score;
+
+  const stemFontSize = fontScale === 'large' ? '1.25rem' : fontScale === 'xlarge' ? '1.4rem' : '1.1rem';
+  const optionFontSize = fontScale === 'large' ? '1.02rem' : fontScale === 'xlarge' ? '1.14rem' : '0.92rem';
 
   return (
     <div className="quiz-cbt-root">
@@ -102,7 +114,7 @@ export function QuizView({
           </div>
         </div>
 
-        <div style={{ display: 'flex', alignItems: 'center', gap: '0.85rem' }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
           {streak >= 2 && (
             <span className="streak-chip">
               <Flame size={14} /> {streak} di fila
@@ -116,8 +128,8 @@ export function QuizView({
             </div>
           )}
 
-          <button className="btn-secondary" style={{ width: 'auto', padding: '0.45rem 0.95rem' }} onClick={onFinish}>
-            <Flag size={15} /> Termina Prova
+          <button className="btn-secondary" style={{ width: 'auto', padding: '0.4rem 0.85rem', fontSize: '0.8rem' }} onClick={onFinish}>
+            <Flag size={14} /> Termina Prova
           </button>
         </div>
       </header>
@@ -126,7 +138,31 @@ export function QuizView({
         <aside className="cbt-sidebar-matrix">
           <div className="cbt-matrix-title">
             <span>Mappa Quesiti</span>
-            <span>{index}/{total}</span>
+            <span style={{ color: 'var(--primary)', fontFamily: 'var(--font-mono)' }}>{index}/{total}</span>
+          </div>
+
+          <div style={{ display: 'flex', gap: '0.2rem', marginBottom: '0.4rem' }}>
+            <button
+              className={`cbt-zoom-btn ${matrixFilter === 'all' ? 'active' : ''}`}
+              style={{ flex: 1, fontSize: '0.68rem', padding: '0.15rem 0' }}
+              onClick={() => setMatrixFilter('all')}
+            >
+              Tutte
+            </button>
+            <button
+              className={`cbt-zoom-btn ${matrixFilter === 'unanswered' ? 'active' : ''}`}
+              style={{ flex: 1, fontSize: '0.68rem', padding: '0.15rem 0' }}
+              onClick={() => setMatrixFilter('unanswered')}
+            >
+              Da fare ({total - answeredCount})
+            </button>
+            <button
+              className={`cbt-zoom-btn ${matrixFilter === 'flagged' ? 'active' : ''}`}
+              style={{ flex: 1, fontSize: '0.68rem', padding: '0.15rem 0' }}
+              onClick={() => setMatrixFilter('flagged')}
+            >
+              Flag ({flaggedIndices.size})
+            </button>
           </div>
 
           <div className="cbt-matrix-scroll">
@@ -134,6 +170,10 @@ export function QuizView({
               const status = activeEngine.getQuestionStatus(i);
               const flagged = flaggedIndices.has(i);
               const isCurr = i === index - 1;
+
+              if (matrixFilter === 'unanswered' && status !== 'unvisited' && status !== 'skipped') return null;
+              if (matrixFilter === 'flagged' && !flagged) return null;
+
               let cls = `cbt-q-pill ${status} qnum-${status}`;
               if (isCurr) cls += ' active-pointer';
               if (flagged) cls += ' flagged';
@@ -150,7 +190,7 @@ export function QuizView({
             })}
           </div>
 
-          <div style={{ marginTop: '0.75rem', display: 'flex', flexDirection: 'column', gap: '0.25rem', fontSize: '0.7rem', color: 'var(--text-dim)' }}>
+          <div className="cbt-matrix-legend">
             <span style={{ display: 'flex', alignItems: 'center', gap: '0.35rem' }}>
               <span className="qnum-dot qnum-dot-correct" /> Corretta
             </span>
@@ -166,9 +206,12 @@ export function QuizView({
           </div>
         </aside>
 
-        <main className="cbt-main-question">
+        <main
+          className="cbt-main-question"
+          style={{ '--cbt-stem-size': stemFontSize, '--cbt-option-size': optionFontSize } as any}
+        >
           <div className="cbt-question-header">
-            <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '0.45rem' }}>
               <span className="meta-badge" style={{ background: 'var(--primary-gradient)', color: '#fff', border: 'none' }}>
                 Quesito {index} di {total}
               </span>
@@ -181,10 +224,10 @@ export function QuizView({
 
             <button
               className={`btn-secondary ${isFlagged ? 'active' : ''}`}
-              style={{ width: 'auto', padding: '0.35rem 0.75rem', fontSize: '0.78rem' }}
+              style={{ width: 'auto', padding: '0.3rem 0.65rem', fontSize: '0.76rem' }}
               onClick={toggleFlag}
             >
-              <Bookmark size={14} style={{ color: isFlagged ? 'var(--flagged)' : 'inherit' }} />
+              <Bookmark size={13} style={{ color: isFlagged ? 'var(--flagged)' : 'inherit' }} />
               {isFlagged ? 'Contrassegnata' : 'Contrassegna (F)'}
             </button>
           </div>
@@ -217,75 +260,151 @@ export function QuizView({
           </div>
 
           {answered && (
-            <div className={`feedback-section ${isCorrect ? 'feedback-correct' : 'feedback-incorrect'}`} style={{ marginTop: 'auto' }}>
-              <div className="feedback-header">
-                {isCorrect ? <CheckCircle2 size={24} /> : <XCircle size={24} />}
-                <h3>{isCorrect ? 'Risposta Esatta!' : 'Risposta Errata'}</h3>
+            <div className={`cbt-feedback-drawer ${isCorrect ? 'cbt-feedback-correct' : 'cbt-feedback-incorrect'}`}>
+              <div className="cbt-feedback-header">
+                {isCorrect ? <CheckCircle2 size={18} /> : <XCircle size={18} />}
+                <span>{isCorrect ? 'Risposta Esatta!' : 'Risposta Errata'}</span>
               </div>
-              <div className="feedback-explanation">
-                <Lightbulb size={18} style={{ color: 'var(--warning)', flexShrink: 0 }} />
-                <p>{currentQuestion.explanation || 'Nessuna spiegazione disponibile per questa domanda.'}</p>
+              <div className="cbt-feedback-body">
+                <Lightbulb size={16} style={{ color: 'var(--warning)', flexShrink: 0, marginTop: '2px' }} />
+                <span>{currentQuestion.explanation || 'Nessuna spiegazione ufficiale registrata per questo quesito.'}</span>
               </div>
             </div>
           )}
 
           {!answered && currentQuestion.hint && (
-            <div className="hint-section" style={{ marginTop: 'auto' }}>
-              <button className="btn-secondary" style={{ width: 'auto' }} onClick={onToggleHint}>
-                <Lightbulb size={16} /> {showHint ? 'Nascondi Suggerimento' : 'Mostra Suggerimento'}
+            <div style={{ marginTop: 'auto', paddingTop: '0.5rem' }}>
+              <button className="btn-secondary" style={{ width: 'auto', padding: '0.35rem 0.75rem', fontSize: '0.78rem' }} onClick={onToggleHint}>
+                <Lightbulb size={14} /> {showHint ? 'Nascondi Suggerimento' : 'Mostra Suggerimento'}
               </button>
-              {showHint && <p className="hint-text">{currentQuestion.hint}</p>}
+              {showHint && (
+                <p style={{ margin: '0.4rem 0 0', fontSize: '0.84rem', color: 'var(--text-muted)' }}>
+                  {currentQuestion.hint}
+                </p>
+              )}
             </div>
           )}
         </main>
 
         <aside className="cbt-sidebar-telemetry">
-          {currentQuestion.category && (
-            <div className="quiz-category-tag">
-              <Tag size={13} /> {currentQuestion.category}
-            </div>
-          )}
+          <div className="cbt-telemetry-header">
+            <span style={{ fontSize: '0.8rem', fontWeight: 800, textTransform: 'uppercase', letterSpacing: '0.04em', color: 'var(--text-dim)' }}>
+              Telemetria Prova
+            </span>
+            {currentQuestion.category && (
+              <span className="quiz-category-tag" style={{ margin: 0, fontSize: '0.7rem' }}>
+                <Tag size={11} /> {currentQuestion.category}
+              </span>
+            )}
+          </div>
 
-          <div className="quiz-mini-stats">
-            <div className="quiz-mini-stat">
-              <span className="quiz-mini-stat-value">{answeredCount}/{total}</span>
-              <span className="quiz-mini-stat-label">Completate</span>
+          <div className="cbt-scorecard-grid">
+            <div className="cbt-score-tile">
+              <span className="cbt-score-tile-val" style={{ color: 'var(--correct)' }}>{score}</span>
+              <span className="cbt-score-tile-lbl">Corrette</span>
             </div>
-            <div className="quiz-mini-stat">
-              <span className="quiz-mini-stat-value" style={{ color: 'var(--correct)' }}>{score}</span>
-              <span className="quiz-mini-stat-label">Punti Attuali</span>
+            <div className="cbt-score-tile">
+              <span className="cbt-score-tile-val" style={{ color: 'var(--incorrect)' }}>{wrongCount}</span>
+              <span className="cbt-score-tile-lbl">Errate</span>
+            </div>
+            <div className="cbt-score-tile">
+              <span className="cbt-score-tile-val" style={{ color: 'var(--text-dim)' }}>{remainingQuestions}</span>
+              <span className="cbt-score-tile-lbl">Da Svolgere</span>
+            </div>
+            <div className="cbt-score-tile">
+              <span className="cbt-score-tile-val" style={{ color: 'var(--primary)' }}>
+                {Math.round((score / Math.max(1, answeredCount)) * 100)}%
+              </span>
+              <span className="cbt-score-tile-lbl">Accuratezza</span>
             </div>
           </div>
 
-          <div style={{ marginTop: 'auto', display: 'flex', flexDirection: 'column', gap: '0.4rem', fontSize: '0.75rem', color: 'var(--text-dim)' }}>
-            <strong>Tasti Rapidi CBT:</strong>
-            <span><kbd>A</kbd> <kbd>B</kbd> <kbd>C</kbd> <kbd>D</kbd> : Rispondi</span>
-            <span><kbd>→</kbd> : Domanda successiva</span>
-            <span><kbd>←</kbd> : Domanda precedente</span>
-            <span><kbd>F</kbd> : Contrassegna (Flag)</span>
+          <div className="cbt-pacing-box">
+            <div className="cbt-pacing-row">
+              <span>Ritmo medio finora:</span>
+              <strong>{avgPaceSec > 0 ? `${avgPaceSec}s / dom` : 'In calcolo...'}</strong>
+            </div>
+            {targetPaceSec !== null && (
+              <div className="cbt-pacing-row">
+                <span>Tempo residuo per quesito:</span>
+                <strong style={{ color: targetPaceSec < 30 ? 'var(--incorrect)' : 'var(--accent-cyan)' }}>
+                  ~{targetPaceSec}s
+                </strong>
+              </div>
+            )}
+            <div className="cbt-pacing-row">
+              <span>Quesiti contrassegnati:</span>
+              <strong style={{ color: 'var(--flagged)' }}>{flaggedIndices.size}</strong>
+            </div>
+          </div>
+
+          <div className="cbt-zoom-row">
+            <span style={{ fontSize: '0.75rem', fontWeight: 600, color: 'var(--text-muted)' }}>Zoom Testo:</span>
+            <div className="cbt-zoom-buttons">
+              <button
+                className={`cbt-zoom-btn ${fontScale === 'standard' ? 'active' : ''}`}
+                onClick={() => setFontScale('standard')}
+                title="Caratteri Normali"
+              >
+                A
+              </button>
+              <button
+                className={`cbt-zoom-btn ${fontScale === 'large' ? 'active' : ''}`}
+                onClick={() => setFontScale('large')}
+                title="Caratteri Grandi"
+              >
+                A+
+              </button>
+              <button
+                className={`cbt-zoom-btn ${fontScale === 'xlarge' ? 'active' : ''}`}
+                onClick={() => setFontScale('xlarge')}
+                title="Caratteri Molto Grandi"
+              >
+                A++
+              </button>
+            </div>
+          </div>
+
+          <div className="cbt-shortcuts-card">
+            <strong style={{ color: 'var(--text-main)', fontSize: '0.72rem' }}>Tasti Rapidi CBT:</strong>
+            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.35rem' }}>
+              <span><kbd>A</kbd> <kbd>B</kbd> <kbd>C</kbd> <kbd>D</kbd> Opzioni</span>
+              <span><kbd>→</kbd> Avanti</span>
+              <span><kbd>←</kbd> Dietro</span>
+              <span><kbd>F</kbd> Segna Flag</span>
+            </div>
           </div>
         </aside>
       </div>
 
       <footer className="cbt-dock-bar">
-        <button className="btn-secondary" style={{ width: 'auto' }} onClick={onPrev} disabled={activeEngine.isFirst()}>
-          <ChevronLeft size={18} /> Precedente
+        <button className="btn-secondary" style={{ width: 'auto', padding: '0.45rem 1rem' }} onClick={onPrev} disabled={activeEngine.isFirst()}>
+          <ChevronLeft size={16} /> Precedente
         </button>
 
-        <div style={{ display: 'flex', alignItems: 'center', gap: '0.65rem' }}>
+        <div className="cbt-dock-progress">
+          <span style={{ fontSize: '0.76rem', fontWeight: 700, color: 'var(--text-muted)', fontFamily: 'var(--font-mono)' }}>
+            Quesito {index} di {total} &middot; {answeredCount} svolte ({Math.round((answeredCount / total) * 100)}%)
+          </span>
+          <div className="cbt-progress-track">
+            <div className="cbt-progress-fill" style={{ width: `${Math.round((answeredCount / total) * 100)}%` }} />
+          </div>
+        </div>
+
+        <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
           {!answered && !activeEngine.isLast() && (
-            <button className="btn-secondary" style={{ width: 'auto' }} onClick={onSkip}>
-              Salta <SkipForward size={16} />
+            <button className="btn-secondary" style={{ width: 'auto', padding: '0.45rem 0.95rem' }} onClick={onSkip}>
+              Salta <SkipForward size={14} />
             </button>
           )}
 
           {activeEngine.isLast() ? (
-            <button className="btn-primary" style={{ width: 'auto' }} onClick={onFinish}>
-              Consegna Prova <Flag size={18} />
+            <button className="btn-primary" style={{ width: 'auto', padding: '0.45rem 1.35rem' }} onClick={onFinish}>
+              Consegna Prova <Flag size={16} />
             </button>
           ) : (
-            <button className="btn-primary" style={{ width: 'auto' }} onClick={onNext}>
-              Successiva <ChevronRight size={18} />
+            <button className="btn-primary" style={{ width: 'auto', padding: '0.45rem 1.35rem' }} onClick={onNext}>
+              Successiva <ChevronRight size={16} />
             </button>
           )}
         </div>
