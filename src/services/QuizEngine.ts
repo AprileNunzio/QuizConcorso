@@ -37,7 +37,10 @@ export class QuizEngine {
   constructor(rawQuestions: Question[], config: QuizConfig = { mode: 'quiz_free' }) {
     this.config = config;
     const pool = this.composePool(rawQuestions, config);
-    this.questions = pool;
+    this.questions = pool.map((q) => ({
+      ...q,
+      options: shuffleArray(q.options),
+    }));
     this.selectedAnswers = new Array(pool.length).fill(null);
     this.questionStartTimes = new Array(pool.length).fill(null);
     this.timeSpentPerQuestion = new Array(pool.length).fill(0);

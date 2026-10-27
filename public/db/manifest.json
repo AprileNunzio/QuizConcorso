@@ -1,5 +1,15 @@
 [
   {
+    "id": "ASMEL_FUNZIONARIO_AMMINISTRATIVO_2026",
+    "title": "Maxi Avviso ASMEL 2026 - Funzionario Amministrativo",
+    "description": "Area dei Funzionari ed Elevata Qualificazione (ex Cat. D). Elenco idonei per assunzioni a tempo indeterminato e determinato nei Comuni soci ASMEL.",
+    "icon": "Landmark",
+    "ente": "ASMEL (Enti Locali Soci)",
+    "posti_disponibili": "Elenco Idonei (oltre 4.400 Comuni aderenti)",
+    "durata_prova_minuti": 60,
+    "numero_quesiti": 60
+  },
+  {
     "id": "INPS_FUNZIONARIO_PECS_2026",
     "title": "Concorso INPS - Funzionario PECS",
     "description": "Area dei funzionari, famiglia professionale Progettazione, erogazione e controllo dei servizi (PECS)",
@@ -20,4 +30,3 @@
     "numero_quesiti": 60
   }
 ]
-

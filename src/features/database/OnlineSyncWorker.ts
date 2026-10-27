@@ -54,7 +54,12 @@ export class OnlineSyncWorker {
       if (!mRes.ok) throw new Error(`REMOTE_MANIFEST_${mRes.status}`);
 
       const remoteIndex: ConcorsoIndex[] = await mRes.json();
-      await dbClient.set('key_value', 'manifest', remoteIndex);
+      const currentLocal: ConcorsoIndex[] = (await dbClient.get<ConcorsoIndex[]>('key_value', 'manifest')) || [];
+      const mergedMap = new Map<string, ConcorsoIndex>();
+      for (const item of currentLocal) mergedMap.set(item.id, item);
+      for (const item of remoteIndex) mergedMap.set(item.id, item);
+      const finalManifest = Array.from(mergedMap.values());
+      await dbClient.set('key_value', 'manifest', finalManifest);
 
       const sourcesSet = new Set<string>();
 

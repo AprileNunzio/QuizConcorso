@@ -20,19 +20,37 @@ export class DatabaseRepository {
     }
 
     const cached = await dbClient.get<ConcorsoIndex[]>('key_value', 'manifest');
+    let staticList: ConcorsoIndex[] = [];
+    try {
+      const res = await fetch(`${STATIC_BASE}manifest.json`);
+      if (res.ok) {
+        staticList = await res.json();
+      }
+    } catch {
+      // offline fallback
+    }
+
+    const map = new Map<string, ConcorsoIndex>();
+    if (cached && Array.isArray(cached)) {
+      for (const item of cached) map.set(item.id, item);
+    }
+    for (const item of staticList) {
+      map.set(item.id, item);
+    }
+
+    const result = Array.from(map.values());
+    if (result.length > 0) {
+      this.memoryCache.set('manifest', result);
+      await dbClient.set('key_value', 'manifest', result);
+      return result;
+    }
+
     if (cached && Array.isArray(cached) && cached.length > 0) {
       this.memoryCache.set('manifest', cached);
       return cached;
     }
 
-    const res = await fetch(`${STATIC_BASE}manifest.json`);
-    if (!res.ok) {
-      throw new Error(`MANIFEST_FETCH_ERROR_${res.status}`);
-    }
-    const data: ConcorsoIndex[] = await res.json();
-    this.memoryCache.set('manifest', data);
-    dbClient.set('key_value', 'manifest', data);
-    return data;
+    throw new Error('MANIFEST_FETCH_ERROR');
   }
 
   async getConcorso(concorsoId: string): Promise<ConcorsoManifest> {

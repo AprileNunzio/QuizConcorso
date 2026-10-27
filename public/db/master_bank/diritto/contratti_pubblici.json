@@ -1,0 +1,1302 @@
+[
+  {
+    "id": "Q_CONTR_PUB_001",
+    "question": "Quale principio fondamentale è codificato dall'art. 1 del D.Lgs. n. 36/2023 (Nuovo Codice dei Contratti Pubblici)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il principio del risultato, inteso come conseguimento dell'affidamento e dell'esecuzione con tempestività e migliore rapporto qualità/prezzo"
+      },
+      {
+        "id": "B",
+        "text": "Il principio del minor prezzo inderogabile in tutte le gare pubbliche"
+      },
+      {
+        "id": "C",
+        "text": "Il principio di rotazione generalizzata senza eccezioni"
+      },
+      {
+        "id": "D",
+        "text": "Il principio di preferenza per le sole imprese a partecipazione statale"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 1 del D.Lgs. 36/2023 pone al vertice il principio del risultato: le stazioni appaltanti e gli enti concedenti perseguono il risultato dell'affidamento del contratto e della sua esecuzione con la massima tempestività e il migliore rapporto possibile tra qualità e prezzo.",
+    "hint": "È il principio guida di tutta la nuova disciplina dei contratti pubblici del 2023.",
+    "level": "base"
+  },
+  {
+    "id": "Q_CONTR_PUB_002",
+    "question": "Che cosa sancisce il 'principio della fiducia' ex art. 2 del D.Lgs. 36/2023?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La facoltà per la PA di affidare appalti senza alcun controllo né garanzia bancaria"
+      },
+      {
+        "id": "B",
+        "text": "La fiducia reciproca nell'azione legittima, trasparente e corretta della PA, dei suoi funzionari e degli operatori economici"
+      },
+      {
+        "id": "C",
+        "text": "La presunzione assoluta di veridicità delle dichiarazioni dei concorrenti senza possibilità di verifica"
+      },
+      {
+        "id": "D",
+        "text": "L'esclusione di qualsiasi responsabilità erariale per colpa grave o dolo"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 2 del D.Lgs. 36/2023 valorizza l'autonomia decisionale dei funzionari pubblici, introducendo una presunzione di correttezza e buona fede e limitando la colpa grave per danno erariale alla violazione manifesta di regole di condotta espresse.",
+    "hint": "Mira a superare la c.d. 'paura della firma' nei funzionari pubblici.",
+    "level": "base"
+  },
+  {
+    "id": "Q_CONTR_PUB_003",
+    "question": "Qual è il significato del principio dell'accesso al mercato di cui all'art. 3 del D.Lgs. 36/2023?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Imporre a tutti i concorrenti una sede operativa nella provincia della stazione appaltante"
+      },
+      {
+        "id": "B",
+        "text": "Riservare il 50% di ogni appalto pubblico ad operatori del terzo settore"
+      },
+      {
+        "id": "C",
+        "text": "Garantire l'applicazione dei principi di concorrenza, imparzialità, non discriminazione, pubblicità e trasparenza, proporzionalità per favorire la partecipazione delle PMI"
+      },
+      {
+        "id": "D",
+        "text": "Permettere l'accesso alle gare unicamente tramite intermediari finanziari autorizzati"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'art. 3 del D.Lgs. 36/2023 stabilisce che le stazioni appaltanti garantiscono l'accesso al mercato degli operatori economici nel rispetto della concorrenza, dell'imparzialità, della trasparenza e della massima partecipazione, con particolare riguardo alle micro, piccole e medie imprese.",
+    "hint": "Concorrenza e non discriminazione a tutela dell'accesso degli operatori e delle PMI.",
+    "level": "base"
+  },
+  {
+    "id": "Q_CONTR_PUB_004",
+    "question": "Nel D.Lgs. 36/2023, la figura del RUP è definita come:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Responsabile Unico del Procedimento"
+      },
+      {
+        "id": "B",
+        "text": "Regolatore Unico delle Procedure"
+      },
+      {
+        "id": "C",
+        "text": "Revisore Ufficiale della Progettazione"
+      },
+      {
+        "id": "D",
+        "text": "Responsabile Unico del Progetto"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'art. 15 del D.Lgs. 36/2023 ha ridenominato il RUP da 'Responsabile Unico del Procedimento' a 'Responsabile Unico del Progetto', sottolineandone la visione complessiva e di project management lungo tutto il ciclo di vita dell'intervento.",
+    "hint": "La lettera 'P' sta ora per Progetto.",
+    "level": "base"
+  },
+  {
+    "id": "Q_CONTR_PUB_005",
+    "question": "Chi nomina il Responsabile Unico del Progetto (RUP) ai sensi dell'art. 15, comma 1, del D.Lgs. 36/2023?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Le stazioni appaltanti e gli enti concedenti, tra i dipendenti di ruolo anche con qualifica non dirigenziale, nel primo atto di avvio dell'intervento"
+      },
+      {
+        "id": "B",
+        "text": "Il Prefetto con apposito provvedimento di concerto con l'ANAC"
+      },
+      {
+        "id": "C",
+        "text": "L'operatore economico aggiudicatario della gara"
+      },
+      {
+        "id": "D",
+        "text": "Il Presidente dell'organo di revisione contabile"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 15, comma 1, del D.Lgs. 36/2023 stabilisce che nel primo atto di avvio dell'intervento le stazioni appaltanti nominano un RUP per le fasi di programmazione, progettazione, affidamento ed esecuzione tra i dipendenti di ruolo in possesso di adeguate competenze.",
+    "hint": "Nomina interna da parte della stazione appaltante tra i propri dipendenti.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_CONTR_PUB_006",
+    "question": "Ai sensi dell'art. 50, comma 1, lett. b), del D.Lgs. 36/2023, qual è la soglia massima per l'affidamento diretto di servizi e forniture (inclusi i servizi di ingegneria e architettura)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Importo inferiore a 40.000 euro"
+      },
+      {
+        "id": "B",
+        "text": "Importo inferiore a 140.000 euro"
+      },
+      {
+        "id": "C",
+        "text": "Importo inferiore a 215.000 euro"
+      },
+      {
+        "id": "D",
+        "text": "Importo inferiore a 500.000 euro"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 50, comma 1, lett. b), del D.Lgs. 36/2023 prevede l'affidamento diretto per servizi e forniture (ivi compresi i servizi di ingegneria e architettura e l'attività di progettazione) di importo inferiore a 140.000 euro, anche senza consultazione di più operatori economici.",
+    "hint": "La soglia per servizi e forniture è 140.000 euro.",
+    "level": "base"
+  },
+  {
+    "id": "Q_CONTR_PUB_007",
+    "question": "Qual è la soglia massima per l'affidamento diretto di lavori ai sensi dell'art. 50, comma 1, lett. a), del D.Lgs. 36/2023?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Importo inferiore a 100.000 euro"
+      },
+      {
+        "id": "B",
+        "text": "Importo inferiore a 500.000 euro"
+      },
+      {
+        "id": "C",
+        "text": "Importo inferiore a 150.000 euro"
+      },
+      {
+        "id": "D",
+        "text": "Importo inferiore a 1.000.000 euro"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'art. 50, comma 1, lett. a), D.Lgs. 36/2023 ammette l'affidamento diretto per lavori di importo inferiore a 150.000 euro, anche senza consultazione di più operatori economici, fermo il rispetto del principio di rotazione.",
+    "hint": "Per i lavori la soglia dell'affidamento diretto è di 150.000 euro.",
+    "level": "base"
+  },
+  {
+    "id": "Q_CONTR_PUB_008",
+    "question": "Come si applica il principio di rotazione degli affidamenti e degli inviti di cui all'art. 49 del D.Lgs. 36/2023?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tutti i funzionari dell'ufficio contratti devono cambiare incarico ogni sei mesi"
+      },
+      {
+        "id": "B",
+        "text": "L'operatore economico che vince una gara non può partecipare a nessuna gara pubblica in Italia per due anni"
+      },
+      {
+        "id": "C",
+        "text": "Le gare devono essere svolte a rotazione in città diverse della regione"
+      },
+      {
+        "id": "D",
+        "text": "È vietato l'affidamento o l'aggiudicazione di un appalto al contraente uscente nei casi in cui due consecutivi affidamenti abbiano ad oggetto una commessa rientrante nello stesso settore merceologico, o categoria di opere, o fascia di valore"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'art. 49 D.Lgs. 36/2023 disciplina il principio di rotazione: vieta l'affidamento diretto o l'invito al contraente uscente per commesse nello stesso settore o categoria o fascia economica, per evitare posizioni di rendita e favorire la contendibilità del mercato.",
+    "hint": "Impedisce il riaffidamento consecutivo al fornitore/esecutore uscente.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_CONTR_PUB_009",
+    "question": "In quale caso, ai sensi dell'art. 49, comma 6, del D.Lgs. 36/2023, è possibile derogare al principio di rotazione per gli affidamenti sottosoglia?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Per i contratti di importo inferiore a 5.000 euro, nonché in casi motivati dalla struttura del mercato o dal particolare grado di soddisfazione delle precedenti prestazioni"
+      },
+      {
+        "id": "B",
+        "text": "Ogni qualvolta il dirigente decida senza necessità di alcuna motivazione"
+      },
+      {
+        "id": "C",
+        "text": "Soltanto se l'operatore uscente è una multinazionale quotata in borsa"
+      },
+      {
+        "id": "D",
+        "text": "La deroga non è mai consentita dalla legge in nessun caso"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 49, comma 6, prevede che è comunque consentito derogare alla rotazione per affidamenti di importo inferiore a 5.000 euro; inoltre, in casi motivati con riferimento alla struttura del mercato e all'effettiva assenza di alternative, il contraente uscente può essere reinvitato.",
+    "hint": "Micro-affidamenti sotto i 5.000 euro o mercato altamente specialistico con motivazione puntuale.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_CONTR_PUB_010",
+    "question": "Che cos'è il Fascicolo Virtuale dell'Operatore Economico (FVOE) gestito dall'ANAC ex art. 24 del D.Lgs. 36/2023?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un archivio cartaceo custodito presso il Tribunale fallimentare"
+      },
+      {
+        "id": "B",
+        "text": "Lo strumento digitale che consente la verifica dei requisiti di partecipazione degli operatori economici attraverso l'interoperabilità con le banche dati delle PA"
+      },
+      {
+        "id": "C",
+        "text": "La cartella personale del dipendente pubblico addetto all'ufficio gare"
+      },
+      {
+        "id": "D",
+        "text": "Un albo privato a pagamento gestito da società di certificazione"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 24 del D.Lgs. 36/2023 disciplina il FVOE, operativo presso la BDNCP dell'ANAC, che accentra e digitalizza i documenti comprovanti il possesso dei requisiti di carattere generale, tecnico-organizzativo ed economico-finanziario degli operatori economici.",
+    "hint": "Digitalizzazione dei controlli dei requisiti tramite interoperabilità con Agenzia Entrate, INPS, Casellario, ecc.",
+    "level": "base"
+  },
+  {
+    "id": "Q_CONTR_PUB_011",
+    "question": "Qual è il termine ordinario per la stipula del contratto d'appalto dopo l'aggiudicazione efficace (art. 18 D.Lgs. 36/2023)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Entro 180 giorni lavorativi"
+      },
+      {
+        "id": "B",
+        "text": "Entro 5 giorni lavorativi"
+      },
+      {
+        "id": "C",
+        "text": "Entro 30 giorni dall'efficacia dell'aggiudicazione, salvo il rispetto del termine dilatorio di stand still"
+      },
+      {
+        "id": "D",
+        "text": "Non vi è alcun termine e la stipula può avvenire senza scadenze"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'art. 18, comma 2, D.Lgs. 36/2023 prevede che, divenuta efficace l'aggiudicazione e fatto salvo l'esercizio dei poteri di autotutela, la stipula del contratto ha luogo entro i successivi trenta giorni.",
+    "hint": "Termine perentorio ordinario di 30 giorni.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_CONTR_PUB_012",
+    "question": "In che cosa consiste la clausola di 'stand still' nella disciplina dei contratti pubblici (art. 18 D.Lgs. 36/2023)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La facoltà dell'amministrazione di sospendere il pagamento delle fatture"
+      },
+      {
+        "id": "B",
+        "text": "Il blocco automatico dei lavori per cause meteorologiche"
+      },
+      {
+        "id": "C",
+        "text": "L'obbligo di riaprire i termini della gara su richiesta di un concorrente escluso"
+      },
+      {
+        "id": "D",
+        "text": "Un termine dilatorio di 35 giorni dall'invio dell'ultima delle comunicazioni di aggiudicazione prima del quale il contratto non può essere stipulato"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Lo stand still period (art. 18, commi 3 e 4, D.Lgs. 36/2023) è la moratoria legale di 35 giorni che decorre dalla comunicazione del provvedimento di aggiudicazione, volta a permettere ai concorrenti non vincitori di proporre eventuale ricorso giurisdizionale con istanza cautelare.",
+    "hint": "Termine di 35 giorni a tutela del ricorso giurisdizionale dei concorrenti non aggiudicatari.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_CONTR_PUB_013",
+    "question": "In quali casi NON si applica il termine dilatorio di stand still di 35 giorni ex art. 18, comma 3, D.Lgs. 36/2023?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Negli affidamenti sottosoglia, nei casi in cui è stata presentata o ammessa una sola offerta e negli acquisti su mercati elettronici"
+      },
+      {
+        "id": "B",
+        "text": "Nelle gare sopra-soglia con oltre venti concorrenti ammessi"
+      },
+      {
+        "id": "C",
+        "text": "Nelle concessioni di valore superiore a dieci milioni di euro"
+      },
+      {
+        "id": "D",
+        "text": "In tutti i contratti aventi ad oggetto beni immobili"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 18, comma 3, esclude espressamente lo stand still per gli affidamenti sottosoglia, se è stata presentata o ammessa una sola offerta e non vi sono impugnazioni, nonché per gli acquisti effettuati attraverso il mercato elettronico o sistemi dinamici.",
+    "hint": "Sottosoglia, offerta unica e strumenti telematici standardizzati non subiscono lo stand still.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_CONTR_PUB_014",
+    "question": "Che cos'è il 'soccorso istruttorio' disciplinato dall'art. 101 del D.Lgs. n. 36/2023?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La facoltà di sostituire o modificare retroattivamente l'offerta tecnica o economica presentata"
+      },
+      {
+        "id": "B",
+        "text": "L'istituto che consente di sanare carenze, omissioni o irregolarità della documentazione amministrativa di gara, assegnando un termine non inferiore a 5 e non superiore a 10 giorni"
+      },
+      {
+        "id": "C",
+        "text": "Un aiuto economico concesso alle imprese in crisi di liquidità durante la gara"
+      },
+      {
+        "id": "D",
+        "text": "La sostituzione del RUP in caso di ricorso al TAR"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 101 D.Lgs. 36/2023 regola il soccorso istruttorio, distinguendo tra soccorso integrativo (per carenze documentali), sanante (mancata allegazione di elementi formali) e di chiarimento. Non è mai ammesso per integrare o modificare l'offerta economica o tecnica.",
+    "hint": "Sana le irregolarità formali e documentali, ma l'offerta economica e tecnica resta intangibile.",
+    "level": "base"
+  },
+  {
+    "id": "Q_CONTR_PUB_015",
+    "question": "Cosa stabilisce il principio di tassatività delle cause di esclusione ex art. 10 del D.Lgs. 36/2023?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La stazione appaltante può inventare nuove cause di esclusione in base alla propria discrezionalità"
+      },
+      {
+        "id": "B",
+        "text": "Tutti i concorrenti privi di sede nella regione dell'appalto sono esclusi di diritto"
+      },
+      {
+        "id": "C",
+        "text": "I concorrenti possono essere esclusi solo nei casi previsti dalla legge (artt. 94 e 95) e le clausole del bando che prevedono ulteriori cause di esclusione sono nulle"
+      },
+      {
+        "id": "D",
+        "text": "L'esclusione può essere disposta con semplice telefonata del RUP"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'art. 10, comma 2, D.Lgs. 36/2023 sancisce la nullità di qualsiasi clausola dei bandi o delle lettere di invito che introduca cause di esclusione diverse da quelle tassativamente previste dal Codice.",
+    "hint": "Le cause di esclusione sono un 'numerus clausus' stabilito esclusivamente dalla legge statale.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_CONTR_PUB_016",
+    "question": "Quale delle seguenti ipotesi costituisce una causa di esclusione automatica dell'operatore economico ex art. 94 D.Lgs. 36/2023?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ritardo di due giorni nella consegna di una fornitura privata tre anni prima"
+      },
+      {
+        "id": "B",
+        "text": "Mancata iscrizione all'associazione di categoria degli industriali"
+      },
+      {
+        "id": "C",
+        "text": "Avere un capitale sociale inferiore a cinquanta milioni di euro"
+      },
+      {
+        "id": "D",
+        "text": "Condanna con sentenza definitiva o decreto penale irrevocabile per reati di associazione a delinquere, corruzione, concussione, frode o riciclaggio"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'art. 94 D.Lgs. 36/2023 elenca le cause di esclusione automatica, tra cui sentenze definitive per delitti gravi contro la PA, criminalità organizzata, frode contro gli interessi finanziari dell'UE, riciclaggio, sfruttamento del lavoro minorile.",
+    "hint": "Sentenze penali definitive per reati gravi contro la PA o la pubblica economia.",
+    "level": "base"
+  },
+  {
+    "id": "Q_CONTR_PUB_017",
+    "question": "Qual è la differenza tra cause di esclusione automatica (art. 94) e non automatica (art. 95) nel D.Lgs. 36/2023?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Le cause ex art. 94 operano vincolativamente per legge; quelle ex art. 95 richiedono una valutazione discrezionale e motivata della stazione appaltante sulla grave inaffidabilità"
+      },
+      {
+        "id": "B",
+        "text": "L'art. 94 si applica solo alle ditte individuali, l'art. 95 solo alle società per azioni"
+      },
+      {
+        "id": "C",
+        "text": "L'art. 95 prevede la reclusione immediata dell'amministratore delegato"
+      },
+      {
+        "id": "D",
+        "text": "Non vi è alcuna differenza procedurale o probatoria"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Nell'art. 94 l'esclusione è un atto dovuto e vincolato in presenza del presupposto. Nell'art. 95 la stazione appaltante deve valutare in concreto se la circostanza (es. grave illecito professionale, inadempimento contrattuale pregresso) renda l'operatore inaffidabile, motivando puntualmente la decisione.",
+    "hint": "Esclusione vincolata (art. 94) vs. esclusione discrezionale motivata (art. 95).",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_CONTR_PUB_018",
+    "question": "Che cosa si intende per 'self-cleaning' (misure di ravvedimento operoso) ex art. 96 del D.Lgs. 36/2023?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La pulizia ecologica dei cantieri prima della firma del verbale di consegna"
+      },
+      {
+        "id": "B",
+        "text": "La dimostrazione da parte dell'operatore di aver risarcito il danno, chiarito i fatti e adottato misure concrete tecniche, organizzative e del personale idonee a prevenire ulteriori reati"
+      },
+      {
+        "id": "C",
+        "text": "Il cambio della denominazione sociale dell'impresa concorrente"
+      },
+      {
+        "id": "D",
+        "text": "L'azzeramento contabile del debito IVA mediante condono fiscale"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 96 D.Lgs. 36/2023 disciplina il self-cleaning: l'operatore economico che si trovi in una situazione di esclusione può provare di aver adottato misure idonee (risarcimento, collaborazione con le autorità, adozione di modelli 231) per dimostrare la propria affidabilità e non essere escluso.",
+    "hint": "Misure riparatorie e organizzative per dimostrare la ritrovata affidabilità.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_CONTR_PUB_019",
+    "question": "Quale criterio di aggiudicazione costituisce la regola generale per i servizi ad alta intensità di manodopera ai sensi dell'art. 108 del D.Lgs. 36/2023?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il criterio del massimo ribasso sul prezzo"
+      },
+      {
+        "id": "B",
+        "text": "Il criterio del sorteggio tra le offerte conformi"
+      },
+      {
+        "id": "C",
+        "text": "Esclusivamente il criterio dell'offerta economicamente più vantaggiosa (OEPV) individuata sulla base del miglior rapporto qualità/prezzo"
+      },
+      {
+        "id": "D",
+        "text": "Il minor costo del ciclo di vita calcolato senza offerta tecnica"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'art. 108, comma 2, del D.Lgs. 36/2023 impone l'utilizzo esclusivo dell'OEPV basata sul miglior rapporto qualità/prezzo per i contratti relativi ai servizi sociali e di ristorazione ospedaliera/scolastica e per i servizi ad alta intensità di manodopera, a tutela dei lavoratori.",
+    "hint": "Per i servizi in cui la manodopera è prevalente è vietato il criterio del solo prezzo.",
+    "level": "base"
+  },
+  {
+    "id": "Q_CONTR_PUB_020",
+    "question": "Che cos'è la 'clausola sociale' nei contratti pubblici di servizi e lavori ex art. 57 e 102 del D.Lgs. 36/2023?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'obbligo di devolvere il 5% del corrispettivo in beneficenza"
+      },
+      {
+        "id": "B",
+        "text": "L'obbligo di assumere esclusivamente residenti nel comune appaltante"
+      },
+      {
+        "id": "C",
+        "text": "La riserva del contratto alle sole cooperative sociali di tipo B"
+      },
+      {
+        "id": "D",
+        "text": "La clausola volta a garantire la stabilità occupazionale del personale impiegato dal contraente uscente e l'applicazione dei CCNL di settore"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Le clausole sociali sono disposizioni inserite nei bandi per promuovere la stabilità occupazionale del personale impiegato (riassorbimento dei lavoratori del gestore uscente) e garantire condizioni economiche e normative conformi ai contratti collettivi nazionali e territoriali.",
+    "hint": "Tutela della stabilità occupazionale dei lavoratori nel cambio di appalto.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_CONTR_PUB_021",
+    "question": "In materia di subappalto, quale principio è sancito dall'art. 119 del D.Lgs. n. 36/2023?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Non vi sono limiti percentuali generali e predeterminati al subappalto, ma le stazioni appaltanti possono limitarlo motivatamente per specifiche prestazioni complesse o a rischio di infiltrazione"
+      },
+      {
+        "id": "B",
+        "text": "Il subappalto è vietato in qualsiasi forma e misura in tutta Italia"
+      },
+      {
+        "id": "C",
+        "text": "Il subappalto è obbligatorio per almeno il 70% dell'importo dei lavori"
+      },
+      {
+        "id": "D",
+        "text": "Il subappaltatore non deve possedere alcun requisito di qualificazione"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "In recepimento della giurisprudenza della Corte di Giustizia UE, il D.Lgs. 36/2023 (art. 119) non fissa un tetto percentuale fisso e generale al subappalto, consentendo alla stazione appaltante di indicare nel bando le prestazioni che devono essere eseguite direttamente dall'aggiudicatario.",
+    "hint": "Nessun tetto percentuale generalizzato (come il vecchio 30% o 50%), ma divieto solo per motivate ragioni tecniche/sicurezza.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_CONTR_PUB_022",
+    "question": "A quale condizione è ammessa la revisione dei prezzi nei contratti pubblici ex art. 60 del D.Lgs. 36/2023?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La revisione prezzi è vietata e il prezzo è fisso e invariabile per legge"
+      },
+      {
+        "id": "B",
+        "text": "Le clausole di revisione prezzi sono obbligatorie nei bandi e si attivano al verificarsi di variazioni del costo dell'opera/servizio superiori al 5%, riconoscendo l'80% della variazione eccedente"
+      },
+      {
+        "id": "C",
+        "text": "La revisione scatta solo su ordine insindacabile del Prefetto"
+      },
+      {
+        "id": "D",
+        "text": "La revisione può essere richiesta ogni settimana dall'appaltatore"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 60 D.Lgs. 36/2023 stabilisce l'obbligo delle clausole di revisione prezzi nei documenti di gara. Le clausole si attivano quando la variazione del costo eccede il 5% dell'importo complessivo e operano nella misura dell'80% del valore eccedente.",
+    "hint": "Clausola obbligatoria: franchigia del 5% e compensazione all'80% dell'eccedenza.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_CONTR_PUB_023",
+    "question": "Che cos'è l'Accordo Quadro disciplinato dall'art. 59 del D.Lgs. 36/2023?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il patto di integrità sottoscritto obbligatoriamente dai dipendenti pubblici"
+      },
+      {
+        "id": "B",
+        "text": "L'atto formale di concessione edilizia rilasciato dal Comune"
+      },
+      {
+        "id": "C",
+        "text": "Un accordo concluso tra una o più stazioni appaltanti e uno o più operatori economici allo scopo di stabilire le clausole relative agli appalti da aggiudicare durante un dato periodo, in particolare per i prezzi e i quantitativi"
+      },
+      {
+        "id": "D",
+        "text": "La convenzione urbanistica tra lottizzante e sindaco"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'accordo quadro (art. 59 D.Lgs. 36/2023) definisce le condizioni generali degli affidamenti per un periodo massimo quadriennale (salvo casi eccezionali), da attuarsi mediante successivi contratti applicativi senza dover rifare una gara ad evidenza pubblica per ciascun lotto.",
+    "hint": "Fissa a monte le condizioni contrattuali per successivi contratti applicativi periodici.",
+    "level": "base"
+  },
+  {
+    "id": "Q_CONTR_PUB_024",
+    "question": "Ai sensi dell'art. 17 del D.Lgs. 36/2023, con quale atto la stazione appaltante avvia la procedura di affidamento?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Con la fattura pro-forma del fornitore prescelto"
+      },
+      {
+        "id": "B",
+        "text": "Con l'atto di liquidazione del saldo finale"
+      },
+      {
+        "id": "C",
+        "text": "Con la notifica al Presidente della Repubblica"
+      },
+      {
+        "id": "D",
+        "text": "Con la decisione di contrarre (che ha sostituito la determina a contrarre)"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'art. 17, comma 1, D.Lgs. 36/2023 stabilisce che prima dell'avvio delle procedure di affidamento le stazioni appaltanti adottano la 'decisione di contrarre', che individua gli elementi essenziali del contratto e i criteri di selezione.",
+    "hint": "Nel D.Lgs. 36/2023 si chiama formalmente 'decisione di contrarre'.",
+    "level": "base"
+  },
+  {
+    "id": "Q_CONTR_PUB_025",
+    "question": "Entro quale percentuale dell'importo originario del contratto sono ammesse le varianti in corso d'opera per circostanze impreviste e imprevedibili ex art. 120, comma 1, lett. c), D.Lgs. 36/2023?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Entro il limite del 50% del valore del contratto iniziale"
+      },
+      {
+        "id": "B",
+        "text": "Non possono mai superare il 5%"
+      },
+      {
+        "id": "C",
+        "text": "Fino al 100% dell'importo contrattuale"
+      },
+      {
+        "id": "D",
+        "text": "Senza alcun limite di valore monetario"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 120, comma 2, D.Lgs. 36/2023 stabilisce che nei casi previsti (circostanze impreviste e imprevedibili, necessità di varianti tecniche) la modifica non può superare il 50 per cento del valore del contratto iniziale.",
+    "hint": "Il tetto massimo europeo per le modifiche senza nuova procedura di gara è il 50%.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_CONTR_PUB_026",
+    "question": "Quale garanzia economica provvisoria deve essere presentata dall'offerente per partecipare ad una gara di appalto di lavori, servizi o forniture sopra soglia (art. 106 D.Lgs. 36/2023)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un deposito cauzionale pari al 20% in contanti"
+      },
+      {
+        "id": "B",
+        "text": "La garanzia provvisoria pari al 2% dell'importo a base di gara (riducibile in base al possesso di certificazioni di qualità o rating di legalità)"
+      },
+      {
+        "id": "C",
+        "text": "La cessione del 10% delle azioni della società concorrente"
+      },
+      {
+        "id": "D",
+        "text": "Non è prevista alcuna garanzia prima della conclusione del collaudo"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 106 D.Lgs. 36/2023 fissa la garanzia provvisoria al 2% del valore a base di gara, salvo facoltà della stazione appaltante di motivare una riduzione all'1% o incremento al 4%. Sono previste riduzioni per certificazioni ISO, rating di legalità, parità di genere, ecc.",
+    "hint": "Misura base 2% con premialità di riduzione per certificazioni e rating.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_CONTR_PUB_027",
+    "question": "A quanto ammonta la garanzia definitiva per l'esecuzione del contratto che l'aggiudicatario deve costituire ex art. 117 del D.Lgs. 36/2023?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pari al 50% dell'importo dell'appalto"
+      },
+      {
+        "id": "B",
+        "text": "Pari all'1% simbolico del valore del bando"
+      },
+      {
+        "id": "C",
+        "text": "Di norma pari al 10% dell'importo contrattuale (con eventuale incremento in caso di ribasso superiore al 10%)"
+      },
+      {
+        "id": "D",
+        "text": "Pari all'intero corrispettivo contrattuale anticipato"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'art. 117 D.Lgs. 36/2023 prevede che l'appaltatore costituisca una garanzia definitiva pari al 10% dell'importo contrattuale, incrementata di tanti punti percentuali quanti sono quelli eccedenti il 10% di ribasso.",
+    "hint": "La cauzione definitiva base è pari al 10% dell'importo netto di aggiudicazione.",
+    "level": "base"
+  },
+  {
+    "id": "Q_CONTR_PUB_028",
+    "question": "Che cos'è il 'quinto d'obbligo' disciplinato dall'art. 120, comma 9, del D.Lgs. 36/2023?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'obbligo per l'appaltatore di versare un quinto del profitto al Comune"
+      },
+      {
+        "id": "B",
+        "text": "Il limite di tempo concesso per pagare le fatture (un quinto di mese)"
+      },
+      {
+        "id": "C",
+        "text": "La quota di dipendenti comunali destinati all'ufficio gare"
+      },
+      {
+        "id": "D",
+        "text": "La facoltà della stazione appaltante di imporre all'appaltatore un aumento o diminuzione delle prestazioni fino a un quinto dell'importo contrattuale (20%) alle medesime condizioni contrattuali"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Ai sensi dell'art. 120, comma 9, qualora in corso di esecuzione si renda necessario un aumento o una diminuzione delle prestazioni fino alla concorrenza del quinto dell'importo del contratto (20%), la stazione appaltante può imporre all'appaltatore l'esecuzione alle stesse condizioni previste nel contratto originario.",
+    "hint": "Variazione unilaterale imposta dalla PA fino al 20% (un quinto) agli stessi patti.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_CONTR_PUB_029",
+    "question": "Quale organo provvede all'approvazione degli atti di gara e alla nomina della commissione giudicatrice?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il dirigente o responsabile del servizio competente della stazione appaltante"
+      },
+      {
+        "id": "B",
+        "text": "Il Consiglio comunale in seduta segreta"
+      },
+      {
+        "id": "C",
+        "text": "Il Prefetto della Provincia"
+      },
+      {
+        "id": "D",
+        "text": "Il Difensore civico"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La gestione della procedura di gara, compresa la nomina della commissione giudicatrice (dopo la scadenza del termine di presentazione delle offerte, art. 93 D.Lgs. 36/2023), è atto di competenza gestionale del dirigente o responsabile del servizio.",
+    "hint": "È un tipico atto gestionale ex art. 107 TUEL e D.Lgs. 36/2023.",
+    "level": "base"
+  },
+  {
+    "id": "Q_CONTR_PUB_030",
+    "question": "Quando deve essere nominata la commissione giudicatrice nelle gare aggiudicate con il criterio del miglior rapporto qualità/prezzo (art. 93 D.Lgs. 36/2023)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Prima della pubblicazione del bando di gara sulla Gazzetta Ufficiale"
+      },
+      {
+        "id": "B",
+        "text": "Dopo la scadenza del termine per la presentazione delle offerte"
+      },
+      {
+        "id": "C",
+        "text": "Contestualmente alla delibera consiliare di approvazione del DUP"
+      },
+      {
+        "id": "D",
+        "text": "Dopo l'apertura delle buste economiche"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 93, comma 1, D.Lgs. 36/2023 prevede che la commissione giudicatrice sia nominata dall'organo competente della stazione appaltante dopo la scadenza del termine per la presentazione delle offerte, a garanzia di trasparenza e imparzialità.",
+    "hint": "La nomina successiva alla scadenza delle offerte evita interferenze preventive tra commissari e concorrenti.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_CONTR_PUB_031",
+    "question": "Il RUP può essere nominato membro o presidente della commissione giudicatrice ai sensi dell'art. 51 e allegato I.2 del D.Lgs. 36/2023?",
+    "options": [
+      {
+        "id": "A",
+        "text": "No, è vietato a pena di nullità insanabile dell'intera gara in qualsiasi circostanza"
+      },
+      {
+        "id": "B",
+        "text": "Solo se autorizzato con decreto motivato del Ministero delle Infrastrutture"
+      },
+      {
+        "id": "C",
+        "text": "Sì, nel nuovo codice non vi è più l'incompatibilità automatica e il RUP può fare parte o presiedere la commissione, salvo specifiche condizioni di conflitto di interessi"
+      },
+      {
+        "id": "D",
+        "text": "Solo nei contratti sopra i dieci milioni di euro"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Superando il rigido divieto del codice 50/2016, il D.Lgs. 36/2023 consente al RUP di far parte della commissione giudicatrice o presiederla, purché non ricorrano specifiche e motivate situazioni di conflitto di interessi.",
+    "hint": "Una delle novità di semplificazione del D.Lgs. 36/2023: il RUP può essere commissario/presidente.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_CONTR_PUB_032",
+    "question": "Che cos'è il 'documento di gara unico europeo' (DGUE) ex art. 91 del D.Lgs. 36/2023?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il passaporto comunitario rilasciato dalla Commissione europea a Bruxelles"
+      },
+      {
+        "id": "B",
+        "text": "La fattura unificata europea per i pagamenti transfrontalieri"
+      },
+      {
+        "id": "C",
+        "text": "La ricevuta di versamento della cauzione provvisoria"
+      },
+      {
+        "id": "D",
+        "text": "Un'autodichiarazione aggiornata dell'operatore economico che funge da prova documentale preliminare del possesso dei requisiti e dell'assenza di cause di esclusione"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Il DGUE (art. 91 D.Lgs. 36/2023) è il modello uniforme predisposto su base europea con cui l'operatore economico autocertifica il possesso dei requisiti di ordine generale e speciale, semplificando la partecipazione alle gare.",
+    "hint": "Autodichiarazione standardizzata a livello europeo sui requisiti di gara.",
+    "level": "base"
+  },
+  {
+    "id": "Q_CONTR_PUB_033",
+    "question": "Entro quanti giorni l'amministrazione aggiudicatrice deve provvedere al pagamento delle fatture dell'appaltatore ai sensi del D.Lgs. 231/2002 e dell'art. 125 del D.Lgs. 36/2023?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Di norma entro 30 giorni dall'emissione del certificato di pagamento o ricevimento della fattura"
+      },
+      {
+        "id": "B",
+        "text": "Entro 180 giorni lavorativi"
+      },
+      {
+        "id": "C",
+        "text": "Entro 365 giorni solari"
+      },
+      {
+        "id": "D",
+        "text": "Solo alla conclusione dell'anno finanziario"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 125 D.Lgs. 36/2023 e la disciplina sui ritardi nei pagamenti (D.Lgs. 231/2002) fissano a 30 giorni il termine ordinario per il pagamento delle fatture, per garantire la certezza dei pagamenti alle imprese.",
+    "hint": "Termine standard comunitario di 30 giorni contro i ritardi della PA.",
+    "level": "base"
+  },
+  {
+    "id": "Q_CONTR_PUB_034",
+    "question": "In cosa consiste l'avvalimento ai sensi dell'art. 104 del D.Lgs. n. 36/2023?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La facoltà del Comune di cedere il debito verso l'appaltatore ad una banca privata"
+      },
+      {
+        "id": "B",
+        "text": "Il contratto con cui un operatore economico si avvale dei requisiti di capacità economico-finanziaria o tecnico-professionale di un'impresa ausiliaria per partecipare ad una gara"
+      },
+      {
+        "id": "C",
+        "text": "La delega delle funzioni del Sindaco ad un funzionario di prefettura"
+      },
+      {
+        "id": "D",
+        "text": "La rinuncia della stazione appaltante ad esigere il collaudo dell'opera"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 104 D.Lgs. 36/2023 disciplina l'avvalimento, istituto di derivazione comunitaria che permette all'operatore privo di taluni requisiti di gara di prenderli 'in prestito' da un'ausiliaria, che si obbliga formalmente verso la stazione appaltante a mettere a disposizione le risorse necessarie.",
+    "hint": "Prestito di requisiti di qualificazione mediante contratto oneroso con l'impresa ausiliaria.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_CONTR_PUB_035",
+    "question": "Che cosa si intende per 'avvalimento premiale' introdotto dall'art. 104, comma 4, del D.Lgs. 36/2023?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Uno sconto economico applicato sulla tassa di gara dell'ANAC"
+      },
+      {
+        "id": "B",
+        "text": "Il premio in denaro versato dal Comune all'ausiliaria in caso di consegna anticipata"
+      },
+      {
+        "id": "C",
+        "text": "L'avvalimento finalizzato non a soddisfare requisiti minimi di partecipazione, bensì ad ottenere un punteggio aggiuntivo nella valutazione dell'offerta tecnica"
+      },
+      {
+        "id": "D",
+        "text": "La possibilità di non applicare il CCNL di categoria"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Il comma 4 dell'art. 104 codifica l'avvalimento c.d. premiale: l'operatore già in possesso dei requisiti minimi ricorre all'ausiliaria per migliorare la propria offerta e conseguire un punteggio qualitativo più elevato.",
+    "hint": "Serve per acquisire punti di merito nell'offerta tecnica, non per essere ammessi.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_CONTR_PUB_036",
+    "question": "Qual è la durata massima delle procedure di affidamento sotto soglia europea stabilita dall'Allegato I.3 del D.Lgs. 36/2023 per l'affidamento diretto?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Non superiore a 12 mesi"
+      },
+      {
+        "id": "B",
+        "text": "Indefinita a discrezione del RUP"
+      },
+      {
+        "id": "C",
+        "text": "Esattamente 6 mesi non prorogabili"
+      },
+      {
+        "id": "D",
+        "text": "Non superiore a 1 mese (o 3 mesi in caso di procedura negoziata)"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'Allegato I.3 al Codice fissa termini massimi stringenti per le procedure: per gli affidamenti diretti il termine massimo tra l'avvio e la stipula è di 1 mese; per le procedure negoziate senza bando è di 3 mesi.",
+    "hint": "Termini rapidissimi coerenti con il principio del risultato: 1 mese per l'affidamento diretto.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_CONTR_PUB_037",
+    "question": "Nelle procedure negoziate senza bando di cui all'art. 50, comma 1, lett. c), D.Lgs. 36/2023 per lavori tra 150.000 euro e 1 milione di euro, quanti operatori devono essere consultati?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Almeno 5 operatori economici, ove esistenti, individuati tramite elenchi o indagini di mercato"
+      },
+      {
+        "id": "B",
+        "text": "Almeno 10 operatori economici"
+      },
+      {
+        "id": "C",
+        "text": "Almeno 15 operatori economici"
+      },
+      {
+        "id": "D",
+        "text": "Esclusivamente 2 operatori del comune"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 50, comma 1, lett. c), prevede la procedura negoziata senza bando previa consultazione di almeno 5 operatori per lavori pari o superiori a 150.000 euro e inferiori a 1 milione di euro.",
+    "hint": "Per lavori da 150k a 1M servono almeno 5 inviti; da 1M alla soglia UE ne servono almeno 10.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_CONTR_PUB_038",
+    "question": "Per lavori di importo pari o superiore a 1 milione di euro e fino alle soglie europee (art. 50, comma 1, lett. d), D.Lgs. 36/2023), quanti operatori economici devono essere invitati?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Almeno 5 operatori economici"
+      },
+      {
+        "id": "B",
+        "text": "Almeno 10 operatori economici, se esistenti"
+      },
+      {
+        "id": "C",
+        "text": "Almeno 20 operatori economici"
+      },
+      {
+        "id": "D",
+        "text": "Non vi è obbligo di invito potendosi procedere con affidamento diretto"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 50, comma 1, lett. d), D.Lgs. 36/2023 richiede la consultazione di almeno 10 operatori economici per l'affidamento di lavori di importo da 1 milione di euro fino alla soglia comunitaria.",
+    "hint": "Soglia lavori da 1 milione in su: almeno 10 operatori invitati.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_CONTR_PUB_039",
+    "question": "A quale autorità pubblica compete la tenuta della Banca Dati Nazionale dei Contratti Pubblici (BDNCP)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Al Ministero delle Infrastrutture e dei Trasporti"
+      },
+      {
+        "id": "B",
+        "text": "Alla Corte dei Conti"
+      },
+      {
+        "id": "C",
+        "text": "All'Autorità Nazionale Anticorruzione (ANAC)"
+      },
+      {
+        "id": "D",
+        "text": "All'Agenzia per l'Italia Digitale (AgID)"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'art. 23 del D.Lgs. 36/2023 attribuisce all'ANAC la gestione e lo sviluppo della Banca Dati Nazionale dei Contratti Pubblici (BDNCP), nodo centrale dell'ecosistema digitale di e-procurement in Italia.",
+    "hint": "La BDNCP è gestita e vigilata dall'ANAC.",
+    "level": "base"
+  },
+  {
+    "id": "Q_CONTR_PUB_040",
+    "question": "Quale codice alfanumerico identifica in modo univoco una gara pubblica e il relativo contratto ai fini della tracciabilità finanziaria?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il CUP (Codice Unico di Progetto)"
+      },
+      {
+        "id": "B",
+        "text": "L'IBAN della tesoreria comunale"
+      },
+      {
+        "id": "C",
+        "text": "Il codice IPA dell'ufficio"
+      },
+      {
+        "id": "D",
+        "text": "Il CIG (Codice Identificativo di Gara)"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Il CIG (Codice Identificativo di Gara), rilasciato dall'ANAC tramite la BDNCP, garantisce la tracciabilità dei flussi finanziari (Legge 136/2010) e la trasparenza di ogni singola procedura contrattuale.",
+    "hint": "Il CIG traccia la gara/contratto, mentre il CUP identifica l'investimento pubblico.",
+    "level": "base"
+  },
+  {
+    "id": "Q_CONTR_PUB_041",
+    "question": "Quando è obbligatoria l'acquisizione del CUP (Codice Unico di Progetto) ex Legge n. 144/1999?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Per tutte le opere pubbliche e gli interventi di investimento pubblico finanziati in tutto o in parte con risorse pubbliche comunitarie, statali o regionali"
+      },
+      {
+        "id": "B",
+        "text": "Solo per l'acquisto di cancelleria minuta"
+      },
+      {
+        "id": "C",
+        "text": "Esclusivamente per le gare svolte in modalità cartacea"
+      },
+      {
+        "id": "D",
+        "text": "Per i soli rimborsi spese dei dipendenti"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il CUP (Codice Unico di Progetto) è obbligatorio per ogni progetto di investimento pubblico (lavori pubblici, incentivi alle imprese, acquisti di beni strumentali ad un progetto di sviluppo), previsto dall'art. 11 della L. 144/1999 per il monitoraggio degli investimenti.",
+    "hint": "Identifica l'intervento di investimento pubblico nel suo complesso.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_CONTR_PUB_042",
+    "question": "Quale sanzione si applica ai pagamenti relativi ad appalti pubblici eseguiti senza l'indicazione del CIG e del CUP nei mandati o bonifici bancari?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'arresto immediato del tesoriere comunale"
+      },
+      {
+        "id": "B",
+        "text": "La violazione degli obblighi di tracciabilità finanziaria ex Legge 136/2010, con sanzioni amministrative pecuniarie e nullità della clausola contrattuale"
+      },
+      {
+        "id": "C",
+        "text": "La confisca dei beni del fornitore da parte del TAR"
+      },
+      {
+        "id": "D",
+        "text": "Nessuna, l'indicazione è una mera facoltà stilistica"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La Legge 136/2010 impone la tracciabilità finanziaria mediante conto corrente dedicato e indicazione del CIG/CUP. Il mancato rispetto comporta sanzioni prefettizie pecuniarie pesanti e la risoluzione di diritto del contratto.",
+    "hint": "Materia di ordine pubblico economico e lotta alle infiltrazioni criminali.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_CONTR_PUB_043",
+    "question": "Ai sensi dell'art. 110 del D.Lgs. 36/2023, che cosa si intende per 'offerta anormalmente bassa'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un'offerta che supera la base d'asta stabilita dal bando"
+      },
+      {
+        "id": "B",
+        "text": "Un'offerta presentata da una ditta con meno di due dipendenti"
+      },
+      {
+        "id": "C",
+        "text": "Un'offerta che, per l'entità del ribasso economico o per le modalità tecniche proposte, appare dubbia circa la reale sostenibilità, serietà e congruità dell'esecuzione"
+      },
+      {
+        "id": "D",
+        "text": "L'offerta priva di timbro postale sulla busta"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'anomalia dell'offerta si verifica quando il ribasso è talmente elevato da far presumere l'impossibilità di adempiere regolarmente o il mancato rispetto dei costi della manodopera e della sicurezza. La stazione appaltante deve chiedere giustificazioni preventive.",
+    "hint": "Offerta sospetta per eccessivo ribasso che richiede il contraddittorio sulle giustificazioni.",
+    "level": "base"
+  },
+  {
+    "id": "Q_CONTR_PUB_044",
+    "question": "Quali costi NON possono mai essere oggetto di ribasso d'asta nell'offerta economica ex art. 41, comma 14, e art. 110 del D.Lgs. 36/2023?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Le spese di pubblicità legale del bando"
+      },
+      {
+        "id": "B",
+        "text": "L'utile dell'impresa stimato nel piano industriale"
+      },
+      {
+        "id": "C",
+        "text": "I costi di trasporto dei materiali"
+      },
+      {
+        "id": "D",
+        "text": "I costi della manodopera e gli oneri aziendali per l'adempimento delle disposizioni in materia di salute e sicurezza sui luoghi di lavoro"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Ai sensi dell'art. 41, comma 14, D.Lgs. 36/2023, i costi della manodopera e della sicurezza sono scorporati dall'importo assoggettato a ribasso, a garanzia inderogabile dei diritti e delle retribuzioni dei lavoratori e della tutela della sicurezza.",
+    "hint": "Costi della sicurezza e costo della manodopera sono rigidamente tutelati e non ribassabili.",
+    "level": "base"
+  },
+  {
+    "id": "Q_CONTR_PUB_045",
+    "question": "In che cosa consiste il 'collaudo' o 'certificato di regolare esecuzione' nelle opere pubbliche (art. 116 D.Lgs. 36/2023)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nell'accertamento che l'opera o il lavoro sia stato eseguito a regola d'arte, in conformità al progetto approvato, al contratto e alle prescrizioni tecniche"
+      },
+      {
+        "id": "B",
+        "text": "Nel pagamento del saldo da parte della tesoreria"
+      },
+      {
+        "id": "C",
+        "text": "Nel rilascio del permesso di costruire in sanatoria"
+      },
+      {
+        "id": "D",
+        "text": "Nell'inaugurazione ufficiale con taglio del nastro da parte del Sindaco"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il collaudo (o certificato di regolare esecuzione per importi minori) ha lo scopo di verificare che l'opera sia stata realizzata conformemente al progetto, alle pattuizioni contrattuali e alle buone regole dell'arte edilizia, liquidando il credito finale dell'esecutore.",
+    "hint": "Verifica tecnica di conformità dell'opera finita rispetto al progetto.",
+    "level": "base"
+  },
+  {
+    "id": "Q_CONTR_PUB_046",
+    "question": "Cosa stabilisce l'art. 122 del D.Lgs. 36/2023 in ordine alla risoluzione del contratto per grave inadempimento dell'appaltatore?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La risoluzione può avvenire solo dopo una sentenza definitiva della Cassazione passata in giudicato"
+      },
+      {
+        "id": "B",
+        "text": "La stazione appaltante ha facoltà di risolvere il contratto qualora l'appaltatore abbia commesso gravi inadempimenti tali da compromettere la buona riuscita delle prestazioni, previa contestazione del RUP e assegnazione di un termine per controdedurre"
+      },
+      {
+        "id": "C",
+        "text": "Il contratto non può mai essere sciolto prima della sua naturale scadenza decennale"
+      },
+      {
+        "id": "D",
+        "text": "La risoluzione comporta l'obbligo per la PA di corrispondere un indennizzo all'appaltatore negligente"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 122 D.Lgs. 36/2023 disciplina la risoluzione per grave inadempimento, ritardo reiterato, frode o perdita dei requisiti, attivata su proposta del RUP dopo aver contestato gli addebiti e valutato le giustificazioni dell'esecutore entro 15 giorni.",
+    "hint": "Procedura amministrativa in contraddittorio attivata dal RUP per grave inadempienza.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_CONTR_PUB_047",
+    "question": "In caso di recesso unilaterale della stazione appaltante dal contratto d'appalto ex art. 123 D.Lgs. 36/2023, cosa spetta all'appaltatore?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'intero importo contrattuale pattuito come se l'opera fosse stata ultimata"
+      },
+      {
+        "id": "B",
+        "text": "Nessun corrispettivo né indennizzo per le spese sostenute"
+      },
+      {
+        "id": "C",
+        "text": "Il pagamento delle prestazioni eseguite, il valore dei materiali utili esistenti in cantiere oltre al decimo dell'importo delle opere o servizi non ancora eseguiti"
+      },
+      {
+        "id": "D",
+        "text": "Un risarcimento forfettario pari al doppio della cauzione versata"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'art. 123 D.Lgs. 36/2023 riconosce alla PA il potere di recesso ad nutum in qualunque momento, corrispondendo all'appaltatore il pagamento dei lavori eseguiti, dei materiali utili e un indennizzo pari al 10% delle opere non ancora eseguite.",
+    "hint": "Pagamento di quanto fatto + materiali + 10% delle opere residue (lucro cessante legale).",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_CONTR_PUB_048",
+    "question": "Che cosa sono le centrali di committenza qualificate secondo il sistema di qualificazione delle stazioni appaltanti (art. 62 e 63 D.Lgs. 36/2023)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Uffici del Ministero della Difesa riservati all'acquisto di forniture militari"
+      },
+      {
+        "id": "B",
+        "text": "Aziende private incaricate della riscossione coattiva dei tributi comunali"
+      },
+      {
+        "id": "C",
+        "text": "Banche commerciali che concedono fidi alle imprese edili"
+      },
+      {
+        "id": "D",
+        "text": "Soggetti aggregatori o stazioni appaltanti in possesso dei requisiti di capacità tecnica, organizzativa e di digitalizzazione certificati da ANAC per effettuare acquisti sopra determinate soglie"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Il D.Lgs. 36/2023 (artt. 62 e 63) ha reso obbligatorio il sistema di qualificazione delle stazioni appaltanti gestito dall'ANAC: gli enti non qualificati possono svolgere autonomamente solo affidamenti diretti e sottosoglia di base, dovendo ricorrere a centrali qualificate per importi superiori.",
+    "hint": "Sistema di certificazione ANAC dei requisiti per poter bandire gare di rilevanza economica.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_CONTR_PUB_049",
+    "question": "A quale rito processuale speciale sono sottoposti i ricorsi avverso gli atti delle procedure di affidamento di contratti pubblici?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Al rito speciale abbreviato in materia di appalti pubblici disciplinato dagli artt. 119 e 120 del Codice del Processo Amministrativo (D.Lgs. 104/2010)"
+      },
+      {
+        "id": "B",
+        "text": "Al rito ordinario del Tribunale Civile con termini biennali"
+      },
+      {
+        "id": "C",
+        "text": "Al giudizio sommario di cognizione dinanzi al Giudice di Pace"
+      },
+      {
+        "id": "D",
+        "text": "Al procedimento penale monocratico d'urgenza"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "I contenziosi su appalti pubblici sono soggetti al rito speciale accelerato dinanzi al TAR (artt. 119 e 120 c.p.a.), caratterizzato da termini processuali dimezzati (es. 30 giorni per il ricorso principale), obbligo di pubblicazione immediata e udienze ravvicinate.",
+    "hint": "Rito appalti con termine di impugnazione di 30 giorni e termini dimezzati.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_CONTR_PUB_050",
+    "question": "In caso di contestazione su riserve iscritte dall'appaltatore nei registri di contabilità, quale strumento di risoluzione stragiudiziale è previsto dall'art. 215 del D.Lgs. 36/2023?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La querela di falso dinanzi alla Corte d'Assise"
+      },
+      {
+        "id": "B",
+        "text": "L'accordo bonario"
+      },
+      {
+        "id": "C",
+        "text": "La revisione dei prezzi senza perizia tecnica"
+      },
+      {
+        "id": "D",
+        "text": "Il referendum consultivo tra i dipendenti dell'ente"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 215 del D.Lgs. 36/2023 disciplina l'accordo bonario per i lavori pubblici, procedura attivata dal RUP quando l'importo delle riserve iscritte dall'esecutore superi determinati parametri, al fine di prevenire liti giudiziarie lunghe e costose.",
+    "hint": "Composizione stragiudiziale bonaria delle riserve sui lavori.",
+    "level": "base"
+  }
+]

@@ -1,0 +1,187 @@
+{
+  "concorso_id": "ASMEL_FUNZIONARIO_AMMINISTRATIVO_2026",
+  "titolo": "Maxi Avviso ASMEL 2026 - Funzionario Amministrativo (ex Cat. D)",
+  "bando": {
+    "fonte": "MAXI AVVISO ASMEL 2026 per la selezione pubblica per la formazione e aggiornamento degli elenchi di idonei per l'assunzione a tempo indeterminato e determinato per diversi profili (art. 3-bis, comma 2, D.L. 80/2021 conv. in L. 113/2021)",
+    "ente": "ASMEL - Comuni di Altavilla Silentina (Capofila), Sicignano degli Alburni e Bellosguardo",
+    "numeroPosti": 4400,
+    "postiPerSede": [
+      { "sede": "Comuni Soci ASMEL - Campania", "posti": 850 },
+      { "sede": "Comuni Soci ASMEL - Lombardia", "posti": 600 },
+      { "sede": "Comuni Soci ASMEL - Piemonte", "posti": 500 },
+      { "sede": "Comuni Soci ASMEL - Veneto", "posti": 450 },
+      { "sede": "Comuni Soci ASMEL - Calabria", "posti": 400 },
+      { "sede": "Comuni Soci ASMEL - Sicilia", "posti": 400 },
+      { "sede": "Comuni Soci ASMEL - Puglia e Basilicata", "posti": 400 },
+      { "sede": "Comuni Soci ASMEL - Altre Regioni d'Italia", "posti": 800 }
+    ],
+    "terminePresentazione": "Candidature aperte dalle ore 12:00 del 15 Settembre 2026 alle ore 12:00 del 30 Settembre 2026 su piattaforma telematica www.asmelab.it e Portale InPA con SPID/CIE e PEC intestata al candidato. Tassa di selezione di 15,00 € tramite PagoPA Comune di Bellosguardo.",
+    "requisiti": [
+      "Laurea (L) appartenente alle classi: L-14 Scienze dei servizi giuridici, L-36 Scienze politiche e relazioni internazionali, L-33 Scienze economiche, L-40 Sociologia, L-18 Scienze dell'economia e gestione aziendale, L-16 Scienze dell'amministrazione e dell'organizzazione, ovvero Diploma di Laurea (DL) vecchio ordinamento in Giurisprudenza, Scienze politiche, Economia e commercio, Scienze dell'Amministrazione, o corrispondenti lauree specialistiche (LS) / magistrali (LM)",
+      "Cittadinanza italiana o di uno Stato membro dell'Unione Europea (ovvero status equiparato ai sensi dell'art. 38 D.Lgs. 165/2001)",
+      "Età non inferiore agli anni 18 e non superiore a quella prevista dalle norme vigenti per il collocamento a riposo d'ufficio",
+      "Godimento dei diritti civili e politici",
+      "Idoneità fisica, assoluta ed incondizionata, allo svolgimento di tutte le mansioni specifiche afferenti al profilo professionale",
+      "Non avere riportato condanne penali passate in giudicato né avere procedimenti penali pendenti per reati ostativi all'assunzione presso la pubblica amministrazione",
+      "Non essere stati destituiti, dispensati o licenziati dall'impiego presso una pubblica amministrazione per persistente insufficiente rendimento o per motivi disciplinari",
+      "Regolare assolvimento degli obblighi di leva per i cittadini che vi sono soggetti",
+      "Conoscenza della lingua inglese",
+      "Conoscenza dell'uso delle apparecchiature e delle applicazioni informatiche più diffuse"
+    ],
+    "prova": {
+      "tipo": "Prova scritta telematica da remoto con Quiz multidisciplinare (30 domande specifiche, 25 domande comuni, 5 inglese/informatica)",
+      "durataMinuti": 60,
+      "numeroQuesiti": 60,
+      "punteggioMinimo": "42/60 (Superano la prova e sono iscritti nell'elenco di idonei con almeno 42 risposte corrette)",
+      "modalitaSvolgimento": "Prova digitale a distanza della durata effettiva di 60 minuti con 60 quesiti a risposta multipla con 4 opzioni. Non si tiene conto né delle risposte errate né dell'assenza di risposte (penalità zero)."
+    },
+    "materieEsame": [
+      "Materie specifiche: Management pubblico (pianificazione strategica, ciclo della performance D.Lgs. 150/2009, PIAO, gestione per obiettivi)",
+      "Materie specifiche: Diritto tributario e fiscalità degli enti locali (IMU, TARI, addizionale IRPEF, Canone Unico, accertamento esecutivo, contenzioso)",
+      "Materie specifiche: Diritto Amministrativo / Disciplina in materia di organismi partecipati (TUSP D.Lgs. 175/2016, in-house providing, controllo analogo, SPL)",
+      "Materie specifiche: Programmazione comunitaria / modelli e disciplina specialistica di settore (QFP 2021-2027, Fondi SIE, FESR, FSE+, PNRR, PCM, rendicontazione)",
+      "Materie comuni: Diritto pubblico e ordinamento costituzionale della Repubblica",
+      "Materie comuni: Diritto Amministrativo / Diritto degli Enti locali (TUEL - D.Lgs. 267/2000: organi, atti, deliberazioni, dirigenti, controlli interni)",
+      "Materie comuni: Diritto Amministrativo / Disciplina dei contratti pubblici (Nuovo Codice Contratti D.Lgs. 36/2023: principi, RUP, sottosoglia, digitalizzazione)",
+      "Materie comuni: Diritto Amministrativo e del lavoro / Disciplina del Pubblico Impiego (D.Lgs. 165/2001, CCNL Funzioni Locali, codice comportamento DPR 62/2013)",
+      "Materie comuni: Diritto Amministrativo / Disciplina in materia di trasparenza e anticorruzione (L. 190/2012, D.Lgs. 33/2013, PNA, whistleblowing)",
+      "Materie comuni: Diritto amministrativo / Diritto di accesso e procedimento amministrativo (Legge 241/1990, accesso documentale, civico e FOIA)",
+      "Materie comuni: Nozioni di diritto dell'Unione europea (Trattati, istituzioni, fonti comunitarie, primato ed effetto diretto)",
+      "Materie comuni: Nozioni di diritto penale / Reati contro la Pubblica Amministrazione (delitti dei pubblici ufficiali contro la PA)",
+      "Materie comuni: Nozioni di contabilità pubblica ed enti locali (armonizzazione contabile D.Lgs. 118/2011, TUEL Parte II, DUP, bilancio, PEG, rendiconto)",
+      "Materie comuni: Nozioni di tutela della privacy (Regolamento UE 2016/679 GDPR e D.Lgs. 196/2003)",
+      "Materie comuni: Lingua Inglese (grammatica, comprensione testi, lessico specialistico)",
+      "Materie comuni: Nozioni di Informatica (CAD D.Lgs. 82/2005, sicurezza, strumenti di produttività e office automation)"
+    ],
+    "graduatoria": {
+      "validita": "3 anni dalla data di approvazione dell'Elenco degli Idonei",
+      "note": "La selezione pubblica serve alla formazione e all'aggiornamento dell'Elenco Nazionale di Idonei per l'assunzione a tempo indeterminato e determinato (art. 3-bis D.L. 80/2021). Gli idonei partecipano agli interpelli indetti dai singoli Comuni ed Enti soci ASMEL in tutta Italia senza nuova prova preselettiva."
+    },
+    "assunzione": {
+      "tipoContratto": "Tempo indeterminato o determinato a tempo pieno o parziale",
+      "periodoProva": "6 mesi di effettivo servizio",
+      "inquadramento": "Area dei Funzionari e dell'Elevata Qualificazione (ex Cat. D - Istruttore Direttivo Amministrativo)",
+      "retribuzione": "CCNL Comparto Funzioni Locali: Tabella G CCNL 16-11-2022, incremento art. 56 CCNL 23-02-2026, indennità di comparto, tredicesima mensilità ed eventuale retribuzione di posizione per incarichi di Elevata Qualificazione (EQ)"
+    },
+    "noteAggiuntive": [
+      "La prova scritta multidisciplinare consta di 60 quesiti: 30 domande sulle materie specifiche, 25 domande sulle materie comuni, 5 domande su inglese e informatica.",
+      "Durata della prova scritta: 60 minuti effettivi. Si supera con almeno 42/60 risposte esatte (idoneità).",
+      "Criterio di attribuzione del punteggio: risposte corrette valorizzate positivamente, risposte errate o non date non comportano alcuna penalizzazione (penalità = 0).",
+      "L'elenco idonei è valido per 3 anni ed è aperto all'adesione continua di tutti i Comuni soci ASMEL distribuiti sull'intero territorio nazionale."
+    ]
+  },
+  "moduli_esame": [
+    {
+      "modulo_id": "MOD_ASMEL_01",
+      "modulo_titolo": "Management Pubblico e Performance (Specifica)",
+      "descrizione": "Materia specifica: Pianificazione strategica, ciclo della performance (D.Lgs. 150/2009), PIAO, OIV e Nuclei di valutazione, indicatori di efficacia ed efficienza (KPI), gestione delle risorse umane.",
+      "icona": "Brain",
+      "sorgenti_dati": ["gestione_pa/pianificazione_controllo.json"]
+    },
+    {
+      "modulo_id": "MOD_ASMEL_02",
+      "modulo_titolo": "Diritto Tributario e Fiscalità Locale (Specifica)",
+      "descrizione": "Materia specifica: Principi costituzionali (artt. 23 e 53 Cost.), Statuto del contribuente, IMU, TARI, addizionale comunale IRPEF, Canone Unico Patrimoniale, accertamento esecutivo e contenzioso tributario.",
+      "icona": "Landmark",
+      "sorgenti_dati": ["tributario/diritto_tributario.json"]
+    },
+    {
+      "modulo_id": "MOD_ASMEL_03",
+      "modulo_titolo": "Disciplina degli Organismi Partecipati (Specifica)",
+      "descrizione": "Materia specifica: Testo Unico Società Partecipate (TUSP - D.Lgs. 175/2016), controllo analogo, società in house providing, piani di razionalizzazione, aziende speciali, servizi pubblici locali (D.Lgs. 201/2022).",
+      "icona": "Scale",
+      "sorgenti_dati": ["diritto/organismi_partecipati.json"]
+    },
+    {
+      "modulo_id": "MOD_ASMEL_04",
+      "modulo_titolo": "Programmazione Comunitaria e Modelli di Settore (Specifica)",
+      "descrizione": "Materia specifica: Quadro Finanziario Pluriennale UE 2021-2027, Fondi SIE (FESR, FSE+), PNRR e NextGenerationEU, principio DNSH, PCM e Quadro Logico, rendicontazione, audit e sistema ReGiS.",
+      "icona": "Brain",
+      "sorgenti_dati": ["gestione_pa/programmazione_comunitaria.json"]
+    },
+    {
+      "modulo_id": "MOD_ASMEL_05",
+      "modulo_titolo": "Diritto Pubblico e Costituzionale",
+      "descrizione": "Materia comune: Principi fondamentali della Costituzione, ordinamento repubblicano (Parlamento, Governo, Presidente della Repubblica, Consulta, Magistratura), Titolo V e fonti del diritto.",
+      "icona": "BookOpen",
+      "sorgenti_dati": ["diritto/pubblico_costituzionale.json"]
+    },
+    {
+      "modulo_id": "MOD_ASMEL_06",
+      "modulo_titolo": "Diritto Amministrativo ed Enti Locali (TUEL)",
+      "descrizione": "Materia comune: Testo Unico Enti Locali (D.Lgs. 267/2000), organi comunali (Sindaco, Giunta, Consiglio), deliberazioni, dirigenti (art. 107), Segretario comunale, ordinanze e controlli interni.",
+      "icona": "Landmark",
+      "sorgenti_dati": ["diritto/enti_locali_tuel.json"]
+    },
+    {
+      "modulo_id": "MOD_ASMEL_07",
+      "modulo_titolo": "Disciplina dei Contratti Pubblici (Codice Appalti)",
+      "descrizione": "Materia comune: D.Lgs. 36/2023, principi di risultato e fiducia, RUP, affidamenti sottosoglia, principio di rotazione, criteri di aggiudicazione (OEPV), digitalizzazione e BDNCP.",
+      "icona": "Scale",
+      "sorgenti_dati": ["diritto/contratti_pubblici.json"]
+    },
+    {
+      "modulo_id": "MOD_ASMEL_08",
+      "modulo_titolo": "Disciplina del Pubblico Impiego (D.Lgs. 165/2001)",
+      "descrizione": "Materia comune: Rapporto di lavoro alle dipendenze della PA, CCNL Comparto Funzioni Locali, diritti, doveri, codice di comportamento (D.P.R. 62/2013) e responsabilità disciplinare.",
+      "icona": "Scale",
+      "sorgenti_dati": ["diritto/pubblico_impiego.json"]
+    },
+    {
+      "modulo_id": "MOD_ASMEL_09",
+      "modulo_titolo": "Trasparenza e Anticorruzione",
+      "descrizione": "Materia comune: Legge 190/2012 (prevenzione corruzione), D.Lgs. 33/2013 (obblighi di trasparenza), accesso civico semplice e generalizzato (FOIA), whistleblowing e PNA.",
+      "icona": "ShieldAlert",
+      "sorgenti_dati": ["diritto/anticorruzione.json"]
+    },
+    {
+      "modulo_id": "MOD_ASMEL_10",
+      "modulo_titolo": "Procedimento Amministrativo e Diritto di Accesso",
+      "descrizione": "Materia comune: Legge 241/1990, principi del procedimento, responsabile del procedimento, motivazione, silenzio assenso, SCIA, annullabilità e accesso documentale agli atti.",
+      "icona": "Scale",
+      "sorgenti_dati": ["diritto/amministrativo.json"]
+    },
+    {
+      "modulo_id": "MOD_ASMEL_11",
+      "modulo_titolo": "Nozioni di Diritto dell'Unione Europea",
+      "descrizione": "Materia comune: Trattati TUE e TFUE, quadro istituzionale (Parlamento, Consiglio europeo, Consiglio UE, Commissione, CGUE), fonti comunitarie (Regolamenti e Direttive), primato del diritto UE.",
+      "icona": "BookOpen",
+      "sorgenti_dati": ["diritto/unione_europea.json"]
+    },
+    {
+      "modulo_id": "MOD_ASMEL_12",
+      "modulo_titolo": "Reati contro la Pubblica Amministrazione",
+      "descrizione": "Materia comune: Libro II, Titolo II c.p.: peculato (art. 314), concussione (art. 317), corruzione (artt. 318-322), abuso d'ufficio, turbativa d'asta e indebita percezione di erogazioni pubbliche.",
+      "icona": "ShieldAlert",
+      "sorgenti_dati": ["penale/reati_pa.json"]
+    },
+    {
+      "modulo_id": "MOD_ASMEL_13",
+      "modulo_titolo": "Nozioni di Contabilità Pubblica ed Enti Locali",
+      "descrizione": "Materia comune: TUEL Parte II, D.Lgs. 118/2011 (armonizzazione contabile), DUP, bilancio triennale di previsione, PEG, gestione entrate e spese, equilibri di bilancio, rendiconto e revisione contabile.",
+      "icona": "Landmark",
+      "sorgenti_dati": ["gestione_pa/contabilita_pubblica.json"]
+    },
+    {
+      "modulo_id": "MOD_ASMEL_14",
+      "modulo_titolo": "Nozioni di Tutela della Privacy (GDPR)",
+      "descrizione": "Materia comune: Regolamento (UE) 2016/679 (GDPR), Codice Privacy D.Lgs. 196/2003 novellato, figure del trattamento (Titolare, DPO), diritti degli interessati, informative e sicurezza dei dati.",
+      "icona": "ShieldAlert",
+      "sorgenti_dati": ["diritto/privacy_gdpr.json"]
+    },
+    {
+      "modulo_id": "MOD_ASMEL_15",
+      "modulo_titolo": "Competenze Digitali nella PA e CAD",
+      "descrizione": "Materia comune: Codice dell'Amministrazione Digitale (D.Lgs. 82/2005), SPID, CIE, firma digitale, PEC, protocollo informatico e strumenti informatici e di office automation.",
+      "icona": "Monitor",
+      "sorgenti_dati": ["diritto/cad.json", "informatica/office.json"]
+    },
+    {
+      "modulo_id": "MOD_ASMEL_16",
+      "modulo_titolo": "Lingua Inglese",
+      "descrizione": "Materia comune: Quesiti di verifica delle competenze linguistiche, grammatica, sintassi, comprensione di testi e lessico specialistico istituzionale e professionale in lingua inglese.",
+      "icona": "BookOpen",
+      "sorgenti_dati": ["lingue/inglese.json"]
+    }
+  ]
+}
