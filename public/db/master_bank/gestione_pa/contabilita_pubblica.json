@@ -1298,5 +1298,1305 @@
     "explanation": "L'art. 233 TUEL stabilisce che i conti degli agenti contabili (tesoriere ed economo) sono resi entro 30 giorni dalla chiusura dell'esercizio, verificati dall'ente e approvati dal Consiglio comunale unitamente al rendiconto, per poi essere trasmessi alla Sezione Giurisdizionale della Corte dei Conti.",
     "hint": "Approvati dal Consiglio comunale assieme al Rendiconto prima dell'invio alla Corte dei Conti.",
     "level": "base"
+  },
+  {
+    "id": "Q_CONT_PUB_051",
+    "question": "Ai sensi del D.Lgs. 118/2011, qual è il principio contabile generale che impone di registrare le operazioni finanziarie nel momento in cui sorge l'obbligazione giuridica?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il principio della competenza finanziaria potenziata"
+      },
+      {
+        "id": "B",
+        "text": "Il principio di cassa pura e semplice"
+      },
+      {
+        "id": "C",
+        "text": "Il principio dell'annualità retroattiva"
+      },
+      {
+        "id": "D",
+        "text": "Il principio di non discriminazione monetaria"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La competenza finanziaria potenziata (Allegato 4/2 D.Lgs. 118/2011) prevede che le obbligazioni giuridiche attive e passive siano registrate nelle scritture contabili quando si perfezionano, ma imputate all'esercizio in cui scadono ed esigibili.",
+    "hint": "È la 'competenza finanziaria potenziata' cardine dell'armonizzazione contabile.",
+    "level": "base"
+  },
+  {
+    "id": "Q_CONT_PUB_052",
+    "question": "Nel D.Lgs. 118/2011, che cos'è il Fondo Pluriennale Vincolato (FPV)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un conto bancario segreto della Giunta comunale"
+      },
+      {
+        "id": "B",
+        "text": "Un saldo finanziario che garantisce la copertura di spese già impegnate in un esercizio ma esigibili negli esercizi successivi, alimentato da risorse già accertate"
+      },
+      {
+        "id": "C",
+        "text": "Un fondo per rimborsare i viaggi di rappresentanza del Sindaco"
+      },
+      {
+        "id": "D",
+        "text": "Un mutuo acceso con la Cassa Depositi e Prestiti per coprire debiti elettorali"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'FPV è un saldo finanziario costituito da risorse accertate destinate al finanziamento di obbligazioni passive dell'ente già impegnate, ma la cui esigibilità scade in esercizi successivi (es. opere pubbliche a cavallo di più anni).",
+    "hint": "Garantisce la copertura pluriennale per spese impegnate ma esigibili negli anni futuri.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_CONT_PUB_053",
+    "question": "A cosa serve il Fondo Crediti di Dubbia Esigibilità (FCDE) disciplinato dall'Allegato 4/2 del D.Lgs. 118/2011?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A finanziare i premi di produzione dei dirigenti"
+      },
+      {
+        "id": "B",
+        "text": "A cancellare automaticamente tutti i debiti dei cittadini meno abbienti"
+      },
+      {
+        "id": "C",
+        "text": "A sterilizzare nel bilancio di previsione e nel rendiconto le entrate di dubbia e difficile esazione, evitando che finanzino spese certe"
+      },
+      {
+        "id": "D",
+        "text": "A pagare gli interessi sui mutui della Cassa Depositi e Prestiti"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'FCDE è un fondo prudenziale obbligatorio: congela una quota delle entrate di dubbia e difficile riscossione (es. sanzioni codice della strada, recupero evasione) impedendo che vengano spese somme non effettivamente incassabili.",
+    "hint": "Accantonamento prudenziale per impedire di spendere entrate che non verranno incassate.",
+    "level": "base"
+  },
+  {
+    "id": "Q_CONT_PUB_054",
+    "question": "Come si calcola la quota dell'FCDE da accantonare nel bilancio di previsione?",
+    "options": [
+      {
+        "id": "A",
+        "text": "In misura forfettaria pari al 10% del totale del bilancio"
+      },
+      {
+        "id": "B",
+        "text": "A totale discrezione personale dell'Assessore al Bilancio"
+      },
+      {
+        "id": "C",
+        "text": "In base all'inflazione registrata dall'ISTAT a fine anno"
+      },
+      {
+        "id": "D",
+        "text": "Sulla base del rapporto tra incassi in c/competenza e accertamenti delle medesime entrate nel quinquennio precedente (metodo della media)"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Il principio contabile applicato prevede il calcolo della percentuale media di riscossione in conto competenza registrata nei 5 esercizi precedenti per ciascuna tipologia di entrata a rischio.",
+    "hint": "Si basa sul trend storico delle riscossioni dei cinque anni precedenti.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_CONT_PUB_055",
+    "question": "Quali sono le quattro fasi dell'entrata negli enti locali ai sensi degli artt. 178-181 del TUEL?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Accertamento, riscossione e versamento (con la riscossione che include l'emissione della reversale)"
+      },
+      {
+        "id": "B",
+        "text": "Impegno, liquidazione, ordinazione e pagamento"
+      },
+      {
+        "id": "C",
+        "text": "Approvazione, esecuzione, collaudo e archiviazione"
+      },
+      {
+        "id": "D",
+        "text": "Previsione, variazione, assestamento e rendicontazione"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Le fasi della gestione dell'entrata ex TUEL sono: 1) Accertamento (titolo giuridico, creditore, ragione, somma), 2) Riscossione (materiale introito da parte del tesoriere/incaricato), 3) Versamento (trasferimento dei fondi nelle casse dell'ente).",
+    "hint": "Le fasi dell'entrata sono accertamento, riscossione e versamento.",
+    "level": "base"
+  },
+  {
+    "id": "Q_CONT_PUB_056",
+    "question": "Quali sono le quattro fasi della spesa negli enti locali ai sensi degli artt. 182-185 del TUEL?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Accertamento, riscossione, riversamento e quietanza"
+      },
+      {
+        "id": "B",
+        "text": "Impegno, liquidazione, ordinazione e pagamento"
+      },
+      {
+        "id": "C",
+        "text": "Deliberazione, parere tecnico, pubblicazione ed esecutività"
+      },
+      {
+        "id": "D",
+        "text": "Aggiudicazione, stipula, esecuzione e rescissione"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Le fasi della spesa pubblica locale sono: 1) Impegno (vincolo su somma e fornitore), 2) Liquidazione (verifica del credito certo e liquido), 3) Ordinazione (mandato di pagamento), 4) Pagamento (erogazione del tesoriere).",
+    "hint": "Impegno, liquidazione, ordinazione (mandato) e pagamento effettivo.",
+    "level": "base"
+  },
+  {
+    "id": "Q_CONT_PUB_057",
+    "question": "A norma dell'art. 183 del TUEL, con l'impegno di spesa si verifica:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il bonifico immediato dal conto del Comune alla banca fornitrice"
+      },
+      {
+        "id": "B",
+        "text": "La mera autorizzazione politica a fare un acquisto futuro"
+      },
+      {
+        "id": "C",
+        "text": "La destinazione di una somma determinata ad un creditore certo, per una specifica causale, a fronte di un'obbligazione giuridicamente perfezionata e con scadenza determinata"
+      },
+      {
+        "id": "D",
+        "text": "La richiesta di prestito alla Cassa Depositi e Prestiti"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'impegno costituisce la prima fase della spesa con cui, perfezionatasi un'obbligazione giuridica, si registrano la somma da pagare, il creditore, la ragione e la scadenza finanziaria.",
+    "hint": "Costituisce il vincolo contabile su somma, creditore certo, causale e scadenza.",
+    "level": "base"
+  },
+  {
+    "id": "Q_CONT_PUB_058",
+    "question": "In cosa consiste la fase della 'liquidazione' della spesa (art. 184 TUEL)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nell'emissione materiale del mandato di pagamento informatico"
+      },
+      {
+        "id": "B",
+        "text": "Nel licenziamento dei fornitori inadempienti"
+      },
+      {
+        "id": "C",
+        "text": "Nel ripiano forzoso dei disavanzi pregressi"
+      },
+      {
+        "id": "D",
+        "text": "Nella determinazione dell'importo esatto da pagare e nell'identificazione del beneficiario, previo riscontro della regolarità della fornitura o prestazione eseguita"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "La liquidazione compete al responsabile del servizio che ha ordinato la spesa: verifica fattura, documenti di trasporto e attestazione di regolare esecuzione per certificare il debito liquido ed esigibile.",
+    "hint": "Verifica della regolare esecuzione della fornitura e quantificazione esatta del credito da saldare.",
+    "level": "base"
+  },
+  {
+    "id": "Q_CONT_PUB_059",
+    "question": "Cosa sono i 'Residui Attivi' e i 'Residui Passivi' negli enti locali (artt. 189 e 190 TUEL)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "I residui attivi sono le entrate accertate ma non ancora riscosse; i residui passivi sono le spese impegnate, liquidate o liquidabili ma non ancora pagate entro il termine dell'esercizio"
+      },
+      {
+        "id": "B",
+        "text": "I fondi perduti incassati dall'Unione Europea e gli sprechi di cancelleria"
+      },
+      {
+        "id": "C",
+        "text": "I beni demaniali e patrimoniali invenduti all'asta"
+      },
+      {
+        "id": "D",
+        "text": "Le multe stradali annullate dal Prefetto"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "I residui costituiscono crediti e debiti dell'ente derivanti dalla gestione di competenza finanziaria: attivi (crediti dell'ente non ancora incassati), passivi (debiti verso fornitori non ancora saldati a fine anno).",
+    "hint": "Entrate accertate e non riscosse (attivi); spese impegnate e non pagate (passivi).",
+    "level": "base"
+  },
+  {
+    "id": "Q_CONT_PUB_060",
+    "question": "Cos'è il 'Riaccertamento Ordinario dei Residui' (art. 3, comma 4, D.Lgs. 118/2011 e art. 228 TUEL)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un condono fiscale straordinario riservato alle imprese in bancarotta"
+      },
+      {
+        "id": "B",
+        "text": "L'operazione annuale con cui la Giunta verifica la fondatezza giuridica, la reale esigibilità dei residui attivi e passivi e la corretta imputazione temporale, prima dell'approvazione del rendiconto"
+      },
+      {
+        "id": "C",
+        "text": "L'aumento retroattivo dell'imposta di registro provinciale"
+      },
+      {
+        "id": "D",
+        "text": "La distruzione fisica dei registri contabili dell'anno precedente"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La Giunta, prima del rendiconto, delibera il riaccertamento ordinario: cancella i crediti inesigibili/insussistenti, reimputa agli esercizi futuri le spese non ancora scadute alimentando l'FPV.",
+    "hint": "Verifica annuale della reale esigibilità dei crediti e debiti prima del rendiconto.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_CONT_PUB_061",
+    "question": "Da quali quote è composto il Risultato di Amministrazione (Avanzo/Disavanzo) ai sensi del D.Lgs. 118/2011?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Quota sindacale, quota prefettizia e quota regionale"
+      },
+      {
+        "id": "B",
+        "text": "Solo quota contanti e quota titoli di Stato"
+      },
+      {
+        "id": "C",
+        "text": "Quota accantonata (FCDE, fondo contenzioso, fondo perdite partecipate), quota vincolata, quota destinata agli investimenti e quota libera"
+      },
+      {
+        "id": "D",
+        "text": "Quota oro e quota valute estere"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Il risultato di amministrazione si scompone rigorosamente in 4 parti: 1) accantonata per rischi futuri (FCDE, ecc.), 2) vincolata da legge o trasferimenti, 3) destinata a investimenti, 4) libera.",
+    "hint": "Quattro quote: accantonata, vincolata, destinata a investimenti e libera.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_CONT_PUB_062",
+    "question": "Quando e come può essere utilizzata la 'quota libera' dell'avanzo di amministrazione (art. 187 TUEL)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Per pagare aumenti di stipendio a pioggia ai dipendenti comunali"
+      },
+      {
+        "id": "B",
+        "text": "A totale discrezione personale del Sindaco senza delibera"
+      },
+      {
+        "id": "C",
+        "text": "Non può mai essere spesa e rimane bloccata a vita"
+      },
+      {
+        "id": "D",
+        "text": "Con provvedimento del Consiglio, prioritariamente per copertura debiti fuori bilancio, provvedimenti per salvaguardia equilibri e spese di investimento, e solo in via eccezionale per spese correnti non ripetitive"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'art. 187, comma 2, fissa un rigido ordine di priorità per l'avanzo libero: 1) debiti fuori bilancio, 2) salvaguardia equilibri, 3) investimenti, 4) spese correnti una tantum (mai spesa corrente strutturale).",
+    "hint": "Ordine di priorità rigido: debiti fuori bilancio, equilibri, investimenti e spese non ripetitive.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_CONT_PUB_063",
+    "question": "A norma dell'art. 162 del TUEL, il bilancio di previsione finanziario deve essere deliberato:",
+    "options": [
+      {
+        "id": "A",
+        "text": "In pareggio finanziario complessivo di competenza e di cassa, e garantendo il pareggio economico e gli equilibri di bilancio"
+      },
+      {
+        "id": "B",
+        "text": "Con un disavanzo programmato pari ad almeno il 20% delle entrate"
+      },
+      {
+        "id": "C",
+        "text": "Senza limiti di spesa e senza tener conto delle entrate"
+      },
+      {
+        "id": "D",
+        "text": "Solo per un anno alla volta senza proiezioni pluriennali"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 162, comma 6, TUEL pone il principio del pareggio finanziario: il totale delle entrate di competenza e di cassa deve essere pari al totale delle spese, assicurando gli equilibri di parte corrente e capitale.",
+    "hint": "Obbligo del pareggio finanziario di competenza e di cassa.",
+    "level": "base"
+  },
+  {
+    "id": "Q_CONT_PUB_064",
+    "question": "Qual è l'orizzonte temporale del bilancio di previsione finanziario disciplinato dal D.Lgs. 118/2011?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Decennale con soli dati forfettari"
+      },
+      {
+        "id": "B",
+        "text": "Almeno triennale, con previsioni di competenza e di cassa per il primo esercizio e di competenza per gli esercizi successivi"
+      },
+      {
+        "id": "C",
+        "text": "Semestrale senza distinzione tra cassa e competenza"
+      },
+      {
+        "id": "D",
+        "text": "Mensile aggiornato ogni primo giorno del mese"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il bilancio di previsione è triennale: presenta previsioni di cassa e di competenza per l'anno 1 e previsioni di sola competenza per gli anni 2 e 3.",
+    "hint": "Orizzonte triennale: competenza e cassa per il primo anno, solo competenza per i successivi due.",
+    "level": "base"
+  },
+  {
+    "id": "Q_CONT_PUB_065",
+    "question": "Che cos'è l''Esercizio Provvisorio' disciplinato dall'art. 163 del TUEL?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un periodo di allenamento per i nuovi ragionieri comunali"
+      },
+      {
+        "id": "B",
+        "text": "La chiusura di tutti i pagamenti dell'ente per due mesi"
+      },
+      {
+        "id": "C",
+        "text": "La gestione consentita per legge o decreto qualora il bilancio non sia approvato entro il 31 dicembre, limitando le spese mensili a un dodicesimo degli stanziamenti dell'anno precedente"
+      },
+      {
+        "id": "D",
+        "text": "L'amministrazione straordinaria del Comune da parte dell'Esercito"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Nell'esercizio provvisorio (autorizzato per legge o decreto ministeriale di proroga) si possono impegnare mensilmente solo spese correnti ordinarie entro il limite dei dodicesimi degli stanziamenti previsti.",
+    "hint": "Gestione limitata alla regola dei dodicesimi per evitare spese fuori controllo senza bilancio.",
+    "level": "base"
+  },
+  {
+    "id": "Q_CONT_PUB_066",
+    "question": "Quale differenza intercorre tra 'Esercizio Provvisorio' e 'Gestione Provvisoria' (art. 163 TUEL)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nessuna differenza, sono la stessa identica cosa"
+      },
+      {
+        "id": "B",
+        "text": "L'esercizio provvisorio dura dieci anni, la gestione provvisoria un solo giorno"
+      },
+      {
+        "id": "C",
+        "text": "La gestione provvisoria si applica solo alle farmacie comunali"
+      },
+      {
+        "id": "D",
+        "text": "L'esercizio provvisorio è autorizzato da norma di legge e consente la spesa per dodicesimi; la gestione provvisoria opera automaticamente senza autorizzazione e limita le spese a quelle tassativamente obbligatorie per legge o indifferibili"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "La gestione provvisoria si attiva automaticamente se scade il termine di legge senza proroga: è molto più rigida e vieta la regola dei dodicesimi, ammettendo solo spese indifferibili e urgenti o stipendi.",
+    "hint": "La gestione provvisoria è più rigida e consente solo spese tassative e indifferibili.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_CONT_PUB_067",
+    "question": "Quale organo dell'ente locale è competente ad approvare il Rendiconto della gestione (art. 227 TUEL)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il Consiglio comunale entro il 30 aprile dell'anno successivo, su proposta della Giunta"
+      },
+      {
+        "id": "B",
+        "text": "Il Sindaco con proprio decreto entro il 15 gennaio"
+      },
+      {
+        "id": "C",
+        "text": "Il Collegio dei Revisori con delibera unilaterale"
+      },
+      {
+        "id": "D",
+        "text": "Il Prefetto della provincia"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il rendiconto della gestione (conto del bilancio, conto economico e stato patrimoniale) è predisposto dalla Giunta ed è approvato dal Consiglio comunale entro il 30 aprile dell'anno successivo.",
+    "hint": "Approvato dal Consiglio comunale entro il 30 aprile dell'anno successivo.",
+    "level": "base"
+  },
+  {
+    "id": "Q_CONT_PUB_068",
+    "question": "Da quali documenti è composto il Rendiconto della gestione ai sensi dell'art. 227, comma 2, del TUEL e D.Lgs. 118/2011?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dalla sola dichiarazione IVA e dal modello F24 dell'ente"
+      },
+      {
+        "id": "B",
+        "text": "Dal Conto del bilancio, dal Conto economico e dallo Stato patrimoniale, corredati dalla Relazione della Giunta e dalla Relazione dei Revisori"
+      },
+      {
+        "id": "C",
+        "text": "Dal libro mastro cartaceo dell'economo comunale"
+      },
+      {
+        "id": "D",
+        "text": "Dalle sole determine dirigenziali di liquidazione"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il rendiconto integra contabilità finanziaria (Conto del bilancio) e contabilità economico-patrimoniale (Conto economico e Stato patrimoniale con allegati D.Lgs. 118/2011).",
+    "hint": "Conto del bilancio, Conto economico e Stato patrimoniale.",
+    "level": "base"
+  },
+  {
+    "id": "Q_CONT_PUB_069",
+    "question": "A norma dell'art. 175 del TUEL, le variazioni di bilancio possono essere deliberate:",
+    "options": [
+      {
+        "id": "A",
+        "text": "In qualsiasi giorno dell'anno dal comandante della Polizia Locale"
+      },
+      {
+        "id": "B",
+        "text": "Esclusivamente nel mese di gennaio"
+      },
+      {
+        "id": "C",
+        "text": "Ordinariamente dal Consiglio comunale entro il 30 novembre di ciascun anno (salvo casi eccezionali entro il 31 dicembre)"
+      },
+      {
+        "id": "D",
+        "text": "Mai, il bilancio approvato è immodificabile per legge"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'art. 175, commi 1-3, TUEL stabilisce che le variazioni sono deliberate dal Consiglio entro il 30 novembre di ciascun anno. Alcune specifiche variazioni (prelevamenti da fondi, storni tecnici) possono essere deliberate fino al 31 dicembre.",
+    "hint": "Termine generale per le variazioni consiliari: 30 novembre.",
+    "level": "base"
+  },
+  {
+    "id": "Q_CONT_PUB_070",
+    "question": "In caso di urgenza, le variazioni di bilancio possono essere adottate dalla Giunta comunale (art. 175, comma 4, TUEL)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "No, la Giunta non può mai intervenire sul bilancio pena l'arresto"
+      },
+      {
+        "id": "B",
+        "text": "Sì, e non serve alcuna ratifica del Consiglio"
+      },
+      {
+        "id": "C",
+        "text": "Solo se approvate preventivamente dal Ministero dell'Interno"
+      },
+      {
+        "id": "D",
+        "text": "Sì, salvo ratifica a pena di decadenza da parte del Consiglio comunale entro i successivi sessanta giorni e comunque entro il 31 dicembre"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "La Giunta può adottare variazioni d'urgenza, ma esse devono essere ratificate dal Consiglio a pena di decadenza entro 60 giorni e comunque entro la fine dell'anno.",
+    "hint": "La Giunta può adottarle d'urgenza ma devono essere ratificate dal Consiglio entro 60 giorni.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_CONT_PUB_071",
+    "question": "Quali variazioni di bilancio possono essere adottate direttamente dai Dirigenti/Responsabili di servizio ai sensi dell'art. 175, comma 5-quater, del TUEL?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Le variazioni compensative tra capitoli della medesima macroaggregazione/categoria all'interno dello stesso programma/missione (variazioni di PEG)"
+      },
+      {
+        "id": "B",
+        "text": "L'istituzione di nuovi tributi comunali"
+      },
+      {
+        "id": "C",
+        "text": "L'aumento dell'aliquota IMU"
+      },
+      {
+        "id": "D",
+        "text": "L'accensione di nuovi mutui passivi con banche estere"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "I responsabili di spesa possono adottare variazioni compensative di natura gestionale (tra capitoli del medesimo macroaggregato di spesa dello stesso programma), valorizzando l'autonomia manageriale.",
+    "hint": "Variazioni compensative di PEG tra capitoli del medesimo macroaggregato.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_CONT_PUB_072",
+    "question": "Cos'è il Fondo di Riserva disciplinato dall'art. 166 del TUEL?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La cassaforte fisica del Sindaco dove si conservano i documenti storici"
+      },
+      {
+        "id": "B",
+        "text": "Un fondo obbligatorio iscritto nella spesa corrente (tra lo 0,30% e il 2% delle spese correnti) per esigenze straordinarie o stanziamenti insufficienti"
+      },
+      {
+        "id": "C",
+        "text": "Un deposito cauzionale vincolato a favore dell'Unione Europea"
+      },
+      {
+        "id": "D",
+        "text": "Il fondo per la liquidazione di fine mandato dei consiglieri"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 166 impone l'iscrizione del fondo di riserva (compreso tra lo 0,30% e il 2% delle spese correnti inizialmente previste) per fronteggiare spese straordinarie e impreviste.",
+    "hint": "Fondo compreso tra lo 0,30% e il 2% delle spese correnti per esigenze straordinarie.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_CONT_PUB_073",
+    "question": "Chi delibera i prelevamenti dal Fondo di Riserva ai sensi dell'art. 166, comma 2, del TUEL?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il Presidente del Consiglio di Stato"
+      },
+      {
+        "id": "B",
+        "text": "Il tesoriere della banca di propria iniziativa"
+      },
+      {
+        "id": "C",
+        "text": "La Giunta comunale con deliberazione motivata, comunicandola al Consiglio entro i termini fissati dal regolamento di contabilità"
+      },
+      {
+        "id": "D",
+        "text": "L'organo di polizia giudiziaria territorialmente competente"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "I prelievi dal fondo di riserva sono di competenza esclusiva della Giunta comunale e possono essere deliberati fino al 31 dicembre, con successiva comunicazione al Consiglio.",
+    "hint": "I prelevamenti sono deliberati dalla Giunta comunale.",
+    "level": "base"
+  },
+  {
+    "id": "Q_CONT_PUB_074",
+    "question": "Chi svolge il servizio di tesoreria negli enti locali ai sensi dell'art. 208 del TUEL?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il funzionario dell'ufficio protocollo"
+      },
+      {
+        "id": "B",
+        "text": "Un'agenzia immobiliare privata"
+      },
+      {
+        "id": "C",
+        "text": "Il notaio più anziano del distretto"
+      },
+      {
+        "id": "D",
+        "text": "Un istituto bancario autorizzato (o Poste Italiane nei casi previsti), affidato mediante gara a evidenza pubblica con convenzione"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Il servizio di tesoreria è affidato dal Consiglio a una banca autorizzata (o Poste) mediante evidenza pubblica per gestire incassi, pagamenti, riscossioni e custodia titoli.",
+    "hint": "Affidato a un istituto di credito bancario autorizzato mediante gara a evidenza pubblica.",
+    "level": "base"
+  },
+  {
+    "id": "Q_CONT_PUB_075",
+    "question": "Cosa si intende per 'Anticipazione di Tesoreria' ai sensi dell'art. 222 del TUEL?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Una linea di credito a breve termine concessa dal tesoriere all'ente per fronteggiare temporanee carenze di liquidità di cassa entro precisi limiti di legge"
+      },
+      {
+        "id": "B",
+        "text": "Il rimborso delle spese di viaggio prima della partenza dei dipendenti"
+      },
+      {
+        "id": "C",
+        "text": "Un mutuo trentennale per costruire lo stadio comunale"
+      },
+      {
+        "id": "D",
+        "text": "La donazione spontanea di denaro da parte della banca al Comune"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'anticipazione di tesoreria è un'apertura di credito di cassa a breve termine erogata dal tesoriere (fino a 3/12 o 5/12 dei primi 3 titoli delle entrate correnti) per sopperire a momentanei sfasamenti tra incassi e pagamenti.",
+    "hint": "Prestito di cassa a breve termine del tesoriere per sopperire a momentanee carenze di liquidità.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_CONT_PUB_076",
+    "question": "A norma dell'art. 119, comma 6, della Costituzione e dell'art. 202 del TUEL, gli enti locali possono ricorrere all'indebitamento (mutui o prestiti obbligazionari):",
+    "options": [
+      {
+        "id": "A",
+        "text": "Per pagare gli stipendi arretrati dei dipendenti"
+      },
+      {
+        "id": "B",
+        "text": "Solo ed esclusivamente per finanziare spese di investimento, con divieto assoluto di indebitarsi per la spesa corrente (golden rule)"
+      },
+      {
+        "id": "C",
+        "text": "Per finanziare campagne pubblicitarie della Giunta"
+      },
+      {
+        "id": "D",
+        "text": "In qualunque momento e per qualsiasi tipologia di spesa corrente"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 119 Cost. (c.d. golden rule) e il TUEL vietano categoricamente il ricorso all'indebitamento per finanziare la spesa corrente: mutui e prestiti possono finanziare solo investimenti ed opere pubbliche durevoli.",
+    "hint": "Golden Rule costituzionale: mutui e debiti solo ed esclusivamente per spese di investimento.",
+    "level": "base"
+  },
+  {
+    "id": "Q_CONT_PUB_077",
+    "question": "Cosa stabilisce l'art. 204 del TUEL in materia di limite quantitativo all'indebitamento degli enti locali?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Non esiste alcun limite, l'ente può indebitarsi fino a 100 volte il proprio bilancio"
+      },
+      {
+        "id": "B",
+        "text": "Il limite è stabilito dal Prefetto mese per mese"
+      },
+      {
+        "id": "C",
+        "text": "L'importo complessivo degli interessi passivi sui mutui non può superare una percentuale fissa (ordinariamente il 10%) delle entrate correnti dei primi tre titoli"
+      },
+      {
+        "id": "D",
+        "text": "L'ente non può mai accendere alcun mutuo superiore a 10.000 euro"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'art. 204 fissa il tetto massimo di sostenibilità dell'indebitamento: gli interessi passivi sui mutui e prestiti in ammortamento non possono eccedere il 10% delle entrate correnti del rendiconto.",
+    "hint": "Interessi passivi annui non superiori al 10% delle entrate correnti.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_CONT_PUB_078",
+    "question": "Nel D.Lgs. 118/2011, che cos'è il 'Piano dei Conti Integrato'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'elenco telefonico dei responsabili dei conti comunali"
+      },
+      {
+        "id": "B",
+        "text": "Il piano tariffario per l'illuminazione pubblica"
+      },
+      {
+        "id": "C",
+        "text": "Il registro dei conti correnti personali degli assessori"
+      },
+      {
+        "id": "D",
+        "text": "La struttura contabile comune a tutte le PA che raccorda e integra la contabilità finanziaria, economico-patrimoniale e i raccordi statistici SIOPE/SEC2010"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Il Piano dei Conti Integrato è l'allegato 6 del D.Lgs. 118/2011: codifica in modo univoco a livello nazionale entrate e uscite con una matrice che collega contabilità finanziaria ed economico-patrimoniale.",
+    "hint": "Struttura standardizzata a livello nazionale che collega finanziaria ed economico-patrimoniale.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_CONT_PUB_079",
+    "question": "Cosa indica l'acronimo 'SIOPE+' e a cosa serve?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il Sistema Informativo sulle Operazioni degli Enti Pubblici gestito da Banca d'Italia per l'emissione e il monitoraggio telematico dei mandati e delle reversali di pagamento (OPI)"
+      },
+      {
+        "id": "B",
+        "text": "Il sistema di posta elettronica certificata dei Comuni"
+      },
+      {
+        "id": "C",
+        "text": "Il portale dei concorsi pubblici della Funzione Pubblica"
+      },
+      {
+        "id": "D",
+        "text": "La banca dati degli edifici scolastici antisismici"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "SIOPE+ intermedia il colloquio telematico tra enti locali e tesorieri per la gestione dell'Ordinativo Informatico di Pagamento (OPI) su standard AgID e Banca d'Italia per monitorare i flussi di cassa della PA.",
+    "hint": "Gestito da Banca d'Italia per digitalizzare e tracciare mandati e reversali di tesoreria.",
+    "level": "base"
+  },
+  {
+    "id": "Q_CONT_PUB_080",
+    "question": "Qual è il termine di pagamento delle fatture commerciali imposto alle pubbliche amministrazioni dal D.Lgs. 231/2002 e monitorato dalla Piattaforma Crediti Commerciali (PCC)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Entro 365 giorni lavorativi"
+      },
+      {
+        "id": "B",
+        "text": "Ordinariamente 30 giorni dalla data di ricevimento della fattura (o 60 giorni per gli enti del Servizio Sanitario Nazionale)"
+      },
+      {
+        "id": "C",
+        "text": "Senza alcun termine prefissato dalla legge"
+      },
+      {
+        "id": "D",
+        "text": "Entro 24 ore a mezzo bonifico istantaneo"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il D.Lgs. 231/2002 recepisce la direttiva europea contro i ritardi di pagamento: la PA deve saldare le fatture entro 30 giorni (elevabili a 60 per la sanità), pena maturazione automatica degli interessi moratori.",
+    "hint": "Termine standard ordinario di 30 giorni per il pagamento dei fornitori.",
+    "level": "base"
+  },
+  {
+    "id": "Q_CONT_PUB_081",
+    "question": "Quale fondo obbligatorio deve istituire l'ente locale a bilancio ai sensi dell'art. 1, commi 859 e ss., della L. 145/2018 in caso di mancato rispetto dei tempi di pagamento dei fornitori?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il Fondo sanzioni disciplinari dipendenti"
+      },
+      {
+        "id": "B",
+        "text": "Il Fondo mutui agevolati"
+      },
+      {
+        "id": "C",
+        "text": "Il Fondo di garanzia debiti commerciali (FGDC)"
+      },
+      {
+        "id": "D",
+        "text": "Il Fondo per le festività patronali"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Se l'ente ritarda i pagamenti oltre i 30 giorni o non riduce il proprio debito commerciale pregresso, scatta l'obbligo di accantonare a bilancio il Fondo di garanzia debiti commerciali (FGDC) che blocca quote di spesa corrente.",
+    "hint": "Fondo di Garanzia Debiti Commerciali (FGDC) che penalizza la spesa se si paga in ritardo.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_CONT_PUB_082",
+    "question": "Cos'è l'Accertamento delle Entrate ai sensi dell'art. 179 del TUEL?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il materiale versamento del contante presso gli sportelli postali"
+      },
+      {
+        "id": "B",
+        "text": "Il bilancio consuntivo delle imposte comunali"
+      },
+      {
+        "id": "C",
+        "text": "L'iscrizione a ruolo coattivo dei soli residenti morosi"
+      },
+      {
+        "id": "D",
+        "text": "La fase in cui il funzionario competente verifica la ragione del credito, il titolo giuridico, il soggetto debitore, quantifica la somma ed individua la scadenza"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'art. 179 TUEL disciplina l'accertamento: momento essenziale di nascita del credito in cui si riscontrano idonea documentazione, debitore, ammontare, causale e scadenza.",
+    "hint": "Verifica di idonea documentazione, soggetto debitore, somma da riscuotere e scadenza.",
+    "level": "base"
+  },
+  {
+    "id": "Q_CONT_PUB_083",
+    "question": "In merito alla classificazione del bilancio di previsione D.Lgs. 118/2011, la spesa è articolata in:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Missioni (funzioni principali e obiettivi strategici) e Programmi (aggregati omogenei di attività diretti al perseguimento delle missioni)"
+      },
+      {
+        "id": "B",
+        "text": "Capitoli alfabetici da A a Z senza collegamenti programmatici"
+      },
+      {
+        "id": "C",
+        "text": "Spese obbligatorie e spese facoltative a discrezione del Sindaco"
+      },
+      {
+        "id": "D",
+        "text": "Spese invernali e spese estive"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La classificazione armonizzata organizza la spesa in Missioni (cosa fa l'ente, es. Istruzione, Trasporti, Ambiente) e Programmi (attività operative affidate ai servizi per realizzare la missione).",
+    "hint": "La spesa è strutturata su Missioni e Programmi.",
+    "level": "base"
+  },
+  {
+    "id": "Q_CONT_PUB_084",
+    "question": "A norma dell'art. 151 del TUEL, quale documento di programmazione ha valore autorizzatorio per la gestione delle risorse?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il verbale informale di riunione dei capigruppo"
+      },
+      {
+        "id": "B",
+        "text": "Il bilancio di previsione finanziario, costituendo limite invalicabile per le spese impegnabili e pagabili"
+      },
+      {
+        "id": "C",
+        "text": "L'articolo di giornale che annuncia un'opera pubblica"
+      },
+      {
+        "id": "D",
+        "text": "Il regolamento per la concessione di patrocini comunali"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 151 TUEL sancisce la funzione autorizzatoria del bilancio di previsione: gli stanziamenti di spesa di competenza e di cassa rappresentano limiti invalicabili per gli impegni e i pagamenti.",
+    "hint": "Il bilancio ha valore autorizzatorio e gli stanziamenti costituiscono limite invalicabile di spesa.",
+    "level": "base"
+  },
+  {
+    "id": "Q_CONT_PUB_085",
+    "question": "Cosa si intende per 'Storno di Fondi' nel linguaggio contabile della pubblica amministrazione?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'appropriazione indebita di somme da parte di un funzionario"
+      },
+      {
+        "id": "B",
+        "text": "La restituzione di un'imposta indebitamente pagata"
+      },
+      {
+        "id": "C",
+        "text": "Il trasferimento di risorse finanziarie da uno stanziamento di spesa all'altro del bilancio mediante formale variazione contabile"
+      },
+      {
+        "id": "D",
+        "text": "La cancellazione di un mutuo estinto in anticipo"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Lo storno è l'operazione compensativa con cui si riduce lo stanziamento di un capitolo di spesa per incrementare di pari importo lo stanziamento di un altro capitolo che necessita di fondi.",
+    "hint": "Spostamento compensativo di somme tra diversi stanziamenti di bilancio.",
+    "level": "base"
+  },
+  {
+    "id": "Q_CONT_PUB_086",
+    "question": "Quale ruolo svolge l'Agente Contabile a denaro o a materia negli enti locali (art. 233 TUEL)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un agente immobiliare convenzionato per la vendita delle case popolari"
+      },
+      {
+        "id": "B",
+        "text": "Il vigile urbano che effettua multe per infrazioni stradali"
+      },
+      {
+        "id": "C",
+        "text": "L'impiegato che cura l'archivio cartaceo comunale"
+      },
+      {
+        "id": "D",
+        "text": "È il soggetto incaricato del maneggio di denaro pubblico (es. economo) o custode di beni, tenuto a rendere il 'conto giudiziale' alla Corte dei Conti"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Gli agenti contabili (economo, riscuotitori, consegnatari di beni mobili) maneggiano denaro o beni della PA e devono presentare annualmente il conto della gestione da trasmettere alla Corte dei Conti.",
+    "hint": "Chi maneggia denaro o beni della PA deve rendere il conto giudiziale alla Corte dei Conti.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_CONT_PUB_087",
+    "question": "A norma dell'art. 153, comma 6, del TUEL, quando il responsabile del servizio finanziario rileva fatti che possono pregiudicare gli equilibri di bilancio:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ha l'obbligo di segnalarlo tempestivamente al Sindaco, al Segretario comunale, al Consiglio e all'organo di revisione contabile"
+      },
+      {
+        "id": "B",
+        "text": "Deve mantenere il segreto d'ufficio senza informare nessuno"
+      },
+      {
+        "id": "C",
+        "text": "Può limitarsi ad annotarlo sul proprio taccuino personale"
+      },
+      {
+        "id": "D",
+        "text": "Deve rassegnare le dimissioni immediate dal posto di lavoro"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 153, comma 6, impone un preciso dovere di segnalazione al ragioniere capo: deve denunciare ogni evento suscettibile di alterare gli equilibri di bilancio a tutti gli organi apicali e di controllo.",
+    "hint": "Obbligo formale di tempestiva segnalazione di squilibrio a Sindaco, Consiglio e Revisori.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_CONT_PUB_088",
+    "question": "Che cosa disciplina l'art. 148 del TUEL in merito al controllo della Corte dei Conti sui bilanci degli enti locali?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La nomina del Sindaco per acclamazione giudiziaria"
+      },
+      {
+        "id": "B",
+        "text": "Il controllo di legittimità e regolarità della Sezione Regionale di Controllo sui rendiconti, bilanci preventivi e sulla sana gestione finanziaria dell'ente"
+      },
+      {
+        "id": "C",
+        "text": "La gestione degli stipendi delle maestre d'asilo"
+      },
+      {
+        "id": "D",
+        "text": "La valutazione delle prestazioni sportive degli atleti comunali"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Le Sezioni Regionali di Controllo della Corte dei Conti esaminano i questionari dei revisori, i rendiconti e i bilanci degli enti locali, emanando pronunce di sana gestione o intimando misure correttive.",
+    "hint": "Controllo collaborativo sulla sana gestione finanziaria e sul rispetto degli equilibri di bilancio.",
+    "level": "base"
+  },
+  {
+    "id": "Q_CONT_PUB_089",
+    "question": "In merito alla gestione delle spese, qual è la conseguenza dell'assunzione di un impegno di spesa privo di copertura finanziaria o senza previa attestazione del visto di ragioneria (art. 191 TUEL)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il debito ricade automaticamente sulla Regione competente"
+      },
+      {
+        "id": "B",
+        "text": "Il Comune è obbligato a pagare comunque il doppio del prezzo"
+      },
+      {
+        "id": "C",
+        "text": "L'atto è nullo e il rapporto obbligatorio si instaura direttamente ed esclusivamente tra il fornitore e l'amministratore o funzionario che ha ordinato la prestazione"
+      },
+      {
+        "id": "D",
+        "text": "L'atto è perfettamente valido e il fornitore viene pagato d'ufficio dal Prefetto"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'art. 191, comma 4, TUEL stabilisce la scissione: senza impegno e visto contabile, l'atto non vincola il Comune e il fornitore può agire solo contro il singolo funzionario/politico autore della commessa.",
+    "hint": "Frattura del rapporto: risponde personalmente il funzionario o amministratore che ha ordinato la spesa.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_CONT_PUB_090",
+    "question": "A norma dell'art. 180 del TUEL, come si conclude la fase della riscossione delle entrate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Con l'invio di una cartolina di ringraziamento al cittadino"
+      },
+      {
+        "id": "B",
+        "text": "Con la registrazione nel catasto edilizio urbano"
+      },
+      {
+        "id": "C",
+        "text": "Con la firma del bilancio consuntivo triennale"
+      },
+      {
+        "id": "D",
+        "text": "Con l'emissione dell'ordinativo d'incasso (reversale d'incasso) da parte dell'ente e la quietanza rilasciata dal tesoriere"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "La riscossione è formalizzata tramite la reversale (ordinativo d'incasso) emessa dal servizio finanziario con cui si dispone l'introito della somma nelle casse dell'ente da parte del tesoriere.",
+    "hint": "Si conclude con l'emissione della reversale d'incasso da parte del servizio finanziario.",
+    "level": "base"
+  },
+  {
+    "id": "Q_CONT_PUB_091",
+    "question": "Cosa si intende per 'Debito Fuori Bilancio' negli enti locali?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un'obbligazione giuridica pecuniaria sorta in violazione delle regole di contabilità pubblica (mancanza di regolare impegno o copertura) che richiede il formale riconoscimento del Consiglio"
+      },
+      {
+        "id": "B",
+        "text": "Il debito accumulato da un Comune all'estero"
+      },
+      {
+        "id": "C",
+        "text": "Un credito inesigibile vantato verso lo Stato"
+      },
+      {
+        "id": "D",
+        "text": "Il fondo cassa residuo a fine anno"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il debito fuori bilancio è un'obbligazione pecuniaria assunta al di fuori del circuito ordinario autorizzativo di bilancio: per essere liquidato deve essere previamente riconosciuto dal Consiglio comunale ex art. 194 TUEL.",
+    "hint": "Obbligazione contratta senza regolare impegno contabile che esige riconoscimento consiliare.",
+    "level": "base"
+  },
+  {
+    "id": "Q_CONT_PUB_092",
+    "question": "Quale adempimento contabile deve essere effettuato entro il 15 novembre di ciascun anno ai sensi dell'art. 170 del TUEL?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'approvazione del rendiconto consuntivo finale"
+      },
+      {
+        "id": "B",
+        "text": "La presentazione al Consiglio della Nota di aggiornamento al DUP (Documento Unico di Programmazione)"
+      },
+      {
+        "id": "C",
+        "text": "La chiusura obbligatoria della tesoreria per ferie"
+      },
+      {
+        "id": "D",
+        "text": "La vendita all'asta delle autovetture di servizio"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La Giunta presenta al Consiglio la Nota di aggiornamento al DUP entro il 15 novembre, che recepisce gli indirizzi aggiornati e si raccorda con lo schema del bilancio di previsione.",
+    "hint": "Presentazione della Nota di Aggiornamento al DUP entro il 15 novembre.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_CONT_PUB_093",
+    "question": "Qual è il limite massimo per le spese correnti che possono essere disposte mediante il 'Fondo Economale' (art. 153, comma 7, TUEL)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fino a 5 milioni di euro per qualsiasi fornitura"
+      },
+      {
+        "id": "B",
+        "text": "Può essere utilizzato per pagare l'appalto di costruzione del municipio"
+      },
+      {
+        "id": "C",
+        "text": "È destinato unicamente a minute spese d'ufficio di non rilevante ammontare, regolate dal regolamento di contabilità dell'ente"
+      },
+      {
+        "id": "D",
+        "text": "Non ha alcun limite e sostituisce l'impegno di spesa ordinario"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'anticipazione all'economo è una cassa contanti a rotazione utilizzabile unicamente per spese urgenti, minute e indifferibili (cancelleria minuta, valori bollati, piccole riparazioni) disciplinate dal regolamento.",
+    "hint": "Riservato esclusivamente a minute spese correnti d'ufficio e pagamenti urgenti di modica entità.",
+    "level": "base"
+  },
+  {
+    "id": "Q_CONT_PUB_094",
+    "question": "In merito alla contabilità economico-patrimoniale obbligatoria negli enti locali (D.Lgs. 118/2011), cosa rileva il Conto Economico?",
+    "options": [
+      {
+        "id": "A",
+        "text": "I soli incassi in contanti della polizia municipale"
+      },
+      {
+        "id": "B",
+        "text": "I movimenti dei conti correnti bancari personali degli impiegati"
+      },
+      {
+        "id": "C",
+        "text": "Il numero delle multe stradali elevate in un anno"
+      },
+      {
+        "id": "D",
+        "text": "I costi e i ricavi di competenza economica dell'esercizio per evidenziare il risultato economico finale (utile o perdita d'esercizio)"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Il conto economico armonizzato recepisce il principio di competenza economica (costi/oneri e proventi/ricavi consumati nell'anno solare, inclusi ammortamenti e svalutazioni) determinando il risultato d'esercizio.",
+    "hint": "Misura costi, proventi e risultato economico (utile/perdita) di competenza dell'esercizio.",
+    "level": "base"
+  },
+  {
+    "id": "Q_CONT_PUB_095",
+    "question": "Cosa rappresenta lo 'Stato Patrimoniale' del rendiconto armonizzato degli enti locali?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La consistenza attiva e passiva del patrimonio dell'ente alla data del 31 dicembre, evidenziando il patrimonio netto e le variazioni intervenute"
+      },
+      {
+        "id": "B",
+        "text": "La lista di tutti gli elettori residenti nel Comune"
+      },
+      {
+        "id": "C",
+        "text": "L'elenco dei soli beni demaniali non alienabili"
+      },
+      {
+        "id": "D",
+        "text": "Il prospetto delle spese di cancelleria dell'ufficio tecnico"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Lo stato patrimoniale rappresenta la fotografia al 31 dicembre di attività (immobilizzazioni, crediti, disponibilità liquide) e passività (debiti, fondi rischi, patrimonio netto) dell'ente locale.",
+    "hint": "Fotografia delle attività, passività e patrimonio netto al 31 dicembre.",
+    "level": "base"
+  },
+  {
+    "id": "Q_CONT_PUB_096",
+    "question": "Cosa si intende per 'Ammortamento' dei beni patrimoniali nella contabilità economico-patrimoniale dell'ente locale?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La vendita forzata di un bene al miglior offerente"
+      },
+      {
+        "id": "B",
+        "text": "Il processo contabile ed economico di ripartizione sistematica del costo di un bene pluriennale lungo la durata stimata della sua vita utile"
+      },
+      {
+        "id": "C",
+        "text": "Il risarcimento del danno per incendio o alluvione"
+      },
+      {
+        "id": "D",
+        "text": "La demolizione d'ufficio di un immobile abusivo"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'ammortamento imputa al conto economico di ciascun esercizio la quota di deprezzamento o usura del valore dei beni materiali e immateriali durevoli utilizzati dall'ente.",
+    "hint": "Ripartizione del valore di un bene durevole lungo gli anni della sua vita utile.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_CONT_PUB_097",
+    "question": "Qual è il vincolo posto dall'art. 162 del TUEL sulle entrate straordinarie derivanti dall'alienazione di beni patrimoniali disponibili?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Possono essere utilizzate per raddoppiare gli stipendi dei funzionari"
+      },
+      {
+        "id": "B",
+        "text": "Vanno obbligatoriamente donate a organizzazioni internazionali"
+      },
+      {
+        "id": "C",
+        "text": "Possono essere destinate esclusivamente a spese di investimento o a estinzione anticipata di mutui e prestiti, con divieto di finanziare la spesa corrente"
+      },
+      {
+        "id": "D",
+        "text": "Devono essere conservate in lingotti d'oro nel caveau municipale"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Le entrate da alienazioni immobiliari e patrimoniali (Titolo IV entrate) hanno natura straordinaria e non ricorrente: non possono finanziare spese correnti, ma solo investimenti o riduzione del debito.",
+    "hint": "I proventi da vendita immobili non possono finanziare la spesa corrente, ma solo investimenti o estinzione mutui.",
+    "level": "base"
+  },
+  {
+    "id": "Q_CONT_PUB_098",
+    "question": "Chi redige la relazione di fine mandato degli enti locali ai sensi dell'art. 4 del D.Lgs. 149/2011?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il candidato a Sindaco della lista avversaria"
+      },
+      {
+        "id": "B",
+        "text": "Il comandante della Guardia di Finanza locale"
+      },
+      {
+        "id": "C",
+        "text": "I rappresentanti della stampa locale"
+      },
+      {
+        "id": "D",
+        "text": "Il responsabile del servizio finanziario o il segretario generale, sottoscritta dal Sindaco e certificata dall'organo di revisione contabile"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "La relazione di fine mandato descrive l'attività amministrativa e finanziaria svolta nel mandato quinquennale, certificata dai revisori e pubblicata sul sito entro 60 giorni dal termine del mandato.",
+    "hint": "Sottoscritta dal Sindaco, certificata dall'organo di revisione e pubblicata a fine consiliatura.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_CONT_PUB_099",
+    "question": "Quale sanzione si applica in caso di mancata redazione e pubblicazione della relazione di fine mandato (art. 4, comma 6, D.Lgs. 149/2011)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La riduzione dell'indennità del Sindaco e del responsabile del servizio finanziario del 50% per i periodi previsti e l'obbligo di pubblicazione sul sito istituzionale"
+      },
+      {
+        "id": "B",
+        "text": "L'arresto immediato del segretario comunale"
+      },
+      {
+        "id": "C",
+        "text": "L'esclusione definitiva del Comune dalle elezioni"
+      },
+      {
+        "id": "D",
+        "text": "Il blocco totale delle linee telefoniche del municipio"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'inadempimento dell'obbligo comporta una decurtazione economica pecuniaria dell'indennità del Sindaco (ridotta della metà) e dell'emolumento del responsabile finanziario.",
+    "hint": "Decurtazione del 50% dell'indennità per il Sindaco e per il responsabile finanziario.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_CONT_PUB_100",
+    "question": "Cosa si intende per 'Equilibrio di Parte Corrente' nel bilancio di previsione finanziario?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'uguaglianza tra il numero dei consiglieri di maggioranza e di minoranza"
+      },
+      {
+        "id": "B",
+        "text": "Il saldo positivo o nullo tra le entrate correnti (primi tre titoli) e le spese correnti e di rimborso prestiti, garantendo che le entrate ordinarie coprano i costi ordinari di funzionamento"
+      },
+      {
+        "id": "C",
+        "text": "Il pareggio tra le multe riscosse e le spese di cancelleria"
+      },
+      {
+        "id": "D",
+        "text": "La totale assenza di imposte a carico dei cittadini residenti"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'equilibrio di parte corrente assicura la sostenibilità strutturale dell'ente: le entrate ordinarie e tributarie (Titoli I, II, III) devono essere sufficienti a coprire integralmente le spese correnti (Titolo I) e le quote capitali dei mutui (Titolo IV spesa).",
+    "hint": "Le entrate ordinarie dei primi 3 titoli devono coprire integralmente le spese correnti e le rate dei mutui.",
+    "level": "base"
   }
 ]

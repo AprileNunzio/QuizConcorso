@@ -1298,5 +1298,1305 @@
     "explanation": "L'esenzione IMU per gli enti non commerciali richiede un duplice requisito: soggettivo (ente non commerciale/ETS) e oggettivo (svolgimento esclusivo di attività istituzionali assistenziali, didattiche, culturali con modalità rigorosamente non commerciali, ossia senza scopo di lucro e a titolo gratuito o dietro corrispettivo meramente simbolico).",
     "hint": "Requisito congiunto: natura non commerciale dell'ente + modalità concrete rigorosamente non commerciali.",
     "level": "intermedio"
+  },
+  {
+    "id": "Q_TRIB_LOC_051",
+    "question": "Ai sensi dell'art. 1, comma 738, della L. 160/2019, quale imposta ha unificato l'IMU e la TASI a decorrere dall'anno 2020?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La 'nuova IMU', che ha assorbito la disciplina della TASI mantenendo la disciplina tributaria semplificata"
+      },
+      {
+        "id": "B",
+        "text": "La TARSU straordinaria"
+      },
+      {
+        "id": "C",
+        "text": "L'imposta di scopo regionale obbligatoria"
+      },
+      {
+        "id": "D",
+        "text": "L'IVA municipale sostitutiva"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La Legge di Bilancio 2020 (L. 160/2019) ha abolito la IUC e contestualmente la TASI, accorpandone la disciplina nella 'nuova IMU' municipale.",
+    "hint": "Ha introdotto la 'nuova IMU', cancellando la TASI.",
+    "level": "base"
+  },
+  {
+    "id": "Q_TRIB_LOC_052",
+    "question": "Qual è il presupposto d'imposta della nuova IMU (art. 1, comma 740, L. 160/2019)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il reddito da lavoro dipendente percepito nel Comune"
+      },
+      {
+        "id": "B",
+        "text": "Il possesso di immobili (fabbricati, aree fabbricabili e terreni agricoli), con esclusione dell'abitazione principale non di lusso"
+      },
+      {
+        "id": "C",
+        "text": "Il consumo di energia elettrica e gas metano"
+      },
+      {
+        "id": "D",
+        "text": "L'iscrizione anagrafica nei registri della popolazione residente"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il presupposto IMU è il possesso di immobili siti nel territorio del Comune; restano escluse le abitazioni principali purché non classificate nelle categorie di lusso A/1, A/8 e A/9.",
+    "hint": "Possesso di fabbricati, aree fabbricabili e terreni, tranne prima casa non di lusso.",
+    "level": "base"
+  },
+  {
+    "id": "Q_TRIB_LOC_053",
+    "question": "Quali categorie catastali costituiscono abitazioni di lusso sempre soggette al pagamento dell'IMU anche se abitazione principale?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A/2, A/3 e A/4"
+      },
+      {
+        "id": "B",
+        "text": "C/2, C/6 e C/7"
+      },
+      {
+        "id": "C",
+        "text": "A/1 (abitazioni signorili), A/8 (ville) e A/9 (castelli e palazzi eminenti)"
+      },
+      {
+        "id": "D",
+        "text": "D/1, D/5 e D/8"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Le unità abitative classificate in A/1, A/8 e A/9 mantengono l'assoggettamento ad IMU con detrazione base di 200 euro, in quanto considerate immobili di lusso o pregio storico/artistico.",
+    "hint": "Sono le categorie A/1, A/8 e A/9.",
+    "level": "base"
+  },
+  {
+    "id": "Q_TRIB_LOC_054",
+    "question": "Come si calcola la base imponibile IMU per un fabbricato iscritto in catasto (art. 1, comma 745, L. 160/2019)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Valore venale di mercato al metro quadro certificato da perizia giurata"
+      },
+      {
+        "id": "B",
+        "text": "Prezzo di acquisto riportato nel rogito notarile senza rivalutazione"
+      },
+      {
+        "id": "C",
+        "text": "Rendita catastale divisa per il numero dei residenti nell'immobile"
+      },
+      {
+        "id": "D",
+        "text": "Rendita catastale rivalutata del 5% e moltiplicata per il relativo coefficiente moltiplicatore (es. 160 per abitazioni gruppo A)"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "La base imponibile dei fabbricati si ottiene rivalutando la rendita catastale del 5% e applicando i moltiplicatori di legge (160 per le categorie del gruppo A escluso A/10, C/2, C/6, C/7; 140 gruppo B, ecc.).",
+    "hint": "Rendita rivalutata del 5% moltiplicata per il coefficiente catastale di categoria (160 per le case).",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_TRIB_LOC_055",
+    "question": "In merito alla TARI (Tassa sui Rifiuti), qual è il presupposto impositivo ai sensi dell'art. 1, comma 641, della L. 147/2013?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il possesso o la detenzione a qualsiasi titolo di locali o di aree scoperte suscettibili di produrre rifiuti urbani"
+      },
+      {
+        "id": "B",
+        "text": "Il volume di acqua potabile consumato nell'anno solare"
+      },
+      {
+        "id": "C",
+        "text": "La proprietà esclusiva del terreno non recintato"
+      },
+      {
+        "id": "D",
+        "text": "L'effettiva presenza di cassonetti entro 50 metri dall'abitazione"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il presupposto della TARI è la detenzione o possesso di locali ed aree scoperte operative che per loro natura e destinazione sono idonei a produrre rifiuti urbani.",
+    "hint": "Possesso o detenzione a qualsiasi titolo di locali o aree suscettibili di produrre rifiuti.",
+    "level": "base"
+  },
+  {
+    "id": "Q_TRIB_LOC_056",
+    "question": "Quale autorità indipendente ha competenza sulla regolazione tariffaria e sulla definizione del metodo tariffario rifiuti (MTR) per la TARI?",
+    "options": [
+      {
+        "id": "A",
+        "text": "AGCM (Autorità Garante della Concorrenza e del Mercato)"
+      },
+      {
+        "id": "B",
+        "text": "ARERA (Autorità di Regolazione per Energia Reti e Ambiente)"
+      },
+      {
+        "id": "C",
+        "text": "Banca d'Italia"
+      },
+      {
+        "id": "D",
+        "text": "CONSOB"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La Legge 205/2017 ha attribuito ad ARERA i poteri di regolazione del ciclo dei rifiuti urbani, compresa l'emanazione del Metodo Tariffario Rifiuti (MTR-1 e MTR-2) per la determinazione dei costi efficienti (PEF).",
+    "hint": "È ARERA l'autorità che fissa i metodi tariffari e la qualità del servizio rifiuti.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_TRIB_LOC_057",
+    "question": "Cos'è il PEF (Piano Economico Finanziario) della TARI?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il piano di assunzioni del personale ecologico del Comune"
+      },
+      {
+        "id": "B",
+        "text": "Il bilancio consuntivo dell'azienda sanitaria locale"
+      },
+      {
+        "id": "C",
+        "text": "Il documento che quantifica i costi totali del servizio di gestione dei rifiuti, che devono essere integralmente coperti dal gettito tariffario"
+      },
+      {
+        "id": "D",
+        "text": "Un piano urbanistico di bonifica delle discariche dismesse"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Il PEF determina i costi efficienti operativi e di investimento della gestione integrata dei rifiuti secondo le regole ARERA, assicurando il principio del totale pareggio (copertura integrale del 100% dei costi).",
+    "hint": "Quantifica i costi del servizio che per legge devono essere coperti al 100% dalla tariffa.",
+    "level": "base"
+  },
+  {
+    "id": "Q_TRIB_LOC_058",
+    "question": "Il Canone Unico Patrimoniale (CUP), introdotto dall'art. 1, commi 816 e ss., della L. 160/2019, ha sostituito:",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'IMU e l'IRAP locale"
+      },
+      {
+        "id": "B",
+        "text": "Le accise comunali sull'energia elettrica"
+      },
+      {
+        "id": "C",
+        "text": "I biglietti del trasporto pubblico locale"
+      },
+      {
+        "id": "D",
+        "text": "TOSAP, COSAP, ICP (imposta comunale pubblicità), DPA (diritti sulle pubbliche affissioni) e il canone mercatale"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Dal 1° gennaio 2021 il CUP accorpa e sostituisce la tassa/canone per l'occupazione di suolo pubblico (TOSAP/COSAP), l'imposta sulla pubblicità (ICP), i diritti di affissione e il canone di installazione mezzi pubblicitari.",
+    "hint": "Ha unificato occupazione suolo pubblico e pubblicità/affissioni in un unico canone patrimoniale.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_TRIB_LOC_059",
+    "question": "A norma dell'art. 1, commi 792 e ss., della L. 160/2019, che cos'è l'avviso di accertamento esecutivo degli enti locali?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un atto di accertamento tributario che concentra in sé la funzione impositiva e il titolo esecutivo, senza necessità della cartella esattoriale"
+      },
+      {
+        "id": "B",
+        "text": "Un preavviso informale telefonico senza efficacia vincolante"
+      },
+      {
+        "id": "C",
+        "text": "Una multa per divieto di sosta emessa dalla Polizia Locale"
+      },
+      {
+        "id": "D",
+        "text": "Una sentenza di primo grado emessa dalla Corte di Giustizia Tributaria"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La L. 160/2019 ha introdotto per i Comuni l'accertamento esecutivo (sul modello delle entrate statali): decorso il termine per il ricorso (60 giorni), l'atto diventa titolo esecutivo per l'esecuzione forzata senza cartella di pagamento.",
+    "hint": "Unifica accertamento e titolo esecutivo, saltando il passaggio della cartella.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_TRIB_LOC_060",
+    "question": "Qual è il termine perentorio di decadenza per la notifica dell'avviso di accertamento dei tributi locali (art. 1, comma 161, L. 296/2006)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Entro sessanta giorni dalla fine dell'anno solare"
+      },
+      {
+        "id": "B",
+        "text": "Entro il 31 dicembre del quinto anno successivo a quello in cui la dichiarazione o il versamento avrebbero dovuto essere effettuati"
+      },
+      {
+        "id": "C",
+        "text": "Entro venti anni dalla scadenza del tributo"
+      },
+      {
+        "id": "D",
+        "text": "Non esiste alcun termine decadenziale per i tributi degli enti locali"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'avviso di accertamento deve essere notificato, a pena di decadenza, entro il 31 dicembre del quinto anno successivo a quello di omessa presentazione della dichiarazione o di omesso versamento.",
+    "hint": "Termine standard quinquennale: 31 dicembre del quinto anno successivo.",
+    "level": "base"
+  },
+  {
+    "id": "Q_TRIB_LOC_061",
+    "question": "Entro quale termine il contribuente può proporre ricorso giurisdizionale avverso un avviso di accertamento di tributo locale?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Entro 10 giorni lavorativi"
+      },
+      {
+        "id": "B",
+        "text": "Entro 1 anno solare"
+      },
+      {
+        "id": "C",
+        "text": "Entro 60 giorni dalla data di notificazione dell'atto (D.Lgs. 546/1992)"
+      },
+      {
+        "id": "D",
+        "text": "In qualunque momento senza limiti di tempo"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'art. 21 del D.Lgs. 546/1992 fissa a 60 giorni dalla notifica il termine perentorio per proporre ricorso alla Corte di Giustizia Tributaria di primo grado.",
+    "hint": "Il termine classico di impugnazione tributaria è di 60 giorni.",
+    "level": "base"
+  },
+  {
+    "id": "Q_TRIB_LOC_062",
+    "question": "Quale organo giurisdizionale è competente a giudicare in primo grado sulle controversie relative ai tributi locali?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il Tribunale Amministrativo Regionale (TAR)"
+      },
+      {
+        "id": "B",
+        "text": "Il Giudice di Pace penale"
+      },
+      {
+        "id": "C",
+        "text": "La Procura della Repubblica"
+      },
+      {
+        "id": "D",
+        "text": "La Corte di Giustizia Tributaria di primo grado (già Commissione Tributaria Provinciale)"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "La L. 130/2022 ha riformato la giustizia tributaria ridenominando le Commissioni Tributarie Provinciali e Regionali in Corti di Giustizia Tributaria di primo e secondo grado.",
+    "hint": "Sono le Corti di Giustizia Tributaria di primo grado.",
+    "level": "base"
+  },
+  {
+    "id": "Q_TRIB_LOC_063",
+    "question": "A norma dell'art. 13 dello Statuto dei diritti del contribuente e del D.Lgs. 219/2023, che valore ha il principio del contraddittorio preventivo generalizzato?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tutti gli atti autonomamente impugnabili dinanzi agli organi di giustizia tributaria devono essere preceduti da un contraddittorio preventivo a pena di annullabilità, salvo casi urgenti o automatizzati"
+      },
+      {
+        "id": "B",
+        "text": "È una facoltà discrezionale che la PA non è mai tenuta a rispettare"
+      },
+      {
+        "id": "C",
+        "text": "Si applica unicamente alle imprese con fatturato superiore a un miliardo"
+      },
+      {
+        "id": "D",
+        "text": "È stato definitivamente abrogato nel 2024"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La riforma dello Statuto del Contribuente (D.Lgs. 219/2023, introduzione art. 6-bis L. 212/2000) ha sancito il principio generale del contraddittorio endoprocedimentale preventivo obbligatorio prima dell'emissione degli atti impositivi.",
+    "hint": "Il contraddittorio preventivo è ora la regola generale a pena di annullabilità dell'atto.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_TRIB_LOC_064",
+    "question": "Cos'è l'autotutela tributaria obbligatoria introdotta dal D.Lgs. 219/2023 nello Statuto del Contribuente (art. 10-quater L. 212/2000)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il diritto del contribuente di stampare da solo le cartelle esattoriali"
+      },
+      {
+        "id": "B",
+        "text": "L'obbligo per l'amministrazione finanziaria e per gli enti locali di annullare gli atti illegittimi in casi evidenti (errore di persona, errore di calcolo, tributo già pagato, errore materiale)"
+      },
+      {
+        "id": "C",
+        "text": "La difesa armata degli uffici tributi comunali"
+      },
+      {
+        "id": "D",
+        "text": "L'annullamento automatico di tutte le multe stradali"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il nuovo art. 10-quater della L. 212/2000 prevede l'obbligo di autotutela per vizi manifesti (errore di calcolo, scambio di persona, doppia imposizione, tributo pagato) anche in pendenza di giudizio o su atti definitivi.",
+    "hint": "Obbliga l'ente ad annullare d'ufficio l'atto viziato da errori macroscopici.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_TRIB_LOC_065",
+    "question": "A norma dell'art. 53 della Costituzione, il sistema tributario italiano è informato a criteri di:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tassazione fissa uguale per tutti a prescindere dal reddito"
+      },
+      {
+        "id": "B",
+        "text": "Regressività per incentivare gli investimenti immobiliari"
+      },
+      {
+        "id": "C",
+        "text": "Progressività, e tutti sono tenuti a concorrere alle spese pubbliche in ragione della loro capacità contributiva"
+      },
+      {
+        "id": "D",
+        "text": "Volontarietà del versamento delle imposte sui consumi"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'art. 53 Cost. sancisce i due principi pilastro: il principio di capacità contributiva (comma 1) e il principio di progressività dell'intero sistema tributario (comma 2).",
+    "hint": "Capacità contributiva e progressività del sistema fiscale.",
+    "level": "base"
+  },
+  {
+    "id": "Q_TRIB_LOC_066",
+    "question": "Cosa sancisce l'art. 23 della Costituzione in materia tributaria?",
+    "options": [
+      {
+        "id": "A",
+        "text": "I tributi possono essere istituiti con semplice circolare ministeriale"
+      },
+      {
+        "id": "B",
+        "text": "I Comuni hanno potestà legislativa primaria esclusiva sui tributi"
+      },
+      {
+        "id": "C",
+        "text": "Le imposte devono essere pagate unicamente con moneta aurea"
+      },
+      {
+        "id": "D",
+        "text": "Nessuna prestazione personale o patrimoniale può essere imposta se non in base alla legge (riserva di legge relativa)"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'art. 23 Cost. pone il principio della riserva di legge relativa in materia di prestazioni imposte: solo una fonte primaria statale o regionale può istituire tributi, fissandone i soggetti e la base imponibile.",
+    "hint": "Riserva di legge relativa: solo la legge può imporre tributi.",
+    "level": "base"
+  },
+  {
+    "id": "Q_TRIB_LOC_067",
+    "question": "L'addizionale comunale all'IRPEF (D.Lgs. 360/1998):",
+    "options": [
+      {
+        "id": "A",
+        "text": "È deliberata dal Comune entro un'aliquota massima complessiva determinata dalla legge statale (ordinariamente 0,8%), con facoltà di scaglioni o esenzione per fasce di reddito"
+      },
+      {
+        "id": "B",
+        "text": "È un tributo a misura fissa di 500 euro per ogni cittadino maggiorenne"
+      },
+      {
+        "id": "C",
+        "text": "È riscossa direttamente dalle banche estere"
+      },
+      {
+        "id": "D",
+        "text": "Non può mai essere differenziata per scaglioni di reddito"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il Comune può deliberare l'aliquota di addizionale IRPEF fino al limite dello 0,8% (salvo regimi derogatori per capoluoghi/Roma), introducendo una soglia di esenzione e scaglioni conformi all'IRPEF nazionale.",
+    "hint": "Aliquota comunale deliberabile fino allo 0,8%, con possibile soglia di esenzione.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_TRIB_LOC_068",
+    "question": "Entro quale termine devono essere approvati i regolamenti e le tariffe dei tributi locali per avere efficacia a decorrere dal 1° gennaio dell'anno di riferimento (art. 1, comma 169, L. 296/2006)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Entro il 31 dicembre di dieci anni dopo"
+      },
+      {
+        "id": "B",
+        "text": "Entro la data fissata dalle norme statali per l'approvazione del bilancio di previsione"
+      },
+      {
+        "id": "C",
+        "text": "Entro il primo giorno di primavera"
+      },
+      {
+        "id": "D",
+        "text": "In qualunque momento con efficacia retroattiva di cinque anni"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Le tariffe e le aliquote comunali devono essere deliberate entro la scadenza del bilancio di previsione per valere dal 1° gennaio di quell'anno; in caso contrario si intendono prorogate le tariffe dell'anno precedente.",
+    "hint": "Entro il termine di approvazione del bilancio di previsione.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_TRIB_LOC_069",
+    "question": "Cosa si intende per 'ravvedimento operoso' nel diritto tributario (art. 13 D.Lgs. 472/1997)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La confessione dell'illecito dinanzi al magistrato penale"
+      },
+      {
+        "id": "B",
+        "text": "Il condono di tutte le tasse per gli imprenditori commerciali"
+      },
+      {
+        "id": "C",
+        "text": "La regolarizzazione spontanea di omessi o insufficienti versamenti con il pagamento di sanzioni ridotte prima dell'inizio delle attività formali di accertamento"
+      },
+      {
+        "id": "D",
+        "text": "La rateizzazione forzata imposta dal prefetto"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Il ravvedimento operoso consente al contribuente di sanare violazioni fiscali versando il tributo dovuto, gli interessi legali e una sanzione ridotta proporzionale alla tempestività del ravvedimento.",
+    "hint": "Regolarizzazione spontanea con sanzioni ridotte prima della notifica degli atti impositivi.",
+    "level": "base"
+  },
+  {
+    "id": "Q_TRIB_LOC_070",
+    "question": "Chi può svolgere la gestione e riscossione delle entrate tributarie comunali ai sensi dell'art. 52 del D.Lgs. 446/1997?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Esclusivamente banche commerciali di diritto estero"
+      },
+      {
+        "id": "B",
+        "text": "Qualsiasi associazione di volontariato del territorio"
+      },
+      {
+        "id": "C",
+        "text": "Solo il Prefetto della provincia"
+      },
+      {
+        "id": "D",
+        "text": "Il Comune in gestione diretta, società in house, Agenzia delle Entrate-Riscossione o soggetti privati abilitati e iscritti all'albo ministeriale ex art. 53"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "I Comuni hanno potestà regolamentare generale sulle entrate (art. 52 D.Lgs. 446/1997): possono gestire le entrate in forma diretta, tramite in-house, AdER o affidare a concessionari privati iscritti all'Albo.",
+    "hint": "Gestione diretta, in-house, Agenzia delle Entrate-Riscossione o concessionari iscritti all'apposito albo.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_TRIB_LOC_071",
+    "question": "Quale sanzione tributaria si applica ordinariamente in caso di omesso o tardivo versamento di tributi locali secondo il D.Lgs. 471/1997 novellato dalla riforma delle sanzioni?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La sanzione amministrativa pari al 25% (già 30%) dell'importo non versato, ridotta in caso di ritardi contenuti entro 90 o 15 giorni"
+      },
+      {
+        "id": "B",
+        "text": "L'arresto fino a 6 mesi del contribuente moroso"
+      },
+      {
+        "id": "C",
+        "text": "Una sanzione pari al 300% del valore dell'immobile"
+      },
+      {
+        "id": "D",
+        "text": "Il sequestro conservativo automatico di tutti i beni"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La riforma fiscale delle sanzioni (D.Lgs. 87/2024) ha ridotto la sanzione base per omesso versamento al 25% (dal 30%), con riduzioni per ritardi brevi nei primi 15 o 90 giorni.",
+    "hint": "Sanzione proporzionale ridotta dal 30% al 25% con il recente D.Lgs. 87/2024.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_TRIB_LOC_072",
+    "question": "A norma dell'art. 1, comma 751, della L. 160/2019, per i fabbricati rurali ad uso strumentale di cui all'art. 9, comma 3-bis, del D.L. 557/1993:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Si applica una maggiorazione obbligatoria del 50%"
+      },
+      {
+        "id": "B",
+        "text": "L'aliquota di base dell'IMU è ridotta allo 0,1% e i Comuni possono ridurla fino all'azzeramento"
+      },
+      {
+        "id": "C",
+        "text": "L'IMU è quadruplicata rispetto alle abitazioni di residenza"
+      },
+      {
+        "id": "D",
+        "text": "Non possono mai essere accatastati"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "I fabbricati rurali strumentali all'attività agricola beneficiano di un regime agevolato: aliquota base dello 0,1% che i Comuni possono azzerare.",
+    "hint": "Aliquota ridotta allo 0,1% con possibilità di totale azzeramento comunale.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_TRIB_LOC_073",
+    "question": "Nel contenzioso tributario, qual è l'importo della lite al di sotto del quale la controversia dinanzi alla CGT di primo grado è decisa da un giudice monocratico (art. 4-bis D.Lgs. 546/1992 introdotto dalla L. 130/2022)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Per controversie fino a 100.000 euro"
+      },
+      {
+        "id": "B",
+        "text": "Soltanto per liti di importo superiore a 1 milione di euro"
+      },
+      {
+        "id": "C",
+        "text": "Per controversie di valore fino a 5.000 euro (escluse sanzioni e interessi)"
+      },
+      {
+        "id": "D",
+        "text": "Per tutti i giudizi a prescindere dal valore economico"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "La legge di riforma 130/2022 ha introdotto il giudice unico monocratico per le liti tributarie di valore indeterminabile o fino a 5.000 euro di sola imposta.",
+    "hint": "La soglia per il giudice monocratico tributario è di 5.000 euro.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_TRIB_LOC_074",
+    "question": "Cos'è la conciliazione giudiziale nel processo tributario (art. 48 D.Lgs. 546/1992)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La condanna del funzionario al risarcimento delle spese di viaggio del cittadino"
+      },
+      {
+        "id": "B",
+        "text": "Il rinvio del processo a data da destinarsi per più di dieci anni"
+      },
+      {
+        "id": "C",
+        "text": "L'assoluzione penale per remissione di querela"
+      },
+      {
+        "id": "D",
+        "text": "L'accordo tra le parti che estingue la lite con la rideterminazione del tributo e l'abbattimento significativo delle sanzioni amministrative"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "La conciliazione tributaria (in udienza o fuori udienza) definisce transattivamente la lite: le sanzioni sono ridotte al 40% del minimo in primo grado e al 50% in secondo grado.",
+    "hint": "Accordo transattivo deflativo del contenzioso con forte riduzione delle sanzioni.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_TRIB_LOC_075",
+    "question": "In merito alla riscossione coattiva dei tributi locali, decorso il termine di 60 giorni dalla notifica dell'accertamento esecutivo senza impugnazione né pagamento:",
+    "options": [
+      {
+        "id": "A",
+        "text": "La pretesa impositiva diventa definitiva e l'atto acquista efficacia di titolo esecutivo, consentendo l'avvio delle azioni cautelari ed espropriative"
+      },
+      {
+        "id": "B",
+        "text": "L'atto si estingue per prescrizione biennale immediata"
+      },
+      {
+        "id": "C",
+        "text": "Il Comune deve obbligatoriamente rinotificare l'atto altre tre volte"
+      },
+      {
+        "id": "D",
+        "text": "Il credito viene ceduto gratuitamente al fondo monetario internazionale"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Decorso il termine per impugnare (60 gg) e trascorsi ulteriori 30 giorni per il carico all'agente della riscossione, l'atto esecutivo permette pignoramenti mobiliari, presso terzi o fermi amministrativi.",
+    "hint": "L'accertamento esecutivo consente l'avvio immediato delle misure cautelari ed esecutive.",
+    "level": "base"
+  },
+  {
+    "id": "Q_TRIB_LOC_076",
+    "question": "Quale garanzia reale a favore del Comune è prevista dall'art. 2772 c.c. sui beni immobili per i crediti per tributi locali?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'ipoteca giudiziale automatica senza iscrizione nei registri"
+      },
+      {
+        "id": "B",
+        "text": "Il privilegio speciale immobiliare sull'immobile a cui il tributo si riferisce"
+      },
+      {
+        "id": "C",
+        "text": "Il pegno rotativo sulle quote di fondi pensione"
+      },
+      {
+        "id": "D",
+        "text": "Nessuna garanzia, i crediti tributari sono chirografari semplici"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 2772 c.c. attribuisce privilegio speciale sui beni immobili per le imposte comunali immobiliari e i relativi tributi dovuti per l'anno in corso e quello precedente.",
+    "hint": "Privilegio speciale immobiliare sui fabbricati e terreni oggetto d'imposta.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_TRIB_LOC_077",
+    "question": "Chi è il Funzionario Responsabile del tributo locale nominato ai sensi della L. 296/2006 (art. 1, comma 162)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'assessore alle finanze della giunta comunale"
+      },
+      {
+        "id": "B",
+        "text": "Il Prefetto provinciale"
+      },
+      {
+        "id": "C",
+        "text": "Il dipendente a cui sono attribuiti tutti i poteri per l'esercizio di ogni attività organizzativa e gestionale, inclusa la firma degli atti impositivi"
+      },
+      {
+        "id": "D",
+        "text": "Un carabiniere del Comando Tutela Finanza Pubblica"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "La Giunta nomina il Funzionario Responsabile del tributo (es. IMU, TARI), a cui competono le verifiche, gli accertamenti, i rimborsi, l'autotutela e la rappresentanza processuale.",
+    "hint": "È il funzionario che ha la responsabilità gestionale e firma gli avvisi di accertamento.",
+    "level": "base"
+  },
+  {
+    "id": "Q_TRIB_LOC_078",
+    "question": "L'imposta di soggiorno (art. 4 D.Lgs. 23/2011) può essere istituita:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Da qualsiasi Comune indipendentemente da qualunque vocazione o flusso turistico"
+      },
+      {
+        "id": "B",
+        "text": "Esclusivamente dalla Presidenza del Consiglio dei Ministri"
+      },
+      {
+        "id": "C",
+        "text": "Soltanto sui residenti stabili che non vanno mai in vacanza"
+      },
+      {
+        "id": "D",
+        "text": "Dai Comuni capoluogo di provincia, unioni di Comuni e Comuni inclusi negli elenchi regionali delle località turistiche o città d'arte"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'art. 4 D.Lgs. 23/2011 consente ai Comuni capoluogo, città d'arte o località turistiche di istituire con regolamento un'imposta di soggiorno a carico di chi alloggia nelle strutture ricettive.",
+    "hint": "Riservata a capoluoghi di provincia, città d'arte e località turistiche riconosciute.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_TRIB_LOC_079",
+    "question": "Quale destinazione di spesa vincolata hanno i proventi dell'imposta di soggiorno ai sensi dell'art. 4 del D.Lgs. 23/2011?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Finanziare interventi in materia di turismo, manutenzione e recupero dei beni culturali e ambientali locali e dei relativi servizi pubblici"
+      },
+      {
+        "id": "B",
+        "text": "Coprire le perdite di gestione delle farmacie private"
+      },
+      {
+        "id": "C",
+        "text": "Pagare le retribuzioni ordinarie dei consiglieri comunali"
+      },
+      {
+        "id": "D",
+        "text": "Spesa libera e indifferenziata senza alcun vincolo di destinazione"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il gettito dell'imposta di soggiorno è rigidamente vincolato a finanziare interventi per il turismo, accoglienza, decoro urbano, promozione e manutenzione dei beni culturali locali.",
+    "hint": "Gettito vincolato a interventi turistici, culturali e servizi pubblici correlati.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_TRIB_LOC_080",
+    "question": "A norma dell'art. 1, comma 652, della L. 147/2013, come è ripartita la tariffa TARI per le utenze domestiche?",
+    "options": [
+      {
+        "id": "A",
+        "text": "In base al solo numero dei balconi dell'edificio"
+      },
+      {
+        "id": "B",
+        "text": "In una quota fissa (commisurata ai metri quadri dell'alloggio) e una quota variabile (commisurata al numero dei componenti del nucleo familiare)"
+      },
+      {
+        "id": "C",
+        "text": "Esclusivamente in percentuale sul reddito ISEE della famiglia"
+      },
+      {
+        "id": "D",
+        "text": "Una quota unica casuale sorteggiata annualmente"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La tariffa della TARI domestica è composta da una quota fissa (superficie calpestabile) che copre i costi fissi del servizio e da una quota variabile legata al numero di componenti del nucleo familiare.",
+    "hint": "Quota fissa sui metri quadri, quota variabile sul numero dei componenti familiari.",
+    "level": "base"
+  },
+  {
+    "id": "Q_TRIB_LOC_081",
+    "question": "Cosa si intende per 'TARIP' o tariffa puntuale dei rifiuti (art. 1, comma 668, L. 147/2013)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Una tassa aggiuntiva applicata su chi non possiede un'automobile"
+      },
+      {
+        "id": "B",
+        "text": "La tariffa applicata unicamente sui rifiuti radioattivi ospedalieri"
+      },
+      {
+        "id": "C",
+        "text": "Un sistema tariffario che commisura la quota variabile all'effettiva quantità di rifiuti indifferenziati prodotti e conferiti dalla singola utenza"
+      },
+      {
+        "id": "D",
+        "text": "Un metodo forfettario che elimina l'uso dei sacchetti della spazzatura"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "La tariffa puntuale (TARIP) applica il principio 'chi inquina paga': misura puntualmente i conferimenti (mediante RFID/codice a barre sui mastelli/sacchi) del rifiuto secco residuo non differenziabile.",
+    "hint": "Applica il principio 'paga per quello che butti' misurando i conferimenti indifferenziati.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_TRIB_LOC_082",
+    "question": "Ai sensi dell'art. 119 della Costituzione, i Comuni, le Province, le Città metropolitane e le Regioni:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Possono solo spendere i fondi erogati senza alcuna potestà impositiva"
+      },
+      {
+        "id": "B",
+        "text": "Dipendono al 100% dalla finanza derivata dello Stato senza tributi propri"
+      },
+      {
+        "id": "C",
+        "text": "Hanno potestà di battere moneta locale avente corso legale"
+      },
+      {
+        "id": "D",
+        "text": "Hanno autonomia finanziaria di entrata e di spesa, e stabiliscono ed applicano tributi ed entrate propri in armonia con la Costituzione"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'art. 119 Cost. riconosce l'autonomia finanziaria di entrata e di spesa agli enti territoriali, consentendo loro tributi ed entrate propri nel quadro del coordinamento della finanza pubblica.",
+    "hint": "Autonomia finanziaria di entrata e di spesa ex art. 119 Cost.",
+    "level": "base"
+  },
+  {
+    "id": "Q_TRIB_LOC_083",
+    "question": "Nel D.Lgs. 546/1992, qual è la conseguenza dell'omessa costituzione in giudizio della parte resistente entro 60 giorni dalla notifica del ricorso?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La parte resistente decade dalla facoltà di proporre eccezioni non rilevabili d'ufficio e di produrre nuovi documenti, pur potendo partecipare alla discussione"
+      },
+      {
+        "id": "B",
+        "text": "La vittoria immediata e automatica del ricorrente per silenzio assenso giudiziale"
+      },
+      {
+        "id": "C",
+        "text": "La sanzione penale di euro 5.000 a carico del responsabile del servizio"
+      },
+      {
+        "id": "D",
+        "text": "L'estinzione definitiva del processo tributario"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'omessa o tardiva costituzione della PA resistente (art. 23 D.Lgs. 546/1992) comporta la decadenza dalla produzione di memorie, documenti ed eccezioni in senso stretto, restando il giudizio devoluto sulle prove già agli atti.",
+    "hint": "Decadenza dalle eccezioni in senso stretto e dal deposito di nuovi documenti.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_TRIB_LOC_084",
+    "question": "Che efficacia ha la conciliazione tributaria sottoscritta dalle parti ai sensi dell'art. 48 del D.Lgs. 546/1992?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ha mero valore di promessa d'onore revocabile in qualunque momento"
+      },
+      {
+        "id": "B",
+        "text": "Si perfeziona con la sottoscrizione dell'accordo, costituendo titolo per la riscossione delle somme dovute e per il discarico delle iscrizioni a ruolo"
+      },
+      {
+        "id": "C",
+        "text": "Deve essere obbligatoriamente omologata dalla Corte dei Conti"
+      },
+      {
+        "id": "D",
+        "text": "È nulla se non firmata dal Ministro dell'Economia"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "A seguito delle recenti riforme processuali, la conciliazione si perfeziona con la sottoscrizione dell'accordo conciliativo, estinguendo il processo ed essendo titolo esecutivo per il recupero delle somme concordate.",
+    "hint": "Si perfeziona con la firma dell'accordo ed estingue la causa con efficacia vincolante.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_TRIB_LOC_085",
+    "question": "A norma dell'art. 1, comma 741, della L. 160/2019, per 'abitazione principale' ai fini IMU si intende:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Qualsiasi immobile di proprietà del soggetto, ovunque ubicato nel territorio nazionale"
+      },
+      {
+        "id": "B",
+        "text": "La casa dove il proprietario trascorre le vacanze estive per almeno un mese"
+      },
+      {
+        "id": "C",
+        "text": "L'immobile, iscritto o iscrivibile nel catasto edilizio urbano come unica unità immobiliare, nel quale il possessore dimora abitualmente e risiede anagraficamente"
+      },
+      {
+        "id": "D",
+        "text": "L'ufficio o laboratorio artigianale dove si svolge l'attività lavorativa"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "La nozione di abitazione principale richiede la compresenza di due requisiti inderogabili: la residenza anagrafica e la dimora abituale del possessore nell'immobile.",
+    "hint": "Richiede la compresenza di residenza anagrafica e dimora abituale effettiva.",
+    "level": "base"
+  },
+  {
+    "id": "Q_TRIB_LOC_086",
+    "question": "A seguito della storica sentenza della Corte Costituzionale n. 209/2022, come è disciplinata la doppia esenzione IMU per coniugi con residenze anagrafiche in immobili diversi?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Uno dei due coniugi deve sempre obbligatoriamente pagare l'IMU raddoppiata"
+      },
+      {
+        "id": "B",
+        "text": "Entrambe le case perdono l'esenzione e pagano come seconde case"
+      },
+      {
+        "id": "C",
+        "text": "L'esenzione spetta unicamente se i coniugi hanno più di 80 anni"
+      },
+      {
+        "id": "D",
+        "text": "Ciascun coniuge ha diritto all'esenzione IMU per la propria abitazione principale, purché in essa dimori abitualmente e risieda anagraficamente, anche se situata nello stesso Comune o in Comuni diversi"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "La Consulta (sentenza 209/2022) ha dichiarato incostituzionale la norma che limitava l'esenzione a una sola casa per nucleo familiare: l'esenzione spetta a entrambi i coniugi se vi è effettiva residenza e dimora abituale separata.",
+    "hint": "La Consulta ha ripristinato l'esenzione per ciascun coniuge purché sussista la reale dimora abituale.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_TRIB_LOC_087",
+    "question": "In merito alla TARI, quale riduzione tariffaria obbligatoria è prevista per le zone in cui non è effettuata la raccolta dei rifiuti (art. 1, comma 657, L. 147/2013)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La TARI è dovuta nella misura massima del 20% della tariffa se la distanza dal più vicino punto di raccolta supera la soglia regolamentare"
+      },
+      {
+        "id": "B",
+        "text": "L'esenzione totale e il pagamento di un indennizzo ai residenti"
+      },
+      {
+        "id": "C",
+        "text": "Il raddoppio della tassa per costi di trasporto"
+      },
+      {
+        "id": "D",
+        "text": "Non è prevista alcuna riduzione tariffaria"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 1, comma 657, prevede che nelle zone in cui non è effettuata la raccolta la TARI è dovuta in misura non superiore al 20% della tariffa determinata dal Comune.",
+    "hint": "Tassa ridotta fino a un massimo del 20% se il servizio non è istituito o reso.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_TRIB_LOC_088",
+    "question": "Quale istituto tributario disciplinato dal D.Lgs. 218/1997 consente di concordare l'imponibile tra ente impositore e contribuente prima dell'emissione dell'avviso definitivo?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il concordato preventivo fallimentare"
+      },
+      {
+        "id": "B",
+        "text": "L'accertamento con adesione, che riduce le sanzioni amministrative a un terzo del minimo"
+      },
+      {
+        "id": "C",
+        "text": "La remissione in bonis del tributo"
+      },
+      {
+        "id": "D",
+        "text": "La transazione penale d'ufficio"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'accertamento con adesione (applicabile anche ai tributi locali se previsto dal regolamento dell'ente) chiude il procedimento con accordo motivato e sanzioni ridotte a 1/3 del minimo di legge.",
+    "hint": "Accertamento con adesione con abbattimento delle sanzioni a un terzo.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_TRIB_LOC_089",
+    "question": "Cosa disciplina l'art. 10 dello Statuto del Contribuente (L. 212/2000) in tema di tutela dell'affidamento e della buona fede?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il contribuente deve sempre essere considerato in colpa grave fino a prova contraria"
+      },
+      {
+        "id": "B",
+        "text": "L'amministrazione può cambiare retroattivamente interpretazione ed esigere sanzioni triplicate"
+      },
+      {
+        "id": "C",
+        "text": "Non possono essere irrogate sanzioni né richiesti interessi moratori se il contribuente si è conformato a indicazioni contenute in circolari dell'amministrazione o a ritardi della stessa"
+      },
+      {
+        "id": "D",
+        "text": "I tributi pagati erroneamente non possono mai essere rimborsati"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'art. 10 sancisce il principio di buona fede ed affidamento: nessun interesse o sanzione a carico del contribuente che abbia seguito le indicazioni ufficiali dell'amministrazione.",
+    "hint": "Tutela dell'affidamento: niente sanzioni se ci si è conformati alle circolari della PA.",
+    "level": "base"
+  },
+  {
+    "id": "Q_TRIB_LOC_090",
+    "question": "Entro quale termine di prescrizione si estinguono i crediti per tributi locali divenuti definitivi per mancata impugnazione dell'avviso di accertamento?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dieci anni in ogni caso"
+      },
+      {
+        "id": "B",
+        "text": "Sessanta giorni dalla data di scadenza della cartella"
+      },
+      {
+        "id": "C",
+        "text": "Non si prescrivono mai"
+      },
+      {
+        "id": "D",
+        "text": "Cinque anni (art. 2948 n. 4 c.c.), secondo il consolidato orientamento delle Sezioni Unite della Cassazione"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Le Sezioni Unite della Cassazione (sentenza n. 23397/2016 e successive conformi) hanno stabilito che i tributi locali (IMU, TARI, TOSAP), in quanto prestazioni periodiche annuali, si prescrivono in 5 anni.",
+    "hint": "I tributi locali si prescrivono in 5 anni ex art. 2948 c.c.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_TRIB_LOC_091",
+    "question": "Il Canone di Concessione per l'occupazione di aree pubbliche destinate a mercati (Canone Mercatale) ex art. 1, comma 837, L. 160/2019:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Si applica all'occupazione di aree pubbliche destinate a mercati rionali e ambulanti, sostituendo anche la TARI per i rifiuti ivi prodotti"
+      },
+      {
+        "id": "B",
+        "text": "Si aggiunge all'IMU e alla TOSAP sui banchi mobili"
+      },
+      {
+        "id": "C",
+        "text": "È riscosso dall'Ufficio delle Dogane"
+      },
+      {
+        "id": "D",
+        "text": "È riservato unicamente agli operatori provenienti da Paesi extra-UE"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il canone mercatale è disciplinato dai commi 837-845 della L. 160/2019: assorbe sia l'occupazione del suolo che il prelievo sui rifiuti (TARI) per le aree mercatali.",
+    "hint": "Assorbe occupazione suolo e tariffa rifiuti per le attività di commercio su aree pubbliche.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_TRIB_LOC_092",
+    "question": "A norma dell'art. 1, comma 744, della L. 160/2019, quale quota del gettito IMU sugli immobili ad uso produttivo del gruppo catastale D è riservata allo Stato?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il 100% dell'intero gettito d'imposta"
+      },
+      {
+        "id": "B",
+        "text": "La quota calcolata applicando l'aliquota statale di base dello 0,76% (7,6 per mille), mentre l'eventuale eccedenza deliberata dal Comune (fino allo 1,06%) spetta al Comune"
+      },
+      {
+        "id": "C",
+        "text": "Nessuna quota, l'intero importo è sempre comunale"
+      },
+      {
+        "id": "D",
+        "text": "Una quota fissa di 10 euro a fabbricato"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Per i capannoni industriali e immobili del gruppo catastale D, il gettito ad aliquota standard (7,6 per mille) è riservato allo Stato; l'eventuale incremento fino al 10,6 per mille è incassato dal Comune.",
+    "hint": "Riserva statale dello 0,76% sui fabbricati industriali gruppo D.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_TRIB_LOC_093",
+    "question": "Cos'è il Fondo di Solidarietà Comunale (FSC)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Una colletta volontaria organizzata dai dipendenti comunali a Natale"
+      },
+      {
+        "id": "B",
+        "text": "Un fondo per risarcire le imprese colpite da furti"
+      },
+      {
+        "id": "C",
+        "text": "Il fondo perequativo statale alimentato da una quota dell'IMU dei Comuni con maggiore capacità fiscale per riequilibrare le risorse a favore degli enti con minori entrate"
+      },
+      {
+        "id": "D",
+        "text": "Una cassa di previdenza integrativa per i Sindaci"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'FSC (art. 1, comma 380, L. 228/2012) è lo strumento di perequazione orizzontale dei Comuni italiani in attuazione dell'art. 119 Cost., alimentato da trattenute sul gettito IMU dei Comuni.",
+    "hint": "È il fondo perequativo che ridistribuisce risorse tra Comuni più ricchi e Comuni svantaggiati.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_TRIB_LOC_094",
+    "question": "Qual è il limite di valore per l'assistenza tecnica obbligatoria (difensore abilitato) nel processo tributario (art. 12 D.Lgs. 546/1992)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Per controversie fino a 50.000 euro"
+      },
+      {
+        "id": "B",
+        "text": "È sempre obbligatorio l'avvocato cassazionista a prescindere dal valore"
+      },
+      {
+        "id": "C",
+        "text": "Non è mai richiesta alcuna difesa tecnica"
+      },
+      {
+        "id": "D",
+        "text": "Il contribuente può stare in giudizio personalmente senza difensore solo per controversie di valore sino a 3.000 euro"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'art. 12, comma 2, D.Lgs. 546/1992 consente alle parti di stare in giudizio personalmente solo per le liti di valore non superiore a 3.000 euro (somma del tributo senza sanzioni e interessi).",
+    "hint": "Sotto i 3.000 euro ci si può difendere da soli senza avvocato/commercialista.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_TRIB_LOC_095",
+    "question": "La sospensione giudiziale dell'atto impugnato nel processo tributario (tutela cautelare ex art. 47 D.Lgs. 546/1992) richiede la sussistenza di quali requisiti concorrenti?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fumus boni iuris (fondatezza apparente del ricorso) e periculum in mora (danno grave e irreparabile per il contribuente)"
+      },
+      {
+        "id": "B",
+        "text": "Solo il pagamento anticipato del 50% dell'importo"
+      },
+      {
+        "id": "C",
+        "text": "L'autorizzazione preventiva del Prefetto"
+      },
+      {
+        "id": "D",
+        "text": "La cittadinanza italiana e aver compiuto 65 anni"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La sospensione dell'atto richiede i classici presupposti cautelari: la probabile fondatezza dei motivi di ricorso (fumus boni iuris) e il rischio di subire un danno grave ed irreparabile (periculum in mora).",
+    "hint": "Fumus boni iuris e periculum in mora.",
+    "level": "base"
+  },
+  {
+    "id": "Q_TRIB_LOC_096",
+    "question": "Nel processo tributario, contro le sentenze della Corte di Giustizia Tributaria di secondo grado è ammesso:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il ricorso al Consiglio di Stato in sede giurisdizionale"
+      },
+      {
+        "id": "B",
+        "text": "Il ricorso per Cassazione per i motivi di cui all'art. 360 c.p.c. (violazione o falsa applicazione di norme di diritto, difetto di giurisdizione, ecc.)"
+      },
+      {
+        "id": "C",
+        "text": "Il reclamo al Presidente della Repubblica"
+      },
+      {
+        "id": "D",
+        "text": "Non è ammesso alcun mezzo di impugnazione ulteriore"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Contro le decisioni delle Corti di Giustizia Tributaria di secondo grado (regionali) il ricorso è ammesso unicamente dinanzi alla Corte di Cassazione Sezione Tributaria Civile ex art. 62 D.Lgs. 546/1992.",
+    "hint": "Si ricorre alla Corte di Cassazione Sezione Civile/Tributaria.",
+    "level": "base"
+  },
+  {
+    "id": "Q_TRIB_LOC_097",
+    "question": "Cos'è l'interpello del contribuente ai sensi dell'art. 11 della L. 212/2000 (Statuto del Contribuente)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'interrogatorio formale del contribuente in caserma"
+      },
+      {
+        "id": "B",
+        "text": "Una domanda di assunzione al Comune"
+      },
+      {
+        "id": "C",
+        "text": "L'istanza con cui il contribuente interpella preventivamente l'amministrazione sull'applicazione delle disposizioni tributarie a casi concreti e personali"
+      },
+      {
+        "id": "D",
+        "text": "Il ricorso straordinario al Capo dello Stato"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'interpello consente di ottenere chiarimenti preventivi e vincolanti sulla corretta interpretazione di norme tributarie oscure applicate al proprio caso specifico, vincolando l'ente.",
+    "hint": "Parere preventivo vincolante richiesto dal contribuente prima di compiere l'atto.",
+    "level": "base"
+  },
+  {
+    "id": "Q_TRIB_LOC_098",
+    "question": "Cosa accade se il Comune non risponde all'interpello del contribuente entro i termini di legge (ordinariamente 90 giorni)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il contribuente è sanzionato con la revoca di tutte le detrazioni"
+      },
+      {
+        "id": "B",
+        "text": "L'istanza decade e deve essere ripresentata"
+      },
+      {
+        "id": "C",
+        "text": "Il Sindaco viene sospeso dall'incarico"
+      },
+      {
+        "id": "D",
+        "text": "Si forma il silenzio assenso e la risposta si intende resa in conformità alla soluzione prospettata dal contribuente nell'istanza"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Il mancato riscontro dell'amministrazione nel termine di legge equivale a silenzio assenso (la PA accetta l'interpretazione proposta dal contribuente nell'istanza).",
+    "hint": "Vale la regola del silenzio assenso sulla soluzione proposta dal cittadino.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_TRIB_LOC_099",
+    "question": "In merito alle esenzioni IMU, a norma dell'art. 1, comma 759, della L. 160/2019, sono esenti:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Gli immobili posseduti dallo Stato e dagli enti territoriali destinati esclusivamente ai compiti istituzionali, nonché i fabbricati destinati all'esercizio del culto"
+      },
+      {
+        "id": "B",
+        "text": "Tutti i capannoni industriali delle multinazionali"
+      },
+      {
+        "id": "C",
+        "text": "I centri commerciali privati con superficie superiore a 10.000 mq"
+      },
+      {
+        "id": "D",
+        "text": "Gli appartamenti concessi in locazione a canone libero"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 1, comma 759, elenca le esenzioni: immobili dello Stato e degli enti locali adibiti a compiti istituzionali, fabbricati di culto, immobili di proprietà della Santa Sede, enti non commerciali destinati a welfare e istruzione.",
+    "hint": "Immobili pubblici destinati a compiti istituzionali e luoghi di culto.",
+    "level": "base"
+  },
+  {
+    "id": "Q_TRIB_LOC_100",
+    "question": "In caso di omessa presentazione della dichiarazione IMU o TARI da parte del contribuente, qual è la misura della sanzione amministrativa applicabile?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Una sanzione fissa di 10 euro"
+      },
+      {
+        "id": "B",
+        "text": "La sanzione amministrativa del 120% dell'imposta dovuta (ridotta al 100% o 120% dalla riforma fiscale), con un minimo edittale"
+      },
+      {
+        "id": "C",
+        "text": "La confisca della proprietà dell'immobile"
+      },
+      {
+        "id": "D",
+        "text": "L'esilio dal Comune di residenza"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'omessa dichiarazione comporta l'applicazione della sanzione proporzionale (dal 100% al 200% nel regime previgente, ridefinita dalla riforma sanzionatoria al 120%), con un minimo edittale di 50 euro.",
+    "hint": "Sanzione pesante proporzionale pari al 120% del tributo non dichiarato.",
+    "level": "intermedio"
   }
 ]

@@ -1298,5 +1298,1305 @@
     "explanation": "L'art. 139 Cost., norma di chiusura della Carta fondamentale, stabilisce in modo perentorio: 'La forma repubblicana non può essere oggetto di revisione costituzionale'.",
     "hint": "È l'unico limite esplicito testuale posto dal Costituente alla modifica della Costituzione.",
     "level": "base"
+  },
+  {
+    "id": "Q_PUB_COST_051",
+    "question": "A norma dell'art. 1 della Costituzione, la sovranità appartiene:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Al popolo, che la esercita nelle forme e nei limiti della Costituzione"
+      },
+      {
+        "id": "B",
+        "text": "Al Parlamento in via esclusiva ed assoluta"
+      },
+      {
+        "id": "C",
+        "text": "Al Presidente della Repubblica quale capo dello Stato"
+      },
+      {
+        "id": "D",
+        "text": "Ai partiti politici registrati nei pubblici elenchi"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 1, comma 2, Cost. stabilisce: 'La sovranità appartiene al popolo, che la esercita nelle forme e nei limiti della Costituzione'.",
+    "hint": "Appartiene al popolo, che la esercita nelle forme e nei limiti costituzionali.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PUB_COST_052",
+    "question": "Cosa sancisce l'art. 3, comma 2, della Costituzione (uguaglianza sostanziale)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tutti i cittadini hanno pari dignità sociale senza alcuna distinzione di sesso, razza o religione"
+      },
+      {
+        "id": "B",
+        "text": "È compito della Repubblica rimuovere gli ostacoli di ordine economico e sociale che limitano la libertà e l'uguaglianza dei cittadini"
+      },
+      {
+        "id": "C",
+        "text": "Lo Stato garantisce a tutti i residenti un reddito mensile fisso"
+      },
+      {
+        "id": "D",
+        "text": "Tutti i cittadini hanno diritto a essere eletti in Parlamento al compimento dei 18 anni"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 3, comma 2, esprime il principio dell'uguaglianza sostanziale e lo Stato sociale: la Repubblica interviene attivamente per rimuovere gli ostacoli che impediscono il pieno sviluppo della persona.",
+    "hint": "Riguarda la rimozione degli ostacoli di ordine economico e sociale.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PUB_COST_053",
+    "question": "Ai sensi dell'art. 13 della Costituzione, quali garanzie sono previste per la limitazione della libertà personale?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Solo la riserva di legge senza necessità di atto del giudice"
+      },
+      {
+        "id": "B",
+        "text": "La mera autorizzazione del Sindaco del luogo"
+      },
+      {
+        "id": "C",
+        "text": "Riserva di legge assoluta e riserva di giurisdizione (atto motivato dell'autorità giudiziaria)"
+      },
+      {
+        "id": "D",
+        "text": "Il parere favorevole del Questore di polizia"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'art. 13 Cost. prevede la doppia garanzia: riserva di legge assoluta (solo nei casi e modi previsti dalla legge) e riserva di giurisdizione (solo con atto motivato del giudice).",
+    "hint": "Doppia riserva: riserva assoluta di legge e atto motivato del giudice.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PUB_COST_054",
+    "question": "A norma dell'art. 21 della Costituzione, la stampa può essere soggetta ad autorizzazioni o censure?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sì, sempre da parte del Ministero della Cultura"
+      },
+      {
+        "id": "B",
+        "text": "Solo nei periodi elettorali per par condicio"
+      },
+      {
+        "id": "C",
+        "text": "Sì, su richiesta del Prefetto provinciale"
+      },
+      {
+        "id": "D",
+        "text": "No, non può essere soggetta ad autorizzazioni o censure preventive in nessun caso"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'art. 21, comma 2, Cost. stabilisce espressamente: 'La stampa non può essere soggetta ad autorizzazioni o censure'. Il sequestro è ammesso solo postumo e con atto motivato del giudice per delitti o violazione delle norme sulla trasparenza dei responsabili.",
+    "hint": "Divieto assoluto di censura o autorizzazioni preventive sulla stampa.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PUB_COST_055",
+    "question": "A seguito della legge costituzionale n. 1 del 2020, da quanti membri sono composte rispettivamente la Camera dei Deputati e il Senato della Repubblica?",
+    "options": [
+      {
+        "id": "A",
+        "text": "400 deputati e 200 senatori elettivi (oltre ai senatori a vita)"
+      },
+      {
+        "id": "B",
+        "text": "630 deputati e 315 senatori elettivi"
+      },
+      {
+        "id": "C",
+        "text": "500 deputati e 250 senatori"
+      },
+      {
+        "id": "D",
+        "text": "300 deputati e 100 senatori"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La riforma costituzionale del 2020 ha ridotto il numero dei parlamentari: 400 deputati alla Camera (art. 56) e 200 senatori elettivi al Senato (art. 57).",
+    "hint": "Riduzione parlamentari: 400 deputati e 200 senatori elettivi.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PUB_COST_056",
+    "question": "Quale durata ha ordinariamente la legislatura di ciascuna Camera (art. 60 Cost.)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Quattro anni rinnovabili per referendum"
+      },
+      {
+        "id": "B",
+        "text": "Cinque anni, e non può essere prorogata se non per legge e soltanto in caso di guerra"
+      },
+      {
+        "id": "C",
+        "text": "Sette anni equiparati al mandato del Presidente della Repubblica"
+      },
+      {
+        "id": "D",
+        "text": "Tre anni con scioglimento automatico"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 60 fissa a 5 anni la durata della legislatura per Camera e Senato (bicameralismo perfetto paritario). La proroga è ammessa solo con legge statale in stato di guerra deliberato dalle Camere.",
+    "hint": "Durata ordinaria di 5 anni; proroga possibile solo in caso di guerra.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PUB_COST_057",
+    "question": "In quali casi il Parlamento si riunisce in seduta comune dei membri delle due Camere?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Approvazione annuale del bilancio dello Stato e ratifica dei trattati"
+      },
+      {
+        "id": "B",
+        "text": "Discussione della legge finanziaria e decreti legge"
+      },
+      {
+        "id": "C",
+        "text": "Elezione e giuramento del Presidente della Repubblica, messa in stato d'accusa del Presidente per alto tradimento/attentato alla Costituzione, elezione di un terzo dei giudici della Consulta e di un terzo dei membri del CSM"
+      },
+      {
+        "id": "D",
+        "text": "Ogni volta che si vota la fiducia al Governo"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "I casi di convocazione del Parlamento in seduta comune sono tassativi in Costituzione: elezione/giuramento del Capo dello Stato, messa in stato d'accusa (art. 90), elezione di 5 giudici costituzionali e di un terzo dei componenti del CSM, oltre alla compilazione dell'elenco dei cittadini per i giudizi d'accusa.",
+    "hint": "Casi tassativi legati all'elezione/accusa del Presidente, giudici Consulta e membri laici CSM.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PUB_COST_058",
+    "question": "A norma dell'art. 68 della Costituzione, in cosa consiste l'insindacabilità dei parlamentari?",
+    "options": [
+      {
+        "id": "A",
+        "text": "I parlamentari non possono mai essere condannati per nessun reato comune"
+      },
+      {
+        "id": "B",
+        "text": "I parlamentari non pagano le imposte sul reddito"
+      },
+      {
+        "id": "C",
+        "text": "I parlamentari possono viaggiare gratuitamente all'estero per sempre"
+      },
+      {
+        "id": "D",
+        "text": "I membri del Parlamento non possono essere chiamati a rispondere delle opinioni espresse e dei voti dati nell'esercizio delle loro funzioni"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'art. 68, comma 1, Cost. garantisce l'insindacabilità per voti ed opinioni manifestate nell'esercizio delle funzioni parlamentari (immunità funzionale sostanziale che persiste anche dopo la fine del mandato).",
+    "hint": "Immunità sostanziale per le opinioni espresse e i voti dati nell'esercizio delle funzioni.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PUB_COST_059",
+    "question": "Ai sensi dell'art. 68, comma 2, della Costituzione, per sottoporre un parlamentare a perquisizione personale o domiciliare, ad arresto o ad intercettazione delle comunicazioni:",
+    "options": [
+      {
+        "id": "A",
+        "text": "È necessaria la previa autorizzazione della Camera alla quale appartiene, salvo in caso di esecuzione di sentenza irrevocabile di condanna o arresto obbligatorio in flagranza"
+      },
+      {
+        "id": "B",
+        "text": "È sufficiente il decreto del Pubblico Ministero senza comunicazioni"
+      },
+      {
+        "id": "C",
+        "text": "È sempre vietato in maniera assoluta senza alcuna eccezione"
+      },
+      {
+        "id": "D",
+        "text": "Serve l'autorizzazione preventiva del Consiglio Superiore della Magistratura"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 68, commi 2 e 3, richiede l'autorizzazione a procedere della Camera di appartenenza per atti limitativi della libertà personale (arresto, perquisizione, intercettazioni), tranne per sentenze definitive o flagranza di reato.",
+    "hint": "Autorizzazione della Camera di appartenenza, salvo sentenza definitiva o flagranza di reato.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PUB_COST_060",
+    "question": "Quale maggioranza è richiesta per l'elezione del Presidente della Repubblica (art. 83 Cost.)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Maggioranza semplice dei presenti in tutte le votazioni"
+      },
+      {
+        "id": "B",
+        "text": "Maggioranza di due terzi dell'assemblea nelle prime tre votazioni; dopo il terzo scrutinio è sufficiente la maggioranza assoluta dei componenti"
+      },
+      {
+        "id": "C",
+        "text": "Unanimità dei votanti in ogni scrutinio"
+      },
+      {
+        "id": "D",
+        "text": "I due terzi dell'assemblea in tutti gli scrutini senza riduzione"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 83, comma 3, Cost. prevede: 2/3 dei componenti per i primi tre scrutini; dalla quarta votazione è sufficiente la maggioranza assoluta (la metà più uno degli aventi diritto).",
+    "hint": "Due terzi nei primi tre scrutini, maggioranza assoluta dal quarto in poi.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PUB_COST_061",
+    "question": "Quale durata ha il mandato del Presidente della Repubblica (art. 85 Cost.)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cinque anni rinnovabili una sola volta"
+      },
+      {
+        "id": "B",
+        "text": "A vita salvo dimissioni volontarie"
+      },
+      {
+        "id": "C",
+        "text": "Sette anni dalla data del giuramento dinanzi al Parlamento in seduta comune"
+      },
+      {
+        "id": "D",
+        "text": "Quattro anni coincidente con la presidenza USA"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Il Presidente della Repubblica è eletto per sette anni (art. 85 Cost.). È rieleggibile ed assume le funzioni prestando giuramento di fedeltà alla Repubblica e di osservanza della Costituzione.",
+    "hint": "Il mandato presidenziale dura sette anni (settennato).",
+    "level": "base"
+  },
+  {
+    "id": "Q_PUB_COST_062",
+    "question": "A norma dell'art. 89 della Costituzione, nessun atto del Presidente della Repubblica è valido se:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Non è approvato con referendum popolare confermativo"
+      },
+      {
+        "id": "B",
+        "text": "Non è vistato dal Presidente della Corte Costituzionale"
+      },
+      {
+        "id": "C",
+        "text": "Non è tradotto in tre lingue ufficiali dell'UE"
+      },
+      {
+        "id": "D",
+        "text": "Non è controfirmato dai ministri proponenti (o competenti), che se ne assumono la responsabilità politica e giuridica"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'art. 89 Cost. sancisce l'istituto della controfirma ministeriale: rende l'atto presidenziale valido trasferendone la responsabilità politica e giuridica ai Ministri controfirmanti.",
+    "hint": "Istituto fondamentale della controfirma ministeriale.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PUB_COST_063",
+    "question": "Per quali reati il Presidente della Repubblica risponde penalmente nell'esercizio delle sue funzioni (art. 90 Cost.)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Esclusivamente per alto tradimento e attentato alla Costituzione, messo in stato d'accusa dal Parlamento in seduta comune e giudicato dalla Corte Costituzionale integrata"
+      },
+      {
+        "id": "B",
+        "text": "Per tutti i reati comuni davanti al giudice di pace"
+      },
+      {
+        "id": "C",
+        "text": "Solo per diffamazione a mezzo stampa"
+      },
+      {
+        "id": "D",
+        "text": "È totalmente immune e non risponde mai di nessun reato"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 90 Cost. prevede l'irresponsabilità per gli atti compiuti nell'esercizio delle funzioni, tranne che per alto tradimento o attentato alla Costituzione, giudicato dalla Consulta integrata da 16 cittadini aggregati.",
+    "hint": "Solo per alto tradimento e attentato alla Costituzione.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PUB_COST_064",
+    "question": "Entro quale termine il nuovo Governo deve presentarsi alle Camere per ottenere la fiducia dopo la sua nomina (art. 94 Cost.)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Entro trenta giorni lavorativi"
+      },
+      {
+        "id": "B",
+        "text": "Entro dieci giorni dalla sua formazione (decreto di nomina e giuramento)"
+      },
+      {
+        "id": "C",
+        "text": "Entro ventiquattro ore"
+      },
+      {
+        "id": "D",
+        "text": "Entro sei mesi dal primo Consiglio dei Ministri"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 94, comma 3, Cost. prescrive: 'Entro dieci giorni dalla sua formazione il Governo si presenta alle Camere per ottenerne la fiducia'.",
+    "hint": "Entro dieci giorni dalla formazione/giuramento.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PUB_COST_065",
+    "question": "A norma dell'art. 94 della Costituzione, la mozione di sfiducia al Governo:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Può essere votata a scrutinio segreto da un solo parlamentare"
+      },
+      {
+        "id": "B",
+        "text": "Comporta l'immediata chiusura di tutti i ministeri"
+      },
+      {
+        "id": "C",
+        "text": "Deve essere firmata da almeno un decimo dei componenti della Camera e non può essere messa in discussione prima di tre giorni dalla sua presentazione"
+      },
+      {
+        "id": "D",
+        "text": "Può essere presentata solo durante le festività natalizie"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'art. 94, comma 5, Cost. richiede che la mozione di sfiducia sia motivata, votata per appello nominale (voto palese), sottoscritta da almeno 1/10 dei componenti e discussa dopo almeno 3 giorni (pausa di riflessione).",
+    "hint": "Firmata da almeno 1/10 dei deputati o senatori e discussa non prima di 3 giorni.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PUB_COST_066",
+    "question": "Ai sensi dell'art. 76 della Costituzione, la delega legislativa al Governo:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Può avere durata perpetua senza limiti di materia"
+      },
+      {
+        "id": "B",
+        "text": "Può essere deliberata da una sola Camera senza il consenso dell'altra"
+      },
+      {
+        "id": "C",
+        "text": "Consente al Governo di modificare la forma repubblicana dello Stato"
+      },
+      {
+        "id": "D",
+        "text": "Può essere conferita solo con legge del Parlamento, per un tempo limitato, con determinazione di principi e criteri direttivi e soltanto per oggetti definiti"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'art. 76 Cost. impone limiti rigidi alla legge di delegazione: oggetto definito, tempo limitato (termine prefissato), principi e criteri direttivi vincolanti per il Governo nell'emanare il decreto legislativo delegato.",
+    "hint": "Richiede tempo limitato, oggetti definiti, principi e criteri direttivi prefissati dal Parlamento.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PUB_COST_067",
+    "question": "A norma dell'art. 77 della Costituzione, i decreti-legge adottati dal Governo:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Possono essere emanati in casi straordinari di necessità e d'urgenza e perdono efficacia sin dall'inizio se non sono convertiti in legge entro sessanta giorni dalla loro pubblicazione"
+      },
+      {
+        "id": "B",
+        "text": "Hanno durata a tempo indeterminato anche senza conversione"
+      },
+      {
+        "id": "C",
+        "text": "Possono essere approvati solo dal Senato a scrutinio segreto"
+      },
+      {
+        "id": "D",
+        "text": "Possono modificare le sentenze della Corte Costituzionale"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 77 Cost. disciplina i decreti-legge: provvedimenti provvisori con forza di legge per casi straordinari di necessità e urgenza. Se non convertiti in legge dal Parlamento entro 60 giorni decadono ex tunc.",
+    "hint": "Provvedimenti d'urgenza provvisori che decadono ex tunc se non convertiti entro 60 giorni.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PUB_COST_068",
+    "question": "Quale divieto costituzionale e giurisprudenziale vige sulla reiterazione dei decreti-legge (sentenza Corte Costituzionale n. 360/1996)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "I decreti possono essere reiterati fino a un massimo di 100 volte"
+      },
+      {
+        "id": "B",
+        "text": "È incostituzionale riprodurre in un nuovo decreto-legge il contenuto di un decreto non convertito senza nuovi presupposti straordinari di necessità e urgenza"
+      },
+      {
+        "id": "C",
+        "text": "La reiterazione è ammessa solo nei mesi estivi"
+      },
+      {
+        "id": "D",
+        "text": "I decreti decaduti si trasformano automaticamente in regolamenti"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La fondamentale sentenza 360/1996 ha dichiarato incostituzionale la prassi della catena di reiterazione dei decreti-legge decaduti, poiché elude il limite temporale dei 60 giorni e altera il bicameralismo.",
+    "hint": "Sentenza 360/1996: divieto assoluto di reiterazione dei decreti-legge non convertiti senza fatti nuovi.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PUB_COST_069",
+    "question": "Quale procedimento è previsto dall'art. 138 della Costituzione per le leggi di revisione costituzionale?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Una singola votazione a maggioranza semplice del Parlamento"
+      },
+      {
+        "id": "B",
+        "text": "Un decreto del Presidente della Repubblica senza passaggio parlamentare"
+      },
+      {
+        "id": "C",
+        "text": "Due successive deliberazioni da parte di ciascuna Camera a intervallo non minore di 3 mesi, con maggioranza assoluta nella seconda votazione (e possibile referendum se non approvate ai 2/3)"
+      },
+      {
+        "id": "D",
+        "text": "Una consultazione popolare informale online"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'art. 138 prevede il procedimento aggravato: due deliberazioni per ciascuna Camera ad almeno 3 mesi di distanza; se nella seconda votazione si raggiunge la maggioranza assoluta ma non i 2/3, può essere richiesto referendum confermativo.",
+    "hint": "Doppia deliberazione ad almeno 3 mesi di intervallo con maggioranza qualificata.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PUB_COST_070",
+    "question": "Quale limite assoluto e invalicabile alla revisione costituzionale è posto dall'art. 139 della Costituzione?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il numero delle Regioni italiane che deve restare pari a venti"
+      },
+      {
+        "id": "B",
+        "text": "L'aliquota massima dell'imposta sul valore aggiunto"
+      },
+      {
+        "id": "C",
+        "text": "La lingua italiana quale unica lingua ammessa nelle scuole"
+      },
+      {
+        "id": "D",
+        "text": "La forma repubblicana non può essere oggetto di revisione costituzionale"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'art. 139 Cost. sancisce il limite esplicito assoluto: 'La forma repubblicana non può essere oggetto di revisione costituzionale' (conseguenza del referendum istituzionale del 2 giugno 1946).",
+    "hint": "La forma repubblicana non può mai essere modificata o abolita per via di revisione costituzionale.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PUB_COST_071",
+    "question": "Da quanti giudici è composta ordinariamente la Corte Costituzionale (art. 135 Cost.)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "15 giudici nominati per un terzo dal Presidente della Repubblica, per un terzo dal Parlamento in seduta comune e per un terzo dalle supreme magistrature ordinaria e amministrative"
+      },
+      {
+        "id": "B",
+        "text": "12 giudici eletti dal popolo a suffragio universale diretto"
+      },
+      {
+        "id": "C",
+        "text": "9 giudici nominati a vita dal Ministro della Giustizia"
+      },
+      {
+        "id": "D",
+        "text": "25 giudici estratti a sorte tra gli avvocati cassazionisti"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La composizione della Consulta è trilaterale: 5 nominati dal Capo dello Stato, 5 eletti dal Parlamento in seduta comune, 5 eletti dai magistrati (3 Cassazione, 1 Consiglio di Stato, 1 Corte dei Conti).",
+    "hint": "15 giudici ripartiti in terzi: 5 Presidente Repubblica, 5 Parlamento, 5 supreme magistrature.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PUB_COST_072",
+    "question": "Qual è la durata del mandato dei giudici della Corte Costituzionale (art. 135, comma 3, Cost.)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A vita come i senatori"
+      },
+      {
+        "id": "B",
+        "text": "Nove anni a decorrere dal giuramento, senza possibilità di essere nuovamente nominati"
+      },
+      {
+        "id": "C",
+        "text": "Cinque anni rinnovabili una volta"
+      },
+      {
+        "id": "D",
+        "text": "Sette anni equiparati al Presidente della Repubblica"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "I giudici costituzionali durano in carica nove anni e il mandato non è prorogabile né rinnovabile in nessun caso, a tutela della massima indipendenza.",
+    "hint": "Nove anni e non possono essere nuovamente nominati.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PUB_COST_073",
+    "question": "A norma dell'art. 134 della Costituzione, su quali materie giudica la Corte Costituzionale?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cause di lavoro dei dipendenti pubblici e contratti commerciali"
+      },
+      {
+        "id": "B",
+        "text": "Reati di evasione fiscale e sanzioni del codice della strada"
+      },
+      {
+        "id": "C",
+        "text": "Controversie di legittimità costituzionale delle leggi e atti aventi forza di legge, conflitti di attribuzione tra poteri dello Stato e tra Stato e Regioni, accuse contro il Capo dello Stato e ammissibilità dei referendum abrogativi"
+      },
+      {
+        "id": "D",
+        "text": "Accordi tra privati su eredità e compravendite immobiliari"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Le quattro competenze tipiche della Consulta ex art. 134 Cost. e L. Cost. 1/1953 sono: legittimità costituzionale leggi/decreti, conflitti di attribuzione, reati presidenziali e ammissibilità dei referendum abrogativi.",
+    "hint": "Legittimità costituzionale delle leggi, conflitti di attribuzione, accuse al Presidente e ammissibilità referendum.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PUB_COST_074",
+    "question": "Nel giudizio di legittimità costituzionale in via incidentale, chi può sollevare la questione di costituzionalità?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Qualsiasi cittadino con esposto diretto inviato per raccomandata"
+      },
+      {
+        "id": "B",
+        "text": "Esclusivamente il Presidente del Senato"
+      },
+      {
+        "id": "C",
+        "text": "Solo il Difensore civico regionale"
+      },
+      {
+        "id": "D",
+        "text": "Un'autorità giudiziaria (giudice a quo) d'ufficio o su istanza di parte, nel corso di un giudizio pendente, verificandone rilevanza e non manifesta infondatezza"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'accesso in via incidentale presuppone un processo concreto davanti a un giudice (a quo), il quale sospende il processo se la questione è 'rilevante' per la decisione e 'non manifestamente infondata'.",
+    "hint": "Sollevata da un giudice nel corso di un giudizio pendente con filtro di rilevanza e non manifesta infondatezza.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PUB_COST_075",
+    "question": "Che efficacia hanno le sentenze di accoglimento della Corte Costituzionale (art. 136 Cost.)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dichiarano l'illegittimità costituzionale della norma, la quale cessa di avere efficacia erga omnes dal giorno successivo alla pubblicazione della sentenza"
+      },
+      {
+        "id": "B",
+        "text": "Hanno efficacia limitata alle sole parti del processo principale (inter partes)"
+      },
+      {
+        "id": "C",
+        "text": "Hanno mero valore consultivo e richiedono l'approvazione del Governo"
+      },
+      {
+        "id": "D",
+        "text": "Operano solo per il futuro lasciando intatti tutti i giudizi in corso"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La declaratoria di incostituzionalità produce effetti retroattivi erga omnes: la norma annullata non può più essere applicata da nessun giudice o PA, con il solo limite dei rapporti esauriti (salve condanne penali che cessano).",
+    "hint": "Annullamento con efficacia erga omnes dal giorno dopo la pubblicazione.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PUB_COST_076",
+    "question": "A norma dell'art. 75 della Costituzione, per quali materie è espressamente escluso il referendum abrogativo?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Leggi in materia di circolazione stradale e sicurezza sul lavoro"
+      },
+      {
+        "id": "B",
+        "text": "Leggi tributarie e di bilancio, di amnistia e di indulto, di autorizzazione a ratificare trattati internazionali"
+      },
+      {
+        "id": "C",
+        "text": "Leggi sull'ordinamento universitario e della scuola"
+      },
+      {
+        "id": "D",
+        "text": "Leggi in materia di parchi naturali e tutela dell'ambiente"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 75, comma 2, Cost. stabilisce i limiti di materia per il referendum abrogativo: leggi tributarie, bilancio, amnistia, indulto e ratifica trattati internazionali.",
+    "hint": "Escluse leggi tributarie, di bilancio, amnistia/indulto e ratifica trattati internazionali.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PUB_COST_077",
+    "question": "Qual è il quorum di validità (partecipazione) prescritto per il referendum abrogativo dall'art. 75, comma 4, Cost.?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il 25% degli elettori residenti"
+      },
+      {
+        "id": "B",
+        "text": "I due terzi degli elettori effettivi"
+      },
+      {
+        "id": "C",
+        "text": "La maggioranza degli aventi diritto al voto (50% + 1 degli elettori)"
+      },
+      {
+        "id": "D",
+        "text": "Non è previsto alcun quorum di partecipazione"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Affinché la proposta soggetta a referendum sia approvata, deve aver partecipato alla votazione la maggioranza degli aventi diritto e deve essere raggiunta la maggioranza dei voti validamente espressi.",
+    "hint": "Quorum strutturale: metà più uno degli aventi diritto al voto.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PUB_COST_078",
+    "question": "A norma dell'art. 104 della Costituzione, la magistratura costituisce:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un corpo amministrativo subordinato al Ministro della Giustizia"
+      },
+      {
+        "id": "B",
+        "text": "Un organo ausiliario del Parlamento"
+      },
+      {
+        "id": "C",
+        "text": "Un comitato consultivo del Governo"
+      },
+      {
+        "id": "D",
+        "text": "Un ordine autonomo e indipendente da ogni altro potere"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'art. 104, comma 1, Cost. proclama solennemente: 'La magistratura costituisce un ordine autonomo e indipendente da ogni altro potere'.",
+    "hint": "Ordine autonomo e indipendente da ogni altro potere.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PUB_COST_079",
+    "question": "Chi presiede il Consiglio Superiore della Magistratura (CSM) ai sensi dell'art. 104 Cost.?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il Presidente della Repubblica"
+      },
+      {
+        "id": "B",
+        "text": "Il Ministro della Giustizia"
+      },
+      {
+        "id": "C",
+        "text": "Il Primo Presidente della Corte di Cassazione"
+      },
+      {
+        "id": "D",
+        "text": "Il Procuratore Generale presso la Cassazione"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il Presidente della Repubblica presiede di diritto il CSM, garantendone l'equilibrio istituzionale e l'indipendenza costituzionale.",
+    "hint": "Presieduto dal Presidente della Repubblica.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PUB_COST_080",
+    "question": "Quali competenze spettano al Ministro della Giustizia nei confronti dei magistrati (artt. 107 e 110 Cost.)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il potere di trasferire o promuovere i giudici a sua discrezione"
+      },
+      {
+        "id": "B",
+        "text": "L'organizzazione e il funzionamento dei servizi relativi alla giustizia e la facoltà di promuovere l'azione disciplinare dinanzi al CSM"
+      },
+      {
+        "id": "C",
+        "text": "Il potere di riformare o annullare le sentenze dei tribunali"
+      },
+      {
+        "id": "D",
+        "text": "L'attribuzione degli stipendi in base alla simpatia politica"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Lo status dei magistrati (assunzioni, trasferimenti, promozioni e sanzioni) compete solo al CSM. Al Ministro spettano l'organizzazione materiale dei servizi e la titolarità dell'azione disciplinare.",
+    "hint": "Organizzazione materiale dei servizi e titolarità dell'azione disciplinare.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PUB_COST_081",
+    "question": "A norma dell'art. 117, comma 2, della Costituzione, la 'legislazione elettorale, organi di governo e funzioni fondamentali di Comuni, Province e Città metropolitane' è materia:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Di competenza legislativa concorrente tra Stato e Regioni"
+      },
+      {
+        "id": "B",
+        "text": "Di competenza legislativa residuale esclusiva delle Regioni"
+      },
+      {
+        "id": "C",
+        "text": "Di competenza legislativa esclusiva dello Stato"
+      },
+      {
+        "id": "D",
+        "text": "Di competenza regolamentare delle Prefetture"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'art. 117, comma 2, lett. p), Cost. riserva alla legislazione esclusiva statale la disciplina degli organi di governo e delle funzioni fondamentali degli enti locali (disciplinate dal TUEL).",
+    "hint": "Competenza legislativa esclusiva dello Stato (art. 117 comma 2 lett. p).",
+    "level": "base"
+  },
+  {
+    "id": "Q_PUB_COST_082",
+    "question": "In cosa consiste la competenza legislativa concorrente delle Regioni (art. 117, comma 3, Cost.)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Stato e Regioni scrivono la legge insieme a giorni alterni"
+      },
+      {
+        "id": "B",
+        "text": "La legge regionale prevale sempre sulla legge statale"
+      },
+      {
+        "id": "C",
+        "text": "La competenza spetta solo alle Regioni a statuto speciale"
+      },
+      {
+        "id": "D",
+        "text": "Nelle materie indicate spetta alle Regioni la potestà legislativa, salvo che per la determinazione dei principi fondamentali riservata alla legislazione dello Stato"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Nella legislazione concorrente lo Stato fissa i principi fondamentali (leggi cornice/quadro), mentre la Regione detta la disciplina di dettaglio e attuativa.",
+    "hint": "Principi fondamentali allo Stato (leggi quadro), disciplina di dettaglio alle Regioni.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PUB_COST_083",
+    "question": "Quale principio stabilisce l'art. 118, comma 1, della Costituzione per l'attribuzione delle funzioni amministrative?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il principio di sussidiarietà verticale: le funzioni amministrative sono attribuite ai Comuni salvo che, per assicurarne l'esercizio unitario, siano conferite a Province, Città metropolitane, Regioni e Stato"
+      },
+      {
+        "id": "B",
+        "text": "Tutte le funzioni amministrative spettano inderogabilmente ai Ministeri"
+      },
+      {
+        "id": "C",
+        "text": "Le funzioni sono sorteggiate annualmente tra gli enti"
+      },
+      {
+        "id": "D",
+        "text": "Le funzioni amministrative possono essere svolte solo da aziende private"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 118 pone il principio di sussidiarietà verticale privilegiando il Comune quale ente più prossimo al cittadino, temperato dai principi di differenziazione e adeguatezza.",
+    "hint": "Sussidiarietà verticale a favore del Comune, integrata da differenziazione e adeguatezza.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PUB_COST_084",
+    "question": "Cos'è la sussidiarietà orizzontale disciplinata dall'art. 118, ultimo comma, della Costituzione?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il passaggio di fondi da un Comune confinante all'altro"
+      },
+      {
+        "id": "B",
+        "text": "L'obbligo per Stato, Regioni ed enti locali di favorire l'autonoma iniziativa dei cittadini, singoli e associati, per lo svolgimento di attività di interesse generale"
+      },
+      {
+        "id": "C",
+        "text": "L'appalto di tutti i servizi sociali all'estero"
+      },
+      {
+        "id": "D",
+        "text": "L'aiuto finanziario reciproco tra partiti politici"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La sussidiarietà orizzontale valorizza la società civile, il volontariato e il Terzo Settore: le istituzioni pubbliche devono favorire e sostenere l'iniziativa autonoma dei cittadini per l'interesse generale.",
+    "hint": "Favorire l'autonoma iniziativa dei cittadini per attività di interesse generale.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PUB_COST_085",
+    "question": "Quale organo costituzionale ausiliario ha funzioni di consulenza giuridico-amministrativa e di tutela della giustizia nell'amministrazione (art. 100 Cost.)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il CNEL"
+      },
+      {
+        "id": "B",
+        "text": "L'Avvocatura Generale dello Stato"
+      },
+      {
+        "id": "C",
+        "text": "Il Consiglio di Stato"
+      },
+      {
+        "id": "D",
+        "text": "L'Autorità Garante per la Privacy"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'art. 100, comma 1, Cost. definisce il Consiglio di Stato come 'organo di consulenza giuridico-amministrativa e di tutela della giustizia nell'amministrazione' (vertice della giustizia amministrativa).",
+    "hint": "È il Consiglio di Stato con la sua doppia funzione consultiva e giurisdizionale.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PUB_COST_086",
+    "question": "Che cos'è il CNEL (Consiglio Nazionale dell'Economia e del Lavoro) ai sensi dell'art. 99 della Costituzione?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il tribunale speciale per i conflitti sindacali"
+      },
+      {
+        "id": "B",
+        "text": "L'ente preposto al pagamento delle pensioni di vecchiaia"
+      },
+      {
+        "id": "C",
+        "text": "Un istituto bancario pubblico di credito agevolato"
+      },
+      {
+        "id": "D",
+        "text": "Un organo di consulenza delle Camere e del Governo per le materie dell'economia e del lavoro, dotato anche di iniziativa legislativa"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'art. 99 Cost. struttura il CNEL come organo ausiliario composto di esperti e rappresentanti delle categorie produttive: rende pareri e può promuovere disegni di legge alle Camere.",
+    "hint": "Organo consultivo economico e del lavoro con iniziativa legislativa.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PUB_COST_087",
+    "question": "A norma dell'art. 81 della Costituzione novellato dalla L. Cost. 1/2012, lo Stato assicura:",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'equilibrio tra le entrate e le spese del proprio bilancio, tenendo conto delle fasi avverse e delle fasi favorevoli del ciclo economico"
+      },
+      {
+        "id": "B",
+        "text": "La totale assenza di disavanzo pubblico in qualunque circostanza straordinaria"
+      },
+      {
+        "id": "C",
+        "text": "La parità aurea della moneta circolante"
+      },
+      {
+        "id": "D",
+        "text": "La spesa illimitata senza copertura finanziaria"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 81 Cost. ha recepito il c.d. principio del pareggio/equilibrio di bilancio derivante dagli accordi europei (Fiscal Compact), ammettendo l'indebitamento solo in caso di ciclo sfavorevole o eventi straordinari autorizzati a maggioranza assoluta.",
+    "hint": "Equilibrio di bilancio e sostenibilità del debito pubblico.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PUB_COST_088",
+    "question": "Cosa dispone l'art. 97 della Costituzione in merito all'organizzazione dei pubblici uffici?",
+    "options": [
+      {
+        "id": "A",
+        "text": "I dirigenti pubblici sono nominati per grazia ricevuta dal Sindaco"
+      },
+      {
+        "id": "B",
+        "text": "I pubblici uffici sono organizzati secondo disposizioni di legge, in modo che siano assicurati il buon andamento e l'imparzialità dell'amministrazione"
+      },
+      {
+        "id": "C",
+        "text": "Gli uffici pubblici operano solo nei giorni feriali al mattino"
+      },
+      {
+        "id": "D",
+        "text": "È vietata qualsiasi forma di concorso pubblico per l'accesso"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 97 Cost. pone i capisaldi del diritto amministrativo: riserva di legge, principio di buon andamento (efficacia/efficienza) e principio di imparzialità (trasparenza e non discriminazione).",
+    "hint": "Principi supremi di buon andamento e imparzialità dell'amministrazione.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PUB_COST_089",
+    "question": "Quale regola generale sancisce l'art. 97, comma 4, della Costituzione per l'accesso agli impieghi nelle pubbliche amministrazioni?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Si accede per chiamata nominativa fiduciaria del partito di maggioranza"
+      },
+      {
+        "id": "B",
+        "text": "Si accede unicamente per discendenza familiare"
+      },
+      {
+        "id": "C",
+        "text": "Agli impieghi nelle pubbliche amministrazioni si accede mediante concorso, salvo i casi stabiliti dalla legge"
+      },
+      {
+        "id": "D",
+        "text": "L'assunzione avviene a seguito di asta pubblica al miglior offerente"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Il pubblico concorso è la regola costituzionale generale per garantire il merito, la competenza professionale e l'imparzialità nell'accesso al lavoro pubblico.",
+    "hint": "Regola generale dell'accesso agli impieghi nella PA mediante pubblico concorso.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PUB_COST_090",
+    "question": "A norma dell'art. 28 della Costituzione, i funzionari e i dipendenti dello Stato e degli enti pubblici sono direttamente responsabili:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Solo penalmente ma mai civilmente per i danni arrecati"
+      },
+      {
+        "id": "B",
+        "text": "Non sono mai responsabili di nulla poiché risponde solo il Ministro"
+      },
+      {
+        "id": "C",
+        "text": "Rispondono solo dinanzi ai tribunali militari"
+      },
+      {
+        "id": "D",
+        "text": "Secondo le leggi penali, civili e amministrative, degli atti compiuti in violazione di diritti; in tali casi la responsabilità civile si estende allo Stato e agli enti pubblici"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'art. 28 Cost. stabilisce la responsabilità diretta del funzionario per atti lesivi di diritti e la responsabilità solidale/vicaria della PA per il risarcimento del danno civile.",
+    "hint": "Responsabilità diretta del funzionario e responsabilità civile solidale della PA.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PUB_COST_091",
+    "question": "Quale organo della Regione esercita la potestà legislativa regionale ai sensi dell'art. 121 della Costituzione?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il Consiglio Regionale"
+      },
+      {
+        "id": "B",
+        "text": "La Giunta Regionale"
+      },
+      {
+        "id": "C",
+        "text": "Il Presidente della Regione da solo"
+      },
+      {
+        "id": "D",
+        "text": "Il Prefetto del capoluogo"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 121, comma 2, Cost. dispone: 'Il Consiglio regionale esercita le potestà legislative attribuite alla Regione e le altre funzioni conferitegli dalla Costituzione e dalle leggi'.",
+    "hint": "La potestà legislativa spetta al Consiglio Regionale.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PUB_COST_092",
+    "question": "Come viene eletto il Presidente della Giunta Regionale ai sensi dell'art. 122 della Costituzione, salvo che lo statuto regionale disponga diversamente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Con decreto del Presidente della Repubblica"
+      },
+      {
+        "id": "B",
+        "text": "A suffragio universale e diretto contestualmente all'elezione del Consiglio regionale"
+      },
+      {
+        "id": "C",
+        "text": "Dal Parlamento in seduta comune"
+      },
+      {
+        "id": "D",
+        "text": "Per estrazione a sorte tra i sindaci dei capoluoghi"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 122, comma 5, Cost. prevede l'elezione diretta a suffragio universale del Presidente della Giunta (modello neo-parlamentare con clausola 'aut simul stabunt aut simul cadent').",
+    "hint": "Elezione diretta a suffragio universale da parte dei cittadini della Regione.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PUB_COST_093",
+    "question": "In forza del principio 'simul stabunt, simul cadent' di cui all'art. 126 Cost., cosa comporta l'approvazione della mozione di sfiducia nei confronti del Presidente della Regione eletto a suffragio universale?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il subentro automatico del vicepresidente fino a fine legislatura"
+      },
+      {
+        "id": "B",
+        "text": "Il commissariamento del Consiglio mantenendo in carica il Presidente"
+      },
+      {
+        "id": "C",
+        "text": "Le dimissioni contestuali della Giunta e lo scioglimento anticipato del Consiglio regionale"
+      },
+      {
+        "id": "D",
+        "text": "La nomina del Prefetto a governatore provvisorio"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Se cade il Presidente eletto direttamente dai cittadini per sfiducia, dimissioni volontarie o morte, si scioglie automaticamente anche il Consiglio e si torna al voto anticipato.",
+    "hint": "La caduta del Presidente eletto direttamente trascina lo scioglimento del Consiglio regionale.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PUB_COST_094",
+    "question": "Chi è il rappresentante dello Stato per i rapporti con le autonomie nella Regione ai sensi dell'art. 10 della L. 131/2003?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il Presidente del Consiglio Regionale"
+      },
+      {
+        "id": "B",
+        "text": "Il Comandante della Legione Carabinieri"
+      },
+      {
+        "id": "C",
+        "text": "Il Sindaco della città capoluogo"
+      },
+      {
+        "id": "D",
+        "text": "Il Prefetto avente sede nel capoluogo di Regione"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "La Legge La Loggia (L. 131/2003) individua nel Prefetto del capoluogo regionale il Rappresentante dello Stato per i rapporti con il sistema delle autonomie territoriali.",
+    "hint": "È il Prefetto del capoluogo di Regione.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PUB_COST_095",
+    "question": "Cosa sono i Lep (Livelli Essenziali delle Prestazioni) di cui all'art. 117, comma 2, lett. m), della Costituzione?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Gli standard minimi di servizi civili e sociali che devono essere garantiti in modo uniforme a tutti i cittadini sull'intero territorio nazionale a tutela dell'uguaglianza"
+      },
+      {
+        "id": "B",
+        "text": "I limiti di velocità sulle strade urbane"
+      },
+      {
+        "id": "C",
+        "text": "I prezzi massimi dei farmaci da banco"
+      },
+      {
+        "id": "D",
+        "text": "Le tariffe per la concessione di suolo pubblico"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La determinazione dei LEP compete in via esclusiva allo Stato (art. 117 co. 2 lett. m) ed è il presupposto indefettibile per garantire diritti civili e sociali uguali da Nord a Sud prima di ogni autonomia differenziata.",
+    "hint": "Standard minimi uniformi di diritti civili e sociali garantiti su tutto il territorio nazionale.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PUB_COST_096",
+    "question": "A norma dell'art. 116, comma 3, della Costituzione, cosa si intende per 'Autonomia Differenziata'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La facoltà di dichiarare l'indipendenza dallo Stato italiano"
+      },
+      {
+        "id": "B",
+        "text": "La possibilità per le Regioni a statuto ordinario di ottenere ulteriori forme e condizioni particolari di autonomia in specifiche materie con legge approvata a maggioranza assoluta"
+      },
+      {
+        "id": "C",
+        "text": "L'abolizione delle leggi statali all'interno della Regione"
+      },
+      {
+        "id": "D",
+        "text": "La creazione di una moneta regionale alternativa"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 116, comma 3, Cost. consente il regionalismo differenziato su iniziativa della Regione interessata, previa intesa con lo Stato e approvazione parlamentare a maggioranza assoluta.",
+    "hint": "Attribuzione di maggiori competenze legislative e amministrative alle Regioni ordinarie che ne fanno richiesta.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PUB_COST_097",
+    "question": "Quale valore ha la riserva di legge 'relativa' nel diritto costituzionale italiano?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La materia può essere disciplinata solo da regolamenti governativi"
+      },
+      {
+        "id": "B",
+        "text": "La legge può disciplinare la materia solo per i parenti stretti"
+      },
+      {
+        "id": "C",
+        "text": "La legge deve fissare i principi e le linee guida della materia, lasciando alle fonti secondarie la disciplina di dettaglio e attuativa"
+      },
+      {
+        "id": "D",
+        "text": "La materia è sottratta a qualsiasi atto normativo"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Nella riserva relativa (es. art. 23 e art. 97 Cost.) la legge fissa i criteri direttivi e i limiti del potere, consentendo al regolamento amministrativo di intervenire per la disciplina di dettaglio.",
+    "hint": "La legge fissa principi e limiti generali, il regolamento detta il dettaglio.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PUB_COST_098",
+    "question": "A norma dell'art. 11 della Costituzione, l'Italia consente, in condizioni di parità con gli altri Stati:",
+    "options": [
+      {
+        "id": "A",
+        "text": "All'annessione militare dei territori limitrofi"
+      },
+      {
+        "id": "B",
+        "text": "Alla soppressione dell'esercito nazionale"
+      },
+      {
+        "id": "C",
+        "text": "All'adozione di tributi decisi da governi stranieri"
+      },
+      {
+        "id": "D",
+        "text": "Alle limitazioni di sovranità necessarie ad un ordinamento che assicuri la pace e la giustizia fra le Nazioni, e promuove e favorisce le organizzazioni internazionali rivolte a tale scopo"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'art. 11 Cost. ripudia la guerra come strumento di offesa e costituisce la copertura costituzionale per l'adesione dell'Italia all'ONU e al processo di integrazione comunitaria europea.",
+    "hint": "Consente le limitazioni di sovranità per la pace e la giustizia internazionale (base per l'UE).",
+    "level": "base"
+  },
+  {
+    "id": "Q_PUB_COST_099",
+    "question": "Qual è il rapporto gerarchico tra le norme costituzionali e la legge ordinaria del Parlamento?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La Costituzione è rigida e sovraordinata alla legge ordinaria; la legge ordinaria contraria alla Costituzione è invalida e suscettibile di annullamento da parte della Consulta"
+      },
+      {
+        "id": "B",
+        "text": "La legge ordinaria prevale sempre in virtù del principio cronologico"
+      },
+      {
+        "id": "C",
+        "text": "Hanno lo stesso identico rango e possono derogarsi reciprocamente"
+      },
+      {
+        "id": "D",
+        "text": "La legge ordinaria prevale se approvata a maggioranza semplice"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La Costituzione repubblicana è rigida: le sue norme prevalgono sulle leggi ordinarie, le quali se difformi vengono dichiarate incostituzionali dalla Corte Costituzionale.",
+    "hint": "Rigidità costituzionale e primato della Costituzione sulla legge ordinaria.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PUB_COST_100",
+    "question": "Cosa si intende per 'Interpretazione Costituzionalmente Conforme' da parte dei giudici e funzionari pubblici?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La facoltà di disapplicare qualsiasi legge non gradita"
+      },
+      {
+        "id": "B",
+        "text": "Il dovere di interpretare e applicare la legge ordinaria attribuendole il significato compatibile con i principi della Costituzione, sollevando la questione alla Consulta solo se insanabile"
+      },
+      {
+        "id": "C",
+        "text": "L'obbligo di chiedere sempre un parere preventivo al Consiglio dei Ministri"
+      },
+      {
+        "id": "D",
+        "text": "La riscrittura del testo di legge ad opera del funzionario"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "I giudici e gli interpreti hanno l'obbligo preliminare di ricercare l'interpretazione conforme a Costituzione tra i possibili significati della disposizione prima di adire la Consulta.",
+    "hint": "Obbligo di privilegiare il significato normativo che rende la legge compatibile con la Costituzione.",
+    "level": "intermedio"
   }
 ]

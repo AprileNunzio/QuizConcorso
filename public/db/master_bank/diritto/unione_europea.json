@@ -1298,5 +1298,1305 @@
     "explanation": "L'art. 4, par. 3, TUE sancisce il principio di leale cooperazione: gli Stati membri adottano ogni misura di carattere generale o particolare idonea ad assicurare l'adempimento degli obblighi derivanti dai trattati e facilitano all'Unione l'adempimento dei suoi compiti, astenendosi da misure pregiudizievoli.",
     "hint": "Assistenza reciproca e divieto di comportamenti contrari agli scopi dell'Unione.",
     "level": "base"
+  },
+  {
+    "id": "Q_DIR_UE_051",
+    "question": "Quale principio fondamentale governa l'efficacia del diritto dell'Unione Europea rispetto al diritto nazionale contrastante (sentenza Costa c. ENEL, 1964)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il principio del primato del diritto dell'Unione Europea, che prevale sulle norme interne incompatibili anche successive"
+      },
+      {
+        "id": "B",
+        "text": "Il principio della prevalenza assoluta della legge ordinaria nazionale"
+      },
+      {
+        "id": "C",
+        "text": "Il principio di reciprocità economica bilaterale"
+      },
+      {
+        "id": "D",
+        "text": "Il principio cronologico secondo cui la norma più recente abroga la precedente"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il primato del diritto UE (sentenza Costa c. ENEL e dichiarazione n. 17 allegata al Trattato di Lisbona) impone a tutti gli organi nazionali di disapplicare le norme interne in contrasto con norme UE direttamente efficaci.",
+    "hint": "Il diritto europeo prevale sulle norme nazionali contrastanti (principio del primato).",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_UE_052",
+    "question": "A norma dell'art. 288 del Trattato sul Funzionamento dell'Unione Europea (TFUE), il Regolamento UE:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Vincola solo gli Stati membri per il risultato da raggiungere, lasciando libertà sui mezzi"
+      },
+      {
+        "id": "B",
+        "text": "Ha portata generale, è obbligatorio in tutti i suoi elementi e direttamente applicabile in ciascuno degli Stati membri senza necessità di atti di recepimento"
+      },
+      {
+        "id": "C",
+        "text": "Ha mero valore di raccomandazione morale non vincolante"
+      },
+      {
+        "id": "D",
+        "text": "Si applica solo alle imprese a partecipazione pubblica"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 288 TFUE definisce il Regolamento: portata generale, obbligatorietà integrale e diretta applicabilità (entra in vigore direttamente nell'ordinamento degli Stati membri).",
+    "hint": "Portata generale, obbligatorio in tutti i suoi elementi e direttamente applicabile.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_UE_053",
+    "question": "Qual è la caratteristica peculiare della Direttiva europea ai sensi dell'art. 288 del TFUE?",
+    "options": [
+      {
+        "id": "A",
+        "text": "È direttamente applicabile ai singoli cittadini dal giorno della pubblicazione in GUUE"
+      },
+      {
+        "id": "B",
+        "text": "Non è mai vincolante per gli Stati destinatari"
+      },
+      {
+        "id": "C",
+        "text": "Vincola lo Stato membro cui è rivolta per quanto riguarda il risultato da raggiungere, salva restando la competenza degli organi nazionali in merito alla forma e ai mezzi"
+      },
+      {
+        "id": "D",
+        "text": "Può essere adottata unicamente dal Presidente della BCE"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "La direttiva è un atto di normazione a due fasi: fissa l'obiettivo vincolante lasciando allo Stato un termine (ordinariamente due anni) per recepirla con legge o regolamento interno.",
+    "hint": "Obbligatoria nel risultato da raggiungere, rimette allo Stato la scelta di forme e mezzi.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_UE_054",
+    "question": "Cosa si intende per 'Direttiva self-executing' (auto-applicativa)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Una direttiva che ordina l'immediata esecuzione di un'opera pubblica"
+      },
+      {
+        "id": "B",
+        "text": "Un atto normativo che si applica solo all'interno del Parlamento europeo"
+      },
+      {
+        "id": "C",
+        "text": "Una circolare interna della Commissione Europea"
+      },
+      {
+        "id": "D",
+        "text": "Una direttiva inattuata dopo la scadenza del termine di recepimento che, contenendo disposizioni chiare, precise e incondizionate, produce effetti diretti verticali tra cittadino e Stato"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "La CGUE (sentenze Van Duyn, Ratti) ha riconosciuto che le norme di una direttiva sufficientemente precise e incondizionate possono essere invocate dal singolo contro lo Stato inadempiente (effetto diretto verticale).",
+    "hint": "Direttiva inattuata ma chiara e incondizionata che ha efficacia diretta verso la PA.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_UE_055",
+    "question": "Quale strumento normativo nazionale è stato introdotto dalla Legge 234/2012 per garantire l'adeguamento costante dell'ordinamento italiano al diritto dell'UE?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Lo sdoppiamento annuale in 'Legge di delegazione europea' e 'Legge europea'"
+      },
+      {
+        "id": "B",
+        "text": "L'adozione di un decreto-legge al mese"
+      },
+      {
+        "id": "C",
+        "text": "Un referendum popolare semestrale sulle direttive"
+      },
+      {
+        "id": "D",
+        "text": "L'approvazione del bilancio consolidato delle Regioni"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La L. 234/2012 ha sostituito la vecchia Legge Comunitaria istituendo due distinti disegni di legge annuali: la Legge di delegazione europea (per deleghe al Governo) e la Legge europea (per modifiche legislative dirette).",
+    "hint": "Legge di delegazione europea e Legge europea annuali ex L. 234/2012.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_UE_056",
+    "question": "Da chi è composto il 'Consiglio Europeo' (art. 15 TUE)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Da tutti i parlamentari europei eletti a suffragio universale"
+      },
+      {
+        "id": "B",
+        "text": "Dai Capi di Stato o di Governo degli Stati membri, dal suo Presidente e dal Presidente della Commissione (con la partecipazione dell'Alto Rappresentante)"
+      },
+      {
+        "id": "C",
+        "text": "Dai ministri dell'economia di ciascun Paese"
+      },
+      {
+        "id": "D",
+        "text": "Dai sindaci delle capitali europee"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il Consiglio Europeo definisce gli orientamenti e le priorità politiche generali dell'UE: riunisce i Capi di Stato o di Governo dei 27 Paesi membri, il Presidente permanente e il Presidente della Commissione.",
+    "hint": "Capi di Stato o di Governo, Presidente del Consiglio Europeo e Presidente della Commissione.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_UE_057",
+    "question": "Quale organo dell'UE esercita la funzione legislativa congiuntamente al Parlamento Europeo?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La Corte di Giustizia"
+      },
+      {
+        "id": "B",
+        "text": "La Banca Centrale Europea"
+      },
+      {
+        "id": "C",
+        "text": "Il Consiglio dell'Unione Europea (Consiglio dei Ministri dell'UE)"
+      },
+      {
+        "id": "D",
+        "text": "Il Comitato Economico e Sociale"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Nel triangolo istituzionale europeo, il Consiglio dell'Unione Europea (formato dai ministri competenti per materia di ciascuno Stato) e il Parlamento Europeo costituiscono i due rami del potere legislativo (procedura legislativa ordinaria).",
+    "hint": "Il Consiglio dell'Unione Europea (Consiglio dei Ministri degli Stati membri).",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_UE_058",
+    "question": "Quale ruolo istituzionale ha la Commissione Europea ai sensi dell'art. 17 del TUE?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Emette sentenze penali irrevocabili contro i cittadini europei"
+      },
+      {
+        "id": "B",
+        "text": "Fissa le tasse sui rifiuti per tutti i Comuni europei"
+      },
+      {
+        "id": "C",
+        "text": "Svolge solo compiti di rappresentanza cerimoniale"
+      },
+      {
+        "id": "D",
+        "text": "Promuove l'interesse generale dell'UE, detiene il monopolio quasi esclusivo dell'iniziativa legislativa, vigila sull'applicazione dei Trattati ('custode dei Trattati') ed esegue il bilancio"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "La Commissione Europea è il braccio esecutivo sovranazionale dell'UE: propone le leggi al Parlamento e Consiglio, ne vigila la corretta attuazione e gestisce i programmi finanziari europei.",
+    "hint": "Monopolio dell'iniziativa legislativa, custode dei Trattati e gestione del bilancio UE.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_UE_059",
+    "question": "Come vengono eletti i membri del Parlamento Europeo?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A suffragio universale e diretto dai cittadini dell'UE ogni 5 anni"
+      },
+      {
+        "id": "B",
+        "text": "Nominati fiduciariamente dai Governi nazionali"
+      },
+      {
+        "id": "C",
+        "text": "Estratti a sorte tra i dipendenti pubblici europei"
+      },
+      {
+        "id": "D",
+        "text": "Eletti dai consigli comunali delle capitali"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il Parlamento Europeo è l'unica istituzione sovranazionale dell'UE eletta direttamente a suffragio universale e diretto dai cittadini degli Stati membri ogni cinque anni.",
+    "hint": "Elezione diretta a suffragio universale dai cittadini europei ogni 5 anni.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_UE_060",
+    "question": "Cos'è il 'Rinvio Pregiudiziale' dinanzi alla Corte di Giustizia dell'Unione Europea (art. 267 TFUE)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il ricorso d'urgenza dei cittadini contro il pagamento dell'IMU"
+      },
+      {
+        "id": "B",
+        "text": "Lo strumento che consente o obbliga un giudice nazionale a interpellare la CGUE sull'interpretazione dei Trattati o sulla validità degli atti delle istituzioni comunitarie"
+      },
+      {
+        "id": "C",
+        "text": "Una sanzione penale applicata dal Consiglio di Sicurezza dell'ONU"
+      },
+      {
+        "id": "D",
+        "text": "La sospensione del processo per assenza del difensore"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il rinvio pregiudiziale (art. 267 TFUE) assicura l'interpretazione uniforme del diritto dell'Unione in tutti i 27 Paesi membri: il giudice nazionale sospende la causa e rimette la questione interpretativa alla CGUE.",
+    "hint": "Meccanismo fondamentale con cui i giudici nazionali chiedono alla CGUE l'interpretazione del diritto UE.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_UE_061",
+    "question": "Quale differenza sussiste tra la Corte di Giustizia dell'Unione Europea (CGUE con sede a Lussemburgo) e la Corte Europea dei Diritti dell'Uomo (CEDU con sede a Strasburgo)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nessuna differenza, sono la stessa identica corte di giustizia"
+      },
+      {
+        "id": "B",
+        "text": "La CGUE giudica solo sulle questioni agrarie, la CEDU sul commercio"
+      },
+      {
+        "id": "C",
+        "text": "La CGUE è un'istituzione dell'Unione Europea (27 Stati); la CEDU è un tribunale internazionale del Consiglio d'Europa (46 Stati) competente sul rispetto della Convenzione EDU"
+      },
+      {
+        "id": "D",
+        "text": "La CEDU ha sede a Roma, la CGUE a Berlino"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Errore frequente nei concorsi: la CGUE (Lussemburgo) è l'organo giudiziario dell'Unione Europea; la Corte EDU (Strasburgo) fa capo al Consiglio d'Europa (organismo estraneo all'UE) e giudica sui diritti umani.",
+    "hint": "CGUE = Unione Europea (Lussemburgo); Corte EDU = Consiglio d'Europa (Strasburgo).",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_UE_062",
+    "question": "Quali sono le quattro libertà fondamentali del mercato interno dell'Unione Europea (art. 26 TFUE)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Libertà di stampa, di religione, di associazione e di voto"
+      },
+      {
+        "id": "B",
+        "text": "Libertà di sciopero, di navigazione, di caccia e di pesca"
+      },
+      {
+        "id": "C",
+        "text": "Libertà di contrattazione, di domicilio, di difesa e di istruzione"
+      },
+      {
+        "id": "D",
+        "text": "Libera circolazione delle merci, delle persone (lavoratori), dei servizi e dei capitali"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'art. 26, comma 2, TFUE definisce il mercato interno come uno spazio senza frontiere interne nel quale è assicurata la libera circolazione delle merci, delle persone, dei servizi e dei capitali.",
+    "hint": "Le 4 libertà economiche fondamentali: merci, persone, servizi e capitali.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_UE_063",
+    "question": "A norma dell'art. 5 del Trattato sull'Unione Europea (TUE), la delimitazione delle competenze dell'Unione si fonda sul:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Principio di attribuzione, secondo cui l'Unione agisce esclusivamente nei limiti delle competenze che le sono attribuite dagli Stati membri nei Trattati"
+      },
+      {
+        "id": "B",
+        "text": "Principio di potestà assoluta e illimitata dell'UE su ogni materia"
+      },
+      {
+        "id": "C",
+        "text": "Principio di discrezionalità del Parlamento Europeo"
+      },
+      {
+        "id": "D",
+        "text": "Principio di maggioranza semplice delle Regioni"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il principio di attribuzione stabilisce che qualsiasi competenza non attribuita espressamente all'Unione nei Trattati appartiene agli Stati membri (art. 5, comma 2, TUE).",
+    "hint": "Principio di attribuzione: l'UE ha solo le competenze espressamente conferite nei Trattati.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_UE_064",
+    "question": "In forza del principio di sussidiarietà nei settori che non sono di sua competenza esclusiva (art. 5, par. 3, TUE), l'Unione Europea interviene:",
+    "options": [
+      {
+        "id": "A",
+        "text": "In ogni caso e ad ogni costo annullando le decisioni locali"
+      },
+      {
+        "id": "B",
+        "text": "Soltanto se e in quanto gli obiettivi dell'azione prevista non possono essere conseguiti in misura sufficiente dagli Stati membri, ma possono essere conseguiti meglio a livello di Unione"
+      },
+      {
+        "id": "C",
+        "text": "Solo quando richiesto dalla maggioranza delle province italiane"
+      },
+      {
+        "id": "D",
+        "text": "Mai, l'Unione non può mai intervenire nelle materie non esclusive"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La sussidiarietà europea riserva l'azione agli Stati membri, consentendo l'intervento dell'UE solo per ragioni di scala ed efficacia transnazionale superiore.",
+    "hint": "L'UE interviene solo se gli obiettivi non possono essere realizzati adeguatamente dai singoli Stati.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_UE_065",
+    "question": "Cos'è il principio di proporzionalità sancito dall'art. 5, par. 4, del TUE?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La tassazione deve essere sempre progressiva"
+      },
+      {
+        "id": "B",
+        "text": "Il numero dei deputati deve essere proporzionale al reddito dei cittadini"
+      },
+      {
+        "id": "C",
+        "text": "Il contenuto e la forma dell'azione dell'Unione si limitano a quanto necessario per il conseguimento degli obiettivi dei Trattati, senza andare oltre"
+      },
+      {
+        "id": "D",
+        "text": "Tutti i funzionari UE devono percepire la stessa identica retribuzione"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Il principio di proporzionalità vieta all'UE interventi eccessivi o sproporzionati: le misure adottate devono essere strettamente idonee e necessarie allo scopo, preferendo atti meno invasivi (es. direttive anziché regolamenti).",
+    "hint": "L'azione comunitaria non deve andare oltre quanto strettamente necessario al raggiungimento dell'obiettivo.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_UE_066",
+    "question": "Che efficacia giuridica ha la Carta dei Diritti Fondamentali dell'Unione Europea (Carta di Nizza) a seguito dell'entrata in vigore del Trattato di Lisbona (art. 6 TUE)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ha mero valore politico e programmatico non vincolante"
+      },
+      {
+        "id": "B",
+        "text": "È subordinata ai regolamenti ministeriali nazionali"
+      },
+      {
+        "id": "C",
+        "text": "Si applica solo all'interno della città di Nizza"
+      },
+      {
+        "id": "D",
+        "text": "Ha lo stesso valore giuridico vincolante dei Trattati (diritto primario dell'Unione)"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'art. 6, par. 1, TUE conferisce alla Carta di Nizza lo stesso rango gerarchico dei Trattati europei: è parametro di legittimità per gli atti delle istituzioni UE e per gli atti nazionali di attuazione.",
+    "hint": "Ha lo stesso valore giuridico vincolante dei Trattati.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_UE_067",
+    "question": "Quali materie rientrano nella competenza esclusiva dell'Unione Europea ai sensi dell'art. 3 del TFUE?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Unione doganale, regole di concorrenza per il mercato interno, politica monetaria per i paesi dell'euro, conservazione risorse biologiche del mare e politica commerciale comune"
+      },
+      {
+        "id": "B",
+        "text": "Istruzione, sanità pubblica, polizia locale e vigili del fuoco"
+      },
+      {
+        "id": "C",
+        "text": "Turismo, beni culturali e formazione professionale"
+      },
+      {
+        "id": "D",
+        "text": "Organizzazione degli uffici comunali e tributi locali"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 3 TFUE elenca le materie esclusive in cui solo l'UE può legiferare: unione doganale, concorrenza del mercato interno, politica monetaria dell'euro, politica commerciale comune e accordi internazionali connessi.",
+    "hint": "Dogane, concorrenza, politica monetaria dell'Euro e politica commerciale comune.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_UE_068",
+    "question": "Cos'è la 'Procedura d'Infrazione' disciplinata dagli artt. 258 e 260 del TFUE?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Una multa per divieto di sosta comminata a un veicolo straniero"
+      },
+      {
+        "id": "B",
+        "text": "La procedura promossa dalla Commissione Europea contro uno Stato membro per inadempimento degli obblighi derivanti dai Trattati, che può sfociare in sanzioni pecuniarie della CGUE"
+      },
+      {
+        "id": "C",
+        "text": "L'espulsione diplomatica degli ambasciatori"
+      },
+      {
+        "id": "D",
+        "text": "La sospensione dell'erogazione dell'energia elettrica a uno Stato"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La procedura d'infrazione (lettera di costituzione in mora, parere motivato e ricorso alla CGUE) serve a ripristinare la legalità europea; se lo Stato persiste, la Corte applica pesanti sanzioni forfettarie e penalità di mora.",
+    "hint": "Azione legale della Commissione contro lo Stato inadempiente con sanzioni pecuniarie.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_UE_069",
+    "question": "A norma dell'art. 43 della L. 234/2012, in caso di condanna dell'Italia da parte della CGUE al pagamento di sanzioni per violazioni imputabili a Regioni o enti locali:",
+    "options": [
+      {
+        "id": "A",
+        "text": "La sanzione resta a carico del bilancio statale senza alcuna possibilità di rivalsa"
+      },
+      {
+        "id": "B",
+        "text": "Il Sindaco o Governatore viene rimosso dal Capo dello Stato"
+      },
+      {
+        "id": "C",
+        "text": "Lo Stato ha diritto di rivalsa nei confronti dell'ente responsabile per l'intero importo delle sanzioni pecuniarie pagate all'UE"
+      },
+      {
+        "id": "D",
+        "text": "La sanzione viene annullata automaticamente per compensazione"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'art. 43 della L. 234/2012 disciplina il diritto di rivalsa dello Stato: se la condanna europea deriva da ritardi o inadempienze di un Comune o Regione, lo Stato recupera le somme trattenendo i trasferimenti o tributi.",
+    "hint": "Diritto di rivalsa integrale dello Stato sull'ente territoriale che ha causato l'infrazione.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_UE_070",
+    "question": "Quale ruolo svolge la Corte dei Conti Europea (art. 285 TFUE)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Emette sentenze penali di condanna a carico dei ministri europei"
+      },
+      {
+        "id": "B",
+        "text": "Stampa le banconote e conia le monete metalliche dell'Euro"
+      },
+      {
+        "id": "C",
+        "text": "Calcola le tariffe postali tra gli Stati membri"
+      },
+      {
+        "id": "D",
+        "text": "Controlla la legittimità e regolarità delle entrate e delle spese dell'Unione Europea e accerta la sana gestione finanziaria del bilancio comunitario"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "La Corte dei Conti dell'UE (con sede a Lussemburgo) è il revisore contabile esterno indipendente dell'Unione: esamina i conti di tutte le istituzioni e redige annualmente la dichiarazione di affidabilità (DAS).",
+    "hint": "Revisore contabile indipendente dell'UE che controlla entrate, spese e sana gestione finanziaria.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_UE_071",
+    "question": "Cosa si intende per 'Clausola di Recesso' dall'Unione Europea (art. 50 TUE)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La procedura formale mediante cui ogni Stato membro può decidere di recedere dall'UE, notificando l'intenzione al Consiglio Europeo (utilizzata per la Brexit)"
+      },
+      {
+        "id": "B",
+        "text": "Il licenziamento disciplinare dei funzionari europei"
+      },
+      {
+        "id": "C",
+        "text": "La cancellazione dell'eurozona per decisione unilaterale"
+      },
+      {
+        "id": "D",
+        "text": "La revoca della cittadinanza ai residenti esteri"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Introdotto dal Trattato di Lisbona, l'art. 50 disciplina il recesso volontario e unilaterale di uno Stato membro con avvio dei negoziati per l'accordo di recesso entro due anni.",
+    "hint": "Art. 50 TUE per il recesso volontario di uno Stato membro dall'Unione Europea.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_UE_072",
+    "question": "Quale istituzione dell'UE è responsabile esclusiva della politica monetaria per i paesi dell'area dell'euro?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il Fondo Monetario Internazionale"
+      },
+      {
+        "id": "B",
+        "text": "La Banca Centrale Europea (BCE), con sede a Francoforte"
+      },
+      {
+        "id": "C",
+        "text": "La Banca Mondiale"
+      },
+      {
+        "id": "D",
+        "text": "Il Ministero dell'Economia italiano"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La BCE e le banche centrali nazionali dei Paesi che adottano la moneta unica costituiscono l'Eurosistema; l'obiettivo prioritario della BCE è il mantenimento della stabilità dei prezzi.",
+    "hint": "È la BCE con sede a Francoforte.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_UE_073",
+    "question": "A norma dell'art. 20 del TFUE, la 'Cittadinanza dell'Unione Europea':",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sostituisce e abroga definitivamente la cittadinanza italiana"
+      },
+      {
+        "id": "B",
+        "text": "Si acquista solo dopo aver superato un esame a Bruxelles"
+      },
+      {
+        "id": "C",
+        "text": "È attribuita a chiunque abbia la cittadinanza di uno Stato membro, aggiungendosi alla cittadinanza nazionale senza sostituirla"
+      },
+      {
+        "id": "D",
+        "text": "Spetta unicamente a chi risiede in territorio europeo da almeno 50 anni"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'art. 20 TFUE sancisce: 'È cittadino dell'Unione chiunque abbia la cittadinanza di uno Stato membro. La cittadinanza dell'Unione si aggiunge alla cittadinanza nazionale e non la sostituisce'.",
+    "hint": "Si acquista automaticamente con la cittadinanza di uno Stato membro e si aggiunge ad essa.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_UE_074",
+    "question": "Quali diritti conferisce la Cittadinanza dell'Unione Europea ai sensi degli artt. 20-24 TFUE?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Esenzione dal pagamento di qualsiasi tassa o tributo locale"
+      },
+      {
+        "id": "B",
+        "text": "Accesso automatico a tutte le cariche militari degli Stati membri"
+      },
+      {
+        "id": "C",
+        "text": "Trasporto aereo gratuito su tutte le compagnie comunitarie"
+      },
+      {
+        "id": "D",
+        "text": "Circolare e soggiornare liberamente negli Stati membri, elettorato attivo e passivo alle elezioni comunali ed europee nello Stato di residenza, tutela diplomatica e diritto di petizione"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "I diritti cardine includono la libera circolazione, il voto e l'eleggibilità alle comunali ed europee nello Stato di residenza, la protezione consolare e la petizione al Parlamento/Mediatore europeo.",
+    "hint": "Libera circolazione, voto attivo e passivo alle comunali ed europee, e tutela consolare.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_UE_075",
+    "question": "Chi è il 'Mediatore Europeo' istituito dall'art. 228 del TFUE?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un organo indipendente che esamina le denunce di cattiva amministrazione nell'azione delle istituzioni, degli organi o degli organismi dell'UE presentate da cittadini o residenti"
+      },
+      {
+        "id": "B",
+        "text": "Un arbitro internazionale per dispute marittime"
+      },
+      {
+        "id": "C",
+        "text": "Il capo della polizia doganale europea"
+      },
+      {
+        "id": "D",
+        "text": "Il presidente del comitato di redazione della Gazzetta Ufficiale"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il Mediatore Europeo (Ombudsman) riceve le denunce su abusi, ritardi, discriminazioni o carenze di trasparenza imputabili alle istituzioni o agenzie dell'UE (con esclusione della CGUE nell'esercizio giurisdizionale).",
+    "hint": "Difensore civico europeo contro la cattiva amministrazione delle istituzioni dell'UE.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_UE_076",
+    "question": "A norma dell'art. 101 del TFUE, sono vietati in quanto incompatibili con il mercato interno:",
+    "options": [
+      {
+        "id": "A",
+        "text": "I contratti di lavoro a tempo indeterminato"
+      },
+      {
+        "id": "B",
+        "text": "Tutti gli accordi, intese e pratiche concordate tra imprese che abbiano per oggetto o per effetto di impedire, restringere o falsare il gioco della concorrenza (cartelli)"
+      },
+      {
+        "id": "C",
+        "text": "L'esportazione di prodotti biologici certificati"
+      },
+      {
+        "id": "D",
+        "text": "L'apertura di filiali bancarie all'estero"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 101 TFUE è il pilastro antitrust: vieta cartelli, intese restrittive della concorrenza e accordi di fissazione dei prezzi o ripartizione dei mercati tra imprese.",
+    "hint": "Divieto di intese e cartelli restrittivi o falsanti la concorrenza tra imprese.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_UE_077",
+    "question": "Cosa vieta l'art. 102 del TFUE in materia di concorrenza?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La stipula di contratti di assicurazione sulla vita"
+      },
+      {
+        "id": "B",
+        "text": "L'adozione di marchi di fabbrica registrati"
+      },
+      {
+        "id": "C",
+        "text": "Lo sfruttamento abusivo da parte di una o più imprese di una posizione dominante sul mercato interno o su una parte sostanziale di questo"
+      },
+      {
+        "id": "D",
+        "text": "L'assunzione di lavoratori stranieri"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'art. 102 TFUE non punisce la posizione dominante in sé, ma il suo sfruttamento abusivo (abuso di posizione dominante: prezzi predatori, vendite abbinate, rifiuto ingiustificato di contrarre).",
+    "hint": "Divieto di abuso di posizione dominante.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_UE_078",
+    "question": "A norma dell'art. 294 del TFUE, la 'Procedura Legislativa Ordinaria' dell'Unione Europea consiste:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nella decisione unilaterale della Banca Centrale Europea"
+      },
+      {
+        "id": "B",
+        "text": "Nell'approvazione di una legge da parte dei singoli parlamenti regionali"
+      },
+      {
+        "id": "C",
+        "text": "Nel decreto motivato del Segretario Generale dell'ONU"
+      },
+      {
+        "id": "D",
+        "text": "Nell'adozione congiunta di un regolamento, una direttiva o una decisione da parte del Parlamento Europeo e del Consiglio, su proposta della Commissione (codecisione)"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "La procedura legislativa ordinaria (ex codecisione) pone Parlamento Europeo e Consiglio dell'UE su un piano di totale parità: l'atto è approvato solo se entrambi i rami concordano sul testo finale.",
+    "hint": "Adozione congiunta su base paritaria di Parlamento Europeo e Consiglio su proposta della Commissione.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_UE_079",
+    "question": "Cos'è il 'Comitato delle Regioni' (artt. 305-307 TFUE)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un organo consultivo composto da rappresentanti delle collettività regionali e locali dell'UE che esprime la voce degli enti territoriali sulle proposte legislative comunitarie"
+      },
+      {
+        "id": "B",
+        "text": "Un corpo di polizia transfrontaliero"
+      },
+      {
+        "id": "C",
+        "text": "L'assemblea degli azionisti della Banca Europea per gli Investimenti"
+      },
+      {
+        "id": "D",
+        "text": "La conferenza dei ministri degli esteri"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il Comitato delle Regioni assicura che gli enti regionali e locali siano consultati nella fase ascendente dell'elaborazione delle norme UE sulle politiche territoriali (coesione, trasporti, ambiente).",
+    "hint": "Organo consultivo dell'UE che rappresenta le autorità regionali e comunali.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_UE_080",
+    "question": "Quale principio stabilisce la sentenza 'Simmenthal' (1978) della Corte di Giustizia UE in tema di disapplicazione del diritto interno contrastante?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il giudice deve sempre applicare la legge nazionale e chiedere scusa alla Commissione"
+      },
+      {
+        "id": "B",
+        "text": "Il giudice nazionale ha l'obbligo di applicare integralmente il diritto UE e disapplicare direttamente di propria iniziativa qualsiasi disposizione nazionale contrastante, senza attendere l'annullamento della Consulta o del legislatore"
+      },
+      {
+        "id": "C",
+        "text": "Il giudice deve rimettere obbligatoriamente ogni fascicolo alla Corte Costituzionale"
+      },
+      {
+        "id": "D",
+        "text": "I regolamenti europei possono essere disapplicati se danneggiano l'economia locale"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La sentenza Simmenthal stabilisce il potere-dovere del giudice comune di disapplicare immediatamente la norma interna contraria al diritto comunitario dotato di efficacia diretta, senza attendere l'incostituzionalità.",
+    "hint": "Disapplicazione immediata e diretta della norma interna incompatibile ad opera del giudice comune.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_DIR_UE_081",
+    "question": "A norma dell'art. 263 del TFUE, il 'Ricorso di Annullamento' dinanzi alla CGUE può essere promosso:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Contro qualsiasi delibera del Consiglio comunale di un comune italiano"
+      },
+      {
+        "id": "B",
+        "text": "Solo per controversie tra condomini residenti a Bruxelles"
+      },
+      {
+        "id": "C",
+        "text": "Per vizi di incompetenza, violazione delle forme sostanziali, violazione dei Trattati o sviamento di potere, per far annullare gli atti legislativi o vincolanti delle istituzioni UE"
+      },
+      {
+        "id": "D",
+        "text": "Per contestare le sentenze penali della Cassazione"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'art. 263 TFUE è l'azione giudiziaria che controlla la legittimità degli atti delle istituzioni comunitarie: può essere promosso da Stati membri, istituzioni o persone fisiche/giuridiche direttamente e individualmente riguardate.",
+    "hint": "Ricorso per annullare atti illegittimi delle istituzioni UE per incompetenza, vizi formali o violazione dei Trattati.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_UE_082",
+    "question": "Entro quale termine deve essere proposto il ricorso di annullamento ex art. 263 TFUE?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Entro trenta giorni consecutivi"
+      },
+      {
+        "id": "B",
+        "text": "Entro un anno solare"
+      },
+      {
+        "id": "C",
+        "text": "In qualunque momento senza alcun limite temporale"
+      },
+      {
+        "id": "D",
+        "text": "Entro due mesi dalla pubblicazione dell'atto o dalla sua notificazione al ricorrente"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'art. 263, comma 6, TFUE prescrive il termine decadenziale di due mesi a decorrere dalla pubblicazione sulla Gazzetta Ufficiale dell'UE o dalla notificazione dell'atto.",
+    "hint": "Termine decadenziale di due mesi.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_UE_083",
+    "question": "Cos'è il 'Ricorso per Carenza' disciplinato dall'art. 265 del TFUE?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'azione diretta a far constatare l'illegittima omissione e inazione delle istituzioni dell'UE (Parlamento, Consiglio, Commissione) che si siano astenute dal deliberare in violazione dei Trattati"
+      },
+      {
+        "id": "B",
+        "text": "La richiesta di indennizzo per carestia alimentare"
+      },
+      {
+        "id": "C",
+        "text": "Un ricorso contro la mancanza di candidati ai concorsi"
+      },
+      {
+        "id": "D",
+        "text": "La denuncia di furto presso un'ambasciata europea"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il ricorso per carenza sanziona l'inerzia illegittima: presuppone la preventiva diffida ad agire (messa in mora) dell'istituzione inerte; se entro 2 mesi non adotta l'atto dovuto, si ricorre alla CGUE.",
+    "hint": "Sanziona l'inerzia e l'omissione illegittima delle istituzioni europee che non hanno deliberato.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_UE_084",
+    "question": "Cosa prevede la sentenza 'Francovich' (1991) della Corte di Giustizia UE in merito alla responsabilità dello Stato per violazione del diritto comunitario?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Lo Stato deve cedere parte del proprio territorio all'Unione"
+      },
+      {
+        "id": "B",
+        "text": "Lo Stato membro inadempiente è tenuto a risarcire i danni cagionati ai singoli dalla mancata o tardiva attuazione di una direttiva UE"
+      },
+      {
+        "id": "C",
+        "text": "I cittadini possono rifiutarsi di pagare qualsiasi imposta"
+      },
+      {
+        "id": "D",
+        "text": "La direttiva decade automaticamente senza conseguenze"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La sentenza storica Francovich ha sancito il principio della responsabilità risarcitoria dello Stato per danni causati ai cittadini dalla mancata trasposizione delle direttive, a tutela dei diritti individuali.",
+    "hint": "Responsabilità risarcitoria dello Stato verso i cittadini per mancata o ritardata attuazione di direttive UE.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_UE_085",
+    "question": "A norma dell'art. 18 del TFUE, nel campo di applicazione dei Trattati è vietata ogni discriminazione effettuata in base alla:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Residenza nel territorio del capoluogo"
+      },
+      {
+        "id": "B",
+        "text": "Data di nascita del cittadino"
+      },
+      {
+        "id": "C",
+        "text": "Nazionalità"
+      },
+      {
+        "id": "D",
+        "text": "Scelta del conto corrente bancario"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'art. 18 TFUE pone il divieto generale di discriminazione fondata sulla nazionalità, garantendo a tutti i cittadini degli Stati membri parità di trattamento in ogni settore economico e sociale coperto dai Trattati.",
+    "hint": "Divieto di qualsiasi discriminazione basata sulla nazionalità.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_UE_086",
+    "question": "Quale valore hanno le 'Raccomandazioni' e i 'Pareri' adottati dalle istituzioni UE ai sensi dell'art. 288 del TFUE?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hanno efficacia vincolante superiore ai regolamenti"
+      },
+      {
+        "id": "B",
+        "text": "Possono annullare le sentenze della Corte Costituzionale"
+      },
+      {
+        "id": "C",
+        "text": "Costituiscono titolo esecutivo per l'espropriazione forzata"
+      },
+      {
+        "id": "D",
+        "text": "Non sono vincolanti, ma costituiscono atti di soft law che possono orientare l'interpretazione delle norme comunitarie e nazionali"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'ultimo comma dell'art. 288 TFUE chiarisce: 'Le raccomandazioni e i pareri non sono vincolanti'. Hanno valore esortativo o interpretativo di 'soft law'.",
+    "hint": "Atti di soft law privi di efficacia giuridica vincolante.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_UE_087",
+    "question": "Quale maggioranza è richiesta ordinariamente per le delibere del Consiglio dell'Unione Europea nella procedura legislativa ordinaria?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Maggioranza qualificata: almeno il 55% degli Stati membri (almeno 15 su 27) che rappresentino almeno il 65% della popolazione totale dell'UE"
+      },
+      {
+        "id": "B",
+        "text": "Unanimità assoluta di tutti i 27 Stati membri"
+      },
+      {
+        "id": "C",
+        "text": "Maggioranza semplice (14 Stati membri qualunque sia la popolazione)"
+      },
+      {
+        "id": "D",
+        "text": "I due terzi degli Stati presenti alla riunione"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La regola generale del voto nel Consiglio è la maggioranza qualificata a 'doppia maggioranza' (introdotta da Lisbona): 55% dei Paesi e 65% della popolazione dell'UE.",
+    "hint": "Doppia maggioranza: 55% degli Stati membri che rappresentano il 65% della popolazione UE.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_UE_088",
+    "question": "Chi è l''Alto Rappresentante dell'Unione per gli affari esteri e la politica di sicurezza' (art. 18 TUE)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il comandante supremo delle forze armate della NATO"
+      },
+      {
+        "id": "B",
+        "text": "La figura che guida la politica estera e di sicurezza comune (PESC) dell'UE, presiede il Consiglio Affari Esteri ed è uno dei vicepresidenti della Commissione"
+      },
+      {
+        "id": "C",
+        "text": "Il presidente della Corte di Giustizia UE"
+      },
+      {
+        "id": "D",
+        "text": "L'ambasciatore d'Italia negli Stati Uniti"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'Alto Rappresentante (carica con doppio cappello: Consiglio e Commissione) coordina l'azione esterna dell'UE, guida il Servizio Europeo per l'Azione Esterna (SEAE) e presiede la formazione Affari Esteri del Consiglio.",
+    "hint": "Guida la politica estera dell'UE (PESC), presiede il Consiglio Affari Esteri e fa parte della Commissione.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_UE_089",
+    "question": "Cos'è la Cooperazione Rafforzata disciplinata dall'art. 20 del TUE?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un patto militare segreto tra due soli Stati"
+      },
+      {
+        "id": "B",
+        "text": "La fusione obbligatoria di due aziende commerciali pubbliche"
+      },
+      {
+        "id": "C",
+        "text": "Un meccanismo che consente ad almeno 9 Stati membri di instaurare un'integrazione o cooperazione più stretta in un settore non esclusivo, utilizzando le istituzioni dell'UE"
+      },
+      {
+        "id": "D",
+        "text": "Un programma di scambi culturali tra scuole elementari"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "La cooperazione rafforzata (minimo 9 Stati) permette a un gruppo di Paesi volenterosi di progredire nell'integrazione comune in materie non esclusive (es. brevetto unitario, regimi patrimoniali transfrontalieri) senza il blocco dei contrari.",
+    "hint": "Meccanismo che richiede almeno 9 Stati membri per avanzare nell'integrazione a più velocità.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_UE_090",
+    "question": "A norma dell'art. 34 del TFUE, sono vietate tra gli Stati membri:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Le vendite di generi alimentari tipici regionali"
+      },
+      {
+        "id": "B",
+        "text": "Le transazioni in euro tramite bonifico bancario"
+      },
+      {
+        "id": "C",
+        "text": "Le sponsorizzazioni di squadre sportive"
+      },
+      {
+        "id": "D",
+        "text": "Le restrizioni quantitative all'importazione nonché qualsiasi misura di effetto equivalente"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'art. 34 TFUE sancisce il divieto di dazi, contingenti e 'misure ad effetto equivalente' (sentenza Dassonville: qualsiasi normativa commerciale che possa ostacolare direttamente o indirettamente il commercio intracomunitario).",
+    "hint": "Divieto di dazi doganali, quote e misure di effetto equivalente alle restrizioni all'importazione.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_UE_091",
+    "question": "In merito alla libera prestazione dei servizi (art. 56 TFUE), quale diritto è garantito a un professionista o impresa dell'UE?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il diritto di prestare temporaneamente i propri servizi in un altro Stato membro alle stesse condizioni imposte ai cittadini di tale Stato, senza dovervi necessariamente aprire una sede stabile"
+      },
+      {
+        "id": "B",
+        "text": "L'obbligo di trasferire la residenza anagrafica all'estero"
+      },
+      {
+        "id": "C",
+        "text": "Il pagamento doppio delle imposte sui compensi"
+      },
+      {
+        "id": "D",
+        "text": "La totale immunità dalla responsabilità civile professionale"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La libera prestazione di servizi si distingue dalla libertà di stabilimento: consente di svolgere attività temporanee o occasionali in un altro Paese membro senza dover istituire una sede fissa o succursale.",
+    "hint": "Diritto di svolgere prestazioni professionali temporanee in altri Stati UE senza stabilimento fisso.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_UE_092",
+    "question": "Cosa disciplina il Regolamento (UE) 2016/679 (GDPR) a livello europeo?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Le etichette energetiche degli elettrodomestici"
+      },
+      {
+        "id": "B",
+        "text": "La protezione delle persone fisiche con riguardo al trattamento dei dati personali, nonché alla libera circolazione di tali dati nel mercato unico digitale"
+      },
+      {
+        "id": "C",
+        "text": "I requisiti di sicurezza dei seggiolini per auto"
+      },
+      {
+        "id": "D",
+        "text": "Le quote di cattura del tonno rosso nel Mediterraneo"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il GDPR armonizza integralmente la normativa privacy in tutta l'Unione, rafforzando i diritti degli interessati (oblio, portabilità) e imponendo l'accountability e la sicurezza dei trattamenti.",
+    "hint": "Regolamento generale sulla protezione dei dati personali (GDPR).",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_UE_093",
+    "question": "Quale principio stabilisce la teoria dei 'Controlimiti' elaborata dalla Corte Costituzionale italiana (sentenza Frontini n. 183/1973 e sentenza Granital n. 170/1984)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'Italia non riconosce alcuna autorità alle istituzioni europee"
+      },
+      {
+        "id": "B",
+        "text": "I trattati europei prevalgono anche sui principi supremi della Costituzione"
+      },
+      {
+        "id": "C",
+        "text": "Il diritto dell'Unione Europea prevale sulla legge ordinaria ma non può mai violare i principi supremi dell'ordinamento costituzionale e i diritti inviolabili della persona"
+      },
+      {
+        "id": "D",
+        "text": "La Corte Costituzionale non può mai esaminare questioni di diritto comunitario"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "I controlimiti rappresentano il baluardo costituzionale invalicabile: l'Italia ammette limitazioni di sovranità verso l'UE, a condizione che non vengano lesi i principi supremi dell'ordinamento costituzionale o i diritti inviolabili dell'uomo.",
+    "hint": "I principi supremi e i diritti inviolabili costituiscono il limite invalicabile al primato del diritto UE.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_DIR_UE_094",
+    "question": "Chi è il Presidente della Commissione Europea e come viene eletto (art. 17, par. 7, TUE)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "È il capo di Stato del Paese con il PIL più alto"
+      },
+      {
+        "id": "B",
+        "text": "È eletto direttamente dai cittadini europei a suffragio universale"
+      },
+      {
+        "id": "C",
+        "text": "È nominato per anzianità di servizio tra i funzionari UE"
+      },
+      {
+        "id": "D",
+        "text": "È proposto dal Consiglio Europeo a maggioranza qualificata tenendo conto delle elezioni del Parlamento Europeo, ed è eletto dal Parlamento Europeo a maggioranza dei suoi componenti"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "La nomina del Presidente della Commissione unisce legittimazione intergovernativa e parlamentare: proposta del Consiglio Europeo legata all'esito delle urne (Spitzenkandidat) ed elezione con voto del Parlamento Europeo.",
+    "hint": "Proposto dal Consiglio Europeo ed eletto dal Parlamento Europeo a maggioranza assoluta.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_UE_095",
+    "question": "A norma dell'art. 222 del TFUE, la 'Clausola di Solidarietà' tra Stati membri dell'UE scatta:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Qualora uno Stato membro sia oggetto di un attacco terroristico o sia vittima di una calamità naturale o provocata dall'uomo"
+      },
+      {
+        "id": "B",
+        "text": "Ogniqualvolta una squadra di calcio perda una partita internazionale"
+      },
+      {
+        "id": "C",
+        "text": "Solo in caso di fallimento di una banca commerciale privata"
+      },
+      {
+        "id": "D",
+        "text": "Per rimborsare le spese di viaggio dei turisti"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La clausola di solidarietà obbliga l'Unione e gli altri Stati membri a mobilitare tutti gli strumenti necessari (anche militari e di protezione civile) per assistere lo Stato colpito da terrorismo o catastrofi.",
+    "hint": "Assistenza e mobilitazione solidale in caso di attacco terroristico o gravi calamità.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_UE_096",
+    "question": "In merito alla disciplina degli appalti pubblici, quale principio sanciscono le Direttive Europee (Direttive 2014/24/UE e 2014/25/UE)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'obbligo di riservare i contratti pubblici alle sole imprese a capitale pubblico"
+      },
+      {
+        "id": "B",
+        "text": "La parità di trattamento, la non discriminazione, la trasparenza e la proporzionalità nell'aggiudicazione delle commesse pubbliche per garantire il mercato unico"
+      },
+      {
+        "id": "C",
+        "text": "L'abolizione delle garanzie fideiussorie"
+      },
+      {
+        "id": "D",
+        "text": "La segretezza totale di tutte le offerte tecniche ed economiche"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Le direttive appalti aprono le commesse pubbliche alla concorrenza transfrontaliera europea, garantendo trasparenza, parità di condizioni ed evitando favoritismi nazionali.",
+    "hint": "Apertura concorrenziale, parità di trattamento e trasparenza negli appalti europei.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_UE_097",
+    "question": "Cos'è la 'Gazzetta Ufficiale dell'Unione Europea' (GUUE)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un quotidiano commerciale stampato solo in inglese a Bruxelles"
+      },
+      {
+        "id": "B",
+        "text": "Il notiziario radiofonico del Parlamento europeo"
+      },
+      {
+        "id": "C",
+        "text": "La pubblicazione ufficiale in tutte le lingue dell'UE in cui sono pubblicati i trattati, i regolamenti, le direttive, le decisioni e i bandi di gara sopra soglia (serie L, C e S)"
+      },
+      {
+        "id": "D",
+        "text": "Un bollettino trimestrale riservato alle sole ambasciate"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "La GUUE è lo strumento di pubblicità legale dell'Unione Europea: serie L (Legislazione), serie C (Comunicazioni ed informazioni), serie S (Supplemento per gli appalti pubblici e bandi sopra soglia).",
+    "hint": "Organo ufficiale di pubblicazione legale dell'UE in tutte le lingue ufficiali.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_UE_098",
+    "question": "A norma dell'art. 21 del TUE, l'azione dell'Unione sulla scena internazionale si fonda sui principi di:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Egemonia economica e colonialismo commerciale"
+      },
+      {
+        "id": "B",
+        "text": "Neutralità assoluta senza relazioni diplomatiche"
+      },
+      {
+        "id": "C",
+        "text": "Monopolio statale di tutte le risorse minerarie"
+      },
+      {
+        "id": "D",
+        "text": "Democrazia, stato di diritto, universalità e indivisibilità dei diritti dell'uomo e delle libertà fondamentali, rispetto della dignità umana e della Carta ONU"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'art. 21 fissa i valori guida della politica estera dell'Unione: diritti umani, stato di diritto, democrazia, pace e rispetto del diritto internazionale.",
+    "hint": "Promozione della democrazia, dello Stato di diritto e dei diritti umani a livello globale.",
+    "level": "base"
+  },
+  {
+    "id": "Q_DIR_UE_099",
+    "question": "Cosa si intende per 'Effetto Utile' (effet utile) nell'interpretazione giurisprudenziale della Corte di Giustizia UE?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il principio ermeneutico secondo cui le norme dell'UE devono essere interpretate e applicate in modo da raggiungere pienamente la loro finalità ed efficacia pratica"
+      },
+      {
+        "id": "B",
+        "text": "L'utile di bilancio prodotto dalle aziende comunitarie"
+      },
+      {
+        "id": "C",
+        "text": "Il ricavo derivante dalla vendita di beni all'asta"
+      },
+      {
+        "id": "D",
+        "text": "La detrazione fiscale per le spese di formazione"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'effet utile è un canone ermeneutico fondamentale della CGUE: una disposizione europea va interpretata in modo da renderla operante e non svuotarla di significato concreto negli Stati membri.",
+    "hint": "Canone di interpretazione che assicura la massima efficacia pratica alla norma europea.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_DIR_UE_100",
+    "question": "Quale organo controlla la corretta esecuzione del bilancio generale dell'Unione Europea concedendo il 'Discarico di Bilancio' alla Commissione (art. 319 TFUE)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La Corte Costituzionale del Belgio"
+      },
+      {
+        "id": "B",
+        "text": "Il Parlamento Europeo, su raccomandazione del Consiglio dell'Unione Europea"
+      },
+      {
+        "id": "C",
+        "text": "Il Fondo Monetario Internazionale"
+      },
+      {
+        "id": "D",
+        "text": "I singoli sindaci dei capoluoghi europei"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il discarico di bilancio è l'atto con cui il Parlamento Europeo, sulla base della relazione della Corte dei Conti UE e della raccomandazione del Consiglio, approva la gestione finanziaria della Commissione mandandola esente da ulteriori responsabilità politiche.",
+    "hint": "Il Parlamento Europeo concede il discarico di bilancio su raccomandazione del Consiglio.",
+    "level": "intermedio"
   }
 ]

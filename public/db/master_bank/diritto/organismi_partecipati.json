@@ -1298,5 +1298,1305 @@
     "explanation": "Il TUSP (art. 15 e 20) assegna il monitoraggio e il controllo al Ministero dell'Economia e delle Finanze (Struttura per il monitoraggio delle partecipazioni pubbliche del Dipartimento del Tesoro) e alla Corte dei Conti, che verifica la veridicità dei piani e sanziona le inadempienze.",
     "hint": "Corte dei Conti (Sezioni di controllo) e MEF (Dipartimento del Tesoro).",
     "level": "base"
+  },
+  {
+    "id": "Q_ORG_PART_051",
+    "question": "A norma dell'art. 3 del D.Lgs. 175/2016 (Testo Unico Società Partecipate - TUSP), in quali tipi societari possono essere costituite le società a partecipazione pubblica?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Esclusivamente in forma di società per azioni (S.p.A.) o società a responsabilità limitata (S.r.l.), anche consortili"
+      },
+      {
+        "id": "B",
+        "text": "In qualsiasi forma commerciale, incluse le società in nome collettivo (S.n.c.) e in accomandita semplice (S.a.s.)"
+      },
+      {
+        "id": "C",
+        "text": "Unicamente come società cooperative di consumo"
+      },
+      {
+        "id": "D",
+        "text": "Solo come associazioni di fatto non riconosciute"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 3 TUSP fissa il principio di tipicità: le amministrazioni possono partecipare solo a società di capitali con responsabilità limitata (S.p.A. o S.r.l., anche in forma consortile), escludendo società di persone.",
+    "hint": "Solo società di capitali a responsabilità limitata (S.p.A. o S.r.l.).",
+    "level": "base"
+  },
+  {
+    "id": "Q_ORG_PART_052",
+    "question": "Quale divieto assoluto pone l'art. 4, comma 6, del D.Lgs. 175/2016 per le amministrazioni pubbliche in materia societaria?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il divieto di assumere dirigenti laureati in economia"
+      },
+      {
+        "id": "B",
+        "text": "Il divieto di costituire società aventi per oggetto attività di produzione di beni e servizi non strettamente necessarie per il perseguimento delle proprie finalità istituzionali"
+      },
+      {
+        "id": "C",
+        "text": "Il divieto di depositare bilanci societari presso la Camera di Commercio"
+      },
+      {
+        "id": "D",
+        "text": "Il divieto di stipulare contratti di fornitura di energia"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 4 TUSP limita l'iniziativa economica pubblica: le PA non possono detenere partecipazioni societarie che non siano strettamente necessarie per fini istituzionali o servizi pubblici.",
+    "hint": "Le partecipazioni devono essere strettamente necessarie per il perseguimento delle finalità istituzionali.",
+    "level": "base"
+  },
+  {
+    "id": "Q_ORG_PART_053",
+    "question": "Quali sono le tre condizioni cumulative richieste dall'art. 16 del TUSP e dal diritto UE per la configurazione dell'affidamento 'in house providing'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sede all'estero, fatturato superiore a 100 milioni e totale assenza di dipendenti"
+      },
+      {
+        "id": "B",
+        "text": "Partecipazione azionaria di almeno 50 Comuni della stessa provincia"
+      },
+      {
+        "id": "C",
+        "text": "Controllo analogo a quello esercitato sui propri uffici, oltre l'80% delle attività svolte per l'ente pubblico e divieto di partecipazione di capitali privati (salvo eccezioni di legge senza controllo)"
+      },
+      {
+        "id": "D",
+        "text": "Adozione del bilancio consuntivo ogni sei mesi"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "La giurisprudenza europea (Teckal) e l'art. 16 TUSP impongono: 1) controllo analogo (influenza determinante su obiettivi e decisioni), 2) oltre l'80% del fatturato generato con l'ente controllante, 3) capitale interamente pubblico.",
+    "hint": "Controllo analogo, oltre l'80% di attività per gli enti soci e capitale pubblico.",
+    "level": "base"
+  },
+  {
+    "id": "Q_ORG_PART_054",
+    "question": "Cos'è il 'controllo analogo congiunto' disciplinato dall'art. 2, comma 1, lett. d) del TUSP?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il controllo di polizia giudiziaria sui conti bancari"
+      },
+      {
+        "id": "B",
+        "text": "L'ispezione della Guardia di Finanza disposta da due Prefetti"
+      },
+      {
+        "id": "C",
+        "text": "La verifica congiunta del contatore dell'acqua"
+      },
+      {
+        "id": "D",
+        "text": "La situazione in cui più amministrazioni pubbliche esercitano congiuntamente un'influenza determinante sugli obiettivi e sulle decisioni strategiche della società partecipata"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Il controllo analogo congiunto ricorre quando la società è partecipata da più enti pubblici (es. consorzio di Comuni) che siedono negli organi decisionali e ne orientano concordemente le decisioni.",
+    "hint": "Più enti pubblici che guidano congiuntamente la società in-house.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_ORG_PART_055",
+    "question": "A norma dell'art. 20 del D.Lgs. 175/2016, cosa sono i 'Piani di razionalizzazione periodica delle partecipazioni pubbliche'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Piani annuali approvati dal Consiglio dell'ente entro il 31 dicembre per dismettere, liquidare o accorpare le partecipazioni prive di requisiti TUSP o in costante perdita"
+      },
+      {
+        "id": "B",
+        "text": "Piani di razionamento del cibo per i dipendenti comunali"
+      },
+      {
+        "id": "C",
+        "text": "Piani di aumento del capitale a debito senza limiti"
+      },
+      {
+        "id": "D",
+        "text": "Piani per creare una società partecipata per ogni cittadino"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 20 impone un'analisi annuale di tutte le partecipazioni: le società con fatturato inferiore a 1 milione, senza dipendenti o con più amministratori che dipendenti o in perdita per 4 esercizi su 5 devono essere razionalizzate o alienate.",
+    "hint": "Analisi annuale obbligatoria per tagliare poltrone societarie inutili e società in perdita cronica.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_ORG_PART_056",
+    "question": "A quale organo statale e di controllo deve essere trasmessa la deliberazione di razionalizzazione periodica ex art. 20 del TUSP?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Al Ministero della Difesa"
+      },
+      {
+        "id": "B",
+        "text": "Alla competente Sezione Regionale di Controllo della Corte dei Conti e alla struttura del Ministero dell'Economia e delle Finanze (MEF)"
+      },
+      {
+        "id": "C",
+        "text": "Alla Camera penale degli avvocati"
+      },
+      {
+        "id": "D",
+        "text": "Al Consiglio Nazionale delle Ricerche (CNR)"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Le delibere di revisione periodica e le relazioni sull'attuazione devono essere inviate alla Corte dei Conti e al Dipartimento del Tesoro del MEF tramite l'applicativo Partecipazioni.",
+    "hint": "Corte dei Conti e Ministero dell'Economia e delle Finanze (MEF).",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_ORG_PART_057",
+    "question": "Ai sensi dell'art. 11 del D.Lgs. 175/2016, qual è il modello ordinario di amministrazione nelle società a controllo pubblico?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un Consiglio di Amministrazione di almeno venti membri"
+      },
+      {
+        "id": "B",
+        "text": "La gestione affidata direttamente ai sindacati dei lavoratori"
+      },
+      {
+        "id": "C",
+        "text": "Di norma un Amministratore Unico; il Consiglio di Amministrazione (3 o 5 membri) è ammesso solo con delibera motivata dell'assemblea per comprovate complessità"
+      },
+      {
+        "id": "D",
+        "text": "Un comitato di cittadini estratti a sorte ogni mese"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'art. 11 TUSP fissa il principio di contenimento dei costi: l'organo amministrativo è ordinariamente monocratico (Amministratore Unico); il CdA può essere composto da 3 o massimo 5 membri solo se debitamente motivato.",
+    "hint": "Di regola Amministratore Unico, massimo CdA da 3 o 5 membri solo se motivato.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_ORG_PART_058",
+    "question": "Quale limite retributivo massimo si applica agli amministratori e dipendenti di società a controllo pubblico ex art. 11, comma 6, TUSP?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Non esiste alcun limite retributivo, vigendo la totale autonomia privata"
+      },
+      {
+        "id": "B",
+        "text": "Massimo 10.000 euro annui compresi i bonus"
+      },
+      {
+        "id": "C",
+        "text": "Il doppio dello stipendio del Presidente degli Stati Uniti"
+      },
+      {
+        "id": "D",
+        "text": "Il tetto massimo onnicomprensivo annuo fissato dalla legge per i vertici della Pubblica Amministrazione (240.000 euro lordi)"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Il trattamento economico annuo onnicomprensivo degli amministratori e manager di società controllate non può superare il tetto massimo dei dipendenti pubblici (240.000 euro annui).",
+    "hint": "Il tetto massimo retributivo per la dirigenza pubblica è di 240.000 euro annui lordi.",
+    "level": "base"
+  },
+  {
+    "id": "Q_ORG_PART_059",
+    "question": "Ai sensi dell'art. 19 del D.Lgs. 175/2016, come reclutano il personale le società a controllo pubblico?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mediante procedure selettive trasparenti e comparative nel rispetto dei principi di trasparenza, pubblicità e imparzialità previsti per le PA (art. 35 D.Lgs. 165/2001)"
+      },
+      {
+        "id": "B",
+        "text": "A totale discrezione personale dell'amministratore delegato con chiamata diretta fiduciaria"
+      },
+      {
+        "id": "C",
+        "text": "Tramite sorteggio casuale tra i residenti del Comune"
+      },
+      {
+        "id": "D",
+        "text": "Esclusivamente con contratti di lavoro a chiamata giornaliera"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 19 impone criteri e modalità per il reclutamento del personale che garantiscano il rispetto dei principi di trasparenza, pubblicità, imparzialità e pari opportunità ex art. 35 D.Lgs. 165/2001.",
+    "hint": "Obbligo di selezioni pubbliche comparative, trasparenti e imparziali.",
+    "level": "base"
+  },
+  {
+    "id": "Q_ORG_PART_060",
+    "question": "Cosa dispone l'art. 19, comma 4, del TUSP in caso di assunzione di personale in violazione delle procedure comparative trasparenti nelle società a controllo pubblico?",
+    "options": [
+      {
+        "id": "A",
+        "text": "I contratti diventano a tempo indeterminato automatico con stipendio maggiorato"
+      },
+      {
+        "id": "B",
+        "text": "I contratti di lavoro stipulati in violazione sono nulli e gli amministratori rispondono per danno erariale"
+      },
+      {
+        "id": "C",
+        "text": "La violazione è sanabile con una sanzione di 50 euro"
+      },
+      {
+        "id": "D",
+        "text": "Il personale viene trasferito d'ufficio alla Presidenza della Repubblica"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La sanzione per le assunzioni irregolari nelle società a controllo pubblico è la nullità radicale del contratto e la responsabilità erariale degli amministratori per le retribuzioni indebitamente corrisposte.",
+    "hint": "Nullità radicale del contratto e responsabilità per danno erariale dinanzi alla Corte dei Conti.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_ORG_PART_061",
+    "question": "La giurisdizione della Corte dei Conti sulla responsabilità erariale per danno cagionato al patrimonio di una società partecipata pubblica:",
+    "options": [
+      {
+        "id": "A",
+        "text": "È esclusa in maniera totale e assoluta per qualsiasi società"
+      },
+      {
+        "id": "B",
+        "text": "Sussiste solo se la società ha sede all'interno della Città del Vaticano"
+      },
+      {
+        "id": "C",
+        "text": "Sussiste pienamente per le società in house (equiparate a organi della PA) e per il danno diretto subito dall'ente socio nelle società non in house"
+      },
+      {
+        "id": "D",
+        "text": "Si applica solo per somme inferiori a 100 euro"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Art. 12 TUSP e giurisprudenza consolidata (Cass. Sez. Unite): nelle società in house c'è piena giurisdizione della Corte dei Conti per danno sociale ed erariale; nelle società partecipate ordinarie per il danno al valore della partecipazione dell'ente.",
+    "hint": "Piena giurisdizione della Corte dei Conti per le società in-house e per il danno al patrimonio dell'ente socio.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_ORG_PART_062",
+    "question": "Cosa disciplina il D.Lgs. 201/2022 in merito ai Servizi Pubblici Locali di rilevanza economica?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La privatizzazione forzata di tutte le scuole d'infanzia comunali"
+      },
+      {
+        "id": "B",
+        "text": "La soppressione del trasporto pubblico su ferrovia"
+      },
+      {
+        "id": "C",
+        "text": "L'eliminazione dei contratti di servizio pubblico"
+      },
+      {
+        "id": "D",
+        "text": "Il riordino complessivo della disciplina dei servizi pubblici locali, ponendo le condizioni per la scelta motivata tra gara concorrenziale, società mista o affidamento in house"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Il D.Lgs. 201/2022 ha attuato la riforma dei SPL a rilevanza economica: disciplina le modalità di gestione (mercato, gara, società mista, in house) imponendo una stringente motivazione qualificata per l'in house.",
+    "hint": "È il testo unico di riordino dei Servizi Pubblici Locali (D.Lgs. 201/2022).",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_ORG_PART_063",
+    "question": "A norma dell'art. 17 del D.Lgs. 201/2022, per affidare un servizio pubblico locale in house providing sopra soglia comunitaria, cosa deve predisporre l'ente locale?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Una relazione illustrativa qualificata che dia conto delle ragioni del mancato ricorso al mercato e dei benefici per la collettività in termini di economicità ed efficienza"
+      },
+      {
+        "id": "B",
+        "text": "Una semplice circolare interna del Sindaco senza pubblicazione"
+      },
+      {
+        "id": "C",
+        "text": "Una fideiussione bancaria pari al 100% del valore del servizio"
+      },
+      {
+        "id": "D",
+        "text": "La rinuncia a qualsiasi forma di controllo sui conti societari"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 17 D.Lgs. 201/2022 richiede un'approfondita istruttoria motivata (pubblicata sul sito dell'ente e inviata ad ANAC) che dimostri la convenienza economica e i vantaggi dell'in house rispetto al mercato.",
+    "hint": "Relazione motivata qualificata sui benefici rispetto al mercato da inviare ad ANAC.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_ORG_PART_064",
+    "question": "Qual è la differenza fondamentale tra 'Azienda Speciale' (art. 114 TUEL) e 'Società per Azioni Partecipata'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'azienda speciale non ha dipendenti, la S.p.A. ne ha obbligatoriamente mille"
+      },
+      {
+        "id": "B",
+        "text": "L'azienda speciale è un ente pubblico economico strumentale dotato di personalità giuridica e autonomia imprenditoriale; la S.p.A. è un soggetto privato disciplinato dal codice civile e dal TUSP"
+      },
+      {
+        "id": "C",
+        "text": "L'azienda speciale può operare solo all'estero"
+      },
+      {
+        "id": "D",
+        "text": "Non vi è alcuna differenza, sono termini perfettamente sinonimi"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'azienda speciale è un ente pubblico economico strumentale dell'ente locale (gestione servizi sociali o culturali, es. farmacie comunali o teatri); la società partecipata è una persona giuridica di diritto privato commerciale.",
+    "hint": "L'azienda speciale è un ente pubblico economico, la società è una persona giuridica di diritto privato.",
+    "level": "base"
+  },
+  {
+    "id": "Q_ORG_PART_065",
+    "question": "Che cos'è l''Istituzione' secondo l'art. 114 del TUEL?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Una multinazionale quotata a Piazza Affari"
+      },
+      {
+        "id": "B",
+        "text": "La sede del Municipio dove lavorano gli assessori"
+      },
+      {
+        "id": "C",
+        "text": "Un organismo strumentale dell'ente locale per l'esercizio di servizi sociali senza rilevanza economica, dotato di autonomia gestionale ma privo di personalità giuridica"
+      },
+      {
+        "id": "D",
+        "text": "Una fondazione privata a scopo di lucro bancario"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'istituzione ex art. 114, comma 2, TUEL è un organo strumentale privo di personalità giuridica, utilizzato per la gestione di servizi sociali, culturali o educativi privi di rilevanza imprenditoriale.",
+    "hint": "Organismo strumentale privo di autonoma personalità giuridica per servizi sociali/culturali.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_ORG_PART_066",
+    "question": "A norma dell'art. 14 del TUSP, le società a partecipazione pubblica sono soggette alle procedure concorsuali previste dal Codice della Crisi d'Impresa e dell'Insolvenza (fallimento)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "No, gli enti pubblici coprono sempre tutti i debiti impedendo il fallimento per legge"
+      },
+      {
+        "id": "B",
+        "text": "Solo le società con sede a Roma o Milano"
+      },
+      {
+        "id": "C",
+        "text": "Sono soggette solo alle leggi dello Stato del Vaticano"
+      },
+      {
+        "id": "D",
+        "text": "Sì, sono espressamente soggette alle disposizioni sul fallimento e sul concordato preventivo, nonché alle procedure di allerta e crisi d'impresa"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'art. 14 del D.Lgs. 175/2016 chiarisce espressamente la fallibilità delle società a partecipazione pubblica (salvo disposizioni speciali per l'in house stretto che impongono la prevenzione della crisi).",
+    "hint": "Le società pubbliche falliscono e sono soggette al Codice della Crisi d'Impresa come le società private.",
+    "level": "base"
+  },
+  {
+    "id": "Q_ORG_PART_067",
+    "question": "Quale divieto pone l'art. 14, comma 5, del TUSP in caso di crisi economico-finanziaria della società partecipata?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il divieto di erogare 'soccorsi finanziari' (salvataggi a fondo perduto) per ripianare perdite reiterate senza un solido e credibile piano di ristrutturazione"
+      },
+      {
+        "id": "B",
+        "text": "Il divieto di licenziare dipendenti che abbiano superato il periodo di prova"
+      },
+      {
+        "id": "C",
+        "text": "Il divieto di assumere avvocati per la difesa societaria"
+      },
+      {
+        "id": "D",
+        "text": "Il divieto di pagare le imposte di registro"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 14, comma 5, TUSP proibisce il cd. 'soccorso finanziario': le amministrazioni non possono sottoscrivere aumenti di capitale o ripianare perdite di società in perdita strutturale, a meno che non sia asseverato un piano di risanamento.",
+    "hint": "Divieto di 'soccorso finanziario' a fondo perduto per coprire perdite senza piano di risanamento.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_ORG_PART_068",
+    "question": "Cosa prevede l'art. 17 del D.Lgs. 175/2016 per le 'Società a Partecipazione Mista Pubblico-Privata'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il socio privato può essere scelto liberamente dal Sindaco senza gara"
+      },
+      {
+        "id": "B",
+        "text": "Il socio privato deve essere scelto mediante una procedura a evidenza pubblica a doppio oggetto (scelta del socio e contestuale affidamento dei compiti operativi)"
+      },
+      {
+        "id": "C",
+        "text": "La quota del socio privato deve essere pari ad almeno il 99%"
+      },
+      {
+        "id": "D",
+        "text": "Il socio privato non ha diritto ad alcun utile di bilancio"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Nelle società miste, l'art. 17 TUSP richiede la gara 'a doppio oggetto' con cui si seleziona sia il partner privato industriale/operativo (con quota non inferiore al 30%) sia l'affidamento delle prestazioni operative.",
+    "hint": "Gara a doppio oggetto: scelta del socio privato e assegnazione dell'attività operativa.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_ORG_PART_069",
+    "question": "In base all'art. 17, comma 4, del TUSP, quale quota minima di partecipazione al capitale sociale deve detenere il socio privato nella società mista?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Una quota massima dell'1 per cento"
+      },
+      {
+        "id": "B",
+        "text": "Esattamente il 50 per cento diviso a metà"
+      },
+      {
+        "id": "C",
+        "text": "Una quota di partecipazione non inferiore al 30 per cento"
+      },
+      {
+        "id": "D",
+        "text": "Non è prevista alcuna quota minima"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'art. 17, comma 4, stabilisce che la quota di partecipazione del partner privato non può essere inferiore al 30 per cento, per assicurarne il reale impegno imprenditoriale e l'assunzione del rischio.",
+    "hint": "La quota del partner privato non può essere inferiore al 30%.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_ORG_PART_070",
+    "question": "Ai sensi dell'art. 5 del TUSP, l'atto deliberativo di costituzione di una nuova società partecipata o di acquisizione di partecipazioni deve essere adottato da:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il responsabile dell'ufficio protocollo"
+      },
+      {
+        "id": "B",
+        "text": "Il tesoriere bancario su richiesta informale"
+      },
+      {
+        "id": "C",
+        "text": "Un'ordinanza contingibile e urgente del Sindaco"
+      },
+      {
+        "id": "D",
+        "text": "Il Consiglio comunale o l'organo assembleare dell'ente, con motivazione analitica sulla convenienza economica e sostenibilità finanziaria"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'art. 5 TUSP riserva inderogabilmente la competenza al Consiglio (art. 42 TUEL) con motivazione analitica che evidenzi la necessità, la convenienza rispetto al mercato e la sostenibilità finanziaria.",
+    "hint": "Competenza consiliare con motivazione analitica rafforzata.",
+    "level": "base"
+  },
+  {
+    "id": "Q_ORG_PART_071",
+    "question": "Cosa deve trasmettere l'ente locale alla Corte dei Conti ai sensi dell'art. 5, commi 3 e 4, del TUSP prima della costituzione di una nuova società partecipata?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'atto deliberativo per l'acquisizione del parere preventivo obbligatorio sulla sostenibilità finanziaria e compatibilità con il TUSP"
+      },
+      {
+        "id": "B",
+        "text": "La dichiarazione di recesso da tutti i trattati internazionali"
+      },
+      {
+        "id": "C",
+        "text": "Le copie dei documenti d'identità dei futuri clienti"
+      },
+      {
+        "id": "D",
+        "text": "La sola fattura per l'acquisto della sede"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 5 impone l'invio della delibera consiliare alla Corte dei Conti che rilascia un parere preventivo entro 60 giorni sulla compatibilità con il TUSP e sulla sostenibilità finanziaria.",
+    "hint": "Parere preventivo obbligatorio della Corte dei Conti prima della costituzione/acquisto.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_ORG_PART_072",
+    "question": "A norma dell'art. 12 del TUSP, chi è competente a deliberare l'azione sociale di responsabilità nei confronti degli amministratori di società partecipate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il Tribunale Ecclesiastico"
+      },
+      {
+        "id": "B",
+        "text": "L'assemblea ordinaria dei soci, ai sensi delle norme del codice civile"
+      },
+      {
+        "id": "C",
+        "text": "Il Presidente del Consiglio dei Ministri"
+      },
+      {
+        "id": "D",
+        "text": "L'associazione dei consumatori di zona"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "I soci pubblici esercitano i propri diritti secondo le regole civilistiche: l'azione di responsabilità verso gli amministratori (art. 2393 c.c.) è promossa con deliberazione dell'assemblea dei soci.",
+    "hint": "È deliberata dall'assemblea ordinaria dei soci ai sensi del codice civile.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_ORG_PART_073",
+    "question": "Quale clausola deve obbligatoriamente contenere lo statuto delle società in house ai sensi dell'art. 16, comma 2, del TUSP?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La possibilità di emettere titoli obbligazionari speculativi anonimi"
+      },
+      {
+        "id": "B",
+        "text": "Il divieto di presentare il bilancio d'esercizio"
+      },
+      {
+        "id": "C",
+        "text": "La clausola che impone che oltre l'80 per cento del loro fatturato sia effettuato nello svolgimento dei compiti affidati dagli enti pubblici soci"
+      },
+      {
+        "id": "D",
+        "text": "La distribuzione del 100% degli utili a soggetti privati"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Lo statuto deve prevedere che almeno l'80% del fatturato derivi dai contratti di servizio con gli enti soci affidanti; l'eventuale residuo 20% sul mercato deve essere strettamente correlato per economie di scala.",
+    "hint": "Clausola statutaria inderogabile: oltre l'80% del fatturato con gli enti soci controllanti.",
+    "level": "base"
+  },
+  {
+    "id": "Q_ORG_PART_074",
+    "question": "In caso di mancato rispetto del limite dell'80% dell'attività svolta con gli enti soci in una società in house:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Vengono raddoppiati gli stipendi del personale dipendente"
+      },
+      {
+        "id": "B",
+        "text": "La società viene regalata al socio privato"
+      },
+      {
+        "id": "C",
+        "text": "Non si applica alcuna conseguenza legale"
+      },
+      {
+        "id": "D",
+        "text": "La società deve cessare le attività verso terzi entro tre mesi ovvero procedere alla dismissione o rinuncia allo status di in-house"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Se non rispetta il limite dell'80%, la società in house perde i requisiti legali e gli affidamenti diretti decadono per violazione della concorrenza comunitaria.",
+    "hint": "Comporta la perdita dello status di in-house e l'illegittimità degli affidamenti diretti.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_ORG_PART_075",
+    "question": "Quale obbligo di trasparenza incombe sulle società a controllo pubblico ai sensi del D.Lgs. 33/2013 novellato?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La pubblicazione sul sito web istituzionale nella sezione 'Società trasparente' di bilanci, compensi, nomine, consulenze e selezioni del personale"
+      },
+      {
+        "id": "B",
+        "text": "La segretezza totale di tutti gli atti societari"
+      },
+      {
+        "id": "C",
+        "text": "La pubblicazione dei dati solo su canali social privati a pagamento"
+      },
+      {
+        "id": "D",
+        "text": "L'invio degli atti esclusivamente all'archivio storico comunale"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 2-bis del D.Lgs. 33/2013 estende alle società a controllo pubblico la disciplina della trasparenza: hanno l'obbligo di pubblicare dati su compensi, curricula, bandi e bilanci nella sezione 'Società Trasparente'.",
+    "hint": "Pubblicazione obbligatoria dei dati nella sezione 'Società Trasparente' come per le PA.",
+    "level": "base"
+  },
+  {
+    "id": "Q_ORG_PART_076",
+    "question": "Cosa disciplina l'art. 21 del TUSP in tema di 'Controllo sulle società partecipate non quotate'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'obbligo di intercettare le telefonate del consiglio di amministrazione"
+      },
+      {
+        "id": "B",
+        "text": "L'ente pubblico socio definisce con apposito regolamento un efficace sistema di controllo interno e monitoraggio sull'andamento della gestione e sugli obiettivi contrattuali"
+      },
+      {
+        "id": "C",
+        "text": "Il divieto di controllare i conti della società partecipata"
+      },
+      {
+        "id": "D",
+        "text": "La nomina del revisore dei conti scelto dagli azionisti privati"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 21 impone a ciascun ente socio di strutturare un sistema di controllo sulle partecipate (richiamato dall'art. 147-quater TUEL) che verifichi l'andamento finanziario e la qualità dei servizi.",
+    "hint": "Obbligo di regolamentare e attuare il controllo analogo e il monitoraggio gestionale e finanziario.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_ORG_PART_077",
+    "question": "A norma dell'art. 147-quater del TUEL, qual è l'obiettivo del 'Controllo sulle società partecipate' dell'ente locale?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Impedire alle società di pagare gli stipendi ai lavoratori"
+      },
+      {
+        "id": "B",
+        "text": "Garantire sconti commerciali ai consiglieri comunali"
+      },
+      {
+        "id": "C",
+        "text": "Verificare il raggiungimento degli obiettivi gestionali, analizzare gli scostamenti rispetto al bilancio dell'ente e prevenire il formarsi di disavanzi o debiti fuori bilancio"
+      },
+      {
+        "id": "D",
+        "text": "Trasferire gli uffici all'estero per motivi fiscali"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'art. 147-quater TUEL integra i controlli interni del Comune: serve a monitorare l'equilibrio finanziario del gruppo pubblico locale ed evitare che i debiti delle partecipate ricadano sul bilancio comunale.",
+    "hint": "Monitoraggio dei bilanci e degli obiettivi per salvaguardare gli equilibri dell'ente locale.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_ORG_PART_078",
+    "question": "Cos'è il 'Bilancio Consolidato' disciplinato dall'art. 233-bis del TUEL e dal D.Lgs. 118/2011?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il consolidamento del debito pubblico dello Stato italiano"
+      },
+      {
+        "id": "B",
+        "text": "Un prospetto sintetico che cancella tutti i debiti dell'ente"
+      },
+      {
+        "id": "C",
+        "text": "La somma delle bollette dell'energia elettrica municipali"
+      },
+      {
+        "id": "D",
+        "text": "Il bilancio che aggrega i risultati economico-patrimoniali del Comune e di tutte le sue società, enti strumentali e organismi partecipati compresi nel perimetro di consolidamento"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Il bilancio consolidato (approvato entro il 30 settembre) rappresenta la situazione finanziaria, patrimoniale ed economica dell'intero gruppo amministrazione pubblica, unendo il Comune e le partecipate.",
+    "hint": "Rappresenta il quadro economico-patrimoniale unitario dell'ente locale e di tutte le sue partecipate.",
+    "level": "base"
+  },
+  {
+    "id": "Q_ORG_PART_079",
+    "question": "Entro quale termine deve essere approvato dal Consiglio comunale il bilancio consolidato (art. 233-bis TUEL)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Entro il 30 settembre di ciascun anno successivo all'esercizio di riferimento"
+      },
+      {
+        "id": "B",
+        "text": "Entro il 31 dicembre di ogni triennio"
+      },
+      {
+        "id": "C",
+        "text": "Entro ventiquattro ore dalla chiusura delle urne elettorali"
+      },
+      {
+        "id": "D",
+        "text": "Non esiste alcun termine per il bilancio consolidato"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il bilancio consolidato deve essere approvato dal Consiglio comunale entro il 30 settembre dell'anno successivo a quello a cui si riferisce la rendicontazione.",
+    "hint": "Termine inderogabile del 30 settembre dell'anno successivo.",
+    "level": "base"
+  },
+  {
+    "id": "Q_ORG_PART_080",
+    "question": "Cosa prevede l'art. 6 del D.Lgs. 175/2016 per la 'Governance e modelli di compliance' nelle società a controllo pubblico?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La totale immunità penale per gli amministratori delegati"
+      },
+      {
+        "id": "B",
+        "text": "L'adozione di un Modello di Organizzazione e Gestione ai sensi del D.Lgs. 231/2001 e la nomina del Responsabile della Prevenzione della Corruzione e Trasparenza (RPCT)"
+      },
+      {
+        "id": "C",
+        "text": "L'abolizione dell'organo di revisione legale dei conti"
+      },
+      {
+        "id": "D",
+        "text": "L'assegnazione delle auto aziendali a tutti i soci di minoranza"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 6 impone l'integrazione del modello 231 con le misure di prevenzione della corruzione (PTPCT) e la nomina dell'RPCT, rafforzando la legalità aziendale.",
+    "hint": "Modello 231 per la prevenzione reati e nomina dell'RPCT aziendale.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_ORG_PART_081",
+    "question": "In base all'art. 8 del TUSP, l'alienazione di partecipazioni societarie da parte di una PA deve avvenire:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Con cessione diretta a prezzo di saldo al primo offerente"
+      },
+      {
+        "id": "B",
+        "text": "Gratuitamente a favore dei partiti politici locali"
+      },
+      {
+        "id": "C",
+        "text": "Nel rispetto dei principi di pubblicità, trasparenza e non discriminazione, di norma mediante procedura competitiva aperta a evidenza pubblica"
+      },
+      {
+        "id": "D",
+        "text": "Solo se deliberata dal collegio arbitrale internazionale"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "La vendita delle quote societarie pubbliche deve seguire procedure competitive a evidenza pubblica per garantire trasparenza e massimizzare il valore economico incassato dalla PA.",
+    "hint": "Procedura competitiva a evidenza pubblica a tutela del valore del patrimonio pubblico.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_ORG_PART_082",
+    "question": "Quale sanzione si applica in caso di mancata alienazione di quote societarie non ammesse dal TUSP entro i termini di legge (art. 24 TUSP)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il Comune perde la propria autonomia costituzionale"
+      },
+      {
+        "id": "B",
+        "text": "La quota societaria passa automaticamente di proprietà alla BCE"
+      },
+      {
+        "id": "C",
+        "text": "Nessuna sanzione, la quota rimane valida a vita"
+      },
+      {
+        "id": "D",
+        "text": "I diritti patrimoniali e amministrativi del socio pubblico sono sospesi e la partecipazione deve essere liquidata a norma dell'art. 2437-ter c.c."
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'art. 24, comma 5, TUSP sancisce che, decorso il termine per la dismissione, i diritti sociali sono sospesi e la società deve procedere alla liquidazione in denaro della quota dell'ente.",
+    "hint": "Sospensione dei diritti sociali (voto, dividendi) e obbligo di liquidazione in denaro.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_ORG_PART_083",
+    "question": "Chi nomina gli amministratori delle società partecipate spettanti all'ente locale ai sensi dell'art. 50, comma 8, del TUEL?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il Sindaco o il Presidente della Provincia, sulla base degli indirizzi generali stabiliti dal Consiglio"
+      },
+      {
+        "id": "B",
+        "text": "La Giunta all'unanimità con voto segreto"
+      },
+      {
+        "id": "C",
+        "text": "I rappresentanti sindacali aziendali"
+      },
+      {
+        "id": "D",
+        "text": "Il Presidente del Tribunale civile"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 50, comma 8, attribuisce al Sindaco il potere di nomina, designazione e revoca dei rappresentanti del Comune presso enti, aziende ed istituzioni, conformemente agli indirizzi del Consiglio.",
+    "hint": "Nomina di competenza del Sindaco sulla base degli indirizzi del Consiglio.",
+    "level": "base"
+  },
+  {
+    "id": "Q_ORG_PART_084",
+    "question": "A norma dell'art. 11, comma 8, del TUSP, i dipendenti delle pubbliche amministrazioni titolari di partecipazioni possono essere nominati amministratori delle società controllate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sì, cumulando liberamente doppi stipendi e bonus aziendali senza limiti"
+      },
+      {
+        "id": "B",
+        "text": "Di regola no, salvo dipendenti con incarico gratuito o riversamento dell'eventuale compenso al bilancio dell'amministrazione di appartenenza"
+      },
+      {
+        "id": "C",
+        "text": "Solo se hanno meno di 30 anni di età"
+      },
+      {
+        "id": "D",
+        "text": "Mai, è vietato a pena di arresto immediato"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 11, commi 8 e 9, TUSP limita le nomine dei dipendenti dell'amministrazione controllante: l'incarico è svolto a titolo gratuito oppure il compenso è riversato all'amministrazione (onnicomprensività).",
+    "hint": "Principio di gratuità o riversamento obbligatorio del compenso all'ente di appartenenza.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_ORG_PART_085",
+    "question": "Cos'è il Fondo di garanzia debiti società partecipate previsto dall'art. 1, commi 551 e ss., della L. 147/2013?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un prestito bancario erogato a tassi agevolati dalla Banca d'Italia"
+      },
+      {
+        "id": "B",
+        "text": "Un premio annuale distribuito ai manager delle partecipate"
+      },
+      {
+        "id": "C",
+        "text": "Un accantonamento obbligatorio nel bilancio del Comune in presenza di perdite di esercizio registrate dagli organismi partecipati"
+      },
+      {
+        "id": "D",
+        "text": "Una polizza assicurativa privata contro il furto di macchinari"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'ente locale deve accantonare a bilancio un apposito fondo proporzionato alla propria quota di partecipazione per le perdite non ripianate registrate dalle proprie società o enti partecipati.",
+    "hint": "Accantonamento a bilancio a copertura delle perdite registrate dalle partecipate.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_ORG_PART_086",
+    "question": "Quale organo approva il Contratto di Servizio tra l'ente locale e la società in house (art. 112 TUEL e D.Lgs. 201/2022)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'assemblea dei condomini della sede societaria"
+      },
+      {
+        "id": "B",
+        "text": "Il Ministero dell'Interno con decreto"
+      },
+      {
+        "id": "C",
+        "text": "Il notaio rogante in via esclusiva"
+      },
+      {
+        "id": "D",
+        "text": "La Giunta comunale o il dirigente competente, in attuazione delle deliberazioni consiliari di indirizzo e affidamento"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Il contratto di servizio regola i reciproci obblighi (standard qualitativi, corrispettivi, penali e verifiche) ed è approvato dall'organo esecutivo o gestionale dell'ente affidante.",
+    "hint": "Atto gestionale approvato dall'ente in attuazione della decisione quadro consiliare.",
+    "level": "base"
+  },
+  {
+    "id": "Q_ORG_PART_087",
+    "question": "Cosa deve prevedere obbligatoriamente il Contratto di Servizio di un servizio pubblico locale?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Standard qualitativi e quantitativi del servizio, obblighi di continuità, tariffe applicabili, penali per inadempimento e modalità di verifica degli utenti"
+      },
+      {
+        "id": "B",
+        "text": "La promessa di non effettuare mai controlli sulla gestione"
+      },
+      {
+        "id": "C",
+        "text": "L'obbligo di assumere solo candidati residenti nella stessa via"
+      },
+      {
+        "id": "D",
+        "text": "Il rimborso delle tasse a fine anno in contanti"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il contratto di servizio è lo strumento operativo essenziale: fissa diritti, doveri, livelli minimi di servizio (SLA), tariffe, penali e modalità di risoluzione delle controversie.",
+    "hint": "Fissa standard minimi, tariffe, continuità del servizio e sanzioni per inadempimento.",
+    "level": "base"
+  },
+  {
+    "id": "Q_ORG_PART_088",
+    "question": "Nelle società a controllo pubblico, chi nomina il Collegio Sindacale (organo di controllo contabile e di legalità)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il Presidente del TAR territoriale"
+      },
+      {
+        "id": "B",
+        "text": "L'assemblea ordinaria dei soci, secondo le previsioni del codice civile e le norme statutarie che garantiscono la rappresentanza degli enti soci"
+      },
+      {
+        "id": "C",
+        "text": "I sindacati di categoria maggiormente rappresentativi"
+      },
+      {
+        "id": "D",
+        "text": "Il comandante della Polizia Provinciale"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il collegio sindacale (o sindaco unico) è nominato dall'assemblea dei soci ai sensi dell'art. 2400 c.c.; i soci pubblici vi designano i propri rappresentanti secondo i criteri statutari.",
+    "hint": "Nominato dall'assemblea dei soci ai sensi dell'art. 2400 c.c.",
+    "level": "base"
+  },
+  {
+    "id": "Q_ORG_PART_089",
+    "question": "A norma dell'art. 10 del TUSP, l'atto costitutivo delle società controllate può prevedere l'emissione di 'quote o azioni a favore dei dipendenti'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "No, è vietato a pena di reclusione fino a 3 anni"
+      },
+      {
+        "id": "B",
+        "text": "Solo se la società è insolvente"
+      },
+      {
+        "id": "C",
+        "text": "Sì, può prevedere l'emissione di strumenti finanziari o quote per i dipendenti nel rispetto dei limiti di legge e senza alterare il controllo pubblico"
+      },
+      {
+        "id": "D",
+        "text": "Solo se i dipendenti hanno la nazionalità svizzera"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'art. 10 consente l'adozione di clausole di azionariato diffuso o partecipazione dei dipendenti, purché non sia compromesso il controllo analogo o la natura pubblica maggioritaria.",
+    "hint": "Ammesso purché non alteri il controllo pubblico della società.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_ORG_PART_090",
+    "question": "In merito al conferimento di incarichi dirigenziali nelle società controllate, quali vincoli pone il D.Lgs. 39/2013 (inconferibilità e incompatibilità)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nessun vincolo, qualsiasi politico in carica può fare contemporaneamente l'amministratore delegato"
+      },
+      {
+        "id": "B",
+        "text": "Si applica solo ai soggetti con doppia cittadinanza"
+      },
+      {
+        "id": "C",
+        "text": "Le nomine sono del tutto libere da controlli"
+      },
+      {
+        "id": "D",
+        "text": "Non possono essere nominati soggetti condannati per reati contro la PA, né coloro che nei due anni precedenti abbiano ricoperto cariche politiche negli enti soci controllanti (cd. periodo di raffreddamento)"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Il D.Lgs. 39/2013 impone rigide cause di inconferibilità (reati contro la PA o provenienza da incarichi politici comunali nei 2 anni precedenti - cooling off) per evitare commistioni tra controllore e controllato.",
+    "hint": "Divieto di nomine per condanne penali contro la PA e cooling off per cariche politiche pregresse.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_ORG_PART_091",
+    "question": "Quale durata massima possono avere gli incarichi degli organi di amministrazione e controllo nelle società partecipate pubbliche?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tre esercizi consecutivi, con scadenza alla data dell'assemblea convocata per l'approvazione del bilancio relativo all'ultimo esercizio (art. 2383 c.c.)"
+      },
+      {
+        "id": "B",
+        "text": "Venti anni non revocabili"
+      },
+      {
+        "id": "C",
+        "text": "Un solo mese non rinnovabile"
+      },
+      {
+        "id": "D",
+        "text": "A vita salvo dimissioni volontarie"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Si applicano le regole del codice civile (art. 2383 c.c.): gli amministratori sono nominati per un periodo massimo di 3 esercizi, rieleggibili e revocabili dall'assemblea.",
+    "hint": "Durata massima ordinaria di tre esercizi societari.",
+    "level": "base"
+  },
+  {
+    "id": "Q_ORG_PART_092",
+    "question": "Cosa si intende per 'Consorzio tra enti locali' ai sensi dell'art. 31 del TUEL?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un sindacato di categoria di dipendenti pubblici"
+      },
+      {
+        "id": "B",
+        "text": "Un ente pubblico strumentale associativo costituito da Comuni e altri enti locali per la gestione associata di uno o più servizi o funzioni rilevanti"
+      },
+      {
+        "id": "C",
+        "text": "Un accordo tra banche d'investimento"
+      },
+      {
+        "id": "D",
+        "text": "Una fondazione estera per la tutela dei monumenti"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 31 TUEL disciplina il Consorzio di enti locali: è un soggetto autonomo dotato di assemblea (composta dai Sindaci) e CdA per gestire funzioni o servizi in forma aggregata.",
+    "hint": "Ente pubblico per la gestione associata di funzioni e servizi tra Comuni.",
+    "level": "base"
+  },
+  {
+    "id": "Q_ORG_PART_093",
+    "question": "Nelle società a controllo pubblico, i contratti di appalto di lavori, servizi e forniture:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Possono essere assegnati senza alcuna gara con totale libertà privata"
+      },
+      {
+        "id": "B",
+        "text": "Non sono sottoposti a nessun tipo di controllo ANAC"
+      },
+      {
+        "id": "C",
+        "text": "Devono essere stipulati nel rispetto integrale del Codice dei Contratti Pubblici (D.Lgs. 36/2023), in quanto organismi di diritto pubblico o imprese pubbliche"
+      },
+      {
+        "id": "D",
+        "text": "Si applicano solo per importi superiori a un miliardo di euro"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Le società in house e quelle controllate rientrano nella nozione di stazioni appaltanti o organismi di diritto pubblico e sono pienamente vincolate all'applicazione del D.Lgs. 36/2023.",
+    "hint": "Piena applicazione del Codice dei Contratti Pubblici D.Lgs. 36/2023.",
+    "level": "base"
+  },
+  {
+    "id": "Q_ORG_PART_094",
+    "question": "Ai sensi dell'art. 9 del TUSP, l'esercizio dei diritti del socio spetta:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Al consigliere comunale più anziano di età"
+      },
+      {
+        "id": "B",
+        "text": "A qualsiasi cittadino previa domanda scritta"
+      },
+      {
+        "id": "C",
+        "text": "Al Prefetto della provincia in qualità di commissario ad acta"
+      },
+      {
+        "id": "D",
+        "text": "Al Sindaco o ad un suo delegato per il Comune, che esprime la volontà deliberata dagli organi dell'ente in assemblea"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Il Sindaco (o suo delegato) rappresenta il Comune in assemblea societaria esprimendo il voto dell'ente in adempimento degli indirizzi ricevuti dal Consiglio.",
+    "hint": "Il Sindaco o suo delegato rappresenta l'ente locale nell'assemblea societaria.",
+    "level": "base"
+  },
+  {
+    "id": "Q_ORG_PART_095",
+    "question": "A norma dell'art. 25 del TUSP, le disposizioni transitorie del TUSP sulle partecipazioni:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hanno imposto la ricognizione straordinaria di tutte le partecipazioni pubbliche possedute alla data di entrata in vigore del decreto per dismettere quelle non conformi"
+      },
+      {
+        "id": "B",
+        "text": "Hanno abrogato la proprietà privata delle aziende"
+      },
+      {
+        "id": "C",
+        "text": "Hanno trasformato tutti i Comuni in società per azioni"
+      },
+      {
+        "id": "D",
+        "text": "Hanno vietato la costituzione di società in house"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 25 del D.Lgs. 175/2016 ha imposto il piano di revisione straordinaria delle partecipazioni, avviando lo sfoltimento delle scatole vuote societarie e delle partecipazioni non conformi.",
+    "hint": "Revisione straordinaria iniziale per dismettere le partecipazioni illegittime o inutili.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_ORG_PART_096",
+    "question": "Cos'è il 'Whistleblowing' e come si applica alle società a controllo pubblico (D.Lgs. 24/2023)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il fischio d'inizio delle assemblee societarie"
+      },
+      {
+        "id": "B",
+        "text": "Il canale sicuro e protetto di segnalazione di illeciti o violazioni di legge da parte di dipendenti o collaboratori con divieto di ritorsioni a loro carico"
+      },
+      {
+        "id": "C",
+        "text": "Un incentivo economico versato a chi denuncia un collega"
+      },
+      {
+        "id": "D",
+        "text": "La trasmissione dei bilanci societari via telegrafo"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il D.Lgs. 24/2023 applica la tutela dei whistleblower anche a tutte le società controllate da pubbliche amministrazioni: obbligo di canali di segnalazione crittografati e protezione da licenziamenti o demansionamenti.",
+    "hint": "Tutela delle segnalazioni di illeciti interni con assoluto divieto di ritorsioni.",
+    "level": "base"
+  },
+  {
+    "id": "Q_ORG_PART_097",
+    "question": "Qual è il regime della 'revoca' degli amministratori di società pubbliche nominati dal Sindaco ex art. 2383 c.c. e art. 50 TUEL?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sono inamovibili per tutta la vita lavorativa"
+      },
+      {
+        "id": "B",
+        "text": "Possono essere rimossi solo dal Consiglio di Sicurezza dell'ONU"
+      },
+      {
+        "id": "C",
+        "text": "Possono essere revocati dall'assemblea o con atto del Sindaco per giusta causa o per il venir meno del rapporto di fiducia politica/programmatica, fermo il risarcimento ove previsto"
+      },
+      {
+        "id": "D",
+        "text": "Decadono solo in caso di decesso del titolare"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "La revoca dei rappresentanti comunali nominati dal Sindaco può avvenire sia per giusta causa civilistica che per dissenso rispetto agli indirizzi politico-amministrativi consiliari.",
+    "hint": "Revocabili per giusta causa o per mancata attuazione degli indirizzi di mandato del Sindaco.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_ORG_PART_098",
+    "question": "A norma dell'art. 2 del TUSP, per 'società a controllo pubblico indiretto' si intende:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Una società controllata dal governo di uno Stato estero"
+      },
+      {
+        "id": "B",
+        "text": "Una società quotata su una borsa americana"
+      },
+      {
+        "id": "C",
+        "text": "Una ditta individuale con meno di due dipendenti"
+      },
+      {
+        "id": "D",
+        "text": "La società in cui una o più amministrazioni pubbliche esercitano il controllo per il tramite di una o più società intermedie controllate"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Il controllo indiretto sussiste quando l'amministrazione controlla una società holding (capogruppo) che a sua volta detiene la quota di controllo sulla società operativa (sub-holding o controllata di secondo livello).",
+    "hint": "Controllo esercitato tramite una società partecipata capogruppo intermedia.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_ORG_PART_099",
+    "question": "Quale ruolo svolge l'ANAC in merito agli affidamenti in house (art. 7 D.Lgs. 36/2023)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Gestisce l'Elenco delle stazioni appaltanti che operano mediante affidamenti diretti in house, verificando i requisiti del controllo analogo"
+      },
+      {
+        "id": "B",
+        "text": "Finanzia l'acquisto di veicoli aziendali"
+      },
+      {
+        "id": "C",
+        "text": "Redige i bilanci annuali delle società partecipate"
+      },
+      {
+        "id": "D",
+        "text": "Nomina il direttore delle risorse umane"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 7 D.Lgs. 36/2023 mantiene l'elenco speciale presso l'ANAC in cui gli enti e le loro società in-house devono essere iscritti per legittimare gli affidamenti diretti.",
+    "hint": "Iscrizione e vigilanza nell'Elenco speciale ANAC degli affidamenti in house.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_ORG_PART_100",
+    "question": "In merito alla crisi aziendale delle società partecipate, la tempestiva segnalazione all'organo amministrativo spetta:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ai fornitori di cancelleria del Comune"
+      },
+      {
+        "id": "B",
+        "text": "All'organo di controllo (collegio sindacale o revisore), al fine di adottare subito i provvedimenti per superare lo squilibrio economico-patrimoniale"
+      },
+      {
+        "id": "C",
+        "text": "Ai soli clienti consumatori privati"
+      },
+      {
+        "id": "D",
+        "text": "Al Questore del capoluogo"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "In ossequio al Codice della Crisi d'Impresa (D.Lgs. 14/2019) e all'art. 14 TUSP, il collegio sindacale ha il dovere perentorio di vigilare sull'adeguatezza dell'assetto organizzativo e segnalare tempestivamente la perdita della continuità aziendale.",
+    "hint": "Obbligo di allerta e vigilanza tempestiva in capo all'organo di controllo / collegio sindacale.",
+    "level": "avanzato"
   }
 ]

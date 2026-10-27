@@ -1298,5 +1298,1305 @@
     "explanation": "L'art. 61 del Regolamento Finanziario UE sancisce il rigoroso obbligo di astensione per chiunque intervenga nell'esecuzione del bilancio dell'Unione qualora l'esercizio imparziale delle funzioni sia compromesso da motivi familiari, affettivi, politici o di interesse economico diretto o indiretto.",
     "hint": "Obbligo perentorio di astensione per preservare la totale imparzialità nella spesa dei fondi UE.",
     "level": "base"
+  },
+  {
+    "id": "Q_PROG_COM_051",
+    "question": "Cos'è il principio DNSH ('Do No Significant Harm' - Non arrecare un danno significativo all'ambiente) introdotto dal Regolamento UE 2020/852?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il vincolo inderogabile per tutti gli investimenti e progetti del PNRR che impone di non arrecare danni significativi a nessuno dei 6 obiettivi ambientali dell'UE"
+      },
+      {
+        "id": "B",
+        "text": "L'obbligo di piantare dieci alberi per ogni computer acquistato dalla PA"
+      },
+      {
+        "id": "C",
+        "text": "Il divieto di transitare con auto a diesel nei pressi dei municipi"
+      },
+      {
+        "id": "D",
+        "text": "Un accordo internazionale sul commercio del carbone"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il principio DNSH è il cardine della transizione ecologica europea nel PNRR: ogni intervento deve dimostrare ex ante e rendicontare ex post di non pregiudicare la mitigazione e l'adattamento ai cambiamenti climatici, l'acqua, l'economia circolare, l'inquinamento e la biodiversità.",
+    "hint": "Obbligo vincolante del PNRR: nessun danno a clima, acque, biodiversità e ambiente.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PROG_COM_052",
+    "question": "Quali sono i 6 obiettivi ambientali previsti dalla Tassonomia UE per la verifica della conformità al principio DNSH?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Turismo, spettacolo, sanità, istruzione, difesa e agricoltura"
+      },
+      {
+        "id": "B",
+        "text": "Mitigazione cambiamenti climatici, adattamento ai cambiamenti climatici, uso sostenibile delle acque, economia circolare, prevenzione dell'inquinamento e tutela della biodiversità"
+      },
+      {
+        "id": "C",
+        "text": "Commercio online, trasporti su gomma, miniere, pesca, finanza e banche"
+      },
+      {
+        "id": "D",
+        "text": "Costruzioni edili, petrolio, gas naturale, energia nucleare, carbone e plastica"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 9 del Regolamento (UE) 2020/852 fissa i 6 obiettivi: mitigazione climatica, adattamento climatico, risorse idriche e marine, economia circolare, prevenzione inquinamento e biodiversità.",
+    "hint": "Sono i 6 pilastri ambientali: clima (mitigazione e adattamento), acque, economia circolare, inquinamento e biodiversità.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PROG_COM_053",
+    "question": "Nel PNRR, cosa sono i 'Milestone' e i 'Target' e che differenza sussiste tra loro?",
+    "options": [
+      {
+        "id": "A",
+        "text": "I Milestone sono le spese correnti, i Target sono i debiti verso le banche"
+      },
+      {
+        "id": "B",
+        "text": "I Milestone riguardano solo il Ministero della Difesa, i Target il Ministero dell'Interno"
+      },
+      {
+        "id": "C",
+        "text": "I Milestone sono traguardi qualitativi (riforme, adozioni di leggi o atti); i Target sono obiettivi quantitativi misurabili (chilometri di ferrovia, asili costruiti, numero di persone formate)"
+      },
+      {
+        "id": "D",
+        "text": "Sono termini perfettamente sinonimi senza alcuna distinzione tecnica"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Nel meccanismo di performance del PNRR (RRF): i Milestone misurano tappe qualitative normative o procedurali; i Target misurano risultati fisici o numerici quantitativi raggiunti.",
+    "hint": "Milestone = traguardo qualitativo (riforme/leggi); Target = obiettivo quantitativo (numeri/volumi).",
+    "level": "base"
+  },
+  {
+    "id": "Q_PROG_COM_054",
+    "question": "Come avviene l'erogazione delle risorse finanziarie del PNRR (NextGenerationEU) da parte della Commissione Europea all'Italia?",
+    "options": [
+      {
+        "id": "A",
+        "text": "In un'unica soluzione anticipata senza alcun controllo"
+      },
+      {
+        "id": "B",
+        "text": "Sulla base della semplice esibizione delle fatture quietanzate di spesa"
+      },
+      {
+        "id": "C",
+        "text": "In base al numero di abitanti registrati all'anagrafe"
+      },
+      {
+        "id": "D",
+        "text": "A rate semestrali subordinate all'effettivo e verificato raggiungimento di tutti i Milestone e Target concordati per quel periodo"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Il Recovery and Resilience Facility (RRF) è un fondo 'performance-based': la Commissione UE non rimborsa i costi effettivi, ma eroga le tranche finanziarie semestrali solo se i Milestone e i Target prefissati sono raggiunti al 100%.",
+    "hint": "Logica 'performance-based': fondi sbloccati solo al raggiungimento effettivo di milestone e target.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PROG_COM_055",
+    "question": "Cos'è la piattaforma telematica 'ReGiS' istituita presso il Ministero dell'Economia e delle Finanze (MEF)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il sistema informatico unico per la rilevazione, rendicontazione, monitoraggio e controllo di tutte le misure e i progetti del PNRR"
+      },
+      {
+        "id": "B",
+        "text": "Il registro anagrafico della popolazione canina municipale"
+      },
+      {
+        "id": "C",
+        "text": "Il portale turistico per l'iscrizione a visite guidate comunali"
+      },
+      {
+        "id": "D",
+        "text": "Il sito web per prenotare i biglietti dei traghetti"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "ReGiS (D.L. 152/2021) è la piattaforma informativa unica centrale attraverso cui i soggetti attuatori (inclusi i Comuni) caricano anagrafiche, cronoprogrammi, gare, fatture e indicatori di avanzamento fisico e finanziario del PNRR.",
+    "hint": "È la piattaforma informatica centrale di monitoraggio e rendicontazione del PNRR gestita dal MEF.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PROG_COM_056",
+    "question": "Quale ruolo svolge il 'Soggetto Attuatore' nel contesto di un progetto PNRR affidato a un Comune?",
+    "options": [
+      {
+        "id": "A",
+        "text": "È la ditta edile privata vincitrice dell'appalto"
+      },
+      {
+        "id": "B",
+        "text": "È il soggetto pubblico responsabile dell'avvio, attuazione, monitoraggio, rendicontazione e controllo dell'intervento, garantendo il rispetto dei cronoprogrammi e del DNSH"
+      },
+      {
+        "id": "C",
+        "text": "È il funzionario della Commissione Europea distaccato a Bruxelles"
+      },
+      {
+        "id": "D",
+        "text": "È il comitato di quartiere dei cittadini residenti"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il Comune beneficiario del finanziamento opera in qualità di 'Soggetto Attuatore': è responsabile della realizzazione dell'opera, della regolarità delle procedure di affidamento e della rendicontazione su ReGiS.",
+    "hint": "Il Comune è il Soggetto Attuatore che realizza il progetto e ne risponde sul piano operativo e rendicontativo.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PROG_COM_057",
+    "question": "Cosa si intende per 'Amministrazione Centrale Titolare di Intervento PNRR'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'ufficio elettorale del Comune"
+      },
+      {
+        "id": "B",
+        "text": "La Camera di Commercio della Regione"
+      },
+      {
+        "id": "C",
+        "text": "I Ministeri o Dipartimenti della Presidenza del Consiglio responsabili delle specifiche Missioni e Componenti del Piano verso la Commissione UE"
+      },
+      {
+        "id": "D",
+        "text": "Il Consiglio dell'Ordine degli Architetti"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Le Amministrazioni Centrali Titolari sono i Ministeri (es. MIT, MASE, MIM, Ministero dell'Interno) che emanano i bandi, assegnano i fondi ai Comuni e vigilano sul raggiungimento dei Milestone e Target.",
+    "hint": "Sono i Ministeri responsabili delle singole missioni del Piano verso l'UE e il MEF.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PROG_COM_058",
+    "question": "Cos'è il CUP (Codice Unico di Progetto) e perché è indispensabile nei progetti finanziati con risorse comunitarie e PNRR?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il numero di conto corrente bancario personale del progettista"
+      },
+      {
+        "id": "B",
+        "text": "Il codice fiscale dell'impresa appaltatrice dei lavori"
+      },
+      {
+        "id": "C",
+        "text": "Il codice identificativo del fornitore di carta da fotocopie"
+      },
+      {
+        "id": "D",
+        "text": "È il codice alfanumerico univoco che identifica ogni progetto d'investimento pubblico, obbligatorio su tutti gli atti e bonifici a pena di revoca del finanziamento"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Il CUP (istituito dall'art. 11 L. 3/2003) è la 'targa' identificativa del progetto d'investimento pubblico: deve essere indicato in tutte le delibere, contratti, fatture elettroniche e mandati a garanzia della tracciabilità.",
+    "hint": "È la targa univoca del progetto obbligatoria per tutti gli investimenti pubblici.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PROG_COM_059",
+    "question": "A norma dell'art. 47 del D.L. 77/2021 conv. in L. 108/2021, quale clausola occupazionale è obbligatoria nei contratti finanziati con risorse PNRR e PNC?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'obbligo di destinare almeno il 30% delle nuove assunzioni necessarie per l'esecuzione del contratto all'occupazione giovanile (under 36) e femminile"
+      },
+      {
+        "id": "B",
+        "text": "L'obbligo di assumere solo lavoratori che abbiano compiuto 60 anni"
+      },
+      {
+        "id": "C",
+        "text": "L'obbligo di assumere solo residenti nello stesso quartiere"
+      },
+      {
+        "id": "D",
+        "text": "Il divieto di assumere qualsiasi lavoratore a tempo determinato"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 47 del D.L. 77/2021 impone la parità generazionale e di genere: quota obbligatoria pari ad almeno il 30% delle assunzioni riservata a giovani sotto i 36 anni e a donne, salvo motivate deroghe.",
+    "hint": "Quota del 30% delle nuove assunzioni riservata a giovani (under 36) e donne.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PROG_COM_060",
+    "question": "Qual è il divieto di 'Doppio Finanziamento' sancito dall'art. 9 del Regolamento (UE) 2021/241 per il PNRR?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il divieto di accendere più di un conto corrente bancario per Comune"
+      },
+      {
+        "id": "B",
+        "text": "Lo stesso costo o identica quota di spesa non può essere rimborsata o coperta due volte da fondi diversi dell'Unione Europea o da altri programmi pubblici"
+      },
+      {
+        "id": "C",
+        "text": "Il divieto di stipulare due contratti di lavoro con la stessa ditta"
+      },
+      {
+        "id": "D",
+        "text": "L'obbligo di restituire tutti i fondi non spesi entro 24 ore"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il divieto di doppio finanziamento impedisce che la medesima spesa sia coperta due volte: è ammessa la sinergia e la complementarietà tra fondi (es. PNRR e fondi regionali), purché non coprano la stessa specifica quota di costo.",
+    "hint": "Lo stesso singolo costo non può essere rimborsato due volte da fondi diversi.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PROG_COM_061",
+    "question": "Che cosa si intende per 'Fondi SIE' nell'ambito delle politiche di coesione europea?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fondi segreti della NATO per interventi di emergenza"
+      },
+      {
+        "id": "B",
+        "text": "Le donazioni dei cittadini europei per il restauro delle chiese"
+      },
+      {
+        "id": "C",
+        "text": "Fondi Strutturali e di Investimento Europei (FESR, FSE+, Fondo di Coesione, FEASR, FEAMPA) che attuano la politica di coesione economica, sociale e territoriale"
+      },
+      {
+        "id": "D",
+        "text": "I titoli azionari detenuti dalla Banca Centrale Europea"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "I Fondi SIE sono gli strumenti finanziari principali con cui l'UE persegue la riduzione dei divari regionali tra i territori e promuove sviluppo sostenibile, occupazione e innovazione.",
+    "hint": "Sono i Fondi Strutturali dell'UE per colmare le disparità tra le regioni europee.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PROG_COM_062",
+    "question": "Qual è l'obiettivo specifico del FESR (Fondo Europeo di Sviluppo Regionale)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Finanziare esclusivamente la pesca d'altura oceanica"
+      },
+      {
+        "id": "B",
+        "text": "Coprire le perdite delle compagnie aeree private"
+      },
+      {
+        "id": "C",
+        "text": "Erogare prestiti personali ai funzionari comunitari"
+      },
+      {
+        "id": "D",
+        "text": "Rafforzare la coesione economica e sociale correggendo gli squilibri tra le regioni, finanziando infrastrutture, innovazione, digitalizzazione e competitività delle PMI"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Il FESR sostiene gli investimenti produttivi, infrastrutturali, la ricerca, la transizione verde e digitale e il rilancio delle aree urbane e interne svantaggiate.",
+    "hint": "Finanzia investimenti materiali, infrastrutture, digitalizzazione, PMI e riqualificazione urbana.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PROG_COM_063",
+    "question": "Qual è il campo di intervento prioritario del FSE+ (Fondo Sociale Europeo Plus)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'occupazione, l'istruzione e la formazione professionale, l'inclusione sociale, la lotta alla povertà e lo sviluppo delle competenze lavorative"
+      },
+      {
+        "id": "B",
+        "text": "La costruzione di autostrade e porti commerciali"
+      },
+      {
+        "id": "C",
+        "text": "La bonifica dei siti contaminati da amianto"
+      },
+      {
+        "id": "D",
+        "text": "La produzione di energia da centrali idroelettriche"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il FSE+ è il principale strumento dell'UE per investire nelle persone: promuove l'occupazione giovanile, la formazione continua, l'inclusione attiva e le pari opportunità.",
+    "hint": "Investe nel capitale umano: lavoro, formazione professionale e inclusione sociale.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PROG_COM_064",
+    "question": "Nel Project Cycle Management (PCM) dei progetti comunitari, cos'è il 'Quadro Logico' (Logical Framework Approach)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Uno schema elettrico per l'impianto fotovoltaico del municipio"
+      },
+      {
+        "id": "B",
+        "text": "Una matrice di pianificazione e gestione a 16 celle che correla obiettivi generali, obiettivi specifici, risultati attesi, attività, indicatori (KPI) e ipotesi di rischio"
+      },
+      {
+        "id": "C",
+        "text": "Un organigramma dei partiti politici europei"
+      },
+      {
+        "id": "D",
+        "text": "Un algoritmo di intelligenza artificiale per scrivere delibere"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La matrice del Quadro Logico (Logframe) struttura la logica di intervento: collega gerarchicamente gli obiettivi alle attività, definisce gli indicatori oggettivamente verificabili (IOV), le fonti di verifica e le condizioni esterne/rischi.",
+    "hint": "Matrice fondamentale dell'europrogettazione che collega obiettivi, attività, risultati e indicatori.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PROG_COM_065",
+    "question": "Quali sono le fasi del ciclo di vita del progetto secondo la metodologia PCM della Commissione Europea?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Acquisto, vendita, permuta e demolizione"
+      },
+      {
+        "id": "B",
+        "text": "Bando, ricorso al TAR, sentenza del Consiglio di Stato e revoca"
+      },
+      {
+        "id": "C",
+        "text": "Programmazione, Identificazione, Formulazione, Finanziamento, Realizzazione/Attuazione e Valutazione"
+      },
+      {
+        "id": "D",
+        "text": "Iscrizione, esame, laurea e abilitazione"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Le 6 fasi del PCM assicurano coerenza ciclica: dalla programmazione strategica all'identificazione delle idee, alla formulazione della proposta, al finanziamento, all'attuazione con monitoraggio e alla valutazione finale ex-post.",
+    "hint": "Programmazione, Identificazione, Formulazione, Finanziamento, Attuazione e Valutazione.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PROG_COM_066",
+    "question": "Cosa si intende per 'Spesa Ammissibile' nella gestione dei fondi europei?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Qualsiasi spesa sostenuta dal Comune anche senza fattura o giustificativo"
+      },
+      {
+        "id": "B",
+        "text": "I rimborsi chilometrici forfettari non documentati"
+      },
+      {
+        "id": "C",
+        "text": "Le multe stradali pagate con fondi pubblici"
+      },
+      {
+        "id": "D",
+        "text": "La spesa effettivamente sostenuta dal beneficiario nel rispetto dei criteri di legalità, pertinenza temporale, documentazione probatoria e regole del bando"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Una spesa è ammissibile se conforme alle norme UE e nazionali: sostenuta nel periodo di ammissibilità, comprovata da fatture quietanzate o costi semplificati, pertinente al progetto e tracciata.",
+    "hint": "Spesa reale, tracciata, documentata e sostenuta entro il periodo di validità del progetto.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PROG_COM_067",
+    "question": "Cosa sono le Opzioni Semplificate di Costo (OSC / SCO) nei regolamenti dei Fondi UE 2021-2027?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Metodi di rimborso forfettari, tabelle standard di costi unitari o somme forfettarie (lump sums) che riducono gli oneri burocratici di verifica delle singole fatture"
+      },
+      {
+        "id": "B",
+        "text": "L'acquisto di beni usati al mercatino rionale"
+      },
+      {
+        "id": "C",
+        "text": "La rinuncia ai controlli antifrode"
+      },
+      {
+        "id": "D",
+        "text": "Il calcolo delle spese a mano libera senza documentazione"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Le OSC permettono di rendicontare a costi standard, tassi forfettari o lump sums basandosi sul raggiungimento dell'output invece che sulla raccolta analitica di ogni scontrino o fattura.",
+    "hint": "Rendicontazione forfettaria o a costi unitari standard basata sui risultati per ridurre la burocrazia.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PROG_COM_068",
+    "question": "Quale ruolo svolge l'Ispettorato Generale per i Rapporti Finanziari con l'Unione Europea (IGRUE) presso la RGS-MEF?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nomina i giudici della Corte di Giustizia UE"
+      },
+      {
+        "id": "B",
+        "text": "Gestisce il Fondo di Rotazione nazionale (L. 183/1987) per il cofinanziamento statale dei fondi UE e il sistema di monitoraggio nazionale delle politiche di coesione"
+      },
+      {
+        "id": "C",
+        "text": "Ispeziona le imbarcazioni che attraversano il canale di Sicilia"
+      },
+      {
+        "id": "D",
+        "text": "Stampa i passaporti comunitari"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'IGRUE coordina i flussi finanziari con l'UE, eroga il cofinanziamento nazionale dal Fondo di Rotazione e gestisce la Banca Dati Unitaria del monitoraggio degli investimenti pubblici.",
+    "hint": "Gestisce il Fondo di Rotazione nazionale e il monitoraggio dei fondi comunitari.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PROG_COM_069",
+    "question": "Cosa si intende per 'Regola del Disimpegno Automatico' (regola N+2 o N+3) nei Fondi Strutturali Europei?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il passaggio automatico dei fondi dai Comuni alle Province"
+      },
+      {
+        "id": "B",
+        "text": "L'aumento automatico dei tassi di interesse sui mutui"
+      },
+      {
+        "id": "C",
+        "text": "La perdita definitiva dei fondi comunitari impegnati se non vengono spesi e rendicontati alla Commissione entro il 31 dicembre del secondo o terzo anno successivo all'impegno"
+      },
+      {
+        "id": "D",
+        "text": "La proroga a tempo indeterminato di tutti i cantieri aperti"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Il disimpegno automatico (decommitment) è la sanzione per mancata tempestività: se la quota di impegno dell'anno N non si traduce in domande di pagamento entro la fine dell'anno N+2 o N+3, i fondi residui vengono tagliati e persi.",
+    "hint": "I fondi non spesi e rendicontati entro 2 o 3 anni dall'impegno vengono definitivamente revocati dall'UE.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PROG_COM_070",
+    "question": "Qual è la funzione del Quadro Finanziario Pluriennale (QFP) dell'Unione Europea?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Determinare le tasse universitarie per gli studenti Erasmus"
+      },
+      {
+        "id": "B",
+        "text": "Fissare il cambio fisso tra euro e dollaro americano"
+      },
+      {
+        "id": "C",
+        "text": "Controllare le riserve auree della Banca Centrale Europea"
+      },
+      {
+        "id": "D",
+        "text": "Fissare i tetti massimi di spesa annuali dell'UE per ciascuna categoria di intervento per un periodo di 7 anni (es. 2021-2027)"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Il QFP è il bilancio a lungo termine dell'UE: stabilisce per un settennato i limiti massimi degli stanziamenti per rubriche (Politica di coesione, Agricoltura, Ricerca, Resilienza).",
+    "hint": "È il piano finanziario settennale dell'UE che stabilisce i massimali di spesa per rubrica.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PROG_COM_071",
+    "question": "Quale struttura nazionale è preposta al controllo e alla lotta contro le frodi ai danni degli interessi finanziari dell'UE?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il COLAF (Comitato per la Lotta contro le Frodi nei confronti dell'Unione Europea) e la Guardia di Finanza - Nucleo Antifrode, in raccordo con OLAF ed EPPO"
+      },
+      {
+        "id": "B",
+        "text": "Il Tribunale delle Acque Pubbliche"
+      },
+      {
+        "id": "C",
+        "text": "L'associazione nazionale dei costruttori edili"
+      },
+      {
+        "id": "D",
+        "text": "Il comando forestale regionale"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il COLAF (presso il Dipartimento Politiche Europee) e i reparti specializzati della Guardia di Finanza collaborano con l'OLAF (Ufficio europeo per la lotta antifrode) e la Procura Europea (EPPO) per prevenire e perseguire le frodi sui fondi UE e PNRR.",
+    "hint": "COLAF, Guardia di Finanza, OLAF e Procura Europea (EPPO).",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PROG_COM_072",
+    "question": "Cos'è l'EPPO (European Public Prosecutor's Office - Procura Europea)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un'agenzia turistica per promuovere i viaggi nell'Unione"
+      },
+      {
+        "id": "B",
+        "text": "L'organo giudiziario indipendente dell'UE competente a indagare, perseguire e portare a giudizio gli autori di reati che ledono il bilancio dell'UE (frodi, corruzione, riciclaggio, IVA transfrontaliera)"
+      },
+      {
+        "id": "C",
+        "text": "Un comitato etico per la protezione degli animali"
+      },
+      {
+        "id": "D",
+        "text": "Un tribunale militare per la risoluzione dei conflitti armati"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'EPPO (operativo dal 2021) persegue direttamente dinanzi ai giudici nazionali i reati che colpiscono gli interessi finanziari dell'UE superiori a 10.000 euro (o frodi IVA superiori a 10 milioni).",
+    "hint": "È la Procura Europea competente sui reati che danneggiano i fondi dell'UE.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PROG_COM_073",
+    "question": "In cosa consiste l'obbligo di 'Tracciabilità Finanziaria' per i fondi PNRR disciplinato dalla Legge 136/2010?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La registrazione video di tutte le operazioni di cassa in banca"
+      },
+      {
+        "id": "B",
+        "text": "Il pagamento in banconote con numero di serie registrato"
+      },
+      {
+        "id": "C",
+        "text": "L'utilizzo esclusivo di conti correnti bancari o postali dedicati e l'obbligo di indicare CUP e CIG su ogni transazione finanziaria a pena di nullità assoluta del contratto"
+      },
+      {
+        "id": "D",
+        "text": "L'invio mensile di estratti conto alla Prefettura"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "La tracciabilità antimafia impone l'uso di conti dedicati alle commesse pubbliche e bonifici recanti CUP e CIG; la mancata indicazione o l'omesso uso del conto dedicato determina la nullità del contratto o la risoluzione di diritto.",
+    "hint": "Conto corrente dedicato e indicazione obbligatoria di CUP e CIG su tutti i bonifici.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PROG_COM_074",
+    "question": "Quale adempimento in materia di comunicazione e pubblicità è obbligatorio per tutti i progetti finanziati dall'UE o dal PNRR?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La trasmissione di spot televisivi a carico del responsabile del procedimento"
+      },
+      {
+        "id": "B",
+        "text": "La distribuzione gratuita di gadget ai residenti"
+      },
+      {
+        "id": "C",
+        "text": "L'esposizione della bandiera della Svizzera"
+      },
+      {
+        "id": "D",
+        "text": "L'esposizione del logo dell'Unione Europea, della dicitura 'Finanziato dall'Unione europea - NextGenerationEU', cartelli di cantiere e targhe permanenti"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Le norme UE impongono rigidi obblighi di visibilità: logo UE, dicitura NextGenerationEU su siti, documenti, contratti, cartelloni di cantiere e targhe commemorative a fine lavori, pena decurtazioni finanziarie.",
+    "hint": "Emblema dell'UE, dicitura NextGenerationEU e cartellonistica di cantiere / targhe permanenti.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PROG_COM_075",
+    "question": "Chi è l''Autorità di Gestione' (AdG) di un Programma Operativo Regionale (POR/PR) cofinanziato dai fondi UE?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'organismo pubblico responsabile della corretta ed efficace gestione e attuazione del programma in conformità ai regolamenti comunitari"
+      },
+      {
+        "id": "B",
+        "text": "Il presidente del tribunale del capoluogo"
+      },
+      {
+        "id": "C",
+        "text": "Un'associazione di consumatori convenzionata"
+      },
+      {
+        "id": "D",
+        "text": "Il comando provinciale dei Vigili del Fuoco"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'Autorità di Gestione (istituita di regola presso la Regione) seleziona le operazioni, sovrintende alla rendicontazione, verifica la conformità della spesa e vigila sul raggiungimento dei target del programma.",
+    "hint": "È la struttura responsabile dell'attuazione e gestione del programma operativo cofinanziato dall'UE.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PROG_COM_076",
+    "question": "Quale ruolo svolge l''Autorità di Audit' nell'architettura dei Fondi Comunitari?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Eroga i fondi monetari direttamente ai fornitori dell'ente"
+      },
+      {
+        "id": "B",
+        "text": "È un organismo funzionalmente indipendente che verifica l'efficace funzionamento del sistema di gestione e controllo e la regolarità delle spese dichiarate mediante controlli a campione"
+      },
+      {
+        "id": "C",
+        "text": "Rilascia le licenze edilizie per i nuovi cantieri"
+      },
+      {
+        "id": "D",
+        "text": "Difende il Comune nelle cause davanti al TAR"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'Autorità di Audit garantisce alla Commissione UE che il sistema di controllo funziona e che i conti sono esatti: esegue audit di sistema e audit sulle operazioni campionate in modo del tutto indipendente.",
+    "hint": "Organismo indipendente che controlla la regolarità e l'efficacia del sistema di gestione e spesa.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PROG_COM_077",
+    "question": "Nel monitoraggio del PNRR, che cos'è la 'Pista di Controllo' (Audit Trail)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La strada percorsa dagli ispettori europei per visitare i cantieri"
+      },
+      {
+        "id": "B",
+        "text": "Il registro dei visitatori all'interno del cantiere"
+      },
+      {
+        "id": "C",
+        "text": "La sequenza documentale completa, trasparente e tracciabile che consente di ricostruire ogni fase del progetto, dagli atti di gara ai mandati e alle verifiche di regolarità"
+      },
+      {
+        "id": "D",
+        "text": "La corsia riservata ai mezzi pesanti della ditta costruttrice"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "La pista di controllo è il fascicolo documentale organizzato che permette a qualsiasi revisore di seguire il percorso logico e finanziario della spesa (delibere, lettere di incarico, gare, SAL, mandati, quietanze).",
+    "hint": "Catena documentale tracciabile che consente di ricostruire ogni fase e spesa dell'intervento.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PROG_COM_078",
+    "question": "A norma delle Linee Guida MEF-RGS, la 'Scheda di Autovalutazione DNSH':",
+    "options": [
+      {
+        "id": "A",
+        "text": "Una scheda di gradimento compilata dai cittadini del Comune"
+      },
+      {
+        "id": "B",
+        "text": "Un questionario di gradimento della mensa scolastica"
+      },
+      {
+        "id": "C",
+        "text": "La dichiarazione dei redditi dell'appaltatore"
+      },
+      {
+        "id": "D",
+        "text": "È il documento tecnico redatto dal progettista e dal RUP che analizza l'impatto dell'intervento sui sei obiettivi ambientali, allegando le relative checklist di verifica"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "La scheda DNSH (Guida Operativa MEF) compila la checklist di settore (es. edifici, mobilità, illuminazione) attestando la conformità ai vincoli ambientali (es. materiali riciclati, diagnosi energetica, CAM).",
+    "hint": "Checklist tecnica obbligatoria con cui il RUP e il progettista asseverano il rispetto del principio DNSH.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_PROG_COM_079",
+    "question": "Cosa si intende per 'Titolare Effettivo' ai sensi della normativa antiriciclaggio (D.Lgs. 231/2007) e delle verifiche antifrode del PNRR?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La persona fisica o le persone fisiche che in ultima istanza possiedono o controllano l'operatore economico che partecipa o si aggiudica la gara (proprietà superiore al 25%)"
+      },
+      {
+        "id": "B",
+        "text": "Il notaio che ha rogato l'atto costitutivo della società"
+      },
+      {
+        "id": "C",
+        "text": "Il presidente della Commissione giudicatrice della gara"
+      },
+      {
+        "id": "D",
+        "text": "Il funzionario dell'ufficio protocollo generale"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La verifica del titolare effettivo su ReGiS è obbligatoria per contrastare conflitti di interessi e infiltrazioni criminali: identifica chi detiene realmente la proprietà (oltre il 25%) o il controllo della società esecutrice.",
+    "hint": "Persona fisica che possiede o controlla la persona giuridica appaltatrice (proprietà > 25%).",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PROG_COM_080",
+    "question": "Quale piattaforma informatica della Commissione Europea è utilizzata dalle amministrazioni per la valutazione del rischio di frode e conflitto di interessi sui fondi UE?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Facebook Marketplace"
+      },
+      {
+        "id": "B",
+        "text": "ARACHNE, lo strumento integrato di data mining che incrocia banche dati societarie, fiscali e di appalti per calcolare indicatori di rischio"
+      },
+      {
+        "id": "C",
+        "text": "Google Translate"
+      },
+      {
+        "id": "D",
+        "text": "Wikipedia Commons"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "ARACHNE è lo strumento di analisi del rischio sviluppato dalla Commissione UE per identificare progetti o soggetti a rischio di frode, conflitti di interessi o irregolarità incrociando i dati camerali e di gara.",
+    "hint": "È lo strumento informatico europeo di data mining e valutazione del rischio di frode ARACHNE.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_PROG_COM_081",
+    "question": "Cosa prevede l'Accordo di Partenariato 2021-2027 stipulato tra l'Italia e la Commissione Europea?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un accordo commerciale per l'esportazione di formaggi italiani"
+      },
+      {
+        "id": "B",
+        "text": "Il patto di non belligeranza tra Stati membri dell'UE"
+      },
+      {
+        "id": "C",
+        "text": "Il documento strategico che definisce gli indirizzi, le priorità e le modalità di impiego di tutti i Fondi di Coesione UE destinati all'Italia per un valore complessivo di oltre 43 miliardi di euro"
+      },
+      {
+        "id": "D",
+        "text": "La convenzione per l'Erasmus per i soli docenti universitari"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'Accordo di Partenariato è il quadro programmatico nazionale generale concordato con Bruxelles che governa l'utilizzo integrato di FESR, FSE+, JTF e FEAMPA per il periodo 2021-2027.",
+    "hint": "È il patto programmatico nazionale con la Commissione per l'impiego dei Fondi Strutturali 2021-2027.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PROG_COM_082",
+    "question": "Qual è l'obiettivo del Fondo per la Transizione Giusta (JTF - Just Transition Fund) del pacchetto Green Deal europeo?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Finanziare campagne pubblicitarie per auto a benzina"
+      },
+      {
+        "id": "B",
+        "text": "Costruire stazioni sciistiche in pianura"
+      },
+      {
+        "id": "C",
+        "text": "Promuovere la costruzione di inceneritori ad alto impatto"
+      },
+      {
+        "id": "D",
+        "text": "Sostenere i territori e i lavoratori che affrontano gravi sfide socio-economiche derivanti dal processo di transizione verso la neutralità climatica entro il 2050 (es. Taranto e Sulcis in Italia)"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Il JTF mitiga l'impatto economico e sociale della decarbonizzazione nelle aree più dipendenti da combustibili fossili o industrie ad alta intensità di carbonio (in Italia: Taranto e Sulcis Iglesiente).",
+    "hint": "Aiuta le aree industriali a forte impatto di carbonio nella transizione ecologica ed energetica.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PROG_COM_083",
+    "question": "Nel ciclo di gestione del progetto (PCM), cosa rappresenta un 'Indicatore di Output' (o di Realizzazione)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ciò che viene direttamente prodotto, costruito o erogato dal progetto (es. metri quadrati di scuola ristrutturati, ore di formazione erogate)"
+      },
+      {
+        "id": "B",
+        "text": "Il cambiamento a lungo termine nella qualità della vita della popolazione"
+      },
+      {
+        "id": "C",
+        "text": "Il tasso di sconto applicato dalla BCE ai prestiti bancari"
+      },
+      {
+        "id": "D",
+        "text": "La spesa sostenuta per l'acquisto di cancelleria"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'output misura il prodotto fisico o servizio immediato generato dalle attività (es. numero di km di pista ciclabile completati), distinguendosi dal result (beneficio a medio termine) e dall'impact (impatto sistemico).",
+    "hint": "Misura il prodotto materiale immediato generato dalle attività svolte.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PROG_COM_084",
+    "question": "Qual è la differenza fondamentale tra 'Indicatore di Risultato' (Result) e 'Indicatore di Impatto' (Impact)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il risultato è monetario, l'impatto non ha valore economico"
+      },
+      {
+        "id": "B",
+        "text": "Il risultato misura l'effetto diretto e a medio termine sui beneficiari (es. tasso di occupati post-corso); l'impatto misura i cambiamenti socio-economici complessivi a lungo termine sul territorio"
+      },
+      {
+        "id": "C",
+        "text": "L'impatto si calcola prima di iniziare il progetto, il risultato mai"
+      },
+      {
+        "id": "D",
+        "text": "Non c'è alcuna differenza tra i due concetti"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La catena logica è: Input (risorse) -> Attività -> Output (prodotti) -> Result (beneficio diretto sui destinatari) -> Impact (effetti duraturi sull'intera collettività o sistema).",
+    "hint": "Il Result riguarda i destinatari diretti nel medio periodo; l'Impact riguarda il cambiamento generale duraturo.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PROG_COM_085",
+    "question": "A norma dell'art. 107 del TFUE, sono incompatibili con il mercato interno gli 'Aiuti di Stato'. Qual è la deroga prevista dalla regola 'de minimis'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tutti gli aiuti sono sempre vietati senza alcuna eccezione"
+      },
+      {
+        "id": "B",
+        "text": "Le grandi aziende possono ricevere sussidi illimitati a fondo perduto"
+      },
+      {
+        "id": "C",
+        "text": "Gli aiuti di importo modesto concessi a un'impresa unica (fino a 300.000 euro in tre anni solari, come novellato dal Reg. UE 2023/2831) non alterano la concorrenza e non necessitano di notifica preventiva"
+      },
+      {
+        "id": "D",
+        "text": "Gli aiuti di Stato sono concessi solo a imprese straniere"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "La regola de minimis (innalzata a 300.000 euro nel triennio dal 1° gennaio 2024) esenta gli aiuti di piccola entità dalla complessa procedura di notifica e autorizzazione preventiva della Commissione UE.",
+    "hint": "Regola 'de minimis': contributi fino a 300.000 euro in un triennio non richiedono autorizzazione comunitaria.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PROG_COM_086",
+    "question": "Quale registro nazionale deve consultare e alimentare il Comune prima di concedere un aiuto a imprese o soggetti economici?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il registro dei protesti cambiari della camera di commercio"
+      },
+      {
+        "id": "B",
+        "text": "L'elenco degli abbonati alla televisione pubblica"
+      },
+      {
+        "id": "C",
+        "text": "Il registro consiliare delle deliberazioni di Giunta"
+      },
+      {
+        "id": "D",
+        "text": "Il Registro Nazionale degli Aiuti di Stato (RNA) gestito dal Ministero delle Imprese e del Made in Italy"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'art. 52 della L. 234/2012 impone la registrazione e la visura preliminare sull'RNA: la mancata registrazione dell'aiuto ne determina l'illegittimità e la nullità dei provvedimenti di concessione.",
+    "hint": "È il Registro Nazionale Aiuti (RNA) obbligatorio per verificare il cumulo de minimis prima della concessione.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PROG_COM_087",
+    "question": "In merito alla gestione finanziaria delle anticipazioni PNRR, quale percentuale di anticipazione iniziale ricevono ordinariamente i Comuni Soggetti Attuatori?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un'anticipazione iniziale fino al 30% del finanziamento concesso, a seguito della richiesta formale e dell'avvio delle attività su ReGiS"
+      },
+      {
+        "id": "B",
+        "text": "Il 100% dell'importo totale prima della pubblicazione del bando"
+      },
+      {
+        "id": "C",
+        "text": "Nessuna anticipazione, si rimborsano solo i lavori finiti dopo dieci anni"
+      },
+      {
+        "id": "D",
+        "text": "Un'anticipazione dell'1% rinnovabile annualmente"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Le norme di accelerazione del PNRR (art. 9 D.L. 152/2021 e circolari MEF) hanno elevato l'anticipazione ai soggetti attuatori fino al 30% (dal precedente 10%), per garantire la liquidità necessaria a pagare gli appaltatori.",
+    "hint": "Anticipazione di cassa per i Comuni elevata fino al 30% per accelerare i cantieri.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PROG_COM_088",
+    "question": "Qual è il termine ultimo perentorio fissato a livello europeo per la conclusione e rendicontazione di tutti i progetti finanziati dal dispositivo RRF / PNRR?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il 31 dicembre 2050"
+      },
+      {
+        "id": "B",
+        "text": "Il 31 agosto 2026 (con target intermedi e finali da completare inderogabilmente entro il 2026)"
+      },
+      {
+        "id": "C",
+        "text": "Il 31 dicembre dell'anno di pubblicazione del bando"
+      },
+      {
+        "id": "D",
+        "text": "Non esiste alcun termine perentorio di scadenza"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il regolamento istitutivo del Recovery and Resilience Facility (RRF) fissa al 2026 la durata del programma: tutte le riforme, opere, target e rendicontazioni devono concludersi tassativamente entro l'estate del 2026.",
+    "hint": "Scadenza inderogabile e storica del PNRR fissata al 2026.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PROG_COM_089",
+    "question": "Cosa si intende per 'Clausola di Condizionalità Abilitante' nei Fondi Europei 2021-2027?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Una clausola che obbliga a parlare inglese in consiglio comunale"
+      },
+      {
+        "id": "B",
+        "text": "L'iscrizione obbligatoria degli assessori ai registri europei"
+      },
+      {
+        "id": "C",
+        "text": "Prerequisiti strategici, istituzionali e normativi che gli Stati membri devono soddisfare e mantenere per poter ottenere il rimborso delle spese da parte dell'UE"
+      },
+      {
+        "id": "D",
+        "text": "La concessione di visti turistici illimitati ai residenti"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Le condizioni abilitanti (orizzontali e tematiche) garantiscono che sussista un quadro strategico ed efficace (es. rispetto della Carta dei diritti fondamentali, appalti conformi, parità di genere) prima dei rimborsi.",
+    "hint": "Prerequisiti vincolanti che lo Stato deve soddisfare per ottenere l'erogazione dei fondi UE.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PROG_COM_090",
+    "question": "Cos'è la Strategia Nazionale per le Aree Interne (SNAI) cofinanziata dai fondi comunitari e nazionali?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La strategia di difesa militare dei confini nazionali"
+      },
+      {
+        "id": "B",
+        "text": "Un piano urbanistico di espansione dei soli grandi capoluoghi di regione"
+      },
+      {
+        "id": "C",
+        "text": "La soppressione di tutti i piccoli Comuni italiani"
+      },
+      {
+        "id": "D",
+        "text": "Una politica mirata a contrastare lo spopolamento e promuovere lo sviluppo dei territori montani e rurali lontani dai poli di servizio essenziali (salute, istruzione, mobilità)"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "La SNAI interviene su quei territori periferici e ultra-periferici fragili ma ricchi di risorse naturali e culturali, migliorando l'accesso ai servizi essenziali di cittadinanza e sostenendo lo sviluppo locale.",
+    "hint": "Politica per contrastare l'abbandono e il declino demografico dei Comuni rurali e montani.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PROG_COM_091",
+    "question": "Nel D.Lgs. 36/2023, quali norme speciali si applicano alle procedure di gara finanziate con risorse PNRR e PNC?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Continuano ad applicarsi le misure speciali di semplificazione e accelerazione previste dal D.L. 77/2021 e dal D.L. 13/2023 in quanto norme speciali prevalenti"
+      },
+      {
+        "id": "B",
+        "text": "I progetti PNRR non sono soggetti ad alcuna norma sugli appalti"
+      },
+      {
+        "id": "C",
+        "text": "Si applicano solo le direttive del Consiglio di Sicurezza dell'ONU"
+      },
+      {
+        "id": "D",
+        "text": "Le gare PNRR possono essere affidate solo a ditte estere"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 225, comma 8, del D.Lgs. 36/2023 prevede espressamente la salvezza e ultrattività delle disposizioni speciali per gli appalti PNRR e PNC (D.L. 77/2021 e D.L. 13/2023) per non rallentare l'attuazione.",
+    "hint": "Mantengono la vigenza delle norme speciali di massima semplificazione introdotte per il PNRR.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PROG_COM_092",
+    "question": "Cosa si intende per 'Rettifica Finanziaria' imposta dall'Autorità di Gestione o dalla Commissione UE in caso di irregolarità?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un premio economico per aver concluso il progetto in anticipo"
+      },
+      {
+        "id": "B",
+        "text": "La cancellazione o decurtazione parziale o totale del contributo pubblico comunitario concesso a causa di violazioni delle norme su appalti, ammissibilità o pubblicità"
+      },
+      {
+        "id": "C",
+        "text": "L'aggiornamento automatico all'inflazione del finanziamento"
+      },
+      {
+        "id": "D",
+        "text": "La concessione di un credito fiscale a fondo perduto"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La rettifica finanziaria è la decurtazione del contributo (a percentuale, es. 10%, 25% o 100% secondo le linee guida CE) derivante da errori o irregolarità accertate nelle gare o nella rendicontazione.",
+    "hint": "Taglio del finanziamento a carico dell'ente a causa di violazioni accertate.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PROG_COM_093",
+    "question": "A norma dell'art. 22 del Regolamento (UE) 2021/241, quale obbligo primario incombe sugli Stati membri a tutela degli interessi finanziari dell'Unione nel PNRR?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Stampare i bandi unicamente in lingua francese e tedesca"
+      },
+      {
+        "id": "B",
+        "text": "Assumere solo dirigenti laureati a Bruxelles"
+      },
+      {
+        "id": "C",
+        "text": "Prevenire, individuare e rettificare le frodi, i casi di corruzione e i conflitti di interessi, evitando il doppio finanziamento"
+      },
+      {
+        "id": "D",
+        "text": "Abolire la magistratura ordinaria"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'art. 22 è la pietra angolare dei controlli PNRR: gli Stati membri devono adottare tutte le misure appropriate contro frode, corruzione, conflitto di interessi e doppio finanziamento.",
+    "hint": "Obbligo assoluto di prevenzione e repressione di frodi, corruzione e conflitti di interesse.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PROG_COM_094",
+    "question": "Quale strumento di cooperazione territoriale europea consente a Comuni italiani e di Stati esteri confinanti di realizzare progetti congiunti?",
+    "options": [
+      {
+        "id": "A",
+        "text": "I trattati militari bilaterali"
+      },
+      {
+        "id": "B",
+        "text": "Le convenzioni postali internazionali"
+      },
+      {
+        "id": "C",
+        "text": "Gli accordi doganali sul grano"
+      },
+      {
+        "id": "D",
+        "text": "I Programmi Interreg (es. Italia-Francia, Italia-Svizzera, Italia-Croazia, Italia-Slovenia)"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Interreg (finanziato dal FESR nell'obiettivo Cooperazione Territoriale Europea - CTE) promuove la collaborazione tra regioni e Comuni di Stati diversi per risolvere sfide comuni transfrontaliere.",
+    "hint": "Sono i Programmi Interreg di Cooperazione Territoriale Europea.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PROG_COM_095",
+    "question": "Nel Quadro Logico, cosa si intende per 'Indicatori Oggettivamente Verificabili' (IOV)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Indicatori specifici, misurabili, realizzabili, rilevanti e temporalmente definiti (SMART) che consentono di verificare oggettivamente il raggiungimento dei risultati"
+      },
+      {
+        "id": "B",
+        "text": "Opinioni soggettive espresse dai dipendenti comunali nei sondaggi"
+      },
+      {
+        "id": "C",
+        "text": "Articoli pubblicati sui social network"
+      },
+      {
+        "id": "D",
+        "text": "Previsioni astrologiche sull'andamento del cantiere"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Gli IOV devono rispondere ai criteri SMART (Specific, Measurable, Achievable, Relevant, Time-bound): permettono a un terzo indipendente di accertare senza ambiguità il successo dell'azione.",
+    "hint": "Indicatori chiari e misurabili rispondenti ai criteri SMART.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PROG_COM_096",
+    "question": "Cos'è la 'Valutazione Ambientale Strategica' (VAS) disciplinata dalla Direttiva 2001/42/CE e dal D.Lgs. 152/2006 nei programmi comunitari?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La pulizia straordinaria dei parchi cittadini a primavera"
+      },
+      {
+        "id": "B",
+        "text": "La valutazione preventiva degli impatti ambientali derivanti dall'adozione di piani e programmi territoriali e di sviluppo prima della loro approvazione definitiva"
+      },
+      {
+        "id": "C",
+        "text": "La raccolta differenziata dei rifiuti speciali delle fabbriche"
+      },
+      {
+        "id": "D",
+        "text": "Un'imposta locale sulle emissioni delle caldaie private"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La VAS integra le considerazioni ambientali fin dall'elaborazione dei piani e programmi di spesa comunitari e urbanistici, assicurando uno sviluppo sostenibile ad alto livello.",
+    "hint": "Valutazione ambientale preventiva su piani e programmi prima della loro adozione definitiva.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PROG_COM_097",
+    "question": "A norma dell'art. 12 del D.L. 77/2021, cosa accade se un Comune Soggetto Attuatore del PNRR ritarda gravemente la realizzazione di un intervento mettendo a rischio il target UE?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il Comune viene soppresso e aggregato al Comune confinante"
+      },
+      {
+        "id": "B",
+        "text": "I dipendenti comunali non percepiscono lo stipendio per sei mesi"
+      },
+      {
+        "id": "C",
+        "text": "Il Presidente del Consiglio dei Ministri può esercitare il potere sostitutivo statale, nominando un Commissario ad acta per portare a termine l'opera"
+      },
+      {
+        "id": "D",
+        "text": "Non si applica alcuna conseguenza, i termini PNRR sono meri auspici"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'art. 12 disciplina i poteri sostitutivi del Governo: in caso di inadempimento o ritardo suscettibile di compromettere il raggiungimento dei target PNRR, interviene lo Stato nominando un commissario ad acta.",
+    "hint": "Potere sostitutivo dello Stato con nomina di un Commissario ad acta per non perdere i fondi.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_PROG_COM_098",
+    "question": "Quale principio contabile si applica ai fondi PNRR registrati nel bilancio dell'ente locale?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Possono essere mescolati indistintamente con le tasse comunali per pagare la spesa corrente"
+      },
+      {
+        "id": "B",
+        "text": "Non possono mai essere inseriti nel bilancio comunale"
+      },
+      {
+        "id": "C",
+        "text": "Devono essere registrati solo al termine dei lavori"
+      },
+      {
+        "id": "D",
+        "text": "I contributi PNRR sono entrate a destinazione vincolata e devono essere iscritti in appositi capitoli separati di entrata e di spesa per garantirne l'immediata tracciabilità"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Le risorse del PNRR e PNC mantengono un vincolo di destinazione ferreo: devono essere allocate su specifici capitoli di entrata e di uscita dedicati per facilitare il controllo e il monitoraggio.",
+    "hint": "Entrate con rigido vincolo di destinazione allocate su capitoli dedicati.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PROG_COM_099",
+    "question": "Cos'è il Fondo di Sviluppo e Coesione (FSC) disciplinato dal D.Lgs. 88/2011?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Lo strumento finanziario nazionale che affianca i fondi europei per la coesione economica, sociale e territoriale, con vincolo di destinazione all'80% per il Mezzogiorno"
+      },
+      {
+        "id": "B",
+        "text": "Un fondo per risarcire le perdite della borsa valori"
+      },
+      {
+        "id": "C",
+        "text": "Un prestito della Banca Mondiale per l'Africa"
+      },
+      {
+        "id": "D",
+        "text": "Il fondo cassa per i viaggi istituzionali della Presidenza della Repubblica"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'FSC è la principale risorsa nazionale per il riequilibrio territoriale: per legge (art. 119 Cost.) almeno l'80% delle sue risorse è riservato alle regioni del Mezzogiorno.",
+    "hint": "Fondo nazionale per la coesione con riserva dell'80% a favore del Mezzogiorno.",
+    "level": "base"
+  },
+  {
+    "id": "Q_PROG_COM_100",
+    "question": "Nel ciclo di vita dei progetti europei, in cosa consiste la fase di 'Capitalizzazione dei Risultati'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nell'investire i fondi avanzati in azioni ad alto rischio a Wall Street"
+      },
+      {
+        "id": "B",
+        "text": "Nel trasferire, diffondere e riutilizzare le buone pratiche, i modelli e i risultati innovativi ottenuti affinché diventino policy permanenti o vengano replicati in altri contesti"
+      },
+      {
+        "id": "C",
+        "text": "Nel vendere i macchinari acquistati al miglior offerente"
+      },
+      {
+        "id": "D",
+        "text": "Nella cancellazione di tutti i file di progetto per liberare spazio sui server"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "La capitalizzazione trasforma i risultati di un progetto pilota o sperimentale in pratiche standard durature: evita che l'impatto si esaurisca con la fine del finanziamento comunitario, moltiplicandone il valore nel tempo.",
+    "hint": "Diffusione, replica e trasformazione delle buone pratiche in politiche stabili sul territorio.",
+    "level": "intermedio"
   }
 ]

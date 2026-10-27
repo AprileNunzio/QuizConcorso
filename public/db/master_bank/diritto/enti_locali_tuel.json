@@ -1298,5 +1298,1305 @@
     "explanation": "L'art. 53, comma 1, TUEL stabilisce che in caso di dimissioni, impedimento permanente, rimozione, decadenza o decesso del sindaco, la giunta decade e si procede allo scioglimento del consiglio. Il consiglio e la giunta rimangono tuttavia in carica sino alla elezione del nuovo sindaco e del nuovo consiglio e le funzioni del sindaco sono svolte dal vicesindaco.",
     "hint": "La prorogatio degli organi fino alle successive elezioni è retta dal Vicesindaco.",
     "level": "intermedio"
+  },
+  {
+    "id": "Q_ENTI_LOC_051",
+    "question": "Ai sensi dell'art. 49 del TUEL (D.Lgs. 267/2000), su quali proposte di deliberazione deve essere obbligatoriamente espresso il parere di regolarità tecnica?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Su ogni proposta di deliberazione sottoposta alla Giunta o al Consiglio che non sia mero atto di indirizzo"
+      },
+      {
+        "id": "B",
+        "text": "Esclusivamente sulle delibere che comportano licenziamenti disciplinari"
+      },
+      {
+        "id": "C",
+        "text": "Soltanto sulle ordinanze contingibili e urgenti del Sindaco"
+      },
+      {
+        "id": "D",
+        "text": "Solo sulle proposte di variazione toponomastica delle strade comunali"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 49, comma 1, TUEL prevede che su ogni proposta di deliberazione della Giunta e del Consiglio che non sia mero atto di indirizzo deve essere richiesto il parere di regolarità tecnica del responsabile del servizio interessato.",
+    "hint": "Riguarda tutte le proposte di deliberazione tranne i meri atti di indirizzo politico.",
+    "level": "base"
+  },
+  {
+    "id": "Q_ENTI_LOC_052",
+    "question": "A norma dell'art. 49 del TUEL, quando è prescritto anche il parere di regolarità contabile?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Solo se la deliberazione supera l'importo di un milione di euro"
+      },
+      {
+        "id": "B",
+        "text": "Qualora la deliberazione comporti riflessi diretti o indiretti sulla situazione economico-finanziaria o sul patrimonio dell'ente"
+      },
+      {
+        "id": "C",
+        "text": "Esclusivamente in caso di approvazione del bilancio consuntivo"
+      },
+      {
+        "id": "D",
+        "text": "Sempre, anche per gli atti di mero indirizzo politico"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Il parere di regolarità contabile è reso dal responsabile di ragioneria qualora la proposta comporti riflessi diretti o indiretti sulla situazione economico-finanziaria o sul patrimonio dell'ente.",
+    "hint": "È richiesto quando c'è un impatto economico o patrimoniale.",
+    "level": "base"
+  },
+  {
+    "id": "Q_ENTI_LOC_053",
+    "question": "Quale figura professionale attesta la copertura finanziaria degli impegni di spesa negli enti locali (art. 153 TUEL)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il Presidente del Consiglio comunale"
+      },
+      {
+        "id": "B",
+        "text": "Il Comandante della Polizia Locale"
+      },
+      {
+        "id": "C",
+        "text": "Il responsabile del servizio finanziario mediante l'apposizione del visto di regolarità contabile"
+      },
+      {
+        "id": "D",
+        "text": "Il Segretario Generale solo se delegato dal Prefetto"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'art. 153, comma 5, TUEL attribuisce al responsabile del servizio finanziario la verifica della veridicità delle previsioni e l'attestazione della copertura finanziaria mediante visto.",
+    "hint": "È il responsabile del servizio finanziario/ragioneria.",
+    "level": "base"
+  },
+  {
+    "id": "Q_ENTI_LOC_054",
+    "question": "Ai sensi dell'art. 107 del TUEL, quale competenza è riservata in via esclusiva ai dirigenti e responsabili di servizio?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'approvazione dei regolamenti comunali"
+      },
+      {
+        "id": "B",
+        "text": "La determinazione dell'indirizzo politico-amministrativo dell'ente"
+      },
+      {
+        "id": "C",
+        "text": "L'istituzione e l'ordinamento dei tributi locali"
+      },
+      {
+        "id": "D",
+        "text": "La gestione amministrativa, finanziaria e tecnica, inclusa l'adozione degli atti che impegnano l'amministrazione verso l'esterno"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'art. 107 sancisce la separazione tra politica e gestione: ai dirigenti compete la gestione amministrativa, l'adozione degli atti e provvedimenti amministrativi che impegnano l'amministrazione verso l'esterno.",
+    "hint": "Ai dirigenti spetta la gestione, agli organi politici l'indirizzo e controllo.",
+    "level": "base"
+  },
+  {
+    "id": "Q_ENTI_LOC_055",
+    "question": "Nei Comuni privi di personale con qualifica dirigenziale, a chi possono essere attribuite le funzioni dirigenziali (art. 109, comma 2, TUEL)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ai responsabili degli uffici o servizi con atto motivato del Sindaco, indipendentemente dalla qualifica dirigenziale (Area Funzionari/EQ)"
+      },
+      {
+        "id": "B",
+        "text": "Esclusivamente al Prefetto della provincia"
+      },
+      {
+        "id": "C",
+        "text": "Ai singoli consiglieri comunali di maggioranza"
+      },
+      {
+        "id": "D",
+        "text": "Al tesoriere dell'istituto bancario affidatario"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Nei Comuni privi di dirigenza, il Sindaco può attribuire le funzioni dirigenziali ai responsabili dei servizi e degli uffici appartenenti all'area dei funzionari/posizioni organizzative (ora EQ).",
+    "hint": "Il Sindaco conferisce l'incarico di EQ/responsabile di servizio ai funzionari.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_ENTI_LOC_056",
+    "question": "A norma dell'art. 97 del TUEL, il Segretario comunale:",
+    "options": [
+      {
+        "id": "A",
+        "text": "È eletto a suffragio universale e diretto dai residenti del Comune"
+      },
+      {
+        "id": "B",
+        "text": "Svolge compiti di collaborazione e funzioni di assistenza giuridico-amministrativa nei confronti degli organi dell'ente in ordine alla conformità dell'azione alle leggi"
+      },
+      {
+        "id": "C",
+        "text": "È un dipendente privato scelto dall'associazione commercianti locale"
+      },
+      {
+        "id": "D",
+        "text": "Ha poteri di veto insindacabili su qualsiasi atto del Sindaco"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 97 TUEL definisce lo status del Segretario: garantisce la legalità dell'azione amministrativa, assiste gli organi di governo e ne verbalizza le sedute.",
+    "hint": "Garantisce la legalità e la conformità giuridico-amministrativa dell'ente.",
+    "level": "base"
+  },
+  {
+    "id": "Q_ENTI_LOC_057",
+    "question": "Chi nomina e revoca il Segretario comunale ai sensi dell'art. 99 del TUEL?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il Ministro dell'Interno di concerto con il Presidente della Regione"
+      },
+      {
+        "id": "B",
+        "text": "Il Consiglio comunale a maggioranza dei due terzi"
+      },
+      {
+        "id": "C",
+        "text": "Il Sindaco o il Presidente della Provincia, scegliendolo tra gli iscritti all'apposito albo nazionale"
+      },
+      {
+        "id": "D",
+        "text": "Il Presidente del TAR territoriale"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "Il Sindaco nomina il Segretario scegliendolo dall'albo entro 60-120 giorni dal suo insediamento; la revoca può avvenire solo con atto motivato del Sindaco per violazione dei doveri d'ufficio.",
+    "hint": "La nomina è di competenza del Sindaco tra gli iscritti all'albo.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_ENTI_LOC_058",
+    "question": "Chi è il Direttore Generale dell'ente locale ai sensi dell'art. 108 del TUEL?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un magistrato della Corte dei Conti distaccato a tempo indeterminato"
+      },
+      {
+        "id": "B",
+        "text": "L'ufficiale dell'Esercito preposto alla leva obbligatoria"
+      },
+      {
+        "id": "C",
+        "text": "Un componente della Giunta comunale con delega al bilancio"
+      },
+      {
+        "id": "D",
+        "text": "Una figura manageriale che può essere nominata nei Comuni con popolazione superiore a 100.000 abitanti per attuare gli indirizzi e coordinare i dirigenti"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'art. 108 TUEL (modificato dalle leggi finanziarie) consente la nomina del City Manager/Direttore Generale nei Comuni sopra i 100.000 abitanti (o unioni) per coordinare la gestione e attuare il programma.",
+    "hint": "È il city manager nominabile nei grandi Comuni per raccordare politica e dirigenza.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_ENTI_LOC_059",
+    "question": "In quali casi il Segretario comunale può svolgere anche le funzioni di Direttore Generale (art. 108, comma 4, TUEL)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nei Comuni con popolazione inferiore a 100.000 abitanti, su conferimento del Sindaco previa deliberazione della Giunta"
+      },
+      {
+        "id": "B",
+        "text": "Solo se è in pensione da almeno cinque anni"
+      },
+      {
+        "id": "C",
+        "text": "Mai, le due funzioni sono rigorosamente incompatibili per legge in qualsiasi Comune"
+      },
+      {
+        "id": "D",
+        "text": "Solo su autorizzazione formale dell'Unione Europea"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Nei Comuni con popolazione inferiore a 100.000 abitanti le funzioni di Direttore Generale possono essere conferite dal Sindaco al Segretario comunale.",
+    "hint": "Nei Comuni sotto i 100.000 abitanti il Sindaco può affidare tali compiti al Segretario.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_ENTI_LOC_060",
+    "question": "A norma dell'art. 147 del TUEL, quale finalità persegue il sistema dei controlli interni negli enti locali?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Spiare i cittadini sui social network"
+      },
+      {
+        "id": "B",
+        "text": "Garantire la regolarità amministrativa e contabile, l'efficacia, l'efficienza e l'economicità dell'azione e la salvaguardia degli equilibri di bilancio"
+      },
+      {
+        "id": "C",
+        "text": "Sanzionare penalmente i consiglieri comunali di minoranza"
+      },
+      {
+        "id": "D",
+        "text": "Abolire la riscossione dei tributi locali"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 147 TUEL struttura il sistema dei controlli interni: controllo di regolarità amministrativa e contabile, controllo strategico, controllo di gestione, equilibri di bilancio e controllo sulle partecipate.",
+    "hint": "Garantisce legalità, buon andamento ed equilibrio finanziario dell'ente.",
+    "level": "base"
+  },
+  {
+    "id": "Q_ENTI_LOC_061",
+    "question": "Chi esercita il controllo di regolarità amministrativa in fase successiva alla liquidazione negli enti locali (art. 147-bis TUEL)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il Ministero degli Affari Esteri"
+      },
+      {
+        "id": "B",
+        "text": "La Polizia Postale"
+      },
+      {
+        "id": "C",
+        "text": "Il Segretario comunale, sotto la cui direzione sono eseguite verifiche a campione sulle determinazioni e gli atti d'impegno"
+      },
+      {
+        "id": "D",
+        "text": "La Camera di Commercio"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'art. 147-bis TUEL attribuisce la direzione del controllo successivo di regolarità amministrativa al Segretario comunale, mediante campionamento casuale trasmesso a Giunta, Consiglio e Revisori.",
+    "hint": "È coordinato dal Segretario comunale mediante controlli a campione sugli atti.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_ENTI_LOC_062",
+    "question": "Quale procedura disciplinata dall'art. 243-bis del TUEL consente a un Comune in gravi difficoltà finanziarie di evitare il dissesto guidato?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La richiesta di condono tombale alla Banca Centrale Europea"
+      },
+      {
+        "id": "B",
+        "text": "La chiusura immediata di tutti gli uffici pubblici per bancarotta"
+      },
+      {
+        "id": "C",
+        "text": "L'annullamento d'ufficio di tutti i debiti verso i fornitori"
+      },
+      {
+        "id": "D",
+        "text": "La procedura di riequilibrio finanziario pluriennale (piano di rientro o c.d. predissesto)"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'art. 243-bis disciplina la procedura di riequilibrio finanziario pluriennale (predissesto), consentendo all'ente di adottare un piano di rientro fino a un massimo di 20 anni approvato dalla Corte dei Conti.",
+    "hint": "È il cosiddetto 'predissesto' o piano di riequilibrio pluriennale.",
+    "level": "avanzato"
+  },
+  {
+    "id": "Q_ENTI_LOC_063",
+    "question": "Quando si verifica lo stato di dissesto finanziario di un ente locale ai sensi dell'art. 244 del TUEL?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Quando l'ente non può garantire l'assolvimento delle funzioni e dei servizi indispensabili, ovvero esistono crediti liquidi ed esigibili cui non si può fare fronte"
+      },
+      {
+        "id": "B",
+        "text": "Quando l'ente ha una spesa di cancelleria superiore a 5.000 euro all'anno"
+      },
+      {
+        "id": "C",
+        "text": "Quando il Sindaco si dimette prima della fine del mandato"
+      },
+      {
+        "id": "D",
+        "text": "Quando la Regione non approva una delibera entro quindici giorni"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 244 TUEL definisce il dissesto: l'ente non è in grado di adempiere alle funzioni indispensabili o sussiste uno squilibrio strutturale del bilancio a cui non è possibile rimediare con misure ordinarie.",
+    "hint": "È l'insolvenza dell'ente che non riesce a pagare i debiti né a garantire i servizi essenziali.",
+    "level": "base"
+  },
+  {
+    "id": "Q_ENTI_LOC_064",
+    "question": "Quale organo straordinario viene nominato con decreto del Presidente della Repubblica in caso di dissesto finanziario (art. 252 TUEL)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il Comitato Militare di Sicurezza"
+      },
+      {
+        "id": "B",
+        "text": "L'Organo Straordinario di Liquidazione (OSL), preposto all'accertamento della massa passiva e alla gestione dell'indebitamento pregresso"
+      },
+      {
+        "id": "C",
+        "text": "Il Collegio di Conciliazione Sindacale"
+      },
+      {
+        "id": "D",
+        "text": "La Giunta regionale straordinaria"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'OSL (Organo Straordinario di Liquidazione) è composto da 3 membri nei Comuni sopra i 5.000 abitanti (o 1 sotto i 5.000) e cura la gestione dei debiti e crediti antecedenti alla dichiarazione di dissesto.",
+    "hint": "È l'OSL (Organo Straordinario di Liquidazione).",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_ENTI_LOC_065",
+    "question": "Ai sensi dell'art. 124 del TUEL, dove e per quanto tempo sono pubblicate le deliberazioni del Comune per acquisire efficacia?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sul quotidiano a maggior tiratura per tre mesi consecutivi"
+      },
+      {
+        "id": "B",
+        "text": "Affisse fisicamente al portone del palazzo comunale per un giorno solo"
+      },
+      {
+        "id": "C",
+        "text": "All'albo pretorio informatico dell'ente per 15 giorni consecutivi, salvo disposizioni di legge speciali"
+      },
+      {
+        "id": "D",
+        "text": "Sul profilo Instagram del Sindaco per 24 ore"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'art. 124 TUEL dispone che tutte le deliberazioni del Comune e della Provincia sono pubblicate mediante affissione all'albo pretorio istituzionale informatico per 15 giorni consecutivi.",
+    "hint": "La pubblicazione all'albo pretorio online ha durata di 15 giorni consecutivi.",
+    "level": "base"
+  },
+  {
+    "id": "Q_ENTI_LOC_066",
+    "question": "Quando una deliberazione della Giunta o del Consiglio diventa esecutiva ai sensi dell'art. 134 del TUEL?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Trascorsi sei mesi dalla votazione"
+      },
+      {
+        "id": "B",
+        "text": "Solo dopo il visto del Ministro dell'Interno"
+      },
+      {
+        "id": "C",
+        "text": "Non diventa mai esecutiva prima dell'approvazione del TAR"
+      },
+      {
+        "id": "D",
+        "text": "Dopo il decimo giorno dall'inizio della pubblicazione all'albo, ovvero immediatamente se dichiarata urgente a maggioranza dei componenti"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'art. 134 TUEL prevede che le delibere divengono esecutive dopo il decorso di 10 giorni dalla loro pubblicazione; in caso di urgenza possono essere dichiarate immediatamente eseguibili con voto della maggioranza dei componenti.",
+    "hint": "Di regola dopo 10 giorni dalla pubblicazione, oppure immediatamente se dichiarata urgente.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_ENTI_LOC_067",
+    "question": "A norma dell'art. 50 del TUEL, quale competenza spetta al Sindaco quale Ufficiale del Governo?",
+    "options": [
+      {
+        "id": "A",
+        "text": "I servizi di competenza statale: anagrafe, stato civile, elettorale, leva militare, statistica e sicurezza pubblica"
+      },
+      {
+        "id": "B",
+        "text": "La gestione delle relazioni diplomatiche internazionali e la ratifica dei trattati"
+      },
+      {
+        "id": "C",
+        "text": "La nomina dei giudici della Corte Costituzionale"
+      },
+      {
+        "id": "D",
+        "text": "La riscossione delle imposte doganali di frontiera"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il Sindaco svolge una duplice funzione: capo dell'amministrazione locale e Ufficiale di Governo per conto dello Stato per stato civile, anagrafe, leva, elettorale, ordine pubblico e polizia giudiziaria.",
+    "hint": "Come Ufficiale di Governo sovrintende ai registri di stato civile, anagrafe, elettorale e pubblica sicurezza.",
+    "level": "base"
+  },
+  {
+    "id": "Q_ENTI_LOC_068",
+    "question": "Le ordinanze contingibili e urgenti adottate dal Sindaco ai sensi dell'art. 54 del TUEL:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hanno valore di legge costituzionale permanente"
+      },
+      {
+        "id": "B",
+        "text": "Possono derogare temporaneamente a norme primarie nei limiti della Costituzione per prevenire ed eliminare gravi pericoli per l'incolumità pubblica e la sicurezza urbana"
+      },
+      {
+        "id": "C",
+        "text": "Possono essere emesse solo in tempo di guerra dichiarata dal Parlamento"
+      },
+      {
+        "id": "D",
+        "text": "Non richiedono alcuna motivazione o preventiva comunicazione al Prefetto"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 54 TUEL conferisce al Sindaco il potere di ordinanza contingibile e urgente quale ufficiale del Governo per incolumità pubblica e sicurezza urbana, con obbligo di preventiva comunicazione al Prefetto.",
+    "hint": "Servono per fronteggiare emergenze impreviste a tutela dell'incolumità pubblica.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_ENTI_LOC_069",
+    "question": "Qual è il quorum necessario per la presentazione della mozione di sfiducia nei confronti del Sindaco (art. 52 TUEL)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Può essere presentata da un solo cittadino iscritto alle liste elettorali"
+      },
+      {
+        "id": "B",
+        "text": "Deve essere approvata all'unanimità di tutti i presenti compreso il Sindaco stesso"
+      },
+      {
+        "id": "C",
+        "text": "Deve essere sottoscritta da almeno due quinti dei consiglieri assegnati e approvata per appello nominale a maggioranza assoluta"
+      },
+      {
+        "id": "D",
+        "text": "È sufficiente il parere contrario del Segretario comunale"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'art. 52, comma 2, TUEL prescrive che la mozione di sfiducia deve essere sottoscritta da almeno due quinti dei consiglieri e votata a maggioranza assoluta per appello nominale; se approvata, comporta lo scioglimento del Consiglio e la decadenza del Sindaco.",
+    "hint": "Richiede la firma di almeno 2/5 dei consiglieri e il voto favorevole della maggioranza assoluta.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_ENTI_LOC_070",
+    "question": "Cosa consegue all'approvazione della mozione di sfiducia nei confronti del Sindaco?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il subentro automatico del Vicesindaco fino alla fine del mandato quinquennale"
+      },
+      {
+        "id": "B",
+        "text": "La sospensione dei pagamenti ai fornitori del Comune"
+      },
+      {
+        "id": "C",
+        "text": "La decadenza della sola Giunta rimanendo in carica il Sindaco"
+      },
+      {
+        "id": "D",
+        "text": "Lo scioglimento del Consiglio comunale e la cessazione dalla carica del Sindaco e della Giunta, con nomina di un Commissario prefettizio"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "In forza del principio 'simul stabunt vel simul cadent', la sfiducia al Sindaco determina lo scioglimento del Consiglio, la decadenza della Giunta e l'arrivo del Commissario straordinario ex art. 141 TUEL.",
+    "hint": "Cade l'intera amministrazione e subentra il Commissario prefettizio.",
+    "level": "base"
+  },
+  {
+    "id": "Q_ENTI_LOC_071",
+    "question": "Ai sensi dell'art. 141 del TUEL, in quale altro caso il Consiglio comunale viene sciolto con decreto del Presidente della Repubblica?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Per dimissioni contestuali della metà più uno dei consiglieri assegnati, cessazione del Sindaco o mancata approvazione del bilancio nei termini"
+      },
+      {
+        "id": "B",
+        "text": "Ogniqualvolta il disavanzo di amministrazione superi i mille euro"
+      },
+      {
+        "id": "C",
+        "text": "Se non si tengono sedute di Consiglio ogni settimana"
+      },
+      {
+        "id": "D",
+        "text": "Per decisione unilaterale del Presidente della Giunta Regionale"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 141 TUEL prevede lo scioglimento per gravi motivi di ordine pubblico, mancata approvazione del bilancio nei termini, dimissioni del Sindaco o dimissioni ultra dimidium dei consiglieri.",
+    "hint": "Mancata approvazione del bilancio o dimissioni della maggioranza dei consiglieri portano allo scioglimento.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_ENTI_LOC_072",
+    "question": "Che cosa disciplina l'art. 143 del TUEL in tema di scioglimento degli organi comunali?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Lo scioglimento per fusione volontaria tra Comuni limitrofi"
+      },
+      {
+        "id": "B",
+        "text": "Lo scioglimento per fenomeni di infiltrazione o condizionamento di tipo mafioso o similare"
+      },
+      {
+        "id": "C",
+        "text": "Lo scioglimento per scadenza naturale del mandato elettorale"
+      },
+      {
+        "id": "D",
+        "text": "La rimozione dei soli dirigenti assunti a tempo indeterminato"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 143 TUEL è la misura straordinaria di contrasto alle mafie: prevede lo scioglimento per infiltrazioni della criminalità organizzata con gestione affidata a una commissione straordinaria per 12-24 mesi.",
+    "hint": "È la norma antimafia per lo scioglimento dei Comuni infiltrati.",
+    "level": "base"
+  },
+  {
+    "id": "Q_ENTI_LOC_073",
+    "question": "Ai sensi dell'art. 78 del TUEL, qual è il dovere di astensione imposto agli amministratori locali?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Non possono mai votare alcuna delibera di bilancio"
+      },
+      {
+        "id": "B",
+        "text": "Devono astenersi dal presenziare a qualsiasi cerimonia pubblica"
+      },
+      {
+        "id": "C",
+        "text": "Devono astenersi dal prendere parte alla discussione e alla votazione di delibere riguardanti interessi propri o di loro parenti o affini sino al quarto grado"
+      },
+      {
+        "id": "D",
+        "text": "Devono dimettersi se possiedono beni immobili nel territorio comunale"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'art. 78, comma 2, impone l'obbligo di astensione su delibere riguardanti interessi propri o di parenti/affini entro il quarto grado, allontanandosi dalla sala durante la discussione.",
+    "hint": "Evita il conflitto di interessi per parentela o affinità fino al 4° grado.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_ENTI_LOC_074",
+    "question": "Chi convoca e presiede il Consiglio comunale nei Comuni con popolazione superiore a 15.000 abitanti (art. 39 TUEL)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il Vescovo della diocesi locale"
+      },
+      {
+        "id": "B",
+        "text": "Il Prefetto o un suo delegato"
+      },
+      {
+        "id": "C",
+        "text": "Il consigliere comunale più giovane di età"
+      },
+      {
+        "id": "D",
+        "text": "Il Presidente del Consiglio comunale, eletto tra i consiglieri nella prima seduta"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "Nei Comuni sopra i 15.000 abitanti è obbligatoria l'elezione del Presidente del Consiglio comunale a cui spetta la convocazione e la direzione dei lavori del Consiglio.",
+    "hint": "Nei Comuni con oltre 15.000 residenti è obbligatorio il Presidente del Consiglio.",
+    "level": "base"
+  },
+  {
+    "id": "Q_ENTI_LOC_075",
+    "question": "A norma dell'art. 32 del TUEL, cos'è l'Unione di Comuni?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'ente locale costituito da due o più Comuni per l'esercizio congiunto di funzioni o servizi di loro competenza"
+      },
+      {
+        "id": "B",
+        "text": "Un gemellaggio culturale tra città d'arte internazionali"
+      },
+      {
+        "id": "C",
+        "text": "Una società per azioni quotata su Borsa Italiana"
+      },
+      {
+        "id": "D",
+        "text": "L'aggregazione sindacale dei dipendenti comunali"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 32 TUEL definisce l'Unione di Comuni come ente locale autonomo dotato di potestà statutaria e regolamentare, finalizzato alla gestione associata di funzioni comunali.",
+    "hint": "È un ente locale autonomo formato da più Comuni contigui.",
+    "level": "base"
+  },
+  {
+    "id": "Q_ENTI_LOC_076",
+    "question": "Quale organo dell'ente locale adotta il regolamento sull'ordinamento generale degli uffici e dei servizi (art. 48, comma 3, TUEL)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il Consiglio comunale in via esclusiva"
+      },
+      {
+        "id": "B",
+        "text": "La Giunta comunale, in conformità ai criteri generali stabiliti dal Consiglio"
+      },
+      {
+        "id": "C",
+        "text": "Il Collegio dei Revisori dei Conti"
+      },
+      {
+        "id": "D",
+        "text": "Il Segretario Generale con proprio decreto"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Ai sensi dell'art. 48, comma 3, la Giunta adotta i regolamenti sull'ordinamento degli uffici e dei servizi, nel rispetto dei criteri generali stabiliti dal Consiglio ex art. 42 TUEL.",
+    "hint": "È una specifica eccezione alla competenza regolamentare generale del Consiglio: spetta alla Giunta.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_ENTI_LOC_077",
+    "question": "Cosa disciplina l'art. 30 del TUEL riguardo alle 'Convenzioni' tra enti locali?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La vendita forzata degli immobili comunali ai privati"
+      },
+      {
+        "id": "B",
+        "text": "La soppressione definitiva delle Province autonome"
+      },
+      {
+        "id": "C",
+        "text": "La possibilità di stipulare accordi per svolgere in modo coordinato funzioni e servizi determinati, definendo tempi, modi e rapporti finanziari"
+      },
+      {
+        "id": "D",
+        "text": "La disciplina delle ferie dei dipendenti pubblici"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'art. 30 TUEL consente agli enti locali di stipulare convenzioni tra loro per la gestione associata di specifici servizi o uffici (es. ufficio tecnico comune o segreteria convenzionata).",
+    "hint": "È lo strumento più agile per gestire servizi in comune senza creare un nuovo ente.",
+    "level": "base"
+  },
+  {
+    "id": "Q_ENTI_LOC_078",
+    "question": "Entro quale termine dall'inizio del mandato il Sindaco presenta le linee programmatiche relative alle azioni e ai progetti da realizzare (art. 46 TUEL)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Entro 24 ore dalla proclamazione degli eletti"
+      },
+      {
+        "id": "B",
+        "text": "Esclusivamente al termine del quinquennio prima delle nuove elezioni"
+      },
+      {
+        "id": "C",
+        "text": "Non è tenuto a presentare alcuna linea programmatica"
+      },
+      {
+        "id": "D",
+        "text": "Entro il termine fissato dallo statuto comunale, dinanzi al Consiglio comunale"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'art. 46, comma 3, TUEL stabilisce che il Sindaco o il Presidente della Provincia presenta al Consiglio le linee programmatiche entro il termine fissato dallo statuto.",
+    "hint": "Il termine è rimesso all'autonomia statutaria dell'ente.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_ENTI_LOC_079",
+    "question": "Qual è il compito del Difensore civico comunale dove ancora previsto dallo statuto (art. 11 TUEL)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Accogliere i reclami dei cittadini su abusi, disfunzioni, carenze e ritardi dell'amministrazione a garanzia del buon andamento"
+      },
+      {
+        "id": "B",
+        "text": "Difendere in giudizio penale il Sindaco a spese dell'ente"
+      },
+      {
+        "id": "C",
+        "text": "Emettere sentenze di condanna a carico dei dipendenti pubblici"
+      },
+      {
+        "id": "D",
+        "text": "Redigere i verbali della Polizia Municipale"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il Difensore civico svolge una funzione di garanzia non giurisdizionale, vigilando sulla tempestività e correttezza dei procedimenti amministrativi a tutela del cittadino.",
+    "hint": "È un garante civico a tutela dei diritti e del buon andamento per i cittadini.",
+    "level": "base"
+  },
+  {
+    "id": "Q_ENTI_LOC_080",
+    "question": "A norma dell'art. 43 del TUEL, quali prerogative spettano ai consiglieri comunali nell'esercizio del loro mandato?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'immunità penale per qualsiasi reato comune commesso fuori sede"
+      },
+      {
+        "id": "B",
+        "text": "Il diritto di ottenere dagli uffici tutte le notizie e informazioni utili e copie di atti senza oneri, con il segreto d'ufficio nei casi previsti"
+      },
+      {
+        "id": "C",
+        "text": "Il diritto di licenziare direttamente i dipendenti dell'ufficio tecnico"
+      },
+      {
+        "id": "D",
+        "text": "Il potere di firmare mandati di pagamento al posto del dirigente"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 43, comma 2, garantisce ai consiglieri il più ampio diritto di accesso a tutti gli atti e informazioni utili all'espletamento del mandato, con obbligo di rispettare il segreto d'ufficio.",
+    "hint": "Garantisce il diritto di accesso documentale e conoscitivo per l'espletamento del mandato.",
+    "level": "base"
+  },
+  {
+    "id": "Q_ENTI_LOC_081",
+    "question": "Cos'è il DUP (Documento Unico di Programmazione) disciplinato dall'art. 170 del TUEL?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il documento di trasporto delle merci acquistate dall'economato"
+      },
+      {
+        "id": "B",
+        "text": "La dichiarazione unica dei redditi del personale di ruolo"
+      },
+      {
+        "id": "C",
+        "text": "L'atto presupposto fondamentale della programmazione strategica e operativa dell'ente, approvato dal Consiglio entro il 15 novembre"
+      },
+      {
+        "id": "D",
+        "text": "Il certificato di agibilità delle scuole comunali"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'art. 170 TUEL individua nel DUP la guida strategica (SeS) e operativa (SeO) dell'ente: la Giunta lo presenta al Consiglio entro il 31 luglio e la nota di aggiornamento entro il 15 novembre.",
+    "hint": "È il documento cardine di programmazione strategica e operativa dell'ente locale.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_ENTI_LOC_082",
+    "question": "Il PEG (Piano Esecutivo di Gestione) è deliberato da quale organo e con quale finalità (art. 169 TUEL)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dal Consiglio comunale per fissare le aliquote dell'IMU"
+      },
+      {
+        "id": "B",
+        "text": "Dal Prefetto per controllare le spese militari"
+      },
+      {
+        "id": "C",
+        "text": "Dai Revisori dei conti per bloccare i pagamenti"
+      },
+      {
+        "id": "D",
+        "text": "Dalla Giunta comunale entro 20 giorni dall'approvazione del bilancio, per assegnare obiettivi e risorse ai responsabili dei servizi"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'art. 169 TUEL stabilisce che la Giunta delibera il PEG definendo gli obiettivi di gestione e affidando le dotazioni finanziarie, umane e strumentali ai dirigenti/responsabili.",
+    "hint": "La Giunta adotta il PEG per affidare risorse e obiettivi ai dirigenti.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_ENTI_LOC_083",
+    "question": "A norma dell'art. 234 del TUEL, da chi è composto l'organo di revisione economico-finanziaria nei Comuni con popolazione superiore a 15.000 abitanti?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Da un collegio di tre membri iscritti nel registro dei revisori legali, estratti a sorte a livello prefettizio"
+      },
+      {
+        "id": "B",
+        "text": "Da un unico ragioniere nominato fiduciariamente dal Sindaco"
+      },
+      {
+        "id": "C",
+        "text": "Da tutti i capigruppo consiliari di minoranza"
+      },
+      {
+        "id": "D",
+        "text": "Da un funzionario della Banca d'Italia in quiescenza"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 234 TUEL prescrive che nei Comuni sopra i 15.000 abitanti il collegio è composto da 3 membri estratti a sorte dall'albo dei revisori presso la Prefettura.",
+    "hint": "È un collegio di 3 membri estratti a sorte dalla Prefettura per garantire indipendenza.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_ENTI_LOC_084",
+    "question": "Quale parere obbligatorio rende il Collegio dei Revisori ai sensi dell'art. 239 del TUEL?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sulla toponomastica delle strade urbane"
+      },
+      {
+        "id": "B",
+        "text": "Sulla proposta di bilancio di previsione, sulle variazioni di bilancio e sul rendiconto della gestione"
+      },
+      {
+        "id": "C",
+        "text": "Sulle ordinanze di sgombero neve"
+      },
+      {
+        "id": "D",
+        "text": "Sull'orario di apertura della biblioteca"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 239 elenca le funzioni dell'organo di revisione: pareri obbligatori su bilancio, DUP, variazioni, salvaguardia equilibri, rendiconto e indebitamento.",
+    "hint": "Rende parere su bilancio di previsione, rendiconto e variazioni contabili.",
+    "level": "base"
+  },
+  {
+    "id": "Q_ENTI_LOC_085",
+    "question": "Cosa accade se un consigliere comunale non interviene alle sedute del Consiglio per un periodo stabilito dallo statuto (art. 43, comma 4, TUEL)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Viene multato con una sanzione di 50.000 euro dal Sindaco"
+      },
+      {
+        "id": "B",
+        "text": "Viene automaticamente promosso ad assessore anziano"
+      },
+      {
+        "id": "C",
+        "text": "Lo statuto dell'ente disciplina la decadenza dalla carica per la mancata partecipazione ingiustificata alle sedute"
+      },
+      {
+        "id": "D",
+        "text": "Non può essere adottato alcun provvedimento poiché la carica è intangibile"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'art. 43, comma 4, attribuisce allo statuto la definizione dei casi di decadenza del consigliere per continuata e non giustificata assenza alle sedute del Consiglio.",
+    "hint": "Lo statuto prevede e disciplina la procedura di decadenza per assenze continuative ingiustificate.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_ENTI_LOC_086",
+    "question": "Ai sensi dell'art. 193 del TUEL, entro quale data deve essere adottata la delibera di salvaguardia degli equilibri di bilancio?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Entro il 31 dicembre di ogni biennio"
+      },
+      {
+        "id": "B",
+        "text": "Entro il 15 agosto con atto del Sindaco"
+      },
+      {
+        "id": "C",
+        "text": "Non esiste alcun termine per il controllo degli equilibri"
+      },
+      {
+        "id": "D",
+        "text": "Entro il 31 luglio di ciascun anno con deliberazione del Consiglio comunale"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'art. 193, comma 2, TUEL impone al Consiglio di verificare e deliberare la salvaguardia degli equilibri di bilancio e il ripiano di eventuali debiti fuori bilancio entro il 31 luglio di ogni anno.",
+    "hint": "La data perentoria per la salvaguardia degli equilibri è il 31 luglio.",
+    "level": "base"
+  },
+  {
+    "id": "Q_ENTI_LOC_087",
+    "question": "In caso di accertamento di disavanzo di amministrazione o di debiti fuori bilancio, con quale delibera si provvede al relativo ripiano?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Con delibera del Consiglio comunale contestuale alla verifica degli equilibri o all'approvazione del rendiconto"
+      },
+      {
+        "id": "B",
+        "text": "Con determina di liquidazione del dirigente scolastico"
+      },
+      {
+        "id": "C",
+        "text": "Con atto unilaterale del tesoriere della banca"
+      },
+      {
+        "id": "D",
+        "text": "Con ordinanza del Comandante della stazione dei Carabinieri"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "Il ripiano del disavanzo e il riconoscimento dei debiti fuori bilancio ex art. 194 TUEL sono competenze inderogabili del Consiglio comunale.",
+    "hint": "La competenza esclusiva appartiene al Consiglio comunale.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_ENTI_LOC_088",
+    "question": "Quali tra i seguenti sono riconoscibili come debiti fuori bilancio ai sensi dell'art. 194 del TUEL?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Spese personali sostenute dal Sindaco per vacanze all'estero"
+      },
+      {
+        "id": "B",
+        "text": "Sentenze esecutive, transazioni, disavanzi di consorzi e acquisizione di beni e servizi nei limiti dell'utilità e dell'arricchimento dell'ente"
+      },
+      {
+        "id": "C",
+        "text": "Acquisto di regali per i dipendenti comunali in pensione"
+      },
+      {
+        "id": "D",
+        "text": "Spese per campagne elettorali dei candidati consiglieri"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 194 TUEL elenca le categorie tassative di debiti fuori bilancio riconoscibili: sentenze esecutive, copertura disavanzi, ricapitalizzazioni, procedure espropriative e acquisizione di beni/servizi nei limiti dell'arricchimento dell'ente.",
+    "hint": "Le fattispecie dell'art. 194 sono tipiche e tassative (es. sentenze esecutive e arricchimento dell'ente).",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_ENTI_LOC_089",
+    "question": "A norma dell'art. 63 del TUEL, non può ricoprire la carica di Sindaco o Consigliere comunale:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Chi ha conseguito una laurea magistrale con lode"
+      },
+      {
+        "id": "B",
+        "text": "Chi risiede a più di 100 metri dal palazzo civico"
+      },
+      {
+        "id": "C",
+        "text": "Colui che ha una lite pendente per fatto proprio nei confronti del Comune, ovvero è debitore moroso per tributi certi e liquidi"
+      },
+      {
+        "id": "D",
+        "text": "Chi non è proprietario di almeno tre immobili"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'art. 63 individua le cause di incompatibilità: lite pendente contro l'ente, debito liquido ed esigibile accertato con ingiunzione, o svolgimento di incarichi legali per conto terzi contro il Comune.",
+    "hint": "La lite pendente o l'essere debitore moroso verso l'ente integra causa di incompatibilità.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_ENTI_LOC_090",
+    "question": "Qual è la differenza fondamentale tra 'ineleggibilità' e 'incompatibilità' secondo il TUEL?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'ineleggibilità riguarda solo i residenti all'estero, l'incompatibilità i residenti in Italia"
+      },
+      {
+        "id": "B",
+        "text": "Sono termini identici e sinonimi senza alcuna distinzione giuridica"
+      },
+      {
+        "id": "C",
+        "text": "L'ineleggibilità si sana pagando una cauzione, l'incompatibilità no"
+      },
+      {
+        "id": "D",
+        "text": "L'ineleggibilità impedisce la valida elezione per ragioni di par condicio; l'incompatibilità impedisce il contemporaneo esercizio di due cariche o funzioni in conflitto"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'ineleggibilità mira ad evitare indebite influenze sul corpo elettorale (invalidità originaria dell'elezione); l'incompatibilità tutela l'imparzialità dell'esercizio della carica (può essere sanata mediante opzione).",
+    "hint": "L'ineleggibilità vizia l'elezione a monte, l'incompatibilità impone la scelta tra due cariche.",
+    "level": "base"
+  },
+  {
+    "id": "Q_ENTI_LOC_091",
+    "question": "Chi è l'organo competente per la contestazione delle cause di ineleggibilità e incompatibilità (art. 69 TUEL)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il Consiglio comunale su istanza di qualsiasi cittadino elettore o d'ufficio"
+      },
+      {
+        "id": "B",
+        "text": "Il Comitato Olimpico Nazionale Italiano"
+      },
+      {
+        "id": "C",
+        "text": "La Camera del Lavoro provinciale"
+      },
+      {
+        "id": "D",
+        "text": "Il giudice di pace in sede penale"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 69 TUEL disciplina la procedura: il Consiglio contesta la causa di ineleggibilità/incompatibilità assegnando 10 giorni all'interessato per formulare osservazioni o rimuovere la causa.",
+    "hint": "È il Consiglio stesso che contesta la causa e pronuncia l'eventuale decadenza.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_ENTI_LOC_092",
+    "question": "Ai sensi dell'art. 6 del TUEL, cosa costituisce lo Statuto comunale?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un semplice regolamento di polizia urbana emanato dal Questore"
+      },
+      {
+        "id": "B",
+        "text": "L'atto fondamentale dell'autonomia dell'ente locale che stabilisce le norme fondamentali dell'organizzazione e dell'ordinamento dell'ente"
+      },
+      {
+        "id": "C",
+        "text": "Il bilancio consuntivo delle spese elettorali"
+      },
+      {
+        "id": "D",
+        "text": "La convenzione per la fornitura di energia elettrica agli edifici comunali"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 6 TUEL stabilisce che il Comune e la Provincia adottano il proprio statuto, il quale specifica le attribuzioni degli organi, le forme di garanzia delle minoranze e la partecipazione popolare.",
+    "hint": "È la carta costituzionale fondamentale dell'autonomia locale.",
+    "level": "base"
+  },
+  {
+    "id": "Q_ENTI_LOC_093",
+    "question": "Quale maggioranza qualificata è richiesta per l'approvazione dello Statuto comunale (art. 6, comma 4, TUEL)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La maggioranza semplice dei presenti in una sola seduta"
+      },
+      {
+        "id": "B",
+        "text": "Il voto unanime di tutti i cittadini residenti mediante referendum obbligatorio"
+      },
+      {
+        "id": "C",
+        "text": "Il voto favorevole dei due terzi dei consiglieri assegnati; se non raggiunta, votazione successiva entro 30 giorni con maggioranza assoluta in due sedute consecutive"
+      },
+      {
+        "id": "D",
+        "text": "La sola firma del Sindaco e del Segretario Generale"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'art. 6, comma 4, prevede una procedura rinforzata: 2/3 dei consiglieri assegnati o, in alternativa, maggioranza assoluta ripetuta in due sedute da tenersi entro 30 giorni.",
+    "hint": "Procedura rinforzata: 2/3 dei consiglieri o doppio voto a maggioranza assoluta.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_ENTI_LOC_094",
+    "question": "A norma dell'art. 7 del TUEL, i regolamenti comunali:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Possono derogare liberamente alla Costituzione italiana e al codice penale"
+      },
+      {
+        "id": "B",
+        "text": "Sono approvati dal Governo centrale con decreto del Presidente della Repubblica"
+      },
+      {
+        "id": "C",
+        "text": "Hanno efficacia solo all'interno del palazzo municipale"
+      },
+      {
+        "id": "D",
+        "text": "Sono adottati dal Comune nel rispetto dei principi fissati dalla legge e dallo statuto, per l'esercizio delle proprie funzioni"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'art. 7 TUEL e l'art. 117, comma 6, Cost. attribuiscono a Comuni e Province potestà regolamentare per l'organizzazione e lo svolgimento delle funzioni loro attribuite, nel rispetto della legge e dello Statuto.",
+    "hint": "I regolamenti locali sono fonti secondarie subordinate alla legge e allo Statuto.",
+    "level": "base"
+  },
+  {
+    "id": "Q_ENTI_LOC_095",
+    "question": "Nei Comuni con popolazione sino a 15.000 abitanti, con quale sistema elettorale viene eletto il Sindaco (art. 71 TUEL)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sistema maggioritario a turno unico: è eletto il candidato che ottiene il maggior numero di voti, collegato a una sola lista"
+      },
+      {
+        "id": "B",
+        "text": "Sistema proporzionale puro con voto di preferenza obbligatorio a quattro candidati"
+      },
+      {
+        "id": "C",
+        "text": "Doppio turno di ballottaggio sempre e inderogabilmente"
+      },
+      {
+        "id": "D",
+        "text": "Nomina fiduciaria da parte del Prefetto della Repubblica"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "L'art. 71 TUEL disciplina l'elezione nei Comuni fino a 15.000 abitanti: turno unico, vince chi ha più voti (maggioranza relativa) e alla sua lista vanno i 2/3 dei seggi.",
+    "hint": "Turno unico a maggioranza relativa collegato a una lista civica.",
+    "level": "base"
+  },
+  {
+    "id": "Q_ENTI_LOC_096",
+    "question": "Nei Comuni con popolazione superiore a 15.000 abitanti, quando si procede al turno di ballottaggio per l'elezione del Sindaco (art. 72 TUEL)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Se tutti i candidati ottengono lo stesso numero esatto di preferenze"
+      },
+      {
+        "id": "B",
+        "text": "Qualora nessun candidato alla carica di Sindaco abbia ottenuto la maggioranza assoluta dei voti validi al primo turno"
+      },
+      {
+        "id": "C",
+        "text": "Se la partecipazione al voto dei residenti è inferiore all'80%"
+      },
+      {
+        "id": "D",
+        "text": "Il ballottaggio non è mai previsto dalla legislazione italiana"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "Nei Comuni sopra i 15.000 abitanti, se nessun candidato supera il 50% + 1 dei voti validi al primo turno, si tiene il ballottaggio tra i due candidati più votati la seconda domenica successiva.",
+    "hint": "Si va al ballottaggio se nessuno raggiunge il 50% + 1 al primo turno.",
+    "level": "base"
+  },
+  {
+    "id": "Q_ENTI_LOC_097",
+    "question": "Chi sostituisce il Sindaco in caso di assenza, impedimento temporaneo o sospensione dall'esercizio della funzione (art. 53 TUEL)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il consigliere comunale con il maggior reddito dichiarato"
+      },
+      {
+        "id": "B",
+        "text": "Il Segretario comunale automaticamente"
+      },
+      {
+        "id": "C",
+        "text": "Il Vicesindaco nominato dal Sindaco tra i componenti della Giunta"
+      },
+      {
+        "id": "D",
+        "text": "Il Capogruppo del partito di minoranza"
+      }
+    ],
+    "correctAnswerId": "C",
+    "explanation": "L'art. 53, comma 2, TUEL stabilisce che il Vicesindaco sostituisce il Sindaco in caso di assenza o impedimento temporaneo, nonché in caso di sospensione dall'esercizio della funzione.",
+    "hint": "È il Vicesindaco nominato dal Sindaco.",
+    "level": "base"
+  },
+  {
+    "id": "Q_ENTI_LOC_098",
+    "question": "Quale durata massima hanno gli incarichi a contratto per l'Area delle Posizioni Organizzative/EQ e dirigenziali conferiti ai sensi dell'art. 110 del TUEL?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hanno durata a vita a tempo indeterminato automatico"
+      },
+      {
+        "id": "B",
+        "text": "Massimo trenta giorni lavorativi non rinnovabili"
+      },
+      {
+        "id": "C",
+        "text": "Durano fino al compimento del settantesimo anno di età del dirigente"
+      },
+      {
+        "id": "D",
+        "text": "Non possono avere durata superiore al mandato elettivo del Sindaco in carica"
+      }
+    ],
+    "correctAnswerId": "D",
+    "explanation": "L'art. 110, comma 3, TUEL prevede che gli incarichi a contratto a tempo determinato a soggetti esterni o interni non possono avere durata superiore al mandato elettivo del Sindaco.",
+    "hint": "Sono collegati alla durata del mandato politico del Sindaco conferente.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_ENTI_LOC_099",
+    "question": "Cos'è la gestione associata delle funzioni comunali ai sensi dell'art. 14, comma 27, del D.L. 78/2010 conv. in L. 122/2010?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L'obbligo per i piccoli Comuni di esercitare le funzioni fondamentali in forma associata mediante unione di Comuni o convenzione"
+      },
+      {
+        "id": "B",
+        "text": "La gestione privata di tutti gli uffici anagrafe comunali"
+      },
+      {
+        "id": "C",
+        "text": "L'abolizione dei bilanci per i Comuni montani"
+      },
+      {
+        "id": "D",
+        "text": "La fusione forzata di tutte le Province italiane"
+      }
+    ],
+    "correctAnswerId": "A",
+    "explanation": "La normativa di spending review ha introdotto l'obbligo per i piccoli Comuni (fino a 5.000 abitanti, o 3.000 per Comuni montani) dell'esercizio associato delle funzioni fondamentali per economie di scala.",
+    "hint": "Promuove le economie di scala tra piccoli Comuni tramite unioni o convenzioni.",
+    "level": "intermedio"
+  },
+  {
+    "id": "Q_ENTI_LOC_100",
+    "question": "A norma dell'art. 86 del TUEL, a chi fa carico il versamento degli oneri previdenziali, assistenziali ed assicurativi per gli amministratori locali lavoratori dipendenti collocati in aspettativa non retribuita?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Al datore di lavoro privato originario senza alcun rimborso"
+      },
+      {
+        "id": "B",
+        "text": "All'amministrazione locale presso cui svolgono il mandato pubblico"
+      },
+      {
+        "id": "C",
+        "text": "All'amministratore stesso con detrazione dallo stipendio"
+      },
+      {
+        "id": "D",
+        "text": "All'Unione Europea tramite i fondi strutturali"
+      }
+    ],
+    "correctAnswerId": "B",
+    "explanation": "L'art. 86, comma 1, TUEL stabilisce che per gli amministratori locali posti in aspettativa l'amministrazione provvede al versamento dei contributi previdenziali ed assistenziali ai rispettivi istituti.",
+    "hint": "Gli oneri contributivi per l'aspettativa sono posti a carico del bilancio del Comune.",
+    "level": "intermedio"
   }
 ]
